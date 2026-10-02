@@ -34,8 +34,7 @@ failure story — that is the bar, not the feature list.
 | **[gh0st](https://github.com/M4G3LL4N0/gh0st)** | Local-first encrypted AI client. Your prompts never leave the machine by default. |
 | **[OpenCode Watchdog](https://github.com/M4G3LL4N0/opencode-watchdog)** | Circuit breaker for runaway coding-agent sessions. Detects degeneration, aborts the affected session, leaves your files alone. |
 
-Supporting systems — workforce configuration, persistent-agent runtime, and the sites that
-document them — live in the [repository list](https://github.com/M4G3LL4N0?tab=repositories).
+Supporting engineering systems live in the [repository list](https://github.com/M4G3LL4N0?tab=repositories). Dedicated project-site repositories are intentionally kept private; the deployed sites remain public where useful.
 
 ---
 
@@ -100,7 +99,7 @@ estimated.
 
 | | |
 | --- | --- |
-| Public systems | **17** of 152 |
+| Public systems | **11** of 152 |
 | Tests across public repos | **2,194** |
 | Stars | 1 |
 | Forks | 0 |
@@ -126,10 +125,8 @@ estimated.
 | Project | What it is | Tests | Latest | Stars |
 | --- | --- | --- | --- | --- |
 | [agentos](https://github.com/M4G3LL4N0/agentos) | Provider-neutral AI agent execution and orchestration engine: objecti… | 710 | v0.5.0 | 0 |
-| [agentos-website](https://github.com/M4G3LL4N0/agentos-website) | Public site for AgentOS — the execution substrate, explained without… | — | — | 0 |
 | [gh0st](https://github.com/M4G3LL4N0/gh0st) | Local-first encrypted AI client for xAI/Grok with verifiable no-reten… | 27 | v1.0.0-rc.1 | 0 |
 | [grokbot-office](https://github.com/M4G3LL4N0/grokbot-office) | Agent workforce architecture: roles, policy, handoffs and resource go… | 149 | v0.1.0 | 0 |
-| [grokbot-office-website](https://github.com/M4G3LL4N0/grokbot-office-website) | Public reference site for the agent workforce architecture. | — | v0.1.0 | 0 |
 | [grokbot-society](https://github.com/M4G3LL4N0/grokbot-society) | Provider-neutral runtime for persistent synthetic people: roles, memo… | 157 | v0.1.0 | 0 |
 | [grokinstall](https://github.com/M4G3LL4N0/grokinstall) | Install the capability, not the complexity. A Go CLI that inspects a… | 486 | v0.1.1 | 0 |
 | [grokmax](https://github.com/M4G3LL4N0/grokmax) | Deterministic-first LLM routing: zero-cost executors first, five-laye… | 287 | v0.2.0-rc.2 | 1 |

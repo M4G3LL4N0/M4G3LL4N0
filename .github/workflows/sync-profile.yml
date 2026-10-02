@@ -79,6 +79,21 @@ jobs:
           fi
           python3 -c "import json;print('enriched', len(json.load(open('repos.json'))), 'repos')"
 
+      # Project-site repositories are deployment surfaces, not portfolio systems.
+      # Keep them out of public-system counts and generated profile tables even
+      # if one is temporarily public while visibility is being corrected.
+      - name: Exclude site-only repositories from public signal
+        run: |
+          python3 - <<'PY'
+          import json
+          path = "repos.json"
+          repos = json.load(open(path))
+          kept = [r for r in repos if not str(r.get("name", "")).lower().endswith("-website")]
+          excluded = sorted(r.get("name", "") for r in repos if r not in kept)
+          open(path, "w").write(json.dumps(kept))
+          print(f"excluded {len(excluded)} site-only repositories: {', '.join(excluded)}")
+          PY
+
       - name: Install Portfolio OS
         run: git clone --depth 1 https://github.com/M4G3LL4N0/noaerth-portfolio-os.git /tmp/pos
 
