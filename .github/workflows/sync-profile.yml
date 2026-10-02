@@ -35,30 +35,54 @@ jobs:
         with:
           python-version: "3.12"
 
+      # GITHUB_TOKEN is an installation token and cannot call /user/repos
+      # (HTTP 403). The owner-scoped listing returns the same set for this
+      # account, so it is used instead. If it ever fails, the job exits 0 and
+      # leaves the profile untouched rather than committing a broken block.
       - name: Enumerate repositories
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh api "user/repos?per_page=100&affiliation=owner&visibility=all" --paginate \
-            > repos-raw.json
-          echo "fetched $(python3 -c 'import json;print(len(json.load(open("repos-raw.json"))))') repos"
+          set -o pipefail
+          if ! gh api "repos/${{ github.repository_owner }}/repos?per_page=100&type=all" --paginate \
+               > repos-raw.json; then
+            echo "::warning::could not list repositories; leaving profile unchanged"
+            echo '{"skipped": true}' > inventory.json
+            exit 0
+          fi
+          python3 - <<'PY'
+          import json
+          repos = json.load(open("repos-raw.json"))
+          assert isinstance(repos, list) and repos, "expected a non-empty array"
+          open("repos-raw.json", "w").write(json.dumps(repos))
+          print(f"fetched {len(repos)} repos")
+          PY
 
+      # Each public repo is inspected once. Test counts are deliberately NOT
+      # fetched from the API: no GitHub endpoint reports "number of tests", so
+      # they are read from tests.json, which an operator fills in after running
+      # the suite for real.
       - name: Enrich with root files, CI, and releases
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        # Each public repo is inspected once. Test counts are deliberately NOT
-        # fetched from the API: they are recorded in the snapshot file by the
-        # operator after actually running the suite, because no GitHub endpoint
-        # reports "number of tests".
         run: |
-          python3 scripts/enrich_snapshot.py repos-raw.json > repos.json
-          echo "enriched $(python3 -c 'import json;print(len(json.load(open("repos.json"))))') repos"
+          set -o pipefail
+          if ! python3 scripts/enrich_snapshot.py repos-raw.json > repos.json; then
+            echo "::warning::could not enrich snapshot; leaving profile unchanged"
+            echo '{"skipped": true}' > inventory.json
+            exit 0
+          fi
+          python3 -c "import json;print('enriched', len(json.load(open('repos.json'))), 'repos')"
 
       - name: Install Portfolio OS
         run: git clone --depth 1 https://github.com/M4G3LL4N0/noaerth-portfolio-os.git /tmp/pos
 
       - name: Render the generated block
         run: |
+          if grep -q '"skipped"' inventory.json 2>/dev/null; then
+            echo "snapshot unavailable, nothing to render"
+            exit 0
+          fi
           PYTHONPATH=/tmp/pos python3 -m portfolio_os githubos scan repos.json --out inventory.json
           PYTHONPATH=/tmp/pos python3 -m portfolio_os githubos render inventory.json \
             --profile README.md \
