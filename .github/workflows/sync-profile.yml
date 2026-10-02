@@ -35,18 +35,23 @@ jobs:
         with:
           python-version: "3.12"
 
-      # GITHUB_TOKEN is an installation token and cannot call /user/repos
-      # (HTTP 403). The owner-scoped listing returns the same set for this
-      # account, so it is used instead. If it ever fails, the job exits 0 and
-      # leaves the profile untouched rather than committing a broken block.
+      # GITHUB_TOKEN is an installation token scoped to this one repository.
+      # It cannot enumerate the owner's repositories (403), so it can only ever
+      # see this repo. A classic PAT with `repo` scope is required to build the
+      # full inventory.
+      #
+      # Store one as the GH_PAT secret on this repository:
+      #   Settings -> Secrets and variables -> Actions -> New repository secret
+      # Without it the job still succeeds and leaves the profile untouched,
+      # which is why a missing secret shows up as a warning rather than a red X.
       - name: Enumerate repositories
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
         run: |
           set -o pipefail
           if ! gh api "repos/${{ github.repository_owner }}/repos?per_page=100&type=all" --paginate \
                > repos-raw.json; then
-            echo "::warning::could not list repositories; leaving profile unchanged"
+            echo "::warning::could not list repositories. Add a GH_PAT secret with repo scope to enable the full inventory."
             echo '{"skipped": true}' > inventory.json
             exit 0
           fi
@@ -64,7 +69,7 @@ jobs:
       # the suite for real.
       - name: Enrich with root files, CI, and releases
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
         run: |
           set -o pipefail
           if ! python3 scripts/enrich_snapshot.py repos-raw.json > repos.json; then
