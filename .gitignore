@@ -1,0 +1,7 @@
+.cursor/
+.opencode/
+CLAUDE.md
+repos-raw.json
+repos.json
+inventory.json
+__pycache__/

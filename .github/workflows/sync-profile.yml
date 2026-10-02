@@ -1,0 +1,85 @@
+name: sync-profile
+
+# Regenerates the bounded GitHubOS block in README.md from the GitHub API.
+#
+# Two rules this workflow exists to enforce:
+#
+#   1. Only content between the githubos markers is ever rewritten. Anything a
+#      human wrote by hand is left alone.
+#   2. A commit is only made when the content actually changed. An unchanged
+#      profile produces no commit, which keeps the contribution graph honest
+#      instead of manufacturing green squares.
+
+on:
+  schedule:
+    # 07:14 UTC daily. Deliberately not on the hour, to avoid the top-of-hour
+    # scheduling spike every scheduled workflow lands on.
+    - cron: "14 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-profile
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    name: regenerate generated sections
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Enumerate repositories
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api "user/repos?per_page=100&affiliation=owner&visibility=all" --paginate \
+            > repos-raw.json
+          echo "fetched $(python3 -c 'import json;print(len(json.load(open("repos-raw.json"))))') repos"
+
+      - name: Enrich with root files, CI, and releases
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # Each public repo is inspected once. Test counts are deliberately NOT
+        # fetched from the API: they are recorded in the snapshot file by the
+        # operator after actually running the suite, because no GitHub endpoint
+        # reports "number of tests".
+        run: |
+          python3 scripts/enrich_snapshot.py repos-raw.json > repos.json
+          echo "enriched $(python3 -c 'import json;print(len(json.load(open("repos.json"))))') repos"
+
+      - name: Install Portfolio OS
+        run: git clone --depth 1 https://github.com/M4G3LL4N0/noaerth-portfolio-os.git /tmp/pos
+
+      - name: Render the generated block
+        run: |
+          PYTHONPATH=/tmp/pos python3 -m portfolio_os githubos scan repos.json --out inventory.json
+          PYTHONPATH=/tmp/pos python3 -m portfolio_os githubos render inventory.json \
+            --profile README.md \
+            --pins "noaerth-portfolio-os,agentos,grokinstall,grokmax,gh0st,opencode-watchdog"
+
+      - name: Commit only if content changed
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "Generated sections unchanged. No commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "docs(profile): sync generated sections from the GitHub API"
+          git push
+
+      - name: Upload the inventory as an artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: githubos-inventory
+          path: inventory.json
+          retention-days: 30

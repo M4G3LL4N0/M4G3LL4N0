@@ -1,0 +1,20 @@
+{
+  "_comment": [
+    "Verified test counts. GitHub has no API for 'number of tests', so these",
+    "are recorded by an operator who actually ran the suite. Adding or changing",
+    "a number here is a claim; make it true first.",
+    "",
+    "format: repo name -> { count, command, verified_on }",
+    "A repository missing from this file renders an em dash on the profile.",
+    "That is the intended behaviour. Never substitute an estimate."
+  ],
+  "noaerth-portfolio-os": { "count": 162, "command": "python3 -m pytest -q", "verified_on": "2026-10-02" },
+  "agentos": { "count": 710, "command": "python3 -m pytest tests", "verified_on": "2026-10-02" },
+  "grokinstall": { "count": 486, "command": "go test ./...", "verified_on": "2026-10-02" },
+  "grokmax": { "count": 287, "command": "pnpm run test", "verified_on": "2026-10-02" },
+  "gh0st": { "count": 27, "command": "pnpm run verify", "verified_on": "2026-10-02" },
+  "opencode-watchdog": { "count": 70, "command": "pnpm run test", "verified_on": "2026-10-02" },
+  "grokbot-society": { "count": 157, "command": "pnpm run test", "verified_on": "2026-10-02" },
+  "grokbot-office": { "count": 149, "command": "pnpm run test", "verified_on": "2026-10-02" },
+  "seai-mind": { "count": 146, "command": "pnpm run verify", "verified_on": "2026-10-02" }
+}
