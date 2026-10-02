@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="M4G3LL4N0 — Noaerth. Build systems. Prove them. Compound what works.">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5EE7D0"/>
+      <stop offset="52%" stop-color="#7C8CFF"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5EE7D0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#C084FC" stop-opacity="0.05"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="40" patternUnits="userSpaceOnUse">
+      <path d="M60 0 L0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#7C8CFF" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#7C8CFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="400" fill="#06070A"/>
+  <rect width="1200" height="400" fill="url(#grid)"/>
+  <ellipse cx="980" cy="150" rx="320" ry="220" fill="url(#glow)"/>
+
+  <g stroke="#5EE7D0" stroke-opacity="0.28" stroke-width="1">
+    <line x1="880" y1="196" x2="962" y2="132"/>
+    <line x1="962" y1="132" x2="1046" y2="176"/>
+    <line x1="1046" y1="176" x2="1128" y2="118"/>
+    <line x1="880" y1="196" x2="1046" y2="176"/>
+  </g>
+  <g fill="#06070A" stroke="#7C8CFF" stroke-width="1.5">
+    <circle cx="880" cy="196" r="5"/>
+    <circle cx="962" cy="132" r="5"/>
+    <circle cx="1046" cy="176" r="6" fill="#5EE7D0" stroke="#5EE7D0"/>
+    <circle cx="1128" cy="118" r="5"/>
+  </g>
+
+  <rect x="64" y="96" width="2" height="128" fill="url(#accent)"/>
+
+  <text x="88" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="2.6" fill="#5EE7D0">NOAERTH SYSTEMS &#183; M4G3LL4N0</text>
+
+  <text x="88" y="182" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="-1.5" fill="#ECEEF1">M4G3LL4N0</text>
+
+  <line x1="500" y1="118" x2="500" y2="192" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
+  <text x="536" y="166" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="500" letter-spacing="7" fill="#9AA1AB">NOAERTH</text>
+
+  <text x="88" y="232" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#B9BEC6">Build systems. Prove them. Compound what works.</text>
+
+  <line x1="88" y1="278" x2="1112" y2="278" stroke="url(#fade)" stroke-width="1"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.6" fill="#6B7178">
+    <text x="88" y="308">AUTONOMOUS SYSTEMS</text>
+    <text x="330" y="308">DEV INFRASTRUCTURE</text>
+    <text x="560" y="308">RESEARCH TOOLING</text>
+    <text x="784" y="308">OPEN SOURCE</text>
+  </g>
+
+  <text x="88" y="344" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.2" fill="#4A5058">github.com/M4G3LL4N0 &#183; noaerth.com</text>
+</svg>
