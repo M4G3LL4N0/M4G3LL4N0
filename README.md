@@ -99,8 +99,8 @@ estimated.
 
 | | |
 | --- | --- |
-| Public systems | **11** of 152 |
-| Tests across public repos | **2,194** |
+| Public systems | **9** |
+| Tests across public systems | **2,194** |
 | Stars | 1 |
 | Forks | 0 |
 
@@ -134,7 +134,7 @@ estimated.
 | [opencode-watchdog](https://github.com/M4G3LL4N0/opencode-watchdog) | Local circuit breaker for runaway OpenCode sessions. Deterministic de… | 70 | v0.1.0 | 0 |
 | [seai-mind](https://github.com/M4G3LL4N0/seai-mind) | Open-source self-evolving AI kernel with an auditable memory and capa… | 146 | v0.1.0-alpha | 0 |
 
-<sub>Snapshot generated 2026-10-02T17:50:03+00:00 from the GitHub API.</sub>
+<sub>Snapshot generated 2026-10-02T19:18:44+00:00 from the GitHub API.</sub>
 <!-- githubos:end -->
 
 ---
