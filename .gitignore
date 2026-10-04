@@ -5,3 +5,8 @@ repos-raw.json
 repos.json
 inventory.json
 __pycache__/
+
+# Local-only design review artifacts. The gallery and benchmark document the
+# candidate artwork; neither belongs in the public profile repository.
+PROFILE_ART_GALLERY.html
+PROFILE_VISUAL_BENCHMARK.md

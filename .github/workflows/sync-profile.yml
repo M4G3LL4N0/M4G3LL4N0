@@ -108,16 +108,30 @@ jobs:
             --profile README.md \
             --pins "noaerth-portfolio-os,agentos,grokinstall,grokmax,gh0st,opencode-watchdog"
 
+      # The identity is generated, not hand-drawn. Every number in the artwork
+      # is read from the inventory and tests.json; no SVG contains a literal
+      # metric, so the graphics cannot drift from the repositories they describe.
+      - name: Regenerate profile art from the signal
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+        run: |
+          if grep -q '"skipped"' inventory.json 2>/dev/null; then
+            echo "snapshot unavailable, artwork left unchanged"
+            exit 0
+          fi
+          python3 scripts/profile_art/build_signal_data.py
+          python3 scripts/profile_art/generate.py
+
       - name: Commit only if content changed
         run: |
-          if git diff --quiet -- README.md; then
+          if git diff --quiet -- README.md assets/profile; then
             echo "Generated sections unchanged. No commit."
             exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "docs(profile): sync generated sections from the GitHub API"
+          git add README.md assets/profile
+          git commit -m "docs(profile): sync generated sections and artwork from the GitHub API"
           git push
 
       - name: Upload the inventory as an artifact

@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-10-04T22:46:18+00:00",
+  "owner": "M4G3LL4N0",
+  "source": "enriched repos.json snapshot + tests.json (operator-recorded test counts)",
+  "excludes": "site-only (*-website) and identity surfaces are not engineering systems",
+  "metrics": [
+    {
+      "key": "public_systems",
+      "label": "SYSTEMS",
+      "value": 9,
+      "display": "9"
+    },
+    {
+      "key": "verified_tests",
+      "label": "TESTS",
+      "value": 2235,
+      "display": "2,235"
+    },
+    {
+      "key": "ci_backed",
+      "label": "CI",
+      "value": 6,
+      "display": "6"
+    },
+    {
+      "key": "public_releases",
+      "label": "RELEASES",
+      "value": 10,
+      "display": "10"
+    },
+    {
+      "key": "open_issues_resolved",
+      "label": "MERGED PRs",
+      "value": 9,
+      "display": "9"
+    }
+  ],
+  "per_system": {
+    "agentos": {
+      "tests": 710,
+      "releases": 1,
+      "latest_release": "v0.5.0",
+      "license": "MIT"
+    },
+    "gh0st": {
+      "tests": 27,
+      "releases": 1,
+      "latest_release": "v1.0.0-rc.1",
+      "license": "MIT"
+    },
+    "grokbot-office": {
+      "tests": 149,
+      "releases": 1,
+      "latest_release": "v0.1.0",
+      "license": "MIT"
+    },
+    "grokbot-society": {
+      "tests": 157,
+      "releases": 1,
+      "latest_release": "v0.1.0",
+      "license": "NOASSERTION"
+    },
+    "grokinstall": {
+      "tests": 486,
+      "releases": 1,
+      "latest_release": "v0.1.1",
+      "license": "MIT"
+    },
+    "grokmax": {
+      "tests": 287,
+      "releases": 1,
+      "latest_release": "v0.2.0-rc.2",
+      "license": "MIT"
+    },
+    "noaerth-portfolio-os": {
+      "tests": 203,
+      "releases": 1,
+      "latest_release": "v0.1.0",
+      "license": "MIT"
+    },
+    "opencode-watchdog": {
+      "tests": 70,
+      "releases": 1,
+      "latest_release": "v0.1.0",
+      "license": "MIT"
+    },
+    "seai-mind": {
+      "tests": 146,
+      "releases": 1,
+      "latest_release": "v0.1.0-alpha",
+      "license": "MIT"
+    }
+  }
+}

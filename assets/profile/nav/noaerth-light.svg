@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 64" width="260" height="64" role="img" aria-labelledby="t d"><title id="t">NOAERTH — NOAERTH</title><desc id="d">Navigation control linking to NOAERTH: studio · systems lab.</desc>
+  <defs>
+    <linearGradient id="nav-noaerth-light-sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#12A594" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#12A594" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#4A5BE8" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#8B44D6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="nav-noaerth-light-body" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0%" stop-color="#E9EFF7" stop-opacity="0.085"/>
+      <stop offset="55%" stop-color="#F3F6FA" stop-opacity="0.055"/>
+      <stop offset="100%" stop-color="#F3F6FA" stop-opacity="0.033"/>
+    </linearGradient>
+    <linearGradient id="nav-noaerth-light-edge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.34"/>
+      <stop offset="42%" stop-color="#D6DEE8" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#D6DEE8" stop-opacity="0.24"/>
+    </linearGradient>
+    <linearGradient id="nav-noaerth-light-prism" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#12A594"/>
+      <stop offset="52%" stop-color="#4A5BE8"/>
+      <stop offset="100%" stop-color="#8B44D6"/>
+    </linearGradient>
+    <radialGradient id="nav-noaerth-light-bloom" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#4A5BE8" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#4A5BE8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>  <rect x="0" y="0" width="260" height="64" rx="16" fill="#FFFFFF"/><rect x="0.75" y="0.75" width="258.5" height="62.5" rx="16" fill="url(#nav-noaerth-light-body)" stroke="url(#nav-noaerth-light-edge)" stroke-width="1" opacity="1"/><path d="M16.75 0.75 H243.25" stroke="#FFFFFF" stroke-opacity="0.20" stroke-width="1" stroke-linecap="round"/>  <rect x="0.75" y="18" width="2" height="28" rx="1" fill="url(#nav-noaerth-light-prism)"/><text x="26" y="30" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#0D1117" opacity="0.95" text-anchor="start" letter-spacing="2.6">NOAERTH</text><text x="26" y="48" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10" font-weight="500" fill="#0D1117" opacity="0.5" text-anchor="start" letter-spacing="1.2">studio · systems lab</text>  <text x="234" y="38" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#8C959F" text-anchor="end">&#8594;</text></svg>

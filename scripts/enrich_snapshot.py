@@ -6,6 +6,8 @@ with four extra keys per public repository:
 
     root_files    names of the files at the repository root
     has_ci        whether .github/workflows contains any YAML workflow
+    ci_conclusion the conclusion of the most recent workflow run on the default
+                  branch ("success", "failure", ...), or "" if none has run
     release_count number of GitHub releases
     latest_release tag name of the most recently published release
 
@@ -63,7 +65,7 @@ def enrich(repo: dict[str, Any], recorded_tests: dict[str, int]) -> dict[str, An
     repo["test_count"] = recorded_tests.get(name, 0)
     repo["license_spdx"] = str((repo.get("license") or {}).get("spdx_id") or "")
     if repo.get("visibility") != "public":
-        repo.update({"root_files": [], "has_ci": False,
+        repo.update({"root_files": [], "has_ci": False, "ci_conclusion": "",
                      "release_count": 0, "latest_release": ""})
         return repo
 
@@ -77,6 +79,15 @@ def enrich(repo: dict[str, Any], recorded_tests: dict[str, int]) -> dict[str, An
     )
     repo["release_count"] = len(releases)
     repo["latest_release"] = releases[0]["tag_name"] if releases else ""
+
+    # has_ci only proves a workflow file exists. It says nothing about whether
+    # the last run passed, so record the real conclusion separately rather than
+    # letting "has CI" stand in for "CI is green".
+    branch = repo.get("default_branch") or "main"
+    runs = _get(f"/repos/{repo['full_name']}/actions/runs"
+                f"?branch={branch}&per_page=1")
+    latest = runs.get("workflow_runs", []) if isinstance(runs, dict) else []
+    repo["ci_conclusion"] = str(latest[0].get("conclusion") or "") if latest else ""
     return repo
 
 

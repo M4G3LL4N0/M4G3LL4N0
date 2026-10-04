@@ -1,11 +1,16 @@
 <p align="center">
-  <img src="assets/hero.svg" alt="M4G3LL4N0 — Noaerth" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/profile/hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/profile/hero-light.svg">
+    <img src="assets/profile/hero-dark.svg" alt="DUNG30N5 — Noaerth Systems Lab. Build systems. Prove them. Compound what works." width="100%">
+  </picture>
 </p>
 
 <p align="center">
-  <a href="https://www.noaerth.com"><img alt="Noaerth" src="https://img.shields.io/badge/noaerth.com-0A0C10?style=flat&labelColor=0A0C10&color=5EE7D0&logo=github&logoColor=5EE7D0"></a>
-  <a href="https://github.com/M4G3LL4N0?tab=repositories&sort=stargazers"><img alt="Repositories" src="https://img.shields.io/github/repo-count/M4G3LL4N0?style=flat&labelColor=0A0C10&color=9AA1AB"></a>
-  <a href="https://github.com/why-are-you-here"><img alt="why are you here" src="https://img.shields.io/badge/why_are_you_here%3F-0A0C10?style=flat&labelColor=0A0C10&color=4A5058"></a>
+  <a href="https://www.noaerth.com"><img src="assets/profile/nav/noaerth-dark.svg" alt="Noaerth — studio and systems lab" height="64"></a>
+  <a href="https://github.com/M4G3LL4N0?tab=repositories"><img src="assets/profile/nav/repositories-dark.svg" alt="Repositories — full inventory" height="64"></a>
+  <a href="#open-source"><img src="assets/profile/nav/open-source-dark.svg" alt="Open source — build, run, contribute" height="64"></a>
+  <a href="https://github.com/M4G3LL4N0/why-are-you-here"><img src="assets/profile/nav/why-dark.svg" alt="Why are you here?" height="64"></a>
 </p>
 
 <h1 align="center">Build systems. Prove them. Compound what works.</h1>
@@ -100,7 +105,7 @@ estimated.
 | | |
 | --- | --- |
 | Public systems | **9** |
-| Tests across public systems | **2,232** |
+| Tests across public systems | **2,235** |
 | Public releases | **10** |
 
 
@@ -116,7 +121,7 @@ estimated.
 
 **Pinned systems**
 
-- [noaerth-portfolio-os](https://github.com/M4G3LL4N0/noaerth-portfolio-os) — Stdlib-only control plane for a portfolio of autonomous agents: SQLite work q… · 200 tests
+- [noaerth-portfolio-os](https://github.com/M4G3LL4N0/noaerth-portfolio-os) — Stdlib-only control plane for a portfolio of autonomous agents: SQLite work q… · 203 tests
 - [agentos](https://github.com/M4G3LL4N0/agentos) — Provider-neutral AI agent execution and orchestration engine: objective in, v… · 710 tests
 - [grokinstall](https://github.com/M4G3LL4N0/grokinstall) — Install the capability, not the complexity. A Go CLI that inspects a repo and… · 486 tests
 - [grokmax](https://github.com/M4G3LL4N0/grokmax) — Deterministic-first LLM routing: zero-cost executors first, five-layer cache,… · 287 tests
@@ -133,13 +138,13 @@ estimated.
 | [grokbot-society](https://github.com/M4G3LL4N0/grokbot-society) | Provider-neutral runtime for persistent synthetic people: r… | 157 | yes | v0.1.0 | — |
 | [grokinstall](https://github.com/M4G3LL4N0/grokinstall) | Install the capability, not the complexity. A Go CLI that i… | 486 | yes | v0.1.1 | MIT |
 | [grokmax](https://github.com/M4G3LL4N0/grokmax) | Deterministic-first LLM routing: zero-cost executors first,… | 287 | yes | v0.2.0-rc.2 | MIT |
-| [noaerth-portfolio-os](https://github.com/M4G3LL4N0/noaerth-portfolio-os) | Stdlib-only control plane for a portfolio of autonomous age… | 200 | yes | v0.1.0 | MIT |
+| [noaerth-portfolio-os](https://github.com/M4G3LL4N0/noaerth-portfolio-os) | Stdlib-only control plane for a portfolio of autonomous age… | 203 | yes | v0.1.0 | MIT |
 | [opencode-watchdog](https://github.com/M4G3LL4N0/opencode-watchdog) | Local circuit breaker for runaway OpenCode sessions. Determ… | 70 | yes | v0.1.0 | MIT |
 | [seai-mind](https://github.com/M4G3LL4N0/seai-mind) | Open-source self-evolving AI kernel with an auditable memor… | 146 | yes | v0.1.0-alpha | MIT |
 
 <sub>Tests are recorded by an operator after running the suite; CI and releases are read from the GitHub API. A dash means unmeasured, not zero.</sub>
 
-<sub>Snapshot generated 2026-10-04T19:01:32+00:00 from the GitHub API.</sub>
+<sub>Snapshot generated 2026-10-04T22:34:15+00:00 from the GitHub API.</sub>
 <!-- githubos:end -->
 
 ---
