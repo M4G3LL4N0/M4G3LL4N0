@@ -61,6 +61,7 @@ def _get(path: str) -> Any:
 def enrich(repo: dict[str, Any], recorded_tests: dict[str, int]) -> dict[str, Any]:
     name = repo["name"]
     repo["test_count"] = recorded_tests.get(name, 0)
+    repo["license_spdx"] = str((repo.get("license") or {}).get("spdx_id") or "")
     if repo.get("visibility") != "public":
         repo.update({"root_files": [], "has_ci": False,
                      "release_count": 0, "latest_release": ""})

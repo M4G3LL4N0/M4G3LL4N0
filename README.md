@@ -100,10 +100,11 @@ estimated.
 | | |
 | --- | --- |
 | Public systems | **9** |
-| Tests across public systems | **2,194** |
-| Stars | 1 |
-| Forks | 0 |
+| Tests across public systems | **2,232** |
+| Public releases | **10** |
 
+
+<sub>Stars and forks are deliberately not shown. They are not evidence at this scale; the test, CI, and release columns below are.</sub>
 
 **Latest releases**
 
@@ -115,27 +116,49 @@ estimated.
 
 **Pinned systems**
 
-- [noaerth-portfolio-os](https://github.com/M4G3LL4N0/noaerth-portfolio-os) — Stdlib-only control plane for a portfolio of autonomous agents: SQLite work q… · 162 tests
+- [noaerth-portfolio-os](https://github.com/M4G3LL4N0/noaerth-portfolio-os) — Stdlib-only control plane for a portfolio of autonomous agents: SQLite work q… · 200 tests
 - [agentos](https://github.com/M4G3LL4N0/agentos) — Provider-neutral AI agent execution and orchestration engine: objective in, v… · 710 tests
 - [grokinstall](https://github.com/M4G3LL4N0/grokinstall) — Install the capability, not the complexity. A Go CLI that inspects a repo and… · 486 tests
 - [grokmax](https://github.com/M4G3LL4N0/grokmax) — Deterministic-first LLM routing: zero-cost executors first, five-layer cache,… · 287 tests
 - [gh0st](https://github.com/M4G3LL4N0/gh0st) — Local-first encrypted AI client for xAI/Grok with verifiable no-retention gua… · 27 tests
 - [opencode-watchdog](https://github.com/M4G3LL4N0/opencode-watchdog) — Local circuit breaker for runaway OpenCode sessions. Deterministic detection,… · 70 tests
 
-| Project | What it is | Tests | Latest | Stars |
-| --- | --- | --- | --- | --- |
-| [agentos](https://github.com/M4G3LL4N0/agentos) | Provider-neutral AI agent execution and orchestration engine: objecti… | 710 | v0.5.0 | 0 |
-| [gh0st](https://github.com/M4G3LL4N0/gh0st) | Local-first encrypted AI client for xAI/Grok with verifiable no-reten… | 27 | v1.0.0-rc.1 | 0 |
-| [grokbot-office](https://github.com/M4G3LL4N0/grokbot-office) | Agent workforce architecture: roles, policy, handoffs and resource go… | 149 | v0.1.0 | 0 |
-| [grokbot-society](https://github.com/M4G3LL4N0/grokbot-society) | Provider-neutral runtime for persistent synthetic people: roles, memo… | 157 | v0.1.0 | 0 |
-| [grokinstall](https://github.com/M4G3LL4N0/grokinstall) | Install the capability, not the complexity. A Go CLI that inspects a… | 486 | v0.1.1 | 0 |
-| [grokmax](https://github.com/M4G3LL4N0/grokmax) | Deterministic-first LLM routing: zero-cost executors first, five-laye… | 287 | v0.2.0-rc.2 | 1 |
-| [noaerth-portfolio-os](https://github.com/M4G3LL4N0/noaerth-portfolio-os) | Stdlib-only control plane for a portfolio of autonomous agents: SQLit… | 162 | v0.1.0 | 0 |
-| [opencode-watchdog](https://github.com/M4G3LL4N0/opencode-watchdog) | Local circuit breaker for runaway OpenCode sessions. Deterministic de… | 70 | v0.1.0 | 0 |
-| [seai-mind](https://github.com/M4G3LL4N0/seai-mind) | Open-source self-evolving AI kernel with an auditable memory and capa… | 146 | v0.1.0-alpha | 0 |
+**Engineering proof**
 
-<sub>Snapshot generated 2026-10-02T19:18:44+00:00 from the GitHub API.</sub>
+| System | What it is | Tests | CI | Latest | License |
+| --- | --- | --- | --- | --- | --- |
+| [agentos](https://github.com/M4G3LL4N0/agentos) | Provider-neutral AI agent execution and orchestration engin… | 710 | yes | v0.5.0 | MIT |
+| [gh0st](https://github.com/M4G3LL4N0/gh0st) | Local-first encrypted AI client for xAI/Grok with verifiabl… | 27 | yes | v1.0.0-rc.1 | MIT |
+| [grokbot-office](https://github.com/M4G3LL4N0/grokbot-office) | Agent workforce architecture: roles, policy, handoffs and r… | 149 | yes | v0.1.0 | MIT |
+| [grokbot-society](https://github.com/M4G3LL4N0/grokbot-society) | Provider-neutral runtime for persistent synthetic people: r… | 157 | yes | v0.1.0 | — |
+| [grokinstall](https://github.com/M4G3LL4N0/grokinstall) | Install the capability, not the complexity. A Go CLI that i… | 486 | yes | v0.1.1 | MIT |
+| [grokmax](https://github.com/M4G3LL4N0/grokmax) | Deterministic-first LLM routing: zero-cost executors first,… | 287 | yes | v0.2.0-rc.2 | MIT |
+| [noaerth-portfolio-os](https://github.com/M4G3LL4N0/noaerth-portfolio-os) | Stdlib-only control plane for a portfolio of autonomous age… | 200 | yes | v0.1.0 | MIT |
+| [opencode-watchdog](https://github.com/M4G3LL4N0/opencode-watchdog) | Local circuit breaker for runaway OpenCode sessions. Determ… | 70 | yes | v0.1.0 | MIT |
+| [seai-mind](https://github.com/M4G3LL4N0/seai-mind) | Open-source self-evolving AI kernel with an auditable memor… | 146 | yes | v0.1.0-alpha | MIT |
+
+<sub>Tests are recorded by an operator after running the suite; CI and releases are read from the GitHub API. A dash means unmeasured, not zero.</sub>
+
+<sub>Snapshot generated 2026-10-04T19:01:32+00:00 from the GitHub API.</sub>
 <!-- githubos:end -->
+
+---
+
+## Upstream
+
+<!-- upstream:start -->
+<!-- upstream:end -->
+
+---
+
+## Selected labs
+
+<!-- labs:start -->
+Nothing published as an experiment yet. A lab earns this section by being
+public, honestly labelled `STATUS: EXPERIMENTAL`, and stating what was tested,
+what works, and what does not. An unfinished project is not a lab; it is a
+draft. See `AGENTS.md` in a repository for the standard.
+<!-- labs:end -->
 
 ---
 

@@ -8,7 +8,7 @@
     "A repository missing from this file renders an em dash on the profile.",
     "That is the intended behaviour. Never substitute an estimate."
   ],
-  "noaerth-portfolio-os": { "count": 162, "command": "python3 -m pytest -q", "verified_on": "2026-10-02" },
+  "noaerth-portfolio-os": { "count": 200, "command": "python3 -m pytest -q", "verified_on": "2026-10-03" },
   "agentos": { "count": 710, "command": "python3 -m pytest tests", "verified_on": "2026-10-02" },
   "grokinstall": { "count": 486, "command": "go test ./...", "verified_on": "2026-10-02" },
   "grokmax": { "count": 287, "command": "pnpm run test", "verified_on": "2026-10-02" },
