@@ -185,23 +185,21 @@ the ledger, test counts from a suite an operator actually ran.
 - [gh0st](https://github.com/M4G3LL4N0/gh0st) — Local-first encrypted AI client for xAI/Grok with verifiable no-retention gua… · 27 tests
 - [opencode-watchdog](https://github.com/M4G3LL4N0/opencode-watchdog) — Local circuit breaker for runaway OpenCode sessions. Deterministic detection,… · 70 tests
 
-**Engineering proof**
-
 | System | What it is | Tests | CI | Latest | License |
 | --- | --- | --- | --- | --- | --- |
-| [agentos](https://github.com/M4G3LL4N0/agentos) | Provider-neutral AI agent execution and orchestration engin… | 710 | yes | v0.5.0 | MIT |
-| [gh0st](https://github.com/M4G3LL4N0/gh0st) | Local-first encrypted AI client for xAI/Grok with verifiabl… | 27 | yes | v1.0.0-rc.1 | MIT |
-| [grokbot-office](https://github.com/M4G3LL4N0/grokbot-office) | Agent workforce architecture: roles, policy, handoffs and r… | 149 | yes | v0.1.0 | MIT |
-| [grokbot-society](https://github.com/M4G3LL4N0/grokbot-society) | Provider-neutral runtime for persistent synthetic people: r… | 157 | yes | v0.1.0 | — |
-| [grokinstall](https://github.com/M4G3LL4N0/grokinstall) | Install the capability, not the complexity. A Go CLI that i… | 486 | yes | v0.1.1 | MIT |
-| [grokmax](https://github.com/M4G3LL4N0/grokmax) | Deterministic-first LLM routing: zero-cost executors first,… | 287 | yes | v0.2.0-rc.2 | MIT |
-| [noaerth-portfolio-os](https://github.com/M4G3LL4N0/noaerth-portfolio-os) | Stdlib-only control plane for a portfolio of autonomous age… | 203 | yes | v0.1.0 | MIT |
-| [opencode-watchdog](https://github.com/M4G3LL4N0/opencode-watchdog) | Local circuit breaker for runaway OpenCode sessions. Determ… | 70 | yes | v0.1.0 | MIT |
-| [seai-mind](https://github.com/M4G3LL4N0/seai-mind) | Open-source self-evolving AI kernel with an auditable memor… | 146 | yes | v0.1.0-alpha | MIT |
+| [agentos](https://github.com/M4G3LL4N0/agentos) | Provider-neutral AI agent execution and orchestration engin… | 710 | green | v0.5.0 | MIT |
+| [gh0st](https://github.com/M4G3LL4N0/gh0st) | Local-first encrypted AI client for xAI/Grok with verifiabl… | 27 | failure | v1.0.0-rc.1 | MIT |
+| [grokbot-office](https://github.com/M4G3LL4N0/grokbot-office) | Agent workforce architecture: roles, policy, handoffs and r… | 149 | green | v0.1.0 | MIT |
+| [grokbot-society](https://github.com/M4G3LL4N0/grokbot-society) | Provider-neutral runtime for persistent synthetic people: r… | 157 | green | v0.1.0 | — |
+| [grokinstall](https://github.com/M4G3LL4N0/grokinstall) | Install the capability, not the complexity. A Go CLI that i… | 486 | failure | v0.1.1 | MIT |
+| [grokmax](https://github.com/M4G3LL4N0/grokmax) | Deterministic-first LLM routing: zero-cost executors first,… | 287 | green | v0.2.0-rc.2 | MIT |
+| [noaerth-portfolio-os](https://github.com/M4G3LL4N0/noaerth-portfolio-os) | Stdlib-only control plane for a portfolio of autonomous age… | 203 | green | v0.1.0 | MIT |
+| [opencode-watchdog](https://github.com/M4G3LL4N0/opencode-watchdog) | Local circuit breaker for runaway OpenCode sessions. Determ… | 70 | green | v0.1.0 | MIT |
+| [seai-mind](https://github.com/M4G3LL4N0/seai-mind) | Open-source self-evolving AI kernel with an auditable memor… | 146 | failure | v0.1.0-alpha | MIT |
 
 <sub>Tests are recorded by an operator after running the suite; CI and releases are read from the GitHub API. A dash means unmeasured, not zero.</sub>
 
-<sub>Snapshot generated 2026-10-04T22:34:15+00:00 from the GitHub API.</sub>
+<sub>Snapshot generated 2026-10-05T16:45:41+00:00 from the GitHub API.</sub>
 <!-- githubos:end -->
 
 </details>
