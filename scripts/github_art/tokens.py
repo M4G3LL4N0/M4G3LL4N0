@@ -193,7 +193,11 @@ STROKE = {
 # a given theme, so a material can be swapped without touching geometry.
 MATERIALS = ("optical_glass", "spectral_glass", "deep_glass",
              "obsidian_compute", "luminous_ceramic", "liquid_crystal",
-             "computational_material")
+             "computational_material",
+             # V5.1 additions
+             "resin", "polymer", "acrylic",
+             # V5.1 short aliases for the two most-used V5 materials
+             "obsidian", "ceramic")
 
 # How each material is allowed to behave. A security surface does not get the
 # luminous material; that would be decoration overriding meaning.
@@ -205,6 +209,12 @@ MATERIAL_ROLE = {
     "luminous_ceramic": ("surface", "human-facing output"),
     "liquid_crystal": ("research", "layered evidence, memory, recursion"),
     "computational_material": ("experimental", "generative, not yet settled"),
+    "resin": ("surface", "matte, human-facing, unpolished on purpose"),
+    "polymer": ("surface", "moulded, dense, forgiving"),
+    "acrylic": ("research", "frosted diffusion, evidence behind glass"),
+    # aliases: the V5.1 vocabulary, resolved to the existing implementations
+    "obsidian": ("guard", "alias of obsidian_compute"),
+    "ceramic": ("surface", "alias of luminous_ceramic"),
 }
 
 # --------------------------------------------------------------------------
@@ -271,3 +281,123 @@ def readable(theme_name: str, key: str) -> str:
         # mint_text is the only accent that needed a split.
         return palette[key]
     return palette.get(key, key)
+
+
+# ==========================================================================
+# V5.1 — HYPERREAL GEOMETRIC SYSTEM
+# ==========================================================================
+# Extension, not replacement. Everything above this line is the validated V5
+# base and remains authoritative. V5.1 adds formal enumerations so a generator
+# asks for a *kind* of thing rather than inventing one, plus a muted geometric
+# palette that never competes with the spectral signal colours.
+#
+# The guiding distinction, and the one most easily lost:
+#
+#   DENSITY   how much is on the surface
+#   INTENSITY how strongly it acts on the viewer
+#
+# A sparse hero can be highly intense. A dense data table can stay calm.
+# Collapsing the two produces either wallpaper or a corpse.
+
+DEPTH = ("flat", "raised", "faceted", "sculptural", "impossible")
+
+SHAPE = ("cube", "block", "prism", "diamond", "triangle", "wedge", "facet",
+         "arch", "circle", "ring", "petal", "rosette", "bar", "line", "dot",
+         "grid", "frame", "plane", "node", "tile")
+
+# D1 minimal -> D5 poster. D5 is for poster and demo artwork only; it is
+# explicitly wrong for README content, where it competes with the engineering.
+DENSITY = {
+    "D1_MINIMAL": (0.00, 0.12),
+    "D2_REFINED": (0.12, 0.28),
+    "D3_EXPRESSIVE": (0.28, 0.46),
+    "D4_SHOWCASE": (0.46, 0.66),
+    "D5_POSTER": (0.66, 1.00),
+}
+
+# Recommended density by surface, from the V5.1 standard.
+DENSITY_TARGET = {
+    "readme_body": "D1_MINIMAL",
+    "standard_section": "D2_REFINED",
+    "project_hero": "D2_REFINED",
+    "flagship_hero": "D3_EXPRESSIVE",
+    "profile_hero": "D4_SHOWCASE",
+    "architecture": "D3_EXPRESSIVE",
+    "social_card": "D3_EXPRESSIVE",
+    "legacy_artifact": "D3_EXPRESSIVE",
+}
+
+MATERIAL = ("resin", "ceramic", "optical_glass", "deep_glass", "spectral_glass",
+            "obsidian", "acrylic", "computational")
+
+# Named MOTION_KIND, not MOTION. The first version of this block reused the
+# name MOTION and silently shadowed the validated duration table above, which
+# broke every animated asset with a KeyError on "loop_seconds". Enum names and
+# timing values are different things and must not share an identifier.
+MOTION_KIND = {
+    "STATIC": "no motion",
+    "RESPONSIVE": "state changes, no transform",
+    "TRANSFORM": "geometry moves between states",
+    "MORPH": "one form becomes another",
+    "SPATIAL": "planes separate in depth",
+}
+
+MOTIF = ("faceted_bloom", "impossible_cube", "nested_frame", "split_ring",
+         "isometric_stack", "stepped_progression", "signal_route")
+
+# TRILLIONX_INTENSITY: separate from density, per the V5.1 standard.
+INTENSITY_TARGET = {
+    "profile_hero": (0.70, 0.82),
+    "profile_body": (0.25, 0.45),
+    "flagship_hero": (0.50, 0.65),
+    "project_readme": (0.25, 0.45),
+    "system_map": (0.55, 0.70),
+    "build_signal": (0.40, 0.55),
+    "lab": (0.45, 0.65),
+    "archive": (0.20, 0.35),
+}
+
+# --------------------------------------------------------------------------
+# muted geometric palette
+# --------------------------------------------------------------------------
+# Structural base -> muted architectural -> pastel field -> saturated signal ->
+# hyperreal accent. Rarity is the point: a hyperreal accent that appears
+# everywhere is not an accent.
+#
+# These are the Memphis-era additions. They are deliberately desaturated so they
+# sit UNDER the spectral DNA rather than competing with it, and none of them is
+# permitted as body text without passing through readable().
+MUTED = {
+    "coral": "#E8836B",
+    "salmon": "#F0A08C",
+    "peach": "#F5C4A3",
+    "amber": "#E0A33C",
+    "mustard": "#C9A227",
+    "teal": "#2F8F86",
+    "aqua": "#57B8B0",
+    "slate_blue": "#5C7396",
+    "periwinkle": "#8894D6",
+    "lavender": "#A79AD6",
+    "blush": "#E7B7BC",
+}
+
+HYPERREAL = {
+    "electric_cyan": "#22E4F5",
+    "spectral_violet": "#9B6BFF",
+    "luminous_amber": "#FFC24A",
+    "emerald": "#1FD98A",
+    "plasma_magenta": "#FF4FD8",
+    "ultramarine": "#3D5BFF",
+    "molten_gold": "#E8A33D",
+}
+
+# Memphis punctuation is capped as a fraction of visual surface. Above this it
+# stops being punctuation and becomes noise.
+MEMPHIS_SHARE = 0.08
+
+# The hard/soft tension is deliberate: crystalline geometry alone reads cold and
+# military. Soft geometry keeps it human. Neither is allowed to dominate.
+SOFT_SHAPES = ("arch", "petal", "rosette", "circle")
+
+# 70/30 calm/expressive for the profile hero.
+CALM_SHARE = 0.70

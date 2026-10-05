@@ -235,6 +235,46 @@ class TestPreservationBaseline(unittest.TestCase):
                          "upstream work must stay at zero until it is real")
 
 
+class TestTokenIntegrity(unittest.TestCase):
+    """Token names are API. A collision is a silent regression."""
+
+    def test_no_duplicate_token_assignment(self):
+        """A later block must not shadow an earlier constant of the same name.
+
+        The V5.1 block originally defined MOTION as an enum of motion kinds,
+        shadowing the validated MOTION duration table from V5. Every animated
+        asset then failed with KeyError("loop_seconds"). Source inspection is the
+        only thing that catches this: both assignments are individually valid
+        and the module imports cleanly either way.
+        """
+        source = (PROFILE / "scripts" / "github_art" / "tokens.py").read_text()
+        assigned = re.findall(r"^([A-Z][A-Z0-9_]*)\s*(?::[^=]+)?=", source, re.M)
+        seen: dict[str, int] = {}
+        for name in assigned:
+            seen[name] = seen.get(name, 0) + 1
+        # assertFalse, not assertEqual against an empty set: an empty dict and
+        # an empty set are equal in neither value nor type, so assertEqual
+        # would fail on the very case this test exists to pass.
+        shadowed = {k: v for k, v in seen.items() if v > 1}
+        self.assertFalse(shadowed,
+                         f"token name assigned more than once: {shadowed}")
+
+    def test_required_token_groups_exist(self):
+        sys.path.insert(0, str(PROFILE / "scripts"))
+        from github_art import tokens as T
+        for group in ("DEPTH", "SHAPE", "DENSITY", "DENSITY_TARGET", "MATERIAL",
+                      "MOTION", "MOTION_KIND", "MOTIF", "MUTED", "HYPERREAL",
+                      "INTENSITY_TARGET", "INTENSITY", "BUDGET"):
+            self.assertTrue(hasattr(T, group), f"tokens.{group} is missing")
+
+    def test_v5_motion_durations_survived_the_v51_extension(self):
+        sys.path.insert(0, str(PROFILE / "scripts"))
+        from github_art import tokens as T
+        for key in ("loop_seconds", "travel_seconds", "caret_seconds"):
+            self.assertIn(key, T.MOTION,
+                          "the V5.1 enum shadowed the validated motion timings")
+
+
 class TestDesignSystemIntegrity(unittest.TestCase):
     def test_no_stray_colours_in_generated_art(self):
         sys.path.insert(0, str(PROFILE / "scripts"))

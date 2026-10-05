@@ -13,11 +13,36 @@ from __future__ import annotations
 from . import tokens as T
 
 
+# --------------------------------------------------------------------------
+# V5.1 aliases
+# --------------------------------------------------------------------------
+# The V5.1 token vocabulary names materials slightly more tersely than this module
+# does. Aliasing here keeps one implementation and two vocabularies, rather than
+# two implementations that would drift.
+_ALIASES = {
+    "computational": "computational_material",
+    "ceramic": "luminous_ceramic",
+    "acrylic": "optical_glass",
+    "resin": "luminous_ceramic",
+}
+
+
+def canonical(material: str) -> str:
+    """Resolve a V5.1 material name to its implementation name."""
+    resolved = _ALIASES.get(material, material)
+    if resolved not in T.MATERIALS:
+        raise KeyError(
+            f"unknown material {material!r}; expected one of "
+            f"{sorted(set(T.MATERIALS) | set(_ALIASES))}")
+    return resolved
+
+
 def _uid(theme: str, material: str, suffix: str = "") -> str:
-    return f"m-{material}-{theme}{suffix}"
+    return f"m-{canonical(material)}-{theme}{suffix}"
 
 
 def definitions(theme_name: str, material: str) -> str:
+    material = canonical(material)
     """Return the <defs> content for a material in a theme.
 
     Every material gets: an interior gradient, a lit top edge, a shaded bottom
@@ -45,6 +70,11 @@ def definitions(theme_name: str, material: str) -> str:
         "luminous_ceramic": _ceramic_interior(t, uid),
         "liquid_crystal": _crystal_interior(t, uid),
         "computational_material": _computational_interior(t, uid),
+        "resin": _resin_interior(t, uid),
+        "polymer": _polymer_interior(t, uid),
+        "acrylic": _acrylic_interior(t, uid),
+        "obsidian": _obsidian_interior(t, uid),
+        "ceramic": _ceramic_interior(t, uid),
     }[material]
 
     spectral_ramp = (
@@ -170,6 +200,36 @@ def _computational_interior(t, uid):
     )
 
 
+def _resin_interior(t, uid):
+    """Matte resin: soft, wide internal falloff, no specular band."""
+    return (
+        f'<radialGradient id="{uid}-core" cx="0.42" cy="0.2" r="0.95">'
+        f'<stop offset="0%" stop-color="{t["edge_specular"]}" stop-opacity="0.12"/>'
+        f'<stop offset="100%" stop-color="{t["glass_lo"]}" stop-opacity="0"/>'
+        f'</radialGradient>'
+    )
+
+
+def _polymer_interior(t, uid):
+    """Molded polymer: dense and slightly warm, edges read as moulded fillets."""
+    return (
+        f'<linearGradient id="{uid}-core" x1="0.2" y1="0" x2="0.8" y2="1">'
+        f'<stop offset="0%" stop-color="{t["glass_hi"]}" stop-opacity="0.55"/>'
+        f'<stop offset="100%" stop-color="{t["glass"]}" stop-opacity="0.25"/>'
+        f'</linearGradient>'
+    )
+
+
+def _acrylic_interior(t, uid):
+    """Frosted acrylic: fine even diffusion, the soft partner to deep glass."""
+    return (
+        f'<linearGradient id="{uid}-core" x1="0" y1="0" x2="0" y2="1">'
+        f'<stop offset="0%" stop-color="{t["edge_specular"]}" stop-opacity="0.26"/>'
+        f'<stop offset="100%" stop-color="{t["edge_specular"]}" stop-opacity="0.04"/>'
+        f'</linearGradient>'
+    )
+
+
 # --------------------------------------------------------------------------
 # use
 # --------------------------------------------------------------------------
@@ -190,6 +250,7 @@ def prism_fill(theme_name: str, material: str) -> str:
 
 
 def role_for_material(material: str) -> str:
+    material = canonical(material)
     """The semantic layer a material is allowed to represent."""
     if material not in T.MATERIAL_ROLE:
         raise KeyError(f"unknown material {material!r}; expected one of {T.MATERIALS}")

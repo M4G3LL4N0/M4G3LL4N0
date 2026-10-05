@@ -6,6 +6,12 @@ with four extra keys per public repository:
 
     root_files    names of the files at the repository root
     has_ci        whether .github/workflows contains any YAML workflow
+    ci_conclusion conclusion of the most recent *test* workflow run
+    ci_workflow   which workflow that conclusion came from
+    ci_scanner_conclusion
+                  conclusion of the most recent scheduled/security scan, kept
+                  separate so a red CodeQL scan is never reported as a red
+                  test suite
     ci_conclusion the conclusion of the most recent workflow run on the default
                   branch ("success", "failure", ...), or "" if none has run
     release_count number of GitHub releases
@@ -83,11 +89,36 @@ def enrich(repo: dict[str, Any], recorded_tests: dict[str, int]) -> dict[str, An
     # has_ci only proves a workflow file exists. It says nothing about whether
     # the last run passed, so record the real conclusion separately rather than
     # letting "has CI" stand in for "CI is green".
+    #
+    # The workflow matters as much as the conclusion. Taking the most recent
+    # run of *any* workflow meant a failing CodeQL security scan was reported as
+    # "CI: failure" on a repository whose test suite may be entirely green. That
+    # is the same category of error as calling a red build green, just in the
+    # other direction, so the test workflow is selected explicitly and its name
+    # is recorded alongside the result.
     branch = repo.get("default_branch") or "main"
     runs = _get(f"/repos/{repo['full_name']}/actions/runs"
-                f"?branch={branch}&per_page=1")
+                f"?branch={branch}&per_page=30")
     latest = runs.get("workflow_runs", []) if isinstance(runs, dict) else []
-    repo["ci_conclusion"] = str(latest[0].get("conclusion") or "") if latest else ""
+
+    def _is_test_workflow(entry: dict) -> bool:
+        name = str(entry.get("name") or "").lower()
+        path = str(entry.get("path") or "").lower()
+        if entry.get("event") == "schedule":
+            return False
+        if any(marker in name or marker in path for marker in
+               ("codeql", "security", "dependabot", "stale", "scorecard",
+                "license", "pages", "codeowners")):
+            return False
+        return True
+
+    test_runs = [r for r in latest if _is_test_workflow(r)]
+    chosen = (test_runs or latest or [None])[0]
+    repo["ci_conclusion"] = str((chosen or {}).get("conclusion") or "")
+    repo["ci_workflow"] = str((chosen or {}).get("name") or "")
+    repo["ci_run_at"] = str((chosen or {}).get("created_at") or "")
+    repo["ci_scanner_conclusion"] = str(
+        next((r.get("conclusion") for r in latest if not _is_test_workflow(r)), "") or "")
     return repo
 
 

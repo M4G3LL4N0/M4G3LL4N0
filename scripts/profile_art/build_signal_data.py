@@ -194,6 +194,11 @@ def main() -> int:
             continue
         metrics.append({
             "key": key, "label": label,
+            # The note travels with the metric so a renderer never has to import
+            # the generator to learn what a number counts. That keeps the JSON
+            # self-describing and stops the artwork and the text layer from
+            # being able to disagree about what a figure means.
+            "note": note,
             "value": values[key],
             "display": f"{values[key]:,}",
         })
