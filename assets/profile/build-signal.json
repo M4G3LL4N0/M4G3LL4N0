@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T19:13:58+00:00",
+  "generated_at": "2026-10-05T22:11:58+00:00",
   "owner": "M4G3LL4N0",
   "source": "enriched repos.json snapshot + tests.json (operator-recorded test counts)",
   "excludes": "site-only (*-website) and identity surfaces are not engineering systems",
@@ -8,36 +8,36 @@
       "key": "public_systems",
       "label": "SYSTEMS",
       "note": "public engineering repositories",
-      "value": 9,
-      "display": "9"
+      "value": 8,
+      "display": "8"
     },
     {
       "key": "verified_tests",
       "label": "TESTS",
       "note": "tests run and recorded by an operator",
-      "value": 2235,
-      "display": "2,235"
+      "value": 2032,
+      "display": "2,032"
     },
     {
       "key": "ci_backed",
       "label": "CI",
       "note": "systems whose latest workflow run passed",
-      "value": 6,
-      "display": "6"
+      "value": 5,
+      "display": "5"
     },
     {
       "key": "public_releases",
       "label": "RELEASES",
       "note": "GitHub releases published",
-      "value": 10,
-      "display": "10"
+      "value": 9,
+      "display": "9"
     },
     {
       "key": "active_public",
       "label": "ACTIVE",
       "note": "public systems with a commit in the last 180 days",
-      "value": 9,
-      "display": "9"
+      "value": 8,
+      "display": "8"
     }
   ],
   "omitted_zero_metrics": [
@@ -86,12 +86,6 @@
       "tests": 287,
       "releases": 1,
       "latest_release": "v0.2.0-rc.2",
-      "license": "MIT"
-    },
-    "noaerth-portfolio-os": {
-      "tests": 203,
-      "releases": 1,
-      "latest_release": "v0.1.0",
       "license": "MIT"
     },
     "opencode-watchdog": {

@@ -23,7 +23,6 @@ OUT = PROFILE / "assets" / "profile"
 SIGNAL = OUT / "build-signal.json"
 
 FLAGS = {
-    "noaerth-portfolio-os": ("203 tests", "green"),
     "agentos": ("710 tests", "green"),
     "grokinstall": ("486 tests", "failure"),
     "grokmax": ("287 tests", "green"),

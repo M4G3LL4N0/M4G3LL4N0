@@ -10,24 +10,24 @@
     "appears here."
   ],
   "schema": "github-v5-public-inventory/1",
-  "generated_at": "2026-10-05T03:51:33+00:00",
+  "generated_at": "2026-10-05T22:11:07+00:00",
   "owner": "M4G3LL4N0",
   "counts": {
-    "public_visible": 11,
-    "engineering_systems": 9,
+    "public_visible": 10,
+    "engineering_systems": 8,
     "by_classification": {
-      "FLAGSHIP": 6,
+      "FLAGSHIP": 5,
       "PUBLIC_PROJECT": 3,
       "PROFILE": 1,
       "LEGACY_EASTER_EGG": 1
     },
-    "withheld_private": 124,
+    "withheld_private": 125,
     "withheld_site_only_private": 17
   },
   "measured_totals": {
-    "verified_tests": 2235,
-    "releases": 10,
-    "ci_green": 6,
+    "verified_tests": 2032,
+    "releases": 9,
+    "ci_green": 5,
     "ci_not_green": [
       "gh0st",
       "grokinstall",
@@ -257,45 +257,10 @@
       "latest_release": "",
       "ci": {
         "has_workflow": true,
-        "latest_conclusion": "success",
-        "green": true
+        "latest_conclusion": "failure",
+        "green": false
       },
-      "pushed_at": "2026-10-05T02:33:37Z"
-    },
-    {
-      "name": "noaerth-portfolio-os",
-      "full_name": "M4G3LL4N0/noaerth-portfolio-os",
-      "url": "https://github.com/M4G3LL4N0/noaerth-portfolio-os",
-      "classification": "FLAGSHIP",
-      "classification_reason": "reviewed allowlist: carries the portfolio's name",
-      "description": "Stdlib-only control plane for a portfolio of autonomous agents: SQLite work queue, reviewer separation, and an allowlist public boundary.",
-      "homepage": "https://www.noaerth.com",
-      "topics": [
-        "agentic-ai",
-        "ai-agents",
-        "automation",
-        "control-plane",
-        "developer-tools",
-        "infrastructure",
-        "local-first",
-        "multi-agent",
-        "open-source",
-        "python",
-        "sqlite",
-        "workflow-automation"
-      ],
-      "language": "Python",
-      "license": "MIT",
-      "archived": false,
-      "verified_tests": 203,
-      "release_count": 1,
-      "latest_release": "v0.1.0",
-      "ci": {
-        "has_workflow": true,
-        "latest_conclusion": "success",
-        "green": true
-      },
-      "pushed_at": "2026-10-02T19:21:00Z"
+      "pushed_at": "2026-10-05T21:16:48Z"
     },
     {
       "name": "opencode-watchdog",

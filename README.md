@@ -58,27 +58,19 @@
 
 | Metric | Value | What it counts |
 | --- | --- | --- |
-| Systems | **9** | public engineering repositories |
-| Tests | **2,235** | tests run and recorded by an operator |
-| CI | **6** | systems whose latest workflow run passed |
-| Releases | **10** | GitHub releases published |
-| Active | **9** | public systems with a commit in the last 180 days |
+| Systems | **8** | public engineering repositories |
+| Tests | **2,032** | tests run and recorded by an operator |
+| CI | **5** | systems whose latest workflow run passed |
+| Releases | **9** | GitHub releases published |
+| Active | **8** | public systems with a commit in the last 180 days |
 
-<sub>Measured 2026-10-05T19:13:58+00:00. Source: enriched repos.json snapshot + tests.json (operator-recorded test counts). Stars and forks are deliberately absent: at this scale they are not evidence.</sub>
+<sub>Measured 2026-10-05T22:11:58+00:00. Source: enriched repos.json snapshot + tests.json (operator-recorded test counts). Stars and forks are deliberately absent: at this scale they are not evidence.</sub>
 <!-- signal:end -->
 
 ---
 
 ## Flagships
 
-<p align="center">
-  <a href="https://github.com/M4G3LL4N0/noaerth-portfolio-os">
-    <picture>
-      <source media="(prefers-color-scheme: light)" srcset="assets/profile/windows/noaerth-portfolio-os-light.svg">
-      <img src="assets/profile/windows/noaerth-portfolio-os-dark.svg" alt="Portfolio OS — governance from the outside in: queue, locks, reviewer separation, allowlisted publishing. 203 tests, CI green." width="100%">
-    </picture>
-  </a>
-</p>
 <p align="center">
   <a href="https://github.com/M4G3LL4N0/agentos">
     <picture>
@@ -120,8 +112,10 @@
   </a>
 </p>
 
-Six systems carry the weight. Each has an architecture, a test suite, and a
-documented failure story. That is the bar, not the feature list.
+Five public systems carry the weight. Each has an architecture, a test suite,
+and a documented failure story. That is the bar, not the feature list.
+
+The control plane that runs this portfolio is deliberately not public.
 
 ---
 
@@ -144,8 +138,7 @@ before it costs anything. **Surfaces** are where the work becomes usable.
 
 A relationship is printed only where one repository's source or documentation
 names the other. Three exist. Most systems deliberately show no relationship at
-all, because none is documented — including Portfolio OS and AgentOS, whose
-relationship is explicitly *not* a dependency.
+all, because none is documented — and several systems whose relationships are explicitly *not* dependencies.
 
 <p align="center">
   <img src="assets/profile/constellation-dark.svg" alt="The Noaerth constellation: the same systems grouped semantically into govern, execute, economise, protect, and emergent. These are categories of work, not runtime dependencies." width="100%">
@@ -159,9 +152,9 @@ relationship is explicitly *not* a dependency.
 
 | | |
 | --- | --- |
-| Public systems | **9** |
-| Tests across public systems | **2,235** |
-| Public releases | **10** |
+| Public systems | **8** |
+| Tests across public systems | **2,032** |
+| Public releases | **9** |
 
 
 <sub>Stars and forks are deliberately not shown. They are not evidence at this scale; the test, CI, and release columns below are.</sub>
@@ -176,7 +169,6 @@ relationship is explicitly *not* a dependency.
 
 **Pinned systems**
 
-- [noaerth-portfolio-os](https://github.com/M4G3LL4N0/noaerth-portfolio-os) — Stdlib-only control plane for a portfolio of autonomous agents: SQLite work q… · 203 tests
 - [agentos](https://github.com/M4G3LL4N0/agentos) — Provider-neutral AI agent execution and orchestration engine: objective in, v… · 710 tests
 - [grokinstall](https://github.com/M4G3LL4N0/grokinstall) — Install the capability, not the complexity. A Go CLI that inspects a repo and… · 486 tests
 - [grokmax](https://github.com/M4G3LL4N0/grokmax) — Deterministic-first LLM routing: zero-cost executors first, five-layer cache,… · 287 tests
@@ -191,13 +183,12 @@ relationship is explicitly *not* a dependency.
 | [grokbot-society](https://github.com/M4G3LL4N0/grokbot-society) | Provider-neutral runtime for persistent synthetic people: r… | 157 | green | v0.1.0 | — |
 | [grokinstall](https://github.com/M4G3LL4N0/grokinstall) | Install the capability, not the complexity. A Go CLI that i… | 486 | failure | v0.1.1 | MIT |
 | [grokmax](https://github.com/M4G3LL4N0/grokmax) | Deterministic-first LLM routing: zero-cost executors first,… | 287 | green | v0.2.0-rc.2 | MIT |
-| [noaerth-portfolio-os](https://github.com/M4G3LL4N0/noaerth-portfolio-os) | Stdlib-only control plane for a portfolio of autonomous age… | 203 | green | v0.1.0 | MIT |
 | [opencode-watchdog](https://github.com/M4G3LL4N0/opencode-watchdog) | Local circuit breaker for runaway OpenCode sessions. Determ… | 70 | green | v0.1.0 | MIT |
 | [seai-mind](https://github.com/M4G3LL4N0/seai-mind) | Open-source self-evolving AI kernel with an auditable memor… | 146 | failure | v0.1.0-alpha | MIT |
 
 <sub>Tests are recorded by an operator after running the suite; CI and releases are read from the GitHub API. A dash means unmeasured, not zero.</sub>
 
-<sub>Snapshot generated 2026-10-05T16:45:41+00:00 from the GitHub API.</sub>
+<sub>Snapshot generated 2026-10-05T22:12:57+00:00 from the GitHub API.</sub>
 <!-- githubos:end -->
 
 </details>

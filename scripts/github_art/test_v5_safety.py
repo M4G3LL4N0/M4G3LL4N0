@@ -146,7 +146,8 @@ class TestNoPrivateLeak(unittest.TestCase):
 class TestEvidenceIntegrity(unittest.TestCase):
     def test_every_drawn_edge_is_evidenced(self):
         sys.path.insert(0, str(PROFILE / "scripts"))
-        from github_art.directions import v5_optical_recursive as V5
+        # the SHIPPED direction, not the superseded V5 prototype
+        from github_art.directions import v51_optical_faceted as V5
         data = json.loads(SYSTEM_MAP_EVIDENCE.read_text(encoding="utf-8"))
         declared = {f"{e['source']}->{e['target']}" for e in data["edges"]}
         LAYERS = V5.LAYERS

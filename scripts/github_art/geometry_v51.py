@@ -360,3 +360,32 @@ def quarter_arc(cx, cy, r, theme_name, stroke, width=1.2, opacity=0.7) -> str:
 # The brief's name for this form, kept as an explicit alias so the vocabulary
 # resolves without pretending the shape is botanical.
 faceted_bloom = faceted_aperture
+
+
+def prism_fan(cx, cy, r, theme_name, accent_key="indigo", blades: int = 7) -> str:
+    """A request refracting into priced routes.
+
+    This exists so routing and capability insertion stop sharing a primitive.
+    With Portfolio OS gone from the public set, GrokMax and GrokInstall were both
+    left drawing `branching`, which is exactly the "nine re-coloured cards"
+    failure the project identity grammar exists to prevent. Routing fans a
+    single request outward through a refracting surface; insertion pushes a
+    module inward. Those are different ideas and now look different.
+    """
+    t = T.PALETTES[theme_name]
+    accent = t[accent_key]
+    out = [f'<path d="M{cx - r:.2f} {cy:.2f} L{cx + r:.2f} {cy:.2f} '
+           f'L{cx + r * 0.62:.2f} {cy - r * 0.9:.2f} '
+           f'L{cx - r * 0.62:.2f} {cy - r * 0.9:.2f}Z" '
+           f'fill="{accent}" fill-opacity="0.18" stroke="{accent}" '
+           f'stroke-width="1" stroke-opacity="0.7" stroke-linejoin="round"/>']
+    for i in range(blades):
+        frac = (i + 1) / (blades + 1)
+        tx = cx + (frac - 0.5) * r * 2.1
+        ty = cy - r * 1.55 - (1 - abs(frac - 0.5) * 2) * r * 0.30
+        out.append(f'<line x1="{cx + r * 0.2:.2f}" y1="{cy - r * 0.3:.2f}" '
+                   f'x2="{tx:.2f}" y2="{ty:.2f}" stroke="{t["edge_link"]}" '
+                   f'stroke-width="1" stroke-opacity="{0.28 + (1 - abs(frac - 0.5) * 2) * 0.4:.2f}"/>')
+        out.append(f'<circle cx="{tx:.2f}" cy="{ty:.2f}" r="2.4" fill="{accent}" '
+                   f'opacity="{0.35 + (1 - abs(frac - 0.5) * 2) * 0.45:.2f}"/>')
+    return "".join(out)

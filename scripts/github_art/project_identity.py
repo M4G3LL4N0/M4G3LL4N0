@@ -19,16 +19,6 @@ from . import tokens as T
 #   accent    the one semantic colour it owns
 #   statement the single sentence the tile has to communicate
 IDENTITIES = {
-    "noaerth-portfolio-os": {
-        "label": "Portfolio OS",
-        "motif": "nested_frames",
-        "material": "optical_glass",
-        "accent": "violet",
-        "statement": "Governance from the outside in: queue, locks, reviewer separation, "
-                     "an allowlisted public boundary.",
-        "headline": "Governance, from the outside in",
-        "kind": "FLAGSHIP",
-    },
     "agentos": {
         "label": "AgentOS",
         "motif": "signal_path",
@@ -50,7 +40,7 @@ IDENTITIES = {
     },
     "grokmax": {
         "label": "GrokMax",
-        "motif": "branching",
+        "motif": "prism_fan",
         "material": "spectral_glass",
         "accent": "indigo",
         "statement": "Routing with priced paths: the cheapest sufficient executor wins, "
@@ -69,7 +59,7 @@ IDENTITIES = {
     },
     "opencode-watchdog": {
         "label": "OpenCode Watchdog",
-        "motif": "closed_topology",
+        "motif": "split_ring",
         "material": "obsidian_compute",
         "accent": "fail",
         "statement": "Circuit breaker for runaway sessions. Containment before cost.",
@@ -106,8 +96,11 @@ IDENTITIES = {
 }
 
 # The flagship set is an explicit list, never "whatever is public".
+# Portfolio OS was removed from the public set: its name is on the publication
+# denylist, so the repository is private. It keeps a place in the control plane
+# that generates this profile, but it is no longer a public system and must not
+# appear in artwork, pins, or the public inventory.
 FLAGSHIP_ORDER = (
-    "noaerth-portfolio-os",
     "agentos",
     "grokinstall",
     "grokmax",
@@ -174,6 +167,13 @@ def glyph(slug: str, theme_name: str, cx: float, cy: float, size: float = 30) ->
     if motif == "layered_evidence":
         return G.layered_evidence(cx - half, cy - half * 0.6, size, half * 1.1,
                                    theme_name, strata=4, accent=accent)
+    if motif == "prism_fan":
+        from . import geometry_v51 as G51
+        return G51.prism_fan(cx, cy, size * 0.42, theme_name, ident["accent"],
+                             blades=7)
+    if motif == "split_ring":
+        from . import geometry_v51 as G51
+        return G51.split_ring(cx, cy, size * 0.44, theme_name, ident["accent"])
     if motif == "generative_field":
         return G.generative_field(cx - half, cy - half * 0.7, size, half * 1.4,
                                   theme_name, seed_points=18, accent=accent)

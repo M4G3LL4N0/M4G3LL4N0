@@ -9,15 +9,15 @@
     "by accident."
   ],
   "schema": "github-v5-content-ledger/1",
-  "generated_at": "2026-10-05T03:15:58+00:00",
+  "generated_at": "2026-10-05T22:14:14+00:00",
   "owner": "M4G3LL4N0",
   "totals": {
-    "repositories": 11,
-    "commands": 68,
-    "first_party_links": 42,
-    "third_party_links": 15,
-    "claims": 77,
-    "caveats": 133
+    "repositories": 10,
+    "commands": 67,
+    "first_party_links": 38,
+    "third_party_links": 11,
+    "claims": 74,
+    "caveats": 110
   },
   "repositories": {
     "agentos": {
@@ -474,7 +474,7 @@
       "full_name": "M4G3LL4N0/M4G3LL4N0",
       "classification": "PROFILE",
       "readme_present": true,
-      "readme_bytes": 12017,
+      "readme_bytes": 12745,
       "commands": [],
       "links": {
         "first_party": [
@@ -495,37 +495,43 @@
         ]
       },
       "architectural_claims": [
-        "<img src=\"assets/profile/cards/noaerth-portfolio-os-dark.svg\" alt=\"Portfolio OS \u2014 SQLite work queue, reviewer separation, allowlisted publishing.\" width=\"100%\">",
-        "<img src=\"assets/profile/cards/opencode-watchdog-dark.svg\" alt=\"OpenCode Watchdog \u2014 circuit breaker for runaway sessions.",
-        "No model decides you are stuck.\" width=\"100%\">",
-        "Each of these has an architecture, a test suite, and a documented failure story.",
-        "the ledger, test counts from a suite an operator actually ran.",
+        "<img src=\"assets/profile/windows/noaerth-portfolio-os-dark.svg\" alt=\"Portfolio OS \u2014 governance from the outside in: queue, locks, reviewer separation, allowlisted publishing.",
+        "203 tests, CI green.\" width=\"100%\">",
+        "<img src=\"assets/profile/windows/grokmax-dark.svg\" alt=\"GrokMax \u2014 the cheapest sufficient path wins and the ledger says which.",
+        "287 tests, CI green.\" width=\"100%\">",
+        "<img src=\"assets/profile/windows/opencode-watchdog-dark.svg\" alt=\"OpenCode Watchdog \u2014 circuit breaker for runaway sessions, containment before cost.",
+        "70 tests, CI green.\" width=\"100%\">",
+        "Six systems carry the weight.",
+        "Each has an architecture, a test suite, and a",
+        "<img src=\"assets/profile/system-map-dark.svg\" alt=\"The published systems as five layers: control architecture, execution machine, economy and routing, guardrails, and surfaces.\" width=\"100%\">",
+        "Control architecture** decides what runs and who approved it.",
         "[grokmax](https://github.com/M4G3LL4N0/grokmax) \u2014 Deterministic-first LLM routing: zero-cost executors first, five-layer cache,\u2026 \u00b7 287 tests",
         "[opencode-watchdog](https://github.com/M4G3LL4N0/opencode-watchdog) \u2014 Local circuit breaker for runaway OpenCode sessions.",
         "Deterministic detection,\u2026 \u00b7 70 tests",
-        "| [grokbot-office](https://github.com/M4G3LL4N0/grokbot-office) | Agent workforce architecture: roles, policy, handoffs and r\u2026 | 149 | yes | v0.1.0 | MIT |",
-        "| [grokmax](https://github.com/M4G3LL4N0/grokmax) | Deterministic-first LLM routing: zero-cost executors first,\u2026 | 287 | yes | v0.2.0-rc.2 | MIT |",
+        "| [grokbot-office](https://github.com/M4G3LL4N0/grokbot-office) | Agent workforce architecture: roles, policy, handoffs and r\u2026 | 149 | green | v0.1.0 | MIT |",
+        "| [grokmax](https://github.com/M4G3LL4N0/grokmax) | Deterministic-first LLM routing: zero-cost executors first,\u2026 | 287 | green | v0.2.0-rc.2 | MIT |",
         "| [opencode-watchdog](https://github.com/M4G3LL4N0/opencode-watchdog) | Local circuit breaker for runaway OpenCode sessions.",
-        "Determ\u2026 | 70 | yes | v0.1.0 | MIT |"
+        "Determ\u2026 | 70 | green | v0.1.0 | MIT |"
       ],
       "caveats": [
         "<sub>Autonomous systems &#183; developer infrastructure &#183; research tooling &#183; experimental technology</sub>",
         "assets/profile/build-signal.json.",
-        "<sub>Measured 2026-10-04T23:33:30+00:00.",
+        "<sub>Measured 2026-10-05T19:13:58+00:00.",
         "Source: enriched repos.json snapshot + tests.json (operator-recorded test counts).",
         "Stars and forks are deliberately absent: at this scale they are not evidence.</sub>",
+        "documented failure story.",
         "That is the bar, not the feature list.",
-        "Everything else lives in the",
-        "documentation names the other.",
-        "Most systems deliberately have no",
-        "The rule that holds it together: **no component reports a number it did not",
+        "Most systems deliberately show no relationship at",
+        "relationship is explicitly *not* a dependency.",
+        "<img src=\"assets/profile/constellation-dark.svg\" alt=\"The Noaerth constellation: the same systems grouped semantically into govern, execute, economise, protect, and emergent.",
+        "These are categories of work, not runtime dependencies.\" width=\"100%\">",
         "<!-- Generated by Portfolio OS GitHubOS.",
         "<sub>Stars and forks are deliberately not shown.",
         "They are not evidence at this scale; the test, CI, and release columns below are.</sub>",
         "[grokinstall](https://github.com/M4G3LL4N0/grokinstall) \u2014 Install the capability, not the complexity.",
         "A Go CLI that inspects a repo and\u2026 \u00b7 486 tests",
         "| [grokinstall](https://github.com/M4G3LL4N0/grokinstall) | Install the capability, not the complexity.",
-        "A Go CLI that i\u2026 | 486 | yes | v0.1.1 | MIT |",
+        "A Go CLI that i\u2026 | 486 | failure | v0.1.1 | MIT |",
         "<sub>Tests are recorded by an operator after running the suite; CI and releases are read from the GitHub API.",
         "A dash means unmeasured, not zero.</sub>",
         "<!-- No upstream section is rendered: 0 pull requests have been merged into repositories this account does not own.",
@@ -550,92 +556,8 @@
         "verified_tests": null,
         "release_count": 0,
         "latest_release": "",
-        "ci_green": true,
-        "ci_latest_conclusion": "success",
-        "archived": false,
-        "homepage": "https://www.noaerth.com"
-      }
-    },
-    "noaerth-portfolio-os": {
-      "full_name": "M4G3LL4N0/noaerth-portfolio-os",
-      "classification": "FLAGSHIP",
-      "readme_present": true,
-      "readme_bytes": 8734,
-      "commands": [
-        "git clone https://github.com/M4G3LL4N0/noaerth-portfolio-os.git"
-      ],
-      "links": {
-        "first_party": [
-          "https://github.com/M4G3LL4N0/agentos",
-          "https://github.com/M4G3LL4N0/noaerth-portfolio-os.git",
-          "https://github.com/M4G3LL4N0/noaerth-portfolio-os/actions/workflows/ci.yml",
-          "https://www.noaerth.com"
-        ],
-        "third_party": [
-          "http://127.0.0.1:8787",
-          "https://docs.python.org/3/library/sqlite3.html",
-          "https://github.com/M4G3LL4N0",
-          "https://www.python.org/"
-        ]
-      },
-      "architectural_claims": [
-        "Portfolio OS is a **SQLite-backed work queue with reviewer separation and an",
-        "| **Queue** | `queue`, `startup <slug>` | Every agent run holds a lock.",
-        "Two agents cannot claim the same work item.",
-        "| **Release blocking** | `block-release`, `approve-release` | Deployment stays suppressed while a Vercel daily-cap blocker is on record.",
-        "Design and review work still runs.",
-        "Three invariants hold the design together:",
-        "architecture notes but are not read by this code.",
-        "If you need them, that is an"
-      ],
-      "caveats": [
-        "A control plane for a portfolio of autonomous agents \u2014 where the database, not the prompt, decides what happens next.",
-        "| **Queue** | `queue`, `startup <slug>` | Every agent run holds a lock.",
-        "Two agents cannot claim the same work item.",
-        "| **Review separation** | `review --role <R> --dimension <D>` | **The role that implements a change cannot close that change by reviewing it.** A failed review creates follow-up work.",
-        "| **Visual QA** | `run --startup <slug>` | A page returning HTTP 200 is not a pass.",
-        "VISUAL_QA_PENDING` stays until a reviewer records desktop *and* mobile passes.",
-        "| **Isolated work** | worktrees | Dirty product repos are never edited in place.",
-        "Work goes to `portfolio/<startup>/<work-item>`.",
-        "| **Public boundary** | `publish` | `public.json` is built from an **allowlist**.",
-        "PRIVATE_SYSTEM` events are excluded by construction, not by scrubbing afterwards.",
-        "incident, not a data loss.",
-        "by the schema, not by asking nicely.",
-        "Public is an allowlist, not a filter.** Anything not explicitly marked",
-        "The failure mode is *too private*, never *too public*.",
-        "Everything below was produced by running the code, not by describing it.",
-        "Deliberately **not** built:",
-        "It is a control plane, not a SaaS product.",
-        "| `PORTFOLIO_OS_API_TOKEN` | 16+ characters.",
-        "Overrides the local credential for a non-loopback host.",
-        "On loopback a random credential is generated and stored locally instead \u2014 it is never printed and is not valid off the machine.",
-        "They belong in the server environment.",
-        "To be explicit about what is **not** here: `PORTFOLIO_OS_PUBLIC_URL`,",
-        "architecture notes but are not read by this code.",
-        "If you need them, that is an"
-      ],
-      "facts": {
-        "description": "Stdlib-only control plane for a portfolio of autonomous agents: SQLite work queue, reviewer separation, and an allowlist public boundary.",
-        "license": "MIT",
-        "topics": [
-          "agentic-ai",
-          "ai-agents",
-          "automation",
-          "control-plane",
-          "developer-tools",
-          "infrastructure",
-          "local-first",
-          "multi-agent",
-          "open-source",
-          "python",
-          "sqlite",
-          "workflow-automation"
-        ],
-        "verified_tests": 203,
-        "release_count": 1,
-        "latest_release": "v0.1.0",
-        "ci_green": true,
-        "ci_latest_conclusion": "success",
+        "ci_green": false,
+        "ci_latest_conclusion": "failure",
         "archived": false,
         "homepage": "https://www.noaerth.com"
       }

@@ -187,6 +187,8 @@ def flagship_window(theme_name: str, slug: str, metric: str = "",
         "closed_topology": G.split_ring(60, 60, 56, theme_name, accent_key),
         "layered_evidence": G5.layered_evidence(4, 26, 112, 68, theme_name, 4,
                                                 accent=accent),
+        "prism_fan": G.prism_fan(60, 60, 44, theme_name, accent_key),
+        "split_ring": G.split_ring(60, 60, 54, theme_name, accent_key),
         "generative_field": G5.generative_field(4, 22, 112, 76, theme_name, 20,
                                                 accent=accent),
     }[ident["motif"]]
@@ -306,8 +308,7 @@ def build_signal(theme_name: str, signal: dict) -> str:
 # ==========================================================================
 LAYERS = [
     ("CONTROL ARCHITECTURE", "violet", "decides what runs, and who approved it",
-     [("noaerth-portfolio-os", "Portfolio OS", "queue · locks · reviewer separation"),
-      ("grokbot-office", "GrokBot Office", "workforce configuration")]),
+     [("grokbot-office", "GrokBot Office", "workforce configuration")]),
     ("EXECUTION MACHINE", "mint", "turns an objective into a verified outcome",
      [("agentos", "AgentOS", "capability discovery · adapter execution")]),
     ("ECONOMY / ROUTING", "indigo", "makes execution cheap and repeatable",
@@ -423,7 +424,7 @@ def system_map(theme_name: str, compact: bool = False) -> str:
 # CONSTELLATION — semantic grouping, explicitly not dependency
 # ==========================================================================
 CONSTELLATION = [
-    ("GOVERN", "violet", ["noaerth-portfolio-os", "grokbot-office"]),
+    ("GOVERN", "violet", ["grokbot-office"]),
     ("EXECUTE", "mint", ["agentos"]),
     ("ECONOMISE", "indigo", ["grokmax", "grokinstall"]),
     ("PROTECT", "fail", ["opencode-watchdog", "gh0st"]),

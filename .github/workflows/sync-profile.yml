@@ -94,8 +94,16 @@ jobs:
           print(f"excluded {len(excluded)} site-only repositories: {', '.join(excluded)}")
           PY
 
+      # Portfolio OS is PRIVATE: its name is on the publication denylist, so an
+      # unauthenticated `git clone` now returns 401 and the whole sync would
+      # fail. actions/checkout carries the job token, which is scoped to this
+      # repository and can read the private one.
       - name: Install Portfolio OS
-        run: git clone --depth 1 https://github.com/M4G3LL4N0/noaerth-portfolio-os.git /tmp/pos
+        uses: actions/checkout@v4
+        with:
+          repository: M4G3LL4N0/noaerth-portfolio-os
+          path: /tmp/pos
+          persist-credentials: false
 
       - name: Render the generated block
         run: |
@@ -106,7 +114,7 @@ jobs:
           PYTHONPATH=/tmp/pos python3 -m portfolio_os githubos scan repos.json --out inventory.json
           PYTHONPATH=/tmp/pos python3 -m portfolio_os githubos render inventory.json \
             --profile README.md \
-            --pins "noaerth-portfolio-os,agentos,grokinstall,grokmax,gh0st,opencode-watchdog"
+            --pins "agentos,grokinstall,grokmax,gh0st,opencode-watchdog"
 
       # The identity is generated, not hand-drawn. Every number in the artwork
       # is read from the inventory and tests.json; no SVG contains a literal
