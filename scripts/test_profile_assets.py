@@ -211,6 +211,65 @@ class TestSvgIntegrity(unittest.TestCase):
         self.assertEqual(missing, [], "every SVG needs <title> and <desc>")
 
 
+class TestContrast(unittest.TestCase):
+    """Text baked into an image is still text, and still has to be readable.
+
+    Measured rather than eyeballed. The canvas is read from each file's own
+    full-bleed rect instead of being inferred from the filename, because
+    `terminal-motion.svg` carries no theme in its name and a filename heuristic
+    silently scored it against the wrong background.
+    """
+
+    AA = 4.5
+
+    @staticmethod
+    def _channel(value: float) -> float:
+        value /= 255
+        return value / 12.92 if value <= 0.04045 else ((value + 0.055) / 1.055) ** 2.4
+
+    @classmethod
+    def _luminance(cls, hex_colour: str) -> float:
+        h = hex_colour.lstrip("#")
+        r, g, b = (int(h[i:i + 2], 16) for i in (0, 2, 4))
+        return (0.2126 * cls._channel(r) + 0.7152 * cls._channel(g)
+                + 0.0722 * cls._channel(b))
+
+    @classmethod
+    def _ratio(cls, a: str, b: str) -> float:
+        la, lb = cls._luminance(a), cls._luminance(b)
+        hi, lo = max(la, lb), min(la, lb)
+        return (hi + 0.05) / (lo + 0.05)
+
+    def test_text_meets_wcag_aa_on_its_own_canvas(self):
+        failures = []
+        checked = 0
+        for path in svgs():
+            raw = path.read_text(encoding="utf-8")
+            canvas = re.search(
+                r'<rect x="0(?:\.5)?" y="0(?:\.5)?"[^>]*fill="(#[0-9A-Fa-f]{6})"', raw)
+            if not canvas:
+                continue
+            background = canvas.group(1)
+            for fill in set(re.findall(r'<text[^>]*fill="(#[0-9A-Fa-f]{6})"', raw)):
+                checked += 1
+                ratio = self._ratio(fill, background)
+                if ratio < self.AA:
+                    failures.append(
+                        f"{path.name}: {fill} on {background} = {ratio:.2f}:1")
+        self.assertGreater(checked, 0, "no text colours were checked; the audit is broken")
+        self.assertEqual(failures, [], f"text below WCAG AA: {failures}")
+
+    def test_accent_used_as_text_has_a_compliant_token(self):
+        """The bright spectral mint is for 2px rules, never for prompt text."""
+        sys.path.insert(0, str(PROFILE / "scripts" / "profile_art"))
+        from tokens import DARK, LIGHT  # noqa: E402
+
+        self.assertNotEqual(LIGHT["mint"], LIGHT["mint_text"],
+                            "light mode needs a darker accent for text")
+        self.assertGreaterEqual(self._ratio(LIGHT["mint_text"], LIGHT["canvas"]), self.AA)
+        self.assertGreaterEqual(self._ratio(DARK["mint_text"], DARK["canvas"]), self.AA)
+
+
 class TestIdentity(unittest.TestCase):
     """DUNG30N5 is the identity. The handle is an address, not a headline."""
 

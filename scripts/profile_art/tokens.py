@@ -43,6 +43,10 @@ DARK = {
     "mint": SPECTRAL_MINT,
     "indigo": SPECTRAL_INDIGO,
     "violet": SPECTRAL_VIOLET,
+    # Accent used where the accent IS the content: the shell prompt, the caret.
+    # On the dark canvas the bright spectral mint already reads at 12.4:1, so it
+    # is reused; the token exists so light mode has a compliant value.
+    "mint_text": SPECTRAL_MINT,
 }
 
 LIGHT = {
@@ -60,6 +64,9 @@ LIGHT = {
     "grid": "#E6ECF3",
     "shadow": "#1F2933",
     "mint": "#12A594",
+    # #12A594 measures 3.07:1 on white: fine for a 2px accent rule, unreadable
+    # as 14px prompt text. #0F766E is the same hue held at 5.47:1 (WCAG AA).
+    "mint_text": "#0F766E",
     "indigo": "#4A5BE8",
     "violet": "#8B44D6",
 }

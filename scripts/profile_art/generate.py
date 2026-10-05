@@ -202,7 +202,7 @@ def nav_chip(slug: str, title: str, subtitle: str, theme_name: str) -> str:
         label(30, 70, subtitle, t, size=14, tracking=0.8, opacity=0.5),
         # arrow: chevron pair, monospace, no icon font
         f'  <text x="{W - 28}" y="54" font-family="{FONT_MONO}" font-size="20" '
-        f'fill="{t["text_faint"]}" text-anchor="end">&#8594;</text>',
+        f'fill="{t["text_secondary"]}" text-anchor="end">&#8594;</text>',
         svg_end(),
     ])
 
@@ -429,7 +429,7 @@ def terminal(theme_name: str, animate: bool = False) -> str:
     y = 78
     for cmd, out in (("whoami", "DUNG30N5"), ("why are you here?", "")):
         parts.append(f'  <text x="32" y="{y}" font-family="{FONT_MONO}" font-size="14" '
-                     f'fill="{t["mint"]}">&gt;</text>')
+                     f'fill="{t["mint_text"]}">&gt;</text>')
         parts.append(f'  <text x="54" y="{y}" font-family="{FONT_MONO}" font-size="14" '
                      f'fill="{t["text_primary"]}">{cmd}</text>')
         y += 26
@@ -442,12 +442,12 @@ def terminal(theme_name: str, animate: bool = False) -> str:
     # drawn or un-drawn. SMIL requires <animate> to be a CHILD of the element it
     # targets, so the caret is never emitted self-closing when it animates.
     parts.append(f'  <text x="32" y="{y}" font-family="{FONT_MONO}" font-size="14" '
-                 f'fill="{t["mint"]}">&gt;</text>')
+                 f'fill="{t["mint_text"]}">&gt;</text>')
     blink = (f'<animate attributeName="opacity" values="1;1;0;0;1" '
              f'keyTimes="0;0.4;0.5;0.9;1" dur="1.6s" '
              f'repeatCount="indefinite"/>') if animate else ""
     parts.append(f'  <text x="54" y="{y}" font-family="{FONT_MONO}" font-size="14" '
-                 f'fill="{t["mint"]}">{blink}█</text>')
+                 f'fill="{t["mint_text"]}">{blink}█</text>')
     parts.append(svg_end())
     return "".join(parts)
 

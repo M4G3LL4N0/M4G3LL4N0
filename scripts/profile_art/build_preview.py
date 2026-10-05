@@ -19,7 +19,8 @@ from pathlib import Path
 RENDERED = Path(sys.argv[1])
 OUT = Path(sys.argv[2])
 OWNER_REPO = "M4G3LL4N0/M4G3LL4N0"
-RAW = f"https://raw.githubusercontent.com/{OWNER_REPO}/main/"
+import os
+RAW = "https://raw.githubusercontent.com/%s/%s/" % (OWNER_REPO, os.environ.get("PROFILE_REF", "main"))
 
 DARK_BG, DARK_FG = "#0d1117", "#e6edf3"
 LIGHT_BG, LIGHT_FG = "#ffffff", "#1f2328"
