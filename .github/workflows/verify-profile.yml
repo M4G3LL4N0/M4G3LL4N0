@@ -37,18 +37,33 @@ jobs:
           python3 -m unittest discover -s scripts -p 'test_*.py' -v
           python3 scripts/github_art/test_v5_safety.py
 
-      # The V5 design system must be able to regenerate every chosen asset, and
-      # the result must be byte-identical to what is committed.
+      # The V5 design system must regenerate every chosen asset byte-identically.
+      # Comparing hashes against a committed manifest is the only check that
+      # works: build/ is gitignored, so a git-diff gate would silently pass even
+      # if the generator produced something entirely different.
       - name: V5 art is reproducible
         run: |
           set -euo pipefail
           python3 scripts/github_art/build_gallery.py > /dev/null
-          git status --porcelain -- build | grep -q . && {
-            echo "::error::regenerating the V5 gallery changed committed output."
-            git status --porcelain -- build
-            exit 1
+          python3 - <<'PY'
+          import hashlib, json, pathlib, sys
+          root = pathlib.Path(".")
+          expected = json.loads(
+              (root / "scripts/github_art/asset_manifest.json").read_text())
+          actual = {
+              str(p): hashlib.sha256(p.read_bytes()).hexdigest()
+              for p in sorted((root / "build" / "v5-chosen").rglob("*.svg"))
           }
-          echo "V5 gallery and chosen assets match the generator"
+          if expected == actual:
+              print(f"{len(actual)} assets reproduce byte-identically")
+              sys.exit(0)
+          for name in sorted(set(expected) | set(actual)):
+              if expected.get(name) != actual.get(name):
+                  state = ("added" if name not in expected else
+                           "removed" if name not in actual else "changed")
+                  print(f"::error::{name} {state}")
+          sys.exit(1)
+          PY
 
       # Regenerating must be a no-op. If the committed artwork differs from what
       # the generator produces, the repository is lying about its own contents.

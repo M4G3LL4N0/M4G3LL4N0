@@ -22,6 +22,7 @@ from github_art.directions import DIRECTIONS, CHOSEN  # noqa: E402
 
 PROFILE = Path(__file__).resolve().parents[2]
 OUT = PROFILE / "GITHUB_V5_ART_GALLERY.html"
+MANIFEST = PROFILE / "scripts" / "github_art" / "asset_manifest.json"
 BUILD = PROFILE / "build" / "v5-chosen"
 REJECTS = PROFILE / "build" / "v5-prototypes"
 
@@ -35,10 +36,16 @@ def emit(build_dir: Path, slug: str, theme: str, name: str, generator) -> None:
 
 
 def chosen_assets() -> dict:
-    """Render the chosen direction to build/v5-chosen."""
-    if BUILD.exists():
-        for path in BUILD.rglob("*.svg"):
-            path.unlink()
+    """Render the chosen direction to build/v5-chosen.
+
+    The directory is created here rather than assumed. It worked locally only
+    because a previous manual run had left it in place, and failed on a clean
+    CI checkout with FileNotFoundError - the class of bug that a developer's
+    working tree hides and a fresh clone does not.
+    """
+    BUILD.mkdir(parents=True, exist_ok=True)
+    for path in BUILD.rglob("*.svg"):
+        path.unlink()
     made = []
     for theme in ("dark", "light"):
         for name, fn in (("hero", lambda t: CHOSEN.hero(t)),
@@ -71,8 +78,21 @@ def figure(src: str, caption: str, width: str = "100%") -> str:
             f'<figcaption>{caption}</figcaption></figure>')
 
 
+def manifest() -> dict:
+    """Hash every generated asset so drift is detectable, not just visible."""
+    import hashlib
+    return {
+        str(p.relative_to(PROFILE)): hashlib.sha256(p.read_bytes()).hexdigest()
+        for p in sorted(BUILD.rglob("*.svg"))
+    }
+
+
 def main() -> int:
     stats = chosen_assets()
+    hashes = manifest()
+    if "--write-manifest" in sys.argv:
+        MANIFEST.write_text(json.dumps(hashes, indent=2) + "\n", encoding="utf-8")
+        print(f"wrote {MANIFEST.name} ({len(hashes)} assets)")
 
     sections = []
     sections.append(
