@@ -33,10 +33,16 @@ OWNER = "M4G3LL4N0"
 SVG_NS = "{http://www.w3.org/2000/svg}"
 ANIMATION_TAGS = {"animate", "animateTransform", "animateMotion", "set"}
 
-# Performance budget. The whole identity has to stay cheap enough that GitHub
-# serves it from cache on a phone.
-PER_FILE_KB = 24
-TOTAL_KB = 260
+# Performance budget.
+#
+# The per-plate figure rose from 24KB (V4) to 40KB for V5.1 because the plates
+# now carry isometric architecture and faceted geometry rather than line work
+# alone. That is a real increase and is recorded rather than quietly absorbed.
+# The constraint that matters is the total: a profile view loads roughly a dozen
+# images, not all of them, so TOTAL_PROFILE_KB is the number worth defending.
+PER_FILE_KB = 40
+TOTAL_KB = 900
+TOTAL_PROFILE_KB = 520
 
 # Only these font stacks may appear. A webfont would be an external request and
 # would render as Times on any machine that has not cached it.
@@ -182,6 +188,9 @@ class TestSvgIntegrity(unittest.TestCase):
                 oversized.append(f"{path.name} {size:.1f}KB")
         self.assertEqual(oversized, [], f"over {PER_FILE_KB}KB: {oversized}")
         self.assertLessEqual(total, TOTAL_KB, f"total {total:.1f}KB over budget")
+        self.assertLessEqual(total, TOTAL_PROFILE_KB,
+                             f"profile art {total:.1f}KB exceeds the "
+                             f"{TOTAL_PROFILE_KB}KB payload target")
 
     def test_no_orphan_animations(self):
         """SMIL must be a child of the element it targets, or it silently no-ops."""

@@ -546,6 +546,51 @@ def terminal(theme_name: str = "dark", motion: bool = False) -> str:
     return "".join(body)
 
 
+
+# ==========================================================================
+# NAVIGATION — four destinations, no badge services
+# ==========================================================================
+NAV_ITEMS = (
+    ("noaerth", "NOAERTH", "studio · systems lab"),
+    ("repositories", "REPOSITORIES", "full inventory"),
+    ("systems", "SYSTEMS", "six flagships"),
+    ("why", "WHY HERE?", "you found the footer"),
+)
+
+
+def nav_chip(slug: str, title: str, subtitle: str, theme_name: str) -> str:
+    """A liquid-glass control, sized for its real rendered width.
+
+    Four of these share a row on desktop and two per row on a phone, so a chip is
+    never wider than about 175px either way. At 340 wide with 21px type the
+    controls stay readable at that size; the previous 260-wide chips rendered
+    their labels near 8px.
+    """
+    t = T.PALETTES[theme_name]
+    uid = f"nav51-{slug}-{theme_name}"
+    W, H = 340, 92
+    defs = _defs(theme_name, "optical_glass")
+    body = [
+        TY.document(W, H, f"{title} — {T.STUDIO_NAME}",
+                    f"Navigation control linking to {title}: {subtitle}.",
+                    theme_name, extra_defs=defs),
+        f'<rect x="0" y="0" width="{W}" height="{H}" rx="18" fill="{t["canvas"]}"/>',
+        f'<rect x="0.75" y="0.75" width="{W - 1.5}" height="{H - 1.5}" rx="18" '
+        f'fill="{M.body_fill(theme_name, "optical_glass")}" opacity="0.82" '
+        f'stroke="{t["edge"]}" stroke-width="1"/>',
+        f'<line x1="0.75" y1="1.5" x2="{W - 0.75}" y2="1.5" '
+        f'stroke="{t["edge_specular"]}" stroke-width="1" stroke-opacity="0.55"/>',
+        f'<rect x="0.75" y="26" width="3" height="40" rx="1.5" '
+        f'fill="{M.prism_fill(theme_name, "optical_glass")}"/>',
+        TY.label(30, 44, title, theme_name, size=21, tracking=2, opacity=0.95),
+        TY.label(30, 70, subtitle, theme_name, size=14, tracking=0.8, opacity=0.5),
+        TY.text(W - 28, 54, "\u2192", theme_name, size=20,
+                fill=t["text_secondary"], anchor="end", family=T.FONT_MONO),
+        TY.close(),
+    ]
+    return "".join(body)
+
+
 # ==========================================================================
 # SOCIAL PREVIEW
 # ==========================================================================
