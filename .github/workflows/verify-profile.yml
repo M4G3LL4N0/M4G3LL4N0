@@ -1,0 +1,61 @@
+name: verify-profile
+
+# Runs the profile integrity suite on every push and pull request.
+#
+# This is separate from sync-profile.yml on purpose: sync-profile mutates the
+# repository and runs on a schedule, so it must never be the thing that decides
+# whether a change is safe. This workflow is read-only and fast.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-profile-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  integrity:
+    name: asset, link, contrast and evidence integrity
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # No third-party dependencies on purpose. A profile test suite that needs
+      # an install step is a suite that silently stops running.
+      - name: Verify profile integrity
+        run: python3 -m unittest discover -s scripts -p 'test_*.py' -v
+
+      # Regenerating must be a no-op. If the committed artwork differs from what
+      # the generator produces, the repository is lying about its own contents.
+      - name: Artwork is reproducible
+        run: |
+          set -euo pipefail
+          python3 scripts/profile_art/generate.py > /dev/null
+          if ! git diff --quiet -- assets/profile assets/social-preview.svg; then
+            echo "::error::regenerating changed the committed artwork. Run scripts/profile_art/generate.py and commit the result."
+            git diff --stat -- assets/profile assets/social-preview.svg
+            exit 1
+          fi
+          echo "committed artwork matches the generator"
+
+      - name: Generated README blocks are up to date
+        run: |
+          set -euo pipefail
+          python3 scripts/profile_art/render_signal_block.py
+          python3 scripts/profile_art/render_upstream_block.py
+          if ! git diff --quiet -- README.md; then
+            echo "::error::README generated blocks are stale. Re-run the render_signal_block.py and render_upstream_block.py scripts."
+            git diff -- README.md
+            exit 1
+          fi
+          echo "README generated blocks match their source data"

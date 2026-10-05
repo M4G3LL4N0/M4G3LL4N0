@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T22:46:18+00:00",
+  "generated_at": "2026-10-04T23:33:30+00:00",
   "owner": "M4G3LL4N0",
   "source": "enriched repos.json snapshot + tests.json (operator-recorded test counts)",
   "excludes": "site-only (*-website) and identity surfaces are not engineering systems",
@@ -29,12 +29,23 @@
       "display": "10"
     },
     {
-      "key": "open_issues_resolved",
-      "label": "MERGED PRs",
+      "key": "active_public",
+      "label": "ACTIVE",
       "value": 9,
       "display": "9"
     }
   ],
+  "omitted_zero_metrics": [
+    {
+      "key": "external_merged_prs",
+      "label": "UPSTREAM",
+      "reason": "pull requests merged into repositories we do not own"
+    }
+  ],
+  "upstream": {
+    "external_merged_prs": 0,
+    "repositories": []
+  },
   "per_system": {
     "agentos": {
       "tests": 710,
