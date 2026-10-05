@@ -10,3 +10,5 @@ __pycache__/
 # candidate artwork; neither belongs in the public profile repository.
 PROFILE_ART_GALLERY.html
 PROFILE_VISUAL_BENCHMARK.md
+build/
+GITHUB_V5_ART_GALLERY.html
