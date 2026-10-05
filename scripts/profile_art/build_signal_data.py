@@ -33,13 +33,27 @@ IDENTITY_REPOS = {"m4g3ll4n0", "why-are-you-here"}
 
 # Presentation order is deliberate: it reads as a build narrative rather than
 # as an arbitrary ranking. Value is what the bar height encodes.
+#
+# "external" means merged into a repository this account does not own. Merged
+# PRs inside our own repositories are ordinary internal workflow and are not
+# evidence of anything beyond this profile, so they are deliberately excluded
+# rather than dressed up as an upstream signal.
 METRIC_SPEC = [
     ("public_systems", "SYSTEMS", "public engineering repositories"),
     ("verified_tests", "TESTS", "tests run and recorded by an operator"),
-    ("ci_backed", "CI", "systems with a passing CI workflow"),
+    ("ci_backed", "CI", "systems whose latest workflow run passed"),
     ("public_releases", "RELEASES", "GitHub releases published"),
-    ("open_issues_resolved", "MERGED PRs", "pull requests merged"),
+    ("active_public", "ACTIVE", "public systems with a commit in the last 180 days"),
+    ("external_merged_prs", "UPSTREAM", "pull requests merged into repositories we do not own"),
 ]
+
+# A metric at zero is omitted rather than rendered. An empty tile either reads
+# as a failure or pads the graphic with a number that carries no information;
+# neither helps. Omission is the honest option and is not the same as a claim
+# that the underlying thing does not exist.
+OMIT_WHEN_ZERO = {"external_merged_prs"}
+
+ACTIVE_WINDOW_DAYS = 180
 
 
 def gh_json(*args: str):
@@ -75,6 +89,16 @@ def recorded_tests() -> dict[str, int]:
     raw = json.loads(TESTS_JSON.read_text(encoding="utf-8"))
     return {k: int(v.get("count") or 0) for k, v in raw.items()
             if not k.startswith("_") and isinstance(v, dict)}
+
+
+def owner_repo(repository_url: str) -> str | None:
+    """Extract `owner/repo` from an API repository URL."""
+    marker = "/repos/"
+    if marker not in repository_url:
+        return None
+    tail = repository_url.split(marker, 1)[1].strip("/")
+    parts = tail.split("/")
+    return "/".join(parts[:2]) if len(parts) >= 2 else None
 
 
 def engineering_from(records: list) -> list:
@@ -128,19 +152,46 @@ def main() -> int:
         if latest and latest[0].get("conclusion") == "success":
             ci_backed += 1
 
+    # Only contributions to repositories this account does not own count as
+    # upstream. Filtering the actual repository_url is the only way to be sure:
+    # counting total merged PRs here would report internal workflow as if it
+    # were third-party contribution.
     search = gh_json("search/issues?q=type:pr+is:merged+author:M4G3LL4N0&per_page=100")
-    merged = search.get("total_count", 0) if isinstance(search, dict) else 0
+    items = search.get("items", []) if isinstance(search, dict) else []
+    external_merged = []
+    for item in items:
+        slug = owner_repo(str(item.get("repository_url", "")))
+        if slug and not slug.lower().startswith(f"{OWNER.lower()}/"):
+            external_merged.append(slug)
+
+    cutoff = datetime.now(timezone.utc).timestamp() - ACTIVE_WINDOW_DAYS * 86400
+    active = 0
+    for repo in engineering:
+        pushed = repo.get("pushed_at") or ""
+        if not pushed:
+            continue
+        try:
+            stamp = datetime.fromisoformat(pushed.replace("Z", "+00:00")).timestamp()
+        except ValueError:
+            continue
+        if stamp >= cutoff:
+            active += 1
 
     values = {
         "public_systems": len(engineering),
         "verified_tests": sum(tests.get(r["name"], 0) for r in engineering),
         "ci_backed": ci_backed,
         "public_releases": releases,
-        "open_issues_resolved": merged,
+        "active_public": active,
+        "external_merged_prs": len(external_merged),
     }
 
     metrics = []
-    for key, label, _note in METRIC_SPEC:
+    omitted = []
+    for key, label, note in METRIC_SPEC:
+        if key in OMIT_WHEN_ZERO and values[key] == 0:
+            omitted.append({"key": key, "label": label, "reason": note})
+            continue
         metrics.append({
             "key": key, "label": label,
             "value": values[key],
@@ -155,6 +206,11 @@ def main() -> int:
                    else "GitHub API + tests.json (operator-recorded test counts)"),
         "excludes": "site-only (*-website) and identity surfaces are not engineering systems",
         "metrics": metrics,
+        "omitted_zero_metrics": omitted,
+        "upstream": {
+            "external_merged_prs": len(external_merged),
+            "repositories": sorted(set(external_merged)),
+        },
         "per_system": {
             r["name"]: {
                 "tests": tests.get(r["name"]),
@@ -169,6 +225,8 @@ def main() -> int:
     OUT.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
     for metric in metrics:
         print(f"{metric['display']:>8}  {metric['label']}")
+    for metric in omitted:
+        print(f"{'omitted':>8}  {metric['label']} (zero, and zero adds no context)")
     print(f"\nwrote {OUT.relative_to(PROFILE)}")
     return 0
 

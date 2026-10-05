@@ -119,8 +119,23 @@ jobs:
             echo "snapshot unavailable, artwork left unchanged"
             exit 0
           fi
-          python3 scripts/profile_art/build_signal_data.py
+          python3 scripts/profile_art/build_signal_data.py --inventory
           python3 scripts/profile_art/generate.py
+          python3 scripts/profile_art/render_signal_block.py
+
+      # The upstream block is regenerated from the signal rather than written by
+      # hand, so "no external merged contributions" removes the section instead
+      # of leaving an empty decorative heading behind.
+      - name: Refresh the upstream block
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+        run: python3 scripts/profile_art/render_upstream_block.py
+
+      # Runs after regeneration so it validates what was just written, not what
+      # was committed yesterday. A failure here means the next commit would have
+      # published something broken, which is exactly when to stop.
+      - name: Verify profile integrity
+        run: python3 -m unittest discover -s scripts -p 'test_*.py' -v
 
       - name: Commit only if content changed
         run: |
@@ -128,10 +143,21 @@ jobs:
             echo "Generated sections unchanged. No commit."
             exit 0
           fi
+          # Housekeeping commits stay attributed to the bot. A human or an
+          # OpenCode engineering commit is authored normally; an automated
+          # metric refresh must never look like a person typed it.
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md assets/profile
-          git commit -m "docs(profile): sync generated sections and artwork from the GitHub API"
+          cat > /tmp/commit-message.txt <<'MSG'
+          docs(profile): sync generated sections and artwork from the GitHub API
+
+          Automated refresh of measured metrics and generated artwork.
+          Housekeeping only; no hand-authored content is modified.
+
+          Co-Authored-By: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          MSG
+          git commit -F /tmp/commit-message.txt
           git push
 
       - name: Upload the inventory as an artifact

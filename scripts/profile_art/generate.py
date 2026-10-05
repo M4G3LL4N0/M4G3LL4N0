@@ -54,14 +54,47 @@ def _hero_topology(t: dict, uid: str, x0: int = 780, y0: int = 108) -> str:
     return "".join(parts)
 
 
-def hero(theme_name: str) -> str:
+def hero(theme_name: str, compact: bool = False) -> str:
     """Identity plate. DUNG30N5 is the subject; NOAERTH and the handle are
     context. The optical motif is a refracting node lattice — depth without
-    the glassmorphism clichés (no blobs, no orbs)."""
-    t = DARK if theme_name == "dark" else LIGHT
-    uid = f"hero-{theme_name}"
-    W, H = 1200, 420
+    the glassmorphism clichés (no blobs, no orbs).
 
+    `compact` produces the narrow-viewport variant. It exists because SVG
+    scales: the 1200-wide plate renders 1200->320 on a phone, so 12px type
+    lands at 3.2px. A second composition with the same content and far more
+    generous type is the only honest fix; shrinking the desktop art is not.
+    """
+    t = DARK if theme_name == "dark" else LIGHT
+    uid = f"hero-{theme_name}{'-compact' if compact else ''}"
+
+    if compact:
+        W, H = 460, 400
+        return "".join([
+            header(W, H, f"{PRIMARY_NAME} — {STUDIO_NAME}",
+                   f"Identity plate for {PRIMARY_NAME}. Reads: {TAGLINE} "
+                   f"Handle {HANDLE}, site noaerth.com."),
+            defs_common(t, uid),
+            f'  <rect x="0" y="0" width="{W}" height="{H}" fill="{t["canvas"]}"/>',
+            f'  <ellipse cx="150" cy="170" rx="230" ry="150" fill="url(#{uid}-bloom)"/>',
+            f'  <g opacity="0.9" transform="translate(-96 4) scale(0.72)">'
+            f'{_hero_topology(t, uid)}</g>',
+            f'  <rect x="26" y="92" width="3" height="150" fill="url(#{uid}-prism)"/>',
+            label(46, 112, f"{STUDIO_NAME} // {STUDIO_SUBTITLE}", t, size=15,
+                  tracking=3.2, opacity=0.9),
+            text(46, 186, PRIMARY_NAME, size=52, theme=t, family=FONT_DISPLAY,
+                 weight=700, tracking=3),
+            text(46, 226, "Build systems. Prove them.", size=19, theme=t,
+                 opacity=0.78),
+            text(46, 252, "Compound what works.", size=19, theme=t, opacity=0.78),
+            f'  <line x1="46" y1="286" x2="250" y2="286" stroke="{t["edge"]}" stroke-width="1"/>',
+            label(46, 312, "NOAERTH.COM", t, size=13, tracking=1.8, opacity=0.6),
+            label(46, 336, f"GITHUB {HANDLE}", t, size=13, tracking=1.8, opacity=0.6),
+            label(46, 372, f"{PRIMARY_NAME} // SYSTEMS", t, size=11, tracking=2,
+                  opacity=0.38),
+            svg_end(),
+        ])
+
+    W, H = 1200, 420
     return "".join([
         header(W, H, f"{PRIMARY_NAME} — {STUDIO_NAME} {STUDIO_SUBTITLE}",
                f"Identity plate for {PRIMARY_NAME}. Reads: {TAGLINE} "
@@ -146,22 +179,29 @@ NAV_ITEMS = [
 
 
 def nav_chip(slug: str, title: str, subtitle: str, theme_name: str) -> str:
+    """Navigation control.
+
+    Four of these sit in one row, so a chip is never wider than about 175px on
+    either a desktop or a phone. At 260 wide the old 13px title rendered near
+    8px, which is why this is 340 wide with 21px type: the same physical chip
+    now carries readable text at every width.
+    """
     t = DARK if theme_name == "dark" else LIGHT
     uid = f"nav-{slug}-{theme_name}"
-    W, H = 260, 64
+    W, H = 340, 92
     return "".join([
         header(W, H, f"{title} — {STUDIO_NAME}",
                f"Navigation control linking to {title}: {subtitle}."),
         defs_common(t, uid),
-        f'  <rect x="0" y="0" width="{W}" height="{H}" rx="16" fill="{t["canvas"]}"/>',
-        glass_panel(0.75, 0.75, W - 1.5, H - 1.5, uid, radius=16),
-        specular_top(0.75, 0.75, W - 1.5, 16),
+        f'  <rect x="0" y="0" width="{W}" height="{H}" rx="18" fill="{t["canvas"]}"/>',
+        glass_panel(0.75, 0.75, W - 1.5, H - 1.5, uid, radius=18),
+        specular_top(0.75, 0.75, W - 1.5, 18),
         # left spectral edge marks the control as active surface
-        f'  <rect x="0.75" y="18" width="2" height="28" rx="1" fill="url(#{uid}-prism)"/>',
-        label(26, 30, title, t, size=13, tracking=2.6, opacity=0.95),
-        label(26, 48, subtitle, t, size=10, tracking=1.2, opacity=0.5),
+        f'  <rect x="0.75" y="26" width="3" height="40" rx="1.5" fill="url(#{uid}-prism)"/>',
+        label(30, 44, title, t, size=21, tracking=2, opacity=0.95),
+        label(30, 70, subtitle, t, size=14, tracking=0.8, opacity=0.5),
         # arrow: chevron pair, monospace, no icon font
-        f'  <text x="{W - 26}" y="38" font-family="{FONT_MONO}" font-size="13" '
+        f'  <text x="{W - 28}" y="54" font-family="{FONT_MONO}" font-size="20" '
         f'fill="{t["text_faint"]}" text-anchor="end">&#8594;</text>',
         svg_end(),
     ])
@@ -294,12 +334,12 @@ def glyph_eye() -> str:
 
 
 CARDS = [
-    ("noaerth-portfolio-os", "Portfolio OS", glyph_stack, "Control plane: SQLite work queue, reviewer separation, allowlist public boundary.", "Python", "MIT"),
-    ("agentos", "AgentOS", glyph_ring, "Provider-neutral execution: objective in, verified outcome out.", "Python", "MIT"),
-    ("grokinstall", "GrokInstall", glyph_module, "Inserts the smallest useful capability. Declining to install is a first-class answer.", "Go", "MIT"),
-    ("grokmax", "GrokMax", glyph_prism, "Deterministic-first routing; every number labelled measured, estimated, or proxy.", "TypeScript", "MIT"),
-    ("gh0st", "gh0st", glyph_wave, "Local-first encrypted client. Prompts stay on the machine by default.", "Rust · Tauri", "MIT"),
-    ("opencode-watchdog", "OpenCode Watchdog", glyph_eye, "Circuit breaker for runaway sessions. No model decides you are stuck.", "TypeScript", "MIT"),
+    ("noaerth-portfolio-os", "Portfolio OS", glyph_stack, "SQLite work queue · reviewer separation · allowlisted publishing", "Python", "MIT"),
+    ("agentos", "AgentOS", glyph_ring, "Objective in, verified outcome out, at lowest responsible cost", "Python", "MIT"),
+    ("grokinstall", "GrokInstall", glyph_module, "Installs the smallest useful capability. No is a valid answer.", "Go", "MIT"),
+    ("grokmax", "GrokMax", glyph_prism, "Zero-cost executors first; every number labelled measured or estimated", "TypeScript", "MIT"),
+    ("gh0st", "gh0st", glyph_wave, "Encrypted local client. Prompts stay on the machine by default", "Rust · Tauri", "MIT"),
+    ("opencode-watchdog", "OpenCode Watchdog", glyph_eye, "Circuit breaker for runaway sessions. No model decides you are stuck", "TypeScript", "MIT"),
 ]
 
 
@@ -322,30 +362,36 @@ def card_metric(slug: str, per_system: dict) -> str:
 
 def card(slug: str, name: str, glyph, purpose: str, stack: str, licence: str,
          theme_name: str, metric: str) -> str:
+    """Full-width proof tile.
+
+    Sized for the phone first. A 560-wide tile rendered into a 320px viewport
+    scales by 0.57, which turned 13px labels into 7px. This tile is 760 wide
+    with ~28px type, so the same 320px viewport yields roughly 12px on screen
+    and desktop yields full size. Everything is native SVG <text>: no
+    foreignObject, which is the least portable thing an SVG can contain.
+    """
     t = DARK if theme_name == "dark" else LIGHT
     uid = f"card-{slug}-{theme_name}"
-    W, H = 560, 176
+    W, H = 760, 168
     return "".join([
         header(W, H, name, f"{name}: {purpose} Stack {stack}, licence {licence}. {metric}"),
         defs_common(t, uid),
-        f'  <rect x="0" y="0" width="{W}" height="{H}" rx="16" fill="{t["canvas"]}"/>',
-        glass_panel(0.75, 0.75, W - 1.5, H - 1.5, uid, radius=16),
-        specular_top(0.75, 0.75, W - 1.5, 16),
-        f'  <g transform="translate(30,34)" color="{t["text_secondary"]}">'
+        f'  <rect x="0" y="0" width="{W}" height="{H}" rx="18" fill="{t["canvas"]}"/>',
+        glass_panel(0.75, 0.75, W - 1.5, H - 1.5, uid, radius=18),
+        specular_top(0.75, 0.75, W - 1.5, 18),
+        f'  <g transform="translate(34,40)" color="{t["text_secondary"]}">'
         f'<defs><linearGradient id="g-prism" x1="0" y1="0" x2="1" y2="1">'
         f'<stop offset="0%" stop-color="{t["mint"]}"/>'
         f'<stop offset="52%" stop-color="{t["indigo"]}"/>'
         f'<stop offset="100%" stop-color="{t["violet"]}"/></linearGradient></defs>'
         f'{glyph()}</g>',
-        label(104, 52, name, t, size=13, tracking=2.4, opacity=0.95),
-        # purpose wraps to two lines by construction: cards are fixed height,
-        # so copy length is clamped here rather than allowed to overflow
-        f'  <foreignObject x="104" y="64" width="{W - 130}" height="52">'
-        f'<div xmlns="http://www.w3.org/1999/xhtml" style="font:400 13.5px {FONT_DISPLAY};'
-        f'color:{t["text_secondary"]};line-height:1.45">{purpose}</div></foreignObject>',
-        f'  <line x1="104" y1="126" x2="{W - 26}" y2="126" stroke="{t["edge"]}" stroke-width="1"/>',
-        label(104, 148, stack, t, size=11, tracking=1.4, opacity=0.55),
-        label(W - 26, 148, metric, t, size=11, tracking=1.2, opacity=0.72, anchor="end"),
+        f'  <rect x="34" y="30" width="3" height="46" fill="url(#{uid}-prism)" opacity="0.8"/>',
+        text(56, 62, name, size=27, theme=t, weight=650),
+        # one line of purpose, native text. Long copy is clamped at the call site.
+        label(56, 92, purpose, t, size=15, tracking=0.2, opacity=0.62),
+        f'  <line x1="56" y1="116" x2="{W - 30}" y2="116" stroke="{t["edge"]}" stroke-width="1"/>',
+        label(56, 142, stack, t, size=14, tracking=1.2, opacity=0.55),
+        label(W - 30, 142, metric, t, size=14, tracking=1, opacity=0.75, anchor="end"),
         svg_end(),
     ])
 
@@ -354,45 +400,53 @@ def card(slug: str, name: str, glyph, purpose: str, stack: str, licence: str,
 # WHY ARE YOU HERE — terminal footer
 # =====================================================================
 def terminal(theme_name: str, animate: bool = False) -> str:
+    """CRT shell footer. Doubles as the closing joke and as a real link.
+
+    The prompt is `DUNG30N5://shell` rather than a bare `$` so the panel reads
+    as a specific place rather than a generic terminal. The whoami / why-are-you-here
+    exchange is the original joke, preserved verbatim in behaviour.
+    """
     t = DARK if theme_name == "dark" else LIGHT
     uid = f"term-{theme_name}"
-    W, H = 620, 190
-    rows = [
-        ("$", "whoami", "DUNG30N5"),
-        ("$", "why are you here?", ""),
-    ]
+    W, H = 660, 216
     parts = [header(W, H, "why are you here?",
-                    "A terminal fragment. Running whoami prints DUNG30N5. "
+                    "A CRT shell fragment. Running whoami prints DUNG30N5. "
                     "Asking why are you here prints a cursor and nothing else."),
              defs_common(t, uid),
-             f'  <rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="14" '
+             f'  <rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="16" '
              f'fill="{t["canvas"]}" stroke="{t["edge"]}" stroke-width="1"/>',
-             f'  <line x1="0.5" y1="0.5" x2="{W - 0.5}" y2="0.5" stroke="currentColor" '
-             f'stroke-opacity="0.14"/>',
-             f'  <circle cx="24" cy="24" r="3.5" fill="none" stroke="{t["text_faint"]}" stroke-width="1"/>',
-             f'  <circle cx="40" cy="24" r="3.5" fill="none" stroke="{t["text_faint"]}" stroke-width="1" opacity="0.6"/>',
-             f'  <circle cx="56" cy="24" r="3.5" fill="none" stroke="{t["text_faint"]}" stroke-width="1" opacity="0.35"/>']
-    y = 68
-    for prompt, cmd, out in rows:
-        parts.append(f'  <text x="26" y="{y}" font-family="{FONT_MONO}" font-size="14" '
-                     f'fill="{t["mint"]}">$</text>')
-        parts.append(f'  <text x="42" y="{y}" font-family="{FONT_MONO}" font-size="14" '
+             # inner bezel: the recess that makes it read as a screen
+             f'  <rect x="14" y="14" width="{W - 28}" height="{H - 28}" rx="10" '
+             f'fill="none" stroke="{t["edge"]}" stroke-width="1" opacity="0.5"/>',
+             f'  <circle cx="30" cy="30" r="3.5" fill="none" stroke="{t["text_faint"]}" stroke-width="1"/>',
+             f'  <circle cx="46" cy="30" r="3.5" fill="none" stroke="{t["text_faint"]}" stroke-width="1" opacity="0.6"/>',
+             f'  <circle cx="62" cy="30" r="3.5" fill="none" stroke="{t["text_faint"]}" stroke-width="1" opacity="0.35"/>',
+             label(W - 30, 34, f"{PRIMARY_NAME}://shell", t, size=11, tracking=1.6,
+                   opacity=0.45, anchor="end"),
+             f'  <line x1="14" y1="46" x2="{W - 14}" y2="46" stroke="{t["edge"]}" '
+             f'stroke-width="1" opacity="0.45"/>']
+
+    y = 78
+    for cmd, out in (("whoami", "DUNG30N5"), ("why are you here?", "")):
+        parts.append(f'  <text x="32" y="{y}" font-family="{FONT_MONO}" font-size="14" '
+                     f'fill="{t["mint"]}">&gt;</text>')
+        parts.append(f'  <text x="54" y="{y}" font-family="{FONT_MONO}" font-size="14" '
                      f'fill="{t["text_primary"]}">{cmd}</text>')
         y += 26
         if out:
-            parts.append(f'  <text x="42" y="{y}" font-family="{FONT_MONO}" font-size="14" '
+            parts.append(f'  <text x="54" y="{y}" font-family="{FONT_MONO}" font-size="14" '
                          f'fill="{t["text_secondary"]}">{out}</text>')
             y += 30
-    # The unanswered prompt. A blinking block, at 1.6s: far below any
-    # hazardous flash threshold, and the block is only ever drawn/un-drawn.
-    # SMIL requires <animate> to be a CHILD of the element it targets, so the
-    # caret is emitted non-self-closing when it carries an animation.
-    parts.append(f'  <text x="26" y="{y}" font-family="{FONT_MONO}" font-size="14" '
-                 f'fill="{t["mint"]}">$</text>')
+    # The unanswered prompt. A blinking block at 1.6s: roughly 0.6Hz, an order of
+    # magnitude below any hazardous flash threshold, and the block is only ever
+    # drawn or un-drawn. SMIL requires <animate> to be a CHILD of the element it
+    # targets, so the caret is never emitted self-closing when it animates.
+    parts.append(f'  <text x="32" y="{y}" font-family="{FONT_MONO}" font-size="14" '
+                 f'fill="{t["mint"]}">&gt;</text>')
     blink = (f'<animate attributeName="opacity" values="1;1;0;0;1" '
              f'keyTimes="0;0.4;0.5;0.9;1" dur="1.6s" '
              f'repeatCount="indefinite"/>') if animate else ""
-    parts.append(f'  <text x="42" y="{y}" font-family="{FONT_MONO}" font-size="14" '
+    parts.append(f'  <text x="54" y="{y}" font-family="{FONT_MONO}" font-size="14" '
                  f'fill="{t["mint"]}">{blink}█</text>')
     parts.append(svg_end())
     return "".join(parts)
@@ -406,37 +460,79 @@ def terminal_motion() -> str:
 # =====================================================================
 # SYSTEM MAP — only relationships that exist in code or docs
 # =====================================================================
-# Proven relationships (each traced to a file in the source repo):
-#  - grokbot-office -> agentos      : grokbot-office/README.md + AGENTOS.md
-#  - grokmax -> opencode            : grokmax/packages/adapters opencode.ts,
-#                                     router route priority in packages/router
-#  - opencode-watchdog -> opencode  : observes the OpenCode server via SSE
-#  - noaerth-portfolio-os -> agentos: README "That is AgentOS"
+# Every relationship printed on this plate carries an `evidence` key naming an
+# entry in system-map-evidence.json. main() refuses to render if a key is
+# missing there, or if an evidence entry never reaches the plate. The diagram
+# and its provenance therefore cannot drift apart.
+#
+# Proven relationships:
+#  - grokbot-office -> agentos      : grokbot-office/README.md:26, AGENTOS.md:1
+#  - grokmax -> opencode            : grokmax/packages/adapters/src/opencode.ts:30
+#  - opencode-watchdog -> opencode  : opencode-watchdog/src/adapters/opencode/
+#                                     ingest.ts:17 (SSE ingest)
+#
+# Explicitly NOT an edge, despite appearing together in prose:
+#  - noaerth-portfolio-os -> agentos. noaerth-portfolio-os/README.md:144 lists
+#    "its own agent runtime" under *Deliberately not built* and points at
+#    AgentOS as the separate thing that does that job. That is a disclaimer of
+#    dependency, so portfolio-os is drawn with no relationship at all.
+#
 # Everything else is drawn as a standalone system, not as an edge.
 LAYERS = [
     ("CONTROL", "decides what runs, and who approved it", [
-        ("portfolio-os", "noaerth-portfolio-os", "SQLite work queue · reviewer separation", None),
-        ("workforce config", "grokbot-office", "supervisors · policy · handoffs", "sits above AgentOS"),
+        ("portfolio-os", "noaerth-portfolio-os", "SQLite work queue · reviewer separation", None, None),
+        ("workforce config", "grokbot-office", "supervisors · policy · handoffs",
+         "sits above AgentOS", "grokbot-office->agentos"),
     ]),
     ("EXECUTE", "turns an objective into a verified outcome", [
-        ("agentos", "agentos", "capability discovery · adapter execution", None),
+        ("agentos", "agentos", "capability discovery · adapter execution", None, None),
     ]),
     ("ECONOMISE", "makes execution cheap and repeatable", [
-        ("grokmax", "grokmax", "route · five-layer cache · ledger", "adapts to OpenCode"),
-        ("grokinstall", "grokinstall", "installs the smallest useful capability", None),
+        ("grokmax", "grokmax", "route · five-layer cache · ledger",
+         "adapts to OpenCode", "grokmax->opencode"),
+        ("grokinstall", "grokinstall", "installs the smallest useful capability", None, None),
     ]),
     ("GUARD", "stops degenerate work before it costs anything", [
-        ("opencode-watchdog", "opencode-watchdog", "deterministic repetition circuit", "observes an OpenCode session"),
+        ("opencode-watchdog", "opencode-watchdog", "deterministic repetition circuit",
+         "observes an OpenCode session", "opencode-watchdog->opencode"),
     ]),
     ("SURFACE", "where the work becomes something a person can use", [
-        ("gh0st", "gh0st", "local-first encrypted client", None),
-        ("grokbot-society", "grokbot-society", "persistent agents · governed spend", None),
-        ("seai-mind", "seai-mind", "self-evolving kernel", None),
+        ("gh0st", "gh0st", "local-first encrypted client", None, None),
+        ("grokbot-society", "grokbot-society", "persistent agents · governed spend", None, None),
+        ("seai-mind", "seai-mind", "self-evolving kernel", None, None),
     ]),
 ]
 
+EVIDENCE_FILE = PROFILE / "system-map-evidence.json"
 
-def system_map(theme_name: str) -> str:
+
+def evidence_keys() -> set:
+    """Edge identifiers present in system-map-evidence.json."""
+    if not EVIDENCE_FILE.is_file():
+        raise SystemExit(
+            f"{EVIDENCE_FILE.name} is required: the system map may only draw a "
+            f"relationship that file can evidence.")
+    data = json.loads(EVIDENCE_FILE.read_text(encoding="utf-8"))
+    return {f"{edge['source']}->{edge['target']}" for edge in data.get("edges", [])}
+
+
+def verify_map_evidence() -> None:
+    """Fail if the plate and its provenance disagree, in either direction."""
+    declared = evidence_keys()
+    rendered = {item[4] for layer in LAYERS for item in layer[2] if item[4]}
+    missing = sorted(declared - rendered)
+    invented = sorted(rendered - declared)
+    if missing:
+        raise SystemExit(
+            f"system-map-evidence.json declares edges the map never draws: "
+            f"{', '.join(missing)}")
+    if invented:
+        raise SystemExit(
+            f"the map draws relationships with no evidence entry: "
+            f"{', '.join(invented)}")
+
+
+def system_map(theme_name: str, compact: bool = False) -> str:
     """Layered architecture plate.
 
     Relationships are printed on the panel that owns them rather than drawn as
@@ -444,9 +540,73 @@ def system_map(theme_name: str) -> str:
     four panels and collided with the layer labels. A relationship you can read
     without tracing a line is worth more than one that looks like a network
     diagram.
+
+    `compact` is the narrow-viewport composition: same content, no gutter, and
+    type sized for a 320px screen rather than scaled down from a 1200px one.
     """
     t = DARK if theme_name == "dark" else LIGHT
-    uid = f"map-{theme_name}"
+    uid = f"map-{theme_name}{'-compact' if compact else ''}"
+
+    if compact:
+        W = 440
+        pad_x, gutter = 18, 0
+        panel_w = W - pad_x * 2
+        panel_h, panel_gap, band_h = 74, 8, 40
+        name_size, note_size, rel_size = 19, 12.5, 12.5
+
+        y = 62
+        layout = []
+        for layer, blurb, items in LAYERS:
+            layout.append(("band", layer, blurb, y))
+            y += band_h
+            for short, repo, note, rel, _key in items:
+                layout.append(("panel", short, repo, note, rel, y))
+                y += panel_h + panel_gap
+            y += 16
+        H = y + 34
+
+        parts = [header(W, H, f"{STUDIO_NAME} operating stack",
+                        "Five layers over the published systems: control, execution, "
+                        "economy, guardrails, and surfaces. Relationships are named "
+                        "only where one repository's source or documentation names "
+                        "the other."),
+                 defs_common(t, uid),
+                 f'  <rect x="0" y="0" width="{W}" height="{H}" fill="{t["canvas"]}"/>',
+                 f'  <g opacity="0.5">{background_grid(W, H, t, 32)}</g>']
+
+        for item in layout:
+            if item[0] == "band":
+                _, layer, blurb, by = item
+                parts.append(label(pad_x, by + 13, layer, t, size=12.5, tracking=3.4,
+                                   opacity=0.6))
+                parts.append(f'  <line x1="{pad_x}" y1="{by + 22}" x2="{W - pad_x}" '
+                             f'y2="{by + 22}" stroke="{t["edge"]}" stroke-width="1" '
+                             f'opacity="0.55"/>')
+                continue
+            _, short, repo, note, rel, py = item
+            parts.append(glass_panel(pad_x, py, panel_w, panel_h, uid, radius=12))
+            parts.append(specular_top(pad_x, py, panel_w, 12))
+            parts.append(f'  <rect x="{pad_x}" y="{py + 18}" width="2.5" height="38" '
+                         f'fill="url(#{uid}-prism)" opacity="0.75"/>')
+            parts.append(text(pad_x + 20, py + 34, short, size=name_size, theme=t,
+                              weight=650))
+            parts.append(label(pad_x + 20, py + 56, note, t, size=note_size,
+                               tracking=0.8, opacity=0.5))
+            if rel:
+                parts.append(label(W - pad_x - 16, py + 56, rel, t, size=rel_size,
+                                   tracking=0.8, opacity=0.62, anchor="end"))
+            else:
+                parts.append(label(W - pad_x - 16, py + 56, repo, t, size=rel_size,
+                                   tracking=0.8, opacity=0.3, anchor="end"))
+
+        parts.append(f'  <line x1="{pad_x}" y1="{H - 22}" x2="{W - pad_x}" y2="{H - 22}" '
+                     f'stroke="{t["edge"]}" stroke-width="1"/>')
+        parts.append(label(pad_x, H - 8,
+                           "relationships named only where source or docs cite "
+                           "the other system", t, size=10, tracking=0.4, opacity=0.4))
+        parts.append(svg_end())
+        return "".join(parts)
+
     W = 1200
     pad_x, gutter = 64, 172
     panel_w = W - pad_x * 2
@@ -459,7 +619,7 @@ def system_map(theme_name: str) -> str:
     for layer, blurb, items in LAYERS:
         layout.append(("band", layer, blurb, y))
         y += band_h
-        for short, repo, note, rel in items:
+        for short, repo, note, rel, _key in items:
             layout.append(("panel", short, repo, note, rel, y))
             y += panel_h + panel_gap
         y += 26
@@ -590,9 +750,43 @@ def write(path: Path, content: str) -> int:
     return len(content.encode())
 
 
+def social_preview() -> str:
+    """1280x640 share card for the GitHub social preview slot.
+
+    Separate from the README hero on purpose: a social preview is cropped and
+    scaled unpredictably by Slack, Discord, X and GitHub's own link card, so it
+    carries only the three words that must survive any crop, set large and
+    centred inside generous safe margins.
+    """
+    t = DARK
+    uid = "social"
+    W, H = 1280, 640
+    topo = _hero_topology(t, uid)
+    return "".join([
+        header(W, H, f"{PRIMARY_NAME} — {STUDIO_NAME}",
+               f"{PRIMARY_NAME}. {STUDIO_NAME}. Build systems."),
+        defs_common(t, uid),
+        f'  <rect x="0" y="0" width="{W}" height="{H}" fill="{t["canvas"]}"/>',
+        f'  <g opacity="0.45">{background_grid(W, H, t, 48)}</g>',
+        f'  <ellipse cx="250" cy="250" rx="380" ry="240" fill="url(#{uid}-bloom)"/>',
+        f'  <g opacity="0.85">{topo}</g>',
+        f'  <rect x="120" y="188" width="3" height="176" fill="url(#{uid}-prism)"/>',
+        label(160, 214, f"{STUDIO_NAME} // {STUDIO_SUBTITLE}", t, size=15,
+              tracking=5, opacity=0.85),
+        text(160, 306, PRIMARY_NAME, size=104, theme=t, family=FONT_DISPLAY,
+             weight=700, tracking=10),
+        text(160, 356, "BUILD SYSTEMS.", size=34, theme=t, opacity=0.8, tracking=3),
+        f'  <line x1="160" y1="392" x2="700" y2="392" stroke="{t["edge"]}" stroke-width="1"/>',
+        label(160, 424, "NOAERTH.COM   ·   GITHUB @M4G3LL4N0", t, size=13,
+              tracking=2.6, opacity=0.6),
+        svg_end()])
+
+
 def main() -> int:
     signal = load_signal()
     generated: list[tuple[str, int]] = []
+
+    verify_map_evidence()
 
     # A card whose repo key does not exist in the signal silently renders
     # "no recorded metrics", which reads as a measurement rather than a bug.
@@ -608,6 +802,9 @@ def main() -> int:
     for name in ("dark", "light"):
         generated.append((f"assets/profile/hero-{name}.svg",
                           write(OUT / f"hero-{name}.svg", hero(name))))
+        generated.append((f"assets/profile/hero-{name}-compact.svg",
+                          write(OUT / f"hero-{name}-compact.svg",
+                                hero(name, compact=True))))
     generated.append(("assets/profile/hero-motion.svg",
                       write(OUT / "hero-motion.svg", hero_motion())))
 
@@ -624,6 +821,9 @@ def main() -> int:
     for name in ("dark", "light"):
         rel = f"assets/profile/system-map-{name}.svg"
         generated.append((rel, write(OUT / f"system-map-{name}.svg", system_map(name))))
+        generated.append((f"assets/profile/system-map-{name}-compact.svg",
+                          write(OUT / f"system-map-{name}-compact.svg",
+                                system_map(name, compact=True))))
 
     for slug, card_name, glyph, purpose, stack, licence in CARDS:
         metric = card_metric(slug, signal.get("per_system", {}))
@@ -644,6 +844,12 @@ def main() -> int:
                           ("avatar-hybrid", avatar_hybrid())):
         rel = f"assets/profile/avatar/{slug}.svg"
         generated.append((rel, write(OUT / "avatar" / f"{slug}.svg", content)))
+
+    # 1280x640, exactly what GitHub's social-preview slot expects. Uploaded
+    # manually; the README does not depend on it.
+    generated.append(("assets/social-preview.svg",
+                      write(PROFILE / "assets" / "social-preview.svg",
+                            social_preview())))
 
     total = 0
     for rel, size in generated:
