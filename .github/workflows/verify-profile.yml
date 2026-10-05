@@ -33,7 +33,22 @@ jobs:
       # No third-party dependencies on purpose. A profile test suite that needs
       # an install step is a suite that silently stops running.
       - name: Verify profile integrity
-        run: python3 -m unittest discover -s scripts -p 'test_*.py' -v
+        run: |
+          python3 -m unittest discover -s scripts -p 'test_*.py' -v
+          python3 scripts/github_art/test_v5_safety.py
+
+      # The V5 design system must be able to regenerate every chosen asset, and
+      # the result must be byte-identical to what is committed.
+      - name: V5 art is reproducible
+        run: |
+          set -euo pipefail
+          python3 scripts/github_art/build_gallery.py > /dev/null
+          git status --porcelain -- build | grep -q . && {
+            echo "::error::regenerating the V5 gallery changed committed output."
+            git status --porcelain -- build
+            exit 1
+          }
+          echo "V5 gallery and chosen assets match the generator"
 
       # Regenerating must be a no-op. If the committed artwork differs from what
       # the generator produces, the repository is lying about its own contents.

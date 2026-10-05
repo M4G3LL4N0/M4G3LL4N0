@@ -1,0 +1,788 @@
+{
+  "$comment": [
+    "Semantic content ledger for the V5 redesign. Every fact a reader",
+    "can currently obtain from a public README is captured here so the",
+    "rollout can prove that nothing factual was lost.",
+    "",
+    "Public repositories only. Private and deployment-site repositories",
+    "are never opened by the generator, so they cannot appear here even",
+    "by accident."
+  ],
+  "schema": "github-v5-content-ledger/1",
+  "generated_at": "2026-10-05T03:15:58+00:00",
+  "owner": "M4G3LL4N0",
+  "totals": {
+    "repositories": 11,
+    "commands": 68,
+    "first_party_links": 42,
+    "third_party_links": 15,
+    "claims": 77,
+    "caveats": 133
+  },
+  "repositories": {
+    "agentos": {
+      "full_name": "M4G3LL4N0/agentos",
+      "classification": "FLAGSHIP",
+      "readme_present": true,
+      "readme_bytes": 6938,
+      "commands": [
+        "git clone https://github.com/M4G3LL4N0/agentos.git",
+        "python3.11 -m venv .venv"
+      ],
+      "links": {
+        "first_party": [
+          "https://github.com/M4G3LL4N0/agentos.git",
+          "https://github.com/M4G3LL4N0/grokbot-office",
+          "https://github.com/M4G3LL4N0/grokbot-office-website"
+        ],
+        "third_party": [
+          "https://agentos-website-ten.vercel.app"
+        ]
+      },
+      "architectural_claims": [
+        "Every command supports the global `--json` option where structured output is useful.",
+        "Use `--home DIR` or `AGENTOS_HOME` to keep experiments isolated.",
+        "The local API is loopback-oriented and has no production authentication layer.",
+        "[`ARCHITECTURE.md`](ARCHITECTURE.md) \u2014 layers, module map, and execution flow.",
+        "The current release is **v0.5.0**.",
+        "It is tagged only after the public repository commit and release gate are verified.",
+        "The local release evidence includes 710 passing tests, zero failures, zero errors, zero skips, an 11-task deterministic benchmark, CLI smoke checks, and backup/source audits."
+      ],
+      "caveats": [
+        "AgentOS is intentionally not a fixed swarm, an operating system, or a provider account.",
+        "It is the substrate that lets a workforce stay replaceable while control, verification, and learning remain durable.",
+        "Verified useful output is the goal.",
+        "Lower cost is a result of choosing the smallest capable path, not a reason to fabricate measurements or skip verification.",
+        "[GrokBot Office](https://github.com/M4G3LL4N0/grokbot-office) is a separate workforce configuration package.",
+        "It supplies role, policy, context, and handoff data; it is not AgentOS and is not a hidden AgentOS dependency.",
+        "The [GrokBot Office website](https://github.com/M4G3LL4N0/grokbot-office-website) explains that operating model visually.",
+        "| **EXPERIMENTAL** | Ecosystem discovery/certification, autonomy records, resource-governor policy extensions, and learned routing that still require measured operator evidence before being used for consequential work.",
+        "A capability being detected, registered, simulated, or marked `AVAILABLE` is not the same as a live or verified external execution.",
+        "The CLI and docs preserve that distinction.",
+        "The release candidate is Python 3.11+ and uses only the standard library at runtime.",
+        "CI runs the supported test matrix, compilation, packaging checks, and a lightweight repository secret scan.",
+        "Tests use temporary state and do not require live providers.",
+        "Do not submit secrets, cookies, sessions, credentials, private account state, harvested material, or machine-specific paths.",
+        "See [`SECURITY.md`](SECURITY.md) for the public boundary and reporting expectations."
+      ],
+      "facts": {
+        "description": "Provider-neutral AI agent execution and orchestration engine: objective in, verified outcome out.",
+        "license": "MIT",
+        "topics": [
+          "a2a",
+          "agent-orchestration",
+          "agent-runtime",
+          "ai-agents",
+          "ai-infrastructure",
+          "developer-tools",
+          "llm",
+          "mcp",
+          "model-routing",
+          "multi-agent",
+          "python",
+          "workflow-engine"
+        ],
+        "verified_tests": 710,
+        "release_count": 1,
+        "latest_release": "v0.5.0",
+        "ci_green": true,
+        "ci_latest_conclusion": "success",
+        "archived": false,
+        "homepage": "https://agentos-website-ten.vercel.app"
+      }
+    },
+    "gh0st": {
+      "full_name": "M4G3LL4N0/gh0st",
+      "classification": "FLAGSHIP",
+      "readme_present": true,
+      "readme_bytes": 11398,
+      "commands": [
+        "git clone https://github.com/M4G3LL4N0/gh0st.git",
+        "pnpm install",
+        "pnpm build",
+        "pnpm dev:client    # Starts Vite dev server at http://localhost:1420",
+        "pnpm typecheck",
+        "pnpm lint",
+        "pnpm test",
+        "pnpm test:security"
+      ],
+      "links": {
+        "first_party": [
+          "https://github.com/M4G3LL4N0/gh0st",
+          "https://github.com/M4G3LL4N0/gh0st-website",
+          "https://github.com/M4G3LL4N0/gh0st.git",
+          "https://github.com/M4G3LL4N0/gh0st/actions/workflows/ci.yml",
+          "https://github.com/M4G3LL4N0/gh0st/actions/workflows/security.yml",
+          "https://github.com/M4G3LL4N0/gh0st/discussions",
+          "https://github.com/M4G3LL4N0/gh0st/issues",
+          "https://github.com/M4G3LL4N0/gh0st/releases",
+          "https://github.com/M4G3LL4N0/gh0st/releases/download/v1.0.0-rc.1/SHA256SUMS.txt",
+          "https://github.com/M4G3LL4N0/gh0st/releases/tag/v1.0.0-rc.1",
+          "https://github.com/M4G3LL4N0/gh0st/security/advisories"
+        ],
+        "third_party": [
+          "http://localhost:1420",
+          "https://console.x.ai",
+          "https://gh0st-six.vercel.app",
+          "https://opensource.org/licenses/MIT",
+          "https://tauri.app",
+          "https://www.typescriptlang.org"
+        ]
+      },
+      "architectural_claims": [
+        "| [Architecture](docs/ARCHITECTURE.md) | System architecture |"
+      ],
+      "caveats": [
+        "| **macOS** | \ud83d\udfe1 Public release candidate | Native Apple Silicon shell + DMG; ad-hoc signed, not notarized; client setup limitations apply |",
+        "ZDR is about **retention after processing** \u2014 not invisibility during inference",
+        "macOS/iOS**: Native vault integration is still in development; do not treat the current shell as hardware-backed storage",
+        "Strict mode blocks** sensitive requests if ZDR unverified",
+        "> **ZDR is account/team-specific.** gh0st verifies it at runtime \u2014 it does not assume every xAI account has ZDR enabled."
+      ],
+      "facts": {
+        "description": "Local-first encrypted AI client for xAI/Grok with verifiable no-retention guarantees.",
+        "license": "MIT",
+        "topics": [
+          "ai",
+          "cli",
+          "desktop",
+          "encryption",
+          "local-first",
+          "open-source",
+          "privacy",
+          "rust",
+          "tauri",
+          "typescript",
+          "zero-data-retention"
+        ],
+        "verified_tests": 27,
+        "release_count": 1,
+        "latest_release": "v1.0.0-rc.1",
+        "ci_green": false,
+        "ci_latest_conclusion": "failure",
+        "archived": false,
+        "homepage": "https://gh0st-six.vercel.app"
+      }
+    },
+    "grokbot-office": {
+      "full_name": "M4G3LL4N0/grokbot-office",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 5623,
+      "commands": [
+        "git clone https://github.com/M4G3LL4N0/grokbot-office.git",
+        "pnpm install --frozen-lockfile",
+        "pnpm typecheck",
+        "pnpm test",
+        "pnpm build",
+        "pnpm validate",
+        "pnpm validate:publication",
+        "pnpm grok doctor"
+      ],
+      "links": {
+        "first_party": [
+          "https://github.com/M4G3LL4N0/agentos",
+          "https://github.com/M4G3LL4N0/grokbot-office-website",
+          "https://github.com/M4G3LL4N0/grokbot-office.git"
+        ],
+        "third_party": []
+      },
+      "architectural_claims": [
+        "GrokBot Office is a public-safe reference control layer for a large, external workforce.",
+        "It keeps the persistent supervisory core small: a small set of Grok supervisors owns intent, context, policy, tradeoffs, and handoffs while replaceable workers do the bounded work.",
+        "The [GrokBot Office website](https://github.com/M4G3LL4N0/grokbot-office-website) presents the same model as a readable architecture reference.",
+        "deterministic routing and workflow compilation aids;",
+        "[`ARCHITECTURE.md`](ARCHITECTURE.md) \u2014 control-core and worker boundaries."
+      ],
+      "caveats": [
+        "This repository is the workforce configuration and operating model.",
+        "It is not AgentOS, not a bot factory, not an operating system, and not evidence that any external worker is currently live.",
+        "The goal is not to make every task expensive or to create one bot per role.",
+        "The goal is to make the next equivalent task cheaper by retrieving the right artifact, reducing context, and keeping the smallest capable team in control.",
+        "131 virtual roles** \u2014 available as definitions but not provisioned workers.",
+        "A profile, packet, route, or `live_verified` label is not proof of execution.",
+        "The registry can describe a large workforce without creating, authenticating, funding, or activating 134 external identities.",
+        "The package does not scrape usage, invent quota data, run paid providers, or claim a live external workforce.",
+        "| **EXPERIMENTAL** | Resource-governor extensions, ecosystem scouting, and learned routing that still need measured operator evidence before consequential use.",
+        "The [`examples/`](examples/) directory contains synthetic simulations for repository audit, cached repeats, workflow compilation, location intelligence, ecosystem scouting, offline/cloud supervision, and usage-aware routing.",
+        "They contain no private values and are not runtime evidence."
+      ],
+      "facts": {
+        "description": "Agent workforce architecture: roles, policy, handoffs and resource governance as configuration.",
+        "license": "MIT",
+        "topics": [
+          "a2a",
+          "agent-orchestration",
+          "agentic-ai",
+          "ai-agents",
+          "mcp",
+          "multi-agent",
+          "typescript",
+          "workflow-automation"
+        ],
+        "verified_tests": 149,
+        "release_count": 1,
+        "latest_release": "v0.1.0",
+        "ci_green": true,
+        "ci_latest_conclusion": "success",
+        "archived": false,
+        "homepage": "https://grokbot-office-xi.vercel.app"
+      }
+    },
+    "grokbot-society": {
+      "full_name": "M4G3LL4N0/grokbot-society",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 17713,
+      "commands": [
+        "git clone https://github.com/M4G3LL4N0/grokbot-society.git",
+        "pnpm install",
+        "pnpm typecheck",
+        "pnpm test",
+        "pnpm dev",
+        "pnpm society start --db ./my-society.db",
+        "pnpm society status --db ./my-society.db",
+        "pnpm society people --db ./my-society.db",
+        "pnpm society chat \"Anyone up for a hike this weekend?\" --circle <INNER_CIRCLE_ID> --db ./my-society.db",
+        "pnpm society god health                          # bridge state + hard limits",
+        "pnpm society god submit '{\"type\":\"USER_MESSAGE\",\"text\":\"What is everyone doing tonight?\"}' --bridge",
+        "pnpm society god context <eventId>               # audit the bounded slice",
+        "pnpm society god result '<resultJson>'           # structured deltas \u2192 persistent state",
+        "pnpm society god usage                           # cost-per-social-value metrics",
+        "pnpm society god benchmarks                      # scenarios A\u2013F, all dry ($0.00)",
+        "pnpm society god compare A                       # route cost/quality comparison"
+      ],
+      "links": {
+        "first_party": [
+          "https://github.com/M4G3LL4N0/grokbot-society.git"
+        ],
+        "third_party": [
+          "https://grokbot-society.vercel.app"
+        ]
+      },
+      "architectural_claims": [
+        "| Silent retries on failure | **Fail closed: deterministic fallback, no retry loops** |",
+        "Deterministic social orchestration** \u2014 Participant selection, context compilation, and validation are pure code",
+        "Kill switch: every gateway `generate` fails closed (`KillSwitchError`) \u2192 deterministic fallback",
+        "| Guarantee | File | Verdict |",
+        "| Deterministic bounded actor context | `tests/08.society-mvp.test.ts` | \u2705 PASS |",
+        "| Pause/resume + kill switch deterministic fallback | `tests/08.society-mvp.test.ts` | \u2705 PASS |",
+        "Provider-neutral runtime with mock/deterministic/remote-stub providers",
+        "[`ARCHITECTURE.md`](ARCHITECTURE.md) \u2014 Full pipeline, layers, and invariants",
+        "[`docs/GOD.md`](docs/GOD.md) \u2014 God as deterministic kernel, not super-agent",
+        "[`docs/ROLES.md`](docs/ROLES.md) \u2014 Composable role architecture"
+      ],
+      "caveats": [
+        "| Concept | What it is | What it is NOT |",
+        "| **GrokBot** | Optional premium inference source (a route, not an identity) | Required; the runtime works at $0 without one |",
+        "Hard limits (enforced, not advisory):** 1 call per event \u00b7 recursion 0 \u00b7",
+        "whole society runs on `social.mock` at $0.00.",
+        "God is an enhancement, never a",
+        "Population size does not change context size.",
+        "One God call can render several",
+        "Context does not grow with conversation length.",
+        "| 10 | Never activates everyone: 10-member circle \u2192 \u2264 3 speakers | `tests/03.scenes.test.ts` | \u2705 PASS |",
+        "| Unavailable model class fails closed, never falls back to paid | `tests/05.guards.test.ts` | \u2705 PASS |",
+        "| Roles/circles/entity routes never create agents | `tests/08.society-mvp.test.ts` | \u2705 PASS |",
+        "[`docs/GOD.md`](docs/GOD.md) \u2014 God as deterministic kernel, not super-agent",
+        "GrokBot Society is an independent open-source project.** It is not affiliated with, endorsed by, or connected to xAI, Grok, Cursor, or any other company.",
+        "\"GrokBot\" in this project refers to an optional internal inference route name only."
+      ],
+      "facts": {
+        "description": "Provider-neutral runtime for persistent synthetic people: roles, memory, economics and governance.",
+        "license": "NOASSERTION",
+        "topics": [
+          "agent-runtime",
+          "agentic-ai",
+          "ai-agents",
+          "multi-agent",
+          "open-source",
+          "simulation",
+          "typescript"
+        ],
+        "verified_tests": 157,
+        "release_count": 1,
+        "latest_release": "v0.1.0",
+        "ci_green": true,
+        "ci_latest_conclusion": "success",
+        "archived": false,
+        "homepage": "https://grokbot-society.vercel.app"
+      }
+    },
+    "grokinstall": {
+      "full_name": "M4G3LL4N0/grokinstall",
+      "classification": "FLAGSHIP",
+      "readme_present": true,
+      "readme_bytes": 13885,
+      "commands": [
+        "curl -LO https://github.com/M4G3LL4N0/grokinstall/releases/download/v0.1.0/grokinstall_v0.1.0_darwin_arm64.tar.gz",
+        "curl -LO https://github.com/M4G3LL4N0/grokinstall/releases/download/v0.1.0/SHA256SUMS",
+        "go install github.com/M4G3LL4N0/grokinstall/cmd/grokinstall@latest",
+        "git clone https://github.com/M4G3LL4N0/grokinstall",
+        "go build -o grokinstall ./cmd/grokinstall",
+        "go test ./...          # unit and integration tests",
+        "go vet ./...",
+        "go test -race ./...",
+        "go build ./..."
+      ],
+      "links": {
+        "first_party": [
+          "https://github.com/M4G3LL4N0/grokinstall",
+          "https://github.com/M4G3LL4N0/grokinstall/releases",
+          "https://github.com/M4G3LL4N0/grokinstall/releases/download/v0.1.0/SHA256SUMS",
+          "https://github.com/M4G3LL4N0/grokinstall/releases/download/v0.1.0/grokinstall_v0.1.0_darwin_arm64.tar.gz"
+        ],
+        "third_party": [
+          "https://github.com/sharkdp/bat"
+        ]
+      },
+      "architectural_claims": [
+        "smallest useful integration, and generates a compact contract GrokBot can invoke",
+        "| The whole repository enters model context | GrokBot receives a small contract |",
+        "cli_bridge` \u2014 wrap an existing command behind a JSON contract",
+        "knowledge_import` \u2014 a bounded local index with deterministic search",
+        "What GrokInstall **cannot** guarantee: that a source's contents are benign, that",
+        "permissions, checksum provenance, adapter integrity and the GrokBot contract.",
+        "| `inspect` | bounded, deterministic reading of a source; never executes it |",
+        "| `plan` | the Part 1 planning pipeline |",
+        "| `knowledge` | bounded local index and deterministic search |",
+        "| `manifest` | the capability contract |"
+      ],
+      "caveats": [
+        "Install the capability, not the complexity.",
+        "GrokInstall is **the integration guru for GrokBot**.",
+        "It decides what should *not* be installed just as carefully as what",
+        "should be, and \"do not install\" is a first-class answer.",
+        "thing about a project is usually a handful of operations, not its source.",
+        "| Install scripts run because a README says so | Scripts are recorded as evidence, never executed blindly |",
+        "not equivalent to the verified integrations above.",
+        "GrokInstall does **not** claim to support every GitHub project, to install",
+        "anything with one click, or to work with every tool.",
+        "It refuses when it cannot",
+        "It is not a claim that every repository can be provisioned this way.",
+        "GrokInstall can obtain a missing executable, but it is not a general package",
+        "Approvals name a specific risk class.",
+        "There is deliberately no generic `--yes`:",
+        "GrokBot needs three commands and never needs the repository.",
+        "GrokBot is never handed something it cannot call.",
+        "repositories are never handed to a model.",
+        "README and source text are **evidence, never authority**.",
+        "Inspection is bounded and never executes project code or install scripts.",
+        "What GrokInstall **cannot** guarantee: that a source's contents are benign, that",
+        "Severity is not inflated: a clean install produces no findings above `info`.",
+        "| `inspect` | bounded, deterministic reading of a source; never executes it |",
+        "We deliberately do not lead with `curl ...",
+        "GrokInstall verifies release",
+        "artifacts; its own installer should not be less careful."
+      ],
+      "facts": {
+        "description": "Install the capability, not the complexity. A Go CLI that inspects a repo and installs the smallest useful integration.",
+        "license": "MIT",
+        "topics": [
+          "automation",
+          "capability-management",
+          "cli",
+          "developer-tools",
+          "go",
+          "open-source",
+          "packaging",
+          "tooling"
+        ],
+        "verified_tests": 486,
+        "release_count": 2,
+        "latest_release": "v0.1.1",
+        "ci_green": false,
+        "ci_latest_conclusion": "failure",
+        "archived": false,
+        "homepage": "https://grokinstall-website.vercel.app"
+      }
+    },
+    "grokmax": {
+      "full_name": "M4G3LL4N0/grokmax",
+      "classification": "FLAGSHIP",
+      "readme_present": true,
+      "readme_bytes": 6885,
+      "commands": [
+        "git clone https://github.com/M4G3LL4N0/grokmax.git",
+        "pnpm install",
+        "pnpm cli doctor          # health check across every subsystem",
+        "pnpm cli benchmark       # measured on THIS machine; deterministic-only, no spend",
+        "pnpm cli optimize \"Calculate 7*8 and return the integer result\"",
+        "pnpm cli route \"Refactor the scheduler module and add tests\"",
+        "pnpm cli dry-run \"Fix the typecheck error in src/main.ts\"",
+        "pnpm cli savings"
+      ],
+      "links": {
+        "first_party": [
+          "https://github.com/M4G3LL4N0/grokmax.git"
+        ],
+        "third_party": []
+      },
+      "architectural_claims": [
+        "GrokMax is a deterministic-first execution pipeline for GrokBot: it routes every",
+        "> What is safe to rely on: the deterministic routing pipeline, the five-layer",
+        "> cache, the ledger, and the `doctor` command.",
+        "> absolute-cost marketing.",
+        "Numbers from the pipeline are labelled `measured`,",
+        "| Deterministic-first | Zero-cost local executors handle math/hash/count/git before anything costs money.",
+        "| 5-layer cache | L1 exact, L2 normalized, L3 semantic, L4 artifact, L5 durable knowledge.",
+        "| Honest telemetry | Every number is labeled **measured / estimated / proxy** in the ledger.",
+        "Savings are proxies unless imported from live measurement.",
+        "| Graceful degradation | No provider, no problem \u2014 routing returns `none` and the pipeline reports it plainly.",
+        "| `grokmax optimize \"<goal>\"` | Full pipeline: plan + outcome.",
+        "| `grokmax preflight \"<task>\"` | In-Bot preflight contract for the GrokBot skill.",
+        "See [docs/INBOT-MODE.md](docs/INBOT-MODE.md).",
+        "| `grokmax explain <runId>` | Inspect a specific run in the ledger.",
+        "| `grokmax usage` | Ledger summary, honestly labeled.",
+        "| `grokmax status` | One-view aggregate (doctor + cache + ledger + savings)."
+      ],
+      "caveats": [
+        "> marks it NOT READY.** That audit is committed at",
+        "> What is **not** cleared: live account-savings claims, Edge Mode, and any",
+        "> `estimated` or `proxy`, and a proxy is not a bill.",
+        "any given day are not GrokBot-only tasks.",
+        "| Context slicing | Sends ~1,500 relevant tokens instead of 20,000.",
+        "Reductions are a **proxy** for token cost, never a billed measurement.",
+        "| `grokmax route \"<goal>\"` | Routing decision only (never executes).",
+        "Useful, directional, and never presented as platform-anonymous measurements."
+      ],
+      "facts": {
+        "description": "Deterministic-first LLM routing: zero-cost executors first, five-layer cache, telemetry that never overstates savings.",
+        "license": "MIT",
+        "topics": [
+          "agentic-ai",
+          "ai-infrastructure",
+          "caching",
+          "cost-optimization",
+          "developer-tools",
+          "llm",
+          "open-source",
+          "routing",
+          "telemetry",
+          "typescript"
+        ],
+        "verified_tests": 287,
+        "release_count": 1,
+        "latest_release": "v0.2.0-rc.2",
+        "ci_green": true,
+        "ci_latest_conclusion": "success",
+        "archived": false,
+        "homepage": "https://grokmax.noaerth.com"
+      }
+    },
+    "M4G3LL4N0": {
+      "full_name": "M4G3LL4N0/M4G3LL4N0",
+      "classification": "PROFILE",
+      "readme_present": true,
+      "readme_bytes": 12017,
+      "commands": [],
+      "links": {
+        "first_party": [
+          "https://github.com/M4G3LL4N0/agentos",
+          "https://github.com/M4G3LL4N0/gh0st",
+          "https://github.com/M4G3LL4N0/grokbot-office",
+          "https://github.com/M4G3LL4N0/grokbot-society",
+          "https://github.com/M4G3LL4N0/grokinstall",
+          "https://github.com/M4G3LL4N0/grokmax",
+          "https://github.com/M4G3LL4N0/noaerth-portfolio-os",
+          "https://github.com/M4G3LL4N0/opencode-watchdog",
+          "https://github.com/M4G3LL4N0/seai-mind",
+          "https://github.com/M4G3LL4N0/why-are-you-here",
+          "https://www.noaerth.com"
+        ],
+        "third_party": [
+          "https://github.com/M4G3LL4N0?tab=repositories"
+        ]
+      },
+      "architectural_claims": [
+        "<img src=\"assets/profile/cards/noaerth-portfolio-os-dark.svg\" alt=\"Portfolio OS \u2014 SQLite work queue, reviewer separation, allowlisted publishing.\" width=\"100%\">",
+        "<img src=\"assets/profile/cards/opencode-watchdog-dark.svg\" alt=\"OpenCode Watchdog \u2014 circuit breaker for runaway sessions.",
+        "No model decides you are stuck.\" width=\"100%\">",
+        "Each of these has an architecture, a test suite, and a documented failure story.",
+        "the ledger, test counts from a suite an operator actually ran.",
+        "[grokmax](https://github.com/M4G3LL4N0/grokmax) \u2014 Deterministic-first LLM routing: zero-cost executors first, five-layer cache,\u2026 \u00b7 287 tests",
+        "[opencode-watchdog](https://github.com/M4G3LL4N0/opencode-watchdog) \u2014 Local circuit breaker for runaway OpenCode sessions.",
+        "Deterministic detection,\u2026 \u00b7 70 tests",
+        "| [grokbot-office](https://github.com/M4G3LL4N0/grokbot-office) | Agent workforce architecture: roles, policy, handoffs and r\u2026 | 149 | yes | v0.1.0 | MIT |",
+        "| [grokmax](https://github.com/M4G3LL4N0/grokmax) | Deterministic-first LLM routing: zero-cost executors first,\u2026 | 287 | yes | v0.2.0-rc.2 | MIT |",
+        "| [opencode-watchdog](https://github.com/M4G3LL4N0/opencode-watchdog) | Local circuit breaker for runaway OpenCode sessions.",
+        "Determ\u2026 | 70 | yes | v0.1.0 | MIT |"
+      ],
+      "caveats": [
+        "<sub>Autonomous systems &#183; developer infrastructure &#183; research tooling &#183; experimental technology</sub>",
+        "assets/profile/build-signal.json.",
+        "<sub>Measured 2026-10-04T23:33:30+00:00.",
+        "Source: enriched repos.json snapshot + tests.json (operator-recorded test counts).",
+        "Stars and forks are deliberately absent: at this scale they are not evidence.</sub>",
+        "That is the bar, not the feature list.",
+        "Everything else lives in the",
+        "documentation names the other.",
+        "Most systems deliberately have no",
+        "The rule that holds it together: **no component reports a number it did not",
+        "<!-- Generated by Portfolio OS GitHubOS.",
+        "<sub>Stars and forks are deliberately not shown.",
+        "They are not evidence at this scale; the test, CI, and release columns below are.</sub>",
+        "[grokinstall](https://github.com/M4G3LL4N0/grokinstall) \u2014 Install the capability, not the complexity.",
+        "A Go CLI that inspects a repo and\u2026 \u00b7 486 tests",
+        "| [grokinstall](https://github.com/M4G3LL4N0/grokinstall) | Install the capability, not the complexity.",
+        "A Go CLI that i\u2026 | 486 | yes | v0.1.1 | MIT |",
+        "<sub>Tests are recorded by an operator after running the suite; CI and releases are read from the GitHub API.",
+        "A dash means unmeasured, not zero.</sub>",
+        "<!-- No upstream section is rendered: 0 pull requests have been merged into repositories this account does not own.",
+        "Regenerate with render_upstream_block.py once that changes.",
+        "STATUS: EXPERIMENTAL`, and explicit about what was tested, what works, and what",
+        "An unfinished project is a draft, not a lab.",
+        "<em>integration targets</em> inside provider-neutral runtimes."
+      ],
+      "facts": {
+        "description": "Profile of M4G3LL4N0 \u2014 autonomous systems, developer infrastructure, and research tooling under Noaerth.",
+        "license": "MIT",
+        "topics": [
+          "agentic-ai",
+          "ai-agents",
+          "developer-tools",
+          "infrastructure",
+          "local-first",
+          "noaerth",
+          "open-source",
+          "profile"
+        ],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": true,
+        "ci_latest_conclusion": "success",
+        "archived": false,
+        "homepage": "https://www.noaerth.com"
+      }
+    },
+    "noaerth-portfolio-os": {
+      "full_name": "M4G3LL4N0/noaerth-portfolio-os",
+      "classification": "FLAGSHIP",
+      "readme_present": true,
+      "readme_bytes": 8734,
+      "commands": [
+        "git clone https://github.com/M4G3LL4N0/noaerth-portfolio-os.git"
+      ],
+      "links": {
+        "first_party": [
+          "https://github.com/M4G3LL4N0/agentos",
+          "https://github.com/M4G3LL4N0/noaerth-portfolio-os.git",
+          "https://github.com/M4G3LL4N0/noaerth-portfolio-os/actions/workflows/ci.yml",
+          "https://www.noaerth.com"
+        ],
+        "third_party": [
+          "http://127.0.0.1:8787",
+          "https://docs.python.org/3/library/sqlite3.html",
+          "https://github.com/M4G3LL4N0",
+          "https://www.python.org/"
+        ]
+      },
+      "architectural_claims": [
+        "Portfolio OS is a **SQLite-backed work queue with reviewer separation and an",
+        "| **Queue** | `queue`, `startup <slug>` | Every agent run holds a lock.",
+        "Two agents cannot claim the same work item.",
+        "| **Release blocking** | `block-release`, `approve-release` | Deployment stays suppressed while a Vercel daily-cap blocker is on record.",
+        "Design and review work still runs.",
+        "Three invariants hold the design together:",
+        "architecture notes but are not read by this code.",
+        "If you need them, that is an"
+      ],
+      "caveats": [
+        "A control plane for a portfolio of autonomous agents \u2014 where the database, not the prompt, decides what happens next.",
+        "| **Queue** | `queue`, `startup <slug>` | Every agent run holds a lock.",
+        "Two agents cannot claim the same work item.",
+        "| **Review separation** | `review --role <R> --dimension <D>` | **The role that implements a change cannot close that change by reviewing it.** A failed review creates follow-up work.",
+        "| **Visual QA** | `run --startup <slug>` | A page returning HTTP 200 is not a pass.",
+        "VISUAL_QA_PENDING` stays until a reviewer records desktop *and* mobile passes.",
+        "| **Isolated work** | worktrees | Dirty product repos are never edited in place.",
+        "Work goes to `portfolio/<startup>/<work-item>`.",
+        "| **Public boundary** | `publish` | `public.json` is built from an **allowlist**.",
+        "PRIVATE_SYSTEM` events are excluded by construction, not by scrubbing afterwards.",
+        "incident, not a data loss.",
+        "by the schema, not by asking nicely.",
+        "Public is an allowlist, not a filter.** Anything not explicitly marked",
+        "The failure mode is *too private*, never *too public*.",
+        "Everything below was produced by running the code, not by describing it.",
+        "Deliberately **not** built:",
+        "It is a control plane, not a SaaS product.",
+        "| `PORTFOLIO_OS_API_TOKEN` | 16+ characters.",
+        "Overrides the local credential for a non-loopback host.",
+        "On loopback a random credential is generated and stored locally instead \u2014 it is never printed and is not valid off the machine.",
+        "They belong in the server environment.",
+        "To be explicit about what is **not** here: `PORTFOLIO_OS_PUBLIC_URL`,",
+        "architecture notes but are not read by this code.",
+        "If you need them, that is an"
+      ],
+      "facts": {
+        "description": "Stdlib-only control plane for a portfolio of autonomous agents: SQLite work queue, reviewer separation, and an allowlist public boundary.",
+        "license": "MIT",
+        "topics": [
+          "agentic-ai",
+          "ai-agents",
+          "automation",
+          "control-plane",
+          "developer-tools",
+          "infrastructure",
+          "local-first",
+          "multi-agent",
+          "open-source",
+          "python",
+          "sqlite",
+          "workflow-automation"
+        ],
+        "verified_tests": 203,
+        "release_count": 1,
+        "latest_release": "v0.1.0",
+        "ci_green": true,
+        "ci_latest_conclusion": "success",
+        "archived": false,
+        "homepage": "https://www.noaerth.com"
+      }
+    },
+    "opencode-watchdog": {
+      "full_name": "M4G3LL4N0/opencode-watchdog",
+      "classification": "FLAGSHIP",
+      "readme_present": true,
+      "readme_bytes": 4488,
+      "commands": [
+        "git clone https://github.com/M4G3LL4N0/opencode-watchdog.git",
+        "pnpm install",
+        "pnpm run build"
+      ],
+      "links": {
+        "first_party": [
+          "https://github.com/M4G3LL4N0/opencode-watchdog.git"
+        ],
+        "third_party": [
+          "https://opencode-watchdog.vercel.app"
+        ]
+      },
+      "architectural_claims": [
+        "A local circuit breaker for runaway OpenCode sessions.",
+        "No model used for detection (purely local, deterministic)"
+      ],
+      "caveats": [
+        "OpenCode Watchdog is an independent community project by Noaerth.",
+        "It is not affiliated with, endorsed by, or maintained by the OpenCode team.",
+        "Recover**: Abort then send a recovery prompt (experimental, bounded)",
+        "Does not kill Desktop or unrelated sessions",
+        "Credentials (if set) are read from environment and never logged."
+      ],
+      "facts": {
+        "description": "Local circuit breaker for runaway OpenCode sessions. Deterministic detection, no model, no data leaves the machine.",
+        "license": "MIT",
+        "topics": [
+          "ai",
+          "circuit-breaker",
+          "cli",
+          "developer-tools",
+          "local-first",
+          "open-source",
+          "opencode",
+          "reliability",
+          "safety",
+          "typescript"
+        ],
+        "verified_tests": 70,
+        "release_count": 1,
+        "latest_release": "v0.1.0",
+        "ci_green": true,
+        "ci_latest_conclusion": "success",
+        "archived": false,
+        "homepage": "https://opencode-watchdog.vercel.app"
+      }
+    },
+    "seai-mind": {
+      "full_name": "M4G3LL4N0/seai-mind",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 2332,
+      "commands": [
+        "pnpm install",
+        "pnpm build",
+        "pnpm test",
+        "node packages/cli/dist/cli.js doctor",
+        "node packages/cli/dist/cli.js init --name DarwinTest",
+        "node packages/cli/dist/cli.js run \"What is 2 + 2?\"",
+        "node packages/cli/dist/cli.js evolve propose --mind default",
+        "node packages/cli/dist/cli.js evolve history --mind default",
+        "node packages/cli/dist/cli.js evolve promote <experimentId> --mind default",
+        "node packages/cli/dist/cli.js run \"What is 3 + 3? Answer in JSON.\" --mind default",
+        "node packages/cli/dist/cli.js evolve rollback --mind default",
+        "node packages/cli/dist/cli.js evolve propose --mind default --suite extraction-json-v1 --models --candidates json-only-prompt,polite-json-prompt",
+        "node packages/cli/dist/cli.js evolve compare <experimentId> --mind default"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [
+        "First evolution loop (deterministic, no model needed)",
+        "Architecture (7 build units)",
+        "See `docs/architecture/` (MINIMAL_KERNEL, MIND_MODEL, MEMORY_MODEL,",
+        "REAL: Mind lifecycle, Mind-isolated memory, deterministic + Ollama model"
+      ],
+      "caveats": [],
+      "facts": {
+        "description": "Open-source self-evolving AI kernel with an auditable memory and capability loop.",
+        "license": "MIT",
+        "topics": [
+          "agent-memory",
+          "agentic-ai",
+          "ai-agents",
+          "evolutionary-ai",
+          "open-source",
+          "research",
+          "typescript"
+        ],
+        "verified_tests": 146,
+        "release_count": 1,
+        "latest_release": "v0.1.0-alpha",
+        "ci_green": false,
+        "ci_latest_conclusion": "failure",
+        "archived": false,
+        "homepage": "https://seai-mind.vercel.app"
+      }
+    },
+    "why-are-you-here": {
+      "full_name": "M4G3LL4N0/why-are-you-here",
+      "classification": "LEGACY_EASTER_EGG",
+      "readme_present": true,
+      "readme_bytes": 2492,
+      "commands": [],
+      "links": {
+        "first_party": [
+          "https://www.noaerth.com/",
+          "https://www.noaerth.com/labs",
+          "https://www.noaerth.com/portfolio"
+        ],
+        "third_party": []
+      },
+      "architectural_claims": [
+        "Creative technology** \u2014 product design systems, interaction engines, experimental interfaces and media",
+        "Noaerth** is the public map of the broader build ecosystem\u2014products, developer tools, research, experiments, and the operating layer connecting them."
+      ],
+      "caveats": [
+        "Creative technology** \u2014 product design systems, interaction engines, experimental interfaces and media",
+        "The GitHub surface is being curated project-by-project so that public repositories are useful artifacts, not a dump of unfinished directories."
+      ],
+      "facts": {
+        "description": "How did you find this GitHub?",
+        "license": null,
+        "topics": [
+          "easter-egg",
+          "meta",
+          "noaerth"
+        ],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    }
+  }
+}
