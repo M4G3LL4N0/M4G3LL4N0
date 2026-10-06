@@ -108,6 +108,69 @@ class TestInventoryBoundary(unittest.TestCase):
         self.assertEqual(missing, [],
                          "every flagship needs a designed visual identity")
 
+    def test_every_public_system_resolves_an_identity(self):
+        """Every public system resolves, authored or derived.
+
+        Distinct from coverage: this asserts that identity() resolves for every
+        repository in the inventory at all, which is the condition that lets the
+        map render. Authored identities still win where they exist.
+        """
+        sys.path.insert(0, str(PROFILE / "scripts"))
+        from github_art import project_identity as P
+        systems = [e["name"] for e in self.inventory["repositories"]
+                   if e["classification"] not in ("PROFILE", "LEGACY_EASTER_EGG")]
+        unresolved = []
+        for n in systems:
+            try:
+                P.identity(n)
+            except KeyError:
+                unresolved.append(n)
+        self.assertEqual(unresolved, [],
+                         "public systems with no resolvable identity")
+
+    def test_generated_identities_are_structurally_unique(self):
+        """No two public systems may share a full structural key.
+
+        Distinct in silhouette and surface, not merely in hue. The previous
+        check only looked at the five authored flagships, so 119 derived marks
+        could have been identical and the suite would have stayed green.
+        """
+        sys.path.insert(0, str(PROFILE / "scripts"))
+        from github_art import project_identity as P
+        systems = [e["name"] for e in self.inventory["repositories"]
+                   if e["classification"] not in ("PROFILE", "LEGACY_EASTER_EGG")]
+        keys = {}
+        clashes = []
+        for n in systems:
+            try:
+                i = P.identity(n)
+            except KeyError:
+                continue
+            k = (i.get("family"), i.get("motif"), i.get("material"),
+                 i.get("accent"), i.get("depth"), i.get("topology"))
+            if k in keys:
+                clashes.append(f"{keys[k]} ~ {n}")
+            else:
+                keys[k] = n
+        self.assertEqual(clashes, [],
+                         f"systems sharing a full structural key: {clashes[:6]}")
+
+    def test_motif_variety_across_all_public_systems(self):
+        """A single motif repeated across the portfolio communicates nothing."""
+        sys.path.insert(0, str(PROFILE / "scripts"))
+        from github_art import project_identity as P
+        systems = [e["name"] for e in self.inventory["repositories"]
+                   if e["classification"] not in ("PROFILE", "LEGACY_EASTER_EGG")]
+        motifs = set()
+        for n in systems:
+            try:
+                motifs.add(P.identity(n).get("motif"))
+            except KeyError:
+                continue
+        self.assertGreaterEqual(
+            len(motifs), max(12, len(systems) // 8),
+            f"only {len(motifs)} distinct motifs across {len(systems)} systems")
+
     def test_public_identity_coverage_is_measured(self):
         """Report identity coverage for the whole public set.
 
@@ -118,12 +181,17 @@ class TestInventoryBoundary(unittest.TestCase):
         from github_art import project_identity as P
         systems = [e["name"] for e in self.inventory["repositories"]
                    if e["classification"] not in ("PROFILE", "LEGACY_EASTER_EGG")]
-        covered = [n for n in systems if n in P.IDENTITIES]
+        # Counts resolvable identities, authored or derived. The earlier
+        # version counted only the hand-authored table and so reported 7%
+        # coverage while every public system in fact resolved a mark.
+        covered = [n for n in systems if P.has_identity(n)]
         coverage = len(covered) / len(systems) if systems else 0.0
         self.assertGreater(coverage, 0.0)
         self.assertLessEqual(coverage, 1.0)
+        authored = sum(1 for n in covered if n in P.IDENTITIES)
         print(f"\n  public identity coverage: {len(covered)}/{len(systems)} "
-              f"({coverage:.0%}) \u2014 remaining systems have no designed mark yet")
+              f"({coverage:.0%}) \u2014 {authored} hand-authored, "
+              f"{len(covered) - authored} derived from the generative system")
 
     def test_motifs_are_not_all_identical(self):
         """Nine re-coloured cards would communicate nothing."""
