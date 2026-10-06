@@ -273,7 +273,13 @@ def stages_for(d: dict, family: str) -> list[str]:
     a category with no prose, so the chips read identically.
     """
     flow = (d.get("data_flow") or "").strip()
-    if "→" in flow:
+    # A flow made only of transport and storage words is not a stage list: it
+    # reads "HTTP requests (JSON) -> file-backed JSON -> HTTP responses (JSON)",
+    # which describes plumbing rather than what the system does. The architecture
+    # layer chain is a stage list; the IO round-trip is not.
+    io_shaped = bool(re.search(r"HTTP request|HTTP response|stdout|stderr",
+                              flow, re.I))
+    if "→" in flow and not io_shaped:
         parts = [p.strip() for p in flow.split("→") if p.strip()]
         if len(parts) >= 3:
             short = [re.sub(r"^(Interface|Control|Capability|Execution|State) Layer$",
@@ -282,22 +288,39 @@ def stages_for(d: dict, family: str) -> list[str]:
     cmds = [c["command"] for c in d.get("verified_commands", [])][:4]
     if cmds:
         return [c.split()[-1][:18] for c in cmds]
+    # Route handler names are the strongest stage signal available: `checkout`,
+    # `leads`, `verify`, `scan` say what the system does, where a directory name
+    # like `components` says only where the code sits. 43 projects in this
+    # portfolio are create-next-app apps whose only project-specific evidence in
+    # the tree is their route names.
+    routes: list[str] = []
+    for t in d.get("output_types", []):
+        m = re.match(r"route handlers:\s*(.+)$", t)
+        if m:
+            routes = [r.strip() for r in m.group(1).split(",") if r.strip()]
+    if len(routes) >= 2:
+        return [r[:18] for r in routes[:4]]
+
+    # Component names, minus the directory words that carry no meaning as a
+    # stage. `components`, `app`, `lib`, `public` are where Next.js keeps code,
+    # not what the code does.
+    GENERIC = {"components", "component", "app", "apps", "lib", "libs", "src",
+               "public", "pages", "api", "utils", "hooks", "styles", "assets",
+               "types", "scripts", "docs", "data", "config", "dist", "build"}
+    comps = d.get("major_components") or []
+    names = []
+    for c in comps[:10]:
+        m = re.match(r"([\w./-]+)", c)
+        if m:
+            base = m.group(1).split("/")[-1].rsplit(".", 1)[0]
+            base = base.replace("_", "-").lower()
+            if base and base not in names and len(base) > 2 and base not in GENERIC:
+                names.append(base[:18])
+    if len(names) >= 2:
+        return names[:4]
     iface = (d.get("interfaces") or [])
     if iface:
         return [i.split()[0].lower()[:18] for i in iface[:4]]
-    # Component names, in the project's own module vocabulary.
-    comps = d.get("major_components") or []
-    if comps:
-        names = []
-        for c in comps[:4]:
-            m = re.match(r"([\w./-]+)", c)
-            if m:
-                base = m.group(1).split("/")[-1].rsplit(".", 1)[0]
-                base = base.replace("_", "-").lower()
-                if base and base not in names:
-                    names.append(base[:18])
-        if names:
-            return names[:4]
     cat = (d.get("project_category") or "GENERAL").lower().replace("_", " ")
     return [w for w in cat.split()][:3] or ["compose"]
 
