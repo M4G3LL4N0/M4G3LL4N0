@@ -7,6 +7,7 @@
   "present": false,
   "workflows": []
  },
+ "classification": "PUBLIC_PROJECT",
  "color_family": "",
  "control_flow": "capital enters, allocates across positions, and settles into an outcome",
  "data_flow": "",

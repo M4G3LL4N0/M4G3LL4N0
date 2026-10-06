@@ -7,6 +7,7 @@
   "present": true,
   "workflows": []
  },
+ "classification": "PUBLIC_PROJECT",
  "color_family": "",
  "control_flow": "jobs enter, queue, lease, complete",
  "data_flow": "",

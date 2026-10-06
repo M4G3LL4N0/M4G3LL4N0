@@ -7,6 +7,7 @@
   "present": false,
   "workflows": []
  },
+ "classification": "PUBLIC_PROJECT",
  "color_family": "",
  "control_flow": "policy surfaces assemble into a readable security posture",
  "data_flow": "",

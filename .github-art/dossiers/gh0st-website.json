@@ -7,6 +7,7 @@
   "present": true,
   "workflows": []
  },
+ "classification": "PUBLIC_PROJECT",
  "color_family": "",
  "control_flow": "threat approaches a boundary, the boundary reacts, the path closes",
  "data_flow": "",

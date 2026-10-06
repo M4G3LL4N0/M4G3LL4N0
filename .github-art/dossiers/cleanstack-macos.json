@@ -7,6 +7,7 @@
   "present": false,
   "workflows": []
  },
+ "classification": "PUBLIC_PROJECT",
  "color_family": "",
  "control_flow": "source transforms through ordered stages into a verified result",
  "data_flow": "",

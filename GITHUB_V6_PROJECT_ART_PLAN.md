@@ -65,7 +65,7 @@ Design sources precede art. A row exists only where the three evidence sources r
 | `cleanstack-macos` | cleanstack-macos | — | GENERAL | ordered faceted stages left to right | source transforms through ordered stages into a verified result | — | polymer | mesh | violet | full |
 | `cleanstack-os` | cleanstack-os | — | SECURITY | gated channels passing through a sealed boundary | records cross a trust boundary, get validated, and are held or rejected | yes | obsidian | bracketed | indigo | full |
 | `cloudcastle` | cloudcastle | cloudcastle | SECURITY | gated channels passing through a sealed boundary | records cross a trust boundary, get validated, and are held or rejected | yes | ceramic | concentric | violet | full |
-| `commos` | commos | — | AGENT | a state ring with tool nodes attached | an objective becomes context, tools read and write state, the loop closes | yes | optical_glass | linear | mint | full |
+| `commos` | commos | — | AGENT | orthogonal dependency graph | symbols resolve against a dependency graph | yes | optical_glass | linear | mint | compact |
 | `companyos` | companyos | companyos | FINANCE | ledger columns with allocation flow between them | capital enters, allocates across positions, and settles into an outcome | yes | resin | linear | indigo | full |
 | `computeflow` | computeflow | computeflow | FINANCE | scenario panels on a comparative plane | scenarios lay out side by side for comparison | yes | obsidian | terraced | indigo | compact |
 | `computeflow-website` | computeflow | — | DEVELOPER_TOOLS | nested frames with a typographic rail | sections assemble and settle | yes | liquid_crystal | concentric | violet | compact |
@@ -98,8 +98,8 @@ Design sources precede art. A row exists only where the three evidence sources r
 | `grokbot-office-website` | grokbot-office | — | SECURITY | radial convergence onto a selected node | requests arrive, candidates narrow, one route is selected | yes | obsidian | orthogonal | violet | compact |
 | `grokbot-society` | grokbot-society | grokbot-society | SECURITY | lattice with partial connectivity | peers exchange state and converge | yes | ceramic | bracketed | violet | compact |
 | `grokbot-society-website` | grokbot-society | — | INFRASTRUCTURE | a service mesh with one coordinating node | nodes advertise capability, a coordinator selects, work converges | yes | obsidian | isometric | cyan | compact |
-| `grokgeneral` | grokgeneral | grokgeneral | SECURITY | queue lanes with lease markers | jobs enter, queue, lease, complete | — | ceramic | concentric | indigo | full |
-| `grokinstall` | grokinstall | grokinstall | SECURITY | queue lanes with lease markers | jobs enter, queue, lease, complete | yes | ceramic | orthogonal | indigo | full |
+| `grokgeneral` | grokgeneral | grokgeneral | SECURITY | closed concentric containment around a protected core | threat approaches a boundary, the boundary reacts, the path closes | — | ceramic | concentric | indigo | compact |
+| `grokinstall` | grokinstall | grokinstall | SECURITY | compact instrument panel with a terminal rail | a cursor executes real commands and the output resolves | yes | ceramic | orthogonal | indigo | compact |
 | `grokinstall-website` | grokinstall | — | SECURITY | queue lanes with lease markers | jobs enter, queue, lease, complete | yes | obsidian | bracketed | violet | full |
 | `grokmax` | grokmax | grokmax | QUANT | closed loop with a verification terminus | objective becomes a plan, tools execute, verification resolves | yes | obsidian | orthogonal | indigo | full |
 | `grokmax-website` | grokmax | — | SECURITY | closed loop with a verification terminus | objective becomes a plan, tools execute, verification resolves | yes | deep_glass | concentric | indigo | full |
@@ -123,7 +123,7 @@ Design sources precede art. A row exists only where the three evidence sources r
 | `oddbotix` | oddbotix | — | SECURITY | nested policy frames with a visible boundary edge | policy surfaces assemble into a readable security posture | yes | ceramic | orthogonal | violet | compact |
 | `oodax` | oodax | oodax | SECURITY | nested policy frames with a visible boundary edge | policy surfaces assemble into a readable security posture | yes | obsidian | orthogonal | violet | compact |
 | `opencode-watchdog` | opencode-watchdog | opencode-watchdog | AGENT | a closed loop with a verification terminus | objective becomes a plan, tools execute, verification resolves the answer | yes | liquid_crystal | linear | violet | full |
-| `opencode-watchdog-website` | opencode-watchdog | — | AGENT | a closed loop with a verification terminus | objective becomes a plan, tools execute, verification resolves the answer | yes | obsidian | orthogonal | indigo | full |
+| `opencode-watchdog-website` | opencode-watchdog | — | AGENT | queue lanes with lease markers | jobs enter, queue, lease, complete | yes | obsidian | orthogonal | indigo | full |
 | `opsautopilot` | opsautopilot | opsautopilot | FINANCE | ledger columns with allocation flow between them | capital enters, allocates across positions, and settles into an outcome | — | ceramic | orthogonal | indigo | full |
 | `orbitchip` | orbitchip | orbitchip | FINANCE | ledger columns with allocation flow between them | capital enters, allocates across positions, and settles into an outcome | — | ceramic | linear | indigo | full |
 | `orbitprint` | orbitprint | orbitprint | FINANCE | ledger columns with allocation flow between them | capital enters, allocates across positions, and settles into an outcome | — | obsidian | linear | indigo | full |
@@ -157,12 +157,12 @@ Design sources precede art. A row exists only where the three evidence sources r
 
 ## Uniqueness audit
 
-- **architecture**: 8 distinct
+- **architecture**: 10 distinct
 - **category**: 7 distinct
 - **motif**: 25 distinct
 - **material**: 8 distinct
 - **accent**: 4 distinct
-- **animation**: 16 distinct
+- **animation**: 18 distinct
 
 Problems: **0**
 

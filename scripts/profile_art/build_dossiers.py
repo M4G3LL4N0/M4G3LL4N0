@@ -249,6 +249,10 @@ def map_repository(repo: dict, local: dict[str, Path],
 
 # ---------------------------------------------------------------- dossier
 
+FLAGSHIP_ORDER = ("agentos", "grokinstall", "grokmax", "gh0st",
+                  "opencode-watchdog")
+FLAGSHIPS = set(FLAGSHIP_ORDER)
+
 CATEGORY_RULES: list[tuple[str, tuple[str, ...]]] = [
     ("SECURITY", ("security", "privacy", "encrypt", "auth", "vault", "secret",
                   "firewall", "sandbox", "threat", "redact")),
@@ -394,6 +398,30 @@ def detect_architecture(name: str, local: dict, description: str) -> str:
                              "shader", "svg")):
         return "GENERATIVE"
 
+    # No architecture document. Classify from what the project says it *does*,
+    # read from its description, before falling back to keyword archaeology.
+    #
+    # grokinstall was classified SCHEDULER because "queue" appears somewhere in
+    # its internals. It is a Go CLI that inspects a repository and installs the
+    # smallest useful capability; there is no scheduler. Matching an incidental
+    # keyword produces art that depicts a system the project is not.
+    verb = description.lower()
+    if re.search(r"\b(cli|command[- ]line)\b", verb) or \
+            any(p in root for p in ("cli.py", "main.go", "cmd", "bin")):
+        return "CLI"
+    if re.search(r"\bwatchdog|monitor|observe|detect\b", verb):
+        return "SCHEDULER"
+    if re.search(r"\b(router|proxy|gateway|route)\b", verb):
+        return "ROUTER"
+    if re.search(r"\b(agent|planner|orchestrat|evolv)\b", verb):
+        return "AGENT_LOOP"
+    if re.search(r"\b(encrypt|privacy|offline|local[- ]first)\b", verb):
+        return "SECURITY"
+    if re.search(r"\b(store|database|index|query|records)\b", verb):
+        return "DATA_FLOW"
+    if re.search(r"\b(library|sdk|package|toolkit|helper)\b", verb):
+        return "LIBRARY"
+
     # Structure, when there is no architecture document to read.
     if any("/api/" in f or f.startswith("app/api") for f in src):
         return "DATA_FLOW"
@@ -438,6 +466,12 @@ def build_dossier(m: dict, repo: dict, local: dict, venture: dict | None) -> dic
 
     d = {
         "canonical_name": m["canonical_project_name"],
+        # Class comes from the identity registry, not from the repository, so
+        # a flagship is a flagship everywhere: in its dossier, its hero, its
+        # intensity budget and its README structure.
+        "classification": ("FLAGSHIP" if m["github_repo"] in FLAGSHIPS
+                           else "PUBLIC_ARCHIVE" if repo.get("isArchived")
+                           else "PUBLIC_PROJECT"),
         "github_repo": m["github_repo"],
         "design_version": "V6",
         "mapping_confidence": m["confidence"],

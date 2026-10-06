@@ -7,6 +7,7 @@
   "present": false,
   "workflows": []
  },
+ "classification": "PUBLIC_PROJECT",
  "color_family": "",
  "control_flow": "a dependency graph resolves, packages install, the build advances",
  "data_flow": "",
