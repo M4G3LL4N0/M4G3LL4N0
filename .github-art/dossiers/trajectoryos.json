@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "policy surfaces assemble into a readable security posture",
+ "animation_metaphor": "claims stack into tiers, and evidence is carried up to be checked",
  "architecture_type": "DOCUMENT",
  "benchmark_dimensions": [],
  "canonical_name": "TrajectoryOS",
@@ -8,47 +8,78 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
- "control_flow": "policy surfaces assemble into a readable security posture",
+ "color_family": "mint",
+ "control_flow": "",
  "data_flow": "",
  "depth": "layered",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "2",
-  "source_a_files": 50,
-  "source_a_local": "/Users/matador/startups/trajectoryos",
-  "source_b_venture": "trajectoryos",
-  "source_c_github": "https://github.com/M4G3LL4N0/trajectoryos"
+  "arch_doc": "ARCHITECTURE.md",
+  "cli_entrypoint": "",
+  "manifest": "package.json",
+  "readme": "README.md",
+  "source_a_local": "/srv/noaerth/startups/trajectoryos",
+  "source_files_sampled": 26,
+  "test_files": 0
  },
  "experimental_features": [],
- "frameworks": [],
- "geometry_family": "DOCUMENT",
+ "frameworks": [
+  "next.js",
+  "react",
+  "tailwindcss"
+ ],
+ "geometry_family": "EVIDENCE_SURFACE",
  "github_repo": "trajectoryos",
- "industry": "SECURITY",
+ "industry": "SPACE",
  "input_types": [],
- "known_limitations": [],
+ "interfaces": [],
+ "known_limitations": [
+  "LOCAL_REVIEW.md: Public metrics are illustrative unless marked PROVEN in `startupjourney.md`.",
+  "LOCAL_REVIEW.md: High-stakes decisions require human professional review where applicable.",
+  "no test tree in the repository; no test count is claimed",
+  "no CI workflow configured",
+  "no LICENSE file at the repository root"
+ ],
  "languages": [
   "TypeScript"
  ],
- "major_components": [],
+ "major_components": [
+  "components (21 files)",
+  ".autobuilder (3 files)",
+  "app/* (3 files)",
+  "public-site (3 files)"
+ ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "paper_stock",
+ "noaerth_category": "Venture Intelligence",
+ "noaerth_category_path": "Venture Intelligence",
+ "noaerth_next_milestone": "Align hero and first action with: Mission-grade calculations for the frontier",
+ "noaerth_operating_facts": {
+  "Focus": "Venture Intelligence layer",
+  "Stage": "Building",
+  "Type": "Venture Intelligence"
+ },
+ "noaerth_site": "https://trajectoryos-public.vercel.app/",
  "output_types": [],
- "primary_user": "",
- "primary_visual_metaphor": "nested policy frames with a visible boundary edge",
- "primary_workflow": "policy surfaces assemble into a readable security posture",
- "problem": "",
- "project_category": "SECURITY",
- "public_financial_context": "not published per venture",
- "public_noaerth_positioning": "",
+ "primary_user": "built for the frontier",
+ "primary_visual_metaphor": "claims stacking into checkable tiers",
+ "primary_workflow": "",
+ "problem": "TrajectoryOS is an AI-native mission computation layer for space, physics, aerospace, robotics, and engineering teams. This repository contains the public marketing site (Next.js App Router).",
+ "problem_source": "project source",
+ "project_category": "SPACE",
+ "project_category_basis": "project text: trajectory, mission",
+ "project_category_previous": "SPACE",
+ "public_noaerth_positioning": "Trajectory intelligence for ventures, markets, and strategic positioning.",
  "purpose": "Startup portfolio: trajectoryos",
- "release": "unknown",
- "secondary_visual_metaphor": "",
+ "release": "0.1.0",
+ "secondary_visual_metaphor": "evidence tiers in terraced arrangement",
  "secondary_workflows": [],
- "security_characteristics": [],
+ "security_characteristics": [
+  "approval required before privileged action"
+ ],
  "state_model": "",
  "technical_category": "DOCUMENT",
- "terminal_metaphor": "a cursor running real commands",
+ "terminal_metaphor": "",
  "tests": {
   "executed": false,
   "files": 0,
@@ -57,10 +88,16 @@
  },
  "trillionx_intensity": "standard",
  "unresolved": [
-  "primary_user",
-  "problem"
+  "data_flow",
+  "state_model",
+  "input_types",
+  "output_types",
+  "verified_features",
+  "terminal_metaphor",
+  "primary_workflow"
  ],
- "venture_stage": "",
+ "venture_stage": "Building",
+ "verified_commands": [],
  "verified_features": [],
  "visual_density": "medium"
 }

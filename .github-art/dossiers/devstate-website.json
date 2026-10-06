@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "a dependency graph resolves, packages install, the build advances",
+ "animation_metaphor": "a cursor runs this project's real commands and output resolves",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "devstate-website",
@@ -8,47 +8,88 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
- "control_flow": "a dependency graph resolves, packages install, the build advances",
- "data_flow": "",
- "depth": "layered",
+ "color_family": "cyan",
+ "control_flow": "devstate run build",
+ "data_flow": "CLI arguments \u2192 in-process state \u2192 stdout / stderr (also via `devstate` subcommands, HTTP requests (JSON))",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "unknown",
-  "source_a_files": 41,
-  "source_a_local": "/Users/matador/startups/devstate",
-  "source_b_venture": "",
-  "source_c_github": "https://github.com/M4G3LL4N0/devstate-website"
+  "arch_doc": "ARCHITECTURE.md",
+  "cli_entrypoint": "package.json scripts",
+  "manifest": "package.json",
+  "readme": "README.md",
+  "source_a_local": "/srv/noaerth/startups/devstate",
+  "source_files_sampled": 21,
+  "test_files": 0
  },
  "experimental_features": [],
- "frameworks": [],
- "geometry_family": "DATA_FLOW",
+ "frameworks": [
+  "next.js",
+  "react",
+  "tailwindcss"
+ ],
+ "geometry_family": "INSTRUMENT",
  "github_repo": "devstate-website",
  "industry": "DEVELOPER_TOOLS",
- "input_types": [],
- "known_limitations": [],
+ "input_types": [
+  "CLI arguments",
+  "`devstate` subcommands",
+  "HTTP requests (JSON)"
+ ],
+ "interfaces": [
+  "HTTP API",
+  "CLI"
+ ],
+ "known_limitations": [
+  "LOCAL_REVIEW.md: No `pnpm build` \u2014 use `pnpm check` only.",
+  "LOCAL_REVIEW.md: Not deployed; not a public product surface.",
+  "no test tree in the repository; no test count is claimed",
+  "no CI workflow configured",
+  "no LICENSE file at the repository root"
+ ],
  "languages": [
   "HTML"
  ],
- "major_components": [],
+ "major_components": [
+  "src/components (10 files)",
+  "src/lib (7 files)",
+  ".autobuilder (3 files)",
+  "app/* (2 files)",
+  ".devstate (1 file)",
+  "app/api (1 file)",
+  "src/* (1 file)"
+ ],
  "mapping_confidence": "high",
- "material_family": "",
- "output_types": [],
+ "material_family": "polymer",
+ "output_types": [
+  "stdout / stderr",
+  "HTTP responses (JSON)",
+  "route handlers: checkout",
+  "files on disk"
+ ],
  "primary_user": "",
- "primary_visual_metaphor": "an orthogonal dependency lattice",
- "primary_workflow": "a dependency graph resolves, packages install, the build advances",
- "problem": "",
+ "primary_visual_metaphor": "a command surface reporting as it runs",
+ "primary_workflow": "",
+ "problem": "DevState is a developer storage compression and recovery engine.",
+ "problem_source": "project source",
  "project_category": "DEVELOPER_TOOLS",
- "public_financial_context": "not published per venture",
+ "project_category_basis": "ships a verified CLI",
+ "project_category_previous": "DEVELOPER_TOOLS",
  "public_noaerth_positioning": "",
  "purpose": "devstate website. package.json.",
- "release": "unknown",
- "secondary_visual_metaphor": "",
- "secondary_workflows": [],
+ "release": "0.1.0",
+ "secondary_visual_metaphor": "progress rail in linear arrangement",
+ "secondary_workflows": [
+  "devstate run start \u2014 start the service",
+  "devstate run scan \u2014 node ./src/index.js scan",
+  "devstate run clean \u2014 node ./src/index.js clean",
+  "devstate run dev \u2014 run the development server",
+  "devstate run disk-audit \u2014 node ./src/index.js disk-audit"
+ ],
  "security_characteristics": [],
  "state_model": "",
  "technical_category": "DATA_FLOW",
- "terminal_metaphor": "a cursor running real commands",
+ "terminal_metaphor": "devstate run build \u2014 build the project",
  "tests": {
   "executed": false,
   "files": 0,
@@ -58,9 +99,56 @@
  "trillionx_intensity": "standard",
  "unresolved": [
   "primary_user",
-  "problem"
+  "state_model",
+  "verified_features",
+  "security_characteristics",
+  "primary_workflow"
  ],
  "venture_stage": "",
+ "verified_commands": [
+  {
+   "command": "devstate run build",
+   "help": "build the project",
+   "parent": "",
+   "source": "package.json scripts"
+  },
+  {
+   "command": "devstate run start",
+   "help": "start the service",
+   "parent": "",
+   "source": "package.json scripts"
+  },
+  {
+   "command": "devstate run scan",
+   "help": "node ./src/index.js scan",
+   "parent": "",
+   "source": "package.json scripts"
+  },
+  {
+   "command": "devstate run clean",
+   "help": "node ./src/index.js clean",
+   "parent": "",
+   "source": "package.json scripts"
+  },
+  {
+   "command": "devstate run dev",
+   "help": "run the development server",
+   "parent": "",
+   "source": "package.json scripts"
+  },
+  {
+   "command": "devstate run disk-audit",
+   "help": "node ./src/index.js disk-audit",
+   "parent": "",
+   "source": "package.json scripts"
+  },
+  {
+   "command": "devstate run lint",
+   "help": "lint the source",
+   "parent": "",
+   "source": "package.json scripts"
+  }
+ ],
  "verified_features": [],
  "visual_density": "medium"
 }

@@ -89,6 +89,16 @@ def throttle() -> None:
 
 def write(repo: str, path: str, content: str, message: str,
           branch: str) -> tuple[bool, str]:
+    """Write a file, skipping it when the content already matches.
+
+    Idempotence is the contract the docstring claims and the body did not
+    honour: it PUT every file on every run, so a re-run manufactured an empty
+    commit per repository. Comparing first is what makes a re-run a no-op and
+    keeps the contribution graph honest.
+    """
+    existing = read(repo, path)
+    if existing and existing.strip() == content.strip():
+        return True, "unchanged"
     throttle()
     cmd = ["gh", "api", f"repos/{OWNER}/{repo}/contents/{path}", "-X", "PUT",
            "-f", f"message={message}",
@@ -105,21 +115,26 @@ def write(repo: str, path: str, content: str, message: str,
 
 
 def hero_block(name: str, title: str, category: str, states: list[str]) -> str:
-    """The hero block. Motion-first, with real static fallbacks."""
+    """The hero block: animated by default, with genuine static fallbacks.
+
+    Source order matters and is easy to get wrong. `<picture>` takes the first
+    matching `<source>`, so the reduced-motion + light-scheme combination has to
+    come first. With the naive order a light-mode reader who asks for reduced
+    motion is served the dark still frame, which is the one combination that
+    looks broken.
+
+    The generator emits four hero variants; there is no second `computational-*`
+    plate, and referencing one that does not exist renders a broken image.
+    """
     seq = " &rarr; ".join(states[:5])
+    alt = (f"{title} — animated project plate showing {seq}. "
+           f"Motion depicts this project's real state transition.")
     return f"""<p align="center">
   <picture>
+    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="assets/hero/hero-light.svg">
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero/hero-reduced.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/hero/hero-light.svg">
-    <img src="assets/hero/hero-motion.svg" alt="{title} — animated project plate showing {seq}. Motion depicts this project's real state transition." width="100%">
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero/computational-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero/computational-light.svg">
-    <img src="assets/hero/computational-motion.svg" alt="State machine: {seq}." width="100%">
+    <img src="assets/hero/hero-motion.svg" alt="{alt}" width="100%">
   </picture>
 </p>
 """
@@ -136,32 +151,59 @@ def publish(name: str, dry: bool) -> dict:
     if not art.is_dir():
         return {"repo": name, "skipped": "no art"}
 
-    from repo_art import motion_states
-    states = [s for s, _ in motion_states(d.get("architecture_type", ""),
-                                          d.get("project_category", ""))]
+    from repo_art import stages_for
+    ident_path = PROFILE / ".github-art" / "identity.json"
+    ident = {}
+    if ident_path.exists():
+        ident = json.loads(ident_path.read_text()).get("identities", {}).get(name, {})
+    family = ident.get("family", "")
+    states = stages_for(d, family)
 
-    written, errors = 0, []
+    written, errors, unchanged = 0, [], 0
     plan = []
     for src in sorted(art.glob("*.svg")):
         rel = f"assets/hero/{src.name}"
         plan.append((rel, src.read_text(encoding="utf-8")))
-    # the social card belongs at the repo root convention, but the same file
-    # under assets/hero keeps the upload path identical for every repository
+    # The social card sits under assets/hero so every repository uses one upload
+    # path; GitHub picks it up from the repository's og:image only when it is at
+    # the root, which is why the root copy is written separately below.
     for rel, content in plan:
         if dry:
             written += 1
             continue
         ok, err = write(name, rel, content,
                         f"art: add {Path(rel).name}\n\n"
-                        f"Generated from this project's dossier: "
-                        f"{d.get('architecture_type')} / "
+                        f"Generated from this project's dossier and identity: "
+                        f"{family or d.get('architecture_type')} / "
                         f"{d.get('project_category')}. The animation depicts "
-                        f"the real state transition, not a decorative loop.",
+                        f"the real state transition, not a decorative loop.\n\n"
+                        f"Design source: scripts/profile_art/repo_art.py\n"
+                        f"design_version {d.get('design_version', 'V6')}",
                         branch)
-        if ok:
+        if not ok:
+            errors.append(f"{Path(rel).name}: {err}")
+        elif err == "unchanged":
+            unchanged += 1
+        else:
+            written += 1
+
+    # The Open Graph card has to be at the repository root to be used.
+    social = art / "social-preview.svg"
+    if social.is_file():
+        if dry:
             written += 1
         else:
-            errors.append(f"{Path(rel).name}: {err}")
+            ok, err = write(name, "social-preview.svg", social.read_text(),
+                            "art: add social-preview.svg\n\n"
+                            "Open Graph card for this project. Static by "
+                            "design: crawlers rasterise it and do not run SMIL.",
+                            branch)
+            if not ok:
+                errors.append(f"social-preview.svg: {err}")
+            elif err == "unchanged":
+                unchanged += 1
+            else:
+                written += 1
 
     # README hero, only when the repository does not already reference its art
     readme = read(name, "README.md")
@@ -197,7 +239,8 @@ def publish(name: str, dry: bool) -> dict:
                 errors.append(f"README.md: {err}")
 
     return {"repo": name, "class": d.get("classification"),
-            "written": written, "readme_hero": inserted,
+            "written": written, "unchanged": unchanged,
+            "readme_hero": inserted,
             "errors": errors, "states": states}
 
 
@@ -264,9 +307,10 @@ def main() -> int:
         if not args.dry_run:
             persist(name, r)
         flag = "" if not r["errors"] else f"  ERRORS {len(r['errors'])}"
-        print(f"  {name:<28}{r['written']:>3} files  "
+        print(f"  {name:<28}{r['written']:>3} written "
+              f"{r.get('unchanged', 0):>3} unchanged  "
               f"hero={'y' if r['readme_hero'] else 'n'}  "
-              f"{' -> '.join(r['states'][:4])[:46]}{flag}")
+              f"{' -> '.join(r['states'][:4])[:40]}{flag}")
     return 0
 
 

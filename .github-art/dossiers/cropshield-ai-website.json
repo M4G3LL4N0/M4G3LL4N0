@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "a dependency graph resolves, packages install, the build advances",
+ "animation_metaphor": "a composed grid assembles and a sweep resolves it",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "cropshield-ai-website",
@@ -8,47 +8,82 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
- "control_flow": "a dependency graph resolves, packages install, the build advances",
- "data_flow": "",
- "depth": "layered",
+ "color_family": "violet",
+ "control_flow": "primary entry: HTTP API",
+ "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
+ "depth": "stacked",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "unknown",
-  "source_a_files": 65,
-  "source_a_local": "/Users/matador/startups/cropshield-ai",
-  "source_b_venture": "",
-  "source_c_github": "https://github.com/M4G3LL4N0/cropshield-ai-website"
+  "arch_doc": "ARCHITECTURE.md",
+  "cli_entrypoint": "",
+  "manifest": "package.json",
+  "readme": "README.md",
+  "source_a_local": "/srv/noaerth/startups/cropshield-ai",
+  "source_files_sampled": 42,
+  "test_files": 0
  },
  "experimental_features": [],
- "frameworks": [],
- "geometry_family": "DATA_FLOW",
+ "frameworks": [
+  "next.js",
+  "prisma",
+  "react",
+  "tailwindcss"
+ ],
+ "geometry_family": "PRESENTATION",
  "github_repo": "cropshield-ai-website",
- "industry": "DEVELOPER_TOOLS",
- "input_types": [],
- "known_limitations": [],
+ "industry": "BIOTECH",
+ "input_types": [
+  "HTTP requests (JSON)"
+ ],
+ "interfaces": [
+  "HTTP API"
+ ],
+ "known_limitations": [
+  "LOCAL_REVIEW.md: Public metrics are illustrative unless marked PROVEN in `startupjourney.md`.",
+  "LOCAL_REVIEW.md: High-stakes decisions require human professional review where applicable.",
+  "no test tree in the repository; no test count is claimed",
+  "no CI workflow configured",
+  "no LICENSE file at the repository root"
+ ],
  "languages": [
   "HTML"
  ],
- "major_components": [],
+ "major_components": [
+  "components (20 files)",
+  "public (5 files)",
+  "app/* (4 files)",
+  "lib/* (4 files)",
+  "app/analyze (2 files)",
+  "app/api (2 files)",
+  "app/reports (2 files)",
+  "src/lib (2 files)",
+  "app/about (1 file)",
+  "app/contact (1 file)"
+ ],
  "mapping_confidence": "high",
- "material_family": "",
- "output_types": [],
+ "material_family": "polymer",
+ "output_types": [
+  "HTTP responses (JSON)",
+  "route handlers: reports, reports/[id]",
+  "persisted to file-backed JSON"
+ ],
  "primary_user": "",
- "primary_visual_metaphor": "an orthogonal dependency lattice",
- "primary_workflow": "a dependency graph resolves, packages install, the build advances",
- "problem": "",
- "project_category": "DEVELOPER_TOOLS",
- "public_financial_context": "not published per venture",
+ "primary_visual_metaphor": "a composed grid assembling and settling",
+ "primary_workflow": "",
+ "problem": "Premium Next.js MVP for **AI-assisted crop diagnostics** and **precision spray planning** with a deterministic rules engine (swap in real CV/robotics later).",
+ "problem_source": "project source",
+ "project_category": "BIOTECH",
+ "project_category_basis": "project text: crop",
+ "project_category_previous": "BIOTECH",
  "public_noaerth_positioning": "",
  "purpose": "cropshield ai website. package.json.",
- "release": "unknown",
- "secondary_visual_metaphor": "",
+ "release": "0.1.0",
+ "secondary_visual_metaphor": "type rail in mesh arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
- "state_model": "",
+ "state_model": "file-backed JSON",
  "technical_category": "DATA_FLOW",
- "terminal_metaphor": "a cursor running real commands",
+ "terminal_metaphor": "",
  "tests": {
   "executed": false,
   "files": 0,
@@ -58,9 +93,13 @@
  "trillionx_intensity": "standard",
  "unresolved": [
   "primary_user",
-  "problem"
+  "verified_features",
+  "security_characteristics",
+  "terminal_metaphor",
+  "primary_workflow"
  ],
  "venture_stage": "",
+ "verified_commands": [],
  "verified_features": [],
  "visual_density": "medium"
 }

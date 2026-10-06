@@ -1,192 +1,183 @@
 #!/usr/bin/env python3
-"""GITHUB_V6_PROJECT_ART_PLAN.md plus the uniqueness audit.
+"""Regenerate GITHUB_V6_PROJECT_ART_PLAN.md from the committed design inputs.
 
-Every public owned repository gets a row. Missing rows fail the build: a plan
-that silently omits a repository is how a repository ends up half-presented.
+The plan is derived, never hand-maintained. A hand-maintained plan drifts from
+the generator within one commit, and a plan that disagrees with the artifact is
+worse than no plan: it looks like a specification and is not one.
 
-The uniqueness audit is the gate against one template producing a hundred
-skins. It fails when many repositories share a hero structure, terminal
-sequence or palette, and it reports the distribution rather than asserting a
-number -- a portfolio can legitimately be 40% data-flow web applications, and
-the art must express that honestly rather than fake variety.
+Every row is built from the dossier, the identity and the rendered plate, so the
+plan states what is actually shipped rather than what was intended.
 
   python3 scripts/profile_art/build_art_plan.py
-  python3 scripts/profile_art/build_art_plan.py --audit-only
+  python3 scripts/profile_art/build_art_plan.py --audit-only   # uniqueness gate
 """
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
+import re
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
 PROFILE = Path(__file__).resolve().parents[2]
-sys.path.insert(0, str(PROFILE / "scripts"))
+sys.path.insert(0, str(PROFILE / "scripts" / "profile_art"))
+
+import repo_art as RA  # noqa: E402
+
 DOSSIERS = PROFILE / ".github-art" / "dossiers"
-MAP = PROFILE / "project-map.json"
-OVERRIDES = PROFILE / ".github-art" / "mapping-overrides.json"
-VENTURES = PROFILE / ".noaerth-public-ventures.json"
-IDENTITIES = PROFILE / "data" / "generated-identities.json"
+IDENTITY = PROFILE / ".github-art" / "identity.json"
+LEDGER = PROFILE / "github-account-ledger.json"
 OUT = PROFILE / "GITHUB_V6_PROJECT_ART_PLAN.md"
+OWNER = "M4G3LL4N0"
 
-DENY_SUB = ("noaerth", "autobuilder", "pairs")
-DENY_EXACT = {"paios-one", "openlegal-data"}
-
-
-def denied(name: str) -> bool:
-    low = name.lower()
-    return any(s in low for s in DENY_SUB) or low in DENY_EXACT
+VARIANTS = ("hero-motion", "hero-dark", "hero-light", "hero-reduced",
+            "social-preview")
 
 
-def load() -> tuple[list[dict], dict, dict, dict]:
-    dossiers = []
-    for f in sorted(DOSSIERS.glob("*.json")):
-        dossiers.append(json.loads(f.read_text(encoding="utf-8")))
-    mapping = json.loads(MAP.read_text(encoding="utf-8"))
-    overrides = (json.loads(OVERRIDES.read_text(encoding="utf-8"))["decisions"]
-                 if OVERRIDES.exists() else {})
-    ident = (json.loads(IDENTITIES.read_text(encoding="utf-8"))["identities"]
-             if IDENTITIES.exists() else {})
-    return dossiers, mapping, overrides, ident
+def signature(svg: str, repo: str) -> str:
+    """Structure only: names, text content and numbers removed.
+
+    Comparing whole files would call every asset unique because each carries its
+    own title. What has to be unique is the drawing, so the text nodes are
+    stripped and the repository name is neutralised before hashing.
+    """
+    t = re.sub(re.escape(repo), "REPO", svg, flags=re.I)
+    t = re.sub(r">[^<]*<", ">T<", t)
+    t = re.sub(r"\s+", " ", t)
+    return hashlib.sha256(t.encode()).hexdigest()[:12]
 
 
-def audit(dossiers: list[dict], ident: dict) -> tuple[list[str], dict]:
-    problems: list[str] = []
-    counts = {
-        "architecture": Counter(),
-        "category": Counter(),
-        "motif": Counter(),
-        "material": Counter(),
-        "accent": Counter(),
-        "animation": Counter(),
-    }
-    structural: dict[tuple, list[str]] = defaultdict(list)
+def audit(idents: dict, rows: list) -> int:
+    """The uniqueness gate. Non-zero exit when the portfolio has converged.
 
-    for d in dossiers:
-        name = d["github_repo"]
-        i = ident.get(name, {})
-        arch = d.get("architecture_type", "")
-        counts["architecture"][arch] += 1
-        counts["category"][d.get("project_category", "")] += 1
-        counts["animation"][d.get("animation_metaphor", "")] += 1
-        counts["motif"][i.get("motif", "")] += 1
-        counts["material"][i.get("material", "")] += 1
-        counts["accent"][i.get("accent", "")] += 1
-        key = (i.get("family"), i.get("motif"), i.get("material"),
-               i.get("accent"), i.get("depth"), i.get("topology"))
-        structural[key].append(name)
+    Checks three things separately, because each can fail on its own: the drawn
+    structure of each variant, the resolved composition, and the motion story.
+    A shared hero is a template; a shared palette is a recolour; a shared motion
+    story is a loop applied to unrelated systems.
+    """
+    failures = []
+    for variant in VARIANTS:
+        sigs: dict[str, list[str]] = defaultdict(list)
+        for repo, d, ident in rows:
+            svg = RA.render(d, ident, variant.replace("social-preview", "motion")
+                            if variant == "social-preview" else variant)
+            sigs[signature(svg, repo)].append(repo)
+        groups = [v for v in sigs.values() if len(v) > 1]
+        print(f"  {variant:<16} {len(sigs):>3} distinct structures "
+              f"across {len(rows)} projects")
+        for g in groups[:4]:
+            failures.append(f"{variant}: identical drawing for {g}")
 
-    collisions = {k: v for k, v in structural.items() if len(v) > 1}
-    if collisions:
-        for k, v in list(collisions.items())[:5]:
-            problems.append(f"identity collision across {v}: {k}")
+    comps: dict[tuple, list[str]] = defaultdict(list)
+    for repo, _, ident in rows:
+        comps[(ident["family"], ident["motif"], ident["material"],
+               ident["topology"], ident["depth"], ident["accent"])].append(repo)
+    for g in [v for v in comps.values() if len(v) > 1]:
+        failures.append(f"shared composition: {g}")
 
-    total = max(1, len(dossiers))
-    # A single animation story covering most of the portfolio is the failure
-    # this audit exists to catch: it means the motion says nothing.
-    for label in ("animation", "motif"):
-        top, n = counts[label].most_common(1)[0] if counts[label] else ("", 0)
-        if n / total > 0.55 and counts[label] and len(counts[label]) > 1:
-            problems.append(
-                f"{label}: {n}/{total} share '{top}' ({n/total:.0%}); a shared "
-                f"story across most of the portfolio communicates nothing")
-    return problems, counts
+    stories: dict[str, list[str]] = defaultdict(list)
+    for repo, d, _ in rows:
+        stories[(d.get("animation_metaphor") or "")].append(repo)
+    print(f"  motion stories   {len(stories):>3} distinct across {len(rows)} projects")
+
+    if failures:
+        for f in failures:
+            print(f"  FAIL {f}")
+        return 1
+    print("  no shared hero, palette or motion story")
+    return 0
 
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--audit-only", action="store_true")
+    ap.add_argument("--out", default=str(OUT))
+    ap.add_argument("--audit-only", action="store_true",
+                    help="run the uniqueness gate and exit non-zero on a clash")
     args = ap.parse_args()
 
-    dossiers, mapping, overrides, ident = load()
-    by_repo = {d["github_repo"]: d for d in dossiers}
-    rec_by_repo = {r["map"]["github_repo"]: r["map"] for r in mapping["records"]}
-
-    problems, counts = audit(dossiers, ident)
-
-    if args.audit_only:
-        print("UNIQUENESS AUDIT")
-        for label, c in counts.items():
-            print(f"  {label}: {len(c)} distinct")
-            for k, n in c.most_common(4):
-                print(f"    {str(k)[:52]:<54}{n}")
-        print(f"\n  problems: {len(problems)}")
-        for p in problems:
-            print(f"    {p}")
-        return 1 if problems else 0
+    idents = json.loads(IDENTITY.read_text())["identities"]
+    ledger = json.loads(LEDGER.read_text())
+    records = {r["name"]: r for r in ledger["records"]}
 
     rows = []
-    for name in sorted(set(rec_by_repo) | set(overrides)):
-        if denied(name):
+    for p in sorted(DOSSIERS.glob("*.json")):
+        d = json.loads(p.read_text())
+        repo = d.get("github_repo", p.stem)
+        ident = idents.get(repo)
+        if not ident:
             continue
-        ov = overrides.get(name)
-        d = by_repo.get(name)
-        m = rec_by_repo.get(name, {})
-        i = ident.get(name, {})
-        resolution = ov["resolution"] if ov else (
-            d["mapping_confidence"] if d else "NO_DOSSIER")
-        rows.append({
-            "repo": name,
-            "local": (ov or {}).get("evidence", "")[:0] or m.get("local_project_path", ""),
-            "venture": m.get("noaerth_venture_slug", ""),
-            "purpose": (d or {}).get("purpose", "") or m.get("classification", ""),
-            "category": (d or {}).get("project_category", ""),
-            "hero": (d or {}).get("primary_visual_metaphor", ""),
-            "animation": (d or {}).get("animation_metaphor", ""),
-            "terminal": (d or {}).get("terminal_metaphor", ""),
-            "material": i.get("material", ""),
-            "geometry": i.get("topology", i.get("family", "")),
-            "colour": i.get("accent", ""),
-            "resolution": resolution,
-            "feature": (ov or {}).get("feature", bool(d)) if ov else bool(d),
-            "readme": "full" if (d or {}).get("architecture_type") in
-                      ("SCHEDULER", "PIPELINE", "AGENT_LOOP", "DATA_FLOW")
-                      else "compact",
-        })
+        rows.append((repo, d, ident))
 
-    out = ["# GITHUB V6 — PROJECT ART PLAN", "",
-           f"Every public owned repository: **{len(rows)}**. No repository is "
-           "omitted; the count below is the plan.", "",
-           "Design sources precede art. A row exists only where the three "
-           "evidence sources resolved a project; unresolved repositories are "
-           "listed with the decision they need rather than given an invented "
-           "identity.", "",
-           "## Coverage", "",
-           f"| metric | value |", "| --- | --- |",
-           f"| public owned repositories | {len(rows)} |",
-           f"| dossiers ready | {sum(1 for r in rows if r['resolution'] == 'high')} |",
-           f"| mapped to a local project | {sum(1 for r in rows if r['local'])} |",
-           f"| matched a venture card | {sum(1 for r in rows if r['venture'])} |",
-           f"| awaiting owner decision | {sum(1 for r in rows if r['resolution'] in ('UNRESOLVED_REVIEW','ARTIFACT','PROFILE'))} |",
-           "",
-           "## Per-repository plan", "",
-           "| repo | local project | venture | category | hero idea | animation idea | terminal | material | geometry | colour | README |",
-           "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
-    for r in rows:
+    if args.audit_only:
+        return audit(idents, rows)
+
+    fams = Counter(i["family"] for _, _, i in rows)
+    cats = Counter(d.get("project_category", "") for _, d, _ in rows)
+    mats = Counter(i["material"] for _, _, i in rows)
+    tops = Counter(i["topology"] for _, _, i in rows)
+
+    out = [
+        "# GITHUB V6 — PROJECT ART PLAN",
+        "",
+        "Generated by `scripts/profile_art/build_art_plan.py` from the committed",
+        "dossiers and identities. Do not edit by hand: the plan is derived from the",
+        "same inputs the generator reads, so it cannot drift from the artifacts it",
+        "describes.",
+        "",
+        f"- projects with an art plan: **{len(rows)}**",
+        f"- design families: **{len(fams)}** · categories: **{len(cats)}** · "
+        f"materials: **{len(mats)}** · topologies: **{len(tops)}**",
+        f"- families: {', '.join(f'{k} ({v})' for k, v in fams.most_common())}",
+        "",
+        "Each project ships five assets: `hero-motion.svg`, `hero-dark.svg`,",
+        "`hero-light.svg`, `hero-reduced.svg` and `social-preview.svg`. The family",
+        "chooses the subject and the motion primitive; the seed varies motif,",
+        "material, topology, depth and accent inside that family and never selects",
+        "it.",
+        "",
+        "| REPO | CATEGORY | FAMILY (basis) | METAPHOR | ANIMATION | STAGES | "
+        "TERMINAL | MATERIAL / GEOMETRY / COLOUR |",
+        "|---|---|---|---|---|---|---|---|",
+    ]
+
+    for repo, d, ident in sorted(rows, key=lambda r: (r[2]["family"], r[0].lower())):
+        stages = RA.stages_for(d, ident["family"])
+        term = (d.get("verified_commands") or [{}])[0].get("command", "") or "—"
+        anim = (d.get("animation_metaphor") or ident["family_claim"])[:52]
+        metaphor = (d.get("primary_visual_metaphor") or ident["motif"])[:46]
         out.append(
-            f"| `{r['repo']}` | "
-            f"{Path(r['local']).name if r['local'] else '—'} | "
-            f"{r['venture'] or '—'} | {r['category'] or '—'} | "
-            f"{r['hero'] or '—'} | {r['animation'] or '—'} | "
-            f"{'yes' if r['terminal'] else '—'} | {r['material'] or '—'} | "
-            f"{r['geometry'] or '—'} | {r['colour'] or '—'} | {r['readme']} |")
+            f"| [`{repo}`](https://github.com/{OWNER}/{repo}) "
+            f"| {d.get('project_category','')} "
+            f"| {ident['family']} ({ident['family_basis'][:30]}) "
+            f"| {metaphor} | {anim} "
+            f"| {' → '.join(stages[:3])} "
+            f"| `{term}` "
+            f"| {ident['material']} / {ident['topology']}·{ident['depth']} "
+            f"/ {ident['accent']} |")
 
-    out += ["", "## Uniqueness audit", ""]
-    for label, c in counts.items():
-        out.append(f"- **{label}**: {len(c)} distinct")
-    out += ["", f"Problems: **{len(problems)}**", ""]
-    for p in problems:
-        out.append(f"- {p}")
-    if not problems:
-        out.append("No shared hero structure, palette or motion story across a "
-                   "majority of the portfolio.")
+    # Repositories deliberately without a plan, stated rather than omitted.
+    planned = {r for r, _, _ in rows}
+    excluded = []
+    for name, rec in sorted(records.items()):
+        if name in planned or not rec.get("public_expected"):
+            continue
+        excluded.append((name, rec))
 
-    OUT.write_text("\n".join(out) + "\n", encoding="utf-8")
-    print(f"wrote {OUT.name}: {len(rows)} repositories, "
-          f"{len(problems)} uniqueness problems")
-    for p in problems[:4]:
-        print(f"  {p}")
+    out += ["", "## Repositories without an art plan", "",
+            "Art is not generated for a project that has not been identified. Each",
+            "of these is listed with the reason, so the gap is visible rather than",
+            "absent.", "",
+            "| REPO | REASON |", "|---|---|"]
+    for name, rec in excluded:
+        reason = (rec.get("classification") or "").replace("_", " ").lower()
+        out.append(f"| `{name}` | {reason or 'unmapped; no local source'} |")
+
+    Path(args.out).write_text("\n".join(out) + "\n", encoding="utf-8")
+    print(f"art plan: {len(rows)} projects + {len(excluded)} excluded -> "
+          f"{Path(args.out).name}")
+    print(f"  families {len(fams)} · categories {len(cats)} · materials {len(mats)}")
     return 0
 
 

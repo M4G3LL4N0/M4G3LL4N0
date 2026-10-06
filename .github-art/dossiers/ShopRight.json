@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "an objective becomes context, tools read and write state, the loop closes",
+ "animation_metaphor": "a composed grid assembles and a sweep resolves it",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "ShopRight",
@@ -8,47 +8,92 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
- "control_flow": "an objective becomes context, tools read and write state, the loop closes",
- "data_flow": "",
- "depth": "layered",
+ "color_family": "violet",
+ "control_flow": "primary entry: HTTP API",
+ "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "51",
-  "source_a_files": 103,
-  "source_a_local": "/Users/matador/startups/shopright",
-  "source_b_venture": "shopright",
-  "source_c_github": "https://github.com/M4G3LL4N0/ShopRight"
+  "arch_doc": "ARCHITECTURE.md",
+  "cli_entrypoint": "",
+  "manifest": "package.json",
+  "readme": "README.md",
+  "source_a_local": "/srv/noaerth/startups/shopright",
+  "source_files_sampled": 67,
+  "test_files": 0
  },
  "experimental_features": [],
- "frameworks": [],
- "geometry_family": "DATA_FLOW",
+ "frameworks": [
+  "next.js",
+  "openai",
+  "react",
+  "supabase",
+  "tailwindcss"
+ ],
+ "geometry_family": "PRESENTATION",
  "github_repo": "ShopRight",
- "industry": "AGENT",
- "input_types": [],
- "known_limitations": [],
+ "industry": "GENERAL",
+ "input_types": [
+  "HTTP requests (JSON)"
+ ],
+ "interfaces": [
+  "HTTP API"
+ ],
+ "known_limitations": [
+  "LOCAL_REVIEW.md: Public metrics are illustrative unless marked PROVEN in `startupjourney.md`.",
+  "LOCAL_REVIEW.md: High-stakes decisions require human professional review where applicable.",
+  "no test tree in the repository; no test count is claimed",
+  "no CI workflow configured",
+  "no LICENSE file at the repository root"
+ ],
  "languages": [
   "TypeScript"
  ],
- "major_components": [],
+ "major_components": [
+  "src/components (33 files)",
+  "src/app (12 files)",
+  "src/lib (8 files)",
+  "public (5 files)",
+  "lib/* (4 files)",
+  "public-site (4 files)",
+  ".autobuilder (3 files)",
+  "src/store (3 files)",
+  "src/types (3 files)",
+  "sql (1 file)"
+ ],
  "mapping_confidence": "high",
- "material_family": "",
- "output_types": [],
- "primary_user": "",
- "primary_visual_metaphor": "a state ring with tool nodes attached",
- "primary_workflow": "an objective becomes context, tools read and write state, the loop closes",
- "problem": "",
- "project_category": "AGENT",
- "public_financial_context": "not published per venture",
- "public_noaerth_positioning": "",
+ "material_family": "polymer",
+ "noaerth_category": "Food",
+ "noaerth_category_path": "Food / Recommendation",
+ "noaerth_next_milestone": "Ship first menus workflow on site",
+ "noaerth_operating_facts": {
+  "Focus": "menus",
+  "Stage": "Building",
+  "Type": "Food"
+ },
+ "noaerth_site": "https://shopright.noaerth.com/",
+ "output_types": [
+  "HTTP responses (JSON)",
+  "route handlers: analyze, og, recommendations",
+  "persisted to file-backed JSON"
+ ],
+ "primary_user": "built for Vercel",
+ "primary_visual_metaphor": "a composed grid assembling and settling",
+ "primary_workflow": "",
+ "problem": "Shop with better judgment.",
+ "problem_source": "public venture card (no project-authored statement)",
+ "project_category": "GENERAL",
+ "project_category_basis": "no category signal in evidence",
+ "project_category_previous": "GENERAL",
+ "public_noaerth_positioning": "Shop with better judgment.",
  "purpose": "ShopRight. build via `package.json`.",
- "release": "unknown",
- "secondary_visual_metaphor": "",
+ "release": "0.1.0",
+ "secondary_visual_metaphor": "soft tiles in orthogonal arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
- "state_model": "",
+ "state_model": "file-backed JSON",
  "technical_category": "DATA_FLOW",
- "terminal_metaphor": "a cursor running real commands",
+ "terminal_metaphor": "",
  "tests": {
   "executed": false,
   "files": 0,
@@ -57,10 +102,13 @@
  },
  "trillionx_intensity": "standard",
  "unresolved": [
-  "primary_user",
-  "problem"
+  "verified_features",
+  "security_characteristics",
+  "terminal_metaphor",
+  "primary_workflow"
  ],
- "venture_stage": "",
+ "venture_stage": "Building",
+ "verified_commands": [],
  "verified_features": [],
  "visual_density": "medium"
 }

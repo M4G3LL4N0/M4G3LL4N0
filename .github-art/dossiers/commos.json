@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "symbols resolve against a dependency graph",
+ "animation_metaphor": "WebSocket frames \u2192 sqlite \u2192 persisted to sqlite",
  "architecture_type": "LIBRARY",
  "benchmark_dimensions": [],
  "canonical_name": "commos",
@@ -8,47 +8,74 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
- "control_flow": "symbols resolve against a dependency graph",
- "data_flow": "",
- "depth": "layered",
+ "color_family": "violet",
+ "control_flow": "primary entry: WebSocket",
+ "data_flow": "WebSocket frames \u2192 sqlite \u2192 persisted to sqlite",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "4",
-  "source_a_files": 42,
-  "source_a_local": "/Users/matador/startups/commos",
-  "source_b_venture": "",
-  "source_c_github": "https://github.com/M4G3LL4N0/commos"
+  "arch_doc": "",
+  "cli_entrypoint": "",
+  "manifest": "package.json",
+  "readme": "",
+  "source_a_local": "/srv/noaerth/startups/commos",
+  "source_files_sampled": 31,
+  "test_files": 0
  },
  "experimental_features": [],
- "frameworks": [],
- "geometry_family": "LIBRARY",
+ "frameworks": [
+  "next.js",
+  "react",
+  "tailwindcss"
+ ],
+ "geometry_family": "PRESENTATION",
  "github_repo": "commos",
- "industry": "AGENT",
- "input_types": [],
- "known_limitations": [],
+ "industry": "DATA",
+ "input_types": [
+  "WebSocket frames"
+ ],
+ "interfaces": [
+  "WebSocket"
+ ],
+ "known_limitations": [
+  "no test tree in the repository; no test count is claimed",
+  "no CI workflow configured",
+  "no LICENSE file at the repository root"
+ ],
  "languages": [
   "TypeScript"
  ],
- "major_components": [],
+ "major_components": [
+  "src/lib (22 files)",
+  "src/app (5 files)",
+  "public-site (3 files)",
+  "public (1 file)",
+  "src/* (1 file)",
+  "src/types (1 file)"
+ ],
  "mapping_confidence": "high",
- "material_family": "",
- "output_types": [],
- "primary_user": "",
- "primary_visual_metaphor": "orthogonal dependency graph",
- "primary_workflow": "symbols resolve against a dependency graph",
+ "material_family": "resin",
+ "output_types": [
+  "persisted to sqlite",
+  "persisted to file-backed JSON"
+ ],
+ "primary_user": "Communications Operating System \u2014 shared communications control plane for the TRILLIONX ecosystem",
+ "primary_visual_metaphor": "a composed grid assembling and settling",
+ "primary_workflow": "",
  "problem": "",
- "project_category": "AGENT",
- "public_financial_context": "not published per venture",
+ "problem_source": "project source",
+ "project_category": "DATA",
+ "project_category_basis": "project text: sqlite",
+ "project_category_previous": "DATA",
  "public_noaerth_positioning": "",
  "purpose": "commos. build via `package.json`.",
- "release": "unknown",
- "secondary_visual_metaphor": "",
+ "release": "0.1.0",
+ "secondary_visual_metaphor": "type rail in orthogonal arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
- "state_model": "",
+ "state_model": "sqlite, file-backed JSON",
  "technical_category": "LIBRARY",
- "terminal_metaphor": "a cursor running real commands",
+ "terminal_metaphor": "",
  "tests": {
   "executed": false,
   "files": 0,
@@ -57,10 +84,14 @@
  },
  "trillionx_intensity": "standard",
  "unresolved": [
-  "primary_user",
-  "problem"
+  "problem",
+  "verified_features",
+  "security_characteristics",
+  "terminal_metaphor",
+  "primary_workflow"
  ],
  "venture_stage": "",
+ "verified_commands": [],
  "verified_features": [],
  "visual_density": "medium"
 }

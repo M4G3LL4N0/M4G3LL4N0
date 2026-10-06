@@ -27,7 +27,13 @@ OWNER = "M4G3LL4N0"
 
 DENY_SUB = ("noaerth", "autobuilder", "pairs")
 DENY_EXACT = {"paios-one", "openlegal-data"}
-TERMINAL = ("COMPLETE", "NOT_APPLICABLE", "BLOCKED_WITH_REASON")
+TERMINAL = ("COMPLETE", "NOT_APPLICABLE", "BLOCKED_WITH_REASON",
+            # ART_PUBLISHED is terminal for the publication queue: the asset is
+            # written to the repository and verified there. It was missing from
+            # this set, so 126 finished repositories were reported as 126
+            # pending -- a queue that could never drain no matter what was
+            # published to GitHub.
+            "ART_PUBLISHED")
 # Placeholder markers only. A repository that legitimately discusses TODOs in
 # prose is not a placeholder, so the check matches the marker forms rather than
 # the bare word.
@@ -211,7 +217,9 @@ def main() -> int:
                      f"e.g. {pending_art[:5]}")
 
     # 10. completion queue drained
-    pending_queue = [q for q in st.get("queue", []) if q["state"] != "DONE"]
+    # Same vocabulary as the convergence check above. A queue item published and
+    # verified is not pending, whatever the stage that published it was called.
+    pending_queue = [q for q in st.get("queue", []) if q["state"] not in TERMINAL]
     checks.append(("completion queue drained", not pending_queue,
                    f"{len(pending_queue)} pending"))
     if pending_queue:
@@ -248,7 +256,11 @@ def main() -> int:
         queue.append("safety tests failing")
 
     # 13. remote public count converges with completed public owned count
-    completed = sum(1 for q in st.get("queue", []) if q["state"] == "DONE")
+    # Counted over terminal states, not only DONE. DONE was the vocabulary of a
+    # queue stage that no longer exists; every repository published since then
+    # carried ART_PUBLISHED, so the count read 15 against 123 obligations and the
+    # portfolio could never be reported as converged no matter what was live.
+    completed = sum(1 for q in st.get("queue", []) if q["state"] in TERMINAL)
     owned_public = len([r for r in recs if r["public_expected"]])
     converged = completed >= owned_public
     checks.append(("remote public owned == completed public owned", converged,

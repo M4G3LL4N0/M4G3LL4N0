@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "capital enters, allocates across positions, and settles into an outcome",
+ "animation_metaphor": "value enters, allocates across positions, and settles",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "LedgerOps AI",
@@ -8,47 +8,91 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
- "control_flow": "capital enters, allocates across positions, and settles into an outcome",
- "data_flow": "",
- "depth": "layered",
+ "color_family": "mint",
+ "control_flow": "primary entry: HTTP API",
+ "data_flow": "HTTP requests (JSON) \u2192 in-process state \u2192 HTTP responses (JSON)",
+ "depth": "recessed",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "3",
-  "source_a_files": 66,
-  "source_a_local": "/Users/matador/startups/ledgerops-ai",
-  "source_b_venture": "ledgerops-ai",
-  "source_c_github": "https://github.com/M4G3LL4N0/ledgerops-ai"
+  "arch_doc": "ARCHITECTURE.md",
+  "cli_entrypoint": "",
+  "manifest": "package.json",
+  "readme": "README.md",
+  "source_a_local": "/srv/noaerth/startups/ledgerops-ai",
+  "source_files_sampled": 39,
+  "test_files": 0
  },
  "experimental_features": [],
- "frameworks": [],
- "geometry_family": "DATA_FLOW",
+ "frameworks": [
+  "next.js",
+  "prisma",
+  "react",
+  "tailwindcss"
+ ],
+ "geometry_family": "CAPITAL_MECHANICS",
  "github_repo": "ledgerops-ai",
  "industry": "FINANCE",
- "input_types": [],
- "known_limitations": [],
+ "input_types": [
+  "HTTP requests (JSON)"
+ ],
+ "interfaces": [
+  "HTTP API"
+ ],
+ "known_limitations": [
+  "LOCAL_REVIEW.md: Public metrics are illustrative unless marked PROVEN in `startupjourney.md`.",
+  "LOCAL_REVIEW.md: High-stakes decisions require human professional review where applicable.",
+  "no test tree in the repository; no test count is claimed",
+  "no CI workflow configured",
+  "no LICENSE file at the repository root"
+ ],
  "languages": [
   "TypeScript"
  ],
- "major_components": [],
+ "major_components": [
+  "components (19 files)",
+  "public (5 files)",
+  "app/* (4 files)",
+  "lib/* (4 files)",
+  "public-site (3 files)",
+  "app/api (2 files)",
+  "app/dashboard (2 files)",
+  "src/lib (2 files)",
+  "app/about (1 file)",
+  "app/close (1 file)"
+ ],
  "mapping_confidence": "high",
- "material_family": "",
- "output_types": [],
- "primary_user": "",
- "primary_visual_metaphor": "ledger columns with allocation flow between them",
- "primary_workflow": "capital enters, allocates across positions, and settles into an outcome",
- "problem": "",
+ "material_family": "obsidian",
+ "noaerth_category": "Finance",
+ "noaerth_category_path": "Finance",
+ "noaerth_next_milestone": "Sharpen LedgerOps AI homepage and first user action",
+ "noaerth_operating_facts": {
+  "Focus": "Product",
+  "Stage": "Building",
+  "Type": "Finance"
+ },
+ "noaerth_site": "https://ledgerops-ai.vercel.app/",
+ "output_types": [
+  "HTTP responses (JSON)",
+  "route handlers: closes, closes/[id]",
+  "CSV exports"
+ ],
+ "primary_user": "built for clean CI builds",
+ "primary_visual_metaphor": "value entering, allocating and settling across columns",
+ "primary_workflow": "",
+ "problem": "AI-native accounting firm MVP: paste mock transactions, pick a business type, and generate a **monthly close report** with classification, anomalies, missing receipts, tax notes, CFO summary, and **tax prep readiness score**. SQLite + Prisma persist every run.",
+ "problem_source": "project source",
  "project_category": "FINANCE",
- "public_financial_context": "not published per venture",
- "public_noaerth_positioning": "",
+ "project_category_basis": "public venture card category: finance",
+ "project_category_previous": "DATA",
+ "public_noaerth_positioning": "A monthly close from pasted sample transactions.",
  "purpose": "Startup portfolio: ledgerops-ai",
- "release": "unknown",
- "secondary_visual_metaphor": "",
+ "release": "0.1.0",
+ "secondary_visual_metaphor": "scenario panels in orthogonal arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "",
  "technical_category": "DATA_FLOW",
- "terminal_metaphor": "a cursor running real commands",
+ "terminal_metaphor": "",
  "tests": {
   "executed": false,
   "files": 0,
@@ -57,10 +101,14 @@
  },
  "trillionx_intensity": "standard",
  "unresolved": [
-  "primary_user",
-  "problem"
+  "state_model",
+  "verified_features",
+  "security_characteristics",
+  "terminal_metaphor",
+  "primary_workflow"
  ],
- "venture_stage": "",
+ "venture_stage": "Building",
+ "verified_commands": [],
  "verified_features": [],
  "visual_density": "medium"
 }

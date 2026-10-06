@@ -1,54 +1,121 @@
 {
- "animation_metaphor": "nodes advertise capability, a coordinator selects, work converges",
+ "animation_metaphor": "Interface Layer \u2192 Control Layer \u2192 Capability Layer \u2192 Execution Layer",
  "architecture_type": "DISTRIBUTED",
- "benchmark_dimensions": [],
+ "benchmark_dimensions": [
+  "benchmark harness present: BENCHMARKS.md, src/agentos/benchmarks.py"
+ ],
  "canonical_name": "AgentOS",
  "ci": {
   "present": true,
   "workflows": []
  },
  "classification": "FLAGSHIP",
- "color_family": "",
- "control_flow": "nodes advertise capability, a coordinator selects, work converges",
- "data_flow": "",
- "depth": "layered",
+ "color_family": "cyan",
+ "control_flow": "agentos run",
+ "data_flow": "Interface Layer \u2192 Control Layer \u2192 Capability Layer \u2192 Execution Layer \u2192 State Layer",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "7",
-  "source_a_files": 166,
-  "source_a_local": "/Users/matador/startups/agentos",
-  "source_b_venture": "agentos",
-  "source_c_github": "https://github.com/M4G3LL4N0/agentos"
+  "arch_doc": "ARCHITECTURE.md",
+  "cli_entrypoint": "src/agentos/cli.py",
+  "manifest": "pyproject.toml",
+  "readme": "README.md",
+  "source_a_local": "/srv/noaerth/startups/agentos",
+  "source_files_sampled": 80,
+  "test_files": 44
  },
  "experimental_features": [],
  "frameworks": [],
- "geometry_family": "DISTRIBUTED",
+ "geometry_family": "ORCHESTRATION",
  "github_repo": "agentos",
- "industry": "INFRASTRUCTURE",
- "input_types": [],
- "known_limitations": [],
+ "industry": "DEVELOPER_TOOLS",
+ "input_types": [
+  "CLI arguments",
+  "`agentos` subcommands",
+  "MCP JSON-RPC over stdio",
+  "WebSocket frames",
+  "environment variables: AGENTOS_HOME, CHROME_EXECUTABLE, GROKBOT_OFFICE_DIR, PATH, XAI_API_KEY, XAI_BASE_URL",
+  "flags: --command, --constraints, --context, --description, --expect, --explain, --force, --home"
+ ],
+ "interfaces": [
+  "MCP stdio",
+  "A2A",
+  "WebSocket",
+  "CLI"
+ ],
+ "known_limitations": [
+  "CURRENT_STATE.md: Heuristic operation resolution without explicit operation (safe default).",
+  "CURRENT_STATE.md: Quality evaluator is heuristic (no model judge wired; evaluator slot exists).",
+  "CURRENT_STATE.md: Backoff computed, not slept. API has no auth \u2014 bind loopback, trusted networks only.",
+  "CURRENT_STATE.md: No live model calls were made during verification (cost/latency unmeasured).",
+  "CURRENT_STATE.md: Learned routing returns no executor when no measured candidate profile exists; the hard-gated router remains authoritative rather than inventing a score.",
+  "CURRENT_STATE.md: `efficiency.py` import fixed (`intent_bag as intent_shingles`).",
+  "CURRENT_STATE.md: Single-token hints use word boundaries (`compute` no longer matches `computer`)."
+ ],
  "languages": [
   "Python"
  ],
- "major_components": [],
+ "major_components": [
+  "models.py \u2014 Dataclasses + enums: Objective, Capability, Execution, Event, VerificationResult, Failure, Evidence, Report, Strategy, Role, PlanStep, ExecutionPla...",
+  "store.py \u2014 sqlite persistence, schema, row\u2194model translation, per-thread connections. Survives restarts.",
+  "events.py \u2014 `EventBus`: synchronous persisted emit + queries.",
+  "policies.py \u2014 `ExecutionPolicy`: blocked patterns, destructive gating, approvals, write roots, secret redaction.",
+  "registry.py \u2014 Native+detected catalog (9), `register`/`remove`, `discover`, honest `probe`, deterministic `select`, configured-CLI registration. Holds adapter in...",
+  "router.py \u2014 `Router.plan`: 9 strategies, capability scoring (health+history+cost/latency), rationale, roles, conflict detection.",
+  "adapters/base.py \u2014 `Adapter` protocol, `ExecutionRequest`, `AdapterResult`. The seam future providers implement.",
+  "adapters/proc.py \u2014 Shared subprocess runner + binary resolution for CLI-backed adapters.",
+  "adapters/shell.py \u2014 Policy-gated subprocess: command/argv, cwd, env (scrubbed), timeout-kill, duration.",
+  "adapters/filesystem.py \u2014 Real file ops: `fs.read/write/exists/list`; writes policy-gated.",
+  "adapters/echo.py \u2014 Echo op for tests/demos. No external effects.",
+  "adapters/opencode.py \u2014 Real `opencode run --format json` delegation (prompt/project/model/agent/files)."
+ ],
  "mapping_confidence": "high",
- "material_family": "",
- "output_types": [],
- "primary_user": "",
- "primary_visual_metaphor": "a service mesh with one coordinating node",
- "primary_workflow": "nodes advertise capability, a coordinator selects, work converges",
- "problem": "",
- "project_category": "INFRASTRUCTURE",
- "public_financial_context": "not published per venture",
- "public_noaerth_positioning": "",
+ "material_family": "liquid_crystal",
+ "noaerth_category": "Developer tools",
+ "noaerth_category_path": "Developer tools",
+ "noaerth_next_milestone": "Improve conversion on AgentOS live surface",
+ "noaerth_operating_facts": {
+  "Focus": "Product",
+  "Stage": "Live",
+  "Type": "Developer tools"
+ },
+ "noaerth_site": "https://agentos-website-ten.vercel.app/",
+ "output_types": [
+  "stdout / stderr",
+  "persisted to sqlite",
+  "persisted to file-backed JSON",
+  "files on disk"
+ ],
+ "primary_user": "A universal, provider-neutral AI Agent Engine and orchestration control plane.",
+ "primary_visual_metaphor": "nodes converging on a coordinating cell",
+ "primary_workflow": "Verified useful output is the goal. Lower cost is a result of choosing the smallest capable path, not a reason to fabricate measurements or skip verification.",
+ "problem": "AgentOS is the generic execution and orchestration engine. It accepts an objective, inspects the current state, discovers capabilities, plans a bounded route, executes through an adapter, verifies the result, persists evidence, and decides what to do next. Humans and AI systems can use the same core through the CLI, lo",
+ "problem_source": "project source",
+ "project_category": "DEVELOPER_TOOLS",
+ "project_category_basis": "ships a verified CLI",
+ "project_category_previous": "DEVELOPER_TOOLS",
+ "public_noaerth_positioning": "Requested is not verified.",
  "purpose": "Provider-neutral AI agent execution and orchestration engine: objective in, verified outcome out.",
- "release": "unknown",
- "secondary_visual_metaphor": "",
- "secondary_workflows": [],
- "security_characteristics": [],
- "state_model": "",
+ "release": "0.5.0",
+ "secondary_visual_metaphor": "coordinating mesh in branching arrangement",
+ "secondary_workflows": [
+  "agentos status \u2014 show engine status summary",
+  "agentos doctor \u2014 run health checks",
+  "agentos init \u2014 initialize AgentOS home and state",
+  "agentos serve \u2014 start the lightweight HTTP API",
+  "agentos verify \u2014 re-verify the latest execution"
+ ],
+ "security_characteristics": [
+  "SECURITY.md documents the threat model and disclosure path",
+  "secret redaction in the execution path",
+  "destructive-operation gating",
+  "approval required before privileged action",
+  "write-root confinement",
+  "loopback-only bind address"
+ ],
+ "state_model": "sqlite, file-backed JSON",
  "technical_category": "DISTRIBUTED",
- "terminal_metaphor": "",
+ "terminal_metaphor": "agentos run \u2014 execute an objective through the engine",
  "tests": {
   "executed": false,
   "files": 44,
@@ -57,10 +124,78 @@
  },
  "trillionx_intensity": "standard",
  "unresolved": [
-  "primary_user",
-  "problem"
+  "frameworks"
  ],
- "venture_stage": "",
- "verified_features": [],
+ "venture_stage": "Live",
+ "verified_commands": [
+  {
+   "command": "agentos run",
+   "help": "execute an objective through the engine",
+   "parent": "",
+   "source": "src/agentos/cli.py"
+  },
+  {
+   "command": "agentos status",
+   "help": "show engine status summary",
+   "parent": "",
+   "source": "src/agentos/cli.py"
+  },
+  {
+   "command": "agentos doctor",
+   "help": "run health checks",
+   "parent": "",
+   "source": "src/agentos/cli.py"
+  },
+  {
+   "command": "agentos init",
+   "help": "initialize AgentOS home and state",
+   "parent": "",
+   "source": "src/agentos/cli.py"
+  },
+  {
+   "command": "agentos serve",
+   "help": "start the lightweight HTTP API",
+   "parent": "",
+   "source": "src/agentos/cli.py"
+  },
+  {
+   "command": "agentos verify",
+   "help": "re-verify the latest execution",
+   "parent": "",
+   "source": "src/agentos/cli.py"
+  },
+  {
+   "command": "agentos inspect",
+   "help": "full detail for an objective",
+   "parent": "",
+   "source": "src/agentos/cli.py"
+  },
+  {
+   "command": "agentos recover",
+   "help": "recover a failed/blocked objective",
+   "parent": "",
+   "source": "src/agentos/cli.py"
+  },
+  {
+   "command": "agentos a2a",
+   "help": "A2A v1.0 remote interop",
+   "parent": "",
+   "source": "src/agentos/cli.py"
+  },
+  {
+   "command": "agentos agents",
+   "help": "list agent/model capabilities",
+   "parent": "",
+   "source": "src/agentos/cli.py"
+  }
+ ],
+ "verified_features": [
+  "models.py \u2014 Dataclasses + enums: Objective, Capability, Execution, Event, VerificationResult, Failure, Evidence, Report, Strategy, Role, PlanStep, ExecutionPla...",
+  "store.py \u2014 sqlite persistence, schema, row\u2194model translation, per-thread connections. Survives restarts.",
+  "events.py \u2014 `EventBus`: synchronous persisted emit + queries.",
+  "policies.py \u2014 `ExecutionPolicy`: blocked patterns, destructive gating, approvals, write roots, secret redaction.",
+  "registry.py \u2014 Native+detected catalog (9), `register`/`remove`, `discover`, honest `probe`, deterministic `select`, configured-CLI registration. Holds adapter in...",
+  "router.py \u2014 `Router.plan`: 9 strategies, capability scoring (health+history+cost/latency), rationale, roles, conflict detection."
+ ],
  "visual_density": "medium"
 }

@@ -1,54 +1,98 @@
 {
- "animation_metaphor": "objective becomes a plan, tools execute, verification resolves",
+ "animation_metaphor": "value enters, allocates across positions, and settles",
  "architecture_type": "AGENT_LOOP",
- "benchmark_dimensions": [],
+ "benchmark_dimensions": [
+  "benchmark harness present: packages/mind/src/benchmark.ts, web/src/lib/content/benchmarks.ts"
+ ],
  "canonical_name": "SE-AI Mind",
  "ci": {
   "present": true,
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
- "control_flow": "objective becomes a plan, tools execute, verification resolves",
- "data_flow": "",
- "depth": "layered",
+ "color_family": "mint",
+ "control_flow": "primary entry: CLI",
+ "data_flow": "CLI arguments \u2192 file-backed JSON \u2192 stdout / stderr",
+ "depth": "stratified",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "23",
-  "source_a_files": 191,
-  "source_a_local": "/Users/matador/startups/seai-mind",
-  "source_b_venture": "se-ai-mind",
-  "source_c_github": "https://github.com/M4G3LL4N0/seai-mind"
+  "arch_doc": "",
+  "cli_entrypoint": "",
+  "manifest": "package.json",
+  "readme": "README.md",
+  "source_a_local": "/srv/noaerth/startups/seai-mind",
+  "source_files_sampled": 80,
+  "test_files": 12
  },
  "experimental_features": [],
- "frameworks": [],
- "geometry_family": "AGENT_LOOP",
+ "frameworks": [
+  "vite",
+  "vitest"
+ ],
+ "geometry_family": "CAPITAL_MECHANICS",
  "github_repo": "seai-mind",
- "industry": "SECURITY",
- "input_types": [],
- "known_limitations": [],
+ "industry": "AGENT",
+ "input_types": [
+  "CLI arguments"
+ ],
+ "interfaces": [
+  "CLI"
+ ],
+ "known_limitations": [
+  "CHANGELOG.md: No model provider is bundled. `doctor` will report a missing model rather",
+  "CHANGELOG.md: 3 tests are skipped, not passing.",
+  "CHANGELOG.md: Evaluation breadth is narrow; the scores it produces should not be compared"
+ ],
  "languages": [
   "TypeScript"
  ],
- "major_components": [],
+ "major_components": [
+  "web (74 files)",
+  "docs (43 files)",
+  "packages/mind (16 files)",
+  "packages/core (13 files)",
+  "packages/runtime (12 files)",
+  "packages/state (8 files)",
+  ".github (6 files)",
+  "packages/cli (5 files)",
+  "packages/sdk (3 files)",
+  "minds (1 file)"
+ ],
  "mapping_confidence": "high",
- "material_family": "",
- "output_types": [],
- "primary_user": "",
- "primary_visual_metaphor": "closed loop with a verification terminus",
- "primary_workflow": "objective becomes a plan, tools execute, verification resolves",
- "problem": "",
- "project_category": "SECURITY",
- "public_financial_context": "not published per venture",
- "public_noaerth_positioning": "",
+ "material_family": "ceramic",
+ "noaerth_category": "Research",
+ "noaerth_category_path": "Research",
+ "noaerth_next_milestone": "Improve conversion on SE-AI Mind live surface",
+ "noaerth_operating_facts": {
+  "Focus": "Product",
+  "Stage": "Live",
+  "Type": "Research"
+ },
+ "noaerth_site": "https://seai-mind.vercel.app/",
+ "output_types": [
+  "stdout / stderr",
+  "persisted to file-backed JSON",
+  "persisted to SQLite via ORM",
+  "files on disk",
+  "CSV exports"
+ ],
+ "primary_user": "Self-Evolving Artificial Intelligence - Darwin Generation",
+ "primary_visual_metaphor": "value entering, allocating and settling across columns",
+ "primary_workflow": "",
+ "problem": "Open-source self-evolving AI kernel. Small kernel, growing intelligence: Minds + Models + Memory + Skills + Tools + Evolution + Evaluation.",
+ "problem_source": "project source",
+ "project_category": "AGENT",
+ "project_category_basis": "project text: model, evolution, mind",
+ "project_category_previous": "AGENT",
+ "public_noaerth_positioning": "A small kernel for a mind that can be measured.",
  "purpose": "Open-source self-evolving AI kernel with an auditable memory and capability loop.",
- "release": "unknown",
- "secondary_visual_metaphor": "",
+ "release": "0.1.0-alpha",
+ "secondary_visual_metaphor": "ledger columns in linear arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
- "state_model": "",
+ "state_model": "file-backed JSON, SQLite via ORM",
  "technical_category": "AGENT_LOOP",
- "terminal_metaphor": "a cursor running real commands",
+ "terminal_metaphor": "",
  "tests": {
   "executed": false,
   "files": 12,
@@ -57,10 +101,13 @@
  },
  "trillionx_intensity": "standard",
  "unresolved": [
-  "primary_user",
-  "problem"
+  "verified_features",
+  "security_characteristics",
+  "terminal_metaphor",
+  "primary_workflow"
  ],
- "venture_stage": "",
+ "venture_stage": "Live",
+ "verified_commands": [],
  "verified_features": [],
  "visual_density": "medium"
 }

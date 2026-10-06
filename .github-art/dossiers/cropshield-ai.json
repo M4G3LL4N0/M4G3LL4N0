@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "capital enters, allocates across positions, and settles into an outcome",
+ "animation_metaphor": "a composed grid assembles and a sweep resolves it",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "CropShield AI",
@@ -8,49 +8,93 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
- "control_flow": "capital enters, allocates across positions, and settles into an outcome",
- "data_flow": "",
- "depth": "layered",
+ "color_family": "violet",
+ "control_flow": "primary entry: HTTP API",
+ "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
+ "depth": "stacked",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "unknown",
-  "source_a_files": 65,
-  "source_a_local": "/Users/matador/startups/cropshield-ai",
-  "source_b_venture": "cropshield-ai",
-  "source_c_github": "https://github.com/M4G3LL4N0/cropshield-ai"
+  "arch_doc": "ARCHITECTURE.md",
+  "cli_entrypoint": "",
+  "manifest": "package.json",
+  "readme": "README.md",
+  "source_a_local": "/srv/noaerth/startups/cropshield-ai",
+  "source_files_sampled": 42,
+  "test_files": 0
  },
  "experimental_features": [],
- "frameworks": [],
- "geometry_family": "DATA_FLOW",
+ "frameworks": [
+  "next.js",
+  "prisma",
+  "react",
+  "tailwindcss"
+ ],
+ "geometry_family": "PRESENTATION",
  "github_repo": "cropshield-ai",
- "industry": "FINANCE",
- "input_types": [],
- "known_limitations": [],
+ "industry": "BIOTECH",
+ "input_types": [
+  "HTTP requests (JSON)"
+ ],
+ "interfaces": [
+  "HTTP API"
+ ],
+ "known_limitations": [
+  "LOCAL_REVIEW.md: Public metrics are illustrative unless marked PROVEN in `startupjourney.md`.",
+  "LOCAL_REVIEW.md: High-stakes decisions require human professional review where applicable.",
+  "no test tree in the repository; no test count is claimed",
+  "no CI workflow configured",
+  "no LICENSE file at the repository root"
+ ],
  "languages": [
   "mjs",
   "ts",
   "tsx"
  ],
- "major_components": [],
+ "major_components": [
+  "components (20 files)",
+  "public (5 files)",
+  "app/* (4 files)",
+  "lib/* (4 files)",
+  "app/analyze (2 files)",
+  "app/api (2 files)",
+  "app/reports (2 files)",
+  "src/lib (2 files)",
+  "app/about (1 file)",
+  "app/contact (1 file)"
+ ],
  "mapping_confidence": "high",
- "material_family": "",
- "output_types": [],
+ "material_family": "polymer",
+ "noaerth_category": "Agriculture",
+ "noaerth_category_path": "Agriculture / AI Infrastructure",
+ "noaerth_next_milestone": "Align hero and first action with: Find the acres that actually need treatment before spraying\u2026",
+ "noaerth_operating_facts": {
+  "Focus": "Agriculture layer in",
+  "Stage": "Building",
+  "Type": "Agriculture"
+ },
+ "noaerth_site": "https://cropshield-ai-website.vercel.app/",
+ "output_types": [
+  "HTTP responses (JSON)",
+  "route handlers: reports, reports/[id]",
+  "persisted to file-backed JSON"
+ ],
  "primary_user": "",
- "primary_visual_metaphor": "ledger columns with allocation flow between them",
- "primary_workflow": "capital enters, allocates across positions, and settles into an outcome",
- "problem": "",
- "project_category": "FINANCE",
- "public_financial_context": "not published per venture",
- "public_noaerth_positioning": "",
+ "primary_visual_metaphor": "a composed grid assembling and settling",
+ "primary_workflow": "",
+ "problem": "Premium Next.js MVP for **AI-assisted crop diagnostics** and **precision spray planning** with a deterministic rules engine (swap in real CV/robotics later).",
+ "problem_source": "project source",
+ "project_category": "BIOTECH",
+ "project_category_basis": "public venture card category: agriculture",
+ "project_category_previous": "BIOTECH",
+ "public_noaerth_positioning": "AI monitoring and protection for agricultural operations and yield risk.",
  "purpose": "Startup portfolio: cropshield-ai",
- "release": "unknown",
- "secondary_visual_metaphor": "",
+ "release": "0.1.0",
+ "secondary_visual_metaphor": "soft tiles in mesh arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
- "state_model": "",
+ "state_model": "file-backed JSON",
  "technical_category": "DATA_FLOW",
- "terminal_metaphor": "a cursor running real commands",
+ "terminal_metaphor": "",
  "tests": {
   "executed": false,
   "files": 0,
@@ -60,9 +104,13 @@
  "trillionx_intensity": "standard",
  "unresolved": [
   "primary_user",
-  "problem"
+  "verified_features",
+  "security_characteristics",
+  "terminal_metaphor",
+  "primary_workflow"
  ],
- "venture_stage": "",
+ "venture_stage": "Building",
+ "verified_commands": [],
  "verified_features": [],
  "visual_density": "medium"
 }

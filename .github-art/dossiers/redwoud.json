@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "records cross a trust boundary, get validated, and are held or rejected",
+ "animation_metaphor": "a composed grid assembles and a sweep resolves it",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "Redwoud",
@@ -8,47 +8,92 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
- "control_flow": "records cross a trust boundary, get validated, and are held or rejected",
- "data_flow": "",
- "depth": "layered",
+ "color_family": "violet",
+ "control_flow": "primary entry: HTTP API",
+ "data_flow": "HTTP requests (JSON) \u2192 in-process state \u2192 HTTP responses (JSON)",
+ "depth": "stacked",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "242",
-  "source_a_files": 134,
-  "source_a_local": "/Users/matador/startups/redwoud",
-  "source_b_venture": "redwoud",
-  "source_c_github": "https://github.com/M4G3LL4N0/redwoud"
+  "arch_doc": "ARCHITECTURE.md",
+  "cli_entrypoint": "",
+  "manifest": "package.json",
+  "readme": "README.md",
+  "source_a_local": "/srv/noaerth/startups/redwoud",
+  "source_files_sampled": 65,
+  "test_files": 0
  },
  "experimental_features": [],
- "frameworks": [],
- "geometry_family": "DATA_FLOW",
+ "frameworks": [
+  "next.js",
+  "react",
+  "supabase",
+  "tailwindcss"
+ ],
+ "geometry_family": "PRESENTATION",
  "github_repo": "redwoud",
- "industry": "SECURITY",
- "input_types": [],
- "known_limitations": [],
+ "industry": "DATA",
+ "input_types": [
+  "HTTP requests (JSON)"
+ ],
+ "interfaces": [
+  "HTTP API"
+ ],
+ "known_limitations": [
+  "Router: App/Pages under `app/` or `src/app/`",
+  "UI: `components/`, `src/components/`",
+  "Styles: `globals.css`, Tailwind",
+  "Config: `package.json`, `tsconfig.json`, `next.config.*`",
+  "Frontend: Next.js + React + TypeScript",
+  "no test tree in the repository; no test count is claimed",
+  "no LICENSE file at the repository root"
+ ],
  "languages": [
   "TypeScript"
  ],
- "major_components": [],
+ "major_components": [
+  "components (29 files)",
+  "docs (9 files)",
+  ".github (7 files)",
+  "app/* (4 files)",
+  "app/api (4 files)",
+  "lib/* (4 files)",
+  "public-site (4 files)",
+  ".autobuilder (3 files)",
+  ".continue (3 files)",
+  "prompts (3 files)"
+ ],
  "mapping_confidence": "high",
- "material_family": "",
- "output_types": [],
- "primary_user": "",
- "primary_visual_metaphor": "gated channels passing through a sealed boundary",
- "primary_workflow": "records cross a trust boundary, get validated, and are held or rejected",
- "problem": "",
- "project_category": "SECURITY",
- "public_financial_context": "not published per venture",
- "public_noaerth_positioning": "",
+ "material_family": "resin",
+ "noaerth_category": "Clarity Systems",
+ "noaerth_category_path": "Clarity Systems",
+ "noaerth_next_milestone": "Strengthen live signal reads and operator proof",
+ "noaerth_operating_facts": {
+  "Focus": "analysis",
+  "Stage": "Live",
+  "Type": "Clarity Systems"
+ },
+ "noaerth_site": "https://redwoud.noaerth.com/",
+ "output_types": [
+  "HTTP responses (JSON)",
+  "route handlers: briefing, feed, ingest, trends"
+ ],
+ "primary_user": "built for professionals",
+ "primary_visual_metaphor": "a composed grid assembling and settling",
+ "primary_workflow": "",
+ "problem": "REDWOUD is an AI-powered real-time global intelligence platform that turns worldwide data, news, market signals, economic indicators, geopolitical developments, and public information into structured, actionable intelligence.",
+ "problem_source": "project source",
+ "project_category": "DATA",
+ "project_category_basis": "project text: ingest",
+ "project_category_previous": "DATA",
+ "public_noaerth_positioning": "Strategic intelligence and signal surfaces for operators who need sharper market reads.",
  "purpose": "redwoud. package.json; CI configured.",
- "release": "unknown",
- "secondary_visual_metaphor": "",
+ "release": "1.0.0",
+ "secondary_visual_metaphor": "type rail in mesh arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "",
  "technical_category": "DATA_FLOW",
- "terminal_metaphor": "a cursor running real commands",
+ "terminal_metaphor": "",
  "tests": {
   "executed": false,
   "files": 0,
@@ -57,10 +102,14 @@
  },
  "trillionx_intensity": "standard",
  "unresolved": [
-  "primary_user",
-  "problem"
+  "state_model",
+  "verified_features",
+  "security_characteristics",
+  "terminal_metaphor",
+  "primary_workflow"
  ],
- "venture_stage": "",
+ "venture_stage": "Live",
+ "verified_commands": [],
  "verified_features": [],
  "visual_density": "medium"
 }

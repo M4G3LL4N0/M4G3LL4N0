@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "threat approaches a boundary, the boundary reacts, the path closes",
+ "animation_metaphor": "a cursor runs this project's real commands and output resolves",
  "architecture_type": "SECURITY",
  "benchmark_dimensions": [],
  "canonical_name": "GrokGeneral",
@@ -8,47 +8,94 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
- "control_flow": "threat approaches a boundary, the boundary reacts, the path closes",
- "data_flow": "",
- "depth": "layered",
+ "color_family": "cyan",
+ "control_flow": "gg status",
+ "data_flow": "CLI arguments \u2192 sqlite \u2192 stdout / stderr (also via `gg` subcommands, HTTP requests (JSON))",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "26",
-  "source_a_files": 84,
-  "source_a_local": "/Users/matador/startups/grokgeneral",
-  "source_b_venture": "grokgeneral",
-  "source_c_github": "https://github.com/M4G3LL4N0/grokgeneral"
+  "arch_doc": "",
+  "cli_entrypoint": "grokgeneral/cli.py",
+  "manifest": "pyproject.toml",
+  "readme": "README.md",
+  "source_a_local": "/srv/noaerth/startups/grokgeneral",
+  "source_files_sampled": 68,
+  "test_files": 37
  },
  "experimental_features": [],
  "frameworks": [],
- "geometry_family": "SECURITY",
+ "geometry_family": "INSTRUMENT",
  "github_repo": "grokgeneral",
- "industry": "SECURITY",
- "input_types": [],
- "known_limitations": [],
+ "industry": "DEVELOPER_TOOLS",
+ "input_types": [
+  "CLI arguments",
+  "`gg` subcommands",
+  "HTTP requests (JSON)",
+  "environment variables: GG_OPENCODE_BIN, GG_STARTUPS_ROOT, GG_STATE_DIR, HOME, PATH",
+  "flags: --all, --full, --kind, --no-health, --priority, --project, --root, --scan"
+ ],
+ "interfaces": [
+  "HTTP API",
+  "CLI"
+ ],
+ "known_limitations": [
+  "no CI workflow configured",
+  "no LICENSE file at the repository root"
+ ],
  "languages": [
   "Python"
  ],
- "major_components": [],
+ "major_components": [
+  "tests (37 files)",
+  "grokgeneral (31 files)",
+  "docs (9 files)",
+  "site (2 files)"
+ ],
  "mapping_confidence": "high",
- "material_family": "",
- "output_types": [],
- "primary_user": "",
- "primary_visual_metaphor": "closed concentric containment around a protected core",
- "primary_workflow": "threat approaches a boundary, the boundary reacts, the path closes",
- "problem": "",
- "project_category": "SECURITY",
- "public_financial_context": "not published per venture",
- "public_noaerth_positioning": "",
+ "material_family": "polymer",
+ "noaerth_category": "Developer tools",
+ "noaerth_category_path": "Developer tools",
+ "noaerth_next_milestone": "Sharpen GrokGeneral homepage and first user action",
+ "noaerth_operating_facts": {
+  "Focus": "Product",
+  "Stage": "Building",
+  "Type": "Developer tools"
+ },
+ "noaerth_site": "https://grokgeneral.vercel.app/",
+ "output_types": [
+  "stdout / stderr",
+  "HTTP responses (JSON)",
+  "persisted to sqlite",
+  "persisted to file-backed JSON",
+  "files on disk"
+ ],
+ "primary_user": "built for the GrokBot ecosystem",
+ "primary_visual_metaphor": "a command surface reporting as it runs",
+ "primary_workflow": "",
+ "problem": "GrokGeneral is the local kernel and control plane for the GrokBot ecosystem. It indexes projects and resources, normalizes work, chooses the cheapest capable execution path, packages narrow context, records decisions and usage, and surfaces temporary capacity opportunities.",
+ "problem_source": "project source",
+ "project_category": "DEVELOPER_TOOLS",
+ "project_category_basis": "ships a verified CLI",
+ "project_category_previous": "DEVELOPER_TOOLS",
+ "public_noaerth_positioning": "The local kernel for the GrokBot ecosystem.",
  "purpose": "grokgeneral. pyproject.toml; 37 test file(s); local-first storage.",
- "release": "unknown",
- "secondary_visual_metaphor": "",
- "secondary_workflows": [],
- "security_characteristics": [],
- "state_model": "",
+ "release": "0.1.0",
+ "secondary_visual_metaphor": "instrument dial in linear arrangement",
+ "secondary_workflows": [
+  "gg doctor",
+  "gg init \u2014 initialize local state",
+  "gg adapter",
+  "gg adapters",
+  "gg approval"
+ ],
+ "security_characteristics": [
+  "secret redaction in the execution path",
+  "destructive-operation gating",
+  "approval required before privileged action"
+ ],
+ "state_model": "sqlite, file-backed JSON",
  "technical_category": "SECURITY",
- "terminal_metaphor": "",
+ "terminal_metaphor": "gg status \u2014 ",
  "tests": {
   "executed": false,
   "files": 37,
@@ -57,10 +104,73 @@
  },
  "trillionx_intensity": "standard",
  "unresolved": [
-  "primary_user",
-  "problem"
+  "verified_features",
+  "frameworks",
+  "primary_workflow"
  ],
- "venture_stage": "",
+ "venture_stage": "Building",
+ "verified_commands": [
+  {
+   "command": "gg status",
+   "help": "",
+   "parent": "",
+   "source": "grokgeneral/cli.py"
+  },
+  {
+   "command": "gg doctor",
+   "help": "",
+   "parent": "",
+   "source": "grokgeneral/cli.py"
+  },
+  {
+   "command": "gg init",
+   "help": "initialize local state",
+   "parent": "",
+   "source": "grokgeneral/cli.py"
+  },
+  {
+   "command": "gg adapter",
+   "help": "",
+   "parent": "",
+   "source": "grokgeneral/cli.py"
+  },
+  {
+   "command": "gg adapters",
+   "help": "",
+   "parent": "",
+   "source": "grokgeneral/cli.py"
+  },
+  {
+   "command": "gg approval",
+   "help": "",
+   "parent": "",
+   "source": "grokgeneral/cli.py"
+  },
+  {
+   "command": "gg approvals",
+   "help": "",
+   "parent": "",
+   "source": "grokgeneral/cli.py"
+  },
+  {
+   "command": "gg ask",
+   "help": "",
+   "parent": "",
+   "source": "grokgeneral/cli.py"
+  },
+  {
+   "command": "gg backlog",
+   "help": "",
+   "parent": "",
+   "source": "grokgeneral/cli.py"
+  },
+  {
+   "command": "gg cache",
+   "help": "",
+   "parent": "",
+   "source": "grokgeneral/cli.py"
+  }
+ ],
  "verified_features": [],
  "visual_density": "medium"
 }

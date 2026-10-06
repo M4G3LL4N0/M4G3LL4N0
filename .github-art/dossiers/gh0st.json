@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "threat approaches a boundary, the boundary reacts, the path closes",
+ "animation_metaphor": "traffic reaches a boundary; the boundary admits some and holds the rest",
  "architecture_type": "SECURITY",
  "benchmark_dimensions": [],
  "canonical_name": "gh0st",
@@ -8,47 +8,91 @@
   "workflows": []
  },
  "classification": "FLAGSHIP",
- "color_family": "",
- "control_flow": "threat approaches a boundary, the boundary reacts, the path closes",
- "data_flow": "",
- "depth": "layered",
+ "color_family": "indigo",
+ "control_flow": "primary entry: HTTP API",
+ "data_flow": "CLI arguments \u2192 file-backed JSON \u2192 stdout / stderr (also via HTTP requests (JSON), WebSocket frames)",
+ "depth": "stratified",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "15",
-  "source_a_files": 194,
-  "source_a_local": "/Users/matador/startups/gh0st",
-  "source_b_venture": "",
-  "source_c_github": "https://github.com/M4G3LL4N0/gh0st"
+  "arch_doc": "",
+  "cli_entrypoint": "",
+  "manifest": "package.json",
+  "readme": "README.md",
+  "source_a_local": "/srv/noaerth/startups/gh0st",
+  "source_files_sampled": 71,
+  "test_files": 1
  },
  "experimental_features": [],
- "frameworks": [],
- "geometry_family": "SECURITY",
+ "frameworks": [
+  "vite",
+  "vitest"
+ ],
+ "geometry_family": "TRUST_BOUNDARY",
  "github_repo": "gh0st",
  "industry": "SECURITY",
- "input_types": [],
- "known_limitations": [],
+ "input_types": [
+  "CLI arguments",
+  "HTTP requests (JSON)",
+  "WebSocket frames"
+ ],
+ "interfaces": [
+  "HTTP API",
+  "WebSocket",
+  "CLI"
+ ],
+ "known_limitations": [
+  "CHANGELOG.md: macOS release artifacts are ad-hoc signed, not Developer ID signed or notarized",
+  "CHANGELOG.md: The macOS client is an early native shell; Settings/API-key entry, native encrypted persistence, biometric unlock, and auto-lock are not wired yet",
+  "CHANGELOG.md: The browser client uses a local-storage path that is not yet connected to the encrypted vault; use the CLI for the current encrypted workflow",
+  "CHANGELOG.md: iOS remains in development and is not publicly downloadable",
+  "CHANGELOG.md: Live ZDR verification depends on xAI team configuration",
+  "CHANGELOG.md: Auto-update is not enabled until signed updater artifacts are configured",
+  "CHANGELOG.md: Initial local development implementation",
+  "only 1 test file(s); coverage is narrow"
+ ],
  "languages": [
   "TypeScript"
  ],
- "major_components": [],
+ "major_components": [
+  "apps (103 files)",
+  "docs (14 files)",
+  "packages/ui (12 files)",
+  ".github (11 files)",
+  "packages/files (8 files)",
+  "packages/security (7 files)",
+  "packages/xai (7 files)",
+  "packages/storage (6 files)",
+  "packages/core (5 files)",
+  "scripts (1 file)"
+ ],
  "mapping_confidence": "high",
- "material_family": "",
- "output_types": [],
- "primary_user": "",
- "primary_visual_metaphor": "closed concentric containment around a protected core",
- "primary_workflow": "threat approaches a boundary, the boundary reacts, the path closes",
- "problem": "",
+ "material_family": "obsidian",
+ "output_types": [
+  "stdout / stderr",
+  "HTTP responses (JSON)",
+  "persisted to file-backed JSON",
+  "files on disk",
+  "CSV exports"
+ ],
+ "primary_user": "built for your xAI team",
+ "primary_visual_metaphor": "a sealed boundary holding or admitting traffic",
+ "primary_workflow": "",
+ "problem": "gh0st is a local-first interface for xAI/Grok. The CLI provides the current encrypted local-storage workflow; the macOS and browser clients are early interfaces. Conversations, files, agents, and local state stay on your device while xAI performs inference using `store=false` and, when enabled for your xAI team, verifi",
+ "problem_source": "project source",
  "project_category": "SECURITY",
- "public_financial_context": "not published per venture",
+ "project_category_basis": "security is the stated subject of the project",
+ "project_category_previous": "SECURITY",
  "public_noaerth_positioning": "",
  "purpose": "Local-first encrypted AI client for xAI/Grok with verifiable no-retention guarantees.",
- "release": "unknown",
- "secondary_visual_metaphor": "",
+ "release": "1.0.0-rc.1",
+ "secondary_visual_metaphor": "gated channels in concentric arrangement",
  "secondary_workflows": [],
- "security_characteristics": [],
- "state_model": "",
+ "security_characteristics": [
+  "SECURITY.md documents the threat model and disclosure path"
+ ],
+ "state_model": "file-backed JSON",
  "technical_category": "SECURITY",
- "terminal_metaphor": "a cursor running real commands",
+ "terminal_metaphor": "",
  "tests": {
   "executed": false,
   "files": 1,
@@ -57,10 +101,12 @@
  },
  "trillionx_intensity": "standard",
  "unresolved": [
-  "primary_user",
-  "problem"
+  "verified_features",
+  "terminal_metaphor",
+  "primary_workflow"
  ],
  "venture_stage": "",
+ "verified_commands": [],
  "verified_features": [],
  "visual_density": "medium"
 }
