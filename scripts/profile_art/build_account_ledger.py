@@ -75,9 +75,19 @@ def completeness_fields(name: str, meta: dict, local: Path | None) -> dict:
     readme = gh_json(f"repos/{full}/readme")
     workflows = gh_json(f"repos/{full}/contents/.github/workflows")
     tree = gh_json(f"repos/{full}/contents")
-    root = [i["name"] for i in tree] if isinstance(tree, list) else []
+    root = [i["name"] for i in tree if isinstance(i, dict)] \
+        if isinstance(tree, list) else []
 
     has_ci = bool(isinstance(workflows, list) and workflows)
+    # The contents endpoint lists only the repository root, so nested test files
+    # were invisible and every repository looked untested. The recursive tree is
+    # required for any whole-repository claim.
+    branch = ((meta.get("default_branch") or {}).get("name")
+              if isinstance(meta.get("default_branch"), dict)
+              else meta.get("default_branch")) or "main"
+    full = gh_json(f"repos/{full}/git/trees/{branch}?recursive=1") or {}
+    paths = [t["path"] for t in (full.get("tree") or [])
+             if isinstance(t, dict) and t.get("type") == "blob"]
     topics = [t["name"] if isinstance(t, dict) else t
               for t in (meta.get("topics") or [])]
     lic = (meta.get("license") or {}).get("spdx_id") or ""
@@ -117,8 +127,14 @@ def completeness_fields(name: str, meta: dict, local: Path | None) -> dict:
         "discussions_state": st(bool(meta.get("has_discussions")),
                                 "discussions not enabled"),
         "ci_state": st(has_ci, "no workflow; not applicable unless executable code exists"),
-        "tests_state": st(bool(meta.get("test_count")),
-                          "no measured test count recorded"),
+        # Derived from the tree, not from an operator-maintained count. The
+        # previous version reported NOT_APPLICABLE whenever no test count had
+        # been recorded, which is a measurement gap dressed up as a resolution:
+        # repositories with real test suites were being marked as having none.
+        "tests_state": st(bool([p for p in paths
+                                if re.search(r"(^|/)(tests?|__tests__|spec)/|"
+                                             r"(_test|\.test|\.spec)\.", p)]),
+                          "no test file present in the repository tree"),
         "fresh_clone_state": {
             "state": NA,
             "reason": "no fresh-clone verification has been run for this repository",
