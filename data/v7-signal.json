@@ -14,7 +14,7 @@
   "SECURITY": 3
  },
  "distinct_architectures": 10,
- "distinct_motion_stories": 18,
+ "distinct_motion_stories": 15,
  "engineering": {
   "ci_configured": 14,
   "contributing_guides": 136,
@@ -35,16 +35,18 @@
   "swift": 1,
   "typescript": 105
  },
+ "measured_at": "2026-10-06T22:00:25Z",
  "scope": {
   "dossiers": 126,
   "public_repositories": 136
  },
  "technical_domains": {
-  "AGENTS": 22,
-  "APPLICATIONS": 6,
-  "DEVELOPER TOOLS": 8,
-  "INFRASTRUCTURE": 3,
-  "QUANT / DATA": 28,
-  "SECURITY": 59
+  "AGENTS": 9,
+  "APPLICATIONS": 62,
+  "CREATIVE COMPUTING": 7,
+  "DEVELOPER TOOLS": 12,
+  "INFRASTRUCTURE": 18,
+  "QUANT / DATA": 9,
+  "SECURITY": 9
  }
 }

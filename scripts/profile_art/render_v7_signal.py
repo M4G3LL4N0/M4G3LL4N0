@@ -70,8 +70,10 @@ def main() -> int:
         lines.append("**Languages** — " +
                      " · ".join(f"{k} {v}" for k, v in langs))
     lines.append("")
-    now = subprocess.run(["date", "-u", "+%Y-%m-%dT%H:%M:%SZ"],
-                         capture_output=True, text=True).stdout.strip()
+    # Read the measurement time from the data. Shelling out to `date` here
+    # made the rendered README differ on every run, so the "generated blocks
+    # are up to date" gate this block exists to satisfy could never pass.
+    now = s.get("measured_at", "unknown")
     lines.append(f"<sub>Measured {now}. Source: reconciled repository inventory, "
                  "per-project dossiers and operator-recorded test counts. "
                  "Private and denylisted repositories are excluded from every "

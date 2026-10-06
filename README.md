@@ -63,14 +63,14 @@
 | Releases | **6** | tagged GitHub releases |
 | READMEs | **136** | public repositories with real documentation |
 | SECURITY.md | **136** | repositories with a published security policy |
-| Technical domains | **6** | clusters derived from each project's architecture |
-| State machines | **18** | distinct computational flows derived from source |
+| Technical domains | **7** | clusters derived from each project's architecture |
+| State machines | **15** | distinct computational flows derived from source |
 
-**Technical domains** — AGENTS 22 · APPLICATIONS 6 · DEVELOPER TOOLS 8 · INFRASTRUCTURE 3 · QUANT / DATA 28 · SECURITY 59  
+**Technical domains** — AGENTS 9 · APPLICATIONS 62 · CREATIVE COMPUTING 7 · DEVELOPER TOOLS 12 · INFRASTRUCTURE 18 · QUANT / DATA 9 · SECURITY 9  
 
 **Languages** — css 1 · go 1 · html 13 · js 1 · python 2 · sql 1
 
-<sub>Measured 2026-10-06T20:31:41Z. Source: reconciled repository inventory, per-project dossiers and operator-recorded test counts. Private and denylisted repositories are excluded from every figure. Stars and forks are deliberately not shown.</sub>
+<sub>Measured 2026-10-06T22:00:25Z. Source: reconciled repository inventory, per-project dossiers and operator-recorded test counts. Private and denylisted repositories are excluded from every figure. Stars and forks are deliberately not shown.</sub>
 <!-- signal:end -->
 
 ---

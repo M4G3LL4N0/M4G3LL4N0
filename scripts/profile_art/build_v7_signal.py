@@ -15,6 +15,7 @@ financial metrics are gone rather than hidden.
 from __future__ import annotations
 
 import json
+from datetime import datetime, timezone
 from collections import Counter
 from pathlib import Path
 
@@ -98,6 +99,11 @@ def main() -> int:
         "$comment": "V7 technical signal. Engineering evidence only. Portfolio "
                     "economics were removed from GitHub by direction change.",
         "account": led["account"],
+        # The measurement time belongs to the measurement, not to the render.
+        # Reading the clock while rendering made render_v7_signal.py produce a
+        # different README every run, so the "generated blocks are up to date"
+        # gate could never pass.
+        "measured_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "scope": {
             "public_repositories": len(public),
             "dossiers": len(dossiers),

@@ -146,10 +146,10 @@ jobs:
       - name: Generated README blocks are up to date
         run: |
           set -euo pipefail
-          python3 scripts/profile_art/render_signal_block.py
+          python3 scripts/profile_art/render_v7_signal.py
           python3 scripts/profile_art/render_upstream_block.py
           if ! git diff --quiet -- README.md; then
-            echo "::error::README generated blocks are stale. Re-run the render_signal_block.py and render_upstream_block.py scripts."
+            echo "::error::README generated blocks are stale. Re-run the render_v7_signal.py and render_upstream_block.py scripts."
             git diff -- README.md
             exit 1
           fi
