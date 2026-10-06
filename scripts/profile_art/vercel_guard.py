@@ -84,11 +84,20 @@ def vercel_token() -> str | None:
 def vercel_links() -> tuple[list[dict], str]:
     """Projects still carrying a GitHub git integration."""
     if not vercel_token():
+        # No token means no live query, so no live claim can be made. The
+        # recorded inventory is an audit trail of connections that were already
+        # disconnected; treating it as current state reported 78 phantom risks
+        # after they had been removed, which is how a gate teaches people to
+        # ignore it.
         if CACHE.is_file():
             data = json.loads(CACHE.read_text(encoding="utf-8"))
-            still = [c for c in data.get("connections", [])
-                     if not c.get("disconnected_at")]
-            return still, "cached: no VERCEL_TOKEN, using recorded inventory"
+            pending = [c for c in data.get("connections", [])
+                       if not c.get("disconnected")]
+            src = ("recorded inventory: all "
+                   f"{len(data.get('connections', []))} connections already "
+                   "disconnected" if not pending else
+                   f"recorded inventory: {len(pending)} not marked disconnected")
+            return pending, src
         return [], "no token and no inventory"
     t = vercel_token()
     try:

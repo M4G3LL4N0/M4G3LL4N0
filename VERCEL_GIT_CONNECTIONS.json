@@ -1,5 +1,5 @@
 {
- "$comment": "Vercel projects with a GitHub git integration, which triggers automatic production deployment on push. Disconnecting the link stops git-triggered deploys. Manual deploys via the CLI, deploy hooks and the dashboard do not require a link, so intentional deployment is preserved.",
+ "$comment": "Historical record: these 78 Vercel projects were connected to GitHub and were all disconnected. Every entry is marked disconnected. This file is an audit trail, not a live risk list; current state comes from the Vercel API.",
  "team": "team_Lz4OCU2eTnruvq8tL9XUVkUZ",
  "captured_at": "2026-10-06T19:35:24Z",
  "projects_total": 198,
@@ -25,7 +25,8 @@
     "access-layer-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791258559
+   "updated_at": 1791258559,
+   "disconnected": true
   },
   {
    "vercel_project": "agentos-website",
@@ -41,7 +42,8 @@
     "agentos-website-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791261712
+   "updated_at": 1791261712,
+   "disconnected": true
   },
   {
    "vercel_project": "autobuilder-mvp",
@@ -56,7 +58,8 @@
     "autobuilder-mvp-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1790520707
+   "updated_at": 1790520707,
+   "disconnected": true
   },
   {
    "vercel_project": "ayncient",
@@ -73,7 +76,8 @@
     "ayncient-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1790628454
+   "updated_at": 1790628454,
+   "disconnected": true
   },
   {
    "vercel_project": "behindcurtain",
@@ -90,7 +94,8 @@
     "behindcurtain-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791307140
+   "updated_at": 1791307140,
+   "disconnected": true
   },
   {
    "vercel_project": "betterfintech",
@@ -105,7 +110,8 @@
     "betterfintech-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791295202
+   "updated_at": 1791295202,
+   "disconnected": true
   },
   {
    "vercel_project": "blitzproof",
@@ -120,7 +126,8 @@
     "blitzproof-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791259567
+   "updated_at": 1791259567,
+   "disconnected": true
   },
   {
    "vercel_project": "blitzunicorn",
@@ -135,7 +142,8 @@
     "blitzunicorn-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791295217
+   "updated_at": 1791295217,
+   "disconnected": true
   },
   {
    "vercel_project": "bourgaeux",
@@ -152,7 +160,8 @@
     "bourgaeux-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791307174
+   "updated_at": 1791307174,
+   "disconnected": true
   },
   {
    "vercel_project": "brandcrossover",
@@ -167,7 +176,8 @@
     "brandcrossover-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791307131
+   "updated_at": 1791307131,
+   "disconnected": true
   },
   {
    "vercel_project": "cannex-logistics",
@@ -184,7 +194,8 @@
     "cannex-logistics-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791259656
+   "updated_at": 1791259656,
+   "disconnected": true
   },
   {
    "vercel_project": "cheetahbearfuel",
@@ -201,7 +212,8 @@
     "cheetahbearfuel-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791259678
+   "updated_at": 1791259678,
+   "disconnected": true
   },
   {
    "vercel_project": "childdevos",
@@ -218,7 +230,8 @@
     "childdevos-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791268548
+   "updated_at": 1791268548,
+   "disconnected": true
   },
   {
    "vercel_project": "cleanstack-macos",
@@ -234,7 +247,8 @@
     "cleanstack-macos-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791308871
+   "updated_at": 1791308871,
+   "disconnected": true
   },
   {
    "vercel_project": "cleanstack-os",
@@ -251,7 +265,8 @@
     "cleanstack-os-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791259733
+   "updated_at": 1791259733,
+   "disconnected": true
   },
   {
    "vercel_project": "cloudcastle",
@@ -268,7 +283,8 @@
     "cloudcastle-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791314776
+   "updated_at": 1791314776,
+   "disconnected": true
   },
   {
    "vercel_project": "commos-website",
@@ -284,7 +300,8 @@
     "commos-website-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791268599
+   "updated_at": 1791268599,
+   "disconnected": true
   },
   {
    "vercel_project": "computeflow-website",
@@ -300,7 +317,8 @@
     "computeflow-website-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791261762
+   "updated_at": 1791261762,
+   "disconnected": true
   },
   {
    "vercel_project": "cortexhq-website",
@@ -316,7 +334,8 @@
     "cortexhq-website-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791261768
+   "updated_at": 1791261768,
+   "disconnected": true
   },
   {
    "vercel_project": "cropshield-ai-website",
@@ -332,7 +351,8 @@
     "cropshield-ai-website-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791261774
+   "updated_at": 1791261774,
+   "disconnected": true
   },
   {
    "vercel_project": "cruxenio",
@@ -347,7 +367,8 @@
     "cruxenio-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791259701
+   "updated_at": 1791259701,
+   "disconnected": true
   },
   {
    "vercel_project": "cruxenio-website",
@@ -363,7 +384,8 @@
     "cruxenio-website-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791261780
+   "updated_at": 1791261780,
+   "disconnected": true
   },
   {
    "vercel_project": "cxntradict",
@@ -380,7 +402,8 @@
     "cxntradict-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791308422
+   "updated_at": 1791308422,
+   "disconnected": true
   },
   {
    "vercel_project": "cxntradict-website",
@@ -396,7 +419,8 @@
     "cxntradict-website-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791261785
+   "updated_at": 1791261785,
+   "disconnected": true
   },
   {
    "vercel_project": "datatherapy",
@@ -411,7 +435,8 @@
     "datatherapy-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791260141
+   "updated_at": 1791260141,
+   "disconnected": true
   },
   {
    "vercel_project": "datatherapy-website",
@@ -427,7 +452,8 @@
     "datatherapy-website-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791261795
+   "updated_at": 1791261795,
+   "disconnected": true
   },
   {
    "vercel_project": "deploylocal",
@@ -442,7 +468,8 @@
     "deploylocal-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791258546
+   "updated_at": 1791258546,
+   "disconnected": true
   },
   {
    "vercel_project": "deploylocal-website",
@@ -458,7 +485,8 @@
     "deploylocal-website-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791258400
+   "updated_at": 1791258400,
+   "disconnected": true
   },
   {
    "vercel_project": "devstate-website",
@@ -474,7 +502,8 @@
     "devstate-website-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791258405
+   "updated_at": 1791258405,
+   "disconnected": true
   },
   {
    "vercel_project": "emailsimple",
@@ -491,7 +520,8 @@
     "emailsimple-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791259900
+   "updated_at": 1791259900,
+   "disconnected": true
   },
   {
    "vercel_project": "emailsimple-website",
@@ -507,7 +537,8 @@
     "emailsimple-website-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791258412
+   "updated_at": 1791258412,
+   "disconnected": true
   },
   {
    "vercel_project": "evsec-one",
@@ -522,7 +553,8 @@
     "evsec-one-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791295312
+   "updated_at": 1791295312,
+   "disconnected": true
   },
   {
    "vercel_project": "foreverluvd",
@@ -539,7 +571,8 @@
     "foreverluvd-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791259922
+   "updated_at": 1791259922,
+   "disconnected": true
   },
   {
    "vercel_project": "founderskingdom",
@@ -554,7 +587,8 @@
     "founderskingdom-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791258557
+   "updated_at": 1791258557,
+   "disconnected": true
   },
   {
    "vercel_project": "freeconomie",
@@ -569,7 +603,8 @@
     "freeconomie-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791260315
+   "updated_at": 1791260315,
+   "disconnected": true
   },
   {
    "vercel_project": "fungmind",
@@ -584,7 +619,8 @@
     "fungmind-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791259750
+   "updated_at": 1791259750,
+   "disconnected": true
   },
   {
    "vercel_project": "gh0st",
@@ -600,7 +636,8 @@
     "gh0st-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791258337
+   "updated_at": 1791258337,
+   "disconnected": true
   },
   {
    "vercel_project": "grokgeneral",
@@ -616,7 +653,8 @@
     "grokgeneral-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791260469
+   "updated_at": 1791260469,
+   "disconnected": true
   },
   {
    "vercel_project": "grokinstall-website",
@@ -632,7 +670,8 @@
     "grokinstall-website-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791258375
+   "updated_at": 1791258375,
+   "disconnected": true
   },
   {
    "vercel_project": "grokmax",
@@ -649,7 +688,8 @@
     "grokmax-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791258445
+   "updated_at": 1791258445,
+   "disconnected": true
   },
   {
    "vercel_project": "hackerzart",
@@ -664,7 +704,8 @@
     "hackerzart-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791268670
+   "updated_at": 1791268670,
+   "disconnected": true
   },
   {
    "vercel_project": "happyblock",
@@ -679,7 +720,8 @@
     "happyblock-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791259773
+   "updated_at": 1791259773,
+   "disconnected": true
   },
   {
    "vercel_project": "legacybridge",
@@ -696,7 +738,8 @@
     "legacybridge-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791259560
+   "updated_at": 1791259560,
+   "disconnected": true
   },
   {
    "vercel_project": "luvconvos",
@@ -711,7 +754,8 @@
     "luvconvos-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791260195
+   "updated_at": 1791260195,
+   "disconnected": true
   },
   {
    "vercel_project": "luvpartnr",
@@ -726,7 +770,8 @@
     "luvpartnr-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791258570
+   "updated_at": 1791258570,
+   "disconnected": true
   },
   {
    "vercel_project": "luvstories",
@@ -741,7 +786,8 @@
     "luvstories-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791260208
+   "updated_at": 1791260208,
+   "disconnected": true
   },
   {
    "vercel_project": "modex",
@@ -756,7 +802,8 @@
     "modex-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791259785
+   "updated_at": 1791259785,
+   "disconnected": true
   },
   {
    "vercel_project": "naextblock",
@@ -771,7 +818,8 @@
     "naextblock-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791259796
+   "updated_at": 1791259796,
+   "disconnected": true
   },
   {
    "vercel_project": "noaerth",
@@ -789,7 +837,8 @@
     "noaerth-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1790963358
+   "updated_at": 1790963358,
+   "disconnected": true
   },
   {
    "vercel_project": "noaerth-ecosystem",
@@ -804,7 +853,8 @@
     "noaerth-ecosystem-m4g3ll4n0-keystone-labs1.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1790571821
+   "updated_at": 1790571821,
+   "disconnected": true
   },
   {
    "vercel_project": "noaerth-labs",
@@ -820,7 +870,8 @@
     "noaerth-labs-noaerth-labs-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1790571821
+   "updated_at": 1790571821,
+   "disconnected": true
   },
   {
    "vercel_project": "noaerth-team",
@@ -837,7 +888,8 @@
     "noaerth-team-noaerth-labs-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1790571844
+   "updated_at": 1790571844,
+   "disconnected": true
   },
   {
    "vercel_project": "node_modules",
@@ -853,7 +905,8 @@
     "nodemodules-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791268411
+   "updated_at": 1791268411,
+   "disconnected": true
   },
   {
    "vercel_project": "oddbotix",
@@ -870,7 +923,8 @@
     "oddbotix-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791309811
+   "updated_at": 1791309811,
+   "disconnected": true
   },
   {
    "vercel_project": "opencode-watchdog",
@@ -886,7 +940,8 @@
     "opencode-watchdog-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791258388
+   "updated_at": 1791258388,
+   "disconnected": true
   },
   {
    "vercel_project": "poolwater",
@@ -901,7 +956,8 @@
     "poolwater-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791259829
+   "updated_at": 1791259829,
+   "disconnected": true
   },
   {
    "vercel_project": "redwoud",
@@ -916,7 +972,8 @@
     "redwoud-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791259506
+   "updated_at": 1791259506,
+   "disconnected": true
   },
   {
    "vercel_project": "requestayo",
@@ -931,7 +988,8 @@
     "requestayo-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791260219
+   "updated_at": 1791260219,
+   "disconnected": true
   },
   {
    "vercel_project": "saeturtle",
@@ -946,7 +1004,8 @@
     "saeturtle-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791259840
+   "updated_at": 1791259840,
+   "disconnected": true
   },
   {
    "vercel_project": "shopright",
@@ -961,7 +1020,8 @@
     "shopright-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791259851
+   "updated_at": 1791259851,
+   "disconnected": true
   },
   {
    "vercel_project": "soulmayte",
@@ -976,7 +1036,8 @@
     "soulmayte-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791259860
+   "updated_at": 1791259860,
+   "disconnected": true
   },
   {
    "vercel_project": "spaceedu",
@@ -991,7 +1052,8 @@
     "spaceedu-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791260228
+   "updated_at": 1791260228,
+   "disconnected": true
   },
   {
    "vercel_project": "spouwse",
@@ -1008,7 +1070,8 @@
     "spouwse-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791268767
+   "updated_at": 1791268767,
+   "disconnected": true
   },
   {
    "vercel_project": "src",
@@ -1024,7 +1087,8 @@
     "src-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791295038
+   "updated_at": 1791295038,
+   "disconnected": true
   },
   {
    "vercel_project": "startupquick",
@@ -1041,7 +1105,8 @@
     "startupquick-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791260598
+   "updated_at": 1791260598,
+   "disconnected": true
   },
   {
    "vercel_project": "strxngth",
@@ -1056,7 +1121,8 @@
     "strxngth-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791260256
+   "updated_at": 1791260256,
+   "disconnected": true
   },
   {
    "vercel_project": "styles",
@@ -1072,7 +1138,8 @@
     "styles-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791295072
+   "updated_at": 1791295072,
+   "disconnected": true
   },
   {
    "vercel_project": "sunsetx",
@@ -1089,7 +1156,8 @@
     "sunsetx-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791258692
+   "updated_at": 1791258692,
+   "disconnected": true
   },
   {
    "vercel_project": "tempoos",
@@ -1104,7 +1172,8 @@
     "tempoos-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791259897
+   "updated_at": 1791259897,
+   "disconnected": true
   },
   {
    "vercel_project": "therapyux",
@@ -1119,7 +1188,8 @@
     "therapyux-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791307996
+   "updated_at": 1791307996,
+   "disconnected": true
   },
   {
    "vercel_project": "trustxverify",
@@ -1136,7 +1206,8 @@
     "trustxverify-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791260377
+   "updated_at": 1791260377,
+   "disconnected": true
   },
   {
    "vercel_project": "uxvisualengine",
@@ -1151,7 +1222,8 @@
     "uxvisualengine-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791295497
+   "updated_at": 1791295497,
+   "disconnected": true
   },
   {
    "vercel_project": "valuedsociety",
@@ -1168,7 +1240,8 @@
     "valuedsociety-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791260670
+   "updated_at": 1791260670,
+   "disconnected": true
   },
   {
    "vercel_project": "vencapmentor",
@@ -1183,7 +1256,8 @@
     "vencapmentor-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791295509
+   "updated_at": 1791295509,
+   "disconnected": true
   },
   {
    "vercel_project": "venturerank-os",
@@ -1200,7 +1274,8 @@
     "venturerank-os-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1790523624
+   "updated_at": 1790523624,
+   "disconnected": true
   },
   {
    "vercel_project": "youareprofound",
@@ -1215,7 +1290,8 @@
     "youareprofound-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791260294
+   "updated_at": 1791260294,
+   "disconnected": true
   },
   {
    "vercel_project": "youstate",
@@ -1230,7 +1306,8 @@
     "youstate-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791259944
+   "updated_at": 1791259944,
+   "disconnected": true
   },
   {
    "vercel_project": "zaeux",
@@ -1245,7 +1322,8 @@
     "zaeux-git-main-noaerth.vercel.app"
    ],
    "repo_root": null,
-   "updated_at": 1791295540
+   "updated_at": 1791295540,
+   "disconnected": true
   }
  ],
  "disconnected_at": "2026-10-06T19:38:47Z",
@@ -1260,5 +1338,6 @@
   "production_deployments_intact": 189,
   "still_linked_after": 0,
   "manual_deploy_preserved": "CLI, deploy hooks and dashboard deploys do not require a git link"
- }
+ },
+ "current_state_source": "vercel api query (live)"
 }
