@@ -141,7 +141,7 @@ names the other. Three exist. Most systems deliberately show no relationship at
 all, because none is documented — and several systems whose relationships are explicitly *not* dependencies.
 
 <p align="center">
-  <img src="assets/profile/constellation-dark.svg" alt="The Noaerth constellation: the same systems grouped semantically into govern, execute, economise, protect, and emergent. These are categories of work, not runtime dependencies." width="100%">
+  <img src="assets/profile/system-map-dark.svg" alt="The published systems as layers: control architecture, execution, economics, protection and emergence. Relationships are drawn only where a repository documents one. Several systems deliberately show no relationship at all, because none is documented, and one pair is explicitly *not* a dependency." width="100%">
 </p>
 
 <details>

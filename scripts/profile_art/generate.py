@@ -270,14 +270,6 @@ def build_signal(theme_name: str, signal: dict) -> str:
 # =====================================================================
 # Glyphs are original geometry drawn from primitives — no brand icons.
 # `glyph` returns SVG markup inside a 48x48 box at (0,0).
-def glyph_stack() -> str:
-    """Portfolio OS — stacked control planes in section."""
-    return ('<rect x="6" y="10" width="26" height="5" rx="2.5" fill="url(#g-prism)" opacity="0.9"/>'
-            '<rect x="10" y="19" width="26" height="5" rx="2.5" fill="url(#g-prism)" opacity="0.65"/>'
-            '<rect x="14" y="28" width="26" height="5" rx="2.5" fill="url(#g-prism)" opacity="0.4"/>'
-            '<line x1="6" y1="37" x2="44" y2="37" stroke="currentColor" stroke-width="1" opacity="0.35"/>')
-
-
 def glyph_ring() -> str:
     """AgentOS — execution ring with an orbiting node."""
     return ('<circle cx="24" cy="24" r="15" fill="none" stroke="url(#g-prism)" stroke-width="1.6" opacity="0.75"/>'
@@ -334,7 +326,6 @@ def glyph_eye() -> str:
 
 
 CARDS = [
-    ("noaerth-portfolio-os", "Portfolio OS", glyph_stack, "SQLite work queue · reviewer separation · allowlisted publishing", "Python", "MIT"),
     ("agentos", "AgentOS", glyph_ring, "Objective in, verified outcome out, at lowest responsible cost", "Python", "MIT"),
     ("grokinstall", "GrokInstall", glyph_module, "Installs the smallest useful capability. No is a valid answer.", "Go", "MIT"),
     ("grokmax", "GrokMax", glyph_prism, "Zero-cost executors first; every number labelled measured or estimated", "TypeScript", "MIT"),
@@ -472,15 +463,14 @@ def terminal_motion() -> str:
 #                                     ingest.ts:17 (SSE ingest)
 #
 # Explicitly NOT an edge, despite appearing together in prose:
-#  - noaerth-portfolio-os -> agentos. noaerth-portfolio-os/README.md:144 lists
-#    "its own agent runtime" under *Deliberately not built* and points at
-#    AgentOS as the separate thing that does that job. That is a disclaimer of
-#    dependency, so portfolio-os is drawn with no relationship at all.
+#  - the portfolio control plane -> agentos. That repository is private and is
+#    deliberately not named anywhere in this public generator. It states that
+#    it does not build its own agent runtime and points at AgentOS for that, so
+#    drawing an edge would assert a dependency it explicitly disclaims.
 #
 # Everything else is drawn as a standalone system, not as an edge.
 LAYERS = [
     ("CONTROL", "decides what runs, and who approved it", [
-        ("portfolio-os", "noaerth-portfolio-os", "SQLite work queue · reviewer separation", None, None),
         ("workforce config", "grokbot-office", "supervisors · policy · handoffs",
          "sits above AgentOS", "grokbot-office->agentos"),
     ]),
