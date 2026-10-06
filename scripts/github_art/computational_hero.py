@@ -48,20 +48,23 @@ CYAN = "#6fb7d6"
 
 # Terminal lines: real, measured output where a number exists, and clearly
 # presentational framing where one does not.
+# A presentation shell, not a documented CLI. The header says so, and no line
+# here is claimed to be an executable command in any repository.
 TERM_LINES = [
-    ("$ whoami", INK),
-    ("DUNG30N5", MINT),
+    ("DUNG30N5://github", INK),
     ("", INK),
-    ("$ systems --public --count", INK),
-    ("136 public  \u00b7  16 private  \u00b7  0 forks", DIM),
+    ("$ systems --public", INK),
+    ("developer tools    agent systems     infrastructure", DIM),
+    ("security           research          creative computing", DIM),
     ("", INK),
-    ("$ signal --measured", INK),
-    ("tests     2,032 verified", DIM),
-    ("ci        6 green  \u00b7  4 red  \u00b7  110 not configured", DIM),
-    ("releases  9", DIM),
+    ("$ evidence --latest", INK),
+    ("tests      2,032 verified", DIM),
+    ("ci         14 workflows", DIM),
+    ("releases   6 tagged", DIM),
+    ("docs       136 READMEs, 136 SECURITY", DIM),
     ("", INK),
-    ("$ stack --language --systems", INK),
-    ("typescript \u00b7 python \u00b7 go \u00b7 rust", DIM),
+    ("$ graph --portfolio --domains", INK),
+    ("6 domains \u00b7 10 architectures \u00b7 18 distinct state machines", DIM),
     ("", INK),
     ("$ why-are-you-here", INK),
 ]

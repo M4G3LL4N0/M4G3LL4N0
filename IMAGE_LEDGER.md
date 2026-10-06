@@ -1,6 +1,6 @@
 # Image ledger
 
-Every image referenced by a public owned repository. **216 images** across **100 repositories**.
+Every image referenced by a public owned repository. **280 images** across **136 repositories**.
 
 Unresolved images must equal zero. A file that declares CSS `@keyframes` but no SMIL is reported `CSS_ONLY_NOT_ANIMATED`: GitHub's SVG renderer does not honour CSS animation, so it does not move in the browser.
 
@@ -8,8 +8,8 @@ Unresolved images must equal zero. A file that declares CSS `@keyframes` but no 
 
 | state | count |
 | --- | --- |
-| animated | 192 |
-| static | 15 |
+| animated | 254 |
+| static | 17 |
 | static_by_platform | 9 |
 
 ## Per-image detail
@@ -115,17 +115,17 @@ Unresolved images must equal zero. A file that declares CSS `@keyframes` but no 
 | `fastprocure-ai` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 25 SMIL, css=True, a11y=True |
 | `ForeverLuvd` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 6 SMIL, css=True, a11y=True |
 | `ForeverLuvd` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 25 SMIL, css=True, a11y=True |
-| `forgeflow` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 11 SMIL, css=True, a11y=True |
+| `forgeflow` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 17 SMIL, css=True, a11y=True |
 | `forgeflow` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 15 SMIL, css=True, a11y=True |
 | `founderskingdom` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 14 SMIL, css=True, a11y=True |
 | `founderskingdom` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
-| `freeconomie` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
+| `freeconomie` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 21 SMIL, css=True, a11y=True |
 | `freeconomie` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
 | `fullofshit` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 11 SMIL, css=True, a11y=True |
 | `fullofshit` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 15 SMIL, css=True, a11y=True |
-| `FungMind` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 17 SMIL, css=True, a11y=True |
+| `FungMind` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 21 SMIL, css=True, a11y=True |
 | `FungMind` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
-| `gamecombo` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 11 SMIL, css=True, a11y=True |
+| `gamecombo` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 13 SMIL, css=True, a11y=True |
 | `gamecombo` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 15 SMIL, css=True, a11y=True |
 | `genotwin-health` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
 | `genotwin-health` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
@@ -143,7 +143,7 @@ Unresolved images must equal zero. A file that declares CSS `@keyframes` but no 
 | `gh0st` | `assets/social-card.png` | social-card | STATIC_BY_PLATFORM | n/a | yes | 74842 bytes raster |
 | `gh0st-website` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
 | `gh0st-website` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
-| `ghostframe` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
+| `ghostframe` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 21 SMIL, css=True, a11y=True |
 | `ghostframe` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 15 SMIL, css=True, a11y=True |
 | `grokbot-office` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 23 SMIL, css=True, a11y=True |
 | `grokbot-office` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 15 SMIL, css=True, a11y=True |
@@ -200,7 +200,8 @@ Unresolved images must equal zero. A file that declares CSS `@keyframes` but no 
 | `M4G3LL4N0` | `assets/profile/windows/gh0st-dark.svg` | gh0st-dark | STATIC | check | yes | 0 SMIL, css=False, a11y=True |
 | `M4G3LL4N0` | `assets/profile/windows/opencode-watchdog-dark.svg` | opencode-watchdog-dark | STATIC | check | yes | 0 SMIL, css=False, a11y=True |
 | `M4G3LL4N0` | `assets/profile/system-map-dark.svg` | system-map-dark | STATIC | check | yes | 0 SMIL, css=False, a11y=True |
-| `M4G3LL4N0` | `assets/profile/terminal-motion.svg` | terminal-motion | ANIMATED | reduced_motion | yes | 12 SMIL, css=True, a11y=True |
+| `M4G3LL4N0` | `assets/profile/public-universe-dark.svg` | public-universe-dark | STATIC | check | yes | 0 SMIL, css=False, a11y=True |
+| `M4G3LL4N0` | `assets/profile/terminal-motion.svg` | terminal-motion | ANIMATED | reduced_motion | yes | 13 SMIL, css=True, a11y=True |
 | `Modex` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 56 SMIL, css=True, a11y=True |
 | `Modex` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
 | `morphui` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
@@ -213,7 +214,7 @@ Unresolved images must equal zero. A file that declares CSS `@keyframes` but no 
 | `nex-robotix` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 15 SMIL, css=True, a11y=True |
 | `obviouslybad` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 11 SMIL, css=True, a11y=True |
 | `obviouslybad` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 15 SMIL, css=True, a11y=True |
-| `oddbotix` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
+| `oddbotix` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 21 SMIL, css=True, a11y=True |
 | `oddbotix` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 15 SMIL, css=True, a11y=True |
 | `oodax` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 17 SMIL, css=True, a11y=True |
 | `oodax` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 15 SMIL, css=True, a11y=True |
@@ -232,6 +233,69 @@ Unresolved images must equal zero. A file that declares CSS `@keyframes` but no 
 | `poolwater` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 25 SMIL, css=True, a11y=True |
 | `psychemap` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 17 SMIL, css=True, a11y=True |
 | `psychemap` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 15 SMIL, css=True, a11y=True |
+| `readablestack` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 24 SMIL, css=True, a11y=True |
+| `readablestack` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 25 SMIL, css=True, a11y=True |
+| `redwoud` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 30 SMIL, css=True, a11y=True |
+| `redwoud` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 25 SMIL, css=True, a11y=True |
+| `RequestAyo` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 17 SMIL, css=True, a11y=True |
+| `RequestAyo` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
+| `reviewforge-ai` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 12 SMIL, css=True, a11y=True |
+| `reviewforge-ai` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 15 SMIL, css=True, a11y=True |
+| `saeturtle` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 23 SMIL, css=True, a11y=True |
+| `saeturtle` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 25 SMIL, css=True, a11y=True |
+| `seai-mind` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 17 SMIL, css=True, a11y=True |
+| `seai-mind` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
+| `ShopRight` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 27 SMIL, css=True, a11y=True |
+| `ShopRight` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
+| `siliconcontrol-tower` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 24 SMIL, css=True, a11y=True |
+| `siliconcontrol-tower` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
+| `SoulMayte` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 17 SMIL, css=True, a11y=True |
+| `SoulMayte` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
+| `spacecompute-cloud` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 24 SMIL, css=True, a11y=True |
+| `spacecompute-cloud` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
+| `spaceedu` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 30 SMIL, css=True, a11y=True |
+| `spaceedu` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
+| `Spouwse` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 10 SMIL, css=True, a11y=True |
+| `Spouwse` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
+| `startupquick` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 17 SMIL, css=True, a11y=True |
+| `startupquick` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
+| `strxngth` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 21 SMIL, css=True, a11y=True |
+| `strxngth` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 25 SMIL, css=True, a11y=True |
+| `SUNSETX` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 30 SMIL, css=True, a11y=True |
+| `SUNSETX` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 25 SMIL, css=True, a11y=True |
+| `supplyos-ai` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 24 SMIL, css=True, a11y=True |
+| `supplyos-ai` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
+| `swarmshield` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 11 SMIL, css=True, a11y=True |
+| `swarmshield` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 15 SMIL, css=True, a11y=True |
+| `tempoos` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 15 SMIL, css=True, a11y=True |
+| `tempoos` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
+| `TherapyUX` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 10 SMIL, css=True, a11y=True |
+| `TherapyUX` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 25 SMIL, css=True, a11y=True |
+| `trajectoryos` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 11 SMIL, css=True, a11y=True |
+| `trajectoryos` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 15 SMIL, css=True, a11y=True |
+| `TrustxVerify` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
+| `TrustxVerify` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 25 SMIL, css=True, a11y=True |
+| `useros` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 11 SMIL, css=True, a11y=True |
+| `useros` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 15 SMIL, css=True, a11y=True |
+| `uxvisualengine` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 12 SMIL, css=True, a11y=True |
+| `uxvisualengine` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
+| `valuedsociety` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 10 SMIL, css=True, a11y=True |
+| `valuedsociety` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
+| `vencapmentor` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 10 SMIL, css=True, a11y=True |
+| `vencapmentor` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
+| `VentureRank-OS` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 23 SMIL, css=True, a11y=True |
+| `VentureRank-OS` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
+| `vizuler` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 11 SMIL, css=True, a11y=True |
+| `vizuler` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 15 SMIL, css=True, a11y=True |
+| `why-are-you-here` | `./assets/hero.svg` | hero | STATIC | none | yes | 0 SMIL, css=False, a11y=True |
+| `workflowcanvas` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 24 SMIL, css=True, a11y=True |
+| `workflowcanvas` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 20 SMIL, css=True, a11y=True |
+| `youareprofound` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 6 SMIL, css=True, a11y=True |
+| `youareprofound` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 25 SMIL, css=True, a11y=True |
+| `YouState` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 6 SMIL, css=True, a11y=True |
+| `YouState` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 25 SMIL, css=True, a11y=True |
+| `zaeux` | `assets/hero/hero-motion.svg` | hero-motion | ANIMATED | reduced_motion | yes | 10 SMIL, css=True, a11y=True |
+| `zaeux` | `assets/hero/computational-motion.svg` | computational-motion | ANIMATED | reduced_motion | yes | 25 SMIL, css=True, a11y=True |
 
 ## Unresolved: **0**
 

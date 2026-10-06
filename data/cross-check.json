@@ -1,0 +1,974 @@
+{
+ "checked": 136,
+ "counts": {
+  "WEBSITE_REVIEW_PENDING": 94,
+  "DESCRIPTION_VS_README": 5
+ },
+ "rows": [
+  {
+   "repo": "1bc",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://1bc-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://1bc-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "agentcore-silicon",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://agentcore-silicon-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://agentcore-silicon-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "agentos",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://agentos-website-ten.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://agentos-website-ten.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "autoerp",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://autoerp-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://autoerp-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "Ayncient",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://ayncient-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://ayncient-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "BehindCurtain",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://behindcurtain-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://behindcurtain-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "betterfintech",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://betterfintech-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://betterfintech-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "bioyield-labs",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://bioyield-labs-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://bioyield-labs-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "blitzproof",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://blitzproof-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://blitzproof-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "blitzunicorn",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://blitzunicorn-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://blitzunicorn-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "Bourgaeux",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://bourgaeux-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://bourgaeux-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "BrandCrossover",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://brandcrossover-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://brandcrossover-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "buildloop-usa",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://buildloop-usa-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://buildloop-usa-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "cannex-logistics",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://cannex-logistics-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://cannex-logistics-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "cheetahbearfuel",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://cheetahbearfuel-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://cheetahbearfuel-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "childdevos",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://childdevos-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://childdevos-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "chipflow",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://chipflow-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://chipflow-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "claimpilot-ai",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://claimpilot-ai-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://claimpilot-ai-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "cloudcastle",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://cloudcastle-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://cloudcastle-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "companyos",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://companyos-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://companyos-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "computeflow",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://computeflow-website.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://computeflow-website.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "cortexhq",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://cortexhq-website.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://cortexhq-website.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "cropshield-ai",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://cropshield-ai-website.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://cropshield-ai-website.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "Cruxenio",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://cruxenio-website.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://cruxenio-website.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "CxNTRADICT",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://cxntradict-website.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://cxntradict-website.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "datatherapy",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://datatherapy-website.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://datatherapy-website.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "deploylocal",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://deploylocal-website.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://deploylocal-website.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "devstate",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://devstate-website.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://devstate-website.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "EmailSimple",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://emailsimple-website.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://emailsimple-website.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "enterprisepilot",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://enterprisepilot-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://enterprisepilot-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "evalforge",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://evalforge-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://evalforge-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "evsec-one",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://evsec-one-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://evsec-one-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "EVSec.one",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://evsec-one-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://evsec-one-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "execmemory-ai",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://execmemory-ai-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://execmemory-ai-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "executionos",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://executionos.noaerth.com/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://executionos.noaerth.com/"
+    }
+   ]
+  },
+  {
+   "repo": "fastprocure-ai",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://fastprocure-ai.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://fastprocure-ai.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "ForeverLuvd",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://foreverluvd.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://foreverluvd.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "forgeflow",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://forgeflow.noaerth.com/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://forgeflow.noaerth.com/"
+    }
+   ]
+  },
+  {
+   "repo": "fullofshit",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://fullofshit.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://fullofshit.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "FungMind",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://fungmind.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://fungmind.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "gamecombo",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://gamecombo-nine.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://gamecombo-nine.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "genotwin-health",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://genotwin-health.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://genotwin-health.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "ghostframe",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://ghostframe-ten.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://ghostframe-ten.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "grokbot-office",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://grokbot-office-xi.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://grokbot-office-xi.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "grokbot-society",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://grokbot-society.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://grokbot-society.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "grokbot-society-website",
+   "findings": [
+    {
+     "kind": "DESCRIPTION_VS_README",
+     "detail": "description names ['agent'] but README names ['privacy']; the two surfaces share no domain concept"
+    }
+   ]
+  },
+  {
+   "repo": "grokgeneral",
+   "findings": [
+    {
+     "kind": "DESCRIPTION_VS_README",
+     "detail": "description names ['local-first'] but README names ['agent', 'privacy', 'scheduler']; the two surfaces share no domain concept"
+    },
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://grokgeneral.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://grokgeneral.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "grokinstall",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://grokinstall-website.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://grokinstall-website.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "grokmax",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://grokmax.noaerth.com/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://grokmax.noaerth.com/"
+    }
+   ]
+  },
+  {
+   "repo": "interceptorgrid",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://interceptorgrid.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://interceptorgrid.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "lagrangeos",
+   "findings": [
+    {
+     "kind": "DESCRIPTION_VS_README",
+     "detail": "description says scaffold but README reads as a shipped product"
+    },
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://lagrangeos.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://lagrangeos.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "ledgerops-ai",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://ledgerops-ai.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://ledgerops-ai.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "life-finds-a-way",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://life-finds-a-way.noaerth.com/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://life-finds-a-way.noaerth.com/"
+    }
+   ]
+  },
+  {
+   "repo": "loopcompute-cloud",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://loopcompute-cloud.noaerth.com/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://loopcompute-cloud.noaerth.com/"
+    }
+   ]
+  },
+  {
+   "repo": "lunarfoundry",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://lunarfoundry.noaerth.com/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://lunarfoundry.noaerth.com/"
+    }
+   ]
+  },
+  {
+   "repo": "luvpartnr",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://luvpartnr.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://luvpartnr.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "luvstories",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://luvstories.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://luvstories.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "Modex",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://modex.noaerth.com/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://modex.noaerth.com/"
+    }
+   ]
+  },
+  {
+   "repo": "morphui",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://morphui.noaerth.com/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://morphui.noaerth.com/"
+    }
+   ]
+  },
+  {
+   "repo": "n1-therapeutics",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://www.noaerth.com/ventures/n1-therapeutics not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://www.noaerth.com/ventures/n1-therapeutics"
+    }
+   ]
+  },
+  {
+   "repo": "NaextBlock",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://naextblock.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://naextblock.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "obviouslybad",
+   "findings": [
+    {
+     "kind": "DESCRIPTION_VS_README",
+     "detail": "description says scaffold but README reads as a shipped product"
+    },
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://obviouslybad.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://obviouslybad.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "oodax",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://oodax.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://oodax.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "opencode-watchdog",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://opencode-watchdog.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://opencode-watchdog.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "opsautopilot",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://opsautopilot.noaerth.com/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://opsautopilot.noaerth.com/"
+    }
+   ]
+  },
+  {
+   "repo": "orbitchip",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://orbitchip.noaerth.com/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://orbitchip.noaerth.com/"
+    }
+   ]
+  },
+  {
+   "repo": "orbitprint",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://orbitprint.noaerth.com/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://orbitprint.noaerth.com/"
+    }
+   ]
+  },
+  {
+   "repo": "poolwater",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://poolwater.noaerth.com/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://poolwater.noaerth.com/"
+    }
+   ]
+  },
+  {
+   "repo": "readablestack",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://readablestack.noaerth.com/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://readablestack.noaerth.com/"
+    }
+   ]
+  },
+  {
+   "repo": "redwoud",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://redwoud.noaerth.com/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://redwoud.noaerth.com/"
+    }
+   ]
+  },
+  {
+   "repo": "RequestAyo",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://requestayo.noaerth.com/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://requestayo.noaerth.com/"
+    }
+   ]
+  },
+  {
+   "repo": "reviewforge-ai",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://www.noaerth.com/ventures/reviewforge-ai not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://www.noaerth.com/ventures/reviewforge-ai"
+    }
+   ]
+  },
+  {
+   "repo": "seai-mind",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://seai-mind.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://seai-mind.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "ShopRight",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://shopright.noaerth.com/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://shopright.noaerth.com/"
+    }
+   ]
+  },
+  {
+   "repo": "siliconcontrol-tower",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://siliconcontrol-tower.noaerth.com/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://siliconcontrol-tower.noaerth.com/"
+    }
+   ]
+  },
+  {
+   "repo": "SoulMayte",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://soulmayte.noaerth.com/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://soulmayte.noaerth.com/"
+    }
+   ]
+  },
+  {
+   "repo": "spacecompute-cloud",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://spacecompute-cloud.noaerth.com/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://spacecompute-cloud.noaerth.com/"
+    }
+   ]
+  },
+  {
+   "repo": "Spouwse",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://spouwse.noaerth.com/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://spouwse.noaerth.com/"
+    }
+   ]
+  },
+  {
+   "repo": "startupquick",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://startupquick.noaerth.com/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://startupquick.noaerth.com/"
+    }
+   ]
+  },
+  {
+   "repo": "strxngth",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://strxngth.noaerth.com/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://strxngth.noaerth.com/"
+    }
+   ]
+  },
+  {
+   "repo": "SUNSETX",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://sunsetx.noaerth.com/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://sunsetx.noaerth.com/"
+    }
+   ]
+  },
+  {
+   "repo": "supplyos-ai",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://supplyos-ai-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://supplyos-ai-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "swarmshield",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://swarmshield-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://swarmshield-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "TherapyUX",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://therapyux-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://therapyux-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "trajectoryos",
+   "findings": [
+    {
+     "kind": "DESCRIPTION_VS_README",
+     "detail": "description says scaffold but README reads as a shipped product"
+    },
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://trajectoryos-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://trajectoryos-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "TrustxVerify",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://trustxverify-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://trustxverify-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "useros",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://useros-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://useros-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "uxvisualengine",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://uxvisualengine-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://uxvisualengine-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "vencapmentor",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://vencapmentor-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://vencapmentor-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "VentureRank-OS",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://venturerank-os-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://venturerank-os-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "vizuler",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://vizuler-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://vizuler-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "workflowcanvas",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://workflowcanvas-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://workflowcanvas-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "youareprofound",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://youareprofound-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://youareprofound-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "YouState",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://youstate-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://youstate-public.vercel.app/"
+    }
+   ]
+  },
+  {
+   "repo": "zaeux",
+   "findings": [
+    {
+     "kind": "WEBSITE_REVIEW_PENDING",
+     "detail": "public site https://zaeux-public.vercel.app/ not yet read; claims must be verified against source before GitHub repeats them",
+     "site": "https://zaeux-public.vercel.app/"
+    }
+   ]
+  }
+ ]
+}

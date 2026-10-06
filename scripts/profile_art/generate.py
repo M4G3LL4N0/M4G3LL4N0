@@ -833,6 +833,25 @@ def social_preview() -> str:
 
 
 def main() -> int:
+    # The V6 generator in this module is superseded. It is retained because the
+    # art lock and reproducibility gate reference these paths, but running it
+    # overwrote the V7 computational hero and terminal with the older
+    # identity plate -- the same class of silent art reversion the Art Lock
+    # exists to prevent, arriving through the generator rather than automation.
+    #
+    # The V7 renderer reads the measured build signal and emits the same file
+    # set, so every caller and gate keeps working.
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(
+        "_v7_hero",
+        Path(__file__).resolve().parents[1] / "github_art" / "computational_hero.py")
+    v7 = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(v7)
+    v7.main()
+    return 0
+
+
+def _legacy_main() -> int:
     signal = load_signal()
     generated: list[tuple[str, int]] = []
 

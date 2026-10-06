@@ -1,0 +1,50 @@
+{
+ "$comment": "V7 technical signal. Engineering evidence only. Portfolio economics were removed from GitHub by direction change.",
+ "account": "M4G3LL4N0",
+ "architectures": {
+  "AGENT_LOOP": 4,
+  "CLI": 1,
+  "DATA_FLOW": 85,
+  "DISTRIBUTED": 6,
+  "DOCUMENT": 21,
+  "LIBRARY": 1,
+  "PIPELINE": 1,
+  "ROUTER": 2,
+  "SCHEDULER": 2,
+  "SECURITY": 3
+ },
+ "distinct_architectures": 10,
+ "distinct_motion_stories": 18,
+ "engineering": {
+  "ci_configured": 14,
+  "contributing_guides": 136,
+  "licenses": 13,
+  "measured_tests": 2032,
+  "readmes_complete": 136,
+  "releases": 6,
+  "repositories_with_tests": 23,
+  "security_policies": 136
+ },
+ "languages": {
+  "css": 1,
+  "go": 1,
+  "html": 13,
+  "js": 1,
+  "python": 2,
+  "sql": 1,
+  "swift": 1,
+  "typescript": 105
+ },
+ "scope": {
+  "dossiers": 126,
+  "public_repositories": 136
+ },
+ "technical_domains": {
+  "AGENTS": 22,
+  "APPLICATIONS": 6,
+  "DEVELOPER TOOLS": 8,
+  "INFRASTRUCTURE": 3,
+  "QUANT / DATA": 28,
+  "SECURITY": 59
+ }
+}

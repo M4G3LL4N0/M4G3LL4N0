@@ -3,7 +3,7 @@
  "bounded_readme_regions": {
   "githubos": "d8afa8806d6a2c4e33dd43d105682564c109540b1a4afd711542abaea2f65a9e",
   "labs": "9b2e9934f2f9a470b0d1d08c76c3a090188ce20a2bffd84f8ae4cfb9c205611d",
-  "signal": "0999e2b92af93180a0090f0d02b4f69cbce1bc6f349221ab37232db72dc96b66",
+  "signal": "f9355f9d499643ad4ccab6f1ba1def7211f444d352912c3406783cb920be4e6f",
   "upstream": "252f8aac3db9da37e4935bc3c15a28397b105c4afef5be22bd69422befb8903d"
  },
  "design_assets": {
@@ -37,9 +37,9 @@
   "assets/profile/system-map-dark.svg": "18d64c633441529de303a78bc461806bc1222d91cfc769ad26c5319617f20f8b",
   "assets/profile/system-map-light-compact.svg": "e7726769bc8928bae09b36a5a0246d01fbc0a97ba7c4e9dcdc1e839028d2f279",
   "assets/profile/system-map-light.svg": "3a7817da75005af907025d2212b730b0292ba2ad4aa46f39bfb1cbcbf54446ef",
-  "assets/profile/terminal-dark.svg": "cf6aea43d9ebc5d63da56739129fb60420d94f6463d7c8b3739a99206583e6de",
-  "assets/profile/terminal-light.svg": "dfb69462f5897338c3a7cf238c4121d6d4ba75a0dbed2edbd080e6e4d71362d8",
-  "assets/profile/terminal-motion.svg": "d34bc7a4bec1f684e2b975d8f643f337ffa8548527b7c0d8c2f5d17ea5beb089",
+  "assets/profile/terminal-dark.svg": "3b7d602c3e3578dee4d8079442184e49dc00c75d2cc1b94f396241753bb1cdad",
+  "assets/profile/terminal-light.svg": "b71b475882d15ea2b221e6ca085ae0f964fcaa0cedd01188ac740fbd5d01ae4b",
+  "assets/profile/terminal-motion.svg": "2e7aa5d0c1c2d60417e01617db38431c874365a73eee7f0901f721ca08483030",
   "assets/profile/windows/agentos-dark.svg": "1a42e820a6789f926b330d4f9d3fc5dae6f91b46e2465f0aa2c016f1f1af96b9",
   "assets/profile/windows/agentos-light.svg": "727922bd128787cd599f3970cf3edbc3d5f59c0d4e0652a2085bbd8fbe915a31",
   "assets/profile/windows/gh0st-dark.svg": "81d80baf5d4f4a154725508dcae47f99edae7a68a9fb6ec972f9a3bb0056fc1b",
@@ -54,7 +54,7 @@
   "assets/profile/windows/opencode-watchdog-light.svg": "7095bcb4d7f097fb65ce837d63103ff05900c9aa2dc24341932f18be7fb59a24",
   "assets/social-preview.svg": "a2fd3735a057b26384ff82cf544290edb53e3166e8533de95e85c662e5986b66"
  },
- "design_source_sha": "da51360abd6a0613f9bf530df8e9a34c18ffff50f0179e2353d8e02945609656",
+ "design_source_sha": "fcdcb3a3d4c7a3fe286f223c36a344ffad3b746d3edcf8d4bc07692986783fc3",
  "design_version": "V6",
  "factual_assets": {
   "assets/profile/build-signal-dark.svg": "5c04d9c96c6dea7c6ddb13fe0b108a320eb9bad0284be6169d2988cf817508fd",
