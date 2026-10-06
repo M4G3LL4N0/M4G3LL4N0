@@ -10,7 +10,7 @@
     "appears here."
   ],
   "schema": "github-v5-public-inventory/1",
-  "generated_at": "2026-10-06T01:52:04+00:00",
+  "generated_at": "2026-10-06T02:02:40+00:00",
   "owner": "M4G3LL4N0",
   "counts": {
     "public_visible": 122,
@@ -27,12 +27,11 @@
   "measured_totals": {
     "verified_tests": 2032,
     "releases": 9,
-    "ci_green": 6,
+    "ci_green": 7,
     "ci_red": [
       "ai-dev-workflow-starter",
       "gh0st",
-      "redwoud",
-      "seai-mind"
+      "redwoud"
     ],
     "ci_unknown": 110,
     "ci_with_workflow": 10,
@@ -112,8 +111,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 980
     },
     {
       "name": "agentcore-silicon",
@@ -137,8 +136,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 976
     },
     {
       "name": "agentos",
@@ -212,8 +211,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 970
     },
     {
       "name": "Ayncient",
@@ -287,8 +286,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 989
     },
     {
       "name": "bioyield-labs",
@@ -312,8 +311,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 982
     },
     {
       "name": "blitzproof",
@@ -362,8 +361,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 1002
     },
     {
       "name": "Bourgaeux",
@@ -387,8 +386,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 1263
     },
     {
       "name": "BrandCrossover",
@@ -437,8 +436,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 968
     },
     {
       "name": "cannex-logistics",
@@ -512,8 +511,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 1488
     },
     {
       "name": "chipflow",
@@ -587,8 +586,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 1065
     },
     {
       "name": "cleanstack-os",
@@ -662,8 +661,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 1203
     },
     {
       "name": "companyos",
@@ -712,8 +711,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 1336
     },
     {
       "name": "cortexhq",
@@ -737,8 +736,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 1119
     },
     {
       "name": "cropshield-ai",
@@ -762,8 +761,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 991
     },
     {
       "name": "Cruxenio",
@@ -887,8 +886,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 981
     },
     {
       "name": "EmailSimple",
@@ -937,8 +936,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 986
     },
     {
       "name": "evalforge",
@@ -1012,8 +1011,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 1008
     },
     {
       "name": "execmemory-ai",
@@ -1037,8 +1036,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 968
     },
     {
       "name": "executionos",
@@ -1062,8 +1061,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 964
     },
     {
       "name": "fastprocure-ai",
@@ -1087,8 +1086,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 1199
     },
     {
       "name": "ForeverLuvd",
@@ -1212,8 +1211,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 1007
     },
     {
       "name": "FungMind",
@@ -1487,8 +1486,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 1431
     },
     {
       "name": "happyblock",
@@ -1562,8 +1561,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 986
     },
     {
       "name": "lagrangeos",
@@ -1612,8 +1611,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 980
     },
     {
       "name": "legacybridge",
@@ -1687,8 +1686,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 990
     },
     {
       "name": "lunarfoundry",
@@ -1712,8 +1711,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 980
     },
     {
       "name": "luvconvos",
@@ -1862,8 +1861,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 970
     },
     {
       "name": "n1-therapeutics",
@@ -1887,8 +1886,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 994
     },
     {
       "name": "NaextBlock",
@@ -1962,8 +1961,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 1147
     },
     {
       "name": "obviouslybad",
@@ -2087,8 +2086,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 980
     },
     {
       "name": "orbitchip",
@@ -2112,8 +2111,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 974
     },
     {
       "name": "orbitprint",
@@ -2137,8 +2136,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 976
     },
     {
       "name": "poolwater",
@@ -2212,8 +2211,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 982
     },
     {
       "name": "redwoud",
@@ -2332,9 +2331,9 @@
       "latest_release": "v0.1.0-alpha",
       "ci": {
         "has_workflow": true,
-        "latest_conclusion": "failure",
-        "state": "red",
-        "green": false
+        "latest_conclusion": "success",
+        "state": "green",
+        "green": true
       },
       "pushed_at": "",
       "readme_present": true,
@@ -2387,8 +2386,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 996
     },
     {
       "name": "SoulMayte",
@@ -2437,8 +2436,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 992
     },
     {
       "name": "spaceedu",
@@ -2487,8 +2486,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 1036
     },
     {
       "name": "src",
@@ -2512,8 +2511,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 1060
     },
     {
       "name": "startupquick",
@@ -2562,8 +2561,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 1007
     },
     {
       "name": "strxngth",
@@ -2612,8 +2611,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 1025
     },
     {
       "name": "SUNSETX",
@@ -2662,8 +2661,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 978
     },
     {
       "name": "swarmshield",
@@ -2812,8 +2811,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 1315
     },
     {
       "name": "uxvisualengine",
@@ -2837,8 +2836,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 990
     },
     {
       "name": "valuedsociety",
@@ -2887,8 +2886,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 988
     },
     {
       "name": "VentureRank-OS",
@@ -2937,8 +2936,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 1318
     },
     {
       "name": "why-are-you-here",
@@ -2987,8 +2986,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 984
     },
     {
       "name": "youareprofound",
@@ -3062,8 +3061,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": false,
-      "readme_bytes": 0
+      "readme_present": true,
+      "readme_bytes": 1004
     },
     {
       "name": "zaeux",

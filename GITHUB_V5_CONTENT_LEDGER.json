@@ -9,15 +9,15 @@
     "by accident."
   ],
   "schema": "github-v5-content-ledger/1",
-  "generated_at": "2026-10-06T01:50:09+00:00",
+  "generated_at": "2026-10-06T02:04:25+00:00",
   "owner": "M4G3LL4N0",
   "totals": {
     "repositories": 122,
     "commands": 289,
     "first_party_links": 37,
-    "third_party_links": 452,
+    "third_party_links": 460,
     "claims": 108,
-    "caveats": 164
+    "caveats": 493
   },
   "repositories": {
     "1bc": {
@@ -105,15 +105,23 @@
     "agentapi-hub": {
       "full_name": "M4G3LL4N0/agentapi-hub",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 980,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: agentapi-hub",
         "license": null,
@@ -130,15 +138,23 @@
     "agentcore-silicon": {
       "full_name": "M4G3LL4N0/agentcore-silicon",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 976,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: agentcore-silicon",
         "license": null,
@@ -238,15 +254,23 @@
     "autoerp": {
       "full_name": "M4G3LL4N0/autoerp",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 970,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: autoerp",
         "license": null,
@@ -345,15 +369,23 @@
     "betterfintech": {
       "full_name": "M4G3LL4N0/betterfintech",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 989,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "",
         "license": null,
@@ -370,15 +402,23 @@
     "bioyield-labs": {
       "full_name": "M4G3LL4N0/bioyield-labs",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 982,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: bioyield-labs",
         "license": null,
@@ -436,15 +476,23 @@
     "blitzunicorn": {
       "full_name": "M4G3LL4N0/blitzunicorn",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 1002,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "",
         "license": null,
@@ -461,15 +509,25 @@
     "Bourgaeux": {
       "full_name": "M4G3LL4N0/Bourgaeux",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 1263,
       "commands": [],
       "links": {
         "first_party": [],
-        "third_party": []
+        "third_party": [
+          "https://bourgaeux.vercel.app"
+        ]
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "",
         "license": null,
@@ -527,15 +585,23 @@
     "buildloop-usa": {
       "full_name": "M4G3LL4N0/buildloop-usa",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 968,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: buildloop-usa",
         "license": null,
@@ -634,15 +700,25 @@
     "childdevos": {
       "full_name": "M4G3LL4N0/childdevos",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 1488,
       "commands": [],
       "links": {
         "first_party": [],
-        "third_party": []
+        "third_party": [
+          "https://childdevos.vercel.app"
+        ]
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "",
         "license": null,
@@ -709,15 +785,25 @@
     "cleanstack-macos": {
       "full_name": "M4G3LL4N0/cleanstack-macos",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 1065,
       "commands": [],
       "links": {
         "first_party": [],
-        "third_party": []
+        "third_party": [
+          "https://cleanstack-macos.vercel.app"
+        ]
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "",
         "license": null,
@@ -800,15 +886,25 @@
     "commos": {
       "full_name": "M4G3LL4N0/commos",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 1203,
       "commands": [],
       "links": {
         "first_party": [],
-        "third_party": []
+        "third_party": [
+          "https://commos-website.vercel.app"
+        ]
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "",
         "license": null,
@@ -850,15 +946,23 @@
     "computeflow": {
       "full_name": "M4G3LL4N0/computeflow",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 1336,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: computeflow",
         "license": null,
@@ -875,15 +979,23 @@
     "cortexhq": {
       "full_name": "M4G3LL4N0/cortexhq",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 1119,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: cortexhq",
         "license": null,
@@ -900,15 +1012,24 @@
     "cropshield-ai": {
       "full_name": "M4G3LL4N0/cropshield-ai",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 991,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| Primary language | not recorded |",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: cropshield-ai",
         "license": null,
@@ -1073,15 +1194,24 @@
     "devstate": {
       "full_name": "M4G3LL4N0/devstate",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 981,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| Primary language | not recorded |",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: devstate",
         "license": null,
@@ -1139,15 +1269,23 @@
     "enterprisepilot": {
       "full_name": "M4G3LL4N0/enterprisepilot",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 986,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: enterprisepilot",
         "license": null,
@@ -1239,15 +1377,24 @@
     "EVSec.one": {
       "full_name": "M4G3LL4N0/EVSec.one",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 1008,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| Primary language | not recorded |",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "",
         "license": null,
@@ -1264,15 +1411,23 @@
     "execmemory-ai": {
       "full_name": "M4G3LL4N0/execmemory-ai",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 968,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: execmemory-ai",
         "license": null,
@@ -1289,15 +1444,23 @@
     "executionos": {
       "full_name": "M4G3LL4N0/executionos",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 964,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: executionos",
         "license": null,
@@ -1314,15 +1477,23 @@
     "fastprocure-ai": {
       "full_name": "M4G3LL4N0/fastprocure-ai",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 1199,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: fastprocure-ai",
         "license": null,
@@ -1484,15 +1655,24 @@
     "FundMind": {
       "full_name": "M4G3LL4N0/FundMind",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 1007,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| Primary language | not recorded |",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "",
         "license": null,
@@ -2077,15 +2257,25 @@
     "HackerzArt": {
       "full_name": "M4G3LL4N0/HackerzArt",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 1431,
       "commands": [],
       "links": {
         "first_party": [],
-        "third_party": []
+        "third_party": [
+          "https://hackerzart.vercel.app"
+        ]
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "",
         "license": null,
@@ -2181,15 +2371,23 @@
     "interceptorgrid": {
       "full_name": "M4G3LL4N0/interceptorgrid",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 986,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: interceptorgrid",
         "license": null,
@@ -2248,15 +2446,23 @@
     "ledgerops-ai": {
       "full_name": "M4G3LL4N0/ledgerops-ai",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 980,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: ledgerops-ai",
         "license": null,
@@ -2355,15 +2561,23 @@
     "loopcompute-cloud": {
       "full_name": "M4G3LL4N0/loopcompute-cloud",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 990,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: loopcompute-cloud",
         "license": null,
@@ -2380,15 +2594,23 @@
     "lunarfoundry": {
       "full_name": "M4G3LL4N0/lunarfoundry",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 980,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: lunarfoundry",
         "license": null,
@@ -2629,15 +2851,23 @@
     "morphui": {
       "full_name": "M4G3LL4N0/morphui",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 970,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: morphui",
         "license": null,
@@ -2654,15 +2884,23 @@
     "n1-therapeutics": {
       "full_name": "M4G3LL4N0/n1-therapeutics",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 994,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: n1-therapeutics",
         "license": null,
@@ -2761,15 +2999,25 @@
     "node_modules": {
       "full_name": "M4G3LL4N0/node_modules",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 1147,
       "commands": [],
       "links": {
         "first_party": [],
-        "third_party": []
+        "third_party": [
+          "https://nodemodules-bice.vercel.app"
+        ]
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "",
         "license": null,
@@ -2939,15 +3187,23 @@
     "opsautopilot": {
       "full_name": "M4G3LL4N0/opsautopilot",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 980,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: opsautopilot",
         "license": null,
@@ -2964,15 +3220,23 @@
     "orbitchip": {
       "full_name": "M4G3LL4N0/orbitchip",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 974,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: orbitchip",
         "license": null,
@@ -2989,15 +3253,23 @@
     "orbitprint": {
       "full_name": "M4G3LL4N0/orbitprint",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 976,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: orbitprint",
         "license": null,
@@ -3091,15 +3363,23 @@
     "readablestack": {
       "full_name": "M4G3LL4N0/readablestack",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 982,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: readablestack",
         "license": null,
@@ -3299,8 +3579,8 @@
         "verified_tests": 146,
         "release_count": 1,
         "latest_release": "v0.1.0-alpha",
-        "ci_green": false,
-        "ci_latest_conclusion": "failure",
+        "ci_green": true,
+        "ci_latest_conclusion": "success",
         "archived": false,
         "homepage": ""
       }
@@ -3349,15 +3629,23 @@
     "siliconcontrol-tower": {
       "full_name": "M4G3LL4N0/siliconcontrol-tower",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 996,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: siliconcontrol-tower",
         "license": null,
@@ -3415,15 +3703,23 @@
     "spacecompute-cloud": {
       "full_name": "M4G3LL4N0/spacecompute-cloud",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 992,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: spacecompute-cloud",
         "license": null,
@@ -3481,15 +3777,23 @@
     "Spouwse": {
       "full_name": "M4G3LL4N0/Spouwse",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 1036,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "",
         "license": null,
@@ -3506,15 +3810,26 @@
     "src": {
       "full_name": "M4G3LL4N0/src",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 1060,
       "commands": [],
       "links": {
         "first_party": [],
-        "third_party": []
+        "third_party": [
+          "https://src-noaerth.vercel.app"
+        ]
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| Primary language | not recorded |",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "",
         "license": null,
@@ -3556,15 +3871,24 @@
     "STRxGNTH": {
       "full_name": "M4G3LL4N0/STRxGNTH",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 1007,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| Primary language | not recorded |",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "",
         "license": null,
@@ -3622,15 +3946,25 @@
     "styles": {
       "full_name": "M4G3LL4N0/styles",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 1025,
       "commands": [],
       "links": {
         "first_party": [],
-        "third_party": []
+        "third_party": [
+          "https://styles-noaerth.vercel.app"
+        ]
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "",
         "license": null,
@@ -3688,15 +4022,23 @@
     "supplyos-ai": {
       "full_name": "M4G3LL4N0/supplyos-ai",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 978,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: supplyos-ai",
         "license": null,
@@ -3910,15 +4252,23 @@
     "useros": {
       "full_name": "M4G3LL4N0/useros",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 1315,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: useros",
         "license": null,
@@ -3935,15 +4285,23 @@
     "uxvisualengine": {
       "full_name": "M4G3LL4N0/uxvisualengine",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 990,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "",
         "license": null,
@@ -4001,15 +4359,23 @@
     "vencapmentor": {
       "full_name": "M4G3LL4N0/vencapmentor",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 988,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "",
         "license": null,
@@ -4067,15 +4433,23 @@
     "vizuler": {
       "full_name": "M4G3LL4N0/vizuler",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 1318,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: vizuler",
         "license": null,
@@ -4127,15 +4501,23 @@
     "workflowcanvas": {
       "full_name": "M4G3LL4N0/workflowcanvas",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 984,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "Startup portfolio: workflowcanvas",
         "license": null,
@@ -4224,15 +4606,24 @@
     "Zaeus": {
       "full_name": "M4G3LL4N0/Zaeus",
       "classification": "PUBLIC_PROJECT",
-      "readme_present": false,
-      "readme_bytes": 0,
+      "readme_present": true,
+      "readme_bytes": 1004,
       "commands": [],
       "links": {
         "first_party": [],
         "third_party": []
       },
       "architectural_claims": [],
-      "caveats": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| Primary language | not recorded |",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
       "facts": {
         "description": "",
         "license": null,
