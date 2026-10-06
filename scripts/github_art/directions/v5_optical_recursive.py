@@ -257,9 +257,11 @@ def flagship_hero(theme_name: str = "dark", slug: str = "agentos") -> str:
 # system map
 # --------------------------------------------------------------------------
 LAYERS = [
+    # The portfolio control plane is a private repository. It orchestrated these
+    # systems and was named in this layer until it was made private; drawing or
+    # naming it here would disclose a private repository in a public graphic.
     ("CONTROL", "violet", "decides what runs, and who approved it",
-     [("noaerth-portfolio-os", "Portfolio OS", "queue · locks · reviewer separation"),
-      ("grokbot-office", "GrokBot Office", "workforce configuration")]),
+     [("grokbot-office", "GrokBot Office", "workforce configuration")]),
     ("EXECUTE", "mint", "turns an objective into a verified outcome",
      [("agentos", "AgentOS", "capability discovery · adapter execution")]),
     ("ECONOMISE", "indigo", "makes execution cheap and repeatable",
@@ -326,7 +328,14 @@ def system_map(theme_name: str = "dark", compact: bool = False) -> str:
             continue
 
         _, slug, title, note, py = item
-        material = P.material_for(slug)
+        if not P.has_identity(slug):
+            # A public repository without a designed mark still belongs in the
+            # map. It is drawn with the neutral material rather than skipped, so
+            # the graphic never implies that undesigned systems are absent, and
+            # the generator never crashes on an unmapped slug.
+            material = P.DEFAULT_MATERIAL
+        else:
+            material = P.material_for(slug)
         relation = RELATIONSHIPS.get(slug)
         parts.append(
             f'<rect x="{pad}" y="{py}" width="{panel_w}" height="{row_h}" '

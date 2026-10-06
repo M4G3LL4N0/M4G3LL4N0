@@ -185,6 +185,14 @@ def signature_motifs() -> set:
     return {i["motif"] for i in IDENTITIES.values()}
 
 
+DEFAULT_MATERIAL = "optical_glass"
+
+
+def has_identity(slug: str) -> bool:
+    """Whether a designed identity exists for this slug."""
+    return slug in IDENTITIES
+
+
 def material_for(slug: str) -> str:
     return identity(slug)["material"]
 

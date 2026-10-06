@@ -9,17 +9,165 @@
     "by accident."
   ],
   "schema": "github-v5-content-ledger/1",
-  "generated_at": "2026-10-05T22:14:14+00:00",
+  "generated_at": "2026-10-06T02:04:25+00:00",
   "owner": "M4G3LL4N0",
   "totals": {
-    "repositories": 10,
-    "commands": 67,
-    "first_party_links": 38,
-    "third_party_links": 11,
-    "claims": 74,
-    "caveats": 110
+    "repositories": 122,
+    "commands": 289,
+    "first_party_links": 37,
+    "third_party_links": 460,
+    "claims": 108,
+    "caveats": 493
   },
   "repositories": {
+    "1bc": {
+      "full_name": "M4G3LL4N0/1bc",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "Startup portfolio: 1bc",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "access-layer": {
+      "full_name": "M4G3LL4N0/access-layer",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1452,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "Neutral coordination layer for access to space (MVP)",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "agentapi-hub": {
+      "full_name": "M4G3LL4N0/agentapi-hub",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 980,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: agentapi-hub",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "agentcore-silicon": {
+      "full_name": "M4G3LL4N0/agentcore-silicon",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 976,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: agentcore-silicon",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
     "agentos": {
       "full_name": "M4G3LL4N0/agentos",
       "classification": "FLAGSHIP",
@@ -67,28 +215,1590 @@
       ],
       "facts": {
         "description": "Provider-neutral AI agent execution and orchestration engine: objective in, verified outcome out.",
-        "license": "MIT",
-        "topics": [
-          "a2a",
-          "agent-orchestration",
-          "agent-runtime",
-          "ai-agents",
-          "ai-infrastructure",
-          "developer-tools",
-          "llm",
-          "mcp",
-          "model-routing",
-          "multi-agent",
-          "python",
-          "workflow-engine"
-        ],
+        "license": null,
+        "topics": [],
         "verified_tests": 710,
         "release_count": 1,
         "latest_release": "v0.5.0",
         "ci_green": true,
         "ci_latest_conclusion": "success",
         "archived": false,
-        "homepage": "https://agentos-website-ten.vercel.app"
+        "homepage": ""
+      }
+    },
+    "ai-dev-workflow-starter": {
+      "full_name": "M4G3LL4N0/ai-dev-workflow-starter",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 898,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": "failure",
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "autoerp": {
+      "full_name": "M4G3LL4N0/autoerp",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 970,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: autoerp",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "Ayncient": {
+      "full_name": "M4G3LL4N0/Ayncient",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1960,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "BehindCurtain": {
+      "full_name": "M4G3LL4N0/BehindCurtain",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "betterfintech": {
+      "full_name": "M4G3LL4N0/betterfintech",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 989,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "bioyield-labs": {
+      "full_name": "M4G3LL4N0/bioyield-labs",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 982,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: bioyield-labs",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "blitzproof": {
+      "full_name": "M4G3LL4N0/blitzproof",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "blitzunicorn": {
+      "full_name": "M4G3LL4N0/blitzunicorn",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1002,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "Bourgaeux": {
+      "full_name": "M4G3LL4N0/Bourgaeux",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1263,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "https://bourgaeux.vercel.app"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "BrandCrossover": {
+      "full_name": "M4G3LL4N0/BrandCrossover",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "buildloop-usa": {
+      "full_name": "M4G3LL4N0/buildloop-usa",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 968,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: buildloop-usa",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "cannex-logistics": {
+      "full_name": "M4G3LL4N0/cannex-logistics",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "cheetahbearfuel": {
+      "full_name": "M4G3LL4N0/cheetahbearfuel",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "childdevos": {
+      "full_name": "M4G3LL4N0/childdevos",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1488,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "https://childdevos.vercel.app"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "chipflow": {
+      "full_name": "M4G3LL4N0/chipflow",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 460,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "Startup portfolio: chipflow",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "claimpilot-ai": {
+      "full_name": "M4G3LL4N0/claimpilot-ai",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 494,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "Startup portfolio: claimpilot-ai",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "cleanstack-macos": {
+      "full_name": "M4G3LL4N0/cleanstack-macos",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1065,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "https://cleanstack-macos.vercel.app"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "cleanstack-os": {
+      "full_name": "M4G3LL4N0/cleanstack-os",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "cloudcastle": {
+      "full_name": "M4G3LL4N0/cloudcastle",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 542,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "commos": {
+      "full_name": "M4G3LL4N0/commos",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1203,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "https://commos-website.vercel.app"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "companyos": {
+      "full_name": "M4G3LL4N0/companyos",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 503,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "Startup portfolio: companyos",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "computeflow": {
+      "full_name": "M4G3LL4N0/computeflow",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1336,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: computeflow",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "cortexhq": {
+      "full_name": "M4G3LL4N0/cortexhq",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1119,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: cortexhq",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "cropshield-ai": {
+      "full_name": "M4G3LL4N0/cropshield-ai",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 991,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| Primary language | not recorded |",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: cropshield-ai",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "Cruxenio": {
+      "full_name": "M4G3LL4N0/Cruxenio",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "CxNTRADICT": {
+      "full_name": "M4G3LL4N0/CxNTRADICT",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "datatherapy": {
+      "full_name": "M4G3LL4N0/datatherapy",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 274,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "deploylocal": {
+      "full_name": "M4G3LL4N0/deploylocal",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "An AI-powered local business infrastructure platform",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "devstate": {
+      "full_name": "M4G3LL4N0/devstate",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 981,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| Primary language | not recorded |",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: devstate",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "EmailSimple": {
+      "full_name": "M4G3LL4N0/EmailSimple",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "enterprisepilot": {
+      "full_name": "M4G3LL4N0/enterprisepilot",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 986,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: enterprisepilot",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "evalforge": {
+      "full_name": "M4G3LL4N0/evalforge",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 2143,
+      "commands": [
+        "pnpm install",
+        "pnpm dev",
+        "pnpm build"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "The API key is read only in `app/api/evaluate/route.ts` through server-side helpers.",
+        "The browser posts task inputs to the local Next.js route and never receives the OpenRouter key.",
+        "Strong rationales should name the winning response, identify the deciding dimension, cite specific evidence from both responses, and flag any factual claims that were not verified.",
+        "EvalForge remains human-in-the-loop: AI prepares the analysis, and the reviewer makes the final judgment."
+      ],
+      "facts": {
+        "description": "Startup portfolio: evalforge",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "evsec-one": {
+      "full_name": "M4G3LL4N0/evsec-one",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "EVSec.one": {
+      "full_name": "M4G3LL4N0/EVSec.one",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1008,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| Primary language | not recorded |",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "execmemory-ai": {
+      "full_name": "M4G3LL4N0/execmemory-ai",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 968,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: execmemory-ai",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "executionos": {
+      "full_name": "M4G3LL4N0/executionos",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 964,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: executionos",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "fastprocure-ai": {
+      "full_name": "M4G3LL4N0/fastprocure-ai",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1199,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: fastprocure-ai",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "ForeverLuvd": {
+      "full_name": "M4G3LL4N0/ForeverLuvd",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "forgeflow": {
+      "full_name": "M4G3LL4N0/forgeflow",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "Startup portfolio: forgeflow",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "founderskingdom": {
+      "full_name": "M4G3LL4N0/founderskingdom",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 730,
+      "commands": [
+        "npm run dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "FoundersKingdom is the operating system for founders building multiple startups.",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "fullofshit": {
+      "full_name": "M4G3LL4N0/fullofshit",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 918,
+      "commands": [
+        "pnpm install",
+        "pnpm dev",
+        "pnpm build",
+        "pnpm start"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000`"
+        ]
+      },
+      "architectural_claims": [
+        "Analyzer logic lives in `src/lib/analyze.ts` and runs locally (deterministic heuristics)."
+      ],
+      "caveats": [],
+      "facts": {
+        "description": "Startup portfolio: fullofshit",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "FundMind": {
+      "full_name": "M4G3LL4N0/FundMind",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1007,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| Primary language | not recorded |",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "FungMind": {
+      "full_name": "M4G3LL4N0/FungMind",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "gamecombo": {
+      "full_name": "M4G3LL4N0/gamecombo",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "Startup portfolio: gamecombo",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "genotwin-health": {
+      "full_name": "M4G3LL4N0/genotwin-health",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 825,
+      "commands": [
+        "pnpm install",
+        "pnpm dev",
+        "pnpm build",
+        "pnpm db:push"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "This software is **not** a medical device and **does not** provide diagnosis or treatment.",
+        "Always consult licensed professionals for medical decisions."
+      ],
+      "facts": {
+        "description": "Startup portfolio: genotwin-health",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
       }
     },
     "gh0st": {
@@ -141,27 +1851,56 @@
       ],
       "facts": {
         "description": "Local-first encrypted AI client for xAI/Grok with verifiable no-retention guarantees.",
-        "license": "MIT",
-        "topics": [
-          "ai",
-          "cli",
-          "desktop",
-          "encryption",
-          "local-first",
-          "open-source",
-          "privacy",
-          "rust",
-          "tauri",
-          "typescript",
-          "zero-data-retention"
-        ],
+        "license": null,
+        "topics": [],
         "verified_tests": 27,
         "release_count": 1,
         "latest_release": "v1.0.0-rc.1",
         "ci_green": false,
         "ci_latest_conclusion": "failure",
         "archived": false,
-        "homepage": "https://gh0st-six.vercel.app"
+        "homepage": ""
+      }
+    },
+    "ghostframe": {
+      "full_name": "M4G3LL4N0/ghostframe",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "Startup portfolio: ghostframe",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
       }
     },
     "grokbot-office": {
@@ -209,24 +1948,15 @@
       ],
       "facts": {
         "description": "Agent workforce architecture: roles, policy, handoffs and resource governance as configuration.",
-        "license": "MIT",
-        "topics": [
-          "a2a",
-          "agent-orchestration",
-          "agentic-ai",
-          "ai-agents",
-          "mcp",
-          "multi-agent",
-          "typescript",
-          "workflow-automation"
-        ],
+        "license": null,
+        "topics": [],
         "verified_tests": 149,
         "release_count": 1,
         "latest_release": "v0.1.0",
         "ci_green": true,
         "ci_latest_conclusion": "success",
         "archived": false,
-        "homepage": "https://grokbot-office-xi.vercel.app"
+        "homepage": ""
       }
     },
     "grokbot-society": {
@@ -290,23 +2020,97 @@
       ],
       "facts": {
         "description": "Provider-neutral runtime for persistent synthetic people: roles, memory, economics and governance.",
-        "license": "NOASSERTION",
-        "topics": [
-          "agent-runtime",
-          "agentic-ai",
-          "ai-agents",
-          "multi-agent",
-          "open-source",
-          "simulation",
-          "typescript"
-        ],
+        "license": null,
+        "topics": [],
         "verified_tests": 157,
         "release_count": 1,
         "latest_release": "v0.1.0",
         "ci_green": true,
         "ci_latest_conclusion": "success",
         "archived": false,
-        "homepage": "https://grokbot-society.vercel.app"
+        "homepage": ""
+      }
+    },
+    "grokgeneral": {
+      "full_name": "M4G3LL4N0/grokgeneral",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 18369,
+      "commands": [
+        "python3 -m grokgeneral --help",
+        "python3 -m pip install -e .",
+        "python3 -m unittest discover -s tests -v",
+        "python3 -m compileall -q grokgeneral tests"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [
+        "Policy and routing:** deterministic, capability-aware, cost-aware, explainable decisions with fallbacks.",
+        "The state directory contains `state.db`, `policies.json`, private cache artifacts, and context packs.",
+        "The directory is created with user-only permissions.",
+        "SQLite is the source of truth for normalized records and event/audit history.",
+        "JSON files are replaced atomically.",
+        "The default policy prefers existing results, deterministic local work, free and expiring capacity, cheap capable resources, and premium/GrokBot capacity only when justified.",
+        "Network, spending, push, posting, and destructive actions require explicit approval.",
+        "The first initialization also seeds a local shell resource named `local`.",
+        "It is deterministic, free, and used as a safe fallback.",
+        "The first initialization seeds an ordinary temporary resource named `space-bunny`:",
+        "The pipeline captures the project path, Git branch/revision/status and a context hash before execution, invokes OpenCode with an explicit project directory and model, and stores a compact receipt in SQLite.",
+        "Raw JSONL output is redacted and stored separately under `GG_STATE_DIR/execution-logs/`.",
+        "A provider exit code of `0` is not considered successful until project validation passes.",
+        "The executor never passes `--auto`, and it never stashes, resets, discards, commits, pushes, deploys, or spends credits.",
+        "Opportunity V2 only emits concrete evidence-backed work: failing builds/tests, CI defects, documented TODOs, dependency/packaging hygiene, and justified architecture reviews.",
+        "Repeated scans deduplicate by stable `work_key`; generic repository audits are not synthesized without evidence.",
+        "optimize` globally ranks unique work and reports task, project, executor, reason, cost class, and approval needs.",
+        "queue` only materializes queued tasks; it does not call a provider.",
+        "The scheduler is on-demand, bounded, and does not run against every project automatically.",
+        "Context references are constrained to the selected project.",
+        "Traversal, hidden files, `.env` files, oversized files, and unrelated-project references are rejected.",
+        "Cache keys are deterministic, values are redacted, and TTL/invalidation/pruning are supported.",
+        "Usage and deterministic questions",
+        "Usage always identifies its source as `measured`, `reported`, `user-entered`, `estimated`, or `unknown`.",
+        "Tokens, credits, and seconds are grouped separately; unknown totals remain unknown."
+      ],
+      "caveats": [
+        "It is not a general-purpose autonomous agent.",
+        "GrokGeneral performs little expensive reasoning itself.",
+        "Work is delegated to registered resources or the local shell only after capability, policy, safety, and approval checks.",
+        "Opportunity engine:** evidence-backed V2 candidates with stable work keys, project/resource health, blockers, validation readiness, cost/expiry signals, and deduplication.",
+        "Scores are explainable planning aids, not precision claims.",
+        "No AI provider or API key is required for the default offline path.",
+        "A real OpenCode execution uses the adapter's installed CLI authentication, not credentials stored by GrokGeneral.",
+        "The repository also includes an executable `./gg` launcher; it does not modify the user's shell `PATH`.",
+        "init --scan` safely scans immediate children of `~/startups/` (or `GG_STARTUPS_ROOT`) and records only filesystem-visible facts.",
+        "It never executes project setup scripts.",
+        "Use `--all` to include every non-hidden immediate directory.",
+        "The seeded model is verified OpenCode state, not a hard-coded provider requirement.",
+        "Confirm the installed adapter and model with:",
+        "It is normal mutable state, not a permanent source-code special case.",
+        "Update or expire it with:",
+        "GrokGeneral scans only explicitly registered roots; it never scans all of `$HOME`.",
+        "The default seed is the `~/startups/` root, and additional roots can be added and removed:",
+        "Tasks have explicit lifecycle states: `proposed`, `queued`, `routed`, `running`, `validating`, `completed`, `failed`, `blocked`, and `cancelled`.",
+        "A task with a command runs only an explicit argv list.",
+        "It never invokes a shell string.",
+        "A missing command routes/queues the task; it does not call a model automatically.",
+        "The pipeline captures the project path, Git branch/revision/status and a context hash before execution, invokes OpenCode with an explicit project directory and model, and stores a compact receipt in SQLite.",
+        "Raw JSONL output is redacted and stored separately under `GG_STATE_DIR/execution-logs/`.",
+        "A provider exit code of `0` is not considered successful until project validation passes.",
+        "The executor never passes `--auto`, and it never stashes, resets, discards, commits, pushes, deploys, or spends credits."
+      ],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
       }
     },
     "grokinstall": {
@@ -377,24 +2181,15 @@
       ],
       "facts": {
         "description": "Install the capability, not the complexity. A Go CLI that inspects a repo and installs the smallest useful integration.",
-        "license": "MIT",
-        "topics": [
-          "automation",
-          "capability-management",
-          "cli",
-          "developer-tools",
-          "go",
-          "open-source",
-          "packaging",
-          "tooling"
-        ],
+        "license": null,
+        "topics": [],
         "verified_tests": 486,
         "release_count": 2,
         "latest_release": "v0.1.1",
-        "ci_green": false,
-        "ci_latest_conclusion": "failure",
+        "ci_green": true,
+        "ci_latest_conclusion": "success",
         "archived": false,
-        "homepage": "https://grokinstall-website.vercel.app"
+        "homepage": ""
       }
     },
     "grokmax": {
@@ -448,33 +2243,495 @@
       ],
       "facts": {
         "description": "Deterministic-first LLM routing: zero-cost executors first, five-layer cache, telemetry that never overstates savings.",
-        "license": "MIT",
-        "topics": [
-          "agentic-ai",
-          "ai-infrastructure",
-          "caching",
-          "cost-optimization",
-          "developer-tools",
-          "llm",
-          "open-source",
-          "routing",
-          "telemetry",
-          "typescript"
-        ],
+        "license": null,
+        "topics": [],
         "verified_tests": 287,
         "release_count": 1,
         "latest_release": "v0.2.0-rc.2",
         "ci_green": true,
         "ci_latest_conclusion": "success",
         "archived": false,
-        "homepage": "https://grokmax.noaerth.com"
+        "homepage": ""
+      }
+    },
+    "HackerzArt": {
+      "full_name": "M4G3LL4N0/HackerzArt",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1431,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "https://hackerzart.vercel.app"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "happyblock": {
+      "full_name": "M4G3LL4N0/happyblock",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "imessage": {
+      "full_name": "M4G3LL4N0/imessage",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1511,
+      "commands": [
+        "pnpm install",
+        "pnpm dev",
+        "pnpm build",
+        "pnpm start",
+        "pnpm dlx vercel",
+        "pnpm dlx vercel --prod"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "Uses Photon SDK **only on the server** (never in client code)",
+        "Never expose `PHOTON_API_KEY` in client-side code.",
+        "Do not commit `.env.local` or any real credentials."
+      ],
+      "facts": {
+        "description": "Startup portfolio: imessage",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "interceptorgrid": {
+      "full_name": "M4G3LL4N0/interceptorgrid",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 986,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: interceptorgrid",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "lagrangeos": {
+      "full_name": "M4G3LL4N0/lagrangeos",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1052,
+      "commands": [
+        "pnpm dev",
+        "pnpm install",
+        "pnpm typecheck",
+        "pnpm build"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000`"
+        ]
+      },
+      "architectural_claims": [
+        "LagrangeOS is an AI-native experimental astrodynamics and space autonomy infrastructure startup.",
+        "It helps mission teams design trajectories, simulate uncertainty, validate autonomy logic, rank maneuver strategies, and export orbital decision intelligence."
+      ],
+      "caveats": [
+        "Experimental astrodynamics, accelerated by AI.",
+        "LagrangeOS is an AI-native experimental astrodynamics and space autonomy infrastructure startup.",
+        "It helps mission teams design trajectories, simulate uncertainty, validate autonomy logic, rank maneuver strategies, and export orbital decision intelligence.",
+        "Do not deploy automatically from this repo.",
+        "LagrangeOS is decision support and validation infrastructure \u2014 **not spacecraft control software**.",
+        "Not flight-certified without independent validation."
+      ],
+      "facts": {
+        "description": "Startup portfolio: lagrangeos",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "ledgerops-ai": {
+      "full_name": "M4G3LL4N0/ledgerops-ai",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 980,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: ledgerops-ai",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "legacybridge": {
+      "full_name": "M4G3LL4N0/legacybridge",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "life-finds-a-way": {
+      "full_name": "M4G3LL4N0/life-finds-a-way",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "Startup portfolio: life-finds-a-way",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "loopcompute-cloud": {
+      "full_name": "M4G3LL4N0/loopcompute-cloud",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 990,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: loopcompute-cloud",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "lunarfoundry": {
+      "full_name": "M4G3LL4N0/lunarfoundry",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 980,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: lunarfoundry",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "luvconvos": {
+      "full_name": "M4G3LL4N0/luvconvos",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 882,
+      "commands": [
+        "npm install",
+        "npm run dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [
+        "Privacy-first architecture"
+      ],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "luvpartnr": {
+      "full_name": "M4G3LL4N0/luvpartnr",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "LUVPARTNR is a private AI relationship intelligence platform that helps users analyze partner behavior, communication patterns, compatibility, and long-term risk using structured reports, decision-support tools, and a living case file system.",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "luvstories": {
+      "full_name": "M4G3LL4N0/luvstories",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1596,
+      "commands": [
+        "npm install",
+        "npm run dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [
+        "Privacy-first architecture"
+      ],
+      "caveats": [
+        "All user data is private and never shared."
+      ],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
       }
     },
     "M4G3LL4N0": {
       "full_name": "M4G3LL4N0/M4G3LL4N0",
       "classification": "PROFILE",
       "readme_present": true,
-      "readme_bytes": 12745,
+      "readme_bytes": 12005,
       "commands": [],
       "links": {
         "first_party": [
@@ -484,7 +2741,6 @@
           "https://github.com/M4G3LL4N0/grokbot-society",
           "https://github.com/M4G3LL4N0/grokinstall",
           "https://github.com/M4G3LL4N0/grokmax",
-          "https://github.com/M4G3LL4N0/noaerth-portfolio-os",
           "https://github.com/M4G3LL4N0/opencode-watchdog",
           "https://github.com/M4G3LL4N0/seai-mind",
           "https://github.com/M4G3LL4N0/why-are-you-here",
@@ -495,14 +2751,12 @@
         ]
       },
       "architectural_claims": [
-        "<img src=\"assets/profile/windows/noaerth-portfolio-os-dark.svg\" alt=\"Portfolio OS \u2014 governance from the outside in: queue, locks, reviewer separation, allowlisted publishing.",
-        "203 tests, CI green.\" width=\"100%\">",
         "<img src=\"assets/profile/windows/grokmax-dark.svg\" alt=\"GrokMax \u2014 the cheapest sufficient path wins and the ledger says which.",
         "287 tests, CI green.\" width=\"100%\">",
         "<img src=\"assets/profile/windows/opencode-watchdog-dark.svg\" alt=\"OpenCode Watchdog \u2014 circuit breaker for runaway sessions, containment before cost.",
         "70 tests, CI green.\" width=\"100%\">",
-        "Six systems carry the weight.",
-        "Each has an architecture, a test suite, and a",
+        "Five public systems carry the weight.",
+        "Each has an architecture, a test suite,",
         "<img src=\"assets/profile/system-map-dark.svg\" alt=\"The published systems as five layers: control architecture, execution machine, economy and routing, guardrails, and surfaces.\" width=\"100%\">",
         "Control architecture** decides what runs and who approved it.",
         "[grokmax](https://github.com/M4G3LL4N0/grokmax) \u2014 Deterministic-first LLM routing: zero-cost executors first, five-layer cache,\u2026 \u00b7 287 tests",
@@ -516,13 +2770,14 @@
       "caveats": [
         "<sub>Autonomous systems &#183; developer infrastructure &#183; research tooling &#183; experimental technology</sub>",
         "assets/profile/build-signal.json.",
-        "<sub>Measured 2026-10-05T19:13:58+00:00.",
+        "<sub>Measured 2026-10-05T22:11:58+00:00.",
         "Source: enriched repos.json snapshot + tests.json (operator-recorded test counts).",
         "Stars and forks are deliberately absent: at this scale they are not evidence.</sub>",
-        "documented failure story.",
+        "and a documented failure story.",
         "That is the bar, not the feature list.",
+        "The control plane that runs this portfolio is deliberately not public.",
         "Most systems deliberately show no relationship at",
-        "relationship is explicitly *not* a dependency.",
+        "all, because none is documented \u2014 and several systems whose relationships are explicitly *not* dependencies.",
         "<img src=\"assets/profile/constellation-dark.svg\" alt=\"The Noaerth constellation: the same systems grouped semantically into govern, execute, economise, protect, and emergent.",
         "These are categories of work, not runtime dependencies.\" width=\"100%\">",
         "<!-- Generated by Portfolio OS GitHubOS.",
@@ -537,29 +2792,354 @@
         "<!-- No upstream section is rendered: 0 pull requests have been merged into repositories this account does not own.",
         "Regenerate with render_upstream_block.py once that changes.",
         "STATUS: EXPERIMENTAL`, and explicit about what was tested, what works, and what",
-        "An unfinished project is a draft, not a lab.",
-        "<em>integration targets</em> inside provider-neutral runtimes."
+        "An unfinished project is a draft, not a lab."
       ],
       "facts": {
         "description": "Profile of M4G3LL4N0 \u2014 autonomous systems, developer infrastructure, and research tooling under Noaerth.",
-        "license": "MIT",
-        "topics": [
-          "agentic-ai",
-          "ai-agents",
-          "developer-tools",
-          "infrastructure",
-          "local-first",
-          "noaerth",
-          "open-source",
-          "profile"
-        ],
+        "license": null,
+        "topics": [],
         "verified_tests": null,
         "release_count": 0,
         "latest_release": "",
         "ci_green": false,
         "ci_latest_conclusion": "failure",
         "archived": false,
-        "homepage": "https://www.noaerth.com"
+        "homepage": ""
+      }
+    },
+    "Modex": {
+      "full_name": "M4G3LL4N0/Modex",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "morphui": {
+      "full_name": "M4G3LL4N0/morphui",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 970,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: morphui",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "n1-therapeutics": {
+      "full_name": "M4G3LL4N0/n1-therapeutics",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 994,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: n1-therapeutics",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "NaextBlock": {
+      "full_name": "M4G3LL4N0/NaextBlock",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "nex-robotix": {
+      "full_name": "M4G3LL4N0/nex-robotix",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "Startup portfolio: nex-robotix",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "node_modules": {
+      "full_name": "M4G3LL4N0/node_modules",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1147,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "https://nodemodules-bice.vercel.app"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "obviouslybad": {
+      "full_name": "M4G3LL4N0/obviouslybad",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 601,
+      "commands": [
+        "pnpm dev",
+        "pnpm install",
+        "pnpm build"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "Startup portfolio: obviouslybad",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "oddbotix": {
+      "full_name": "M4G3LL4N0/oddbotix",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "oodax": {
+      "full_name": "M4G3LL4N0/oodax",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "Startup portfolio: oodax",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
       }
     },
     "opencode-watchdog": {
@@ -593,26 +3173,372 @@
       ],
       "facts": {
         "description": "Local circuit breaker for runaway OpenCode sessions. Deterministic detection, no model, no data leaves the machine.",
-        "license": "MIT",
-        "topics": [
-          "ai",
-          "circuit-breaker",
-          "cli",
-          "developer-tools",
-          "local-first",
-          "open-source",
-          "opencode",
-          "reliability",
-          "safety",
-          "typescript"
-        ],
+        "license": null,
+        "topics": [],
         "verified_tests": 70,
         "release_count": 1,
         "latest_release": "v0.1.0",
         "ci_green": true,
         "ci_latest_conclusion": "success",
         "archived": false,
-        "homepage": "https://opencode-watchdog.vercel.app"
+        "homepage": ""
+      }
+    },
+    "opsautopilot": {
+      "full_name": "M4G3LL4N0/opsautopilot",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 980,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: opsautopilot",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "orbitchip": {
+      "full_name": "M4G3LL4N0/orbitchip",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 974,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: orbitchip",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "orbitprint": {
+      "full_name": "M4G3LL4N0/orbitprint",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 976,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: orbitprint",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "poolwater": {
+      "full_name": "M4G3LL4N0/poolwater",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1805,
+      "commands": [
+        "pnpm install",
+        "pnpm dev",
+        "pnpm build"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000`"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "The public site is for guests.",
+        "It should feel fun, premium, social, game-driven, nightlife-native, and not corporate.",
+        "Do not deploy automatically during recovery work.",
+        "Do not delete source, `pnpm-lock.yaml`, `.env.local`, `.env.example`, docs, or used public assets."
+      ],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "psychemap": {
+      "full_name": "M4G3LL4N0/psychemap",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "Startup portfolio: psychemap",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "readablestack": {
+      "full_name": "M4G3LL4N0/readablestack",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 982,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: readablestack",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "redwoud": {
+      "full_name": "M4G3LL4N0/redwoud",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 769,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": "failure",
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "RequestAyo": {
+      "full_name": "M4G3LL4N0/RequestAyo",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "reviewforge-ai": {
+      "full_name": "M4G3LL4N0/reviewforge-ai",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "Startup portfolio: reviewforge-ai",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "saeturtle": {
+      "full_name": "M4G3LL4N0/saeturtle",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
       }
     },
     "seai-mind": {
@@ -648,23 +3574,893 @@
       "caveats": [],
       "facts": {
         "description": "Open-source self-evolving AI kernel with an auditable memory and capability loop.",
-        "license": "MIT",
-        "topics": [
-          "agent-memory",
-          "agentic-ai",
-          "ai-agents",
-          "evolutionary-ai",
-          "open-source",
-          "research",
-          "typescript"
-        ],
+        "license": null,
+        "topics": [],
         "verified_tests": 146,
         "release_count": 1,
         "latest_release": "v0.1.0-alpha",
-        "ci_green": false,
-        "ci_latest_conclusion": "failure",
+        "ci_green": true,
+        "ci_latest_conclusion": "success",
         "archived": false,
-        "homepage": "https://seai-mind.vercel.app"
+        "homepage": ""
+      }
+    },
+    "ShopRight": {
+      "full_name": "M4G3LL4N0/ShopRight",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "siliconcontrol-tower": {
+      "full_name": "M4G3LL4N0/siliconcontrol-tower",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 996,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: siliconcontrol-tower",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "SoulMayte": {
+      "full_name": "M4G3LL4N0/SoulMayte",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "spacecompute-cloud": {
+      "full_name": "M4G3LL4N0/spacecompute-cloud",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 992,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: spacecompute-cloud",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "spaceedu": {
+      "full_name": "M4G3LL4N0/spaceedu",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "Spouwse": {
+      "full_name": "M4G3LL4N0/Spouwse",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1036,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "src": {
+      "full_name": "M4G3LL4N0/src",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1060,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "https://src-noaerth.vercel.app"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| Primary language | not recorded |",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "startupquick": {
+      "full_name": "M4G3LL4N0/startupquick",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 472,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "STRxGNTH": {
+      "full_name": "M4G3LL4N0/STRxGNTH",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1007,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| Primary language | not recorded |",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "strxngth": {
+      "full_name": "M4G3LL4N0/strxngth",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "styles": {
+      "full_name": "M4G3LL4N0/styles",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1025,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "https://styles-noaerth.vercel.app"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "SUNSETX": {
+      "full_name": "M4G3LL4N0/SUNSETX",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "SUNSETX predicts and ranks the best sunset experiences using weather, location, and environmental data. Real-time scoring, peak timing, and smart recommendations for where to go and when.",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "supplyos-ai": {
+      "full_name": "M4G3LL4N0/supplyos-ai",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 978,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: supplyos-ai",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "swarmshield": {
+      "full_name": "M4G3LL4N0/swarmshield",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "Startup portfolio: swarmshield",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "tempoos": {
+      "full_name": "M4G3LL4N0/tempoos",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 822,
+      "commands": [
+        "npm install",
+        "npm run dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "TherapyUX": {
+      "full_name": "M4G3LL4N0/TherapyUX",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "trajectoryos": {
+      "full_name": "M4G3LL4N0/trajectoryos",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1582,
+      "commands": [
+        "pnpm install",
+        "pnpm dev",
+        "pnpm build",
+        "pnpm start",
+        "pnpm lint"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "https://nextjs.org/",
+          "https://pnpm.io/",
+          "https://tailwindcss.com/"
+        ]
+      },
+      "architectural_claims": [
+        "TrajectoryOS is an AI-native mission computation layer for space, physics, aerospace, robotics, and engineering teams.",
+        "This repository contains the public marketing site (Next.js App Router)."
+      ],
+      "caveats": [
+        "Configure the project in the Vercel dashboard or CLI.",
+        "Production deploy is **manual only** \u2014 do not automate `vercel --prod` from agents without explicit approval.",
+        "The live calculators, API export, and enterprise features described on the site are **roadmap** unless explicitly shipped in this repo.",
+        "The landing page is investor- and partner-ready positioning, not a claim of shipped product scope beyond what exists in code."
+      ],
+      "facts": {
+        "description": "Startup portfolio: trajectoryos",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "TrustxVerify": {
+      "full_name": "M4G3LL4N0/TrustxVerify",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 3204,
+      "commands": [
+        "pnpm install",
+        "pnpm dev",
+        "pnpm build",
+        "pnpm lint",
+        "pnpm typecheck"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000`"
+        ]
+      },
+      "architectural_claims": [
+        "TrustxVerify is the trust layer for global commerce.",
+        "It scores buyers, sellers, businesses, marketplace accounts, and addresses before transactions happen.",
+        "Reputation is siloed, fraud is portable, and marketplace operators need a shared legitimacy layer that can follow risk signals across eBay, Facebook Marketplace, Shopify, Craigslist, freight forwarding addresses, and private checkout flows.",
+        "Supabase data layer scoped to schema `trustxverify"
+      ],
+      "caveats": [
+        "Do not commit real secrets.",
+        ".env.local` is intentionally ignored.",
+        "Important: all app tables live in schema `trustxverify`, not `public`.",
+        "Do not deploy automatically from recovery work.",
+        "Do not delete `.env.local`, `.env.example`, `pnpm-lock.yaml`, source files, Supabase SQL, docs, or used public assets."
+      ],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "useros": {
+      "full_name": "M4G3LL4N0/useros",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1315,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: useros",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "uxvisualengine": {
+      "full_name": "M4G3LL4N0/uxvisualengine",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 990,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "valuedsociety": {
+      "full_name": "M4G3LL4N0/valuedsociety",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "vencapmentor": {
+      "full_name": "M4G3LL4N0/vencapmentor",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 988,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "VentureRank-OS": {
+      "full_name": "M4G3LL4N0/VentureRank-OS",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "vizuler": {
+      "full_name": "M4G3LL4N0/vizuler",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1318,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: vizuler",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
       }
     },
     "why-are-you-here": {
@@ -692,11 +4488,187 @@
       "facts": {
         "description": "How did you find this GitHub?",
         "license": null,
-        "topics": [
-          "easter-egg",
-          "meta",
-          "noaerth"
-        ],
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "workflowcanvas": {
+      "full_name": "M4G3LL4N0/workflowcanvas",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 984,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "Startup portfolio: workflowcanvas",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "youareprofound": {
+      "full_name": "M4G3LL4N0/youareprofound",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "YouState": {
+      "full_name": "M4G3LL4N0/YouState",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1923,
+      "commands": [
+        "npm install",
+        "npm run dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "http://localhost:3000/auth/callback"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "Zaeus": {
+      "full_name": "M4G3LL4N0/Zaeus",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1004,
+      "commands": [],
+      "links": {
+        "first_party": [],
+        "third_party": []
+      },
+      "architectural_claims": [],
+      "caveats": [
+        "> **STATUS: UNDOCUMENTED** \u2014 this README was generated from the repository's own contents.",
+        "It records what is present, not what the project intends to become.",
+        "| Primary language | not recorded |",
+        "| License | not recorded |",
+        "| Test suite | not established \u2014 no test evidence has been measured |",
+        "| CI | not established \u2014 no CI evidence has been measured |",
+        "Nothing in this table is inferred.",
+        "Where a value could not be read from the repository it says so."
+      ],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
+        "verified_tests": null,
+        "release_count": 0,
+        "latest_release": "",
+        "ci_green": false,
+        "ci_latest_conclusion": null,
+        "archived": false,
+        "homepage": ""
+      }
+    },
+    "zaeux": {
+      "full_name": "M4G3LL4N0/zaeux",
+      "classification": "PUBLIC_PROJECT",
+      "readme_present": true,
+      "readme_bytes": 1450,
+      "commands": [
+        "npm run dev",
+        "yarn dev",
+        "pnpm dev",
+        "bun dev"
+      ],
+      "links": {
+        "first_party": [],
+        "third_party": [
+          "http://localhost:3000",
+          "https://github.com/vercel/next.js",
+          "https://nextjs.org",
+          "https://nextjs.org/docs",
+          "https://nextjs.org/docs/app/api-reference/cli/create-next-app",
+          "https://nextjs.org/docs/app/building-your-application/deploying",
+          "https://nextjs.org/docs/app/building-your-application/optimizing/fonts",
+          "https://nextjs.org/learn",
+          "https://vercel.com/font",
+          "https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme"
+        ]
+      },
+      "architectural_claims": [],
+      "caveats": [],
+      "facts": {
+        "description": "",
+        "license": null,
+        "topics": [],
         "verified_tests": null,
         "release_count": 0,
         "latest_release": "",

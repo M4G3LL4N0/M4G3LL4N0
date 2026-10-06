@@ -22,8 +22,8 @@
   </a>
   <a href="#flagships">
     <picture>
-      <source media="(prefers-color-scheme: light)" srcset="assets/profile/nav/systems-light.svg">
-      <img src="assets/profile/nav/systems-dark.svg" alt="{Systems — the six flagships}" height="92">
+      <source media="(prefers-color-scheme: light)" srcset="assets/profile/nav/repositories-light.svg">
+      <img src="assets/profile/nav/repositories-dark.svg" alt="{Repositories — full inventory}" height="92">
     </picture>
   </a>
   <a href="https://github.com/M4G3LL4N0/why-are-you-here">
@@ -60,11 +60,11 @@
 | --- | --- | --- |
 | Systems | **8** | public engineering repositories |
 | Tests | **2,032** | tests run and recorded by an operator |
-| CI | **5** | systems whose latest workflow run passed |
+| CI | **6** | systems whose latest workflow run passed |
 | Releases | **9** | GitHub releases published |
 | Active | **8** | public systems with a commit in the last 180 days |
 
-<sub>Measured 2026-10-05T22:11:58+00:00. Source: enriched repos.json snapshot + tests.json (operator-recorded test counts). Stars and forks are deliberately absent: at this scale they are not evidence.</sub>
+<sub>Measured 2026-10-05T22:52:03+00:00. Source: enriched repos.json snapshot + tests.json (operator-recorded test counts). Stars and forks are deliberately absent: at this scale they are not evidence.</sub>
 <!-- signal:end -->
 
 ---
@@ -141,7 +141,7 @@ names the other. Three exist. Most systems deliberately show no relationship at
 all, because none is documented — and several systems whose relationships are explicitly *not* dependencies.
 
 <p align="center">
-  <img src="assets/profile/constellation-dark.svg" alt="The Noaerth constellation: the same systems grouped semantically into govern, execute, economise, protect, and emergent. These are categories of work, not runtime dependencies." width="100%">
+  <img src="assets/profile/system-map-dark.svg" alt="The published systems as layers: control architecture, execution, economics, protection and emergence. Relationships are drawn only where a repository documents one. Several systems deliberately show no relationship at all, because none is documented, and one pair is explicitly *not* a dependency." width="100%">
 </p>
 
 <details>

@@ -11,6 +11,8 @@ profile still renders correctly if every badge service disappears.
 
 from __future__ import annotations
 
+import hashlib
+import importlib.util
 import json
 import sys
 from pathlib import Path
@@ -21,6 +23,14 @@ from primitives import (background_grid, connector, defs_common, glass_panel,
                         header, label, node, specular_top, svg_end, text)
 from tokens import (DARK, FONT_DISPLAY, FONT_MONO, GLASS, HANDLE, LIGHT,
                     MOTION, PRIMARY_NAME, STUDIO_NAME, STUDIO_SUBTITLE, TAGLINE)
+
+# The identity registry lives in the github_art package, which has its own
+# modules named tokens.py and materials.py. Adding that directory itself to
+# sys.path would shadow the ones imported above, so the parent directory is
+# added instead and the module imported under its package name.
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from github_art import project_identity as P
 
 PROFILE = Path(__file__).resolve().parents[2]
 OUT = PROFILE / "assets" / "profile"
@@ -177,6 +187,56 @@ NAV_ITEMS = [
     ("why", "WHY ARE YOU HERE?", "you found the footer"),
 ]
 
+# Per-flagship window marks. The README links every flagship card through
+# assets/profile/windows/<slug>-<theme>.svg, so each entry here has a matching
+# generated file. Previously the generator emitted no windows at all while the
+# README referenced twelve, which is why the asset-existence test failed and why
+# those cards rendered as broken images.
+FLAGSHIP_WINDOWS = [
+    ("agentos", "AgentOS", "objective in, verified outcome out"),
+    ("grokinstall", "GrokInstall", "the smallest useful capability"),
+    ("grokmax", "GrokMax", "measured or estimated, always labelled"),
+    ("gh0st", "gh0st", "prompts stay on the machine"),
+    ("opencode-watchdog", "OpenCode Watchdog", "circuit breaker for runaway sessions"),
+    ("grokbot-office", "GrokBot Office", "supervisors, policy, handoffs"),
+]
+
+
+def flagship_window(slug: str, title: str, subtitle: str, theme_name: str) -> str:
+    """Per-system card mark used by the README flagship grid.
+
+    Six of these appear in a grid, so each carries the system's own spectral
+    material and accent. The composition is shared; the material, the title and
+    the measured line are not, which is what keeps them one family without
+    making them the same card.
+    """
+    t = DARK if theme_name == "dark" else LIGHT
+    uid = f"win-{slug}-{theme_name}"
+    W, H = 640, 300
+    # Accent is selected from the theme's own spectral set by a stable digest of
+    # the slug, so the six cards are distinguishable without introducing a
+    # second palette and without depending on runtime randomness.
+    accents = [t["violet"], t["mint"], t["indigo"], t["edge_link"]]
+    accent = accents[hashlib.sha256(slug.encode()).digest()[0] % len(accents)]
+    radius = 22
+    return "".join([
+        header(W, H, f"{title} \u2014 {STUDIO_NAME}",
+               f"{title}: {subtitle}. Published as M4G3LL4N0/{slug}."),
+        defs_common(t, uid),
+        f'  <rect width="{W}" height="{H}" rx="{radius}" fill="{t["glass"]}"/>',
+        glass_panel(0.75, 0.75, W - 1.5, H - 1.5, uid, radius=radius),
+        specular_top(0.75, 0.75, W - 1.5, 20),
+        f'  <rect x="0.75" y="30" width="4" height="{H - 60}" rx="2" fill="{accent}"/>',
+        label(38, 78, title.upper(), t, size=13, tracking=2.6, opacity=0.62),
+        text(38, 132, title, theme=t, size=40, weight=660, tracking=-0.6),
+        text(38, 176, subtitle, theme=t, size=17, opacity=0.66),
+        f'  <line x1="38" y1="{H - 74}" x2="{W - 38}" y2="{H - 74}" '
+        f'stroke="{t["edge"]}" stroke-width="1" opacity="0.55"/>',
+        label(38, H - 44, f"M4G3LL4N0/{slug}", t, size=12, tracking=1.4,
+              opacity=0.5),
+        svg_end(),
+    ])
+
 
 def nav_chip(slug: str, title: str, subtitle: str, theme_name: str) -> str:
     """Navigation control.
@@ -270,14 +330,6 @@ def build_signal(theme_name: str, signal: dict) -> str:
 # =====================================================================
 # Glyphs are original geometry drawn from primitives — no brand icons.
 # `glyph` returns SVG markup inside a 48x48 box at (0,0).
-def glyph_stack() -> str:
-    """Portfolio OS — stacked control planes in section."""
-    return ('<rect x="6" y="10" width="26" height="5" rx="2.5" fill="url(#g-prism)" opacity="0.9"/>'
-            '<rect x="10" y="19" width="26" height="5" rx="2.5" fill="url(#g-prism)" opacity="0.65"/>'
-            '<rect x="14" y="28" width="26" height="5" rx="2.5" fill="url(#g-prism)" opacity="0.4"/>'
-            '<line x1="6" y1="37" x2="44" y2="37" stroke="currentColor" stroke-width="1" opacity="0.35"/>')
-
-
 def glyph_ring() -> str:
     """AgentOS — execution ring with an orbiting node."""
     return ('<circle cx="24" cy="24" r="15" fill="none" stroke="url(#g-prism)" stroke-width="1.6" opacity="0.75"/>'
@@ -334,7 +386,6 @@ def glyph_eye() -> str:
 
 
 CARDS = [
-    ("noaerth-portfolio-os", "Portfolio OS", glyph_stack, "SQLite work queue · reviewer separation · allowlisted publishing", "Python", "MIT"),
     ("agentos", "AgentOS", glyph_ring, "Objective in, verified outcome out, at lowest responsible cost", "Python", "MIT"),
     ("grokinstall", "GrokInstall", glyph_module, "Installs the smallest useful capability. No is a valid answer.", "Go", "MIT"),
     ("grokmax", "GrokMax", glyph_prism, "Zero-cost executors first; every number labelled measured or estimated", "TypeScript", "MIT"),
@@ -472,15 +523,14 @@ def terminal_motion() -> str:
 #                                     ingest.ts:17 (SSE ingest)
 #
 # Explicitly NOT an edge, despite appearing together in prose:
-#  - noaerth-portfolio-os -> agentos. noaerth-portfolio-os/README.md:144 lists
-#    "its own agent runtime" under *Deliberately not built* and points at
-#    AgentOS as the separate thing that does that job. That is a disclaimer of
-#    dependency, so portfolio-os is drawn with no relationship at all.
+#  - the portfolio control plane -> agentos. That repository is private and is
+#    deliberately not named anywhere in this public generator. It states that
+#    it does not build its own agent runtime and points at AgentOS for that, so
+#    drawing an edge would assert a dependency it explicitly disclaims.
 #
 # Everything else is drawn as a standalone system, not as an edge.
 LAYERS = [
     ("CONTROL", "decides what runs, and who approved it", [
-        ("portfolio-os", "noaerth-portfolio-os", "SQLite work queue · reviewer separation", None, None),
         ("workforce config", "grokbot-office", "supervisors · policy · handoffs",
          "sits above AgentOS", "grokbot-office->agentos"),
     ]),
@@ -813,6 +863,12 @@ def main() -> int:
             rel = f"assets/profile/nav/{slug}-{name}.svg"
             generated.append((rel, write(OUT / "nav" / f"{slug}-{name}.svg",
                                          nav_chip(slug, title, subtitle, name))))
+
+    for slug, title, subtitle in FLAGSHIP_WINDOWS:
+        for name in ("dark", "light"):
+            rel = f"assets/profile/windows/{slug}-{name}.svg"
+            generated.append((rel, write(OUT / "windows" / f"{slug}-{name}.svg",
+                                         flagship_window(slug, title, subtitle, name))))
 
     for name in ("dark", "light"):
         rel = f"assets/profile/build-signal-{name}.svg"

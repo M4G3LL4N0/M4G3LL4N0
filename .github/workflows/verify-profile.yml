@@ -71,12 +71,32 @@ jobs:
         run: |
           set -euo pipefail
           python3 scripts/profile_art/generate.py > /dev/null
-          if ! git diff --quiet -- assets/profile assets/social-preview.svg; then
+
+          # Both tracked modifications AND untracked new files must be caught.
+          # `git diff --quiet` alone only sees tracked files, so a generator that
+          # starts emitting a new asset is invisible to it: that is exactly how
+          # assets/profile/cards/, assets/profile/avatar/ and
+          # assets/profile/nav/open-source-*.svg came to exist uncommitted and
+          # unverified.
+          changed=$(git status --porcelain -- assets/profile assets/social-preview.svg)
+          if [ -n "$changed" ]; then
             echo "::error::regenerating changed the committed artwork. Run scripts/profile_art/generate.py and commit the result."
-            git diff --stat -- assets/profile assets/social-preview.svg
+            echo "$changed"
             exit 1
           fi
-          echo "committed artwork matches the generator"
+
+          # Generating twice in the same tree must be a no-op. This catches
+          # nondeterminism that a single run cannot: unordered set or dict
+          # iteration, time or date stamps, RNG without a fixed seed, and
+          # environment-dependent paths baked into output.
+          before=$(find assets/profile assets/social-preview.svg -type f -exec sha256sum {} + | LC_ALL=C sort | sha256sum)
+          python3 scripts/profile_art/generate.py > /dev/null
+          after=$(find assets/profile assets/social-preview.svg -type f -exec sha256sum {} + | LC_ALL=C sort | sha256sum)
+          if [ "$before" != "$after" ]; then
+            echo "::error::generating twice produced different bytes; the generator is not deterministic"
+            exit 1
+          fi
+          echo "committed artwork matches the generator, and generation is deterministic"
 
       - name: Generated README blocks are up to date
         run: |
