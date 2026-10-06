@@ -95,6 +95,17 @@ def completeness_fields(name: str, meta: dict, local: Path | None) -> dict:
     def st(present: bool, reason_if_absent: str) -> dict:
         return {"state": COMPLETE if present else NA, "reason": "" if present else reason_if_absent}
 
+    # Art lives under assets/hero/ for projects and under assets/profile/ for the
+    # profile repository itself. The first version scanned only root entries, so
+    # every repository with published art was reported as having none -- 122
+    # false failures. A later version recognised only assets/hero/, which
+    # reported the profile as having no hero while its hero is the largest asset
+    # on the page.
+    def has_hero(p: str) -> bool:
+        return (p.endswith("assets/hero/hero-motion.svg")
+                or p.endswith("assets/profile/hero-motion.svg")
+                or (p.endswith((".svg", ".png")) and "/" not in p))
+
     return {
         "description_complete": st(bool((meta.get("description") or "").strip()),
                                    "no description recorded on the repository"),
@@ -104,20 +115,22 @@ def completeness_fields(name: str, meta: dict, local: Path | None) -> dict:
                                 "no homepage; single-project repository"),
         "readme_complete": st(bool(isinstance(readme, dict)),
                               "no README on the default branch"),
-        # Art lives under assets/hero/, not at the repository root. The earlier
-        # version scanned only root entries, so every repository with published
-        # art was reported as having none -- 122 false failures.
-        "hero_complete": st(
-            any(p.endswith("assets/hero/hero-motion.svg") or
-                (p.endswith((".svg", ".png")) and "/" not in p) for p in paths),
-            "no hero asset"),
+        # Art lives under assets/hero/ for projects and under assets/profile/ for
+        # the profile repository itself. The earlier version scanned only root
+        # entries, so every repository with published art was reported as having
+        # none -- 122 false failures -- and a later version recognised only
+        # assets/hero/, which reported the profile as having no hero while its
+        # hero is the largest asset on the page.
+        "hero_complete": st(any(has_hero(p) for p in paths), "no hero asset"),
         "animated_art_complete": st(
-            "assets/hero/hero-motion.svg" in paths,
-            "no animated hero variant under assets/hero/"),
+            any(p in paths for p in ("assets/hero/hero-motion.svg",
+                                     "assets/profile/hero-motion.svg")),
+            "no animated hero variant"),
         "static_fallback_complete": st(
-            all(x in paths for x in ("assets/hero/hero-dark.svg",
-                                     "assets/hero/hero-light.svg",
-                                     "assets/hero/hero-reduced.svg")),
+            all(any(p in paths for p in (f"assets/hero/{v}",
+                                         f"assets/profile/{v}"))
+                for v in ("hero-dark.svg", "hero-light.svg",
+                          "hero-reduced.svg")),
             "missing a static dark, light or reduced-motion fallback"),
         "social_preview_complete": {
             "state": NA,
@@ -239,6 +252,17 @@ def main() -> int:
             "has_issues_disabled": not r.get("hasIssuesEnabled", True),
             "has_discussions": r.get("hasDiscussionsEnabled", False),
             "release_count": 1 if r.get("latestRelease") else 0,
+            # The default branch is REQUIRED, not optional. It was absent here,
+            # so the tree fetch fell back to "main" and every repository whose
+            # real default branch is something else -- Ayncient lives on
+            # `auto-1775597267-ayncient`, fastprocure-ai on
+            # `portfolio/fastprocure-ai/planner-draft` -- was measured against a
+            # branch that is not theirs. Three repositories that demonstrably
+            # ship hero art were recorded as having none.
+            "default_branch": (r.get("defaultBranchRef") or {}).get("name", ""),
+            # Drives the empty-repository branch: GitHub answers 409 for a
+            # repository with no commits, which is a fact, not a failed request.
+            "size_kb": r.get("diskUsage") or 0,
         }
         is_denied = denied(name)
         is_site = name.lower().endswith(SITE_SUFFIX)

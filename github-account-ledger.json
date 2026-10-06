@@ -2,7 +2,7 @@
  "$comment": "One record per canonical repository. Every field is COMPLETE or NOT_APPLICABLE with a reason; UNKNOWN is never a terminal value.",
  "account": "M4G3LL4N0",
  "canonical_count": 152,
- "generated_at": "2026-10-06T18:35:00Z",
+ "generated_at": "2026-10-06T19:18:27Z",
  "records": [
   {
    "name": "1bc",
@@ -12,7 +12,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/1bc",
+   "local_path": "",
    "canonical_project": "1bc",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -138,7 +138,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/access-layer",
+   "local_path": "",
    "canonical_project": "access-layer",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -264,7 +264,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/agentapi-hub",
+   "local_path": "",
    "canonical_project": "agentapi-hub",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -390,7 +390,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/agentcore-silicon",
+   "local_path": "",
    "canonical_project": "agentcore-silicon",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -516,7 +516,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/agentos",
+   "local_path": "",
    "canonical_project": "agentos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -642,7 +642,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/agentos-website",
+   "local_path": "",
    "canonical_project": "agentos",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -790,8 +790,8 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -799,7 +799,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -814,16 +814,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -838,8 +838,8 @@
     "reason": "discussions not enabled"
    },
    "ci_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no workflow; not applicable unless executable code exists"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "tests_state": {
     "state": "NOT_APPLICABLE",
@@ -875,8 +875,8 @@
     "reason": "no issue forms"
    },
    "pr_template_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no pull request template"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "changelog_state": {
     "state": "NOT_APPLICABLE",
@@ -886,7 +886,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 24 field(s)"
+   "next_action": "complete 18 field(s)"
   },
   {
    "name": "autobuilder",
@@ -896,7 +896,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/autobuilder",
+   "local_path": "",
    "canonical_project": "autobuilder",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
@@ -925,7 +925,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -1022,7 +1022,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/autobuilder-3",
+   "local_path": "",
    "canonical_project": "autobuilder-3",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
@@ -1042,8 +1042,8 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -1051,7 +1051,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -1148,7 +1148,7 @@
    "default_branch": "",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/autobuilder-mvp",
+   "local_path": "",
    "canonical_project": "autobuilder-mvp",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
@@ -1177,7 +1177,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -1274,7 +1274,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/autoerp",
+   "local_path": "",
    "canonical_project": "autoerp",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -1400,7 +1400,7 @@
    "default_branch": "auto-1775597267-ayncient",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/ayncient",
+   "local_path": "",
    "canonical_project": "Ayncient",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -1424,16 +1424,16 @@
     "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -1516,7 +1516,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 18 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "BehindCurtain",
@@ -1526,7 +1526,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/behindcurtain",
+   "local_path": "",
    "canonical_project": "BehindCurtain",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -1652,7 +1652,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/betterfintech",
+   "local_path": "",
    "canonical_project": "betterfintech",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -1778,7 +1778,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/bioyield-labs",
+   "local_path": "",
    "canonical_project": "bioyield-labs",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -1904,7 +1904,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/blitzproof",
+   "local_path": "",
    "canonical_project": "blitzproof",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -2030,7 +2030,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/blitzunicorn",
+   "local_path": "",
    "canonical_project": "blitzunicorn",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -2156,7 +2156,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/bourgaeux",
+   "local_path": "",
    "canonical_project": "Bourgaeux",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -2282,7 +2282,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/brandcrossover",
+   "local_path": "",
    "canonical_project": "BrandCrossover",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -2408,7 +2408,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/buildloop-usa",
+   "local_path": "",
    "canonical_project": "buildloop-usa",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -2534,7 +2534,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cannex-logistics",
+   "local_path": "",
    "canonical_project": "cannex-logistics",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -2660,7 +2660,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cheetahbearfuel",
+   "local_path": "",
    "canonical_project": "cheetahbearfuel",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -2786,7 +2786,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/childdevos",
+   "local_path": "",
    "canonical_project": "childdevos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -2912,7 +2912,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/chipflow",
+   "local_path": "",
    "canonical_project": "chipflow",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -3038,7 +3038,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/claimpilot-ai",
+   "local_path": "",
    "canonical_project": "claimpilot-ai",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -3164,7 +3164,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cleanstack-macos",
+   "local_path": "",
    "canonical_project": "cleanstack-macos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -3290,7 +3290,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cleanstack-os",
+   "local_path": "",
    "canonical_project": "cleanstack-os",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -3416,7 +3416,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cloudcastle",
+   "local_path": "",
    "canonical_project": "cloudcastle",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -3542,7 +3542,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/commos",
+   "local_path": "",
    "canonical_project": "commos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -3668,7 +3668,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/companyos",
+   "local_path": "",
    "canonical_project": "companyos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -3794,7 +3794,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/computeflow",
+   "local_path": "",
    "canonical_project": "computeflow",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -3920,7 +3920,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/computeflow-website",
+   "local_path": "",
    "canonical_project": "computeflow",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -4048,7 +4048,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cortexhq",
+   "local_path": "",
    "canonical_project": "cortexhq",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -4174,7 +4174,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cortexhq-website",
+   "local_path": "",
    "canonical_project": "cortexhq",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -4302,7 +4302,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cropshield-ai",
+   "local_path": "",
    "canonical_project": "cropshield-ai",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -4428,7 +4428,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cropshield-ai-website",
+   "local_path": "",
    "canonical_project": "cropshield-ai",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -4556,7 +4556,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cruxenio",
+   "local_path": "",
    "canonical_project": "Cruxenio",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -4682,7 +4682,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cruxenio-website",
+   "local_path": "",
    "canonical_project": "cruxenio",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -4702,16 +4702,16 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -4726,16 +4726,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -4810,7 +4810,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cxntradict",
+   "local_path": "",
    "canonical_project": "CxNTRADICT",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -4830,20 +4830,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -4854,16 +4854,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -4926,7 +4926,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "cxntradict-website",
@@ -4936,7 +4936,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cxntradict-website",
+   "local_path": "",
    "canonical_project": "cxntradict",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -4956,16 +4956,16 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -4980,16 +4980,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -5064,7 +5064,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/datatherapy",
+   "local_path": "",
    "canonical_project": "datatherapy",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -5190,7 +5190,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/datatherapy-website",
+   "local_path": "",
    "canonical_project": "datatherapy",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -5318,7 +5318,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/deploylocal",
+   "local_path": "",
    "canonical_project": "deploylocal",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -5444,7 +5444,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/deploylocal-website",
+   "local_path": "",
    "canonical_project": "deploylocal",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -5572,7 +5572,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/devstate",
+   "local_path": "",
    "canonical_project": "devstate",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -5698,7 +5698,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/devstate-website",
+   "local_path": "",
    "canonical_project": "devstate",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -5826,7 +5826,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/emailsimple",
+   "local_path": "",
    "canonical_project": "EmailSimple",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -5846,20 +5846,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -5870,16 +5870,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -5942,7 +5942,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "emailsimple-website",
@@ -5952,7 +5952,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/emailsimple-website",
+   "local_path": "",
    "canonical_project": "emailsimple",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -5972,16 +5972,16 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -5996,16 +5996,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -6080,7 +6080,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/enterprisepilot",
+   "local_path": "",
    "canonical_project": "enterprisepilot",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -6206,7 +6206,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/evalforge",
+   "local_path": "",
    "canonical_project": "evalforge",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -6332,7 +6332,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/evsec-one",
+   "local_path": "",
    "canonical_project": "evsec-one",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -6478,20 +6478,20 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -6502,16 +6502,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -6574,7 +6574,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 24 field(s)"
+   "next_action": "complete 17 field(s)"
   },
   {
    "name": "execmemory-ai",
@@ -6584,7 +6584,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/execmemory-ai",
+   "local_path": "",
    "canonical_project": "execmemory-ai",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -6710,7 +6710,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/executionos",
+   "local_path": "",
    "canonical_project": "executionos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -6836,7 +6836,7 @@
    "default_branch": "portfolio/fastprocure-ai/planner-draft",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/fastprocure-ai",
+   "local_path": "",
    "canonical_project": "fastprocure-ai",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -6860,16 +6860,16 @@
     "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -6952,7 +6952,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 19 field(s)"
+   "next_action": "complete 16 field(s)"
   },
   {
    "name": "ForeverLuvd",
@@ -6962,7 +6962,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/foreverluvd",
+   "local_path": "",
    "canonical_project": "ForeverLuvd",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -6982,20 +6982,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -7006,16 +7006,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -7078,7 +7078,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "forgeflow",
@@ -7088,7 +7088,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/forgeflow",
+   "local_path": "",
    "canonical_project": "forgeflow",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -7214,7 +7214,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/founderskingdom",
+   "local_path": "",
    "canonical_project": "founderskingdom",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -7340,7 +7340,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/freeconomie",
+   "local_path": "",
    "canonical_project": "freeconomie",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -7486,8 +7486,8 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -7495,7 +7495,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -7510,8 +7510,8 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
     "state": "NOT_APPLICABLE",
@@ -7582,7 +7582,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 24 field(s)"
+   "next_action": "complete 22 field(s)"
   },
   {
    "name": "fullofshit",
@@ -7592,7 +7592,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/fullofshit",
+   "local_path": "",
    "canonical_project": "fullofshit",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -7738,8 +7738,8 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -7747,7 +7747,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -7762,16 +7762,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -7834,7 +7834,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 24 field(s)"
+   "next_action": "complete 20 field(s)"
   },
   {
    "name": "FungMind",
@@ -7844,7 +7844,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/fungmind",
+   "local_path": "",
    "canonical_project": "FungMind",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -7864,20 +7864,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -7888,16 +7888,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -7960,7 +7960,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "gamecombo",
@@ -7970,7 +7970,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/gamecombo",
+   "local_path": "",
    "canonical_project": "gamecombo",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -8096,7 +8096,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/genotwin-health",
+   "local_path": "",
    "canonical_project": "genotwin-health",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -8222,7 +8222,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/gh0st",
+   "local_path": "",
    "canonical_project": "gh0st",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -8242,40 +8242,40 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
     "reason": "GitHub exposes no API field for a custom social preview; verified by rendering only"
    },
    "license_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no license file or SPDX id"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -8290,12 +8290,12 @@
     "reason": ""
    },
    "ci_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no workflow; not applicable unless executable code exists"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "tests_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no test file present in the repository tree"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "fresh_clone_state": {
     "state": "NOT_APPLICABLE",
@@ -8327,18 +8327,18 @@
     "reason": "no issue forms"
    },
    "pr_template_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no pull request template"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "changelog_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CHANGELOG.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "archive_status": false,
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 21 field(s)"
+   "next_action": "complete 9 field(s)"
   },
   {
    "name": "gh0st-website",
@@ -8348,7 +8348,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/gh0st-website",
+   "local_path": "",
    "canonical_project": "gh0st",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -8476,7 +8476,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/ghostframe",
+   "local_path": "",
    "canonical_project": "ghostframe",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -8602,7 +8602,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/grokbot-concierge-website",
+   "local_path": "",
    "canonical_project": "grokbot-concierge",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -8622,8 +8622,8 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -8631,7 +8631,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -8646,16 +8646,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -8730,7 +8730,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/grokbot-office",
+   "local_path": "",
    "canonical_project": "grokbot-office",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -8856,7 +8856,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/grokbot-office-website",
+   "local_path": "",
    "canonical_project": "grokbot-office",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -8984,7 +8984,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/grokbot-society",
+   "local_path": "",
    "canonical_project": "grokbot-society",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -9110,7 +9110,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/grokbot-society-website",
+   "local_path": "",
    "canonical_project": "grokbot-society",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -9238,7 +9238,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/grokgeneral",
+   "local_path": "",
    "canonical_project": "grokgeneral",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -9364,7 +9364,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/grokinstall",
+   "local_path": "",
    "canonical_project": "grokinstall",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -9384,40 +9384,40 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
     "reason": "GitHub exposes no API field for a custom social preview; verified by rendering only"
    },
    "license_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no license file or SPDX id"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -9432,12 +9432,12 @@
     "reason": ""
    },
    "ci_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no workflow; not applicable unless executable code exists"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "tests_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no test file present in the repository tree"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "fresh_clone_state": {
     "state": "NOT_APPLICABLE",
@@ -9469,18 +9469,18 @@
     "reason": "no issue forms"
    },
    "pr_template_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no pull request template"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "changelog_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CHANGELOG.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "archive_status": false,
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 20 field(s)"
+   "next_action": "complete 8 field(s)"
   },
   {
    "name": "grokinstall-website",
@@ -9490,7 +9490,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/grokinstall-website",
+   "local_path": "",
    "canonical_project": "grokinstall",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -9618,7 +9618,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/grokmax",
+   "local_path": "",
    "canonical_project": "grokmax",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -9638,40 +9638,40 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
     "reason": "GitHub exposes no API field for a custom social preview; verified by rendering only"
    },
    "license_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no license file or SPDX id"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -9686,12 +9686,12 @@
     "reason": ""
    },
    "ci_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no workflow; not applicable unless executable code exists"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "tests_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no test file present in the repository tree"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "fresh_clone_state": {
     "state": "NOT_APPLICABLE",
@@ -9723,18 +9723,18 @@
     "reason": "no issue forms"
    },
    "pr_template_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no pull request template"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "changelog_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CHANGELOG.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "archive_status": false,
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 21 field(s)"
+   "next_action": "complete 9 field(s)"
   },
   {
    "name": "grokmax-website",
@@ -9744,7 +9744,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/grokmax-website",
+   "local_path": "",
    "canonical_project": "grokmax",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -9872,7 +9872,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/hackerzart",
+   "local_path": "",
    "canonical_project": "HackerzArt",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -9892,20 +9892,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -9916,16 +9916,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -9988,7 +9988,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "happyblock",
@@ -9998,7 +9998,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/happyblock",
+   "local_path": "",
    "canonical_project": "happyblock",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -10144,8 +10144,8 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -10153,7 +10153,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -10168,16 +10168,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -10240,7 +10240,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 23 field(s)"
+   "next_action": "complete 19 field(s)"
   },
   {
    "name": "interceptorgrid",
@@ -10250,7 +10250,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/interceptorgrid",
+   "local_path": "",
    "canonical_project": "interceptorgrid",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -10376,7 +10376,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/lagrangeos",
+   "local_path": "",
    "canonical_project": "lagrangeos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -10502,7 +10502,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/ledgerops-ai",
+   "local_path": "",
    "canonical_project": "ledgerops-ai",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -10628,7 +10628,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/legacybridge",
+   "local_path": "",
    "canonical_project": "legacybridge",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -10754,7 +10754,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/life-finds-a-way",
+   "local_path": "",
    "canonical_project": "life-finds-a-way",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -10880,7 +10880,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/loopcompute-cloud",
+   "local_path": "",
    "canonical_project": "loopcompute-cloud",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -11006,7 +11006,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/lunarfoundry",
+   "local_path": "",
    "canonical_project": "lunarfoundry",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -11132,7 +11132,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/luvconvos",
+   "local_path": "",
    "canonical_project": "luvconvos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -11258,7 +11258,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/luvpartnr",
+   "local_path": "",
    "canonical_project": "luvpartnr",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -11384,7 +11384,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/luvstories",
+   "local_path": "",
    "canonical_project": "luvstories",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -11534,12 +11534,12 @@
     "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -11626,7 +11626,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 15 field(s)"
+   "next_action": "complete 13 field(s)"
   },
   {
    "name": "Modex",
@@ -11636,7 +11636,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/modex",
+   "local_path": "",
    "canonical_project": "Modex",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -11656,20 +11656,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -11680,16 +11680,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -11752,7 +11752,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "morphui",
@@ -11762,7 +11762,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/morphui",
+   "local_path": "",
    "canonical_project": "morphui",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -11888,7 +11888,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/n1-therapeutics",
+   "local_path": "",
    "canonical_project": "n1-therapeutics",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -12014,7 +12014,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/naextblock",
+   "local_path": "",
    "canonical_project": "NaextBlock",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -12034,20 +12034,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -12058,16 +12058,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -12130,7 +12130,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "nex-robotix",
@@ -12140,7 +12140,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/nex-robotix",
+   "local_path": "",
    "canonical_project": "nex-robotix",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -12266,7 +12266,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/noaerth",
+   "local_path": "",
    "canonical_project": "noaerth",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
@@ -12286,16 +12286,16 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -12334,12 +12334,12 @@
     "reason": "discussions not enabled"
    },
    "ci_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no workflow; not applicable unless executable code exists"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "tests_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no test file present in the repository tree"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "fresh_clone_state": {
     "state": "NOT_APPLICABLE",
@@ -12371,8 +12371,8 @@
     "reason": "no issue forms"
    },
    "pr_template_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no pull request template"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "changelog_state": {
     "state": "NOT_APPLICABLE",
@@ -12392,7 +12392,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/noaerth-cloud-factory",
+   "local_path": "",
    "canonical_project": "noaerth-cloud-factory",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
@@ -12412,8 +12412,8 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -12421,7 +12421,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -12538,8 +12538,8 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -12547,7 +12547,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -12644,7 +12644,7 @@
    "default_branch": "portfolio/noaerth-labs/public-feed",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/noaerth-labs",
+   "local_path": "",
    "canonical_project": "Noaerth-Labs",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
@@ -12673,7 +12673,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -12770,7 +12770,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/noaerth-operator",
+   "local_path": "",
    "canonical_project": "noaerth-operator",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
@@ -12799,7 +12799,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -12896,7 +12896,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/noaerth-portfolio-os",
+   "local_path": "",
    "canonical_project": "noaerth-portfolio-os",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
@@ -12916,8 +12916,8 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -12925,7 +12925,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -12936,8 +12936,8 @@
     "reason": "GitHub exposes no API field for a custom social preview; verified by rendering only"
    },
    "license_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no license file or SPDX id"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "security_state": {
     "state": "NOT_APPLICABLE",
@@ -12964,12 +12964,12 @@
     "reason": ""
    },
    "ci_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no workflow; not applicable unless executable code exists"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "tests_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no test file present in the repository tree"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "fresh_clone_state": {
     "state": "NOT_APPLICABLE",
@@ -13001,12 +13001,12 @@
     "reason": "no issue forms"
    },
    "pr_template_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no pull request template"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "changelog_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CHANGELOG.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "archive_status": false,
    "last_verified_sha": "",
@@ -13022,7 +13022,7 @@
    "default_branch": "portfolio/noaerth-team/public-room",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/noaerth-team",
+   "local_path": "",
    "canonical_project": "Noaerth-Team",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
@@ -13051,7 +13051,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -13168,8 +13168,8 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -13177,7 +13177,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -13192,16 +13192,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -13220,8 +13220,8 @@
     "reason": "no workflow; not applicable unless executable code exists"
    },
    "tests_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no test file present in the repository tree"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "fresh_clone_state": {
     "state": "NOT_APPLICABLE",
@@ -13264,7 +13264,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 17 field(s)"
   },
   {
    "name": "obviouslybad",
@@ -13274,7 +13274,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/obviouslybad",
+   "local_path": "",
    "canonical_project": "obviouslybad",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -13400,7 +13400,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/oddbotix",
+   "local_path": "",
    "canonical_project": "oddbotix",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -13526,7 +13526,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/oodax",
+   "local_path": "",
    "canonical_project": "oodax",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -13652,7 +13652,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/opencode-watchdog",
+   "local_path": "",
    "canonical_project": "opencode-watchdog",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -13672,40 +13672,40 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
     "reason": "GitHub exposes no API field for a custom social preview; verified by rendering only"
    },
    "license_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no license file or SPDX id"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -13720,12 +13720,12 @@
     "reason": ""
    },
    "ci_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no workflow; not applicable unless executable code exists"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "tests_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no test file present in the repository tree"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "fresh_clone_state": {
     "state": "NOT_APPLICABLE",
@@ -13757,18 +13757,18 @@
     "reason": "no issue forms"
    },
    "pr_template_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no pull request template"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "changelog_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CHANGELOG.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "archive_status": false,
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 20 field(s)"
+   "next_action": "complete 8 field(s)"
   },
   {
    "name": "opencode-watchdog-website",
@@ -13778,7 +13778,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/opencode-watchdog-website",
+   "local_path": "",
    "canonical_project": "opencode-watchdog",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -13906,7 +13906,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/opsautopilot",
+   "local_path": "",
    "canonical_project": "opsautopilot",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -14032,7 +14032,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/orbitchip",
+   "local_path": "",
    "canonical_project": "orbitchip",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -14158,7 +14158,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/orbitprint",
+   "local_path": "",
    "canonical_project": "orbitprint",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -14284,7 +14284,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/paios-one",
+   "local_path": "",
    "canonical_project": "paios-one",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
@@ -14304,8 +14304,8 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -14313,7 +14313,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -14356,8 +14356,8 @@
     "reason": "no workflow; not applicable unless executable code exists"
    },
    "tests_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no test file present in the repository tree"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "fresh_clone_state": {
     "state": "NOT_APPLICABLE",
@@ -14410,7 +14410,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/poolwater",
+   "local_path": "",
    "canonical_project": "poolwater",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -14536,7 +14536,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/psychemap",
+   "local_path": "",
    "canonical_project": "psychemap",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -14662,7 +14662,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/readablestack",
+   "local_path": "",
    "canonical_project": "readablestack",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -14788,7 +14788,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/redwoud",
+   "local_path": "",
    "canonical_project": "redwoud",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -14914,7 +14914,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/requestayo",
+   "local_path": "",
    "canonical_project": "RequestAyo",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -14934,20 +14934,20 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -14958,16 +14958,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -15030,7 +15030,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 23 field(s)"
+   "next_action": "complete 16 field(s)"
   },
   {
    "name": "reviewforge-ai",
@@ -15040,7 +15040,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/reviewforge-ai",
+   "local_path": "",
    "canonical_project": "reviewforge-ai",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -15166,7 +15166,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/saeturtle",
+   "local_path": "",
    "canonical_project": "saeturtle",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -15292,7 +15292,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/seai-mind",
+   "local_path": "",
    "canonical_project": "seai-mind",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -15418,7 +15418,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/shopright",
+   "local_path": "",
    "canonical_project": "ShopRight",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -15438,20 +15438,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -15462,16 +15462,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -15534,7 +15534,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "siliconcontrol-tower",
@@ -15544,7 +15544,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/siliconcontrol-tower",
+   "local_path": "",
    "canonical_project": "siliconcontrol-tower",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -15670,7 +15670,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/soulmayte",
+   "local_path": "",
    "canonical_project": "SoulMayte",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -15690,20 +15690,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -15714,16 +15714,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -15786,7 +15786,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "spacecompute-cloud",
@@ -15796,7 +15796,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/spacecompute-cloud",
+   "local_path": "",
    "canonical_project": "spacecompute-cloud",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -15922,7 +15922,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/spaceedu",
+   "local_path": "",
    "canonical_project": "spaceedu",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -16048,7 +16048,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/spouwse",
+   "local_path": "",
    "canonical_project": "Spouwse",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -16068,20 +16068,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -16092,16 +16092,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -16164,7 +16164,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "src",
@@ -16194,8 +16194,8 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -16203,7 +16203,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -16218,16 +16218,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -16290,7 +16290,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 23 field(s)"
+   "next_action": "complete 19 field(s)"
   },
   {
    "name": "startupquick",
@@ -16300,7 +16300,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/startupquick",
+   "local_path": "",
    "canonical_project": "startupquick",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -16446,8 +16446,8 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -16455,7 +16455,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -16470,16 +16470,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -16542,7 +16542,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 24 field(s)"
+   "next_action": "complete 20 field(s)"
   },
   {
    "name": "strxngth",
@@ -16552,7 +16552,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/strxngth",
+   "local_path": "",
    "canonical_project": "strxngth",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -16698,8 +16698,8 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -16707,7 +16707,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -16722,16 +16722,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -16794,7 +16794,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 23 field(s)"
+   "next_action": "complete 19 field(s)"
   },
   {
    "name": "SUNSETX",
@@ -16804,7 +16804,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/sunsetx",
+   "local_path": "",
    "canonical_project": "SUNSETX",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -16824,20 +16824,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -16848,16 +16848,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -16920,7 +16920,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "supplyos-ai",
@@ -16930,7 +16930,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/supplyos-ai",
+   "local_path": "",
    "canonical_project": "supplyos-ai",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -17056,7 +17056,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/swarmshield",
+   "local_path": "",
    "canonical_project": "swarmshield",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -17182,7 +17182,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/tempoos",
+   "local_path": "",
    "canonical_project": "tempoos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -17308,7 +17308,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/therapyux",
+   "local_path": "",
    "canonical_project": "TherapyUX",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -17328,20 +17328,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -17352,16 +17352,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -17424,7 +17424,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "trajectoryos",
@@ -17434,7 +17434,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/trajectoryos",
+   "local_path": "",
    "canonical_project": "trajectoryos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -17560,7 +17560,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/trustxverify",
+   "local_path": "",
    "canonical_project": "TrustxVerify",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -17580,20 +17580,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -17604,16 +17604,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -17676,7 +17676,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "useros",
@@ -17686,7 +17686,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/useros",
+   "local_path": "",
    "canonical_project": "useros",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -17812,7 +17812,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/uxvisualengine",
+   "local_path": "",
    "canonical_project": "uxvisualengine",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -17938,7 +17938,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/valuedsociety",
+   "local_path": "",
    "canonical_project": "valuedsociety",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -18064,7 +18064,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/vencapmentor",
+   "local_path": "",
    "canonical_project": "vencapmentor",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -18190,7 +18190,7 @@
    "default_branch": "auto-1775600914-venturerank-os",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/venturerank-os",
+   "local_path": "",
    "canonical_project": "VentureRank-OS",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -18214,16 +18214,16 @@
     "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -18306,7 +18306,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 18 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "vizuler",
@@ -18316,7 +18316,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/vizuler",
+   "local_path": "",
    "canonical_project": "vizuler",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -18462,8 +18462,8 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -18471,7 +18471,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -18486,12 +18486,12 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
     "state": "NOT_APPLICABLE",
@@ -18558,7 +18558,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 23 field(s)"
+   "next_action": "complete 20 field(s)"
   },
   {
    "name": "workflowcanvas",
@@ -18568,7 +18568,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/workflowcanvas",
+   "local_path": "",
    "canonical_project": "workflowcanvas",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -18694,7 +18694,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/youareprofound",
+   "local_path": "",
    "canonical_project": "youareprofound",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -18820,7 +18820,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/youstate",
+   "local_path": "",
    "canonical_project": "YouState",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -18844,16 +18844,16 @@
     "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -18864,16 +18864,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -18936,7 +18936,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 21 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "Zaeus",
@@ -18966,8 +18966,8 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -18975,7 +18975,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -18990,16 +18990,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -19062,7 +19062,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 24 field(s)"
+   "next_action": "complete 20 field(s)"
   },
   {
    "name": "zaeux",
@@ -19072,7 +19072,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/zaeux",
+   "local_path": "",
    "canonical_project": "zaeux",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
