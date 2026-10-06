@@ -2,7 +2,7 @@
  "$comment": "One record per canonical repository. Every field is COMPLETE or NOT_APPLICABLE with a reason; UNKNOWN is never a terminal value.",
  "account": "M4G3LL4N0",
  "canonical_count": 152,
- "generated_at": "2026-10-06T19:59:44Z",
+ "generated_at": "2026-10-06T21:14:01Z",
  "records": [
   {
    "name": "1bc",
@@ -19,7 +19,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: 1bc. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -1418,7 +1418,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Ayncient. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -1436,16 +1436,16 @@
     "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -1528,7 +1528,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 18 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "BehindCurtain",
@@ -2180,7 +2180,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Bourgaeux. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -2307,7 +2307,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "BrandCrossover. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -2561,7 +2561,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "cannex logistics. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -2688,7 +2688,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "cheetahbearfuel. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -3323,7 +3323,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "cleanstack os. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -4087,7 +4087,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: cortexhq",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -4599,7 +4599,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Cruxenio. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -4855,7 +4855,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "CxNTRADICT. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -5367,7 +5367,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Autonomous high-profit website acquisition, generation, sales and recurring-revenue engine",
+   "description_text": "Local-business prospecting and site-generation pipeline: scores prospects, generates site concepts, and orchestrates outreach and deployment",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -5879,7 +5879,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "EmailSimple. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -6389,7 +6389,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "evsec one. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -6770,7 +6770,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: executionos",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -7024,7 +7024,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "ForeverLuvd. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -7151,7 +7151,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: forgeflow",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -7913,7 +7913,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "FungMind. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -8040,7 +8040,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: gamecombo",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -8550,7 +8550,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: ghostframe",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -9957,7 +9957,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "HackerzArt. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -10084,7 +10084,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "happyblock. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -10465,7 +10465,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: lagrangeos",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -10719,7 +10719,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "legacybridge. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -10846,7 +10846,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: life-finds-a-way",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -11227,7 +11227,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "luvconvos. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -11735,7 +11735,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Modex. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -12116,7 +12116,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "NaextBlock. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -12243,7 +12243,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: nex-robotix",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -13386,7 +13386,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: obviouslybad",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -13513,7 +13513,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "oddbotix. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -13640,7 +13640,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: oodax. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -14658,7 +14658,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: psychemap",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -15039,7 +15039,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "RequestAyo. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -15166,7 +15166,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: reviewforge-ai",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -15547,7 +15547,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "ShopRight. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -15801,7 +15801,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "SoulMayte. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -16055,7 +16055,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "spaceedu. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -16690,7 +16690,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "strxngth. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17198,7 +17198,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: swarmshield",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17452,7 +17452,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "TherapyUX. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17579,7 +17579,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: trajectoryos",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17706,7 +17706,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "TrustxVerify. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17833,7 +17833,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: useros",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -18087,7 +18087,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "valuedsociety. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -18341,7 +18341,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "VentureRank OS. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -18359,16 +18359,16 @@
     "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -18451,7 +18451,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 18 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "vizuler",
@@ -18849,7 +18849,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "youareprofound. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""

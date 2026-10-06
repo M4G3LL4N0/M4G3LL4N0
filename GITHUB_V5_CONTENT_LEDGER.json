@@ -1979,7 +1979,7 @@
         "pnpm society god context <eventId>               # audit the bounded slice",
         "pnpm society god result '<resultJson>'           # structured deltas \u2192 persistent state",
         "pnpm society god usage                           # cost-per-social-value metrics",
-        "pnpm society god benchmarks                      # scenarios A\u2013F, all dry ($0.00)",
+        "pnpm society god benchmarks                      # scenarios A\u2013F, all dry, no network calls",
         "pnpm society god compare A                       # route cost/quality comparison"
       ],
       "links": {
@@ -2004,9 +2004,9 @@
       ],
       "caveats": [
         "| Concept | What it is | What it is NOT |",
-        "| **GrokBot** | Optional premium inference source (a route, not an identity) | Required; the runtime works at $0 without one |",
+        "| **GrokBot** | Optional premium inference source (a route, not an identity) | Required; the runtime works with no external calls without one |",
         "Hard limits (enforced, not advisory):** 1 call per event \u00b7 recursion 0 \u00b7",
-        "whole society runs on `social.mock` at $0.00.",
+        "whole society runs entirely on `social.mock`, with no external calls.",
         "God is an enhancement, never a",
         "Population size does not change context size.",
         "One God call can render several",

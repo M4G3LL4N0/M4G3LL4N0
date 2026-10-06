@@ -226,7 +226,7 @@ form anywhere under `/Users/matador/startups`. 106 unrelated `venture-os`
 directories exist; none matches the stated counts, gross values or
 risk-adjusted values.
 
-Publishing `$653.243M base` from a source that cannot be produced would make
+Publishing a figure from a source that cannot be produced would make
 every other number on this profile untrustworthy. The financial section, its
 animated plate and `PORTFOLIO_ECONOMICS.md` are therefore **deliberately
 absent**, and their absence is the correct output of the validation gate.

@@ -178,9 +178,8 @@ No fabricated releases and no meaningful-one-line tests added for green status.
 
 ## FINANCIALS
 
-Published with all five mandatory labels. Arithmetic verified: the 25% haircut
-reproduces the stated risk-adjusted figures to within $250; stage counts sum to
-124. **Internally consistent is not verified** — no workbook reproduces them, and
+Published with all five mandatory labels. Stage counts summed to 124.
+**The figures were internally consistent but not verified** — no workbook reproduces them, and
 `PORTFOLIO_ECONOMICS.md` says so in the limitations. Engineering first, model
 second.
 

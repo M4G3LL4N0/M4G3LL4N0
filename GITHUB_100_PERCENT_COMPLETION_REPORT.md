@@ -121,9 +121,8 @@ the financial section are not yet on the profile.
 figures as `user_provided_management_model` with `independent_verification:
 unavailable`, `audited: false`, `attributable_nav_established: false`.
 
-The owner's arithmetic was checked: the 25% haircut reproduces the stated
-risk-adjusted values to within $250 on low and base and exactly on high, and the
-stage counts sum to 124. The figures are internally consistent. They are still
+The owner's arithmetic was checked and the stage counts sum to 124, so the
+removed figures were internally consistent. They were still
 not independently verified, and the record says so.
 
 **Not yet rendered on the profile.** The financial plate and

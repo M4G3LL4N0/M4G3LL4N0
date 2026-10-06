@@ -193,9 +193,8 @@ bar proportional to value on a **printed linear scale**, so a reader can check
 the ratio rather than trust it. The animation decides *when* a value becomes
 visible, never what it is.
 
-The owner's arithmetic was verified: the 25% haircut reproduces the stated
-risk-adjusted values to within $250 on low and base, exactly on high, and the
-stage counts sum to 124. **Internally consistent is not verified** — no workbook
+The owner's arithmetic was checked and the stage counts summed to 124.
+**The figures were internally consistent but not verified** — no workbook
 reproduces these figures, and `PORTFOLIO_ECONOMICS.md` states that in the
 limitations.
 
