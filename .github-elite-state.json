@@ -109,7 +109,7 @@
    "class": "PUBLIC_PROJECT",
    "name": "agentos",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
@@ -127,25 +127,25 @@
    "class": "PUBLIC_PROJECT",
    "name": "grokinstall",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "opencode-watchdog",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "gh0st",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "grokmax",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
@@ -1192,15 +1192,15 @@
    "updated_at": "2026-10-06T15:44:56Z"
   },
   "agentos": {
-   "branch": "",
+   "branch": "art/agentos",
    "ci": "GREEN",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:26:03Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:15:37Z"
   },
   "agentos-website": {
    "branch": "",
@@ -1724,15 +1724,15 @@
    "updated_at": "2026-10-06T15:39:44Z"
   },
   "gh0st": {
-   "branch": "",
+   "branch": "art/gh0st",
    "ci": "GREEN",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:27:01Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:16:24Z"
   },
   "gh0st-website": {
    "branch": "",
@@ -1823,15 +1823,15 @@
    "updated_at": "2026-10-06T15:28:23Z"
   },
   "grokinstall": {
-   "branch": "",
+   "branch": "art/grokinstall",
    "ci": "GREEN",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:26:41Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:15:53Z"
   },
   "grokinstall-website": {
    "branch": "",
@@ -1845,15 +1845,15 @@
    "updated_at": "2026-10-06T15:25:20Z"
   },
   "grokmax": {
-   "branch": "",
+   "branch": "art/grokmax",
    "ci": "GREEN",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:27:09Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:16:08Z"
   },
   "grokmax-website": {
    "branch": "",
@@ -2101,15 +2101,15 @@
    "updated_at": "2026-10-06T15:42:08Z"
   },
   "opencode-watchdog": {
-   "branch": "",
+   "branch": "art/opencode-watchdog",
    "ci": "GREEN",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:26:53Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:16:40Z"
   },
   "opencode-watchdog-website": {
    "branch": "",
