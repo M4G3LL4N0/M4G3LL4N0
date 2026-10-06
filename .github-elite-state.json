@@ -7,37 +7,37 @@
    "class": "BLOCKING",
    "name": "grokbot-office-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "BLOCKING",
    "name": "agentos-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "BLOCKING",
    "name": "grokbot-society-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "BLOCKING",
    "name": "computeflow-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "BLOCKING",
    "name": "cortexhq-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "BLOCKING",
    "name": "cropshield-ai-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "BLOCKING",
@@ -55,19 +55,19 @@
    "class": "BLOCKING",
    "name": "datatherapy-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "BLOCKING",
    "name": "deploylocal-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "BLOCKING",
    "name": "devstate-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "BLOCKING",
@@ -79,25 +79,25 @@
    "class": "BLOCKING",
    "name": "gh0st-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "BLOCKING",
    "name": "grokinstall-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "BLOCKING",
    "name": "grokmax-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "BLOCKING",
    "name": "opencode-watchdog-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "BLOCKING",
@@ -115,13 +115,13 @@
    "class": "PUBLIC_PROJECT",
    "name": "grokbot-office",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "grokbot-society",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
@@ -151,13 +151,13 @@
    "class": "PUBLIC_PROJECT",
    "name": "seai-mind",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "access-layer",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
@@ -169,19 +169,19 @@
    "class": "PUBLIC_PROJECT",
    "name": "redwoud",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "grokgeneral",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "legacybridge",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
@@ -199,337 +199,337 @@
    "class": "PUBLIC_PROJECT",
    "name": "Ayncient",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "BehindCurtain",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "blitzproof",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "Bourgaeux",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "BrandCrossover",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "cannex-logistics",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "cheetahbearfuel",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "childdevos",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "cleanstack-os",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "cloudcastle",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "commos",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "Cruxenio",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "CxNTRADICT",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "datatherapy",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "deploylocal",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "EmailSimple",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "ForeverLuvd",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "founderskingdom",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "FungMind",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "HackerzArt",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "happyblock",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "luvpartnr",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "Modex",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "NaextBlock",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "oddbotix",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "poolwater",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "saeturtle",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "ShopRight",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "SoulMayte",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "Spouwse",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "startupquick",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "SUNSETX",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "tempoos",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "TherapyUX",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "TrustxVerify",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "valuedsociety",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "VentureRank-OS",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "YouState",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "1bc",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "agentapi-hub",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "chipflow",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "claimpilot-ai",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "cleanstack-macos",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "companyos",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "computeflow",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "cortexhq",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "enterprisepilot",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "evalforge",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "evsec-one",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "fastprocure-ai",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "forgeflow",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "freeconomie",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "fullofshit",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "gamecombo",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "genotwin-health",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "ghostframe",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
@@ -541,85 +541,85 @@
    "class": "PUBLIC_PROJECT",
    "name": "interceptorgrid",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "lagrangeos",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "life-finds-a-way",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "loopcompute-cloud",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "luvconvos",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "luvstories",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "nex-robotix",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "obviouslybad",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "oodax",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "psychemap",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "readablestack",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "RequestAyo",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "reviewforge-ai",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "spaceedu",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
@@ -631,7 +631,7 @@
    "class": "PUBLIC_PROJECT",
    "name": "strxngth",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
@@ -643,103 +643,103 @@
    "class": "PUBLIC_PROJECT",
    "name": "swarmshield",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "trajectoryos",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "useros",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "vizuler",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "youareprofound",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "zaeux",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "agentcore-silicon",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "autoerp",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "betterfintech",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "bioyield-labs",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "blitzunicorn",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "buildloop-usa",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "cropshield-ai",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "devstate",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "EVSec.one",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "execmemory-ai",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "executionos",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
@@ -751,55 +751,55 @@
    "class": "PUBLIC_PROJECT",
    "name": "ledgerops-ai",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "lunarfoundry",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "morphui",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "n1-therapeutics",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "opsautopilot",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "orbitchip",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "orbitprint",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "siliconcontrol-tower",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "spacecompute-cloud",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
@@ -811,19 +811,19 @@
    "class": "PUBLIC_PROJECT",
    "name": "supplyos-ai",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "uxvisualengine",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "vencapmentor",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
@@ -835,7 +835,7 @@
    "class": "PUBLIC_PROJECT",
    "name": "workflowcanvas",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "ART_PUBLISHED"
   },
   {
    "class": "PUBLIC_PROJECT",
@@ -852,114 +852,114 @@
  ],
  "records": {
   "1bc": {
-   "branch": "",
+   "branch": "art/1bc",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:36:44Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:38:21Z"
   },
   "Ayncient": {
-   "branch": "",
+   "branch": "art/Ayncient",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:29:06Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:38:36Z"
   },
   "BehindCurtain": {
-   "branch": "",
+   "branch": "art/BehindCurtain",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:29:18Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:38:48Z"
   },
   "Bourgaeux": {
-   "branch": "",
+   "branch": "art/Bourgaeux",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:29:42Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:39:05Z"
   },
   "BrandCrossover": {
-   "branch": "",
+   "branch": "art/BrandCrossover",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:29:54Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:39:21Z"
   },
   "Cruxenio": {
-   "branch": "",
+   "branch": "art/Cruxenio",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:31:18Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:39:35Z"
   },
   "CxNTRADICT": {
-   "branch": "",
+   "branch": "art/CxNTRADICT",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:31:29Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:39:48Z"
   },
   "EVSec.one": {
-   "branch": "",
+   "branch": "art/EVSec.one",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:45:44Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:40:00Z"
   },
   "EmailSimple": {
-   "branch": "",
+   "branch": "art/EmailSimple",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:32:02Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:40:12Z"
   },
   "ForeverLuvd": {
-   "branch": "",
+   "branch": "art/ForeverLuvd",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:32:12Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:40:27Z"
   },
   "FundMind": {
    "branch": "",
@@ -973,26 +973,26 @@
    "updated_at": "2026-10-06T15:45:59Z"
   },
   "FungMind": {
-   "branch": "",
+   "branch": "art/FungMind",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:33:03Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:40:47Z"
   },
   "HackerzArt": {
-   "branch": "",
+   "branch": "art/HackerzArt",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:33:14Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:41:00Z"
   },
   "M4G3LL4N0": {
    "branch": "",
@@ -1006,26 +1006,26 @@
    "updated_at": "2026-10-06T15:28:03Z"
   },
   "Modex": {
-   "branch": "",
+   "branch": "art/Modex",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:33:44Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:41:14Z"
   },
   "NaextBlock": {
-   "branch": "",
+   "branch": "art/NaextBlock",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:33:54Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:41:28Z"
   },
   "Noaerth-Labs": {
    "class": "BLOCKING",
@@ -1038,15 +1038,15 @@
    "state": "EXCLUDED_DENYLISTED"
   },
   "RequestAyo": {
-   "branch": "",
+   "branch": "art/RequestAyo",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:42:37Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:41:43Z"
   },
   "STRxGNTH": {
    "branch": "",
@@ -1060,92 +1060,92 @@
    "updated_at": "2026-10-06T15:47:22Z"
   },
   "SUNSETX": {
-   "branch": "",
+   "branch": "art/SUNSETX",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:35:23Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:42:00Z"
   },
   "ShopRight": {
-   "branch": "",
+   "branch": "art/ShopRight",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:34:39Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:42:15Z"
   },
   "SoulMayte": {
-   "branch": "",
+   "branch": "art/SoulMayte",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:34:51Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:42:27Z"
   },
   "Spouwse": {
-   "branch": "",
+   "branch": "art/Spouwse",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:35:02Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:42:40Z"
   },
   "TherapyUX": {
-   "branch": "",
+   "branch": "art/TherapyUX",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:35:44Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:42:52Z"
   },
   "TrustxVerify": {
-   "branch": "",
+   "branch": "art/TrustxVerify",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:35:58Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:43:09Z"
   },
   "VentureRank-OS": {
-   "branch": "",
+   "branch": "art/VentureRank-OS",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:36:16Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:43:23Z"
   },
   "YouState": {
-   "branch": "",
+   "branch": "art/YouState",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:36:27Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:43:37Z"
   },
   "Zaeus": {
    "branch": "",
@@ -1159,59 +1159,59 @@
    "updated_at": "2026-10-06T15:47:54Z"
   },
   "access-layer": {
-   "branch": "",
+   "branch": "art/access-layer",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:27:53Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:43:50Z"
   },
   "agentapi-hub": {
-   "branch": "",
+   "branch": "art/agentapi-hub",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:36:49Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:44:04Z"
   },
   "agentcore-silicon": {
-   "branch": "",
+   "branch": "art/agentcore-silicon",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:44:56Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:44:21Z"
   },
   "agentos": {
    "branch": "art/agentos",
    "ci": "GREEN",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 9,
+   "files_changed": 8,
    "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
    "state": "ART_PUBLISHED",
-   "updated_at": "2026-10-06T17:15:37Z"
+   "updated_at": "2026-10-06T17:44:50Z"
   },
   "agentos-website": {
-   "branch": "",
+   "branch": "art/agentos-website",
    "ci": "GREEN",
    "class": "BLOCKING",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:23:24Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:44:35Z"
   },
   "ai-dev-workflow-starter": {
    "branch": "",
@@ -1240,246 +1240,246 @@
    "state": "EXCLUDED_DENYLISTED"
   },
   "autoerp": {
-   "branch": "",
+   "branch": "art/autoerp",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:45:03Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:45:05Z"
   },
   "betterfintech": {
-   "branch": "",
+   "branch": "art/betterfintech",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:45:08Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:45:18Z"
   },
   "bioyield-labs": {
-   "branch": "",
+   "branch": "art/bioyield-labs",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:45:14Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:45:31Z"
   },
   "blitzproof": {
-   "branch": "",
+   "branch": "art/blitzproof",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:29:29Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:45:51Z"
   },
   "blitzunicorn": {
-   "branch": "",
+   "branch": "art/blitzunicorn",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:45:20Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:46:07Z"
   },
   "buildloop-usa": {
-   "branch": "",
+   "branch": "art/buildloop-usa",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:45:26Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:46:25Z"
   },
   "cannex-logistics": {
-   "branch": "",
+   "branch": "art/cannex-logistics",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:30:03Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:46:40Z"
   },
   "cheetahbearfuel": {
-   "branch": "",
+   "branch": "art/cheetahbearfuel",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:30:17Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:46:56Z"
   },
   "childdevos": {
-   "branch": "",
+   "branch": "art/childdevos",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:30:30Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:47:08Z"
   },
   "chipflow": {
-   "branch": "",
+   "branch": "art/chipflow",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:37:02Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:47:25Z"
   },
   "claimpilot-ai": {
-   "branch": "",
+   "branch": "art/claimpilot-ai",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:37:15Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:47:42Z"
   },
   "cleanstack-macos": {
-   "branch": "",
+   "branch": "art/cleanstack-macos",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 8,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:37:25Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:47:55Z"
   },
   "cleanstack-os": {
-   "branch": "",
+   "branch": "art/cleanstack-os",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:30:43Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:48:12Z"
   },
   "cloudcastle": {
-   "branch": "",
+   "branch": "art/cloudcastle",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:30:56Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:48:28Z"
   },
   "commos": {
-   "branch": "",
+   "branch": "art/commos",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:31:08Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:48:57Z"
   },
   "companyos": {
-   "branch": "",
+   "branch": "art/companyos",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:37:40Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:49:13Z"
   },
   "computeflow": {
-   "branch": "",
+   "branch": "art/computeflow",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:37:51Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:49:48Z"
   },
   "computeflow-website": {
-   "branch": "",
+   "branch": "art/computeflow-website",
    "ci": "N/A",
    "class": "BLOCKING",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:23:45Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:49:29Z"
   },
   "cortexhq": {
-   "branch": "",
+   "branch": "art/cortexhq",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:38:00Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:50:21Z"
   },
   "cortexhq-website": {
-   "branch": "",
+   "branch": "art/cortexhq-website",
    "ci": "N/A",
    "class": "BLOCKING",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:23:58Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:50:03Z"
   },
   "cropshield-ai": {
-   "branch": "",
+   "branch": "art/cropshield-ai",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:45:33Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:50:56Z"
   },
   "cropshield-ai-website": {
-   "branch": "",
+   "branch": "art/cropshield-ai-website",
    "ci": "N/A",
    "class": "BLOCKING",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:24:05Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:50:38Z"
   },
   "cruxenio-website": {
    "branch": "",
@@ -1504,70 +1504,70 @@
    "updated_at": "2026-10-06T15:24:23Z"
   },
   "datatherapy": {
-   "branch": "",
+   "branch": "art/datatherapy",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:31:42Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:51:28Z"
   },
   "datatherapy-website": {
-   "branch": "",
+   "branch": "art/datatherapy-website",
    "ci": "N/A",
    "class": "BLOCKING",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:24:37Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:51:12Z"
   },
   "deploylocal": {
-   "branch": "",
+   "branch": "art/deploylocal",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:31:53Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:52:00Z"
   },
   "deploylocal-website": {
-   "branch": "",
+   "branch": "art/deploylocal-website",
    "ci": "N/A",
    "class": "BLOCKING",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:24:44Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:51:44Z"
   },
   "devstate": {
-   "branch": "",
+   "branch": "art/devstate",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:45:39Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:52:28Z"
   },
   "devstate-website": {
-   "branch": "",
+   "branch": "art/devstate-website",
    "ci": "N/A",
    "class": "BLOCKING",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:24:50Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:52:14Z"
   },
   "emailsimple-website": {
    "branch": "",
@@ -1581,103 +1581,103 @@
    "updated_at": "2026-10-06T15:24:57Z"
   },
   "enterprisepilot": {
-   "branch": "",
+   "branch": "art/enterprisepilot",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:38:06Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:52:50Z"
   },
   "evalforge": {
-   "branch": "",
+   "branch": "art/evalforge",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:38:22Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:53:07Z"
   },
   "evsec-one": {
-   "branch": "",
+   "branch": "art/evsec-one",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:38:36Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:53:21Z"
   },
   "execmemory-ai": {
-   "branch": "",
+   "branch": "art/execmemory-ai",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:45:49Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:53:37Z"
   },
   "executionos": {
-   "branch": "",
+   "branch": "art/executionos",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:45:54Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:53:55Z"
   },
   "fastprocure-ai": {
-   "branch": "",
+   "branch": "art/fastprocure-ai",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:38:44Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:54:13Z"
   },
   "forgeflow": {
-   "branch": "",
+   "branch": "art/forgeflow",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:38:56Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:54:29Z"
   },
   "founderskingdom": {
-   "branch": "",
+   "branch": "art/founderskingdom",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:32:24Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:54:45Z"
   },
   "freeconomie": {
-   "branch": "",
+   "branch": "art/freeconomie",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:39:09Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:55:04Z"
   },
   "freewash-finder": {
    "branch": "",
@@ -1691,37 +1691,37 @@
    "updated_at": "2026-10-06T15:47:57Z"
   },
   "fullofshit": {
-   "branch": "",
+   "branch": "art/fullofshit",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:39:26Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:55:26Z"
   },
   "gamecombo": {
-   "branch": "",
+   "branch": "art/gamecombo",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:39:36Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:55:47Z"
   },
   "genotwin-health": {
-   "branch": "",
+   "branch": "art/genotwin-health",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:39:44Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:56:04Z"
   },
   "gh0st": {
    "branch": "art/gh0st",
@@ -1735,26 +1735,26 @@
    "updated_at": "2026-10-06T17:16:24Z"
   },
   "gh0st-website": {
-   "branch": "",
+   "branch": "art/gh0st-website",
    "ci": "N/A",
    "class": "BLOCKING",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:25:07Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:56:22Z"
   },
   "ghostframe": {
-   "branch": "",
+   "branch": "art/ghostframe",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:39:56Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:56:41Z"
   },
   "grokbot-concierge-website": {
    "branch": "",
@@ -1768,59 +1768,59 @@
    "updated_at": "2026-10-06T15:25:53Z"
   },
   "grokbot-office": {
-   "branch": "",
+   "branch": "art/grokbot-office",
    "ci": "GREEN",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:26:14Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:57:16Z"
   },
   "grokbot-office-website": {
-   "branch": "",
+   "branch": "art/grokbot-office-website",
    "ci": "GREEN",
    "class": "BLOCKING",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:23:01Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:56:58Z"
   },
   "grokbot-society": {
-   "branch": "",
+   "branch": "art/grokbot-society",
    "ci": "GREEN",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:26:27Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:57:50Z"
   },
   "grokbot-society-website": {
-   "branch": "",
+   "branch": "art/grokbot-society-website",
    "ci": "GREEN",
    "class": "BLOCKING",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:23:39Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:57:31Z"
   },
   "grokgeneral": {
-   "branch": "",
+   "branch": "art/grokgeneral",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:28:23Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:58:05Z"
   },
   "grokinstall": {
    "branch": "art/grokinstall",
@@ -1834,15 +1834,15 @@
    "updated_at": "2026-10-06T17:15:53Z"
   },
   "grokinstall-website": {
-   "branch": "",
+   "branch": "art/grokinstall-website",
    "ci": "N/A",
    "class": "BLOCKING",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:25:20Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:58:21Z"
   },
   "grokmax": {
    "branch": "art/grokmax",
@@ -1856,26 +1856,26 @@
    "updated_at": "2026-10-06T17:16:08Z"
   },
   "grokmax-website": {
-   "branch": "",
+   "branch": "art/grokmax-website",
    "ci": "N/A",
    "class": "BLOCKING",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:25:35Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:58:38Z"
   },
   "happyblock": {
-   "branch": "",
+   "branch": "art/happyblock",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:33:24Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:58:53Z"
   },
   "imessage": {
    "branch": "",
@@ -1889,147 +1889,147 @@
    "updated_at": "2026-10-06T15:40:12Z"
   },
   "interceptorgrid": {
-   "branch": "",
+   "branch": "art/interceptorgrid",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:40:18Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:59:07Z"
   },
   "lagrangeos": {
-   "branch": "",
+   "branch": "art/lagrangeos",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:40:47Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:59:21Z"
   },
   "ledgerops-ai": {
-   "branch": "",
+   "branch": "art/ledgerops-ai",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:46:06Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:59:36Z"
   },
   "legacybridge": {
-   "branch": "",
+   "branch": "art/legacybridge",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:28:37Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T17:59:50Z"
   },
   "life-finds-a-way": {
-   "branch": "",
+   "branch": "art/life-finds-a-way",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:41:02Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:00:16Z"
   },
   "loopcompute-cloud": {
-   "branch": "",
+   "branch": "art/loopcompute-cloud",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:41:07Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:00:31Z"
   },
   "lunarfoundry": {
-   "branch": "",
+   "branch": "art/lunarfoundry",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:46:13Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:00:49Z"
   },
   "luvconvos": {
-   "branch": "",
+   "branch": "art/luvconvos",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:41:16Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:01:05Z"
   },
   "luvpartnr": {
-   "branch": "",
+   "branch": "art/luvpartnr",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:33:35Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:01:22Z"
   },
   "luvstories": {
-   "branch": "",
+   "branch": "art/luvstories",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:41:25Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:01:38Z"
   },
   "morphui": {
-   "branch": "",
+   "branch": "art/morphui",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:46:20Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:01:59Z"
   },
   "n1-therapeutics": {
-   "branch": "",
+   "branch": "art/n1-therapeutics",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:46:26Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:02:15Z"
   },
   "nex-robotix": {
-   "branch": "",
+   "branch": "art/nex-robotix",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:41:40Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:02:37Z"
   },
   "noaerth": {
    "class": "BLOCKING",
@@ -2068,37 +2068,37 @@
    "updated_at": "2026-10-06T15:28:46Z"
   },
   "obviouslybad": {
-   "branch": "",
+   "branch": "art/obviouslybad",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:41:55Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:02:56Z"
   },
   "oddbotix": {
-   "branch": "",
+   "branch": "art/oddbotix",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:34:11Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:03:14Z"
   },
   "oodax": {
-   "branch": "",
+   "branch": "art/oodax",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:42:08Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:03:34Z"
   },
   "opencode-watchdog": {
    "branch": "art/opencode-watchdog",
@@ -2112,48 +2112,48 @@
    "updated_at": "2026-10-06T17:16:40Z"
   },
   "opencode-watchdog-website": {
-   "branch": "",
+   "branch": "art/opencode-watchdog-website",
    "ci": "N/A",
    "class": "BLOCKING",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:25:45Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:03:51Z"
   },
   "opsautopilot": {
-   "branch": "",
+   "branch": "art/opsautopilot",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:46:32Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:04:07Z"
   },
   "orbitchip": {
-   "branch": "",
+   "branch": "art/orbitchip",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:46:38Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:04:25Z"
   },
   "orbitprint": {
-   "branch": "",
+   "branch": "art/orbitprint",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:47:05Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:04:40Z"
   },
   "paios-one": {
    "class": "BLOCKING",
@@ -2161,114 +2161,114 @@
    "state": "EXCLUDED_DENYLISTED"
   },
   "poolwater": {
-   "branch": "",
+   "branch": "art/poolwater",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:34:22Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:04:58Z"
   },
   "psychemap": {
-   "branch": "",
+   "branch": "art/psychemap",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:42:19Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:05:18Z"
   },
   "readablestack": {
-   "branch": "",
+   "branch": "art/readablestack",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:42:26Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:05:36Z"
   },
   "redwoud": {
-   "branch": "",
+   "branch": "art/redwoud",
    "ci": "GREEN",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:28:12Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:05:54Z"
   },
   "reviewforge-ai": {
-   "branch": "",
+   "branch": "art/reviewforge-ai",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:42:50Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:06:09Z"
   },
   "saeturtle": {
-   "branch": "",
+   "branch": "art/saeturtle",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:34:30Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:06:29Z"
   },
   "seai-mind": {
-   "branch": "",
+   "branch": "art/seai-mind",
    "ci": "GREEN",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:27:20Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:06:50Z"
   },
   "siliconcontrol-tower": {
-   "branch": "",
+   "branch": "art/siliconcontrol-tower",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:47:11Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:07:05Z"
   },
   "spacecompute-cloud": {
-   "branch": "",
+   "branch": "art/spacecompute-cloud",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:47:17Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:07:20Z"
   },
   "spaceedu": {
-   "branch": "",
+   "branch": "art/spaceedu",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:42:59Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:07:35Z"
   },
   "src": {
    "branch": "",
@@ -2282,26 +2282,26 @@
    "updated_at": "2026-10-06T15:43:10Z"
   },
   "startupquick": {
-   "branch": "",
+   "branch": "art/startupquick",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:35:12Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:07:52Z"
   },
   "strxngth": {
-   "branch": "",
+   "branch": "art/strxngth",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:43:22Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:08:08Z"
   },
   "styles": {
    "branch": "",
@@ -2315,103 +2315,103 @@
    "updated_at": "2026-10-06T15:43:27Z"
   },
   "supplyos-ai": {
-   "branch": "",
+   "branch": "art/supplyos-ai",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:47:27Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:08:23Z"
   },
   "swarmshield": {
-   "branch": "",
+   "branch": "art/swarmshield",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:43:42Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:08:38Z"
   },
   "tempoos": {
-   "branch": "",
+   "branch": "art/tempoos",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:35:32Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:08:56Z"
   },
   "trajectoryos": {
-   "branch": "",
+   "branch": "art/trajectoryos",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:43:56Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:09:10Z"
   },
   "useros": {
-   "branch": "",
+   "branch": "art/useros",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:44:08Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:09:25Z"
   },
   "uxvisualengine": {
-   "branch": "",
+   "branch": "art/uxvisualengine",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:47:32Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:09:40Z"
   },
   "valuedsociety": {
-   "branch": "",
+   "branch": "art/valuedsociety",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:36:07Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:09:56Z"
   },
   "vencapmentor": {
-   "branch": "",
+   "branch": "art/vencapmentor",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:47:38Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:10:12Z"
   },
   "vizuler": {
-   "branch": "",
+   "branch": "art/vizuler",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:44:27Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:10:28Z"
   },
   "why-are-you-here": {
    "branch": "",
@@ -2425,37 +2425,37 @@
    "updated_at": "2026-10-06T15:47:43Z"
   },
   "workflowcanvas": {
-   "branch": "",
+   "branch": "art/workflowcanvas",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:47:49Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:10:44Z"
   },
   "youareprofound": {
-   "branch": "",
+   "branch": "art/youareprofound",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:44:41Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:10:58Z"
   },
   "zaeux": {
-   "branch": "",
+   "branch": "art/zaeux",
    "ci": "N/A",
    "class": "PUBLIC_PROJECT",
-   "files_changed": 0,
-   "next_action": "none",
+   "files_changed": 9,
+   "next_action": "art published",
    "pending_fields": 0,
    "pr": "",
-   "state": "DONE",
-   "updated_at": "2026-10-06T15:44:50Z"
+   "state": "ART_PUBLISHED",
+   "updated_at": "2026-10-06T18:11:18Z"
   }
  },
  "schema": 1

@@ -209,6 +209,8 @@ def main() -> int:
     ap.add_argument("--limit", type=int, default=5)
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--wave", default="", help="flagship|project|lab|all")
+    ap.add_argument("--restart", action="store_true",
+                    help="ignore persisted state and start from the beginning")
     args = ap.parse_args()
 
     if args.repo:
@@ -219,6 +221,17 @@ def main() -> int:
     names = [d.stem for d in sorted(DOSSIERS.glob("*.json"))]
     if args.wave == "flagship":
         names = [n for n in P.FLAGSHIP_ORDER if n in names]
+    # Resume rather than restart: repositories whose art is already published
+    # are skipped before the limit is applied. Previously --limit sliced the
+    # full alphabetical list, so every run after the first re-published the same
+    # first N and made no progress.
+    if not args.restart and STATE.exists():
+        st = json.loads(STATE.read_text())
+        done = {k for k, v in st.get("records", {}).items()
+                if v.get("state") == "ART_PUBLISHED"}
+        pending = [n for n in names if n not in done]
+        if pending:
+            names = pending
     names = names[: args.limit]
 
     for name in names:
