@@ -9,46 +9,93 @@
  },
  "classification": "PUBLIC_PROJECT",
  "color_family": "",
- "control_flow": "capital enters, allocates across positions, and settles into an outcome",
- "data_flow": "",
+ "control_flow": "primary entry: HTTP API",
+ "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
  "depth": "layered",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "5",
-  "source_a_files": 78,
-  "source_a_local": "/Users/matador/startups/bioyield-labs",
-  "source_b_venture": "bioyield-labs",
-  "source_c_github": "https://github.com/M4G3LL4N0/bioyield-labs"
+  "arch_doc": "ARCHITECTURE.md",
+  "cli_entrypoint": "",
+  "manifest": "package.json",
+  "readme": "README.md",
+  "source_a_local": "/srv/noaerth/startups/bioyield-labs",
+  "source_files_sampled": 51,
+  "test_files": 0
  },
  "experimental_features": [],
- "frameworks": [],
+ "frameworks": [
+  "next.js",
+  "prisma",
+  "react",
+  "tailwindcss"
+ ],
  "geometry_family": "DATA_FLOW",
  "github_repo": "bioyield-labs",
- "industry": "FINANCE",
- "input_types": [],
- "known_limitations": [],
+ "industry": "BIOTECH",
+ "input_types": [
+  "HTTP requests (JSON)"
+ ],
+ "interfaces": [
+  "HTTP API"
+ ],
+ "known_limitations": [
+  "LOCAL_REVIEW.md: Dashboard defaults to sample inputs until plans are saved via API",
+  "LOCAL_REVIEW.md: Agronomic outputs are planning aids \u2014 escalate to licensed agronomist for field decisions",
+  "LOCAL_REVIEW.md: Update `startupjourney.md` \u00a715 with findings",
+  "LOCAL_REVIEW.md: Git: never stage `.env`, `prisma/dev.db` secrets, or `node_modules`",
+  "no test tree in the repository; no test count is claimed",
+  "no CI workflow configured",
+  "no LICENSE file at the repository root"
+ ],
  "languages": [
   "TypeScript"
  ],
- "major_components": [],
+ "major_components": [
+  "src/components (17 files)",
+  "components (11 files)",
+  "public (5 files)",
+  "app/* (4 files)",
+  "lib/* (4 files)",
+  "app/api (3 files)",
+  "public-site (3 files)",
+  "app/dashboard (2 files)",
+  "app/planner (2 files)",
+  "src/lib (2 files)"
+ ],
  "mapping_confidence": "high",
  "material_family": "",
- "output_types": [],
+ "noaerth_category": "Research",
+ "noaerth_category_path": "Research",
+ "noaerth_next_milestone": "Validate user pain and define wedge",
+ "noaerth_operating_facts": {
+  "Focus": "Product",
+  "Stage": "Research",
+  "Type": "Research"
+ },
+ "noaerth_site": "https://bioyield-labs-public.vercel.app/",
+ "output_types": [
+  "HTTP responses (JSON)",
+  "route handlers: plans, plans/[id], trials",
+  "persisted to file-backed JSON"
+ ],
  "primary_user": "",
  "primary_visual_metaphor": "ledger columns with allocation flow between them",
- "primary_workflow": "capital enters, allocates across positions, and settles into an outcome",
- "problem": "",
- "project_category": "FINANCE",
+ "primary_workflow": "",
+ "problem": "Premium Next.js MVP for **RNA-based and microbial crop protection** planning: simulator, pest matcher, trial intake, and dashboard (SQLite + Prisma).",
+ "problem_source": "project source",
+ "project_category": "BIOTECH",
+ "project_category_basis": "project text: crop",
+ "project_category_previous": "BIOTECH",
  "public_financial_context": "not published per venture",
- "public_noaerth_positioning": "",
+ "public_noaerth_positioning": "Planning surface for crop-protection trials.",
  "purpose": "Startup portfolio: bioyield-labs",
- "release": "unknown",
+ "release": "0.1.0",
  "secondary_visual_metaphor": "",
  "secondary_workflows": [],
  "security_characteristics": [],
- "state_model": "",
+ "state_model": "file-backed JSON",
  "technical_category": "DATA_FLOW",
- "terminal_metaphor": "a cursor running real commands",
+ "terminal_metaphor": "",
  "tests": {
   "executed": false,
   "files": 0,
@@ -58,9 +105,13 @@
  "trillionx_intensity": "standard",
  "unresolved": [
   "primary_user",
-  "problem"
+  "verified_features",
+  "security_characteristics",
+  "terminal_metaphor",
+  "primary_workflow"
  ],
- "venture_stage": "",
+ "venture_stage": "Research",
+ "verified_commands": [],
  "verified_features": [],
  "visual_density": "medium"
 }

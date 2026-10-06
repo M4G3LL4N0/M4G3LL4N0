@@ -9,46 +9,88 @@
  },
  "classification": "PUBLIC_PROJECT",
  "color_family": "",
- "control_flow": "nodes advertise capability, a coordinator selects, work converges",
- "data_flow": "",
+ "control_flow": "primary entry: HTTP API",
+ "data_flow": "HTTP requests (JSON) \u2192 sqlite \u2192 HTTP responses (JSON)",
  "depth": "layered",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "76",
-  "source_a_files": 106,
-  "source_a_local": "/Users/matador/startups/deploylocal",
-  "source_b_venture": "",
-  "source_c_github": "https://github.com/M4G3LL4N0/deploylocal-website"
+  "arch_doc": "ARCHITECTURE.md",
+  "cli_entrypoint": "",
+  "manifest": "package.json",
+  "readme": "README.md",
+  "source_a_local": "/srv/noaerth/startups/deploylocal",
+  "source_files_sampled": 74,
+  "test_files": 0
  },
  "experimental_features": [],
- "frameworks": [],
+ "frameworks": [
+  "next.js",
+  "openai",
+  "playwright",
+  "react",
+  "supabase",
+  "tailwindcss"
+ ],
  "geometry_family": "DISTRIBUTED",
  "github_repo": "deploylocal-website",
- "industry": "INFRASTRUCTURE",
- "input_types": [],
- "known_limitations": [],
+ "industry": "FINANCE",
+ "input_types": [
+  "HTTP requests (JSON)"
+ ],
+ "interfaces": [
+  "HTTP API",
+  "server actions"
+ ],
+ "known_limitations": [
+  "no test tree in the repository; no test count is claimed",
+  "no CI workflow configured",
+  "no LICENSE file at the repository root"
+ ],
  "languages": [
   "HTML"
  ],
- "major_components": [],
+ "major_components": [
+  "components (17 files)",
+  "app/api (14 files)",
+  "app/app (8 files)",
+  "app/* (5 files)",
+  "public (5 files)",
+  ".autobuilder (4 files)",
+  "app/client (4 files)",
+  "lib/* (4 files)",
+  "lib/core (3 files)",
+  "lib/supabase (3 files)"
+ ],
  "mapping_confidence": "high",
  "material_family": "",
- "output_types": [],
- "primary_user": "",
+ "output_types": [
+  "HTTP responses (JSON)",
+  "route handlers: bulk-generate-sites, checkout, claim-site, create-checkout, create-site-invite, generate-and-save, generate-site, process-queue",
+  "persisted to sqlite",
+  "persisted to file-backed JSON",
+  "CSV exports"
+ ],
+ "primary_user": "TRILLIONX SITECLOSER - autonomous high-profit website acquisition, generation, sales and recurring-revenue engine",
  "primary_visual_metaphor": "a service mesh with one coordinating node",
- "primary_workflow": "nodes advertise capability, a coordinator selects, work converges",
- "problem": "",
- "project_category": "INFRASTRUCTURE",
+ "primary_workflow": "",
+ "problem": "Autonomous high-profit website acquisition, generation, sales and recurring-revenue engine. **Part A and Part B.**",
+ "problem_source": "project source",
+ "project_category": "FINANCE",
+ "project_category_basis": "project text: revenue",
+ "project_category_previous": "FINANCE",
  "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "",
  "purpose": "deploylocal website. package.json.",
- "release": "unknown",
+ "release": "0.1.0",
  "secondary_visual_metaphor": "",
  "secondary_workflows": [],
- "security_characteristics": [],
- "state_model": "",
+ "security_characteristics": [
+  "approval required before privileged action",
+  "loopback-only bind address"
+ ],
+ "state_model": "sqlite, file-backed JSON",
  "technical_category": "DISTRIBUTED",
- "terminal_metaphor": "a cursor running real commands",
+ "terminal_metaphor": "",
  "tests": {
   "executed": false,
   "files": 0,
@@ -57,10 +99,12 @@
  },
  "trillionx_intensity": "standard",
  "unresolved": [
-  "primary_user",
-  "problem"
+  "verified_features",
+  "terminal_metaphor",
+  "primary_workflow"
  ],
  "venture_stage": "",
+ "verified_commands": [],
  "verified_features": [],
  "visual_density": "medium"
 }

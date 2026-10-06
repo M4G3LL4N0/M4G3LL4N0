@@ -9,44 +9,81 @@
  },
  "classification": "PUBLIC_PROJECT",
  "color_family": "",
- "control_flow": "records cross a trust boundary, get validated, and are held or rejected",
- "data_flow": "",
+ "control_flow": "primary entry: HTTP API",
+ "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON) (also via WebSocket frames)",
  "depth": "layered",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "2",
-  "source_a_files": 63,
-  "source_a_local": "/Users/matador/startups/agentapi-hub",
-  "source_b_venture": "",
-  "source_c_github": "https://github.com/M4G3LL4N0/agentapi-hub"
+  "arch_doc": "ARCHITECTURE.md",
+  "cli_entrypoint": "",
+  "manifest": "package.json",
+  "readme": "README.md",
+  "source_a_local": "/srv/noaerth/startups/agentapi-hub",
+  "source_files_sampled": 36,
+  "test_files": 0
  },
  "experimental_features": [],
- "frameworks": [],
+ "frameworks": [
+  "next.js",
+  "prisma",
+  "react",
+  "tailwindcss"
+ ],
  "geometry_family": "DATA_FLOW",
  "github_repo": "agentapi-hub",
- "industry": "SECURITY",
- "input_types": [],
- "known_limitations": [],
+ "industry": "AGENT",
+ "input_types": [
+  "HTTP requests (JSON)",
+  "WebSocket frames"
+ ],
+ "interfaces": [
+  "HTTP API",
+  "WebSocket"
+ ],
+ "known_limitations": [
+  "no test tree in the repository; no test count is claimed",
+  "no CI workflow configured",
+  "no LICENSE file at the repository root"
+ ],
  "languages": [
   "TypeScript"
  ],
- "major_components": [],
+ "major_components": [
+  "components (20 files)",
+  "public (5 files)",
+  "app/* (4 files)",
+  "app/api (3 files)",
+  "public-site (3 files)",
+  "app/marketplace (2 files)",
+  "lib/* (2 files)",
+  "src/lib (2 files)",
+  "app/pricing (1 file)",
+  "app/submit (1 file)"
+ ],
  "mapping_confidence": "high",
  "material_family": "",
- "output_types": [],
- "primary_user": "",
+ "output_types": [
+  "HTTP responses (JSON)",
+  "route handlers: submit, tools, tools/[id]",
+  "persisted to file-backed JSON",
+  "files on disk"
+ ],
+ "primary_user": "built for agent-ready APIs",
  "primary_visual_metaphor": "gated channels passing through a sealed boundary",
- "primary_workflow": "records cross a trust boundary, get validated, and are held or rejected",
- "problem": "",
- "project_category": "SECURITY",
+ "primary_workflow": "",
+ "problem": "AgentAPI Hub MVP: searchable marketplace for agent-ready APIs, CLIs, MCP servers, schemas, and machine-readable docs.",
+ "problem_source": "project source",
+ "project_category": "AGENT",
+ "project_category_basis": "project text: agent, tool, mcp",
+ "project_category_previous": "AGENT",
  "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "",
  "purpose": "Startup portfolio: agentapi-hub",
- "release": "unknown",
+ "release": "0.1.0",
  "secondary_visual_metaphor": "",
  "secondary_workflows": [],
  "security_characteristics": [],
- "state_model": "",
+ "state_model": "file-backed JSON",
  "technical_category": "DATA_FLOW",
  "terminal_metaphor": "",
  "tests": {
@@ -57,10 +94,13 @@
  },
  "trillionx_intensity": "standard",
  "unresolved": [
-  "primary_user",
-  "problem"
+  "verified_features",
+  "security_characteristics",
+  "terminal_metaphor",
+  "primary_workflow"
  ],
  "venture_stage": "",
+ "verified_commands": [],
  "verified_features": [],
  "visual_density": "medium"
 }

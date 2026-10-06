@@ -9,46 +9,80 @@
  },
  "classification": "PUBLIC_PROJECT",
  "color_family": "",
- "control_flow": "policy surfaces assemble into a readable security posture",
+ "control_flow": "",
  "data_flow": "",
  "depth": "layered",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "4",
-  "source_a_files": 50,
-  "source_a_local": "/Users/matador/startups/fullofshit",
-  "source_b_venture": "fullofshit",
-  "source_c_github": "https://github.com/M4G3LL4N0/fullofshit"
+  "arch_doc": "ARCHITECTURE.md",
+  "cli_entrypoint": "",
+  "manifest": "package.json",
+  "readme": "README.md",
+  "source_a_local": "/srv/noaerth/startups/fullofshit",
+  "source_files_sampled": 18,
+  "test_files": 0
  },
  "experimental_features": [],
- "frameworks": [],
+ "frameworks": [
+  "next.js",
+  "react",
+  "tailwindcss"
+ ],
  "geometry_family": "DOCUMENT",
  "github_repo": "fullofshit",
- "industry": "SECURITY",
+ "industry": "GENERAL",
  "input_types": [],
- "known_limitations": [],
+ "interfaces": [],
+ "known_limitations": [
+  "LOCAL_REVIEW.md: Public metrics are illustrative unless marked PROVEN in `startupjourney.md`.",
+  "LOCAL_REVIEW.md: High-stakes decisions require human professional review where applicable.",
+  "no test tree in the repository; no test count is claimed",
+  "no CI workflow configured",
+  "no LICENSE file at the repository root"
+ ],
  "languages": [
   "TypeScript"
  ],
- "major_components": [],
+ "major_components": [
+  "src/components (12 files)",
+  "public (5 files)",
+  "src/app (4 files)",
+  ".autobuilder (3 files)",
+  "public-site (3 files)",
+  "src/lib (1 file)"
+ ],
  "mapping_confidence": "high",
  "material_family": "",
+ "noaerth_category": "Clarity Systems",
+ "noaerth_category_path": "Clarity Systems",
+ "noaerth_next_milestone": "Align hero and first action with: Stop wasting your brain on ideas that do not need to exist",
+ "noaerth_operating_facts": {
+  "Focus": "Clarity Systems layer",
+  "Stage": "Building",
+  "Type": "Clarity Systems"
+ },
+ "noaerth_site": "https://fullofshit.vercel.app/",
  "output_types": [],
  "primary_user": "",
  "primary_visual_metaphor": "nested policy frames with a visible boundary edge",
- "primary_workflow": "policy surfaces assemble into a readable security posture",
- "problem": "",
- "project_category": "SECURITY",
+ "primary_workflow": "",
+ "problem": "Premium Next.js + TypeScript + Tailwind site + MVP demo for **Full of Shit** \u2014 a startup reality engine that brutally tells founders whether an idea is real, redundant, missing a buyer, missing pain, missing a wedge, or simply a time sink.",
+ "problem_source": "project source",
+ "project_category": "GENERAL",
+ "project_category_basis": "no category signal in evidence",
+ "project_category_previous": "GENERAL",
  "public_financial_context": "not published per venture",
- "public_noaerth_positioning": "",
+ "public_noaerth_positioning": "Clarity tools for cutting through noise, hype, and weak thinking.",
  "purpose": "Startup portfolio: fullofshit",
- "release": "unknown",
+ "release": "0.1.0",
  "secondary_visual_metaphor": "",
  "secondary_workflows": [],
- "security_characteristics": [],
+ "security_characteristics": [
+  "no authentication in the current version"
+ ],
  "state_model": "",
  "technical_category": "DOCUMENT",
- "terminal_metaphor": "a cursor running real commands",
+ "terminal_metaphor": "",
  "tests": {
   "executed": false,
   "files": 0,
@@ -58,9 +92,16 @@
  "trillionx_intensity": "standard",
  "unresolved": [
   "primary_user",
-  "problem"
+  "data_flow",
+  "state_model",
+  "input_types",
+  "output_types",
+  "verified_features",
+  "terminal_metaphor",
+  "primary_workflow"
  ],
- "venture_stage": "",
+ "venture_stage": "Building",
+ "verified_commands": [],
  "verified_features": [],
  "visual_density": "medium"
 }

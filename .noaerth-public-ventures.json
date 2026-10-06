@@ -1,7 +1,19 @@
 {
- "$comment": "Public venture cards from noaerth.com. Public information only. Positioning is captured to reconcile against code, never copied verbatim into a README.",
+ "$comment": "Public venture cards from noaerth.com/portfolio. Public information only. Positioning is captured to reconcile against code, never copied verbatim into a README.",
  "source": "https://www.noaerth.com",
- "retrieved_at": "2026-10-06T16:27:04Z",
+ "portfolio_url": "https://www.noaerth.com/portfolio",
+ "retrieved_at": "2026-10-06T18:49:53Z",
+ "summary": {
+  "cards": 107,
+  "field_population": {
+   "positioning": 106,
+   "category": 107,
+   "status": 107,
+   "next_milestone": 107,
+   "tone": 107
+  },
+  "complete": true
+ },
  "ventures": [
   {
    "name": "Autobuilder",
@@ -9,4615 +21,4161 @@
    "site": "https://autobuilder-public.vercel.app/",
    "aria_label": "Open Autobuilder site",
    "positioning": "",
-   "category": "",
-   "status": "",
+   "category": "Startup Infrastructure",
+   "category_path": "Startup Infrastructure / Venture Operations",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {},
+   "signal_meters": {},
+   "signals": {},
+   "next_milestone": "Founder workspace, approval queue, and generated startup output polish.",
    "public_links": [
     "https://autobuilder-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "Redwoud",
    "slug": "redwoud",
    "site": "https://redwoud.noaerth.com/",
    "aria_label": "Open Redwoud site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Strategic intelligence and signal surfaces for operators who need sharper market reads.",
+   "category": "Clarity Systems",
+   "category_path": "Clarity Systems",
+   "status": "Live",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Live",
+    "Type": "Clarity Systems",
+    "Focus": "analysis"
+   },
+   "signal_meters": {
+    "Public surface": "Ready",
+    "Product clarity": "Active",
+    "Launch path": "Active"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Stage": "Ready"
+   },
+   "next_milestone": "Strengthen live signal reads and operator proof",
    "public_links": [
     "https://redwoud.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "SunsetX",
    "slug": "sunsetx",
    "site": "https://sunsetx.noaerth.com/",
    "aria_label": "Open SunsetX site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Cinematic lifestyle systems for modern escapes.",
+   "category": "Experiences",
+   "category_path": "Experiences / Lifestyle",
+   "status": "Live",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Live",
+    "Type": "Experiences",
+    "Focus": "experiences"
+   },
+   "signal_meters": {
+    "Public surface": "Ready",
+    "Product clarity": "Active",
+    "Launch path": "Active"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Stage": "Ready"
+   },
+   "next_milestone": "Improve conversion on live sunset product surface",
    "public_links": [
     "https://sunsetx.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "AgentOS",
    "slug": "agentos",
    "site": "https://agentos-website-ten.vercel.app/",
    "aria_label": "Open AgentOS site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Requested is not verified.",
+   "category": "Developer tools",
+   "category_path": "Developer tools",
+   "status": "Live",
+   "tone": "water",
+   "operating_facts": {
+    "Stage": "Live",
+    "Type": "Developer tools",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Public surface": "Ready",
+    "Product clarity": "Active",
+    "Launch path": "Active"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Stage": "Ready"
+   },
+   "next_milestone": "Improve conversion on AgentOS live surface",
    "public_links": [
     "https://agentos-website-ten.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "GrokBot Office",
    "slug": "grokbot-office",
    "site": "https://grokbot-office-xi.vercel.app/",
    "aria_label": "Open GrokBot Office site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Run a workforce. Do not become the workforce.",
+   "category": "Developer tools",
+   "category_path": "Developer tools",
+   "status": "Live",
+   "tone": "water",
+   "operating_facts": {
+    "Stage": "Live",
+    "Type": "Developer tools",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Public surface": "Ready",
+    "Product clarity": "Active",
+    "Launch path": "Active"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Stage": "Ready"
+   },
+   "next_milestone": "Improve conversion on GrokBot Office live surface",
    "public_links": [
     "https://grokbot-office-xi.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "GrokBot Society",
    "slug": "grokbot-society",
    "site": "https://grokbot-society.vercel.app/",
    "aria_label": "Open GrokBot Society site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Persistent synthetic people without the swarm.",
+   "category": "AI",
+   "category_path": "AI",
+   "status": "Live",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Live",
+    "Type": "AI",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Public surface": "Ready",
+    "Product clarity": "Active",
+    "Launch path": "Active"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Stage": "Ready"
+   },
+   "next_milestone": "Improve conversion on GrokBot Society live surface",
    "public_links": [
     "https://grokbot-society.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "GrokInstall",
    "slug": "grokinstall",
    "site": "https://grokinstall-website.vercel.app/",
    "aria_label": "Open GrokInstall site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Your context already has the answer.",
+   "category": "Developer tools",
+   "category_path": "Developer tools",
+   "status": "Live",
+   "tone": "water",
+   "operating_facts": {
+    "Stage": "Live",
+    "Type": "Developer tools",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Public surface": "Ready",
+    "Product clarity": "Active",
+    "Launch path": "Active"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Stage": "Ready"
+   },
+   "next_milestone": "Improve conversion on GrokInstall live surface",
    "public_links": [
     "https://grokinstall-website.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "GrokMax",
    "slug": "grokmax",
    "site": "https://grokmax.noaerth.com/",
    "aria_label": "Open GrokMax site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Scale down before you scale up.",
+   "category": "Developer tools",
+   "category_path": "Developer tools",
+   "status": "Live",
+   "tone": "water",
+   "operating_facts": {
+    "Stage": "Live",
+    "Type": "Developer tools",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Public surface": "Ready",
+    "Product clarity": "Active",
+    "Launch path": "Active"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Stage": "Ready"
+   },
+   "next_milestone": "Improve conversion on GrokMax live surface",
    "public_links": [
     "https://grokmax.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "OpenCode Watchdog",
    "slug": "opencode-watchdog",
    "site": "https://opencode-watchdog.vercel.app/",
    "aria_label": "Open OpenCode Watchdog site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "A local circuit breaker for runaway OpenCode sessions.",
+   "category": "Developer tools",
+   "category_path": "Developer tools",
+   "status": "Live",
+   "tone": "water",
+   "operating_facts": {
+    "Stage": "Live",
+    "Type": "Developer tools",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Public surface": "Ready",
+    "Product clarity": "Active",
+    "Launch path": "Active"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Stage": "Ready"
+   },
+   "next_milestone": "Improve conversion on OpenCode Watchdog live surface",
    "public_links": [
     "https://opencode-watchdog.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "SE-AI Mind",
-   "slug": "se-ai-mind",
+   "slug": "seai-mind",
    "site": "https://seai-mind.vercel.app/",
    "aria_label": "Open SE-AI Mind site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "A small kernel for a mind that can be measured.",
+   "category": "Research",
+   "category_path": "Research",
+   "status": "Live",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Live",
+    "Type": "Research",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Public surface": "Ready",
+    "Product clarity": "Active",
+    "Launch path": "Active"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Stage": "Ready"
+   },
+   "next_milestone": "Improve conversion on SE-AI Mind live surface",
    "public_links": [
     "https://seai-mind.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "Dirty Sneakers",
    "slug": "dirty-sneakers",
    "site": "https://dirty-sneakers.vercel.app/",
    "aria_label": "Open Dirty Sneakers site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Original stories. Characters. Worlds.",
+   "category": "Media",
+   "category_path": "Media",
+   "status": "Live",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Live",
+    "Type": "Media",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Public surface": "Ready",
+    "Product clarity": "Active",
+    "Launch path": "Active"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Stage": "Ready"
+   },
+   "next_milestone": "Improve conversion on Dirty Sneakers live surface",
    "public_links": [
     "https://dirty-sneakers.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "Q-Concierge",
-   "slug": "q-concierge",
+   "slug": "grokbot-concierge",
    "site": "https://grokbot-concierge.vercel.app/",
    "aria_label": "Open Q-Concierge site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Your world, intelligently routed.",
+   "category": "Consumer",
+   "category_path": "Consumer",
+   "status": "Live",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Live",
+    "Type": "Consumer",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Public surface": "Ready",
+    "Product clarity": "Active",
+    "Launch path": "Active"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Stage": "Ready"
+   },
+   "next_milestone": "Improve conversion on Q-Concierge live surface",
    "public_links": [
     "https://grokbot-concierge.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "Stay Seated Please",
-   "slug": "stay-seated-please",
+   "slug": "stayseatedplease",
    "site": "https://stayseatedplease.vercel.app/",
    "aria_label": "Open Stay Seated Please site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Buy the smallest thing. Enter the biggest room.",
+   "category": "Consumer",
+   "category_path": "Consumer",
+   "status": "Live",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Live",
+    "Type": "Consumer",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Public surface": "Ready",
+    "Product clarity": "Active",
+    "Launch path": "Active"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Stage": "Ready"
+   },
+   "next_milestone": "Improve conversion on Stay Seated Please live surface",
    "public_links": [
     "https://stayseatedplease.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "Wordless",
    "slug": "wordless",
    "site": "https://wordless-chi.vercel.app/",
    "aria_label": "Open Wordless site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Explanations without words.",
+   "category": "Media",
+   "category_path": "Media",
+   "status": "Live",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Live",
+    "Type": "Media",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Public surface": "Ready",
+    "Product clarity": "Active",
+    "Launch path": "Active"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Stage": "Ready"
+   },
+   "next_milestone": "Improve conversion on Wordless live surface",
    "public_links": [
     "https://wordless-chi.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "DeployLocal",
    "slug": "deploylocal",
    "site": "https://deploylocal-website.vercel.app/",
    "aria_label": "Open DeployLocal site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Lead discovery and outreach infrastructure for local businesses that need a web presence and pipeline.",
+   "category": "Developer Infrastructure",
+   "category_path": "Developer Infrastructure",
+   "status": "Building",
+   "tone": "water",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Developer Infrastructure",
+    "Focus": "Release infrastructure and"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Ship local lead discovery and first outreach workflow",
    "public_links": [
     "https://deploylocal-website.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "Cruxenio",
    "slug": "cruxenio",
    "site": "https://cruxenio-website.vercel.app/",
    "aria_label": "Open Cruxenio site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "A strategy system for helping operators find the real issue, decision, or leverage point faster.",
+   "category": "Strategy",
+   "category_path": "Strategy / Infrastructure",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Strategy",
+    "Focus": "systems"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Ship issue-to-decision flow on strategy surface",
    "public_links": [
     "https://cruxenio-website.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "PoolWater",
    "slug": "poolwater",
    "site": "https://poolwater.noaerth.com/",
    "aria_label": "Open PoolWater site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "A late-night game-room venue combining pool, arcade, food, and social energy in one premium room.",
+   "category": "Nightlife",
+   "category_path": "Nightlife / Hospitality",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Nightlife",
+    "Focus": "nightlife"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Sharpen late-night venue story and visit/booking path",
    "public_links": [
     "https://poolwater.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "RequestAyo",
    "slug": "requestayo",
    "site": "https://requestayo.noaerth.com/",
    "aria_label": "Open RequestAyo site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "A consumer utility for requesting rides, food, errands, and local help with less friction.",
+   "category": "Consumer Utility",
+   "category_path": "Consumer Utility",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Consumer Utility",
+    "Focus": "requests"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Label engine DEMO and pricing when providers absent",
    "public_links": [
     "https://requestayo.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "BetterFinTech",
    "slug": "betterfintech",
    "site": "https://betterfintech-public.vercel.app/",
    "aria_label": "Open BetterFinTech site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Financial operations, without the maze.",
+   "category": "Finance",
+   "category_path": "Finance / Fintech Infrastructure",
+   "status": "Building",
+   "tone": "sand",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Finance",
+    "Focus": "Financial product clarity"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: The operating system for smarter financial decisions",
    "public_links": [
     "https://betterfintech-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "CannexLogistics",
    "slug": "cannexlogistics",
    "site": "https://cannex-logistics-public.vercel.app/",
    "aria_label": "Open CannexLogistics site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Logistics for a fragmented cannabis market.",
+   "category": "Industry Logistics",
+   "category_path": "Industry Logistics / Cannabis Infrastructure",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Industry Logistics",
+    "Focus": "Cannabis logistics and"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Connect dashboard to live data on CannexLogistics",
    "public_links": [
     "https://cannex-logistics-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "CloudCastle",
    "slug": "cloudcastle",
    "site": "https://cloudcastle-public.vercel.app/",
    "aria_label": "Open CloudCastle site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Premium distribution for modern retail.",
+   "category": "Commerce Infrastructure",
+   "category_path": "Commerce Infrastructure / Vending",
+   "status": "Building",
+   "tone": "sand",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Commerce Infrastructure",
+    "Focus": "Retail deployment and"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Connect dashboard to live data on CloudCastle",
    "public_links": [
     "https://cloudcastle-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "DataTherapy",
    "slug": "datatherapy",
    "site": "https://datatherapy-website.vercel.app/",
    "aria_label": "Open DataTherapy site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Turn scary information into structured understanding.",
+   "category": "Clarity Systems",
+   "category_path": "Clarity Systems",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Clarity Systems",
+    "Focus": "Fear intelligence and"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: Turn scary information into structured understanding",
    "public_links": [
     "https://datatherapy-website.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "LuvStories",
    "slug": "luvstories",
    "site": "https://luvstories.vercel.app/",
    "aria_label": "Open LuvStories site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Private relationship intelligence for love stories.",
+   "category": "Relationship Intelligence",
+   "category_path": "Relationship Intelligence",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Relationship Intelligence",
+    "Focus": "Relationship story intelligence"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Ship first flow: Private relationship intelligence for love stories",
    "public_links": [
     "https://luvstories.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "StartupQuick",
    "slug": "startupquick",
    "site": "https://startupquick.noaerth.com/",
    "aria_label": "Open StartupQuick site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Launch before the momentum fades.",
+   "category": "Startup Infrastructure",
+   "category_path": "Startup Infrastructure / Launch Tools",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Startup Infrastructure",
+    "Focus": "Startup launch acceleration"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "One real generated site on founder idea with export",
    "public_links": [
     "https://startupquick.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "VenCapMentor",
    "slug": "vencapmentor",
    "site": "https://vencapmentor-public.vercel.app/",
    "aria_label": "Open VenCapMentor site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Venture capital literacy for builders.",
+   "category": "Venture Capital",
+   "category_path": "Venture Capital / Founder Education",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Venture Capital",
+    "Focus": "Venture capital education"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Ship first integration path on VenCapMentor",
    "public_links": [
     "https://vencapmentor-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "YouAreProfound",
    "slug": "youareprofound",
    "site": "https://youareprofound-public.vercel.app/",
    "aria_label": "Open YouAreProfound site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Reinforce self-worth, depth, and perspective.",
+   "category": "Identity",
+   "category_path": "Identity / Personal Development",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Identity",
+    "Focus": "Identity reinforcement and"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: You are not lost",
    "public_links": [
     "https://youareprofound-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "Zaeux",
    "slug": "zaeux",
    "site": "https://zaeux-public.vercel.app/",
    "aria_label": "Open Zaeux site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "A finance and crypto concept exploring digital asset coordination, trust, and product clarity.",
+   "category": "Finance",
+   "category_path": "Finance / Crypto",
+   "status": "Building",
+   "tone": "sand",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Finance",
+    "Focus": "finance"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Clarify crypto trust and asset coordination narrative",
    "public_links": [
     "https://zaeux-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "BlitzProof",
    "slug": "blitzproof",
    "site": "https://blitzproof-public.vercel.app/",
    "aria_label": "Open BlitzProof site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Prove the startup before it proves you wrong.",
+   "category": "Startup Systems",
+   "category_path": "Startup Systems / Validation",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Startup Systems",
+    "Focus": "Startup proof and"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Wire one real Stripe test payment + exportable proof report per idea",
    "public_links": [
     "https://blitzproof-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "BlitzUnicorn",
    "slug": "blitzunicorn",
    "site": "https://blitzunicorn-public.vercel.app/",
    "aria_label": "Open BlitzUnicorn site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "High-growth strategy without the theater.",
+   "category": "Startup Strategy",
+   "category_path": "Startup Strategy / Growth Systems",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Startup Strategy",
+    "Focus": "High-growth startup strategy"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Ship first flow: High-growth strategy without the theater",
    "public_links": [
     "https://blitzunicorn-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "UXVisualEngine",
    "slug": "uxvisualengine",
    "site": "https://uxvisualengine-public.vercel.app/",
    "aria_label": "Open UXVisualEngine site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Generate cleaner interfaces, faster.",
+   "category": "Design Infrastructure",
+   "category_path": "Design Infrastructure / Product UX",
+   "status": "Building",
+   "tone": "stone",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Design Infrastructure",
+    "Focus": "UX generation and"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Label mock engine",
    "public_links": [
     "https://uxvisualengine-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "ChildDevOS",
    "slug": "childdevos",
    "site": "https://childdevos-public.vercel.app/",
    "aria_label": "Open ChildDevOS site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "A platform for organizing developmental insights, learning signals, parent guidance, and child growth coordination into one coherent operating layer.",
+   "category": "Education",
+   "category_path": "Education / Child Development",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Education",
+    "Focus": "Child development coordination"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: One system for childhood development",
    "public_links": [
     "https://childdevos-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "Vizuler",
    "slug": "vizuler",
    "site": "https://vizuler-public.vercel.app/",
    "aria_label": "Open Vizuler site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "A visual storytelling system for turning ideas, demos, and interfaces into clearer product experiences.",
+   "category": "Design Infrastructure",
+   "category_path": "Design Infrastructure / Product UX",
+   "status": "Building",
+   "tone": "stone",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Design Infrastructure",
+    "Focus": "Design Infrastructure layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Demo one idea-to-visual story export on homepage",
    "public_links": [
     "https://vizuler-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "AccessXWorld",
    "slug": "accessxworld",
    "site": "https://access-layer-public.vercel.app/",
    "aria_label": "Open AccessXWorld site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Permissions, spaces, and who can enter.",
+   "category": "Access Infrastructure",
+   "category_path": "Access Infrastructure",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Access Infrastructure",
+    "Focus": "access"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Ship first access workflow on site",
    "public_links": [
     "https://access-layer-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "Ayncient",
    "slug": "ayncient",
    "site": "https://ayncient-public.vercel.app/",
    "aria_label": "Open Ayncient site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Ancient knowledge for modern clarity.",
+   "category": "Education",
+   "category_path": "Education / Human Betterment",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Education",
+    "Focus": "wellness"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Ship first wellness workflow on site",
    "public_links": [
     "https://ayncient-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "Bourgaeux",
    "slug": "bourgaeux",
    "site": "https://bourgaeux-public.vercel.app/",
    "aria_label": "Open Bourgaeux site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Discover Bourgaeux.",
+   "category": "Luxury",
+   "category_path": "Luxury / Lifestyle",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Luxury",
+    "Focus": "luxury"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Save taste profile + last 3 picks to localStorage",
    "public_links": [
     "https://bourgaeux-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "DevState",
    "slug": "devstate",
    "site": "https://devstate-website.vercel.app/",
    "aria_label": "Open DevState site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Developer storage and rehydration: know what Git has, what is local-only, and what to clean.",
+   "category": "Developer Infrastructure",
+   "category_path": "Developer Infrastructure",
+   "status": "Building",
+   "tone": "water",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Developer Infrastructure",
+    "Focus": "disk audit"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Fix live subdomain deploy + npm publish CLI as install path",
    "public_links": [
     "https://devstate-website.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "EmailSimple",
    "slug": "emailsimple",
    "site": "https://emailsimple-website.vercel.app/",
    "aria_label": "Open EmailSimple site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Email workflows without the noise.",
+   "category": "Communication",
+   "category_path": "Communication / Workflow Automation",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Communication",
+    "Focus": "email"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Gmail OAuth read-only + one real brief on founder inbox (PRIVATE)",
    "public_links": [
     "https://emailsimple-website.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "EvSec-One",
    "slug": "evsec-one",
    "site": "https://evsec-one-public.vercel.app/",
    "aria_label": "Open EvSec-One site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Operational security for serious builders.",
+   "category": "Privacy",
+   "category_path": "Privacy / Security",
+   "status": "Building",
+   "tone": "clay",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Privacy",
+    "Focus": "privacy"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Scan flow that returns labeled DEMO results + checklist",
    "public_links": [
     "https://evsec-one-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "ForeverLuvd",
    "slug": "foreverluvd",
    "site": "https://foreverluvd.vercel.app/",
    "aria_label": "Open ForeverLuvd site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Preserve love with lasting presence.",
+   "category": "Memory",
+   "category_path": "Memory / Relationships",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Memory",
+    "Focus": "memory"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Ship first memory workflow on site",
    "public_links": [
     "https://foreverluvd.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "FungMind",
    "slug": "fungmind",
    "site": "https://fungmind.vercel.app/",
    "aria_label": "Open FungMind site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Mental models that grow like systems.",
+   "category": "Wellness",
+   "category_path": "Wellness / Mind",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Wellness",
+    "Focus": "mind"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Ship first mind workflow on site",
    "public_links": [
     "https://fungmind.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "LuvPartnr",
    "slug": "luvpartnr",
    "site": "https://luvpartnr.vercel.app/",
    "aria_label": "Open LuvPartnr site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Relationship intelligence with emotional depth.",
+   "category": "Relationship Intelligence",
+   "category_path": "Relationship Intelligence",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Relationship Intelligence",
+    "Focus": "relationships"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Complete Stripe + one end-to-end case \u2192 PDF report (DEMO labeled)",
    "public_links": [
     "https://luvpartnr.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "Modex",
    "slug": "modex",
    "site": "https://modex.noaerth.com/",
    "aria_label": "Open Modex site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Modern commerce modules for builders.",
+   "category": "Decision Intelligence Infrastructure",
+   "category_path": "Decision Intelligence Infrastructure",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Decision Intelligence Infra\u2026",
+    "Focus": "prediction"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Label planning signals and real data sources",
    "public_links": [
     "https://modex.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "Noaerth Labs",
    "slug": "noaerth-labs",
    "site": "https://noaerth-labs.noaerth.com/",
    "aria_label": "Open Noaerth Labs site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "The lab layer for company creation.",
+   "category": "Internal Systems",
+   "category_path": "Internal Systems",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Internal Systems",
+    "Focus": "experiments"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Ship first integration path on Noaerth Labs",
    "public_links": [
     "https://noaerth-labs.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "ShopRight",
    "slug": "shopright",
    "site": "https://shopright.noaerth.com/",
    "aria_label": "Open ShopRight site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Shop with better judgment.",
+   "category": "Food",
+   "category_path": "Food / Recommendation",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Food",
+    "Focus": "menus"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Ship first menus workflow on site",
    "public_links": [
     "https://shopright.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "SoulMayte",
    "slug": "soulmayte",
    "site": "https://soulmayte.noaerth.com/",
    "aria_label": "Open SoulMayte site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "A deeper map of compatibility.",
+   "category": "Relationships",
+   "category_path": "Relationships / Consumer",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Relationships",
+    "Focus": "matching"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Ship first integration path on SoulMayte",
    "public_links": [
     "https://soulmayte.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "Spouwse",
    "slug": "spouwse",
    "site": "https://spouwse.noaerth.com/",
    "aria_label": "Open Spouwse site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Marriage systems with more intention.",
+   "category": "Consumer Intelligence",
+   "category_path": "Consumer Intelligence",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Consumer Intelligence",
+    "Focus": "consumer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Quiz results \u2192 shared PDF plan",
    "public_links": [
     "https://spouwse.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "STRxNGTH",
    "slug": "strxngth",
    "site": "https://strxngth.noaerth.com/",
    "aria_label": "Open STRxNGTH site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Strength systems for disciplined bodies.",
+   "category": "Health",
+   "category_path": "Health / Performance",
+   "status": "Building",
+   "tone": "moss",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Health",
+    "Focus": "training"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Label AI plans DEMO",
    "public_links": [
     "https://strxngth.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "TherapyUX",
    "slug": "therapyux",
    "site": "https://therapyux-public.vercel.app/",
    "aria_label": "Open TherapyUX site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Adaptive therapy support built around you.",
+   "category": "Education",
+   "category_path": "Education / Human Betterment",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Education",
+    "Focus": "therapy"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Restore one mode flow from backup with crisis disclaimer",
    "public_links": [
     "https://therapyux-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "TrustXVerify",
    "slug": "trustxverify",
    "site": "https://trustxverify-public.vercel.app/",
    "aria_label": "Open TrustXVerify site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Verify trust before it matters.",
+   "category": "Trust Infrastructure",
+   "category_path": "Trust Infrastructure",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Trust Infrastructure",
+    "Focus": "verification"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Ship first verification workflow on site",
    "public_links": [
     "https://trustxverify-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "BehindCurtain",
    "slug": "behindcurtain",
    "site": "https://behindcurtain-public.vercel.app/",
    "aria_label": "Open BehindCurtain site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Reveal what shapes the story.",
+   "category": "Research",
+   "category_path": "Research / Media",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Research",
+    "Focus": "research"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Ship first research workflow on site",
    "public_links": [
     "https://behindcurtain-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "BrandCrossover",
    "slug": "brandcrossover",
    "site": "https://brandcrossover-public.vercel.app/",
    "aria_label": "Open BrandCrossover site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Find the overlap that moves culture.",
+   "category": "Brands",
+   "category_path": "Brands / Partnerships",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Brands",
+    "Focus": "brands"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Ship first flow: Find the overlap that moves culture",
    "public_links": [
     "https://brandcrossover-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "Cxntradict",
    "slug": "cxntradict",
    "site": "https://cxntradict-website.vercel.app/",
    "aria_label": "Open Cxntradict site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Find the tension inside the truth.",
+   "category": "Media",
+   "category_path": "Media / News Analysis",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Media",
+    "Focus": "media"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Ship first media workflow on site",
    "public_links": [
     "https://cxntradict-website.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "NaextBlock",
    "slug": "naextblock",
    "site": "https://naextblock.vercel.app/",
    "aria_label": "Open NaextBlock site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Block-level intelligence for what comes next.",
+   "category": "Real Estate Intelligence",
+   "category_path": "Real Estate Intelligence",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Real Estate Intelligence",
+    "Focus": "real estate"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Label all map/analyzer data SEED",
    "public_links": [
     "https://naextblock.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "VentureRank OS",
    "slug": "venturerank-os",
    "site": "https://venturerank-os-public.vercel.app/",
    "aria_label": "Open VentureRank OS site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Rank ventures by signal, not noise.",
+   "category": "Venture Intelligence",
+   "category_path": "Venture Intelligence",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Venture Intelligence",
+    "Focus": "ranking"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Banner LIVE vs MOCK and import real ventures",
    "public_links": [
     "https://venturerank-os-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "YouState",
    "slug": "youstate",
    "site": "https://youstate-public.vercel.app/",
    "aria_label": "Open YouState site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Understand your current state.",
+   "category": "Personal Systems",
+   "category_path": "Personal Systems / Self-State",
+   "status": "Research",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Research",
+    "Type": "Personal Systems",
+    "Focus": "state"
+   },
+   "signal_meters": {
+    "Market mapping": "Active",
+    "MVP readiness": "Early",
+    "User clarity": "Forming"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Validate wedge for state",
    "public_links": [
     "https://youstate-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "AgentAPI",
    "slug": "agentapi",
    "site": "https://agentapi-hub-public.vercel.app/",
    "aria_label": "Open AgentAPI site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "API infrastructure for agents, tools, and product coordination.",
+   "category": "AI Infrastructure",
+   "category_path": "AI Infrastructure",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "AI Infrastructure",
+    "Focus": "AI Infrastructure layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Ship first integration path on AgentAPI",
    "public_links": [
     "https://agentapi-hub-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "AgentCore Silicon",
    "slug": "agentcore-silicon",
    "site": "https://agentcore-silicon-public.vercel.app/",
    "aria_label": "Open AgentCore Silicon site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Silicon-aware agent infrastructure for hardware and compute ventures.",
+   "category": "AI Infrastructure",
+   "category_path": "AI Infrastructure",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "AI Infrastructure",
+    "Focus": "AI Infrastructure layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: Silicon built for agents, not just inference",
    "public_links": [
     "https://agentcore-silicon-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "AutoERP",
    "slug": "autoerp",
    "site": "https://autoerp-public.vercel.app/",
    "aria_label": "Open AutoERP site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Modern ERP intelligence for operations teams outgrowing legacy stacks.",
+   "category": "Enterprise AI",
+   "category_path": "Enterprise AI / Legacy Systems",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Enterprise AI",
+    "Focus": "Enterprise AI layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: Map where approvals, inventory, procurement, and workflows\u2026",
    "public_links": [
     "https://autoerp-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "BuildLoop USA",
    "slug": "buildloop-usa",
    "site": "https://buildloop-usa-public.vercel.app/",
    "aria_label": "Open BuildLoop USA site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Launch infrastructure for builders shipping companies across the U.S.",
+   "category": "Startup Infrastructure",
+   "category_path": "Startup Infrastructure / Launch Tools",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Startup Infrastructure",
+    "Focus": "Startup Infrastructure layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Ship first integration path on BuildLoop USA",
    "public_links": [
     "https://buildloop-usa-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "ChipFlow",
    "slug": "chipflow",
    "site": "https://chipflow-public.vercel.app/",
    "aria_label": "Open ChipFlow site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Workflow intelligence for chip design, supply, and hardware iteration.",
+   "category": "AI Infrastructure",
+   "category_path": "AI Infrastructure",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "AI Infrastructure",
+    "Focus": "AI Infrastructure layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: Reduce shortage risk and secure chip allocation before disr\u2026",
    "public_links": [
     "https://chipflow-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "ComputeFlow",
    "slug": "computeflow",
    "site": "https://computeflow-website.vercel.app/",
    "aria_label": "Open ComputeFlow site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Compute orchestration for teams running serious AI and data workloads.",
+   "category": "AI Infrastructure",
+   "category_path": "AI Infrastructure",
+   "status": "Building",
+   "tone": "water",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "AI Infrastructure",
+    "Focus": "AI Infrastructure layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Ship first flow: Compute orchestration for teams running serious AI and data workloads",
    "public_links": [
     "https://computeflow-website.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "CropShield AI",
    "slug": "cropshield-ai",
    "site": "https://cropshield-ai-website.vercel.app/",
    "aria_label": "Open CropShield AI site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "AI monitoring and protection for agricultural operations and yield risk.",
+   "category": "Agriculture",
+   "category_path": "Agriculture / AI Infrastructure",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Agriculture",
+    "Focus": "Agriculture layer in"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: Find the acres that actually need treatment before spraying\u2026",
    "public_links": [
     "https://cropshield-ai-website.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "EnterprisePilot",
    "slug": "enterprisepilot",
    "site": "https://enterprisepilot-public.vercel.app/",
    "aria_label": "Open EnterprisePilot site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Enterprise copilots for teams navigating complex operations and legacy tools.",
+   "category": "Enterprise AI",
+   "category_path": "Enterprise AI / Legacy Systems",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Enterprise AI",
+    "Focus": "Enterprise AI layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: Package secure, procurement-ready pilots in minutes",
    "public_links": [
     "https://enterprisepilot-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "ExecMemory AI",
    "slug": "execmemory-ai",
    "site": "https://execmemory-ai-public.vercel.app/",
    "aria_label": "Open ExecMemory AI site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Executive memory and context systems for high-stakes decision makers.",
+   "category": "AI Infrastructure",
+   "category_path": "AI Infrastructure",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "AI Infrastructure",
+    "Focus": "AI Infrastructure layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: Your AI chief of staff for every conversation that matters",
    "public_links": [
     "https://execmemory-ai-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "FastProcure AI",
    "slug": "fastprocure-ai",
    "site": "https://fastprocure-ai.vercel.app/",
    "aria_label": "Open FastProcure AI site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Faster procurement decisions with AI-assisted vendor and spend intelligence.",
+   "category": "Commerce Infrastructure",
+   "category_path": "Commerce Infrastructure",
+   "status": "Building",
+   "tone": "sand",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Commerce Infrastructure",
+    "Focus": "Commerce Infrastructure layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: Move from vendor intake to pilot approval in days, not quar\u2026",
    "public_links": [
     "https://fastprocure-ai.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "FullOfShit",
    "slug": "fullofshit",
    "site": "https://fullofshit.vercel.app/",
    "aria_label": "Open FullOfShit site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Clarity tools for cutting through noise, hype, and weak thinking.",
+   "category": "Clarity Systems",
+   "category_path": "Clarity Systems",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Clarity Systems",
+    "Focus": "Clarity Systems layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: Stop wasting your brain on ideas that do not need to exist",
    "public_links": [
     "https://fullofshit.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "GameCombo",
    "slug": "gamecombo",
    "site": "https://gamecombo-nine.vercel.app/",
    "aria_label": "Open GameCombo site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Creative technology for interactive experiences and game-adjacent products.",
+   "category": "Creative Technology",
+   "category_path": "Creative Technology",
+   "status": "Building",
+   "tone": "stone",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Creative Technology",
+    "Focus": "Creative Technology layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: Create games that should not exist yet",
    "public_links": [
     "https://gamecombo-nine.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "GenoTwin Health",
    "slug": "genotwin-health",
    "site": "https://genotwin-health.vercel.app/",
    "aria_label": "Open GenoTwin Health site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Health resilience systems informed by genomic and twin-style modeling.",
+   "category": "Health Support",
+   "category_path": "Health Support",
+   "status": "Building",
+   "tone": "moss",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Health Support",
+    "Focus": "Health Support layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Publish install path and one CLI demo",
    "public_links": [
     "https://genotwin-health.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "GhostFrame",
    "slug": "ghostframe",
    "site": "https://ghostframe-ten.vercel.app/",
    "aria_label": "Open GhostFrame site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Media intelligence for framing, narrative, and signal in public discourse.",
+   "category": "Media Intelligence",
+   "category_path": "Media Intelligence",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Media Intelligence",
+    "Focus": "Media Intelligence layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Label planning signals and real data sources",
    "public_links": [
     "https://ghostframe-ten.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "InterceptorGrid",
    "slug": "interceptorgrid",
    "site": "https://interceptorgrid.vercel.app/",
    "aria_label": "Open InterceptorGrid site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Security infrastructure for detecting and intercepting systemic risk.",
+   "category": "Security Infrastructure",
+   "category_path": "Security Infrastructure",
+   "status": "Building",
+   "tone": "clay",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Security Infrastructure",
+    "Focus": "Security Infrastructure layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: Autonomous coordination grid for detection, alerting, and r\u2026",
    "public_links": [
     "https://interceptorgrid.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "LagrangeOS",
    "slug": "lagrangeos",
    "site": "https://lagrangeos.vercel.app/",
    "aria_label": "Open LagrangeOS site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Space infrastructure software for orbital operations and mission planning.",
+   "category": "Space Infrastructure",
+   "category_path": "Space Infrastructure",
+   "status": "Building",
+   "tone": "sky",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Space Infrastructure",
+    "Focus": "Space Infrastructure layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: Experimental astrodynamics, accelerated by AI",
    "public_links": [
     "https://lagrangeos.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "Life Finds A Way",
    "slug": "life-finds-a-way",
    "site": "https://life-finds-a-way.noaerth.com/",
    "aria_label": "Open Life Finds A Way site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Biotech resilience ventures focused on adaptation and long-horizon survival.",
+   "category": "Biotech",
+   "category_path": "Biotech / Resilience Systems",
+   "status": "Building",
+   "tone": "moss",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Biotech",
+    "Focus": "Biotech layer in"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: Intelligence for life in impossible environments",
    "public_links": [
     "https://life-finds-a-way.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "LoopCompute Cloud",
    "slug": "loopcompute-cloud",
    "site": "https://loopcompute-cloud.noaerth.com/",
    "aria_label": "Open LoopCompute Cloud site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Cloud compute loops for teams shipping AI products at portfolio scale.",
+   "category": "AI Infrastructure",
+   "category_path": "AI Infrastructure",
+   "status": "Building",
+   "tone": "water",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "AI Infrastructure",
+    "Focus": "AI Infrastructure layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Show live vs mock compute orchestration labels",
    "public_links": [
     "https://loopcompute-cloud.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "LunarFoundry",
    "slug": "lunarfoundry",
    "site": "https://lunarfoundry.noaerth.com/",
    "aria_label": "Open LunarFoundry site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Lunar and space-industrial systems for the next generation of builders.",
+   "category": "Space Infrastructure",
+   "category_path": "Space Infrastructure",
+   "status": "Building",
+   "tone": "sky",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Space Infrastructure",
+    "Focus": "Space Infrastructure layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Ship first flow: Lunar and space-industrial systems for the next generation of builders",
    "public_links": [
     "https://lunarfoundry.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "MorphUI",
    "slug": "morphui",
    "site": "https://morphui.noaerth.com/",
    "aria_label": "Open MorphUI site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Morphing UI systems for faster product design and interface iteration.",
+   "category": "Design Infrastructure",
+   "category_path": "Design Infrastructure / Product UX",
+   "status": "Building",
+   "tone": "stone",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Design Infrastructure",
+    "Focus": "Design Infrastructure layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: Software should change shape around the user",
    "public_links": [
     "https://morphui.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "Noaerth Operator",
    "slug": "noaerth-operator",
    "site": "https://noaerth-operator.noaerth.com/",
    "aria_label": "Open Noaerth Operator site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Operator layer for running multiple ventures from one parent company.",
+   "category": "Startup Infrastructure",
+   "category_path": "Startup Infrastructure / Autonomous Operations",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Startup Infrastructure",
+    "Focus": "Startup Infrastructure layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: Your AI operator for ventures, execution, and digital life",
    "public_links": [
     "https://noaerth-operator.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "ObviouslyBad",
    "slug": "obviouslybad",
    "site": "https://obviouslybad.vercel.app/",
    "aria_label": "Open ObviouslyBad site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Decision clarity for ideas that fail the obvious test.",
+   "category": "Clarity Systems",
+   "category_path": "Clarity Systems",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Clarity Systems",
+    "Focus": "Clarity Systems layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: Make bad ideas obvious",
    "public_links": [
     "https://obviouslybad.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "Oodax",
    "slug": "oodax",
    "site": "https://oodax.vercel.app/",
    "aria_label": "Open Oodax site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Odd-axis intelligence ventures exploring non-obvious product and market angles.",
+   "category": "AI Infrastructure",
+   "category_path": "AI Infrastructure",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "AI Infrastructure",
+    "Focus": "AI Infrastructure layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: Win the next move before everyone else sees it",
    "public_links": [
     "https://oodax.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "OpsAutopilot",
    "slug": "opsautopilot",
    "site": "https://opsautopilot.noaerth.com/",
    "aria_label": "Open OpsAutopilot site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Operations autopilot for recurring workflows across growing companies.",
+   "category": "Startup Infrastructure",
+   "category_path": "Startup Infrastructure / Autonomous Operations",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Startup Infrastructure",
+    "Focus": "Startup Infrastructure layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: Find the bottlenecks before they break the week",
    "public_links": [
     "https://opsautopilot.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "OrbitChip",
    "slug": "orbitchip",
    "site": "https://orbitchip.noaerth.com/",
    "aria_label": "Open OrbitChip site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Orbital and semiconductor-adjacent systems for space-era hardware.",
+   "category": "Space Infrastructure",
+   "category_path": "Space Infrastructure",
+   "status": "Building",
+   "tone": "sky",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Space Infrastructure",
+    "Focus": "Space Infrastructure layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: AI inference chips built for orbit",
    "public_links": [
     "https://orbitchip.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "OrbitPrint",
    "slug": "orbitprint",
    "site": "https://orbitprint.noaerth.com/",
    "aria_label": "Open OrbitPrint site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Orbital manufacturing and print concepts for space industrialization.",
+   "category": "Space Infrastructure",
+   "category_path": "Space Infrastructure",
+   "status": "Building",
+   "tone": "sky",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Space Infrastructure",
+    "Focus": "Space Infrastructure layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Label demo data and sharpen OrbitPrint hero proof",
    "public_links": [
     "https://orbitprint.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "ReadableStack",
    "slug": "readablestack",
    "site": "https://readablestack.noaerth.com/",
    "aria_label": "Open ReadableStack site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Readable developer infrastructure for teams maintaining complex stacks.",
+   "category": "Developer Infrastructure",
+   "category_path": "Developer Infrastructure",
+   "status": "Building",
+   "tone": "water",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Developer Infrastructure",
+    "Focus": "Developer Infrastructure layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Ship first integration path on ReadableStack",
    "public_links": [
     "https://readablestack.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "SiliconControl Tower",
    "slug": "siliconcontrol-tower",
    "site": "https://siliconcontrol-tower.noaerth.com/",
    "aria_label": "Open SiliconControl Tower site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Control tower visibility for silicon, supply, and hardware programs.",
+   "category": "AI Infrastructure",
+   "category_path": "AI Infrastructure",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "AI Infrastructure",
+    "Focus": "AI Infrastructure layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: Track shortages, geopolitics, and demand shocks from one co\u2026",
    "public_links": [
     "https://siliconcontrol-tower.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "SpaceCompute Cloud",
    "slug": "spacecompute-cloud",
    "site": "https://spacecompute-cloud.noaerth.com/",
    "aria_label": "Open SpaceCompute Cloud site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Space-grade cloud compute for missions, simulation, and payloads.",
+   "category": "Space Infrastructure",
+   "category_path": "Space Infrastructure",
+   "status": "Building",
+   "tone": "sky",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Space Infrastructure",
+    "Focus": "Space Infrastructure layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Label demo data and sharpen SpaceCompute Cloud hero proof",
    "public_links": [
     "https://spacecompute-cloud.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "SupplyOS AI",
    "slug": "supplyos-ai",
    "site": "https://supplyos-ai-public.vercel.app/",
    "aria_label": "Open SupplyOS AI site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "AI operating layer for supply chain visibility and coordination.",
+   "category": "Commerce Infrastructure",
+   "category_path": "Commerce Infrastructure",
+   "status": "Building",
+   "tone": "sand",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Commerce Infrastructure",
+    "Focus": "Commerce Infrastructure layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: Autonomous planning, alerts, and risk monitoring for modern\u2026",
    "public_links": [
     "https://supplyos-ai-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "SwarmShield",
    "slug": "swarmshield",
    "site": "https://swarmshield-public.vercel.app/",
    "aria_label": "Open SwarmShield site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Defense against coordinated attacks, bots, and swarm-style threats.",
+   "category": "Security Infrastructure",
+   "category_path": "Security Infrastructure",
+   "status": "Building",
+   "tone": "clay",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Security Infrastructure",
+    "Focus": "Security Infrastructure layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Connect dashboard to live data on SwarmShield",
    "public_links": [
     "https://swarmshield-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "TrajectoryOS",
    "slug": "trajectoryos",
    "site": "https://trajectoryos-public.vercel.app/",
    "aria_label": "Open TrajectoryOS site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Trajectory intelligence for ventures, markets, and strategic positioning.",
+   "category": "Venture Intelligence",
+   "category_path": "Venture Intelligence",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Venture Intelligence",
+    "Focus": "Venture Intelligence layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: Mission-grade calculations for the frontier",
    "public_links": [
     "https://trajectoryos-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "UserOS",
    "slug": "useros",
    "site": "https://useros-public.vercel.app/",
    "aria_label": "Open UserOS site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Personal operating systems for identity, habits, and self-direction.",
+   "category": "Personal Systems",
+   "category_path": "Personal Systems",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Personal Systems",
+    "Focus": "Personal Systems layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Ship first flow: Personal operating systems for identity, habits, and self-direction",
    "public_links": [
     "https://useros-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "WorkflowCanvas",
    "slug": "workflowcanvas",
    "site": "https://workflowcanvas-public.vercel.app/",
    "aria_label": "Open WorkflowCanvas site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Canvas-based workflow design for teams automating complex operations.",
+   "category": "AI",
+   "category_path": "AI / Productivity Infrastructure",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "AI",
+    "Focus": "AI layer in"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Align hero and first action with: Every worker gets a workflow-native interface, not a static\u2026",
    "public_links": [
     "https://workflowcanvas-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "BioYield Labs",
    "slug": "bioyield-labs",
    "site": "https://bioyield-labs-public.vercel.app/",
    "aria_label": "Open BioYield Labs site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Planning surface for crop-protection trials.",
+   "category": "Research",
+   "category_path": "Research",
+   "status": "Research",
+   "tone": "moss",
+   "operating_facts": {
+    "Stage": "Research",
+    "Type": "Research",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Market mapping": "Active",
+    "MVP readiness": "Early",
+    "User clarity": "Forming"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Validate user pain and define wedge",
    "public_links": [
     "https://bioyield-labs-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "Brad&#x27;s Best Bubbles",
-   "slug": "brad-x27-s-best-bubbles",
+   "slug": "bradsbestbubbles",
    "site": "https://bradsbestbubbles-public.vercel.app/",
    "aria_label": "Open Brad&#x27;s Best Bubbles site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "A small consumer product site.",
+   "category": "Consumer",
+   "category_path": "Consumer",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Consumer",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Sharpen Brad&#x27;s Best Bubbles homepage and first user action",
    "public_links": [
     "https://bradsbestbubbles-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "Cheetah Bear Fuel",
-   "slug": "cheetah-bear-fuel",
+   "slug": "cheetahbearfuel",
    "site": "https://cheetahbearfuel-public.vercel.app/",
    "aria_label": "Open Cheetah Bear Fuel site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "A fuel and energy consumer concept.",
+   "category": "Consumer",
+   "category_path": "Consumer",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Consumer",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Sharpen Cheetah Bear Fuel homepage and first user action",
    "public_links": [
     "https://cheetahbearfuel-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "ClaimPilot AI",
    "slug": "claimpilot-ai",
    "site": "https://claimpilot-ai-public.vercel.app/",
    "aria_label": "Open ClaimPilot AI site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Policy matching and quote comparison for small brokers.",
+   "category": "SaaS",
+   "category_path": "SaaS",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "SaaS",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Sharpen ClaimPilot AI homepage and first user action",
    "public_links": [
     "https://claimpilot-ai-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "CompanyOS",
    "slug": "companyos",
    "site": "https://companyos-public.vercel.app/",
    "aria_label": "Open CompanyOS site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Meetings, tickets, and goals in one operating loop.",
+   "category": "SaaS",
+   "category_path": "SaaS",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "SaaS",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Sharpen CompanyOS homepage and first user action",
    "public_links": [
     "https://companyos-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "CortexHQ",
    "slug": "cortexhq",
    "site": "https://cortexhq-website.vercel.app/",
    "aria_label": "Open CortexHQ site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "A simulated company brain. No live customer data.",
+   "category": "SaaS",
+   "category_path": "SaaS",
+   "status": "Research",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Research",
+    "Type": "SaaS",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Market mapping": "Active",
+    "MVP readiness": "Early",
+    "User clarity": "Forming"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Validate user pain and define wedge",
    "public_links": [
     "https://cortexhq-website.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "EvalForge",
    "slug": "evalforge",
    "site": "https://evalforge-public.vercel.app/",
    "aria_label": "Open EvalForge site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Compare model answers. A person still has to approve them.",
+   "category": "Developer tools",
+   "category_path": "Developer tools",
+   "status": "Building",
+   "tone": "water",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Developer tools",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Sharpen EvalForge homepage and first user action",
    "public_links": [
     "https://evalforge-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "ForgeFlow",
    "slug": "forgeflow",
    "site": "https://forgeflow.noaerth.com/",
    "aria_label": "Open ForgeFlow site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "A workflow concept still on the studio page.",
+   "category": "Developer tools",
+   "category_path": "Developer tools",
+   "status": "Building",
+   "tone": "water",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Developer tools",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Sharpen ForgeFlow homepage and first user action",
    "public_links": [
     "https://forgeflow.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "GrokGeneral",
    "slug": "grokgeneral",
    "site": "https://grokgeneral.vercel.app/",
    "aria_label": "Open GrokGeneral site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "The local kernel for the GrokBot ecosystem.",
+   "category": "Developer tools",
+   "category_path": "Developer tools",
+   "status": "Building",
+   "tone": "water",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Developer tools",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Sharpen GrokGeneral homepage and first user action",
    "public_links": [
     "https://grokgeneral.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "LedgerOps AI",
    "slug": "ledgerops-ai",
    "site": "https://ledgerops-ai.vercel.app/",
    "aria_label": "Open LedgerOps AI site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "A monthly close from pasted sample transactions.",
+   "category": "Finance",
+   "category_path": "Finance",
+   "status": "Building",
+   "tone": "sand",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Finance",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Sharpen LedgerOps AI homepage and first user action",
    "public_links": [
     "https://ledgerops-ai.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "Lost Bag",
    "slug": "lost-bag",
    "site": "https://www.noaerth.com/ventures/lost-bag",
    "aria_label": "Open Lost Bag site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "A lost-luggage concept.",
+   "category": "Consumer",
+   "category_path": "Consumer",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Consumer",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Sharpen Lost Bag homepage and first user action",
    "public_links": [
     "https://www.noaerth.com/ventures/lost-bag"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "N-1 Therapeutics",
-   "slug": "n-1-therapeutics",
+   "slug": "n1-therapeutics",
    "site": "https://www.noaerth.com/ventures/n1-therapeutics",
    "aria_label": "Open N-1 Therapeutics site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "An educational worksheet for a physician conversation.",
+   "category": "Health",
+   "category_path": "Health",
+   "status": "Research",
+   "tone": "moss",
+   "operating_facts": {
+    "Stage": "Research",
+    "Type": "Health",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Market mapping": "Active",
+    "MVP readiness": "Early",
+    "User clarity": "Forming"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Validate user pain and define wedge",
    "public_links": [
     "https://www.noaerth.com/ventures/n1-therapeutics"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "NATUREX",
    "slug": "naturex",
    "site": "https://www.noaerth.com/ventures/naturex",
    "aria_label": "Open NATUREX site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "A local model of natural forms, not a live nature network.",
+   "category": "Research",
+   "category_path": "Research",
+   "status": "Research",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Research",
+    "Type": "Research",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Market mapping": "Active",
+    "MVP readiness": "Early",
+    "User clarity": "Forming"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Validate user pain and define wedge",
    "public_links": [
     "https://www.noaerth.com/ventures/naturex"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "P-Aware",
    "slug": "p-aware",
    "site": "https://www.noaerth.com/ventures/p-aware",
    "aria_label": "Open P-Aware site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "A local perception lab for authorized sensor data.",
+   "category": "Research",
+   "category_path": "Research",
+   "status": "Research",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Research",
+    "Type": "Research",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Market mapping": "Active",
+    "MVP readiness": "Early",
+    "User clarity": "Forming"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Validate user pain and define wedge",
    "public_links": [
     "https://www.noaerth.com/ventures/p-aware"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "Photon iMessage",
-   "slug": "photon-imessage",
+   "slug": "imessage",
    "site": "https://imessage-eight.vercel.app/",
    "aria_label": "Open Photon iMessage site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "A small form for one consented iMessage.",
+   "category": "Consumer",
+   "category_path": "Consumer",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Consumer",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Sharpen Photon iMessage homepage and first user action",
    "public_links": [
     "https://imessage-eight.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "ReviewForge AI",
    "slug": "reviewforge-ai",
    "site": "https://www.noaerth.com/ventures/reviewforge-ai",
    "aria_label": "Open ReviewForge AI site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "A review-workflow concept.",
+   "category": "SaaS",
+   "category_path": "SaaS",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "SaaS",
+    "Focus": "Product"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Sharpen ReviewForge AI homepage and first user action",
    "public_links": [
     "https://www.noaerth.com/ventures/reviewforge-ai"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "1BC",
    "slug": "1bc",
    "site": "https://1bc-public.vercel.app/",
    "aria_label": "Open 1BC site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Venture in venture studio exploring a clearer product direction.",
+   "category": "Venture Studio",
+   "category_path": "Venture Studio",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Venture Studio",
+    "Focus": "Venture Studio layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Ship first flow: A venture studio for building companies with discipline inside the Noaerth e\u2026",
    "public_links": [
     "https://1bc-public.vercel.app/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
+   ],
+   "retrieved_at": "2026-10-06T18:49:53Z"
   },
   {
    "name": "ExecutionOS",
    "slug": "executionos",
    "site": "https://executionos.noaerth.com/",
    "aria_label": "Open ExecutionOS site",
-   "positioning": "",
-   "category": "",
-   "status": "",
+   "positioning": "Venture in startup infrastructure exploring a clearer product direction.",
+   "category": "Startup Infrastructure",
+   "category_path": "Startup Infrastructure / Autonomous Operations",
+   "status": "Building",
+   "tone": "earth",
+   "operating_facts": {
+    "Stage": "Building",
+    "Type": "Startup Infrastructure",
+    "Focus": "Startup Infrastructure layer"
+   },
+   "signal_meters": {
+    "Build progress": "Forming",
+    "Product clarity": "Active",
+    "Launch readiness": "Early"
+   },
+   "signals": {
+    "Clarity": "Active",
+    "Build": "Forming"
+   },
+   "next_milestone": "Dogfood execution loop across portfolio ventures",
    "public_links": [
     "https://executionos.noaerth.com/"
    ],
    "public_metrics": {},
-   "retrieved_at": "2026-10-06T16:27:04Z",
    "page_sections": [
     {
-     "heading": "Who are you here as?"
+     "heading": "Where compounding focus clusters in the portfolio."
     },
     {
-     "heading": "What the studio made public."
-    },
-    {
-     "heading": "One portfolio, different kinds of work."
-    },
-    {
-     "heading": "PAIOS"
-    },
-    {
-     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
-    },
-    {
-     "heading": "Proof you can open\u2014not pitch-deck promises."
-    },
-    {
-     "heading": "Plan, score, and review\u2014before you ship."
-    },
-    {
-     "heading": "Full venture operating map."
-    },
-    {
-     "heading": "Full venture operating map"
+     "heading": "Explore by stage, category, and build signal"
     }
-   ]
-  },
-  {
-   "name": "_named_in_prose",
-   "slug": "_prose",
-   "site": "",
-   "positioning": "",
-   "category": "",
-   "status": "",
-   "public_links": [],
-   "public_metrics": {},
-   "names": [
-    "AccessXWorld",
-    "AutoERP"
    ],
-   "retrieved_at": "2026-10-06T16:27:04Z"
+   "retrieved_at": "2026-10-06T18:49:53Z"
   }
  ]
 }

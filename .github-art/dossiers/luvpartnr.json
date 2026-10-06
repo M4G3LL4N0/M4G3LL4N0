@@ -9,46 +9,92 @@
  },
  "classification": "PUBLIC_PROJECT",
  "color_family": "",
- "control_flow": "records cross a trust boundary, get validated, and are held or rejected",
- "data_flow": "",
+ "control_flow": "primary entry: HTTP API",
+ "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
  "depth": "layered",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "115",
-  "source_a_files": 96,
-  "source_a_local": "/Users/matador/startups/luvpartnr",
-  "source_b_venture": "luvpartnr",
-  "source_c_github": "https://github.com/M4G3LL4N0/luvpartnr"
+  "arch_doc": "ARCHITECTURE.md",
+  "cli_entrypoint": "",
+  "manifest": "package.json",
+  "readme": "README.md",
+  "source_a_local": "/srv/noaerth/startups/luvpartnr",
+  "source_files_sampled": 66,
+  "test_files": 0
  },
  "experimental_features": [],
- "frameworks": [],
+ "frameworks": [
+  "next.js",
+  "react",
+  "supabase",
+  "tailwindcss"
+ ],
  "geometry_family": "DATA_FLOW",
  "github_repo": "luvpartnr",
- "industry": "SECURITY",
- "input_types": [],
- "known_limitations": [],
+ "industry": "GENERAL",
+ "input_types": [
+  "HTTP requests (JSON)"
+ ],
+ "interfaces": [
+  "HTTP API",
+  "server actions"
+ ],
+ "known_limitations": [
+  "LOCAL_REVIEW.md: Public metrics are illustrative unless marked PROVEN in `startupjourney.md`.",
+  "LOCAL_REVIEW.md: High-stakes decisions require human professional review where applicable.",
+  "no test tree in the repository; no test count is claimed",
+  "no CI workflow configured",
+  "no LICENSE file at the repository root"
+ ],
  "languages": [
   "TypeScript"
  ],
- "major_components": [],
+ "major_components": [
+  "app/app (13 files)",
+  "components (11 files)",
+  "src/components (11 files)",
+  "app/api (7 files)",
+  "public (5 files)",
+  ".autobuilder (4 files)",
+  "app/* (4 files)",
+  "lib/supabase (3 files)",
+  "public-site (3 files)",
+  "src/app (2 files)"
+ ],
  "mapping_confidence": "high",
  "material_family": "",
- "output_types": [],
- "primary_user": "",
+ "noaerth_category": "Relationship Intelligence",
+ "noaerth_category_path": "Relationship Intelligence",
+ "noaerth_next_milestone": "Complete Stripe + one end-to-end case \u2192 PDF report (DEMO labeled)",
+ "noaerth_operating_facts": {
+  "Focus": "relationships",
+  "Stage": "Building",
+  "Type": "Relationship Intelligence"
+ },
+ "noaerth_site": "https://luvpartnr.vercel.app/",
+ "output_types": [
+  "HTTP responses (JSON)",
+  "route handlers: analyze-entry, analyze-message, checkout, global-insights, profile-insights, push-send, push-subscribe, reports/generate",
+  "persisted to file-backed JSON"
+ ],
+ "primary_user": "built for Vercel",
  "primary_visual_metaphor": "gated channels passing through a sealed boundary",
- "primary_workflow": "records cross a trust boundary, get validated, and are held or rejected",
- "problem": "",
- "project_category": "SECURITY",
+ "primary_workflow": "",
+ "problem": "Relationship intelligence with emotional depth.",
+ "problem_source": "public venture card (no project-authored statement)",
+ "project_category": "GENERAL",
+ "project_category_basis": "no category signal in evidence",
+ "project_category_previous": "GENERAL",
  "public_financial_context": "not published per venture",
- "public_noaerth_positioning": "",
+ "public_noaerth_positioning": "Relationship intelligence with emotional depth.",
  "purpose": "LUVPARTNR is a private AI relationship intelligence platform that helps users analyze partner behavior, communication patterns, compatibility, and long-term risk using structured reports, decision-support tools, and a living case file system.",
- "release": "unknown",
+ "release": "0.1.0",
  "secondary_visual_metaphor": "",
  "secondary_workflows": [],
  "security_characteristics": [],
- "state_model": "",
+ "state_model": "file-backed JSON",
  "technical_category": "DATA_FLOW",
- "terminal_metaphor": "a cursor running real commands",
+ "terminal_metaphor": "",
  "tests": {
   "executed": false,
   "files": 0,
@@ -57,10 +103,13 @@
  },
  "trillionx_intensity": "standard",
  "unresolved": [
-  "primary_user",
-  "problem"
+  "verified_features",
+  "security_characteristics",
+  "terminal_metaphor",
+  "primary_workflow"
  ],
- "venture_stage": "",
+ "venture_stage": "Building",
+ "verified_commands": [],
  "verified_features": [],
  "visual_density": "medium"
 }

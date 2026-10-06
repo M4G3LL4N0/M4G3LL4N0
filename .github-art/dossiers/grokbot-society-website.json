@@ -1,7 +1,9 @@
 {
  "animation_metaphor": "nodes advertise capability, a coordinator selects, work converges",
  "architecture_type": "DISTRIBUTED",
- "benchmark_dimensions": [],
+ "benchmark_dimensions": [
+  "benchmark harness present: src/godbridge/benchmarks.ts, tests/10.god-benchmarks.test.ts"
+ ],
  "canonical_name": "grokbot-society-website",
  "ci": {
   "present": true,
@@ -9,46 +11,71 @@
  },
  "classification": "PUBLIC_PROJECT",
  "color_family": "",
- "control_flow": "nodes advertise capability, a coordinator selects, work converges",
- "data_flow": "",
+ "control_flow": "",
+ "data_flow": "input \u2192 sqlite \u2192 persisted to sqlite",
  "depth": "layered",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "8",
-  "source_a_files": 129,
-  "source_a_local": "/Users/matador/startups/grokbot-society",
-  "source_b_venture": "",
-  "source_c_github": "https://github.com/M4G3LL4N0/grokbot-society-website"
+  "arch_doc": "ARCHITECTURE.md",
+  "cli_entrypoint": "",
+  "manifest": "package.json",
+  "readme": "README.md",
+  "source_a_local": "/srv/noaerth/startups/grokbot-society",
+  "source_files_sampled": 79,
+  "test_files": 14
  },
  "experimental_features": [],
- "frameworks": [],
+ "frameworks": [
+  "vite",
+  "vitest"
+ ],
  "geometry_family": "DISTRIBUTED",
  "github_repo": "grokbot-society-website",
- "industry": "INFRASTRUCTURE",
+ "industry": "AGENT",
  "input_types": [],
+ "interfaces": [],
  "known_limitations": [],
  "languages": [
   "TypeScript"
  ],
- "major_components": [],
+ "major_components": [
+  "handoff (16 files)",
+  "docs (14 files)",
+  "tests (14 files)",
+  "src/runtime (10 files)",
+  "src/god (8 files)",
+  "examples (7 files)",
+  ".github (6 files)",
+  "src/godbridge (5 files)",
+  "src/intelligence (5 files)",
+  "src/providers (5 files)"
+ ],
  "mapping_confidence": "high",
  "material_family": "",
- "output_types": [],
- "primary_user": "",
+ "output_types": [
+  "persisted to sqlite",
+  "persisted to file-backed JSON"
+ ],
+ "primary_user": "built for persistent synthetic people",
  "primary_visual_metaphor": "a service mesh with one coordinating node",
- "primary_workflow": "nodes advertise capability, a coordinator selects, work converges",
- "problem": "",
- "project_category": "INFRASTRUCTURE",
+ "primary_workflow": "",
+ "problem": "GrokBot Society is a runtime for building **persistent social worlds** populated by synthetic people who remember, relate, and evolve\u2014without burning money on continuous LLM calls.",
+ "problem_source": "project source",
+ "project_category": "AGENT",
+ "project_category_basis": "project text: llm, grok",
+ "project_category_previous": "AGENT",
  "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "",
  "purpose": "Public website for the persistent-agent runtime.",
- "release": "unknown",
+ "release": "0.1.0",
  "secondary_visual_metaphor": "",
  "secondary_workflows": [],
- "security_characteristics": [],
- "state_model": "",
+ "security_characteristics": [
+  "SECURITY.md documents the threat model and disclosure path"
+ ],
+ "state_model": "sqlite, file-backed JSON",
  "technical_category": "DISTRIBUTED",
- "terminal_metaphor": "a cursor running real commands",
+ "terminal_metaphor": "",
  "tests": {
   "executed": false,
   "files": 14,
@@ -57,10 +84,14 @@
  },
  "trillionx_intensity": "standard",
  "unresolved": [
-  "primary_user",
-  "problem"
+  "input_types",
+  "verified_features",
+  "known_limitations",
+  "terminal_metaphor",
+  "primary_workflow"
  ],
  "venture_stage": "",
+ "verified_commands": [],
  "verified_features": [],
  "visual_density": "medium"
 }

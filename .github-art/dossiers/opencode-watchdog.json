@@ -9,46 +9,79 @@
  },
  "classification": "FLAGSHIP",
  "color_family": "",
- "control_flow": "objective becomes a plan, tools execute, verification resolves the answer",
- "data_flow": "",
+ "control_flow": "ocw run build",
+ "data_flow": "input \u2192 file-backed JSON \u2192 the returned value",
  "depth": "layered",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "7",
-  "source_a_files": 85,
-  "source_a_local": "/Users/matador/startups/opencode-watchdog",
-  "source_b_venture": "opencode-watchdog",
-  "source_c_github": "https://github.com/M4G3LL4N0/opencode-watchdog"
+  "arch_doc": "",
+  "cli_entrypoint": "package.json scripts",
+  "manifest": "package.json",
+  "readme": "README.md",
+  "source_a_local": "/srv/noaerth/startups/opencode-watchdog",
+  "source_files_sampled": 47,
+  "test_files": 12
  },
  "experimental_features": [],
  "frameworks": [],
  "geometry_family": "AGENT_LOOP",
  "github_repo": "opencode-watchdog",
- "industry": "AGENT",
+ "industry": "DEVELOPER_TOOLS",
  "input_types": [],
+ "interfaces": [],
  "known_limitations": [],
  "languages": [
   "TypeScript"
  ],
- "major_components": [],
+ "major_components": [
+  "fixtures (22 files)",
+  "src/core (20 files)",
+  "tests (12 files)",
+  "src/adapters (6 files)",
+  "docs (2 files)",
+  "src/cli (2 files)",
+  "src/util (2 files)",
+  ".github (1 file)",
+  "bin (1 file)",
+  "scripts (1 file)"
+ ],
  "mapping_confidence": "high",
  "material_family": "",
- "output_types": [],
- "primary_user": "",
+ "noaerth_category": "Developer tools",
+ "noaerth_category_path": "Developer tools",
+ "noaerth_next_milestone": "Improve conversion on OpenCode Watchdog live surface",
+ "noaerth_operating_facts": {
+  "Focus": "Product",
+  "Stage": "Live",
+  "Type": "Developer tools"
+ },
+ "noaerth_site": "https://opencode-watchdog.vercel.app/",
+ "output_types": [
+  "persisted to file-backed JSON"
+ ],
+ "primary_user": "built for runaway OpenCode sessions",
  "primary_visual_metaphor": "a closed loop with a verification terminus",
- "primary_workflow": "objective becomes a plan, tools execute, verification resolves the answer",
- "problem": "",
- "project_category": "AGENT",
+ "primary_workflow": "",
+ "problem": "OpenCode Watchdog notices the repetition and safely interrupts the affected session.",
+ "problem_source": "project source",
+ "project_category": "DEVELOPER_TOOLS",
+ "project_category_basis": "ships a verified CLI",
+ "project_category_previous": "DEVELOPER_TOOLS",
  "public_financial_context": "not published per venture",
- "public_noaerth_positioning": "",
+ "public_noaerth_positioning": "A local circuit breaker for runaway OpenCode sessions.",
  "purpose": "Local circuit breaker for runaway OpenCode sessions. Deterministic detection, no model, no data leaves the machine.",
- "release": "unknown",
+ "release": "0.1.0",
  "secondary_visual_metaphor": "",
- "secondary_workflows": [],
- "security_characteristics": [],
- "state_model": "",
+ "secondary_workflows": [
+  "ocw run test \u2014 run the test suite",
+  "ocw run typecheck \u2014 tsc -p tsconfig.json --noEmit"
+ ],
+ "security_characteristics": [
+  "SECURITY.md documents the threat model and disclosure path"
+ ],
+ "state_model": "file-backed JSON",
  "technical_category": "AGENT_LOOP",
- "terminal_metaphor": "a cursor running real commands",
+ "terminal_metaphor": "a shell running ocw run build, ocw run test, ocw run typecheck against ocw",
  "tests": {
   "executed": false,
   "files": 12,
@@ -57,10 +90,33 @@
  },
  "trillionx_intensity": "standard",
  "unresolved": [
-  "primary_user",
-  "problem"
+  "input_types",
+  "verified_features",
+  "known_limitations",
+  "frameworks",
+  "primary_workflow"
  ],
- "venture_stage": "",
+ "venture_stage": "Live",
+ "verified_commands": [
+  {
+   "command": "ocw run build",
+   "help": "build the project",
+   "parent": "",
+   "source": "package.json scripts"
+  },
+  {
+   "command": "ocw run test",
+   "help": "run the test suite",
+   "parent": "",
+   "source": "package.json scripts"
+  },
+  {
+   "command": "ocw run typecheck",
+   "help": "tsc -p tsconfig.json --noEmit",
+   "parent": "",
+   "source": "package.json scripts"
+  }
+ ],
  "verified_features": [],
  "visual_density": "medium"
 }

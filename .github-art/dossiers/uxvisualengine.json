@@ -9,46 +9,89 @@
  },
  "classification": "PUBLIC_PROJECT",
  "color_family": "",
- "control_flow": "records ingest, normalise, index, answer",
- "data_flow": "",
+ "control_flow": "primary entry: HTTP API",
+ "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
  "depth": "layered",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "3",
-  "source_a_files": 44,
-  "source_a_local": "/Users/matador/startups/uxvisualengine",
-  "source_b_venture": "uxvisualengine",
-  "source_c_github": "https://github.com/M4G3LL4N0/uxvisualengine"
+  "arch_doc": "",
+  "cli_entrypoint": "",
+  "manifest": "package.json",
+  "readme": "README.md",
+  "source_a_local": "/srv/noaerth/startups/uxvisualengine",
+  "source_files_sampled": 11,
+  "test_files": 1
  },
  "experimental_features": [],
- "frameworks": [],
+ "frameworks": [
+  "next.js",
+  "playwright",
+  "react",
+  "tailwindcss"
+ ],
  "geometry_family": "DATA_FLOW",
  "github_repo": "uxvisualengine",
  "industry": "GENERAL",
- "input_types": [],
- "known_limitations": [],
+ "input_types": [
+  "HTTP requests (JSON)"
+ ],
+ "interfaces": [
+  "HTTP API"
+ ],
+ "known_limitations": [
+  "LOCAL_REVIEW.md: Public metrics are illustrative unless marked PROVEN in `startupjourney.md`.",
+  "LOCAL_REVIEW.md: High-stakes decisions require human professional review where applicable.",
+  "only 1 test file(s); coverage is narrow",
+  "no CI workflow configured"
+ ],
  "languages": [
   "HTML"
  ],
- "major_components": [],
+ "major_components": [
+  "public (5 files)",
+  "src/app (5 files)",
+  ".autobuilder (3 files)",
+  "public-site (3 files)",
+  "src/lib (2 files)",
+  "src/engine (1 file)",
+  "tests (1 file)"
+ ],
  "mapping_confidence": "high",
  "material_family": "",
- "output_types": [],
- "primary_user": "",
+ "noaerth_category": "Design Infrastructure",
+ "noaerth_category_path": "Design Infrastructure / Product UX",
+ "noaerth_next_milestone": "Label mock engine",
+ "noaerth_operating_facts": {
+  "Focus": "UX generation and",
+  "Stage": "Building",
+  "Type": "Design Infrastructure"
+ },
+ "noaerth_site": "https://uxvisualengine-public.vercel.app/",
+ "output_types": [
+  "HTTP responses (JSON)",
+  "route handlers: checkout",
+  "persisted to file-backed JSON"
+ ],
+ "primary_user": "built for AI-built interfaces",
  "primary_visual_metaphor": "parallel channels converging into an index",
- "primary_workflow": "records ingest, normalise, index, answer",
- "problem": "",
+ "primary_workflow": "",
+ "problem": "Nothing in it observes hierarchy, contrast, overflow, or whether the result resembles every other generated site. The defect ships, and the only signal is a user complaint.",
+ "problem_source": "project source",
  "project_category": "GENERAL",
+ "project_category_basis": "no category signal in evidence",
+ "project_category_previous": "GENERAL",
  "public_financial_context": "not published per venture",
- "public_noaerth_positioning": "",
+ "public_noaerth_positioning": "Generate cleaner interfaces, faster.",
  "purpose": "uxvisualengine. Work in progress; see the repository contents for detail.",
- "release": "unknown",
+ "release": "0.1.0",
  "secondary_visual_metaphor": "",
  "secondary_workflows": [],
- "security_characteristics": [],
- "state_model": "",
+ "security_characteristics": [
+  "secret redaction in the execution path"
+ ],
+ "state_model": "file-backed JSON",
  "technical_category": "DATA_FLOW",
- "terminal_metaphor": "a cursor running real commands",
+ "terminal_metaphor": "",
  "tests": {
   "executed": false,
   "files": 1,
@@ -57,10 +100,12 @@
  },
  "trillionx_intensity": "standard",
  "unresolved": [
-  "primary_user",
-  "problem"
+  "verified_features",
+  "terminal_metaphor",
+  "primary_workflow"
  ],
- "venture_stage": "",
+ "venture_stage": "Building",
+ "verified_commands": [],
  "verified_features": [],
  "visual_density": "medium"
 }

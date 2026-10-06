@@ -9,46 +9,96 @@
  },
  "classification": "PUBLIC_PROJECT",
  "color_family": "",
- "control_flow": "requests arrive, candidates narrow, one route is selected",
- "data_flow": "",
+ "control_flow": "grokbot-office run build",
+ "data_flow": "MCP JSON-RPC over stdio \u2192 sqlite \u2192 persisted to sqlite",
  "depth": "layered",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "6",
-  "source_a_files": 99,
-  "source_a_local": "/Users/matador/startups/grokbot-office",
-  "source_b_venture": "grokbot-office",
-  "source_c_github": "https://github.com/M4G3LL4N0/grokbot-office"
+  "arch_doc": "ARCHITECTURE.md",
+  "cli_entrypoint": "package.json scripts",
+  "manifest": "package.json",
+  "readme": "README.md",
+  "source_a_local": "/srv/noaerth/startups/grokbot-office",
+  "source_files_sampled": 44,
+  "test_files": 19
  },
  "experimental_features": [],
  "frameworks": [],
  "geometry_family": "ROUTER",
  "github_repo": "grokbot-office",
- "industry": "SECURITY",
- "input_types": [],
- "known_limitations": [],
+ "industry": "DEVELOPER_TOOLS",
+ "input_types": [
+  "MCP JSON-RPC over stdio"
+ ],
+ "interfaces": [
+  "MCP stdio",
+  "A2A"
+ ],
+ "known_limitations": [
+  "GrokBot Office owns supervisory context and coordination policy.",
+  "AgentOS owns provider-neutral execution, routing, recovery, and learning.",
+  "Workers own bounded execution, not workforce policy.",
+  "Verifiers own evidence, not self-approval.",
+  "Human owners retain approval for consequential actions."
+ ],
  "languages": [
   "TypeScript"
  ],
- "major_components": [],
+ "major_components": [
+  "src/* (19 files)",
+  "tests (19 files)",
+  "examples (8 files)",
+  ".github (7 files)",
+  "config (6 files)",
+  "registry (5 files)",
+  "src/adapters (2 files)",
+  "generated (1 file)",
+  "scripts (1 file)",
+  "state (1 file)"
+ ],
  "mapping_confidence": "high",
  "material_family": "",
- "output_types": [],
- "primary_user": "",
+ "noaerth_category": "Developer tools",
+ "noaerth_category_path": "Developer tools",
+ "noaerth_next_milestone": "Improve conversion on GrokBot Office live surface",
+ "noaerth_operating_facts": {
+  "Focus": "Product",
+  "Stage": "Live",
+  "Type": "Developer tools"
+ },
+ "noaerth_site": "https://grokbot-office-xi.vercel.app/",
+ "output_types": [
+  "persisted to sqlite",
+  "persisted to file-backed JSON",
+  "CSV exports"
+ ],
+ "primary_user": "built for a large",
  "primary_visual_metaphor": "radial convergence onto a selected node",
- "primary_workflow": "requests arrive, candidates narrow, one route is selected",
- "problem": "",
- "project_category": "SECURITY",
+ "primary_workflow": "The goal is not to make every task expensive or to create one bot per role. The goal is to make the next equivalent task cheaper by retrieving the right artifact, reducing context, and keeping the smallest capable team in control.",
+ "problem": "GrokBot Office is a public-safe reference control layer for a large, external workforce. It keeps the persistent supervisory core small: a small set of Grok supervisors owns intent, context, policy, tradeoffs, and handoffs while replaceable workers do the bounded work.",
+ "problem_source": "project source",
+ "project_category": "DEVELOPER_TOOLS",
+ "project_category_basis": "ships a verified CLI",
+ "project_category_previous": "DEVELOPER_TOOLS",
  "public_financial_context": "not published per venture",
- "public_noaerth_positioning": "",
+ "public_noaerth_positioning": "Run a workforce. Do not become the workforce.",
  "purpose": "Agent workforce architecture: roles, policy, handoffs and resource governance as configuration.",
- "release": "unknown",
+ "release": "0.1.0",
  "secondary_visual_metaphor": "",
- "secondary_workflows": [],
- "security_characteristics": [],
- "state_model": "",
+ "secondary_workflows": [
+  "grokbot-office run test \u2014 run the test suite",
+  "grokbot-office run start \u2014 start the service",
+  "grokbot-office run grok \u2014 tsx src/cli.ts",
+  "grokbot-office run typecheck \u2014 tsc --noEmit",
+  "grokbot-office run validate \u2014 tsx src/cli.ts validate"
+ ],
+ "security_characteristics": [
+  "SECURITY.md documents the threat model and disclosure path",
+  "approval required before privileged action"
+ ],
+ "state_model": "sqlite, file-backed JSON",
  "technical_category": "ROUTER",
- "terminal_metaphor": "a cursor running real commands",
+ "terminal_metaphor": "a shell running grokbot-office run build, grokbot-office run test, grokbot-office run start against grokbot-office",
  "tests": {
   "executed": false,
   "files": 19,
@@ -57,10 +107,48 @@
  },
  "trillionx_intensity": "standard",
  "unresolved": [
-  "primary_user",
-  "problem"
+  "verified_features",
+  "frameworks"
  ],
- "venture_stage": "",
+ "venture_stage": "Live",
+ "verified_commands": [
+  {
+   "command": "grokbot-office run build",
+   "help": "build the project",
+   "parent": "",
+   "source": "package.json scripts"
+  },
+  {
+   "command": "grokbot-office run test",
+   "help": "run the test suite",
+   "parent": "",
+   "source": "package.json scripts"
+  },
+  {
+   "command": "grokbot-office run start",
+   "help": "start the service",
+   "parent": "",
+   "source": "package.json scripts"
+  },
+  {
+   "command": "grokbot-office run grok",
+   "help": "tsx src/cli.ts",
+   "parent": "",
+   "source": "package.json scripts"
+  },
+  {
+   "command": "grokbot-office run typecheck",
+   "help": "tsc --noEmit",
+   "parent": "",
+   "source": "package.json scripts"
+  },
+  {
+   "command": "grokbot-office run validate",
+   "help": "tsx src/cli.ts validate",
+   "parent": "",
+   "source": "package.json scripts"
+  }
+ ],
  "verified_features": [],
  "visual_density": "medium"
 }

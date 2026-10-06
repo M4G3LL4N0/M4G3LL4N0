@@ -9,46 +9,89 @@
  },
  "classification": "PUBLIC_PROJECT",
  "color_family": "",
- "control_flow": "records cross a trust boundary, get validated, and are held or rejected",
- "data_flow": "",
+ "control_flow": "primary entry: HTTP API",
+ "data_flow": "HTTP requests (JSON) \u2192 in-process state \u2192 HTTP responses (JSON)",
  "depth": "layered",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "70",
-  "source_a_files": 139,
-  "source_a_local": "/Users/matador/startups/therapyux",
-  "source_b_venture": "therapyux",
-  "source_c_github": "https://github.com/M4G3LL4N0/TherapyUX"
+  "arch_doc": "ARCHITECTURE.md",
+  "cli_entrypoint": "",
+  "manifest": "package.json",
+  "readme": "README.md",
+  "source_a_local": "/srv/noaerth/startups/therapyux",
+  "source_files_sampled": 80,
+  "test_files": 0
  },
  "experimental_features": [],
- "frameworks": [],
+ "frameworks": [
+  "next.js",
+  "react",
+  "tailwindcss"
+ ],
  "geometry_family": "DATA_FLOW",
  "github_repo": "TherapyUX",
- "industry": "SECURITY",
- "input_types": [],
- "known_limitations": [],
+ "industry": "BIOTECH",
+ "input_types": [
+  "HTTP requests (JSON)"
+ ],
+ "interfaces": [
+  "HTTP API"
+ ],
+ "known_limitations": [
+  "LOCAL_REVIEW.md: Public metrics are illustrative unless marked PROVEN in `startupjourney.md`.",
+  "LOCAL_REVIEW.md: High-stakes decisions require human professional review where applicable.",
+  "no test tree in the repository; no test count is claimed",
+  "no CI workflow configured",
+  "no LICENSE file at the repository root"
+ ],
  "languages": [
   "TypeScript"
  ],
- "major_components": [],
+ "major_components": [
+  "components (54 files)",
+  "app/(app) (9 files)",
+  "app/app (9 files)",
+  "lib/* (9 files)",
+  "types (8 files)",
+  "lib/supabase (6 files)",
+  "public (5 files)",
+  "app/* (4 files)",
+  "hooks (4 files)",
+  ".autobuilder (3 files)"
+ ],
  "mapping_confidence": "high",
  "material_family": "",
- "output_types": [],
- "primary_user": "",
+ "noaerth_category": "Education",
+ "noaerth_category_path": "Education / Human Betterment",
+ "noaerth_next_milestone": "Restore one mode flow from backup with crisis disclaimer",
+ "noaerth_operating_facts": {
+  "Focus": "therapy",
+  "Stage": "Building",
+  "Type": "Education"
+ },
+ "noaerth_site": "https://therapyux-public.vercel.app/",
+ "output_types": [
+  "HTTP responses (JSON)",
+  "route handlers: checkout, waitlist"
+ ],
+ "primary_user": "built for Vercel",
  "primary_visual_metaphor": "gated channels passing through a sealed boundary",
- "primary_workflow": "records cross a trust boundary, get validated, and are held or rejected",
- "problem": "",
- "project_category": "SECURITY",
+ "primary_workflow": "",
+ "problem": "Adaptive therapy support built around you.",
+ "problem_source": "public venture card (no project-authored statement)",
+ "project_category": "BIOTECH",
+ "project_category_basis": "project text: therap",
+ "project_category_previous": "BIOTECH",
  "public_financial_context": "not published per venture",
- "public_noaerth_positioning": "",
+ "public_noaerth_positioning": "Adaptive therapy support built around you.",
  "purpose": "TherapyUX. build via `package.json`.",
- "release": "unknown",
+ "release": "0.1.0",
  "secondary_visual_metaphor": "",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "",
  "technical_category": "DATA_FLOW",
- "terminal_metaphor": "a cursor running real commands",
+ "terminal_metaphor": "",
  "tests": {
   "executed": false,
   "files": 0,
@@ -57,10 +100,14 @@
  },
  "trillionx_intensity": "standard",
  "unresolved": [
-  "primary_user",
-  "problem"
+  "state_model",
+  "verified_features",
+  "security_characteristics",
+  "terminal_metaphor",
+  "primary_workflow"
  ],
- "venture_stage": "",
+ "venture_stage": "Building",
+ "verified_commands": [],
  "verified_features": [],
  "visual_density": "medium"
 }

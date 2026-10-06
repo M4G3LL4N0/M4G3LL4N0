@@ -9,46 +9,89 @@
  },
  "classification": "PUBLIC_PROJECT",
  "color_family": "",
- "control_flow": "capital enters, allocates across positions, and settles into an outcome",
- "data_flow": "",
+ "control_flow": "primary entry: HTTP API",
+ "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
  "depth": "layered",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "2",
-  "source_a_files": 72,
-  "source_a_local": "/Users/matador/startups/genotwin-health",
-  "source_b_venture": "genotwin-health",
-  "source_c_github": "https://github.com/M4G3LL4N0/genotwin-health"
+  "arch_doc": "ARCHITECTURE.md",
+  "cli_entrypoint": "",
+  "manifest": "package.json",
+  "readme": "README.md",
+  "source_a_local": "/srv/noaerth/startups/genotwin-health",
+  "source_files_sampled": 49,
+  "test_files": 0
  },
  "experimental_features": [],
- "frameworks": [],
+ "frameworks": [
+  "next.js",
+  "prisma",
+  "react",
+  "tailwindcss"
+ ],
  "geometry_family": "DATA_FLOW",
  "github_repo": "genotwin-health",
- "industry": "FINANCE",
- "input_types": [],
- "known_limitations": [],
+ "industry": "BIOTECH",
+ "input_types": [
+  "HTTP requests (JSON)"
+ ],
+ "interfaces": [
+  "HTTP API"
+ ],
+ "known_limitations": [
+  "no test tree in the repository; no test count is claimed",
+  "no CI workflow configured",
+  "no LICENSE file at the repository root"
+ ],
  "languages": [
   "TypeScript"
  ],
- "major_components": [],
+ "major_components": [
+  "components (21 files)",
+  "public (11 files)",
+  "lib/* (6 files)",
+  "app/* (5 files)",
+  "app/api (2 files)",
+  "app/dashboard (2 files)",
+  "app/about (1 file)",
+  "app/contact (1 file)",
+  "app/demo (1 file)",
+  "app/docs (1 file)"
+ ],
  "mapping_confidence": "high",
  "material_family": "",
- "output_types": [],
- "primary_user": "",
+ "noaerth_category": "Health Support",
+ "noaerth_category_path": "Health Support",
+ "noaerth_next_milestone": "Publish install path and one CLI demo",
+ "noaerth_operating_facts": {
+  "Focus": "Health Support layer",
+  "Stage": "Building",
+  "Type": "Health Support"
+ },
+ "noaerth_site": "https://genotwin-health.vercel.app/",
+ "output_types": [
+  "HTTP responses (JSON)",
+  "route handlers: twin, twin/[id]",
+  "persisted to file-backed JSON"
+ ],
+ "primary_user": "built for medical decisions",
  "primary_visual_metaphor": "ledger columns with allocation flow between them",
- "primary_workflow": "capital enters, allocates across positions, and settles into an outcome",
- "problem": "",
- "project_category": "FINANCE",
+ "primary_workflow": "",
+ "problem": "Educational MVP: a **non-medical** \u201chealth twin\u201d worksheet that combines mock genomics notes, wearable-style summaries, sleep, activity, nutrition, and goals into wellness insights, habit ideas, risk-awareness language, and clinician discussion prompts.",
+ "problem_source": "project source",
+ "project_category": "BIOTECH",
+ "project_category_basis": "project text: genom, nutrition, wellness",
+ "project_category_previous": "BIOTECH",
  "public_financial_context": "not published per venture",
- "public_noaerth_positioning": "",
+ "public_noaerth_positioning": "Health resilience systems informed by genomic and twin-style modeling.",
  "purpose": "Startup portfolio: genotwin-health",
- "release": "unknown",
+ "release": "0.1.0",
  "secondary_visual_metaphor": "",
  "secondary_workflows": [],
  "security_characteristics": [],
- "state_model": "",
+ "state_model": "file-backed JSON",
  "technical_category": "DATA_FLOW",
- "terminal_metaphor": "a cursor running real commands",
+ "terminal_metaphor": "",
  "tests": {
   "executed": false,
   "files": 0,
@@ -57,10 +100,13 @@
  },
  "trillionx_intensity": "standard",
  "unresolved": [
-  "primary_user",
-  "problem"
+  "verified_features",
+  "security_characteristics",
+  "terminal_metaphor",
+  "primary_workflow"
  ],
- "venture_stage": "",
+ "venture_stage": "Building",
+ "verified_commands": [],
  "verified_features": [],
  "visual_density": "medium"
 }

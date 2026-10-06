@@ -9,46 +9,92 @@
  },
  "classification": "PUBLIC_PROJECT",
  "color_family": "",
- "control_flow": "records cross a trust boundary, get validated, and are held or rejected",
- "data_flow": "",
+ "control_flow": "primary entry: HTTP API",
+ "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
  "depth": "layered",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "7",
-  "source_a_files": 70,
-  "source_a_local": "/Users/matador/startups/evalforge",
-  "source_b_venture": "evalforge",
-  "source_c_github": "https://github.com/M4G3LL4N0/evalforge"
+  "arch_doc": "ARCHITECTURE.md",
+  "cli_entrypoint": "",
+  "manifest": "package.json",
+  "readme": "README.md",
+  "source_a_local": "/srv/noaerth/startups/evalforge",
+  "source_files_sampled": 40,
+  "test_files": 1
  },
  "experimental_features": [],
- "frameworks": [],
+ "frameworks": [
+  "next.js",
+  "react",
+  "tailwindcss"
+ ],
  "geometry_family": "DATA_FLOW",
  "github_repo": "evalforge",
- "industry": "SECURITY",
- "input_types": [],
- "known_limitations": [],
+ "industry": "FINANCE",
+ "input_types": [
+  "HTTP requests (JSON)"
+ ],
+ "interfaces": [
+  "HTTP API"
+ ],
+ "known_limitations": [
+  "LOCAL_REVIEW.md: Public metrics are illustrative unless marked PROVEN in `startupjourney.md`.",
+  "LOCAL_REVIEW.md: High-stakes decisions require human professional review where applicable.",
+  "ROADMAP.md: Policy pages = drafts",
+  "only 1 test file(s); coverage is narrow",
+  "no CI workflow configured",
+  "no LICENSE file at the repository root"
+ ],
  "languages": [
   "TypeScript"
  ],
- "major_components": [],
+ "major_components": [
+  "components (24 files)",
+  "lib/eval (7 files)",
+  "public (5 files)",
+  "app/* (3 files)",
+  "public-site (3 files)",
+  "app/api (1 file)",
+  "lib/* (1 file)",
+  "src/app (1 file)",
+  "tests (1 file)"
+ ],
  "mapping_confidence": "high",
  "material_family": "",
- "output_types": [],
- "primary_user": "",
+ "noaerth_category": "Developer tools",
+ "noaerth_category_path": "Developer tools",
+ "noaerth_next_milestone": "Sharpen EvalForge homepage and first user action",
+ "noaerth_operating_facts": {
+  "Focus": "Product",
+  "Stage": "Building",
+  "Type": "Developer tools"
+ },
+ "noaerth_site": "https://evalforge-public.vercel.app/",
+ "output_types": [
+  "HTTP responses (JSON)",
+  "route handlers: evaluate",
+  "persisted to file-backed JSON"
+ ],
+ "primary_user": "built for comparing chatbot responses",
  "primary_visual_metaphor": "gated channels passing through a sealed boundary",
- "primary_workflow": "records cross a trust boundary, get validated, and are held or rejected",
- "problem": "",
- "project_category": "SECURITY",
+ "primary_workflow": "",
+ "problem": "EvalForge is a human-in-the-loop AI evaluation cockpit for comparing chatbot responses and coding answers with multiple OpenRouter models.",
+ "problem_source": "project source",
+ "project_category": "FINANCE",
+ "project_category_basis": "project text: valuation",
+ "project_category_previous": "FINANCE",
  "public_financial_context": "not published per venture",
- "public_noaerth_positioning": "",
+ "public_noaerth_positioning": "Compare model answers. A person still has to approve them.",
  "purpose": "Startup portfolio: evalforge",
- "release": "unknown",
+ "release": "0.1.0",
  "secondary_visual_metaphor": "",
  "secondary_workflows": [],
- "security_characteristics": [],
- "state_model": "",
+ "security_characteristics": [
+  "approval required before privileged action"
+ ],
+ "state_model": "file-backed JSON",
  "technical_category": "DATA_FLOW",
- "terminal_metaphor": "a cursor running real commands",
+ "terminal_metaphor": "",
  "tests": {
   "executed": false,
   "files": 1,
@@ -57,10 +103,12 @@
  },
  "trillionx_intensity": "standard",
  "unresolved": [
-  "primary_user",
-  "problem"
+  "verified_features",
+  "terminal_metaphor",
+  "primary_workflow"
  ],
- "venture_stage": "",
+ "venture_stage": "Building",
+ "verified_commands": [],
  "verified_features": [],
  "visual_density": "medium"
 }

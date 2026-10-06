@@ -9,40 +9,84 @@
  },
  "classification": "PUBLIC_PROJECT",
  "color_family": "",
- "control_flow": "capital enters, allocates across positions, and settles into an outcome",
- "data_flow": "",
+ "control_flow": "primary entry: HTTP API",
+ "data_flow": "HTTP requests (JSON) \u2192 in-process state \u2192 HTTP responses (JSON)",
  "depth": "layered",
  "design_version": "V6",
  "evidence": {
-  "source_a_commits": "4",
-  "source_a_files": 71,
-  "source_a_local": "/Users/matador/startups/n1-therapeutics",
-  "source_b_venture": "n-1-therapeutics",
-  "source_c_github": "https://github.com/M4G3LL4N0/n1-therapeutics"
+  "arch_doc": "ARCHITECTURE.md",
+  "cli_entrypoint": "",
+  "manifest": "package.json",
+  "readme": "README.md",
+  "source_a_local": "/srv/noaerth/startups/n1-therapeutics",
+  "source_files_sampled": 42,
+  "test_files": 0
  },
  "experimental_features": [],
- "frameworks": [],
+ "frameworks": [
+  "next.js",
+  "prisma",
+  "react",
+  "tailwindcss"
+ ],
  "geometry_family": "DATA_FLOW",
  "github_repo": "n1-therapeutics",
- "industry": "FINANCE",
- "input_types": [],
- "known_limitations": [],
+ "industry": "BIOTECH",
+ "input_types": [
+  "HTTP requests (JSON)"
+ ],
+ "interfaces": [
+  "HTTP API"
+ ],
+ "known_limitations": [
+  "LOCAL_REVIEW.md: Public metrics are illustrative unless marked PROVEN in `startupjourney.md`.",
+  "LOCAL_REVIEW.md: High-stakes decisions require human professional review where applicable.",
+  "no test tree in the repository; no test count is claimed",
+  "no CI workflow configured",
+  "no LICENSE file at the repository root"
+ ],
  "languages": [
   "TypeScript"
  ],
- "major_components": [],
+ "major_components": [
+  "components (20 files)",
+  "public (5 files)",
+  "app/* (4 files)",
+  "lib/* (4 files)",
+  "public-site (4 files)",
+  "app/api (2 files)",
+  "src/app (2 files)",
+  "src/lib (2 files)",
+  "app/about (1 file)",
+  "app/contact (1 file)"
+ ],
  "mapping_confidence": "high",
  "material_family": "",
- "output_types": [],
- "primary_user": "",
+ "noaerth_category": "Health",
+ "noaerth_category_path": "Health",
+ "noaerth_next_milestone": "Validate user pain and define wedge",
+ "noaerth_operating_facts": {
+  "Focus": "Product",
+  "Stage": "Research",
+  "Type": "Health"
+ },
+ "noaerth_site": "https://www.noaerth.com/ventures/n1-therapeutics",
+ "output_types": [
+  "HTTP responses (JSON)",
+  "route handlers: sessions, sessions/[id]"
+ ],
+ "primary_user": "built for UX practice",
  "primary_visual_metaphor": "ledger columns with allocation flow between them",
- "primary_workflow": "capital enters, allocates across positions, and settles into an outcome",
- "problem": "",
- "project_category": "FINANCE",
+ "primary_workflow": "",
+ "problem": "**Research and care-navigation MVP \u2014 not medical advice.** Users build an educational N-of-1 worksheet (condition category, biomarker themes, symptoms, goals). The app produces a high-level therapy landscape, a heuristic research-confidence score, a trial-readiness checklist, a physician discussion brief, and **fiction",
+ "problem_source": "project source",
+ "project_category": "BIOTECH",
+ "project_category_basis": "project text: bio, therap",
+ "project_category_previous": "BIOTECH",
  "public_financial_context": "not published per venture",
- "public_noaerth_positioning": "",
+ "public_noaerth_positioning": "An educational worksheet for a physician conversation.",
  "purpose": "Startup portfolio: n1-therapeutics",
- "release": "unknown",
+ "release": "0.1.0",
  "secondary_visual_metaphor": "",
  "secondary_workflows": [],
  "security_characteristics": [],
@@ -57,10 +101,14 @@
  },
  "trillionx_intensity": "standard",
  "unresolved": [
-  "primary_user",
-  "problem"
+  "state_model",
+  "verified_features",
+  "security_characteristics",
+  "terminal_metaphor",
+  "primary_workflow"
  ],
- "venture_stage": "",
+ "venture_stage": "Research",
+ "verified_commands": [],
  "verified_features": [],
  "visual_density": "medium"
 }
