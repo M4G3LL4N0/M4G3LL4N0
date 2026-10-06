@@ -67,6 +67,14 @@ jobs:
 
       # Regenerating must be a no-op. If the committed artwork differs from what
       # the generator produces, the repository is lying about its own contents.
+      # Design-controlled assets must not drift without an explicit lock move.
+      # Runs before the reproducibility gate so a reverted hero is reported as a
+      # lock violation rather than as a hash mismatch.
+      - name: Art lock holds
+        run: |
+          set -euo pipefail
+          python3 scripts/profile_art/art_lock.py --verify
+
       - name: Artwork is reproducible
         run: |
           set -euo pipefail

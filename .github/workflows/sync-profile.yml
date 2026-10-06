@@ -119,17 +119,34 @@ jobs:
       # The identity is generated, not hand-drawn. Every number in the artwork
       # is read from the inventory and tests.json; no SVG contains a literal
       # metric, so the graphics cannot drift from the repositories they describe.
-      - name: Regenerate profile art from the signal
+      # ROOT CAUSE OF THE ART REVERSION, FIXED.
+      #
+      # This step used to run `generate.py`, which regenerates the hero, system
+      # map, terminal and every card, then committed the result. Its commit
+      # message claimed "no hand-authored content is modified", which was false.
+      # An approved hero could therefore be replaced by whatever the generator
+      # emitted that day, silently, on a schedule.
+      #
+      # The fix is architectural rather than cosmetic: scheduled automation no
+      # longer runs the design generator at all. It updates only the factual
+      # signal -- measured test counts, release versions, CI state -- and the
+      # bounded README regions that own those facts. Design-controlled assets
+      # are produced by an explicit, human-initiated run and are hash-locked.
+      - name: Update factual signal only (design assets untouched)
         env:
           GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
         run: |
           if grep -q '"skipped"' inventory.json 2>/dev/null; then
-            echo "snapshot unavailable, artwork left unchanged"
+            echo "snapshot unavailable, signal left unchanged"
             exit 0
           fi
           python3 scripts/profile_art/build_signal_data.py --inventory
-          python3 scripts/profile_art/generate.py
           python3 scripts/profile_art/render_signal_block.py
+
+      - name: Enforce art lock
+        run: |
+          set -euo pipefail
+          python3 scripts/profile_art/art_lock.py --verify
 
       # The upstream block is regenerated from the signal rather than written by
       # hand, so "no external merged contributions" removes the section instead
@@ -147,7 +164,10 @@ jobs:
 
       - name: Commit only if content changed
         run: |
-          if git diff --quiet -- README.md assets/profile; then
+          if git diff --quiet -- README.md \
+              assets/profile/build-signal.json \
+              assets/profile/build-signal-dark.svg \
+              assets/profile/build-signal-light.svg; then
             echo "Generated sections unchanged. No commit."
             exit 0
           fi
@@ -156,12 +176,26 @@ jobs:
           # metric refresh must never look like a person typed it.
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/profile
+          # Stage only what automation is allowed to change. `git add
+          # assets/profile` swept in every design-controlled asset, which is
+          # how a regenerated hero got committed as housekeeping.
+          git add README.md \
+            assets/profile/build-signal.json \
+            assets/profile/build-signal-dark.svg \
+            assets/profile/build-signal-light.svg
           cat > /tmp/commit-message.txt <<'MSG'
-          docs(profile): sync generated sections and artwork from the GitHub API
+          docs(profile): sync measured metrics
 
-          Automated refresh of measured metrics and generated artwork.
-          Housekeeping only; no hand-authored content is modified.
+          Automated refresh of factual state only: test counts, release
+          versions, CI status, and the bounded README regions that render
+          them.
+
+          Design-controlled assets -- hero, system map, terminal, cards,
+          windows, nav, social preview -- are NOT regenerated here and are
+          hash-locked by scripts/profile_art/art_lock.py. An earlier version of
+          this job ran the design generator and committed its output while
+          claiming no hand-authored content was modified. That was the cause of
+          a reverted hero, and it is now structurally impossible.
 
           Co-Authored-By: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
           MSG
