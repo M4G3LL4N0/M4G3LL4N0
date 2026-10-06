@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "a dependency graph resolves, packages install, the build advances",
+ "animation_metaphor": "value enters, allocates across positions, and settles",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "datatherapy-website",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "mint",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 in-process state \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "recessed",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -28,7 +28,7 @@
   "react",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "CAPITAL_MECHANICS",
  "github_repo": "datatherapy-website",
  "industry": "BIOTECH",
  "input_types": [
@@ -58,13 +58,13 @@
   "src/lib (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "ceramic",
  "output_types": [
   "HTTP responses (JSON)",
   "route handlers: checkout"
  ],
  "primary_user": "",
- "primary_visual_metaphor": "an orthogonal dependency lattice",
+ "primary_visual_metaphor": "value entering, allocating and settling across columns",
  "primary_workflow": "",
  "problem": "DataTherapy is a clarity-first platform designed to help people understand scary news, fear-triggering ideas, and uncertainty using structured data, context, and calm interpretation.",
  "problem_source": "project source",
@@ -75,7 +75,7 @@
  "public_noaerth_positioning": "",
  "purpose": "datatherapy website. package.json.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "allocation bars in orthogonal arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "",

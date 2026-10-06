@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "capital enters, allocates across positions, and settles into an outcome",
+ "animation_metaphor": "a composed grid assembles and a sweep resolves it",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "BioYield Labs",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "violet",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -29,7 +29,7 @@
   "react",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "PRESENTATION",
  "github_repo": "bioyield-labs",
  "industry": "BIOTECH",
  "input_types": [
@@ -63,7 +63,7 @@
   "src/lib (2 files)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "polymer",
  "noaerth_category": "Research",
  "noaerth_category_path": "Research",
  "noaerth_next_milestone": "Validate user pain and define wedge",
@@ -79,7 +79,7 @@
   "persisted to file-backed JSON"
  ],
  "primary_user": "",
- "primary_visual_metaphor": "ledger columns with allocation flow between them",
+ "primary_visual_metaphor": "a composed grid assembling and settling",
  "primary_workflow": "",
  "problem": "Premium Next.js MVP for **RNA-based and microbial crop protection** planning: simulator, pest matcher, trial intake, and dashboard (SQLite + Prisma).",
  "problem_source": "project source",
@@ -90,7 +90,7 @@
  "public_noaerth_positioning": "Planning surface for crop-protection trials.",
  "purpose": "Startup portfolio: bioyield-labs",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "component mosaic in orthogonal arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

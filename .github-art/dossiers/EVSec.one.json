@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "records ingest, normalise, index, answer",
+ "animation_metaphor": "traffic reaches a boundary; the boundary admits some and holds the rest",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "EvSec-One",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "indigo",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 in-process state \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "sealed",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -29,7 +29,7 @@
   "supabase",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "TRUST_BOUNDARY",
  "github_repo": "EVSec.one",
  "industry": "SECURITY",
  "input_types": [
@@ -64,7 +64,7 @@
   "lib/* (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "anodised_steel",
  "noaerth_category": "Privacy",
  "noaerth_category_path": "Privacy / Security",
  "noaerth_next_milestone": "Scan flow that returns labeled DEMO results + checklist",
@@ -79,7 +79,7 @@
   "route handlers: checkout"
  ],
  "primary_user": "built for Vercel",
- "primary_visual_metaphor": "parallel channels converging into an index",
+ "primary_visual_metaphor": "a sealed boundary holding or admitting traffic",
  "primary_workflow": "",
  "problem": "Operational security for serious builders.",
  "problem_source": "public venture card (no project-authored statement)",
@@ -90,7 +90,7 @@
  "public_noaerth_positioning": "Operational security for serious builders.",
  "purpose": "EVSec.one. Work in progress; see the repository contents for detail.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "gated channels in orthogonal arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "",

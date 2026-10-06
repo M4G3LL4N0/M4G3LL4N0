@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "capital enters, allocates across positions, and settles into an outcome",
+ "animation_metaphor": "nodes advertise, a coordinator selects, work converges",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "LoopCompute Cloud",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "cyan",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -29,7 +29,7 @@
   "react",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "ORCHESTRATION",
  "github_repo": "loopcompute-cloud",
  "industry": "AGENT",
  "input_types": [
@@ -61,7 +61,7 @@
   "app/pricing (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "liquid_crystal",
  "noaerth_category": "AI Infrastructure",
  "noaerth_category_path": "AI Infrastructure",
  "noaerth_next_milestone": "Show live vs mock compute orchestration labels",
@@ -77,7 +77,7 @@
   "persisted to file-backed JSON"
  ],
  "primary_user": "built for multi-agent orchestration",
- "primary_visual_metaphor": "ledger columns with allocation flow between them",
+ "primary_visual_metaphor": "nodes converging on a coordinating cell",
  "primary_workflow": "",
  "problem": "LoopCompute Cloud MVP: cloud workload planner for multi-agent orchestration, memory persistence, and latency-aware routing.",
  "problem_source": "project source",
@@ -88,7 +88,7 @@
  "public_noaerth_positioning": "Cloud compute loops for teams shipping AI products at portfolio scale.",
  "purpose": "Startup portfolio: loopcompute-cloud",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "coordinating mesh in linear arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

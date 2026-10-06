@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "records cross a trust boundary, get validated, and are held or rejected",
+ "animation_metaphor": "traffic reaches a boundary; the boundary admits some and holds the rest",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "TrustXVerify",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "indigo",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "sealed",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -29,7 +29,7 @@
   "supabase",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "TRUST_BOUNDARY",
  "github_repo": "TrustxVerify",
  "industry": "SECURITY",
  "input_types": [
@@ -59,7 +59,7 @@
   "supabase (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "anodised_steel",
  "noaerth_category": "Trust Infrastructure",
  "noaerth_category_path": "Trust Infrastructure",
  "noaerth_next_milestone": "Ship first verification workflow on site",
@@ -75,7 +75,7 @@
   "persisted to file-backed JSON"
  ],
  "primary_user": "built for global commerce",
- "primary_visual_metaphor": "gated channels passing through a sealed boundary",
+ "primary_visual_metaphor": "a sealed boundary holding or admitting traffic",
  "primary_workflow": "",
  "problem": "It scores buyers, sellers, businesses, marketplace accounts, and addresses before transactions happen. Reputation is siloed, fraud is portable, and marketplace operators need a shared legitimacy layer that can follow risk signals across eBay, Facebook Marketplace, Shopify, Craigslist, freight forwarding addresses, and ",
  "problem_source": "project source",
@@ -86,7 +86,7 @@
  "public_noaerth_positioning": "Verify trust before it matters.",
  "purpose": "TrustxVerify. package.json.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "concentric shell in orthogonal arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

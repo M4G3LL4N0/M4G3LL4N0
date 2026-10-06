@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "an objective becomes context, tools read and write state, the loop closes",
+ "animation_metaphor": "value enters, allocates across positions, and settles",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "SoulMayte",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "mint",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "recessed",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -29,7 +29,7 @@
   "supabase",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "CAPITAL_MECHANICS",
  "github_repo": "SoulMayte",
  "industry": "GENERAL",
  "input_types": [
@@ -59,7 +59,7 @@
   "supabase (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "ceramic",
  "noaerth_category": "Relationships",
  "noaerth_category_path": "Relationships / Consumer",
  "noaerth_next_milestone": "Ship first integration path on SoulMayte",
@@ -75,7 +75,7 @@
   "persisted to file-backed JSON"
  ],
  "primary_user": "built for Vercel",
- "primary_visual_metaphor": "a state ring with tool nodes attached",
+ "primary_visual_metaphor": "value entering, allocating and settling across columns",
  "primary_workflow": "",
  "problem": "A deeper map of compatibility.",
  "problem_source": "public venture card (no project-authored statement)",
@@ -86,7 +86,7 @@
  "public_noaerth_positioning": "A deeper map of compatibility.",
  "purpose": "SoulMayte. build via `package.json`.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "scenario panels in terraced arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

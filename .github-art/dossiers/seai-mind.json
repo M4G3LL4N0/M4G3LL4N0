@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "objective becomes a plan, tools execute, verification resolves",
+ "animation_metaphor": "value enters, allocates across positions, and settles",
  "architecture_type": "AGENT_LOOP",
  "benchmark_dimensions": [
   "benchmark harness present: packages/mind/src/benchmark.ts, web/src/lib/content/benchmarks.ts"
@@ -10,10 +10,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "mint",
  "control_flow": "primary entry: CLI",
  "data_flow": "CLI arguments \u2192 file-backed JSON \u2192 stdout / stderr",
- "depth": "layered",
+ "depth": "stratified",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "",
@@ -29,7 +29,7 @@
   "vite",
   "vitest"
  ],
- "geometry_family": "AGENT_LOOP",
+ "geometry_family": "CAPITAL_MECHANICS",
  "github_repo": "seai-mind",
  "industry": "AGENT",
  "input_types": [
@@ -59,7 +59,7 @@
   "minds (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "ceramic",
  "noaerth_category": "Research",
  "noaerth_category_path": "Research",
  "noaerth_next_milestone": "Improve conversion on SE-AI Mind live surface",
@@ -77,7 +77,7 @@
   "CSV exports"
  ],
  "primary_user": "Self-Evolving Artificial Intelligence - Darwin Generation",
- "primary_visual_metaphor": "closed loop with a verification terminus",
+ "primary_visual_metaphor": "value entering, allocating and settling across columns",
  "primary_workflow": "",
  "problem": "Open-source self-evolving AI kernel. Small kernel, growing intelligence: Minds + Models + Memory + Skills + Tools + Evolution + Evaluation.",
  "problem_source": "project source",
@@ -88,7 +88,7 @@
  "public_noaerth_positioning": "A small kernel for a mind that can be measured.",
  "purpose": "Open-source self-evolving AI kernel with an auditable memory and capability loop.",
  "release": "0.1.0-alpha",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "ledger columns in linear arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON, SQLite via ORM",

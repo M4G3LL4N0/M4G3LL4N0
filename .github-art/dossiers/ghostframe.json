@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "policy surfaces assemble into a readable security posture",
+ "animation_metaphor": "claims stack into tiers, and evidence is carried up to be checked",
  "architecture_type": "DOCUMENT",
  "benchmark_dimensions": [],
  "canonical_name": "GhostFrame",
@@ -8,7 +8,7 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "mint",
  "control_flow": "",
  "data_flow": "",
  "depth": "layered",
@@ -28,7 +28,7 @@
   "react",
   "tailwindcss"
  ],
- "geometry_family": "DOCUMENT",
+ "geometry_family": "EVIDENCE_SURFACE",
  "github_repo": "ghostframe",
  "industry": "GENERAL",
  "input_types": [],
@@ -54,7 +54,7 @@
   "app/pricing (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "deep_glass",
  "noaerth_category": "Media Intelligence",
  "noaerth_category_path": "Media Intelligence",
  "noaerth_next_milestone": "Label planning signals and real data sources",
@@ -66,7 +66,7 @@
  "noaerth_site": "https://ghostframe-ten.vercel.app/",
  "output_types": [],
  "primary_user": "built for Vercel",
- "primary_visual_metaphor": "nested policy frames with a visible boundary edge",
+ "primary_visual_metaphor": "claims stacking into checkable tiers",
  "primary_workflow": "",
  "problem": "Media intelligence for framing, narrative, and signal in public discourse.",
  "problem_source": "public venture card (no project-authored statement)",
@@ -77,7 +77,7 @@
  "public_noaerth_positioning": "Media intelligence for framing, narrative, and signal in public discourse.",
  "purpose": "Startup portfolio: ghostframe",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "policy stack in orthogonal arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "",

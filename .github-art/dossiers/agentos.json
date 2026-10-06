@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "nodes advertise capability, a coordinator selects, work converges",
+ "animation_metaphor": "Interface Layer \u2192 Control Layer \u2192 Capability Layer \u2192 Execution Layer",
  "architecture_type": "DISTRIBUTED",
  "benchmark_dimensions": [
   "benchmark harness present: BENCHMARKS.md, src/agentos/benchmarks.py"
@@ -10,10 +10,10 @@
   "workflows": []
  },
  "classification": "FLAGSHIP",
- "color_family": "",
+ "color_family": "cyan",
  "control_flow": "agentos run",
  "data_flow": "Interface Layer \u2192 Control Layer \u2192 Capability Layer \u2192 Execution Layer \u2192 State Layer",
- "depth": "layered",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -26,7 +26,7 @@
  },
  "experimental_features": [],
  "frameworks": [],
- "geometry_family": "DISTRIBUTED",
+ "geometry_family": "ORCHESTRATION",
  "github_repo": "agentos",
  "industry": "DEVELOPER_TOOLS",
  "input_types": [
@@ -70,7 +70,7 @@
   "adapters/opencode.py \u2014 Real `opencode run --format json` delegation (prompt/project/model/agent/files)."
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "liquid_crystal",
  "noaerth_category": "Developer tools",
  "noaerth_category_path": "Developer tools",
  "noaerth_next_milestone": "Improve conversion on AgentOS live surface",
@@ -87,7 +87,7 @@
   "files on disk"
  ],
  "primary_user": "A universal, provider-neutral AI Agent Engine and orchestration control plane.",
- "primary_visual_metaphor": "a service mesh with one coordinating node",
+ "primary_visual_metaphor": "nodes converging on a coordinating cell",
  "primary_workflow": "Verified useful output is the goal. Lower cost is a result of choosing the smallest capable path, not a reason to fabricate measurements or skip verification.",
  "problem": "AgentOS is the generic execution and orchestration engine. It accepts an objective, inspects the current state, discovers capabilities, plans a bounded route, executes through an adapter, verifies the result, persists evidence, and decides what to do next. Humans and AI systems can use the same core through the CLI, lo",
  "problem_source": "project source",
@@ -98,7 +98,7 @@
  "public_noaerth_positioning": "Requested is not verified.",
  "purpose": "Provider-neutral AI agent execution and orchestration engine: objective in, verified outcome out.",
  "release": "0.5.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "staged pipeline in branching arrangement",
  "secondary_workflows": [
   "agentos status \u2014 show engine status summary",
   "agentos doctor \u2014 run health checks",
@@ -116,7 +116,7 @@
  ],
  "state_model": "sqlite, file-backed JSON",
  "technical_category": "DISTRIBUTED",
- "terminal_metaphor": "a shell running agentos run, agentos status, agentos doctor against agentos",
+ "terminal_metaphor": "agentos run \u2014 execute an objective through the engine",
  "tests": {
   "executed": false,
   "files": 44,

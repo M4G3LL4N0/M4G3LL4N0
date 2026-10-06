@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "capital enters, allocates across positions, and settles into an outcome",
+ "animation_metaphor": "a cursor runs this project's real commands and output resolves",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "CompanyOS",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "cyan",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "CLI arguments \u2192 in-process state \u2192 stdout / stderr (also via HTTP requests (JSON))",
- "depth": "layered",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -29,7 +29,7 @@
   "react",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "INSTRUMENT",
  "github_repo": "companyos",
  "industry": "DEVELOPER_TOOLS",
  "input_types": [
@@ -63,7 +63,7 @@
   "app/brief (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "ceramic",
  "noaerth_category": "SaaS",
  "noaerth_category_path": "SaaS",
  "noaerth_next_milestone": "Sharpen CompanyOS homepage and first user action",
@@ -79,7 +79,7 @@
   "route handlers: runs, runs/[id]"
  ],
  "primary_user": "built for capturing meetings",
- "primary_visual_metaphor": "ledger columns with allocation flow between them",
+ "primary_visual_metaphor": "a command surface reporting as it runs",
  "primary_workflow": "",
  "problem": "Closed-loop AI operating system MVP for capturing meetings, customer interactions, tickets, goals, and execution metrics.",
  "problem_source": "project source",
@@ -90,7 +90,7 @@
  "public_noaerth_positioning": "Meetings, tickets, and goals in one operating loop.",
  "purpose": "Startup portfolio: companyos",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "instrument dial in linear arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "",

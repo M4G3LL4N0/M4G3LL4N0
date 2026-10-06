@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "an objective becomes context, tools read and write state, the loop closes",
+ "animation_metaphor": "value enters, allocates across positions, and settles",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "Spouwse",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "mint",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "recessed",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -29,7 +29,7 @@
   "supabase",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "CAPITAL_MECHANICS",
  "github_repo": "Spouwse",
  "industry": "GENERAL",
  "input_types": [
@@ -58,7 +58,7 @@
   "lib/* (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "obsidian",
  "noaerth_category": "Consumer Intelligence",
  "noaerth_category_path": "Consumer Intelligence",
  "noaerth_next_milestone": "Quiz results \u2192 shared PDF plan",
@@ -74,7 +74,7 @@
   "persisted to file-backed JSON"
  ],
  "primary_user": "built for women",
- "primary_visual_metaphor": "a state ring with tool nodes attached",
+ "primary_visual_metaphor": "value entering, allocating and settling across columns",
  "primary_workflow": "",
  "problem": "Spouwse is a premium relationship intelligence platform for women who want stronger long-term relationships, better communication, more emotional clarity, and deeper connection.",
  "problem_source": "project source",
@@ -85,7 +85,7 @@
  "public_noaerth_positioning": "Marriage systems with more intention.",
  "purpose": "Spouwse. Work in progress; see the repository contents for detail.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "ledger columns in terraced arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

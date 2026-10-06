@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "requests arrive, candidates narrow, one route is selected",
+ "animation_metaphor": "MCP JSON-RPC over stdio \u2192 sqlite \u2192 persisted to sqlite",
  "architecture_type": "ROUTER",
  "benchmark_dimensions": [],
  "canonical_name": "GrokBot Office",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "cyan",
  "control_flow": "grokbot-office run build",
  "data_flow": "MCP JSON-RPC over stdio \u2192 sqlite \u2192 persisted to sqlite",
- "depth": "layered",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -24,7 +24,7 @@
  },
  "experimental_features": [],
  "frameworks": [],
- "geometry_family": "ROUTER",
+ "geometry_family": "ORCHESTRATION",
  "github_repo": "grokbot-office",
  "industry": "DEVELOPER_TOOLS",
  "input_types": [
@@ -57,7 +57,7 @@
   "state (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "luminous_ceramic",
  "noaerth_category": "Developer tools",
  "noaerth_category_path": "Developer tools",
  "noaerth_next_milestone": "Improve conversion on GrokBot Office live surface",
@@ -73,7 +73,7 @@
   "CSV exports"
  ],
  "primary_user": "built for a large",
- "primary_visual_metaphor": "radial convergence onto a selected node",
+ "primary_visual_metaphor": "nodes converging on a coordinating cell",
  "primary_workflow": "The goal is not to make every task expensive or to create one bot per role. The goal is to make the next equivalent task cheaper by retrieving the right artifact, reducing context, and keeping the smallest capable team in control.",
  "problem": "GrokBot Office is a public-safe reference control layer for a large, external workforce. It keeps the persistent supervisory core small: a small set of Grok supervisors owns intent, context, policy, tradeoffs, and handoffs while replaceable workers do the bounded work.",
  "problem_source": "project source",
@@ -84,7 +84,7 @@
  "public_noaerth_positioning": "Run a workforce. Do not become the workforce.",
  "purpose": "Agent workforce architecture: roles, policy, handoffs and resource governance as configuration.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "staged pipeline in branching arrangement",
  "secondary_workflows": [
   "grokbot-office run test \u2014 run the test suite",
   "grokbot-office run start \u2014 start the service",
@@ -98,7 +98,7 @@
  ],
  "state_model": "sqlite, file-backed JSON",
  "technical_category": "ROUTER",
- "terminal_metaphor": "a shell running grokbot-office run build, grokbot-office run test, grokbot-office run start against grokbot-office",
+ "terminal_metaphor": "grokbot-office run build \u2014 build the project",
  "tests": {
   "executed": false,
   "files": 19,

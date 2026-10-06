@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "records ingest, normalise, index, answer",
+ "animation_metaphor": "value enters, allocates across positions, and settles",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "UXVisualEngine",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "mint",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "stratified",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "",
@@ -29,7 +29,7 @@
   "react",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "CAPITAL_MECHANICS",
  "github_repo": "uxvisualengine",
  "industry": "GENERAL",
  "input_types": [
@@ -57,7 +57,7 @@
   "tests (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "ceramic",
  "noaerth_category": "Design Infrastructure",
  "noaerth_category_path": "Design Infrastructure / Product UX",
  "noaerth_next_milestone": "Label mock engine",
@@ -73,7 +73,7 @@
   "persisted to file-backed JSON"
  ],
  "primary_user": "built for AI-built interfaces",
- "primary_visual_metaphor": "parallel channels converging into an index",
+ "primary_visual_metaphor": "value entering, allocating and settling across columns",
  "primary_workflow": "",
  "problem": "Nothing in it observes hierarchy, contrast, overflow, or whether the result resembles every other generated site. The defect ships, and the only signal is a user complaint.",
  "problem_source": "project source",
@@ -84,7 +84,7 @@
  "public_noaerth_positioning": "Generate cleaner interfaces, faster.",
  "purpose": "uxvisualengine. Work in progress; see the repository contents for detail.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "scenario panels in linear arrangement",
  "secondary_workflows": [],
  "security_characteristics": [
   "secret redaction in the execution path"

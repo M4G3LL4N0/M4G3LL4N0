@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "a dependency graph resolves, packages install, the build advances",
+ "animation_metaphor": "a composed grid assembles and a sweep resolves it",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "cropshield-ai-website",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "violet",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "stacked",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -29,7 +29,7 @@
   "react",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "PRESENTATION",
  "github_repo": "cropshield-ai-website",
  "industry": "BIOTECH",
  "input_types": [
@@ -61,14 +61,14 @@
   "app/contact (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "polymer",
  "output_types": [
   "HTTP responses (JSON)",
   "route handlers: reports, reports/[id]",
   "persisted to file-backed JSON"
  ],
  "primary_user": "",
- "primary_visual_metaphor": "an orthogonal dependency lattice",
+ "primary_visual_metaphor": "a composed grid assembling and settling",
  "primary_workflow": "",
  "problem": "Premium Next.js MVP for **AI-assisted crop diagnostics** and **precision spray planning** with a deterministic rules engine (swap in real CV/robotics later).",
  "problem_source": "project source",
@@ -79,7 +79,7 @@
  "public_noaerth_positioning": "",
  "purpose": "cropshield ai website. package.json.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "soft tiles in mesh arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

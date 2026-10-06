@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "records cross a trust boundary, get validated, and are held or rejected",
+ "animation_metaphor": "traffic reaches a boundary; the boundary admits some and holds the rest",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "EmailSimple",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "indigo",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "sealed",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -29,7 +29,7 @@
   "supabase",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "TRUST_BOUNDARY",
  "github_repo": "EmailSimple",
  "industry": "SECURITY",
  "input_types": [
@@ -60,7 +60,7 @@
   "migrations (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "anodised_steel",
  "noaerth_category": "Communication",
  "noaerth_category_path": "Communication / Workflow Automation",
  "noaerth_next_milestone": "Gmail OAuth read-only + one real brief on founder inbox (PRIVATE)",
@@ -76,7 +76,7 @@
   "persisted to file-backed JSON"
  ],
  "primary_user": "built for Vercel",
- "primary_visual_metaphor": "gated channels passing through a sealed boundary",
+ "primary_visual_metaphor": "a sealed boundary holding or admitting traffic",
  "primary_workflow": "",
  "problem": "Email workflows without the noise.",
  "problem_source": "public venture card (no project-authored statement)",
@@ -87,7 +87,7 @@
  "public_noaerth_positioning": "Email workflows without the noise.",
  "purpose": "EmailSimple. package.json.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "vault cells in orthogonal arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

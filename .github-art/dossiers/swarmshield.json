@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "policy surfaces assemble into a readable security posture",
+ "animation_metaphor": "traffic reaches a boundary; the boundary admits some and holds the rest",
  "architecture_type": "DOCUMENT",
  "benchmark_dimensions": [],
  "canonical_name": "SwarmShield",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "indigo",
  "control_flow": "",
  "data_flow": "",
- "depth": "layered",
+ "depth": "stratified",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -28,7 +28,7 @@
   "react",
   "tailwindcss"
  ],
- "geometry_family": "DOCUMENT",
+ "geometry_family": "TRUST_BOUNDARY",
  "github_repo": "swarmshield",
  "industry": "SECURITY",
  "input_types": [],
@@ -51,7 +51,7 @@
   "public-site (3 files)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "ceramic",
  "noaerth_category": "Security Infrastructure",
  "noaerth_category_path": "Security Infrastructure",
  "noaerth_next_milestone": "Connect dashboard to live data on SwarmShield",
@@ -63,7 +63,7 @@
  "noaerth_site": "https://swarmshield-public.vercel.app/",
  "output_types": [],
  "primary_user": "built for Vercel",
- "primary_visual_metaphor": "nested policy frames with a visible boundary edge",
+ "primary_visual_metaphor": "a sealed boundary holding or admitting traffic",
  "primary_workflow": "",
  "problem": "Defense against coordinated attacks, bots, and swarm-style threats.",
  "problem_source": "public venture card (no project-authored statement)",
@@ -74,7 +74,7 @@
  "public_noaerth_positioning": "Defense against coordinated attacks, bots, and swarm-style threats.",
  "purpose": "Startup portfolio: swarmshield",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "gated channels in concentric arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "",

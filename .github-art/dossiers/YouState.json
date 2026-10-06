@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "records cross a trust boundary, get validated, and are held or rejected",
+ "animation_metaphor": "value enters, allocates across positions, and settles",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "YouState",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "mint",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 in-process state \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "recessed",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -29,7 +29,7 @@
   "supabase",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "CAPITAL_MECHANICS",
  "github_repo": "YouState",
  "industry": "HEALTH",
  "input_types": [
@@ -61,7 +61,7 @@
   "app/api (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "obsidian",
  "noaerth_category": "Personal Systems",
  "noaerth_category_path": "Personal Systems / Self-State",
  "noaerth_next_milestone": "Validate wedge for state",
@@ -76,7 +76,7 @@
   "route handlers: checkout"
  ],
  "primary_user": "",
- "primary_visual_metaphor": "gated channels passing through a sealed boundary",
+ "primary_visual_metaphor": "value entering, allocating and settling across columns",
  "primary_workflow": "",
  "problem": "Pulse is a universal human optimization OS that adapts nutrition, energy, recovery, focus, and daily performance recommendations to each person's real life in real time.",
  "problem_source": "project source",
@@ -87,7 +87,7 @@
  "public_noaerth_positioning": "Understand your current state.",
  "purpose": "YouState. build via `package.json`.",
  "release": "1.0.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "settlement rails in terraced arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "",

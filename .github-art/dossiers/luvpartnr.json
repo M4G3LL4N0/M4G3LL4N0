@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "records cross a trust boundary, get validated, and are held or rejected",
+ "animation_metaphor": "value enters, allocates across positions, and settles",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "LuvPartnr",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "mint",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "recessed",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -29,7 +29,7 @@
   "supabase",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "CAPITAL_MECHANICS",
  "github_repo": "luvpartnr",
  "industry": "GENERAL",
  "input_types": [
@@ -62,7 +62,7 @@
   "src/app (2 files)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "brushed_metal",
  "noaerth_category": "Relationship Intelligence",
  "noaerth_category_path": "Relationship Intelligence",
  "noaerth_next_milestone": "Complete Stripe + one end-to-end case \u2192 PDF report (DEMO labeled)",
@@ -78,7 +78,7 @@
   "persisted to file-backed JSON"
  ],
  "primary_user": "built for Vercel",
- "primary_visual_metaphor": "gated channels passing through a sealed boundary",
+ "primary_visual_metaphor": "value entering, allocating and settling across columns",
  "primary_workflow": "",
  "problem": "Relationship intelligence with emotional depth.",
  "problem_source": "public venture card (no project-authored statement)",
@@ -89,7 +89,7 @@
  "public_noaerth_positioning": "Relationship intelligence with emotional depth.",
  "purpose": "LUVPARTNR is a private AI relationship intelligence platform that helps users analyze partner behavior, communication patterns, compatibility, and long-term risk using structured reports, decision-support tools, and a living case file system.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "allocation bars in orthogonal arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

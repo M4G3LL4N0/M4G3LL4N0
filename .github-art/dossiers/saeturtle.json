@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "records cross a trust boundary, get validated, and are held or rejected",
+ "animation_metaphor": "nodes advertise, a coordinator selects, work converges",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "saeturtle",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "cyan",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 in-process state \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -29,7 +29,7 @@
   "supabase",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "ORCHESTRATION",
  "github_repo": "saeturtle",
  "industry": "HEALTH",
  "input_types": [
@@ -61,13 +61,13 @@
   "app/dashboard (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "luminous_ceramic",
  "output_types": [
   "HTTP responses (JSON)",
   "route handlers: checkout, recommendations, waitlist"
  ],
  "primary_user": "built for childcare planning",
- "primary_visual_metaphor": "gated channels passing through a sealed boundary",
+ "primary_visual_metaphor": "nodes converging on a coordinating cell",
  "primary_workflow": "",
  "problem": "Premium early-family operating system for childcare planning, nursery setup, developmental recommendations, routines, caregiver coordination, and future family-commerce / smart nursery expansion.",
  "problem_source": "project source",
@@ -78,7 +78,7 @@
  "public_noaerth_positioning": "",
  "purpose": "saeturtle. build via `package.json`.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "coordinating mesh in linear arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "",

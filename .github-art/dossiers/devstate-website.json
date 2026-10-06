@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "a dependency graph resolves, packages install, the build advances",
+ "animation_metaphor": "a cursor runs this project's real commands and output resolves",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "devstate-website",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "cyan",
  "control_flow": "devstate run build",
  "data_flow": "CLI arguments \u2192 in-process state \u2192 stdout / stderr (also via `devstate` subcommands, HTTP requests (JSON))",
- "depth": "layered",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -28,7 +28,7 @@
   "react",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "INSTRUMENT",
  "github_repo": "devstate-website",
  "industry": "DEVELOPER_TOOLS",
  "input_types": [
@@ -60,7 +60,7 @@
   "src/* (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "polymer",
  "output_types": [
   "stdout / stderr",
   "HTTP responses (JSON)",
@@ -68,7 +68,7 @@
   "files on disk"
  ],
  "primary_user": "",
- "primary_visual_metaphor": "an orthogonal dependency lattice",
+ "primary_visual_metaphor": "a command surface reporting as it runs",
  "primary_workflow": "",
  "problem": "DevState is a developer storage compression and recovery engine.",
  "problem_source": "project source",
@@ -79,7 +79,7 @@
  "public_noaerth_positioning": "",
  "purpose": "devstate website. package.json.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "progress rail in linear arrangement",
  "secondary_workflows": [
   "devstate run start \u2014 start the service",
   "devstate run scan \u2014 node ./src/index.js scan",
@@ -90,7 +90,7 @@
  "security_characteristics": [],
  "state_model": "",
  "technical_category": "DATA_FLOW",
- "terminal_metaphor": "a shell running devstate run build, devstate run start, devstate run scan against devstate",
+ "terminal_metaphor": "devstate run build \u2014 build the project",
  "tests": {
   "executed": false,
   "files": 0,

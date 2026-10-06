@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "records cross a trust boundary, get validated, and are held or rejected",
+ "animation_metaphor": "traffic reaches a boundary; the boundary admits some and holds the rest",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "luvconvos",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "indigo",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "stratified",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -32,7 +32,7 @@
   "vite",
   "vitest"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "TRUST_BOUNDARY",
  "github_repo": "luvconvos",
  "industry": "SECURITY",
  "input_types": [
@@ -63,7 +63,7 @@
   "src/hooks (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "obsidian",
  "output_types": [
   "HTTP responses (JSON)",
   "route handlers: auth, checkout, simulate",
@@ -71,7 +71,7 @@
   "persisted to vector index"
  ],
  "primary_user": "built for required variables",
- "primary_visual_metaphor": "gated channels passing through a sealed boundary",
+ "primary_visual_metaphor": "a sealed boundary holding or admitting traffic",
  "primary_workflow": "",
  "problem": "- AI-powered conversation simulation - Relationship profiling - Communication analytics - Voice-preserving message rewriting - Privacy-first architecture",
  "problem_source": "project source",
@@ -82,7 +82,7 @@
  "public_noaerth_positioning": "",
  "purpose": "luvconvos. build via `package.json`.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "boundary ring in concentric arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON, vector index",

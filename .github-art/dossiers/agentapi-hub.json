@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "records cross a trust boundary, get validated, and are held or rejected",
+ "animation_metaphor": "nodes advertise, a coordinator selects, work converges",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "agentapi-hub",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "cyan",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON) (also via WebSocket frames)",
- "depth": "layered",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -29,7 +29,7 @@
   "react",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "ORCHESTRATION",
  "github_repo": "agentapi-hub",
  "industry": "AGENT",
  "input_types": [
@@ -61,7 +61,7 @@
   "app/submit (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "liquid_crystal",
  "output_types": [
   "HTTP responses (JSON)",
   "route handlers: submit, tools, tools/[id]",
@@ -69,7 +69,7 @@
   "files on disk"
  ],
  "primary_user": "built for agent-ready APIs",
- "primary_visual_metaphor": "gated channels passing through a sealed boundary",
+ "primary_visual_metaphor": "nodes converging on a coordinating cell",
  "primary_workflow": "",
  "problem": "AgentAPI Hub MVP: searchable marketplace for agent-ready APIs, CLIs, MCP servers, schemas, and machine-readable docs.",
  "problem_source": "project source",
@@ -80,7 +80,7 @@
  "public_noaerth_positioning": "",
  "purpose": "Startup portfolio: agentapi-hub",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "coordinating mesh in branching arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

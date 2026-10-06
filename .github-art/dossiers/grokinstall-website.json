@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "jobs enter, queue, lease, complete",
+ "animation_metaphor": "MCP JSON-RPC over stdio \u2192 in-process state \u2192 output (also via gRPC call",
  "architecture_type": "SCHEDULER",
  "benchmark_dimensions": [],
  "canonical_name": "grokinstall-website",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "cyan",
  "control_flow": "grokinstall run build",
  "data_flow": "MCP JSON-RPC over stdio \u2192 in-process state \u2192 output (also via gRPC calls)",
- "depth": "layered",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "",
@@ -26,7 +26,7 @@
   "Roadmap: See [ROADMAP.md](ROADMAP.md). Short version: v0.1 is this release, v0.2 targets the API/MCP/Docker runtime bridges and repair, v0.3 targets builder integrations."
  ],
  "frameworks": [],
- "geometry_family": "SCHEDULER",
+ "geometry_family": "ORCHESTRATION",
  "github_repo": "grokinstall-website",
  "industry": "DEVELOPER_TOOLS",
  "input_types": [
@@ -54,10 +54,10 @@
   "examples (5 files)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "optical_glass",
  "output_types": [],
  "primary_user": "Universal installation intelligence for GrokBot: inspect any source, compare integration strategies, and install the capability instead of the complexity",
- "primary_visual_metaphor": "queue lanes with lease markers",
+ "primary_visual_metaphor": "nodes converging on a coordinating cell",
  "primary_workflow": "Verified against the Part 3 release and the `sharkdp/bat` flagship run.",
  "problem": "Give GrokInstall a project and tell it what you want GrokBot to do.",
  "problem_source": "project source",
@@ -68,7 +68,7 @@
  "public_noaerth_positioning": "",
  "purpose": "Public site for GrokInstall \u2014 capability installation as a decision, not a script.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "staged pipeline in linear arrangement",
  "secondary_workflows": [
   "grokinstall run test \u2014 run the test suite",
   "grokinstall run check \u2014 go vet ./... && go test ./...",
@@ -81,7 +81,7 @@
  ],
  "state_model": "",
  "technical_category": "SCHEDULER",
- "terminal_metaphor": "a shell running grokinstall run build, grokinstall run test, grokinstall run check against grokinstall",
+ "terminal_metaphor": "grokinstall run build \u2014 build the project",
  "tests": {
   "executed": false,
   "files": 46,

@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "policy surfaces assemble into a readable security posture",
+ "animation_metaphor": "input \u2192 file-backed JSON \u2192 the returned value",
  "architecture_type": "DOCUMENT",
  "benchmark_dimensions": [],
  "canonical_name": "nex-robotix",
@@ -8,7 +8,7 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "mint",
  "control_flow": "primary entry: A2A",
  "data_flow": "input \u2192 file-backed JSON \u2192 the returned value",
  "depth": "layered",
@@ -28,7 +28,7 @@
   "react",
   "tailwindcss"
  ],
- "geometry_family": "DOCUMENT",
+ "geometry_family": "EVIDENCE_SURFACE",
  "github_repo": "nex-robotix",
  "industry": "GENERAL",
  "input_types": [],
@@ -51,12 +51,12 @@
   "src/lib (3 files)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "ceramic",
  "output_types": [
   "persisted to file-backed JSON"
  ],
  "primary_user": "built for Vercel",
- "primary_visual_metaphor": "nested policy frames with a visible boundary edge",
+ "primary_visual_metaphor": "claims stacking into checkable tiers",
  "primary_workflow": "",
  "problem": "",
  "problem_source": "project source",
@@ -67,7 +67,7 @@
  "public_noaerth_positioning": "",
  "purpose": "Startup portfolio: nex-robotix",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "evidence tiers in terraced arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

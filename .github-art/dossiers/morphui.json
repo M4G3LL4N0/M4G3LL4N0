@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "capital enters, allocates across positions, and settles into an outcome",
+ "animation_metaphor": "a cursor runs this project's real commands and output resolves",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "MorphUI",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "cyan",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "CLI arguments \u2192 file-backed JSON \u2192 stdout / stderr (also via HTTP requests (JSON))",
- "depth": "layered",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -29,7 +29,7 @@
   "react",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "INSTRUMENT",
  "github_repo": "morphui",
  "industry": "DEVELOPER_TOOLS",
  "input_types": [
@@ -63,7 +63,7 @@
   "app/dashboard (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "obsidian",
  "noaerth_category": "Design Infrastructure",
  "noaerth_category_path": "Design Infrastructure / Product UX",
  "noaerth_next_milestone": "Align hero and first action with: Software should change shape around the user",
@@ -80,7 +80,7 @@
   "persisted to file-backed JSON"
  ],
  "primary_user": "",
- "primary_visual_metaphor": "ledger columns with allocation flow between them",
+ "primary_visual_metaphor": "a command surface reporting as it runs",
  "primary_workflow": "",
  "problem": "Interactive MVP for an **AI interface layer** that reshapes SaaS dashboards from **role**, **workflow**, **layout preference**, and **natural language** intent. The demo engine reorders modules, hides deprioritized tiles, highlights key actions, and generates a **personalized interface explanation**.",
  "problem_source": "project source",
@@ -91,7 +91,7 @@
  "public_noaerth_positioning": "Morphing UI systems for faster product design and interface iteration.",
  "purpose": "Startup portfolio: morphui",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "progress rail in linear arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

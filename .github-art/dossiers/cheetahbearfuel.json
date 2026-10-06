@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "an objective becomes context, tools read and write state, the loop closes",
+ "animation_metaphor": "a composed grid assembles and a sweep resolves it",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "Cheetah Bear Fuel",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "violet",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -29,7 +29,7 @@
   "supabase",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "PRESENTATION",
  "github_repo": "cheetahbearfuel",
  "industry": "GENERAL",
  "input_types": [
@@ -57,7 +57,7 @@
   "src/lib (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "luminous_ceramic",
  "noaerth_category": "Consumer",
  "noaerth_category_path": "Consumer",
  "noaerth_next_milestone": "Sharpen Cheetah Bear Fuel homepage and first user action",
@@ -73,7 +73,7 @@
   "persisted to file-backed JSON"
  ],
  "primary_user": "built for Vercel",
- "primary_visual_metaphor": "a state ring with tool nodes attached",
+ "primary_visual_metaphor": "a composed grid assembling and settling",
  "primary_workflow": "",
  "problem": "A fuel and energy consumer concept.",
  "problem_source": "public venture card (no project-authored statement)",
@@ -84,7 +84,7 @@
  "public_noaerth_positioning": "A fuel and energy consumer concept.",
  "purpose": "cheetahbearfuel. package.json.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "soft tiles in orthogonal arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

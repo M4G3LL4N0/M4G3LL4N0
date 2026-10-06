@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "nodes advertise capability, a coordinator selects, work converges",
+ "animation_metaphor": "value enters, allocates across positions, and settles",
  "architecture_type": "DISTRIBUTED",
  "benchmark_dimensions": [],
  "canonical_name": "deploylocal-website",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "mint",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 sqlite \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "recessed",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -31,7 +31,7 @@
   "supabase",
   "tailwindcss"
  ],
- "geometry_family": "DISTRIBUTED",
+ "geometry_family": "CAPITAL_MECHANICS",
  "github_repo": "deploylocal-website",
  "industry": "FINANCE",
  "input_types": [
@@ -62,7 +62,7 @@
   "lib/supabase (3 files)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "ceramic",
  "output_types": [
   "HTTP responses (JSON)",
   "route handlers: bulk-generate-sites, checkout, claim-site, create-checkout, create-site-invite, generate-and-save, generate-site, process-queue",
@@ -71,7 +71,7 @@
   "CSV exports"
  ],
  "primary_user": "TRILLIONX SITECLOSER - autonomous high-profit website acquisition, generation, sales and recurring-revenue engine",
- "primary_visual_metaphor": "a service mesh with one coordinating node",
+ "primary_visual_metaphor": "value entering, allocating and settling across columns",
  "primary_workflow": "",
  "problem": "Autonomous high-profit website acquisition, generation, sales and recurring-revenue engine. **Part A and Part B.**",
  "problem_source": "project source",
@@ -82,7 +82,7 @@
  "public_noaerth_positioning": "",
  "purpose": "deploylocal website. package.json.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "scenario panels in orthogonal arrangement",
  "secondary_workflows": [],
  "security_characteristics": [
   "approval required before privileged action",

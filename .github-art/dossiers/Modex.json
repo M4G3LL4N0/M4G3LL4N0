@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "an objective becomes context, tools read and write state, the loop closes",
+ "animation_metaphor": "a seed expands through rings into structured form",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "Modex",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "cyan",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "stratified",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -31,7 +31,7 @@
   "supabase",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "GENERATIVE_FIELD",
  "github_repo": "Modex",
  "industry": "DATA",
  "input_types": [
@@ -63,7 +63,7 @@
   "lib/patterns (2 files)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "liquid_crystal",
  "noaerth_category": "Decision Intelligence Infrastructure",
  "noaerth_category_path": "Decision Intelligence Infrastructure",
  "noaerth_next_milestone": "Label planning signals and real data sources",
@@ -79,7 +79,7 @@
   "persisted to file-backed JSON"
  ],
  "primary_user": "built for Vercel",
- "primary_visual_metaphor": "a state ring with tool nodes attached",
+ "primary_visual_metaphor": "a seed lattice expanding from an origin",
  "primary_workflow": "",
  "problem": "Modern commerce modules for builders.",
  "problem_source": "public venture card (no project-authored statement)",
@@ -90,7 +90,7 @@
  "public_noaerth_positioning": "Modern commerce modules for builders.",
  "purpose": "Modex. build via `package.json`.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "aperture fan in radial arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "records cross a trust boundary, get validated, and are held or rejected",
+ "animation_metaphor": "nodes advertise, a coordinator selects, work converges",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "access-layer",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "cyan",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -28,7 +28,7 @@
   "react",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "ORCHESTRATION",
  "github_repo": "access-layer",
  "industry": "GENERAL",
  "input_types": [
@@ -58,14 +58,14 @@
   "app/customers (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "optical_glass",
  "output_types": [
   "HTTP responses (JSON)",
   "route handlers: access-points, access-points/create, access-points/list, admin/access-point-create, admin/access-point-status, admin/convert-lead, admin/create-device, admin/create-invite",
   "persisted to file-backed JSON"
  ],
  "primary_user": "built for Vercel",
- "primary_visual_metaphor": "gated channels passing through a sealed boundary",
+ "primary_visual_metaphor": "nodes converging on a coordinating cell",
  "primary_workflow": "",
  "problem": "",
  "problem_source": "project source",
@@ -76,7 +76,7 @@
  "public_noaerth_positioning": "",
  "purpose": "Neutral coordination layer for access to space (MVP)",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "delegation fan in branching arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

@@ -447,6 +447,86 @@ def rebalance(idents: dict[str, dict]) -> dict[str, dict]:
     return out
 
 
+def motion_story(family: str, dossier: dict) -> str:
+    """What this project's motion shows, in its own words where possible.
+
+    The dossier's `animation_metaphor` is inherited from an (architecture,
+    category) table and is identical for every project in a cell of it -- 30
+    repositories shared one string. Where the project states its own workflow,
+    that is preferred; otherwise the family's motion story is used, which is at
+    least true of the system rather than true of its classification.
+    """
+    flow = (dossier.get("data_flow") or "").strip()
+    # An IO round-trip is plumbing, not a motion story. "HTTP requests (JSON) →
+    # file-backed JSON → HTTP responses (JSON)" described 30 repositories
+    # identically and says nothing about what any of them does.
+    io_shaped = bool(re.search(r"HTTP request|HTTP response|stdout|stderr",
+                              flow, re.I))
+    if "→" in flow and not io_shaped and \
+            len([p for p in flow.split("→") if p.strip()]) >= 3:
+        parts = [p.strip() for p in flow.split("→") if p.strip()]
+        return " → ".join(p[:26] for p in parts[:4])
+    wf = (dossier.get("primary_workflow") or "").strip()
+    if wf and len(wf) > 30:
+        return " ".join(wf.split())[:120]
+    return MOTION[family]
+
+
+MOTION = {
+    "TRUST_BOUNDARY": "traffic reaches a boundary; the boundary admits some and holds the rest",
+    "CAPITAL_MECHANICS": "value enters, allocates across positions, and settles",
+    "RECORD_MECHANICS": "records traverse channels into an index that fills",
+    "ORCHESTRATION": "nodes advertise, a coordinator selects, work converges",
+    "EVIDENCE_SURFACE": "claims stack into tiers, and evidence is carried up to be checked",
+    "INSTRUMENT": "a cursor runs this project's real commands and output resolves",
+    "GENERATIVE_FIELD": "a seed expands through rings into structured form",
+    "TOPOLOGY_CONTROL": "jobs queue, lease, and complete",
+    "PRESENTATION": "a composed grid assembles and a sweep resolves it",
+}
+
+
+def sync_dossier(repo: str, ident: dict, dossier: dict) -> bool:
+    """Write the resolved identity back into the dossier.
+
+    Without this the dossier kept the legacy (architecture, category) visual
+    fields while the renderer used the new ones, so the two disagreed: the plan
+    reported "records ingest, normalise, index, answer" for a repository whose
+    plate drew a boundary holding packets. Any field that describes a drawing
+    has to come from the drawing.
+    """
+    family = ident["family"]
+    story = motion_story(family, dossier)
+    new = {
+        "geometry_family": family,
+        "primary_visual_metaphor": FAMILY_METAPHOR[family],
+        "secondary_visual_metaphor": f"{ident['motif'].replace('_', ' ')} "
+                                      f"in {ident['topology']} arrangement",
+        "animation_metaphor": story,
+        "material_family": ident["material"],
+        "color_family": ident["accent"],
+        "depth": ident["depth"],
+        "terminal_metaphor": (f"{t['command']} — {t['help']}" if (
+            t := (dossier.get("verified_commands") or [{}])[0]).get("command")
+            else dossier.get("terminal_metaphor", "")),
+    }
+    changed = any(dossier.get(k) != v for k, v in new.items())
+    dossier.update(new)
+    return changed
+
+
+FAMILY_METAPHOR = {
+    "TRUST_BOUNDARY": "a sealed boundary holding or admitting traffic",
+    "CAPITAL_MECHANICS": "value entering, allocating and settling across columns",
+    "RECORD_MECHANICS": "channels carrying records into an index that fills",
+    "ORCHESTRATION": "nodes converging on a coordinating cell",
+    "EVIDENCE_SURFACE": "claims stacking into checkable tiers",
+    "INSTRUMENT": "a command surface reporting as it runs",
+    "GENERATIVE_FIELD": "a seed lattice expanding from an origin",
+    "TOPOLOGY_CONTROL": "job lanes with lease markers",
+    "PRESENTATION": "a composed grid assembling and settling",
+}
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--write", action="store_true")
@@ -503,6 +583,19 @@ def main() -> int:
             "identities": idents,
         }, indent=1, sort_keys=True) + "\n", encoding="utf-8")
         print(f"\nwritten -> {IDENTITY.relative_to(PROFILE)}")
+
+        # The dossier's visual fields are brought into line with the identity, so
+        # the plan, the gallery and the renderer describe the same drawing.
+        touched = 0
+        for p in sorted(DOSSIER_DIR.glob("*.json")):
+            d = json.loads(p.read_text())
+            repo = d.get("github_repo", p.stem)
+            if repo not in idents:
+                continue
+            if sync_dossier(repo, idents[repo], d):
+                touched += 1
+            p.write_text(json.dumps(d, indent=1, sort_keys=True) + "\n")
+        print(f"synced {touched} dossier(s) to the resolved identity")
     return 1 if clashes else 0
 
 

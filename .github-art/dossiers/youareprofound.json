@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "records cross a trust boundary, get validated, and are held or rejected",
+ "animation_metaphor": "value enters, allocates across positions, and settles",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "YouAreProfound",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "mint",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 in-process state \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "stratified",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -28,7 +28,7 @@
   "react",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "CAPITAL_MECHANICS",
  "github_repo": "youareprofound",
  "industry": "GENERAL",
  "input_types": [
@@ -58,7 +58,7 @@
   "lib/* (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "obsidian",
  "noaerth_category": "Identity",
  "noaerth_category_path": "Identity / Personal Development",
  "noaerth_next_milestone": "Align hero and first action with: You are not lost",
@@ -73,7 +73,7 @@
   "route handlers: checkout"
  ],
  "primary_user": "built for Vercel",
- "primary_visual_metaphor": "gated channels passing through a sealed boundary",
+ "primary_visual_metaphor": "value entering, allocating and settling across columns",
  "primary_workflow": "",
  "problem": "Reinforce self-worth, depth, and perspective.",
  "problem_source": "public venture card (no project-authored statement)",
@@ -84,7 +84,7 @@
  "public_noaerth_positioning": "Reinforce self-worth, depth, and perspective.",
  "purpose": "youareprofound. package.json.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "settlement rails in linear arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "",

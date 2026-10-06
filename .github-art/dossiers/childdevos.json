@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "an objective becomes context, tools read and write state, the loop closes",
+ "animation_metaphor": "a composed grid assembles and a sweep resolves it",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "ChildDevOS",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "violet",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 in-process state \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -30,7 +30,7 @@
   "supabase",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "PRESENTATION",
  "github_repo": "childdevos",
  "industry": "HEALTH",
  "input_types": [
@@ -63,7 +63,7 @@
   "lib/supabase (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "luminous_ceramic",
  "noaerth_category": "Education",
  "noaerth_category_path": "Education / Child Development",
  "noaerth_next_milestone": "Align hero and first action with: One system for childhood development",
@@ -78,7 +78,7 @@
   "route handlers: health, reports/daily, teacher/log"
  ],
  "primary_user": "built for childcare centers",
- "primary_visual_metaphor": "a state ring with tool nodes attached",
+ "primary_visual_metaphor": "a composed grid assembling and settling",
  "primary_workflow": "",
  "problem": "ChildDevOS is an AI-powered childcare intelligence platform for childcare centers, preschools, daycare providers, teachers, admins, and parents.",
  "problem_source": "project source",
@@ -89,7 +89,7 @@
  "public_noaerth_positioning": "A platform for organizing developmental insights, learning signals, parent guidance, and child growth coordination into one coherent operating layer.",
  "purpose": "childdevos. package.json.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "type rail in orthogonal arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "",

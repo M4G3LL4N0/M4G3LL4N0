@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "objective becomes a plan, tools execute, verification resolves",
+ "animation_metaphor": "nodes advertise, a coordinator selects, work converges",
  "architecture_type": "AGENT_LOOP",
  "benchmark_dimensions": [
   "benchmark harness present: apps/cli/src/benchmark.ts, docs/LIVE-BENCHMARK.md, docs/REPRODUCING-LIVE-BENCHMARK.md"
@@ -10,10 +10,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "cyan",
  "control_flow": "primary entry: CLI",
  "data_flow": "CLI arguments \u2192 sqlite \u2192 stdout / stderr",
- "depth": "layered",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "",
@@ -31,7 +31,7 @@
   "vite",
   "vitest"
  ],
- "geometry_family": "AGENT_LOOP",
+ "geometry_family": "ORCHESTRATION",
  "github_repo": "grokmax-website",
  "industry": "AGENT",
  "input_types": [
@@ -60,7 +60,7 @@
   "packages/context (4 files)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "optical_glass",
  "output_types": [
   "stdout / stderr",
   "persisted to sqlite",
@@ -68,7 +68,7 @@
   "CSV exports"
  ],
  "primary_user": "built for twice",
- "primary_visual_metaphor": "closed loop with a verification terminus",
+ "primary_visual_metaphor": "nodes converging on a coordinating cell",
  "primary_workflow": "",
  "problem": "**Minimize GrokBot usage while maximizing verified useful output.**",
  "problem_source": "project source",
@@ -79,7 +79,7 @@
  "public_noaerth_positioning": "",
  "purpose": "GrokMax marketing site \u2014 deterministic-first routing to scale down GrokBot usage. Static Next.js export, deployed to grokmax.noaerth.com.",
  "release": "0.2.0-rc.2",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "delegation fan in linear arrangement",
  "secondary_workflows": [],
  "security_characteristics": [
   "SECURITY.md documents the threat model and disclosure path"

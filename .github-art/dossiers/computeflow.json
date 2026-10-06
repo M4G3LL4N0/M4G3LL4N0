@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "scenarios lay out side by side for comparison",
+ "animation_metaphor": "nodes advertise, a coordinator selects, work converges",
  "architecture_type": "DOCUMENT",
  "benchmark_dimensions": [],
  "canonical_name": "ComputeFlow",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "cyan",
  "control_flow": "",
  "data_flow": "",
- "depth": "layered",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -28,7 +28,7 @@
   "react",
   "tailwindcss"
  ],
- "geometry_family": "DOCUMENT",
+ "geometry_family": "ORCHESTRATION",
  "github_repo": "computeflow",
  "industry": "AGENT",
  "input_types": [],
@@ -50,7 +50,7 @@
   "public (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "liquid_crystal",
  "noaerth_category": "AI Infrastructure",
  "noaerth_category_path": "AI Infrastructure",
  "noaerth_next_milestone": "Ship first flow: Compute orchestration for teams running serious AI and data workloads",
@@ -62,7 +62,7 @@
  "noaerth_site": "https://computeflow-website.vercel.app/",
  "output_types": [],
  "primary_user": "",
- "primary_visual_metaphor": "scenario panels on a comparative plane",
+ "primary_visual_metaphor": "nodes converging on a coordinating cell",
  "primary_workflow": "",
  "problem": "Compute orchestration for teams running serious AI and data workloads.",
  "problem_source": "public venture card (no project-authored statement)",
@@ -73,7 +73,7 @@
  "public_noaerth_positioning": "Compute orchestration for teams running serious AI and data workloads.",
  "purpose": "Startup portfolio: computeflow",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "delegation fan in branching arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "",

@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "policy surfaces assemble into a readable security posture",
+ "animation_metaphor": "claims stack into tiers, and evidence is carried up to be checked",
  "architecture_type": "DOCUMENT",
  "benchmark_dimensions": [],
  "canonical_name": "1BC",
@@ -8,7 +8,7 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "mint",
  "control_flow": "",
  "data_flow": "",
  "depth": "layered",
@@ -28,7 +28,7 @@
   "react",
   "tailwindcss"
  ],
- "geometry_family": "DOCUMENT",
+ "geometry_family": "EVIDENCE_SURFACE",
  "github_repo": "1bc",
  "industry": "CREATIVE",
  "input_types": [],
@@ -56,7 +56,7 @@
   "app/pricing (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "ceramic",
  "noaerth_category": "Venture Studio",
  "noaerth_category_path": "Venture Studio",
  "noaerth_next_milestone": "Ship first flow: A venture studio for building companies with discipline inside the Noaerth e\u2026",
@@ -68,7 +68,7 @@
  "noaerth_site": "https://1bc-public.vercel.app/",
  "output_types": [],
  "primary_user": "built for Vercel",
- "primary_visual_metaphor": "nested policy frames with a visible boundary edge",
+ "primary_visual_metaphor": "claims stacking into checkable tiers",
  "primary_workflow": "",
  "problem": "Venture in venture studio exploring a clearer product direction.",
  "problem_source": "public venture card (no project-authored statement)",
@@ -79,7 +79,7 @@
  "public_noaerth_positioning": "Venture in venture studio exploring a clearer product direction.",
  "purpose": "Startup portfolio: 1bc. package.json.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "policy stack in orthogonal arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "",

@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "records ingest, normalise, index, answer",
+ "animation_metaphor": "value enters, allocates across positions, and settles",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "VenCapMentor",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "mint",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "stratified",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -30,7 +30,7 @@
   "supabase",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "CAPITAL_MECHANICS",
  "github_repo": "vencapmentor",
  "industry": "FINANCE",
  "input_types": [
@@ -62,7 +62,7 @@
   "app/quiz (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "obsidian",
  "noaerth_category": "Venture Capital",
  "noaerth_category_path": "Venture Capital / Founder Education",
  "noaerth_next_milestone": "Ship first integration path on VenCapMentor",
@@ -78,7 +78,7 @@
   "persisted to file-backed JSON"
  ],
  "primary_user": "built for Vercel",
- "primary_visual_metaphor": "parallel channels converging into an index",
+ "primary_visual_metaphor": "value entering, allocating and settling across columns",
  "primary_workflow": "",
  "problem": "Venture capital literacy for builders.",
  "problem_source": "public venture card (no project-authored statement)",
@@ -89,7 +89,7 @@
  "public_noaerth_positioning": "Venture capital literacy for builders.",
  "purpose": "vencapmentor. Work in progress; see the repository contents for detail.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "allocation bars in linear arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

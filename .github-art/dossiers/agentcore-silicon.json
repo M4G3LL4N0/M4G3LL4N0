@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "capital enters, allocates across positions, and settles into an outcome",
+ "animation_metaphor": "a composed grid assembles and a sweep resolves it",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [
   "benchmark harness present: components/agentcore/AgentBenchmarkSimulator.tsx, components/agentcore/BenchmarkLabDashboard.tsx"
@@ -10,10 +10,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "violet",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -31,7 +31,7 @@
   "react",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "PRESENTATION",
  "github_repo": "agentcore-silicon",
  "industry": "SPACE",
  "input_types": [
@@ -64,7 +64,7 @@
   "app/contact (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "polymer",
  "noaerth_category": "AI Infrastructure",
  "noaerth_category_path": "AI Infrastructure",
  "noaerth_next_milestone": "Align hero and first action with: Silicon built for agents, not just inference",
@@ -80,7 +80,7 @@
   "persisted to file-backed JSON"
  ],
  "primary_user": "built for agent-optimized silicon",
- "primary_visual_metaphor": "ledger columns with allocation flow between them",
+ "primary_visual_metaphor": "a composed grid assembling and settling",
  "primary_workflow": "",
  "problem": "AgentCore Silicon MVP: launch site and interactive workload benchmark simulator for agent-optimized silicon.",
  "problem_source": "project source",
@@ -91,7 +91,7 @@
  "public_noaerth_positioning": "Silicon-aware agent infrastructure for hardware and compute ventures.",
  "purpose": "Startup portfolio: agentcore-silicon",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "soft tiles in orthogonal arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

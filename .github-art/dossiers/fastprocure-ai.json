@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "records cross a trust boundary, get validated, and are held or rejected",
+ "animation_metaphor": "a composed grid assembles and a sweep resolves it",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "FastProcure AI",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "violet",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "stacked",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -29,7 +29,7 @@
   "react",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "PRESENTATION",
  "github_repo": "fastprocure-ai",
  "industry": "LOGISTICS",
  "input_types": [
@@ -61,7 +61,7 @@
   "app/pricing (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "polymer",
  "noaerth_category": "Commerce Infrastructure",
  "noaerth_category_path": "Commerce Infrastructure",
  "noaerth_next_milestone": "Align hero and first action with: Move from vendor intake to pilot approval in days, not quar\u2026",
@@ -77,7 +77,7 @@
   "persisted to file-backed JSON"
  ],
  "primary_user": "built for enterprise teams evaluating AI startups",
- "primary_visual_metaphor": "gated channels passing through a sealed boundary",
+ "primary_visual_metaphor": "a composed grid assembling and settling",
  "primary_workflow": "",
  "problem": "Procurement acceleration MVP for enterprise teams evaluating AI startups.",
  "problem_source": "project source",
@@ -88,7 +88,7 @@
  "public_noaerth_positioning": "Faster procurement decisions with AI-assisted vendor and spend intelligence.",
  "purpose": "Startup portfolio: fastprocure-ai",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "component mosaic in mesh arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

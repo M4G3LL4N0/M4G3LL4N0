@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "records cross a trust boundary, get validated, and are held or rejected",
+ "animation_metaphor": "a composed grid assembles and a sweep resolves it",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [
   "benchmark harness present: src/components/PerfectSunsetFramework.tsx"
@@ -10,10 +10,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "violet",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -32,7 +32,7 @@
   "supabase",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "PRESENTATION",
  "github_repo": "SUNSETX",
  "industry": "GENERAL",
  "input_types": [
@@ -64,7 +64,7 @@
   "src/utils (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "resin",
  "noaerth_category": "Experiences",
  "noaerth_category_path": "Experiences / Lifestyle",
  "noaerth_next_milestone": "Improve conversion on live sunset product surface",
@@ -80,7 +80,7 @@
   "persisted to file-backed JSON"
  ],
  "primary_user": "built for Vercel",
- "primary_visual_metaphor": "gated channels passing through a sealed boundary",
+ "primary_visual_metaphor": "a composed grid assembling and settling",
  "primary_workflow": "",
  "problem": "Cinematic lifestyle systems for modern escapes.",
  "problem_source": "public venture card (no project-authored statement)",
@@ -91,7 +91,7 @@
  "public_noaerth_positioning": "Cinematic lifestyle systems for modern escapes.",
  "purpose": "SUNSETX predicts and ranks the best sunset experiences using weather, location, and environmental data. Real-time scoring, peak timing, and smart recommendations for where to go and when.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "component mosaic in terraced arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

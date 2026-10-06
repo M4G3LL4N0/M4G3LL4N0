@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "an objective becomes context, tools read and write state, the loop closes",
+ "animation_metaphor": "records traverse channels into an index that fills",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "VentureRank OS",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "mint",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 in-process state \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "stratified",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -29,7 +29,7 @@
   "supabase",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "RECORD_MECHANICS",
  "github_repo": "VentureRank-OS",
  "industry": "GENERAL",
  "input_types": [
@@ -59,7 +59,7 @@
   "migrations (2 files)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "polymer",
  "noaerth_category": "Venture Intelligence",
  "noaerth_category_path": "Venture Intelligence",
  "noaerth_next_milestone": "Banner LIVE vs MOCK and import real ventures",
@@ -74,7 +74,7 @@
   "route handlers: ideas, rankings, spawn"
  ],
  "primary_user": "built for Vercel",
- "primary_visual_metaphor": "a state ring with tool nodes attached",
+ "primary_visual_metaphor": "channels carrying records into an index that fills",
  "primary_workflow": "",
  "problem": "Rank ventures by signal, not noise.",
  "problem_source": "public venture card (no project-authored statement)",
@@ -85,7 +85,7 @@
  "public_noaerth_positioning": "Rank ventures by signal, not noise.",
  "purpose": "VentureRank OS. package.json.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "column stack in linear arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "",

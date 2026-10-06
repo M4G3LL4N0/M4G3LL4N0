@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "threat approaches a boundary, the boundary reacts, the path closes",
+ "animation_metaphor": "traffic reaches a boundary; the boundary admits some and holds the rest",
  "architecture_type": "SECURITY",
  "benchmark_dimensions": [],
  "canonical_name": "gh0st",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "FLAGSHIP",
- "color_family": "",
+ "color_family": "indigo",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "CLI arguments \u2192 file-backed JSON \u2192 stdout / stderr (also via HTTP requests (JSON), WebSocket frames)",
- "depth": "layered",
+ "depth": "stratified",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "",
@@ -27,7 +27,7 @@
   "vite",
   "vitest"
  ],
- "geometry_family": "SECURITY",
+ "geometry_family": "TRUST_BOUNDARY",
  "github_repo": "gh0st",
  "industry": "SECURITY",
  "input_types": [
@@ -66,7 +66,7 @@
   "scripts (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "obsidian",
  "output_types": [
   "stdout / stderr",
   "HTTP responses (JSON)",
@@ -75,7 +75,7 @@
   "CSV exports"
  ],
  "primary_user": "built for your xAI team",
- "primary_visual_metaphor": "closed concentric containment around a protected core",
+ "primary_visual_metaphor": "a sealed boundary holding or admitting traffic",
  "primary_workflow": "",
  "problem": "gh0st is a local-first interface for xAI/Grok. The CLI provides the current encrypted local-storage workflow; the macOS and browser clients are early interfaces. Conversations, files, agents, and local state stay on your device while xAI performs inference using `store=false` and, when enabled for your xAI team, verifi",
  "problem_source": "project source",
@@ -86,7 +86,7 @@
  "public_noaerth_positioning": "",
  "purpose": "Local-first encrypted AI client for xAI/Grok with verifiable no-retention guarantees.",
  "release": "1.0.0-rc.1",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "gated channels in concentric arrangement",
  "secondary_workflows": [],
  "security_characteristics": [
   "SECURITY.md documents the threat model and disclosure path"

@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "an objective becomes context, tools read and write state, the loop closes",
+ "animation_metaphor": "nodes advertise, a coordinator selects, work converges",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "FungMind",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "cyan",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -29,7 +29,7 @@
   "supabase",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "ORCHESTRATION",
  "github_repo": "FungMind",
  "industry": "AGENT",
  "input_types": [
@@ -59,7 +59,7 @@
   "src/types (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "optical_glass",
  "noaerth_category": "Wellness",
  "noaerth_category_path": "Wellness / Mind",
  "noaerth_next_milestone": "Ship first mind workflow on site",
@@ -75,7 +75,7 @@
   "persisted to file-backed JSON"
  ],
  "primary_user": "built for Vercel",
- "primary_visual_metaphor": "a state ring with tool nodes attached",
+ "primary_visual_metaphor": "nodes converging on a coordinating cell",
  "primary_workflow": "",
  "problem": "Mental models that grow like systems.",
  "problem_source": "public venture card (no project-authored statement)",
@@ -86,7 +86,7 @@
  "public_noaerth_positioning": "Mental models that grow like systems.",
  "purpose": "FungMind. build via `package.json`.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "capability ring in branching arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

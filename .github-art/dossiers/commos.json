@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "symbols resolve against a dependency graph",
+ "animation_metaphor": "WebSocket frames \u2192 sqlite \u2192 persisted to sqlite",
  "architecture_type": "LIBRARY",
  "benchmark_dimensions": [],
  "canonical_name": "commos",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "violet",
  "control_flow": "primary entry: WebSocket",
  "data_flow": "WebSocket frames \u2192 sqlite \u2192 persisted to sqlite",
- "depth": "layered",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "",
@@ -28,7 +28,7 @@
   "react",
   "tailwindcss"
  ],
- "geometry_family": "LIBRARY",
+ "geometry_family": "PRESENTATION",
  "github_repo": "commos",
  "industry": "DATA",
  "input_types": [
@@ -54,13 +54,13 @@
   "src/types (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "resin",
  "output_types": [
   "persisted to sqlite",
   "persisted to file-backed JSON"
  ],
  "primary_user": "Communications Operating System \u2014 shared communications control plane for the TRILLIONX ecosystem",
- "primary_visual_metaphor": "orthogonal dependency graph",
+ "primary_visual_metaphor": "a composed grid assembling and settling",
  "primary_workflow": "",
  "problem": "",
  "problem_source": "project source",
@@ -71,7 +71,7 @@
  "public_noaerth_positioning": "",
  "purpose": "commos. build via `package.json`.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "soft tiles in orthogonal arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "sqlite, file-backed JSON",

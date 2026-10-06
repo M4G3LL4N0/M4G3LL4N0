@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "capital enters, allocates across positions, and settles into an outcome",
+ "animation_metaphor": "a composed grid assembles and a sweep resolves it",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "N-1 Therapeutics",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "violet",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 in-process state \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "stacked",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -29,7 +29,7 @@
   "react",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "PRESENTATION",
  "github_repo": "n1-therapeutics",
  "industry": "BIOTECH",
  "input_types": [
@@ -61,7 +61,7 @@
   "app/contact (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "luminous_ceramic",
  "noaerth_category": "Health",
  "noaerth_category_path": "Health",
  "noaerth_next_milestone": "Validate user pain and define wedge",
@@ -76,7 +76,7 @@
   "route handlers: sessions, sessions/[id]"
  ],
  "primary_user": "built for UX practice",
- "primary_visual_metaphor": "ledger columns with allocation flow between them",
+ "primary_visual_metaphor": "a composed grid assembling and settling",
  "primary_workflow": "",
  "problem": "**Research and care-navigation MVP \u2014 not medical advice.** Users build an educational N-of-1 worksheet (condition category, biomarker themes, symptoms, goals). The app produces a high-level therapy landscape, a heuristic research-confidence score, a trial-readiness checklist, a physician discussion brief, and **fiction",
  "problem_source": "project source",
@@ -87,7 +87,7 @@
  "public_noaerth_positioning": "An educational worksheet for a physician conversation.",
  "purpose": "Startup portfolio: n1-therapeutics",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "soft tiles in mesh arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "",

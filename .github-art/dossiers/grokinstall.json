@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "a cursor executes real commands and the output resolves",
+ "animation_metaphor": "MCP JSON-RPC over stdio \u2192 in-process state \u2192 output (also via gRPC call",
  "architecture_type": "CLI",
  "benchmark_dimensions": [],
  "canonical_name": "GrokInstall",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "FLAGSHIP",
- "color_family": "",
+ "color_family": "cyan",
  "control_flow": "grokinstall run build",
  "data_flow": "MCP JSON-RPC over stdio \u2192 in-process state \u2192 output (also via gRPC calls)",
- "depth": "layered",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "",
@@ -26,7 +26,7 @@
   "Roadmap: See [ROADMAP.md](ROADMAP.md). Short version: v0.1 is this release, v0.2 targets the API/MCP/Docker runtime bridges and repair, v0.3 targets builder integrations."
  ],
  "frameworks": [],
- "geometry_family": "CLI",
+ "geometry_family": "INSTRUMENT",
  "github_repo": "grokinstall",
  "industry": "DEVELOPER_TOOLS",
  "input_types": [
@@ -54,7 +54,7 @@
   "examples (5 files)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "obsidian",
  "noaerth_category": "Developer tools",
  "noaerth_category_path": "Developer tools",
  "noaerth_next_milestone": "Improve conversion on GrokInstall live surface",
@@ -66,7 +66,7 @@
  "noaerth_site": "https://grokinstall-website.vercel.app/",
  "output_types": [],
  "primary_user": "Universal installation intelligence for GrokBot: inspect any source, compare integration strategies, and install the capability instead of the complexity",
- "primary_visual_metaphor": "compact instrument panel with a terminal rail",
+ "primary_visual_metaphor": "a command surface reporting as it runs",
  "primary_workflow": "Verified against the Part 3 release and the `sharkdp/bat` flagship run.",
  "problem": "Give GrokInstall a project and tell it what you want GrokBot to do.",
  "problem_source": "project source",
@@ -77,7 +77,7 @@
  "public_noaerth_positioning": "Your context already has the answer.",
  "purpose": "Install the capability, not the complexity. A Go CLI that inspects a repo and installs the smallest useful integration.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "command strip in linear arrangement",
  "secondary_workflows": [
   "grokinstall run test \u2014 run the test suite",
   "grokinstall run check \u2014 go vet ./... && go test ./...",
@@ -90,7 +90,7 @@
  ],
  "state_model": "",
  "technical_category": "CLI",
- "terminal_metaphor": "a shell running grokinstall run build, grokinstall run test, grokinstall run check against grokinstall",
+ "terminal_metaphor": "grokinstall run build \u2014 build the project",
  "tests": {
   "executed": false,
   "files": 46,

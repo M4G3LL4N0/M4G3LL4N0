@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "capital enters, allocates across positions, and settles into an outcome",
+ "animation_metaphor": "claims stack into tiers, and evidence is carried up to be checked",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "freeconomie",
@@ -8,7 +8,7 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "mint",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
  "depth": "layered",
@@ -29,7 +29,7 @@
   "supabase",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "EVIDENCE_SURFACE",
  "github_repo": "freeconomie",
  "industry": "GENERAL",
  "input_types": [
@@ -61,14 +61,14 @@
   "src/db (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "paper_stock",
  "output_types": [
   "HTTP responses (JSON)",
   "route handlers: checkout, favorites, locations, locations/search, route/optimize, submit, submit-offer, waitlist",
   "persisted to file-backed JSON"
  ],
  "primary_user": "",
- "primary_visual_metaphor": "ledger columns with allocation flow between them",
+ "primary_visual_metaphor": "claims stacking into checkable tiers",
  "primary_workflow": "",
  "problem": "**Freeconomie** is a premium **free-economy intelligence** product: it helps people **discover, verify, route, stack, and redeem** high-value free offers, trials, perks, and local incentives\u2014without wading through junk deal sites.",
  "problem_source": "project source",
@@ -79,7 +79,7 @@
  "public_noaerth_positioning": "",
  "purpose": "Startup portfolio: freeconomie",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "attestation panel in orthogonal arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

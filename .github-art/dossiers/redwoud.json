@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "records cross a trust boundary, get validated, and are held or rejected",
+ "animation_metaphor": "a composed grid assembles and a sweep resolves it",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "Redwoud",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "violet",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 in-process state \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "stacked",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -29,7 +29,7 @@
   "supabase",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "PRESENTATION",
  "github_repo": "redwoud",
  "industry": "DATA",
  "input_types": [
@@ -63,7 +63,7 @@
   "prompts (3 files)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "resin",
  "noaerth_category": "Clarity Systems",
  "noaerth_category_path": "Clarity Systems",
  "noaerth_next_milestone": "Strengthen live signal reads and operator proof",
@@ -78,7 +78,7 @@
   "route handlers: briefing, feed, ingest, trends"
  ],
  "primary_user": "built for professionals",
- "primary_visual_metaphor": "gated channels passing through a sealed boundary",
+ "primary_visual_metaphor": "a composed grid assembling and settling",
  "primary_workflow": "",
  "problem": "REDWOUD is an AI-powered real-time global intelligence platform that turns worldwide data, news, market signals, economic indicators, geopolitical developments, and public information into structured, actionable intelligence.",
  "problem_source": "project source",
@@ -89,7 +89,7 @@
  "public_noaerth_positioning": "Strategic intelligence and signal surfaces for operators who need sharper market reads.",
  "purpose": "redwoud. package.json; CI configured.",
  "release": "1.0.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "modular grid in mesh arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "",

@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "records cross a trust boundary, get validated, and are held or rejected",
+ "animation_metaphor": "traffic reaches a boundary; the boundary admits some and holds the rest",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "InterceptorGrid",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "indigo",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "CLI arguments \u2192 file-backed JSON \u2192 stdout / stderr (also via HTTP requests (JSON))",
- "depth": "layered",
+ "depth": "stratified",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -29,7 +29,7 @@
   "react",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "TRUST_BOUNDARY",
  "github_repo": "interceptorgrid",
  "industry": "SECURITY",
  "input_types": [
@@ -63,7 +63,7 @@
   "app/pricing (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "obsidian",
  "noaerth_category": "Security Infrastructure",
  "noaerth_category_path": "Security Infrastructure",
  "noaerth_next_milestone": "Align hero and first action with: Autonomous coordination grid for detection, alerting, and r\u2026",
@@ -81,7 +81,7 @@
   "CSV exports"
  ],
  "primary_user": "",
- "primary_visual_metaphor": "gated channels passing through a sealed boundary",
+ "primary_visual_metaphor": "a sealed boundary holding or admitting traffic",
  "primary_workflow": "",
  "problem": "**Non-operational MVP.** A simulated command center for **airspace safety coordination**: monitoring, alerting, detection confidence, escalation, response workflow, and compliance-style audit logs. This software does **not** control real aircraft, sensors, or countermeasures.",
  "problem_source": "project source",
@@ -92,7 +92,7 @@
  "public_noaerth_positioning": "Security infrastructure for detecting and intercepting systemic risk.",
  "purpose": "Startup portfolio: interceptorgrid",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "concentric shell in concentric arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

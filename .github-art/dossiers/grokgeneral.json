@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "threat approaches a boundary, the boundary reacts, the path closes",
+ "animation_metaphor": "a cursor runs this project's real commands and output resolves",
  "architecture_type": "SECURITY",
  "benchmark_dimensions": [],
  "canonical_name": "GrokGeneral",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "cyan",
  "control_flow": "gg status",
  "data_flow": "CLI arguments \u2192 sqlite \u2192 stdout / stderr (also via `gg` subcommands, HTTP requests (JSON))",
- "depth": "layered",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "",
@@ -24,7 +24,7 @@
  },
  "experimental_features": [],
  "frameworks": [],
- "geometry_family": "SECURITY",
+ "geometry_family": "INSTRUMENT",
  "github_repo": "grokgeneral",
  "industry": "DEVELOPER_TOOLS",
  "input_types": [
@@ -52,7 +52,7 @@
   "site (2 files)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "polymer",
  "noaerth_category": "Developer tools",
  "noaerth_category_path": "Developer tools",
  "noaerth_next_milestone": "Sharpen GrokGeneral homepage and first user action",
@@ -70,7 +70,7 @@
   "files on disk"
  ],
  "primary_user": "built for the GrokBot ecosystem",
- "primary_visual_metaphor": "closed concentric containment around a protected core",
+ "primary_visual_metaphor": "a command surface reporting as it runs",
  "primary_workflow": "",
  "problem": "GrokGeneral is the local kernel and control plane for the GrokBot ecosystem. It indexes projects and resources, normalizes work, chooses the cheapest capable execution path, packages narrow context, records decisions and usage, and surfaces temporary capacity opportunities.",
  "problem_source": "project source",
@@ -81,7 +81,7 @@
  "public_noaerth_positioning": "The local kernel for the GrokBot ecosystem.",
  "purpose": "grokgeneral. pyproject.toml; 37 test file(s); local-first storage.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "instrument dial in linear arrangement",
  "secondary_workflows": [
   "gg doctor",
   "gg init \u2014 initialize local state",
@@ -96,7 +96,7 @@
  ],
  "state_model": "sqlite, file-backed JSON",
  "technical_category": "SECURITY",
- "terminal_metaphor": "a shell running gg status, gg doctor, gg init against gg",
+ "terminal_metaphor": "gg status \u2014 ",
  "tests": {
   "executed": false,
   "files": 37,

@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "an objective becomes context, tools read and write state, the loop closes",
+ "animation_metaphor": "value enters, allocates across positions, and settles",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "BrandCrossover",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "mint",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
- "depth": "layered",
+ "depth": "recessed",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -29,7 +29,7 @@
   "supabase",
   "tailwindcss"
  ],
- "geometry_family": "DATA_FLOW",
+ "geometry_family": "CAPITAL_MECHANICS",
  "github_repo": "BrandCrossover",
  "industry": "BIOTECH",
  "input_types": [
@@ -61,7 +61,7 @@
   "app/thank-you (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "brushed_metal",
  "noaerth_category": "Brands",
  "noaerth_category_path": "Brands / Partnerships",
  "noaerth_next_milestone": "Ship first flow: Find the overlap that moves culture",
@@ -77,7 +77,7 @@
   "persisted to file-backed JSON"
  ],
  "primary_user": "built for discovering",
- "primary_visual_metaphor": "a state ring with tool nodes attached",
+ "primary_visual_metaphor": "value entering, allocating and settling across columns",
  "primary_workflow": "",
  "problem": "AI-powered intelligence for discovering, scoring, and launching profitable brand crossover products and collaborations\u2014built for CPG, food & beverage, agencies, licensors, and retail innovation teams.",
  "problem_source": "project source",
@@ -88,7 +88,7 @@
  "public_noaerth_positioning": "Find the overlap that moves culture.",
  "purpose": "BrandCrossover. package.json.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "allocation bars in linear arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

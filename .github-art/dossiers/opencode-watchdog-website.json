@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "jobs enter, queue, lease, complete",
+ "animation_metaphor": "input \u2192 file-backed JSON \u2192 the returned value",
  "architecture_type": "SCHEDULER",
  "benchmark_dimensions": [],
  "canonical_name": "opencode-watchdog-website",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "",
+ "color_family": "cyan",
  "control_flow": "ocw run build",
  "data_flow": "input \u2192 file-backed JSON \u2192 the returned value",
- "depth": "layered",
+ "depth": "floating",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "",
@@ -24,7 +24,7 @@
  },
  "experimental_features": [],
  "frameworks": [],
- "geometry_family": "SCHEDULER",
+ "geometry_family": "ORCHESTRATION",
  "github_repo": "opencode-watchdog-website",
  "industry": "DEVELOPER_TOOLS",
  "input_types": [],
@@ -46,12 +46,12 @@
   "scripts (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "",
+ "material_family": "liquid_crystal",
  "output_types": [
   "persisted to file-backed JSON"
  ],
  "primary_user": "built for runaway OpenCode sessions",
- "primary_visual_metaphor": "queue lanes with lease markers",
+ "primary_visual_metaphor": "nodes converging on a coordinating cell",
  "primary_workflow": "",
  "problem": "OpenCode Watchdog notices the repetition and safely interrupts the affected session.",
  "problem_source": "project source",
@@ -62,7 +62,7 @@
  "public_noaerth_positioning": "",
  "purpose": "Public site for OpenCode Watchdog \u2014 a local circuit breaker for runaway agent sessions.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "",
+ "secondary_visual_metaphor": "capability ring in linear arrangement",
  "secondary_workflows": [
   "ocw run test \u2014 run the test suite",
   "ocw run typecheck \u2014 tsc -p tsconfig.json --noEmit"
@@ -72,7 +72,7 @@
  ],
  "state_model": "file-backed JSON",
  "technical_category": "SCHEDULER",
- "terminal_metaphor": "a shell running ocw run build, ocw run test, ocw run typecheck against ocw",
+ "terminal_metaphor": "ocw run build \u2014 build the project",
  "tests": {
   "executed": false,
   "files": 12,
