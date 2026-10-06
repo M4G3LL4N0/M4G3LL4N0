@@ -30,7 +30,7 @@
  ],
  "geometry_family": "CAPITAL_MECHANICS",
  "github_repo": "evalforge",
- "industry": "FINANCE",
+ "industry": "AGENT",
  "input_types": [
   "HTTP requests (JSON)"
  ],
@@ -80,10 +80,9 @@
  "primary_workflow": "",
  "problem": "EvalForge is a human-in-the-loop AI evaluation cockpit for comparing chatbot responses and coding answers with multiple OpenRouter models.",
  "problem_source": "project source",
- "project_category": "FINANCE",
- "project_category_basis": "project text: valuation",
+ "project_category": "AGENT",
+ "project_category_basis": "public venture card category: developer tools",
  "project_category_previous": "FINANCE",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "Compare model answers. A person still has to approve them.",
  "purpose": "Startup portfolio: evalforge",
  "release": "0.1.0",

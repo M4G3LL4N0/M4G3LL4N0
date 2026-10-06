@@ -54,7 +54,7 @@
   "src/types (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "paper_stock",
+ "material_family": "ceramic",
  "output_types": [
   "persisted to file-backed JSON"
  ],
@@ -66,11 +66,10 @@
  "project_category": "GENERAL",
  "project_category_basis": "no category signal in evidence",
  "project_category_previous": "GENERAL",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "",
  "purpose": "Startup portfolio: psychemap",
  "release": "0.1.0",
- "secondary_visual_metaphor": "nested frames in terraced arrangement",
+ "secondary_visual_metaphor": "attestation panel in terraced arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

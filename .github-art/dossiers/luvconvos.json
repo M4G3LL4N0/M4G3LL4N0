@@ -78,7 +78,6 @@
  "project_category": "SECURITY",
  "project_category_basis": "project text: privacy, auth",
  "project_category_previous": "SECURITY",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "",
  "purpose": "luvconvos. build via `package.json`.",
  "release": "0.1.0",

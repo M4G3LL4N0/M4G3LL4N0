@@ -84,7 +84,6 @@
  "project_category": "AGENT",
  "project_category_basis": "project text: model, evolution, mind",
  "project_category_previous": "AGENT",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "A small kernel for a mind that can be measured.",
  "purpose": "Open-source self-evolving AI kernel with an auditable memory and capability loop.",
  "release": "0.1.0-alpha",

@@ -144,18 +144,18 @@
    "topology": "terraced"
   },
   "FungMind": {
-   "accent": "cyan",
+   "accent": "violet",
    "depth": "floating",
    "design_version": "V6",
-   "family": "ORCHESTRATION",
-   "family_basis": "code-derived category = AGENT",
-   "family_claim": "work coordinated across nodes toward a verified outcome",
+   "family": "PRESENTATION",
+   "family_basis": "typed web surface with 1 route handlers",
+   "family_claim": "a composed surface meant to be read by a person",
    "family_from_evidence": true,
    "geometry_phase": 0.4998134883190417,
    "github_repo": "FungMind",
-   "material": "optical_glass",
-   "motif": "capability_ring",
-   "topology": "branching"
+   "material": "resin",
+   "motif": "type_rail",
+   "topology": "terraced"
   },
   "HackerzArt": {
    "accent": "mint",
@@ -196,7 +196,7 @@
    "geometry_phase": 0.7248726177584359,
    "github_repo": "NaextBlock",
    "material": "resin",
-   "motif": "type_rail",
+   "motif": "component_mosaic",
    "topology": "terraced"
   },
   "RequestAyo": {
@@ -223,9 +223,9 @@
    "family_from_evidence": true,
    "geometry_phase": 0.6647220493829842,
    "github_repo": "SUNSETX",
-   "material": "resin",
-   "motif": "component_mosaic",
-   "topology": "terraced"
+   "material": "polymer",
+   "motif": "modular_grid",
+   "topology": "orthogonal"
   },
   "ShopRight": {
    "accent": "violet",
@@ -238,7 +238,7 @@
    "geometry_phase": 0.912709300623785,
    "github_repo": "ShopRight",
    "material": "polymer",
-   "motif": "modular_grid",
+   "motif": "soft_tiles",
    "topology": "orthogonal"
   },
   "SoulMayte": {
@@ -336,7 +336,7 @@
    "geometry_phase": 0.681458649842881,
    "github_repo": "access-layer",
    "material": "optical_glass",
-   "motif": "delegation_fan",
+   "motif": "capability_ring",
    "topology": "branching"
   },
   "agentapi-hub": {
@@ -349,8 +349,8 @@
    "family_from_evidence": true,
    "geometry_phase": 0.6965918390276435,
    "github_repo": "agentapi-hub",
-   "material": "liquid_crystal",
-   "motif": "coordinating_mesh",
+   "material": "optical_glass",
+   "motif": "delegation_fan",
    "topology": "branching"
   },
   "agentcore-silicon": {
@@ -364,7 +364,7 @@
    "geometry_phase": 0.2818133906176996,
    "github_repo": "agentcore-silicon",
    "material": "polymer",
-   "motif": "soft_tiles",
+   "motif": "type_rail",
    "topology": "orthogonal"
   },
   "agentos": {
@@ -378,7 +378,7 @@
    "geometry_phase": 0.058834202011514236,
    "github_repo": "agentos",
    "material": "liquid_crystal",
-   "motif": "staged_pipeline",
+   "motif": "coordinating_mesh",
    "topology": "branching"
   },
   "agentos-website": {
@@ -392,7 +392,7 @@
    "geometry_phase": 0.23143235027934494,
    "github_repo": "agentos-website",
    "material": "liquid_crystal",
-   "motif": "capability_ring",
+   "motif": "staged_pipeline",
    "topology": "branching"
   },
   "autoerp": {
@@ -406,7 +406,7 @@
    "geometry_phase": 0.21653257059962527,
    "github_repo": "autoerp",
    "material": "polymer",
-   "motif": "type_rail",
+   "motif": "component_mosaic",
    "topology": "orthogonal"
   },
   "betterfintech": {
@@ -433,8 +433,8 @@
    "family_from_evidence": true,
    "geometry_phase": 0.6207214107402557,
    "github_repo": "bioyield-labs",
-   "material": "polymer",
-   "motif": "component_mosaic",
+   "material": "luminous_ceramic",
+   "motif": "modular_grid",
    "topology": "orthogonal"
   },
   "blitzproof": {
@@ -476,7 +476,7 @@
    "geometry_phase": 0.43367356359850007,
    "github_repo": "buildloop-usa",
    "material": "luminous_ceramic",
-   "motif": "modular_grid",
+   "motif": "soft_tiles",
    "topology": "orthogonal"
   },
   "cannex-logistics": {
@@ -504,7 +504,7 @@
    "geometry_phase": 0.7015754365256015,
    "github_repo": "cheetahbearfuel",
    "material": "luminous_ceramic",
-   "motif": "soft_tiles",
+   "motif": "type_rail",
    "topology": "orthogonal"
   },
   "childdevos": {
@@ -518,7 +518,7 @@
    "geometry_phase": 0.10859210888325421,
    "github_repo": "childdevos",
    "material": "luminous_ceramic",
-   "motif": "type_rail",
+   "motif": "component_mosaic",
    "topology": "orthogonal"
   },
   "chipflow": {
@@ -531,8 +531,8 @@
    "family_from_evidence": true,
    "geometry_phase": 0.7987161070524884,
    "github_repo": "chipflow",
-   "material": "luminous_ceramic",
-   "motif": "component_mosaic",
+   "material": "resin",
+   "motif": "modular_grid",
    "topology": "orthogonal"
   },
   "claimpilot-ai": {
@@ -546,7 +546,7 @@
    "geometry_phase": 0.24961190400167865,
    "github_repo": "claimpilot-ai",
    "material": "resin",
-   "motif": "modular_grid",
+   "motif": "soft_tiles",
    "topology": "orthogonal"
   },
   "cleanstack-macos": {
@@ -602,7 +602,7 @@
    "geometry_phase": 0.07020358296491125,
    "github_repo": "commos",
    "material": "resin",
-   "motif": "soft_tiles",
+   "motif": "type_rail",
    "topology": "orthogonal"
   },
   "companyos": {
@@ -624,13 +624,13 @@
    "depth": "floating",
    "design_version": "V6",
    "family": "ORCHESTRATION",
-   "family_basis": "code-derived category = AGENT",
+   "family_basis": "source text: orchestrat",
    "family_claim": "work coordinated across nodes toward a verified outcome",
    "family_from_evidence": true,
    "geometry_phase": 0.23785413860573357,
    "github_repo": "computeflow",
    "material": "liquid_crystal",
-   "motif": "delegation_fan",
+   "motif": "capability_ring",
    "topology": "branching"
   },
   "computeflow-website": {
@@ -658,12 +658,12 @@
    "geometry_phase": 0.7195879724778855,
    "github_repo": "cortexhq",
    "material": "resin",
-   "motif": "type_rail",
+   "motif": "component_mosaic",
    "topology": "orthogonal"
   },
   "cortexhq-website": {
    "accent": "violet",
-   "depth": "floating",
+   "depth": "stacked",
    "design_version": "V6",
    "family": "PRESENTATION",
    "family_basis": "typed web surface with 2 route handlers",
@@ -671,9 +671,9 @@
    "family_from_evidence": true,
    "geometry_phase": 0.4504692853265766,
    "github_repo": "cortexhq-website",
-   "material": "resin",
-   "motif": "component_mosaic",
-   "topology": "orthogonal"
+   "material": "polymer",
+   "motif": "modular_grid",
+   "topology": "mesh"
   },
   "cropshield-ai": {
    "accent": "violet",
@@ -686,7 +686,7 @@
    "geometry_phase": 0.3781581538650265,
    "github_repo": "cropshield-ai",
    "material": "polymer",
-   "motif": "modular_grid",
+   "motif": "soft_tiles",
    "topology": "mesh"
   },
   "cropshield-ai-website": {
@@ -700,7 +700,7 @@
    "geometry_phase": 0.2996349439900463,
    "github_repo": "cropshield-ai-website",
    "material": "polymer",
-   "motif": "soft_tiles",
+   "motif": "type_rail",
    "topology": "mesh"
   },
   "datatherapy": {
@@ -736,7 +736,7 @@
    "depth": "recessed",
    "design_version": "V6",
    "family": "CAPITAL_MECHANICS",
-   "family_basis": "code-derived category = FINANCE",
+   "family_basis": "source text: revenue",
    "family_claim": "value entering, allocating, and settling",
    "family_from_evidence": true,
    "geometry_phase": 0.8916263338400512,
@@ -798,7 +798,7 @@
    "geometry_phase": 0.5806299498088485,
    "github_repo": "enterprisepilot",
    "material": "polymer",
-   "motif": "type_rail",
+   "motif": "component_mosaic",
    "topology": "mesh"
   },
   "evalforge": {
@@ -806,7 +806,7 @@
    "depth": "recessed",
    "design_version": "V6",
    "family": "CAPITAL_MECHANICS",
-   "family_basis": "code-derived category = FINANCE",
+   "family_basis": "source text: valuation",
    "family_claim": "value entering, allocating, and settling",
    "family_from_evidence": true,
    "geometry_phase": 0.8668186638307063,
@@ -839,8 +839,8 @@
    "family_from_evidence": true,
    "geometry_phase": 0.7212587720402226,
    "github_repo": "execmemory-ai",
-   "material": "luminous_ceramic",
-   "motif": "coordinating_mesh",
+   "material": "liquid_crystal",
+   "motif": "delegation_fan",
    "topology": "branching"
   },
   "executionos": {
@@ -867,23 +867,23 @@
    "family_from_evidence": true,
    "geometry_phase": 0.26696041878408394,
    "github_repo": "fastprocure-ai",
-   "material": "polymer",
-   "motif": "component_mosaic",
+   "material": "luminous_ceramic",
+   "motif": "modular_grid",
    "topology": "mesh"
   },
   "forgeflow": {
-   "accent": "mint",
-   "depth": "layered",
+   "accent": "cyan",
+   "depth": "floating",
    "design_version": "V6",
-   "family": "EVIDENCE_SURFACE",
-   "family_basis": "architecture = DOCUMENT",
-   "family_claim": "a claim assembled into something a reader can check",
+   "family": "ORCHESTRATION",
+   "family_basis": "code-derived category = AGENT",
+   "family_claim": "work coordinated across nodes toward a verified outcome",
    "family_from_evidence": true,
    "geometry_phase": 0.235858544503337,
    "github_repo": "forgeflow",
-   "material": "paper_stock",
-   "motif": "policy_stack",
-   "topology": "orthogonal"
+   "material": "luminous_ceramic",
+   "motif": "coordinating_mesh",
+   "topology": "branching"
   },
   "founderskingdom": {
    "accent": "mint",
@@ -910,7 +910,7 @@
    "geometry_phase": 0.28245398419312195,
    "github_repo": "freeconomie",
    "material": "paper_stock",
-   "motif": "attestation_panel",
+   "motif": "policy_stack",
    "topology": "orthogonal"
   },
   "fullofshit": {
@@ -923,8 +923,8 @@
    "family_from_evidence": true,
    "geometry_phase": 0.6358418730387285,
    "github_repo": "fullofshit",
-   "material": "deep_glass",
-   "motif": "nested_frames",
+   "material": "paper_stock",
+   "motif": "attestation_panel",
    "topology": "orthogonal"
   },
   "gamecombo": {
@@ -938,7 +938,7 @@
    "geometry_phase": 0.43818663481493303,
    "github_repo": "gamecombo",
    "material": "deep_glass",
-   "motif": "evidence_tiers",
+   "motif": "nested_frames",
    "topology": "orthogonal"
   },
   "genotwin-health": {
@@ -994,7 +994,7 @@
    "geometry_phase": 0.17243206305949954,
    "github_repo": "ghostframe",
    "material": "deep_glass",
-   "motif": "policy_stack",
+   "motif": "evidence_tiers",
    "topology": "orthogonal"
   },
   "grokbot-office": {
@@ -1162,7 +1162,7 @@
    "geometry_phase": 0.8496838814020293,
    "github_repo": "lagrangeos",
    "material": "deep_glass",
-   "motif": "attestation_panel",
+   "motif": "policy_stack",
    "topology": "orthogonal"
   },
   "ledgerops-ai": {
@@ -1170,7 +1170,7 @@
    "depth": "recessed",
    "design_version": "V6",
    "family": "CAPITAL_MECHANICS",
-   "family_basis": "public venture card category = Finance",
+   "family_basis": "code-derived category = FINANCE",
    "family_claim": "value entering, allocating, and settling",
    "family_from_evidence": true,
    "geometry_phase": 0.39174095211161486,
@@ -1203,9 +1203,9 @@
    "family_from_evidence": true,
    "geometry_phase": 0.24541878007002538,
    "github_repo": "life-finds-a-way",
-   "material": "ceramic",
-   "motif": "nested_frames",
-   "topology": "terraced"
+   "material": "deep_glass",
+   "motif": "attestation_panel",
+   "topology": "orthogonal"
   },
   "loopcompute-cloud": {
    "accent": "cyan",
@@ -1232,7 +1232,7 @@
    "geometry_phase": 0.1743966292467256,
    "github_repo": "lunarfoundry",
    "material": "luminous_ceramic",
-   "motif": "modular_grid",
+   "motif": "soft_tiles",
    "topology": "mesh"
   },
   "luvconvos": {
@@ -1302,7 +1302,7 @@
    "geometry_phase": 0.5004257628315862,
    "github_repo": "n1-therapeutics",
    "material": "luminous_ceramic",
-   "motif": "soft_tiles",
+   "motif": "type_rail",
    "topology": "mesh"
   },
   "nex-robotix": {
@@ -1316,7 +1316,7 @@
    "geometry_phase": 0.4422618799873561,
    "github_repo": "nex-robotix",
    "material": "ceramic",
-   "motif": "evidence_tiers",
+   "motif": "nested_frames",
    "topology": "terraced"
   },
   "obviouslybad": {
@@ -1330,7 +1330,7 @@
    "geometry_phase": 0.2933850553201225,
    "github_repo": "obviouslybad",
    "material": "ceramic",
-   "motif": "policy_stack",
+   "motif": "evidence_tiers",
    "topology": "terraced"
   },
   "oddbotix": {
@@ -1344,7 +1344,7 @@
    "geometry_phase": 0.5665339585160467,
    "github_repo": "oddbotix",
    "material": "ceramic",
-   "motif": "attestation_panel",
+   "motif": "policy_stack",
    "topology": "terraced"
   },
   "oodax": {
@@ -1414,7 +1414,7 @@
    "geometry_phase": 0.2382488819826989,
    "github_repo": "orbitchip",
    "material": "luminous_ceramic",
-   "motif": "type_rail",
+   "motif": "component_mosaic",
    "topology": "mesh"
   },
   "orbitprint": {
@@ -1427,8 +1427,8 @@
    "family_from_evidence": true,
    "geometry_phase": 0.03890524765750314,
    "github_repo": "orbitprint",
-   "material": "luminous_ceramic",
-   "motif": "component_mosaic",
+   "material": "resin",
+   "motif": "modular_grid",
    "topology": "mesh"
   },
   "poolwater": {
@@ -1455,23 +1455,23 @@
    "family_from_evidence": true,
    "geometry_phase": 0.3555954573920985,
    "github_repo": "psychemap",
-   "material": "paper_stock",
-   "motif": "nested_frames",
+   "material": "ceramic",
+   "motif": "attestation_panel",
    "topology": "terraced"
   },
   "readablestack": {
-   "accent": "cyan",
-   "depth": "floating",
+   "accent": "violet",
+   "depth": "stacked",
    "design_version": "V6",
-   "family": "ORCHESTRATION",
-   "family_basis": "code-derived category = AGENT",
-   "family_claim": "work coordinated across nodes toward a verified outcome",
+   "family": "PRESENTATION",
+   "family_basis": "typed web surface with 2 route handlers",
+   "family_claim": "a composed surface meant to be read by a person",
    "family_from_evidence": true,
    "geometry_phase": 0.5947572022440326,
    "github_repo": "readablestack",
-   "material": "liquid_crystal",
-   "motif": "delegation_fan",
-   "topology": "linear"
+   "material": "resin",
+   "motif": "soft_tiles",
+   "topology": "mesh"
   },
   "redwoud": {
    "accent": "violet",
@@ -1484,7 +1484,7 @@
    "geometry_phase": 0.3227302299445043,
    "github_repo": "redwoud",
    "material": "resin",
-   "motif": "modular_grid",
+   "motif": "type_rail",
    "topology": "mesh"
   },
   "reviewforge-ai": {
@@ -1498,7 +1498,7 @@
    "geometry_phase": 0.5031073121729221,
    "github_repo": "reviewforge-ai",
    "material": "paper_stock",
-   "motif": "evidence_tiers",
+   "motif": "nested_frames",
    "topology": "terraced"
   },
   "saeturtle": {
@@ -1511,8 +1511,8 @@
    "family_from_evidence": true,
    "geometry_phase": 0.9629510495815978,
    "github_repo": "saeturtle",
-   "material": "luminous_ceramic",
-   "motif": "coordinating_mesh",
+   "material": "liquid_crystal",
+   "motif": "delegation_fan",
    "topology": "linear"
   },
   "seai-mind": {
@@ -1540,7 +1540,7 @@
    "geometry_phase": 0.8882438718971706,
    "github_repo": "siliconcontrol-tower",
    "material": "resin",
-   "motif": "soft_tiles",
+   "motif": "component_mosaic",
    "topology": "mesh"
   },
   "spacecompute-cloud": {
@@ -1553,9 +1553,9 @@
    "family_from_evidence": true,
    "geometry_phase": 0.9369415149715188,
    "github_repo": "spacecompute-cloud",
-   "material": "resin",
-   "motif": "type_rail",
-   "topology": "mesh"
+   "material": "polymer",
+   "motif": "modular_grid",
+   "topology": "terraced"
   },
   "spaceedu": {
    "accent": "violet",
@@ -1567,9 +1567,9 @@
    "family_from_evidence": true,
    "geometry_phase": 0.28771280747057304,
    "github_repo": "spaceedu",
-   "material": "resin",
-   "motif": "component_mosaic",
-   "topology": "mesh"
+   "material": "polymer",
+   "motif": "soft_tiles",
+   "topology": "terraced"
   },
   "startupquick": {
    "accent": "mint",
@@ -1596,7 +1596,7 @@
    "geometry_phase": 0.6475561448491725,
    "github_repo": "strxngth",
    "material": "polymer",
-   "motif": "modular_grid",
+   "motif": "type_rail",
    "topology": "terraced"
   },
   "supplyos-ai": {
@@ -1610,7 +1610,7 @@
    "geometry_phase": 0.02260069420847799,
    "github_repo": "supplyos-ai",
    "material": "polymer",
-   "motif": "soft_tiles",
+   "motif": "component_mosaic",
    "topology": "terraced"
   },
   "swarmshield": {
@@ -1652,7 +1652,7 @@
    "geometry_phase": 0.13375091602293665,
    "github_repo": "trajectoryos",
    "material": "paper_stock",
-   "motif": "policy_stack",
+   "motif": "evidence_tiers",
    "topology": "terraced"
   },
   "useros": {
@@ -1666,7 +1666,7 @@
    "geometry_phase": 0.4319946392581464,
    "github_repo": "useros",
    "material": "paper_stock",
-   "motif": "attestation_panel",
+   "motif": "policy_stack",
    "topology": "terraced"
   },
   "uxvisualengine": {
@@ -1721,8 +1721,8 @@
    "family_from_evidence": true,
    "geometry_phase": 0.5587874882152626,
    "github_repo": "vizuler",
-   "material": "deep_glass",
-   "motif": "nested_frames",
+   "material": "paper_stock",
+   "motif": "attestation_panel",
    "topology": "terraced"
   },
   "workflowcanvas": {
@@ -1735,8 +1735,8 @@
    "family_from_evidence": true,
    "geometry_phase": 0.5482711265483964,
    "github_repo": "workflowcanvas",
-   "material": "polymer",
-   "motif": "type_rail",
+   "material": "luminous_ceramic",
+   "motif": "modular_grid",
    "topology": "terraced"
   },
   "youareprofound": {

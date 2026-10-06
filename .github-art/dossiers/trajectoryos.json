@@ -69,11 +69,10 @@
  "project_category": "SPACE",
  "project_category_basis": "project text: trajectory, mission",
  "project_category_previous": "SPACE",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "Trajectory intelligence for ventures, markets, and strategic positioning.",
  "purpose": "Startup portfolio: trajectoryos",
  "release": "0.1.0",
- "secondary_visual_metaphor": "policy stack in terraced arrangement",
+ "secondary_visual_metaphor": "evidence tiers in terraced arrangement",
  "secondary_workflows": [],
  "security_characteristics": [
   "approval required before privileged action"

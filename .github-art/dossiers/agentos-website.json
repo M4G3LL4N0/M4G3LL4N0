@@ -85,11 +85,10 @@
  "project_category": "DEVELOPER_TOOLS",
  "project_category_basis": "ships a verified CLI",
  "project_category_previous": "DEVELOPER_TOOLS",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "",
  "purpose": "Public site for AgentOS \u2014 the execution substrate, explained without the marketing fog.",
  "release": "0.5.0",
- "secondary_visual_metaphor": "capability ring in branching arrangement",
+ "secondary_visual_metaphor": "staged pipeline in branching arrangement",
  "secondary_workflows": [
   "agentos status \u2014 show engine status summary",
   "agentos doctor \u2014 run health checks",

@@ -31,7 +31,7 @@
  ],
  "geometry_family": "CAPITAL_MECHANICS",
  "github_repo": "ledgerops-ai",
- "industry": "DATA",
+ "industry": "FINANCE",
  "input_types": [
   "HTTP requests (JSON)"
  ],
@@ -81,10 +81,9 @@
  "primary_workflow": "",
  "problem": "AI-native accounting firm MVP: paste mock transactions, pick a business type, and generate a **monthly close report** with classification, anomalies, missing receipts, tax notes, CFO summary, and **tax prep readiness score**. SQLite + Prisma persist every run.",
  "problem_source": "project source",
- "project_category": "DATA",
- "project_category_basis": "project text: sqlite",
+ "project_category": "FINANCE",
+ "project_category_basis": "public venture card category: finance",
  "project_category_previous": "DATA",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "A monthly close from pasted sample transactions.",
  "purpose": "Startup portfolio: ledgerops-ai",
  "release": "0.1.0",

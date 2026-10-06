@@ -31,7 +31,7 @@
  ],
  "geometry_family": "CAPITAL_MECHANICS",
  "github_repo": "uxvisualengine",
- "industry": "GENERAL",
+ "industry": "CREATIVE",
  "input_types": [
   "HTTP requests (JSON)"
  ],
@@ -77,10 +77,9 @@
  "primary_workflow": "",
  "problem": "Nothing in it observes hierarchy, contrast, overflow, or whether the result resembles every other generated site. The defect ships, and the only signal is a user complaint.",
  "problem_source": "project source",
- "project_category": "GENERAL",
- "project_category_basis": "no category signal in evidence",
+ "project_category": "CREATIVE",
+ "project_category_basis": "public venture card category: design infrastructure",
  "project_category_previous": "GENERAL",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "Generate cleaner interfaces, faster.",
  "purpose": "uxvisualengine. Work in progress; see the repository contents for detail.",
  "release": "0.1.0",

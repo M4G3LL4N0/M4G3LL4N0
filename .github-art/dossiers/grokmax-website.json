@@ -75,7 +75,6 @@
  "project_category": "AGENT",
  "project_category_basis": "project text: grok",
  "project_category_previous": "AGENT",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "",
  "purpose": "GrokMax marketing site \u2014 deterministic-first routing to scale down GrokBot usage. Static Next.js export, deployed to grokmax.noaerth.com.",
  "release": "0.2.0-rc.2",

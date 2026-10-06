@@ -31,7 +31,7 @@
  ],
  "geometry_family": "GENERATIVE_FIELD",
  "github_repo": "opsautopilot",
- "industry": "GENERAL",
+ "industry": "INFRASTRUCTURE",
  "input_types": [
   "HTTP requests (JSON)"
  ],
@@ -81,10 +81,9 @@
  "primary_workflow": "",
  "problem": "AI operations autopilot simulator MVP for bottleneck detection, follow-up generation, task routing, and operating rhythm planning.",
  "problem_source": "project source",
- "project_category": "GENERAL",
- "project_category_basis": "no category signal in evidence",
+ "project_category": "INFRASTRUCTURE",
+ "project_category_basis": "public venture card category: startup infrastructure",
  "project_category_previous": "GENERAL",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "Operations autopilot for recurring workflows across growing companies.",
  "purpose": "Startup portfolio: opsautopilot",
  "release": "0.1.0",

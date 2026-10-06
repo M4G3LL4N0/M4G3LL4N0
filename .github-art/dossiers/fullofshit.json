@@ -52,7 +52,7 @@
   "src/lib (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "deep_glass",
+ "material_family": "paper_stock",
  "noaerth_category": "Clarity Systems",
  "noaerth_category_path": "Clarity Systems",
  "noaerth_next_milestone": "Align hero and first action with: Stop wasting your brain on ideas that do not need to exist",
@@ -71,11 +71,10 @@
  "project_category": "GENERAL",
  "project_category_basis": "no category signal in evidence",
  "project_category_previous": "GENERAL",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "Clarity tools for cutting through noise, hype, and weak thinking.",
  "purpose": "Startup portfolio: fullofshit",
  "release": "0.1.0",
- "secondary_visual_metaphor": "nested frames in orthogonal arrangement",
+ "secondary_visual_metaphor": "attestation panel in orthogonal arrangement",
  "secondary_workflows": [],
  "security_characteristics": [
   "no authentication in the current version"

@@ -33,7 +33,7 @@
  ],
  "geometry_family": "CAPITAL_MECHANICS",
  "github_repo": "deploylocal",
- "industry": "FINANCE",
+ "industry": "INFRASTRUCTURE",
  "input_types": [
   "HTTP requests (JSON)"
  ],
@@ -84,10 +84,9 @@
  "primary_workflow": "",
  "problem": "Autonomous high-profit website acquisition, generation, sales and recurring-revenue engine. **Part A and Part B.**",
  "problem_source": "project source",
- "project_category": "FINANCE",
- "project_category_basis": "project text: revenue",
+ "project_category": "INFRASTRUCTURE",
+ "project_category_basis": "public venture card category: developer infrastructure",
  "project_category_previous": "FINANCE",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "Lead discovery and outreach infrastructure for local businesses that need a web presence and pipeline.",
  "purpose": "deploylocal. build via `package.json`.",
  "release": "0.1.0",

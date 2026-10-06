@@ -64,7 +64,6 @@
  "project_category": "AGENT",
  "project_category_basis": "project text: llm, grok",
  "project_category_previous": "AGENT",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "",
  "purpose": "Public website for the persistent-agent runtime.",
  "release": "0.1.0",

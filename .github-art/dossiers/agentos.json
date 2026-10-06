@@ -94,11 +94,10 @@
  "project_category": "DEVELOPER_TOOLS",
  "project_category_basis": "ships a verified CLI",
  "project_category_previous": "DEVELOPER_TOOLS",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "Requested is not verified.",
  "purpose": "Provider-neutral AI agent execution and orchestration engine: objective in, verified outcome out.",
  "release": "0.5.0",
- "secondary_visual_metaphor": "staged pipeline in branching arrangement",
+ "secondary_visual_metaphor": "coordinating mesh in branching arrangement",
  "secondary_workflows": [
   "agentos status \u2014 show engine status summary",
   "agentos doctor \u2014 run health checks",

@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "nodes advertise, a coordinator selects, work converges",
+ "animation_metaphor": "a composed grid assembles and a sweep resolves it",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "FungMind",
@@ -8,7 +8,7 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "cyan",
+ "color_family": "violet",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
  "depth": "floating",
@@ -29,9 +29,9 @@
   "supabase",
   "tailwindcss"
  ],
- "geometry_family": "ORCHESTRATION",
+ "geometry_family": "PRESENTATION",
  "github_repo": "FungMind",
- "industry": "AGENT",
+ "industry": "BIOTECH",
  "input_types": [
   "HTTP requests (JSON)"
  ],
@@ -59,7 +59,7 @@
   "src/types (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "optical_glass",
+ "material_family": "resin",
  "noaerth_category": "Wellness",
  "noaerth_category_path": "Wellness / Mind",
  "noaerth_next_milestone": "Ship first mind workflow on site",
@@ -75,18 +75,17 @@
   "persisted to file-backed JSON"
  ],
  "primary_user": "built for Vercel",
- "primary_visual_metaphor": "nodes converging on a coordinating cell",
+ "primary_visual_metaphor": "a composed grid assembling and settling",
  "primary_workflow": "",
  "problem": "Mental models that grow like systems.",
  "problem_source": "public venture card (no project-authored statement)",
- "project_category": "AGENT",
- "project_category_basis": "project text: model",
+ "project_category": "BIOTECH",
+ "project_category_basis": "public venture card category: wellness",
  "project_category_previous": "AGENT",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "Mental models that grow like systems.",
  "purpose": "FungMind. build via `package.json`.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "capability ring in branching arrangement",
+ "secondary_visual_metaphor": "type rail in terraced arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

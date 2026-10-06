@@ -31,7 +31,7 @@
  ],
  "geometry_family": "INSTRUMENT",
  "github_repo": "morphui",
- "industry": "DEVELOPER_TOOLS",
+ "industry": "CREATIVE",
  "input_types": [
   "CLI arguments",
   "HTTP requests (JSON)"
@@ -84,10 +84,9 @@
  "primary_workflow": "",
  "problem": "Interactive MVP for an **AI interface layer** that reshapes SaaS dashboards from **role**, **workflow**, **layout preference**, and **natural language** intent. The demo engine reorders modules, hides deprioritized tiles, highlights key actions, and generates a **personalized interface explanation**.",
  "problem_source": "project source",
- "project_category": "DEVELOPER_TOOLS",
- "project_category_basis": "project text: cli",
+ "project_category": "CREATIVE",
+ "project_category_basis": "public venture card category: design infrastructure",
  "project_category_previous": "DEVELOPER_TOOLS",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "Morphing UI systems for faster product design and interface iteration.",
  "purpose": "Startup portfolio: morphui",
  "release": "0.1.0",

@@ -73,7 +73,6 @@
  "project_category": "DEVELOPER_TOOLS",
  "project_category_basis": "ships a verified CLI",
  "project_category_previous": "DEVELOPER_TOOLS",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "Your context already has the answer.",
  "purpose": "Install the capability, not the complexity. A Go CLI that inspects a repo and installs the smallest useful integration.",
  "release": "0.1.0",

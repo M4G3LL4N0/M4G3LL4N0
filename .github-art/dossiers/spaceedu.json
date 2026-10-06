@@ -61,7 +61,7 @@
   "src/hooks (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "resin",
+ "material_family": "polymer",
  "output_types": [
   "HTTP responses (JSON)",
   "route handlers: admin/analytics-events, admin/missions/[slug], admin/settings/recommendations, admin/waitlist, me/alerts, me/interests, me/profile, me/watchlist",
@@ -75,11 +75,10 @@
  "project_category": "SPACE",
  "project_category_basis": "project text: mission",
  "project_category_previous": "SPACE",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "",
  "purpose": "spaceedu. build via `package.json`.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "component mosaic in mesh arrangement",
+ "secondary_visual_metaphor": "soft tiles in terraced arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

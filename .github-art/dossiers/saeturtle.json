@@ -61,7 +61,7 @@
   "app/dashboard (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "luminous_ceramic",
+ "material_family": "liquid_crystal",
  "output_types": [
   "HTTP responses (JSON)",
   "route handlers: checkout, recommendations, waitlist"
@@ -74,11 +74,10 @@
  "project_category": "HEALTH",
  "project_category_basis": "project text: care",
  "project_category_previous": "HEALTH",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "",
  "purpose": "saeturtle. build via `package.json`.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "coordinating mesh in linear arrangement",
+ "secondary_visual_metaphor": "delegation fan in linear arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "",

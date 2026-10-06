@@ -33,7 +33,7 @@
  ],
  "geometry_family": "GENERATIVE_FIELD",
  "github_repo": "Modex",
- "industry": "DATA",
+ "industry": "INFRASTRUCTURE",
  "input_types": [
   "HTTP requests (JSON)"
  ],
@@ -83,10 +83,9 @@
  "primary_workflow": "",
  "problem": "Modern commerce modules for builders.",
  "problem_source": "public venture card (no project-authored statement)",
- "project_category": "DATA",
- "project_category_basis": "project text: ingest",
+ "project_category": "INFRASTRUCTURE",
+ "project_category_basis": "public venture card category: decision intelligence infrastructure",
  "project_category_previous": "DATA",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "Modern commerce modules for builders.",
  "purpose": "Modex. build via `package.json`.",
  "release": "0.1.0",

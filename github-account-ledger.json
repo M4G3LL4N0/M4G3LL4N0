@@ -2,7 +2,7 @@
  "$comment": "One record per canonical repository. Every field is COMPLETE or NOT_APPLICABLE with a reason; UNKNOWN is never a terminal value.",
  "account": "M4G3LL4N0",
  "canonical_count": 152,
- "generated_at": "2026-10-06T19:59:44Z",
+ "generated_at": "2026-10-06T21:11:55Z",
  "records": [
   {
    "name": "1bc",
@@ -12,14 +12,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/1bc",
+   "local_path": "",
    "canonical_project": "1bc",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: 1bc. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -139,7 +139,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/access-layer",
+   "local_path": "",
    "canonical_project": "access-layer",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -266,7 +266,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/agentapi-hub",
+   "local_path": "",
    "canonical_project": "agentapi-hub",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -393,7 +393,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/agentcore-silicon",
+   "local_path": "",
    "canonical_project": "agentcore-silicon",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -520,7 +520,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/agentos",
+   "local_path": "",
    "canonical_project": "agentos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -647,7 +647,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/agentos-website",
+   "local_path": "",
    "canonical_project": "agentos",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -806,7 +806,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -903,7 +903,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/autobuilder",
+   "local_path": "",
    "canonical_project": "autobuilder",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
@@ -933,7 +933,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -1030,7 +1030,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/autobuilder-3",
+   "local_path": "",
    "canonical_project": "autobuilder-3",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
@@ -1060,7 +1060,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -1157,7 +1157,7 @@
    "default_branch": "",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/autobuilder-mvp",
+   "local_path": "",
    "canonical_project": "autobuilder-mvp",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
@@ -1187,7 +1187,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -1284,7 +1284,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/autoerp",
+   "local_path": "",
    "canonical_project": "autoerp",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -1411,14 +1411,14 @@
    "default_branch": "auto-1775597267-ayncient",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/ayncient",
+   "local_path": "",
    "canonical_project": "Ayncient",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Ayncient. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -1436,16 +1436,16 @@
     "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -1528,7 +1528,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 18 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "BehindCurtain",
@@ -1538,7 +1538,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/behindcurtain",
+   "local_path": "",
    "canonical_project": "BehindCurtain",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -1665,7 +1665,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/betterfintech",
+   "local_path": "",
    "canonical_project": "betterfintech",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -1792,7 +1792,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/bioyield-labs",
+   "local_path": "",
    "canonical_project": "bioyield-labs",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -1919,7 +1919,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/blitzproof",
+   "local_path": "",
    "canonical_project": "blitzproof",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -2046,7 +2046,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/blitzunicorn",
+   "local_path": "",
    "canonical_project": "blitzunicorn",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -2173,14 +2173,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/bourgaeux",
+   "local_path": "",
    "canonical_project": "Bourgaeux",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Bourgaeux. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -2300,14 +2300,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/brandcrossover",
+   "local_path": "",
    "canonical_project": "BrandCrossover",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "BrandCrossover. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -2427,7 +2427,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/buildloop-usa",
+   "local_path": "",
    "canonical_project": "buildloop-usa",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -2554,14 +2554,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cannex-logistics",
+   "local_path": "",
    "canonical_project": "cannex-logistics",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "cannex logistics. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -2681,14 +2681,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cheetahbearfuel",
+   "local_path": "",
    "canonical_project": "cheetahbearfuel",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "cheetahbearfuel. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -2808,7 +2808,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/childdevos",
+   "local_path": "",
    "canonical_project": "childdevos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -2935,7 +2935,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/chipflow",
+   "local_path": "",
    "canonical_project": "chipflow",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -3062,7 +3062,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/claimpilot-ai",
+   "local_path": "",
    "canonical_project": "claimpilot-ai",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -3189,7 +3189,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cleanstack-macos",
+   "local_path": "",
    "canonical_project": "cleanstack-macos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -3316,14 +3316,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cleanstack-os",
+   "local_path": "",
    "canonical_project": "cleanstack-os",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "cleanstack os. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -3443,7 +3443,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cloudcastle",
+   "local_path": "",
    "canonical_project": "cloudcastle",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -3570,7 +3570,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/commos",
+   "local_path": "",
    "canonical_project": "commos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -3697,7 +3697,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/companyos",
+   "local_path": "",
    "canonical_project": "companyos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -3824,7 +3824,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/computeflow",
+   "local_path": "",
    "canonical_project": "computeflow",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -3951,7 +3951,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/computeflow-website",
+   "local_path": "",
    "canonical_project": "computeflow",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -4080,14 +4080,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cortexhq",
+   "local_path": "",
    "canonical_project": "cortexhq",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: cortexhq",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -4207,7 +4207,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cortexhq-website",
+   "local_path": "",
    "canonical_project": "cortexhq",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -4336,7 +4336,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cropshield-ai",
+   "local_path": "",
    "canonical_project": "cropshield-ai",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -4463,7 +4463,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cropshield-ai-website",
+   "local_path": "",
    "canonical_project": "cropshield-ai",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -4592,14 +4592,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cruxenio",
+   "local_path": "",
    "canonical_project": "Cruxenio",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Cruxenio. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -4719,7 +4719,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cruxenio-website",
+   "local_path": "",
    "canonical_project": "cruxenio",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -4749,7 +4749,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -4848,14 +4848,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cxntradict",
+   "local_path": "",
    "canonical_project": "CxNTRADICT",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "CxNTRADICT. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -4975,7 +4975,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/cxntradict-website",
+   "local_path": "",
    "canonical_project": "cxntradict",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -5005,7 +5005,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -5104,7 +5104,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/datatherapy",
+   "local_path": "",
    "canonical_project": "datatherapy",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -5231,7 +5231,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/datatherapy-website",
+   "local_path": "",
    "canonical_project": "datatherapy",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -5360,7 +5360,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/deploylocal",
+   "local_path": "",
    "canonical_project": "deploylocal",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -5487,7 +5487,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/deploylocal-website",
+   "local_path": "",
    "canonical_project": "deploylocal",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -5616,7 +5616,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/devstate",
+   "local_path": "",
    "canonical_project": "devstate",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -5743,7 +5743,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/devstate-website",
+   "local_path": "",
    "canonical_project": "devstate",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -5872,14 +5872,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/emailsimple",
+   "local_path": "",
    "canonical_project": "EmailSimple",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "EmailSimple. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -5999,7 +5999,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/emailsimple-website",
+   "local_path": "",
    "canonical_project": "emailsimple",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -6029,7 +6029,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -6128,7 +6128,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/enterprisepilot",
+   "local_path": "",
    "canonical_project": "enterprisepilot",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -6255,7 +6255,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/evalforge",
+   "local_path": "",
    "canonical_project": "evalforge",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -6382,14 +6382,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/evsec-one",
+   "local_path": "",
    "canonical_project": "evsec-one",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "evsec one. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -6636,7 +6636,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/execmemory-ai",
+   "local_path": "",
    "canonical_project": "execmemory-ai",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -6763,14 +6763,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/executionos",
+   "local_path": "",
    "canonical_project": "executionos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: executionos",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -6890,7 +6890,7 @@
    "default_branch": "portfolio/fastprocure-ai/planner-draft",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/fastprocure-ai",
+   "local_path": "",
    "canonical_project": "fastprocure-ai",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -6915,16 +6915,16 @@
     "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -7007,7 +7007,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 19 field(s)"
+   "next_action": "complete 16 field(s)"
   },
   {
    "name": "ForeverLuvd",
@@ -7017,14 +7017,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/foreverluvd",
+   "local_path": "",
    "canonical_project": "ForeverLuvd",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "ForeverLuvd. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -7144,14 +7144,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/forgeflow",
+   "local_path": "",
    "canonical_project": "forgeflow",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: forgeflow",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -7271,7 +7271,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/founderskingdom",
+   "local_path": "",
    "canonical_project": "founderskingdom",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -7398,7 +7398,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/freeconomie",
+   "local_path": "",
    "canonical_project": "freeconomie",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -7555,7 +7555,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -7652,7 +7652,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/fullofshit",
+   "local_path": "",
    "canonical_project": "fullofshit",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -7809,7 +7809,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -7906,14 +7906,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/fungmind",
+   "local_path": "",
    "canonical_project": "FungMind",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "FungMind. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -8033,14 +8033,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/gamecombo",
+   "local_path": "",
    "canonical_project": "gamecombo",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: gamecombo",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -8160,7 +8160,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/genotwin-health",
+   "local_path": "",
    "canonical_project": "genotwin-health",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -8287,7 +8287,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/gh0st",
+   "local_path": "",
    "canonical_project": "gh0st",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -8414,7 +8414,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/gh0st-website",
+   "local_path": "",
    "canonical_project": "gh0st",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -8543,14 +8543,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/ghostframe",
+   "local_path": "",
    "canonical_project": "ghostframe",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: ghostframe",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -8670,7 +8670,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/grokbot-concierge-website",
+   "local_path": "",
    "canonical_project": "grokbot-concierge",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -8700,7 +8700,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -8799,7 +8799,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/grokbot-office",
+   "local_path": "",
    "canonical_project": "grokbot-office",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -8926,7 +8926,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/grokbot-office-website",
+   "local_path": "",
    "canonical_project": "grokbot-office",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -9055,7 +9055,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/grokbot-society",
+   "local_path": "",
    "canonical_project": "grokbot-society",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -9182,7 +9182,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/grokbot-society-website",
+   "local_path": "",
    "canonical_project": "grokbot-society",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -9311,7 +9311,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/grokgeneral",
+   "local_path": "",
    "canonical_project": "grokgeneral",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -9438,7 +9438,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/grokinstall",
+   "local_path": "",
    "canonical_project": "grokinstall",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -9565,7 +9565,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/grokinstall-website",
+   "local_path": "",
    "canonical_project": "grokinstall",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -9694,7 +9694,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/grokmax",
+   "local_path": "",
    "canonical_project": "grokmax",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -9821,7 +9821,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/grokmax-website",
+   "local_path": "",
    "canonical_project": "grokmax",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -9950,14 +9950,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/hackerzart",
+   "local_path": "",
    "canonical_project": "HackerzArt",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "HackerzArt. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -10077,14 +10077,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/happyblock",
+   "local_path": "",
    "canonical_project": "happyblock",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "happyblock. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -10234,7 +10234,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -10331,7 +10331,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/interceptorgrid",
+   "local_path": "",
    "canonical_project": "interceptorgrid",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -10458,14 +10458,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/lagrangeos",
+   "local_path": "",
    "canonical_project": "lagrangeos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: lagrangeos",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -10585,7 +10585,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/ledgerops-ai",
+   "local_path": "",
    "canonical_project": "ledgerops-ai",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -10712,14 +10712,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/legacybridge",
+   "local_path": "",
    "canonical_project": "legacybridge",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "legacybridge. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -10839,14 +10839,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/life-finds-a-way",
+   "local_path": "",
    "canonical_project": "life-finds-a-way",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: life-finds-a-way",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -10966,7 +10966,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/loopcompute-cloud",
+   "local_path": "",
    "canonical_project": "loopcompute-cloud",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -11093,7 +11093,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/lunarfoundry",
+   "local_path": "",
    "canonical_project": "lunarfoundry",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -11220,14 +11220,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/luvconvos",
+   "local_path": "",
    "canonical_project": "luvconvos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "luvconvos. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -11347,7 +11347,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/luvpartnr",
+   "local_path": "",
    "canonical_project": "luvpartnr",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -11474,7 +11474,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/luvstories",
+   "local_path": "",
    "canonical_project": "luvstories",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -11626,12 +11626,12 @@
     "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -11718,7 +11718,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 15 field(s)"
+   "next_action": "complete 13 field(s)"
   },
   {
    "name": "Modex",
@@ -11728,14 +11728,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/modex",
+   "local_path": "",
    "canonical_project": "Modex",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Modex. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -11855,7 +11855,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/morphui",
+   "local_path": "",
    "canonical_project": "morphui",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -11982,7 +11982,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/n1-therapeutics",
+   "local_path": "",
    "canonical_project": "n1-therapeutics",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -12109,14 +12109,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/naextblock",
+   "local_path": "",
    "canonical_project": "NaextBlock",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "NaextBlock. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -12236,14 +12236,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/nex-robotix",
+   "local_path": "",
    "canonical_project": "nex-robotix",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: nex-robotix",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -12363,7 +12363,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/noaerth",
+   "local_path": "",
    "canonical_project": "noaerth",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
@@ -12393,7 +12393,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -12490,7 +12490,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/noaerth-cloud-factory",
+   "local_path": "",
    "canonical_project": "noaerth-cloud-factory",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
@@ -12520,7 +12520,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -12647,7 +12647,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -12744,7 +12744,7 @@
    "default_branch": "portfolio/noaerth-labs/public-feed",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/noaerth-labs",
+   "local_path": "",
    "canonical_project": "Noaerth-Labs",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
@@ -12774,7 +12774,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -12871,7 +12871,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/noaerth-operator",
+   "local_path": "",
    "canonical_project": "noaerth-operator",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
@@ -12901,7 +12901,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -12998,7 +12998,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/noaerth-portfolio-os",
+   "local_path": "",
    "canonical_project": "noaerth-portfolio-os",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
@@ -13028,7 +13028,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -13125,7 +13125,7 @@
    "default_branch": "portfolio/noaerth-team/public-room",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/noaerth-team",
+   "local_path": "",
    "canonical_project": "Noaerth-Team",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
@@ -13155,7 +13155,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -13282,7 +13282,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -13379,14 +13379,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/obviouslybad",
+   "local_path": "",
    "canonical_project": "obviouslybad",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: obviouslybad",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -13506,14 +13506,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/oddbotix",
+   "local_path": "",
    "canonical_project": "oddbotix",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "oddbotix. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -13633,14 +13633,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/oodax",
+   "local_path": "",
    "canonical_project": "oodax",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: oodax. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -13760,7 +13760,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/opencode-watchdog",
+   "local_path": "",
    "canonical_project": "opencode-watchdog",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -13887,7 +13887,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/opencode-watchdog-website",
+   "local_path": "",
    "canonical_project": "opencode-watchdog",
    "classification": "SITE_ONLY",
    "denylisted": false,
@@ -14016,7 +14016,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/opsautopilot",
+   "local_path": "",
    "canonical_project": "opsautopilot",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -14143,7 +14143,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/orbitchip",
+   "local_path": "",
    "canonical_project": "orbitchip",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -14270,7 +14270,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/orbitprint",
+   "local_path": "",
    "canonical_project": "orbitprint",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -14397,7 +14397,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/paios-one",
+   "local_path": "",
    "canonical_project": "paios-one",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
@@ -14427,7 +14427,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -14524,7 +14524,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/poolwater",
+   "local_path": "",
    "canonical_project": "poolwater",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -14651,14 +14651,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/psychemap",
+   "local_path": "",
    "canonical_project": "psychemap",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: psychemap",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -14778,7 +14778,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/readablestack",
+   "local_path": "",
    "canonical_project": "readablestack",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -14905,7 +14905,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/redwoud",
+   "local_path": "",
    "canonical_project": "redwoud",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -15032,14 +15032,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/requestayo",
+   "local_path": "",
    "canonical_project": "RequestAyo",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "RequestAyo. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -15159,14 +15159,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/reviewforge-ai",
+   "local_path": "",
    "canonical_project": "reviewforge-ai",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: reviewforge-ai",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -15286,7 +15286,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/saeturtle",
+   "local_path": "",
    "canonical_project": "saeturtle",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -15413,7 +15413,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/seai-mind",
+   "local_path": "",
    "canonical_project": "seai-mind",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -15540,14 +15540,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/shopright",
+   "local_path": "",
    "canonical_project": "ShopRight",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "ShopRight. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -15667,7 +15667,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/siliconcontrol-tower",
+   "local_path": "",
    "canonical_project": "siliconcontrol-tower",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -15794,14 +15794,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/soulmayte",
+   "local_path": "",
    "canonical_project": "SoulMayte",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "SoulMayte. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -15921,7 +15921,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/spacecompute-cloud",
+   "local_path": "",
    "canonical_project": "spacecompute-cloud",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -16048,14 +16048,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/spaceedu",
+   "local_path": "",
    "canonical_project": "spaceedu",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "spaceedu. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -16175,7 +16175,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/spouwse",
+   "local_path": "",
    "canonical_project": "Spouwse",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -16332,7 +16332,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -16429,7 +16429,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/startupquick",
+   "local_path": "",
    "canonical_project": "startupquick",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -16586,7 +16586,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -16683,14 +16683,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/strxngth",
+   "local_path": "",
    "canonical_project": "strxngth",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "strxngth. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -16840,7 +16840,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -16937,7 +16937,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/sunsetx",
+   "local_path": "",
    "canonical_project": "SUNSETX",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -17064,7 +17064,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/supplyos-ai",
+   "local_path": "",
    "canonical_project": "supplyos-ai",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -17191,14 +17191,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/swarmshield",
+   "local_path": "",
    "canonical_project": "swarmshield",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: swarmshield",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17318,7 +17318,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/tempoos",
+   "local_path": "",
    "canonical_project": "tempoos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -17445,14 +17445,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/therapyux",
+   "local_path": "",
    "canonical_project": "TherapyUX",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "TherapyUX. build via `package.json`.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17572,14 +17572,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/trajectoryos",
+   "local_path": "",
    "canonical_project": "trajectoryos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: trajectoryos",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17699,14 +17699,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/trustxverify",
+   "local_path": "",
    "canonical_project": "TrustxVerify",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "TrustxVerify. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17826,14 +17826,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/useros",
+   "local_path": "",
    "canonical_project": "useros",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "Startup portfolio: useros",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17953,7 +17953,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/uxvisualengine",
+   "local_path": "",
    "canonical_project": "uxvisualengine",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -18080,14 +18080,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/valuedsociety",
+   "local_path": "",
    "canonical_project": "valuedsociety",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "valuedsociety. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -18207,7 +18207,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/vencapmentor",
+   "local_path": "",
    "canonical_project": "vencapmentor",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -18334,14 +18334,14 @@
    "default_branch": "auto-1775600914-venturerank-os",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/venturerank-os",
+   "local_path": "",
    "canonical_project": "VentureRank-OS",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "VentureRank OS. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -18359,16 +18359,16 @@
     "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -18451,7 +18451,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 18 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "vizuler",
@@ -18461,7 +18461,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/vizuler",
+   "local_path": "",
    "canonical_project": "vizuler",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -18618,7 +18618,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -18715,7 +18715,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/workflowcanvas",
+   "local_path": "",
    "canonical_project": "workflowcanvas",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -18842,14 +18842,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/youareprofound",
+   "local_path": "",
    "canonical_project": "youareprofound",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
-   "description_text": "youareprofound. package.json.",
+   "description_text": "Next.js launch-site scaffold: about, contact, demo, privacy and terms routes, with placeholder pages that exist so portfolio links resolve. No product surface yet.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -18969,7 +18969,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/youstate",
+   "local_path": "",
    "canonical_project": "YouState",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
@@ -19126,7 +19126,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "reason": "no animated hero variant"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -19223,7 +19223,7 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "/Users/matador/startups/zaeux",
+   "local_path": "",
    "canonical_project": "zaeux",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,

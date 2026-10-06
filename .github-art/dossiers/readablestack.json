@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "nodes advertise, a coordinator selects, work converges",
+ "animation_metaphor": "a composed grid assembles and a sweep resolves it",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "ReadableStack",
@@ -8,10 +8,10 @@
   "workflows": []
  },
  "classification": "PUBLIC_PROJECT",
- "color_family": "cyan",
+ "color_family": "violet",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
- "depth": "floating",
+ "depth": "stacked",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -29,9 +29,9 @@
   "react",
   "tailwindcss"
  ],
- "geometry_family": "ORCHESTRATION",
+ "geometry_family": "PRESENTATION",
  "github_repo": "readablestack",
- "industry": "AGENT",
+ "industry": "INFRASTRUCTURE",
  "input_types": [
   "HTTP requests (JSON)"
  ],
@@ -61,7 +61,7 @@
   "app/pricing (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "liquid_crystal",
+ "material_family": "resin",
  "noaerth_category": "Developer Infrastructure",
  "noaerth_category_path": "Developer Infrastructure",
  "noaerth_next_milestone": "Ship first integration path on ReadableStack",
@@ -77,18 +77,17 @@
   "persisted to file-backed JSON"
  ],
  "primary_user": "built for agent-readable instructions",
- "primary_visual_metaphor": "nodes converging on a coordinating cell",
+ "primary_visual_metaphor": "a composed grid assembling and settling",
  "primary_workflow": "",
  "problem": "ReadableStack MVP: docs conversion demo for agent-readable instructions, schemas, examples, edge cases, and export outputs.",
  "problem_source": "project source",
- "project_category": "AGENT",
- "project_category_basis": "project text: agent",
+ "project_category": "INFRASTRUCTURE",
+ "project_category_basis": "public venture card category: developer infrastructure",
  "project_category_previous": "AGENT",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "Readable developer infrastructure for teams maintaining complex stacks.",
  "purpose": "Startup portfolio: readablestack",
  "release": "0.1.0",
- "secondary_visual_metaphor": "delegation fan in linear arrangement",
+ "secondary_visual_metaphor": "soft tiles in mesh arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

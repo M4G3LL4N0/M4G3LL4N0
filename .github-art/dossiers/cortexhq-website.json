@@ -11,7 +11,7 @@
  "color_family": "violet",
  "control_flow": "primary entry: HTTP API",
  "data_flow": "HTTP requests (JSON) \u2192 file-backed JSON \u2192 HTTP responses (JSON)",
- "depth": "floating",
+ "depth": "stacked",
  "design_version": "V6",
  "evidence": {
   "arch_doc": "ARCHITECTURE.md",
@@ -59,7 +59,7 @@
   "app/demo (1 file)"
  ],
  "mapping_confidence": "high",
- "material_family": "resin",
+ "material_family": "polymer",
  "output_types": [
   "HTTP responses (JSON)",
   "route handlers: brain, brain/[id]",
@@ -73,11 +73,10 @@
  "project_category": "GENERAL",
  "project_category_basis": "no category signal in evidence",
  "project_category_previous": "GENERAL",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "",
  "purpose": "cortexhq website. package.json.",
  "release": "0.1.0",
- "secondary_visual_metaphor": "component mosaic in orthogonal arrangement",
+ "secondary_visual_metaphor": "modular grid in mesh arrangement",
  "secondary_workflows": [],
  "security_characteristics": [],
  "state_model": "file-backed JSON",

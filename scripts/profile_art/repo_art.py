@@ -448,26 +448,38 @@ def body_evidence(d: dict, ident: dict, p: dict, t0: float | None) -> str:
     limitations and verified components so the motion has something to move.
     """
     o = []
-    tiers = min(4, max(2, len(d.get("verified_features") or []) or 2))
+    # Tier count comes from the project's own verified components where it has
+    # them, and from the identity otherwise. Nineteen projects resolve to this
+    # family and most have no test tree at all, so `len(verified_features)` was
+    # zero for nearly all of them and every tier stack drew identically.
+    verified = len(d.get("verified_features") or [])
+    mh = int(hashlib.sha256(
+        f"{ident.get('motif','')}:{ident.get('geometry_phase',0):.8f}"
+        f":{ident.get('material','')}".encode()).hexdigest()[:8], 16)
+    tiers = verified if verified >= 2 else 2 + mh % 3
+    lift = 32 + (mh >> 5) % 12
+    grow = 46 + (mh >> 9) % 20
     for i in range(tiers):
-        w = 210 + i * 62
+        w = 200 + i * grow
         x = 950 - w / 2
         anim = (f'<animate attributeName="opacity" from="0" to="0.9" '
                 f'dur="0.5s" begin="{t0 + i * 0.3:.2f}s" fill="freeze"/>'
                 if t0 is not None else "")
-        o.append(f'<rect x="{x:.1f}" y="{300 - i * 40:.1f}" width="{w:.1f}" '
-                 f'height="30" rx="7" fill="{p["accent"]}" fill-opacity="0.09" '
-                 f'stroke="{p["accent"]}" stroke-width="1.1" '
+        o.append(f'<rect x="{x:.1f}" y="{302 - i * lift:.1f}" width="{w:.1f}" '
+                 f'height="{lift - 8}" rx="7" fill="{p["accent"]}" '
+                 f'fill-opacity="0.09" stroke="{p["accent"]}" stroke-width="1.1" '
                  f'opacity="{0 if t0 is not None else 0.9}"{anim}/>')
     # Claims rise from the base line into the stack: evidence being carried to
     # where it can be checked.
     for k in range(3):
-        anim = (f'<animate attributeName="cy" from="330" to="286" '
+        span = (302 - (tiers - 1) * lift)
+        anim = (f'<animate attributeName="cy" from="330" to="{span}" '
                 f'dur="2.4s" begin="{t0 + 0.5 + k * 0.5:.2f}s" repeatCount="indefinite"/>'
                 f'<animate attributeName="opacity" values="0;0.9;0" '
                 f'dur="2.4s" begin="{t0 + 0.5 + k * 0.5:.2f}s" repeatCount="indefinite"/>'
                 if t0 is not None else "")
-        o.append(f'<circle cx="{880 + k * 70}" cy="{330 if t0 is not None else 286}" '
+        o.append(f'<circle cx="{880 + k * ((mh >> (3 * k)) % 40 + 60)}" '
+                 f'cy="{330 if t0 is not None else span}" '
                  f'r="3.4" fill="{p["accent2"]}" opacity="{0 if t0 is not None else 0.8}"{anim}/>')
     o.append(f'<line x1="790" y1="330" x2="1110" y2="330" stroke="{p["edge"]}" '
              f'stroke-width="1"/>')
@@ -740,11 +752,20 @@ def frame(x: float, y: float, w: float, h: float, ident: dict, p: dict,
                      f'stroke="{stroke}" stroke-width="1.1" '
                      f'opacity="{0.36 - k * 0.07:.2f}"/>')
     elif topology == "terraced":
-        for k in range(4):
-            o.append(f'<rect x="{x + 12 + k * 16:.1f}" '
-                     f'y="{y + h - 20 - k * 30:.1f}" width="{w - 30 - k * 20:.1f}" '
-                     f'height="20" rx="5" fill="none" stroke="{stroke}" '
-                     f'stroke-width="1.1" opacity="{0.3 - k * 0.06:.2f}"/>')
+        # Terraces are sized from the motif digest. A fixed four-step staircase
+        # was identical for every terraced project in a family, which is how
+        # nex-robotix and psychemap came to differ only in their names.
+        fh = int(hashlib.sha256(
+            f"{motif}:{phase:.6f}:{material}".encode()).hexdigest()[:8], 16)
+        steps = 3 + fh % 3
+        lift = 22 + (fh >> 4) % 14
+        inset = 10 + (fh >> 8) % 14
+        for k in range(steps):
+            o.append(f'<rect x="{x + inset + k * (fh % 7 + 9):.1f}" '
+                     f'y="{y + h - 20 - k * lift:.1f}" '
+                     f'width="{w - inset * 2 - k * ((fh >> 12) % 5 + 4):.1f}" '
+                     f'height="{lift - 6}" rx="5" fill="none" stroke="{stroke}" '
+                     f'stroke-width="1.1" opacity="{0.32 - k * 0.05:.2f}"/>')
     elif topology == "branching":
         import math
         cx, cy = x + 22, y + h / 2

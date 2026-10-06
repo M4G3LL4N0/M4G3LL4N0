@@ -67,7 +67,6 @@
  "project_category": "DEVELOPER_TOOLS",
  "project_category_basis": "ships a verified CLI",
  "project_category_previous": "DEVELOPER_TOOLS",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "A local circuit breaker for runaway OpenCode sessions.",
  "purpose": "Local circuit breaker for runaway OpenCode sessions. Deterministic detection, no model, no data leaves the machine.",
  "release": "0.1.0",

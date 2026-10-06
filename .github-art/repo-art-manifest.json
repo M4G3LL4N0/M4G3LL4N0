@@ -1,17 +1,17 @@
 {
  "assets": {
   "1bc": {
-   "hero-dark.svg": "0fe1387f393da0639cf178ca161048bebf931d247759a0bf6481713feae14133",
-   "hero-light.svg": "b1f9b3b15824d0b45c20d3dd8f267986d730c709055ade22663a2604dc45b12d",
-   "hero-motion.svg": "6ec14ff0a2dfde8965384f69e8a8c79d2cd4abda97b94c30039f9ce8ca183668",
-   "hero-reduced.svg": "0fe1387f393da0639cf178ca161048bebf931d247759a0bf6481713feae14133",
+   "hero-dark.svg": "24ec01fcb045655f3b10b38e2da2ce47f836f84f8da9a5eb387b134419de82aa",
+   "hero-light.svg": "201ff0346c614163accaa0255445de13f90b3afef5dd761b000d3546686442da",
+   "hero-motion.svg": "ca1f052ce80115d74e1cfbeb06e1801a5eddcd0d77ff61349b304e678929cb62",
+   "hero-reduced.svg": "24ec01fcb045655f3b10b38e2da2ce47f836f84f8da9a5eb387b134419de82aa",
    "social-preview.svg": "dfd72f1ac09cae22921cd69d716ead7dfad46200341e7f51a42389612c651342"
   },
   "Ayncient": {
-   "hero-dark.svg": "8536b0353a5791537c3c13d4c08467f1f49c5ada78cca01a58cb5dc9f4897c1d",
-   "hero-light.svg": "ca36e557f573bfeb3dcb0138c554b098f737d637e80d8627a7960f80adf9ee3b",
-   "hero-motion.svg": "1cb491debcb725edfa8686c4456952dc923ac111bcddf9a9d72d84cb72285c98",
-   "hero-reduced.svg": "8536b0353a5791537c3c13d4c08467f1f49c5ada78cca01a58cb5dc9f4897c1d",
+   "hero-dark.svg": "305f12dc978c5ea4888fb9b2de278c652e01e77d71719b61ae1e6c6b3bbef812",
+   "hero-light.svg": "e6970c9b7d9206cf3acfa42152c6b6986dd572cb82869c4487a7310b906d9be4",
+   "hero-motion.svg": "fee3e26ee840d44dd12c0d844556ad637a768a5687e178d1e6bf52bea306880b",
+   "hero-reduced.svg": "305f12dc978c5ea4888fb9b2de278c652e01e77d71719b61ae1e6c6b3bbef812",
    "social-preview.svg": "d3ca18c01d460bf4266827c19d38f93c0691ce8ad02a26266441e3989d78f5ac"
   },
   "BehindCurtain": {
@@ -29,11 +29,11 @@
    "social-preview.svg": "b5c5b1e03f3ce5a8cbedfc906498cbd974b5cc5683ceea9403d0e770482017a9"
   },
   "BrandCrossover": {
-   "hero-dark.svg": "a90c0cc7086ffe554c55fc7c384e31e9583e03f329acc1d9b7842822acf2bb5d",
-   "hero-light.svg": "041321ade9d18da3971607d689c9c3046345df59c28e2f0cf4d3a8ad7a8c0763",
-   "hero-motion.svg": "31385983fcbae65f6e33d7716e039861c3eb99c44b934ac59b11bc4ee1fa9624",
-   "hero-reduced.svg": "a90c0cc7086ffe554c55fc7c384e31e9583e03f329acc1d9b7842822acf2bb5d",
-   "social-preview.svg": "8ad30aabeead6cb6941b8ae771064010ca1af5bc995d8d3aff45848bd8445e1e"
+   "hero-dark.svg": "23d1a0de5098791ef109b4426347c2b6a5badc06d5573c78d32edff94259eb33",
+   "hero-light.svg": "0d0032a220c805894835316ae09b1e3df2a1c27010d1bc9502cf1b16f5743b75",
+   "hero-motion.svg": "29d1c60a7d5986531396889b894340dc9758812262dbe94aa9004fda02bbc156",
+   "hero-reduced.svg": "23d1a0de5098791ef109b4426347c2b6a5badc06d5573c78d32edff94259eb33",
+   "social-preview.svg": "2bacc9449741e14b2a5c5ba4a8b57d451c5863a1b8e903480d3ee03131267373"
   },
   "Cruxenio": {
    "hero-dark.svg": "e9ad1b29a1b0cc4fece825e6a8e10a16ee772ffc89c7932ff13b6579ca109d5d",
@@ -64,80 +64,80 @@
    "social-preview.svg": "c10baf5bff966c5ad6e22f8573f0c1214abcc0a6b9d76e2d488a6e2a776b7c20"
   },
   "ForeverLuvd": {
-   "hero-dark.svg": "147f6eac2e53b00a645d10e70d5f5b026377236820ac10a3c373fb2858575847",
-   "hero-light.svg": "7bfa579914ee9834b6b1104117d1338621be096158c72638150c0b4f168a9f4c",
-   "hero-motion.svg": "c4545cfb11cd967591713d487578f87704f42eb7b7da25002ef54cb1d40adb4a",
-   "hero-reduced.svg": "147f6eac2e53b00a645d10e70d5f5b026377236820ac10a3c373fb2858575847",
+   "hero-dark.svg": "de4a8d30cb147175131a15cc5bccd9453bb17ffa039a97212a9f30d2e23f2ec7",
+   "hero-light.svg": "23577f37a76486471a1e61ad5965682e8e309ed663a23e1334d2baa374ce28e6",
+   "hero-motion.svg": "dfe3853df6308d2866c4da46642d10381115c81fe8c23147a97d56c887f1f0fa",
+   "hero-reduced.svg": "de4a8d30cb147175131a15cc5bccd9453bb17ffa039a97212a9f30d2e23f2ec7",
    "social-preview.svg": "cacfa7693e93e5d64cad786a3fcaaa092afc0eec36da95c1b861ac25c9b5d3fd"
   },
   "FungMind": {
-   "hero-dark.svg": "00cf957ef884495d17dcf7001ff12b547d34b55781ff8e5825a2ed7caf4bbbdb",
-   "hero-light.svg": "ffb40fcaa109e0dfa47b43776383f003aa143397125583a62ef69cee908a7856",
-   "hero-motion.svg": "c7bf97b320be4c30aaab10bcd846a5bb165336ed641f63b386043f0d84b73860",
-   "hero-reduced.svg": "00cf957ef884495d17dcf7001ff12b547d34b55781ff8e5825a2ed7caf4bbbdb",
-   "social-preview.svg": "23072e8ca33c67cd7e237d84f51c0aea06ba4c09a01160e0c16a0244e0505abc"
+   "hero-dark.svg": "7e4b87433da96fd298ae16fd9d3c2a13803fa474cb2f96f8a7c151355d14fcea",
+   "hero-light.svg": "c5a19ffa4643e93184ab1aa7cd2e822a96d0b23fc023c81535f300945e4a5431",
+   "hero-motion.svg": "befc83091e695e7d6a474a397c88d79065fcca27eca30f12db71ec83f1f7e582",
+   "hero-reduced.svg": "7e4b87433da96fd298ae16fd9d3c2a13803fa474cb2f96f8a7c151355d14fcea",
+   "social-preview.svg": "c75d6eaad75d499f823e30dd3c123f25fa78cce8582f0487198ef19d15e71386"
   },
   "HackerzArt": {
-   "hero-dark.svg": "c8f4cb4123aa0132aacfe1c1a90916d7a8cbe884e88f69bef467b1a769efedb7",
-   "hero-light.svg": "3250f192d0e593c901df71e34cb62d290a0e83f64870ba0ed7456e0c6694679d",
-   "hero-motion.svg": "8f164bc990424641edbbc461ac34a5ed10fe08f6f8e79ada4a045245faa061f7",
-   "hero-reduced.svg": "c8f4cb4123aa0132aacfe1c1a90916d7a8cbe884e88f69bef467b1a769efedb7",
+   "hero-dark.svg": "b38dbf6c69dbfc14d74fd3e666ed19aa66cb90d2a1cb10a0890a5b921a20a23c",
+   "hero-light.svg": "fd7d1eb1f02e525d2e1d1bf86f6343cfe28efaf733bbbde7c39b0bfe8ec616a1",
+   "hero-motion.svg": "f6384bb80dd86f990e28c7ee5e164e06cfde5f3cb8c4d241edc4b33f491da93a",
+   "hero-reduced.svg": "b38dbf6c69dbfc14d74fd3e666ed19aa66cb90d2a1cb10a0890a5b921a20a23c",
    "social-preview.svg": "74e9060a1f7d8aecc867f73862a06aa685dd09022035264d9f05775d3a86f219"
   },
   "Modex": {
-   "hero-dark.svg": "6d525f98adfd01cf0c2b078633da5134d762b32d8e8f3fc11a398b99ddce0c2b",
-   "hero-light.svg": "1cd1ceeded9cfe3bc9229d8c2db4c304d5bf59b2b68834df1162197d24256e92",
-   "hero-motion.svg": "7c35b93dd71a4384e39e9ea3476eec1f085c53648a0828ab0b0969a492f2944a",
-   "hero-reduced.svg": "6d525f98adfd01cf0c2b078633da5134d762b32d8e8f3fc11a398b99ddce0c2b",
-   "social-preview.svg": "9c6275fd80ad0f06cd3cb0dfd7ed6ef57b42338acdfe7c854683a739ea10440f"
+   "hero-dark.svg": "cb4414f077a2c79a16261ea1430d4b4afe3b040ed77766278a8191c00fdd4dc4",
+   "hero-light.svg": "31a35b9f000a2ce842b6f1b51978d62ac9387861b9cbffb2af2d73a952d54c41",
+   "hero-motion.svg": "32a9ca14da1b6a6aa763bce12cdbfcd55810d2185aba9815eed2cdc4b3c6c03a",
+   "hero-reduced.svg": "cb4414f077a2c79a16261ea1430d4b4afe3b040ed77766278a8191c00fdd4dc4",
+   "social-preview.svg": "757b9061ee7126793f5d4bda376053884ea1065a834ebce5770989ac6b061366"
   },
   "NaextBlock": {
-   "hero-dark.svg": "14d45601971265dd8af9717b5b47a92839897ef10c3640f51d306a6ff44de07b",
-   "hero-light.svg": "ab57c58bc1959b49cc7e269555d5f8e5a6f2a96f383c307f8af7e6c60686bd50",
-   "hero-motion.svg": "04a4f8ec65c268dc298e86ed2bb879e082cbbe9db92c8d21dc02f5a842b4bbd5",
-   "hero-reduced.svg": "14d45601971265dd8af9717b5b47a92839897ef10c3640f51d306a6ff44de07b",
-   "social-preview.svg": "4ca3267133b29138406b7da50b0bbdcd46f3d6ce55de31e7076e557d41dad58a"
+   "hero-dark.svg": "a9750e089039fa9f6c56eeb2d3e85f107701d1325fa7ef81a9e4aa745d8d58da",
+   "hero-light.svg": "7d69f6e1d9c4f6e762a7a88fc1d69d0f1e9a90cdbd3659ef5eae07e29aa5a9f4",
+   "hero-motion.svg": "768e28bc0dbc3b39f866a63d600cceb30050f13c76ecf5462d4cd7e78e61c709",
+   "hero-reduced.svg": "a9750e089039fa9f6c56eeb2d3e85f107701d1325fa7ef81a9e4aa745d8d58da",
+   "social-preview.svg": "dcfdc695a41351983c062195f5e997822ef0e634ca7ab3ace5db4b8e9c506a3b"
   },
   "RequestAyo": {
-   "hero-dark.svg": "cf14e563308dd6a4d9b321d44372a8979c0a88fb4e442ccdf520fc8ae66faa7b",
-   "hero-light.svg": "ec41f16faec20b116f6d176fa3b172ae0e106e126f8c8d59f74edc546b6a18a5",
-   "hero-motion.svg": "d5336b5bf6f5ce374e3551a2056068f9f3593ddd190c45044b927d3da2190524",
-   "hero-reduced.svg": "cf14e563308dd6a4d9b321d44372a8979c0a88fb4e442ccdf520fc8ae66faa7b",
+   "hero-dark.svg": "e1d84b82f64c21583c578b10af7113bf87660e7106eecd734c2a5eb86da505fe",
+   "hero-light.svg": "493fbb4d88a6102b7f93596b95da14b2c8c68fc113566a20514023b206153538",
+   "hero-motion.svg": "af814d4418c375f592ffd42dbe46f29c23ed4b6bb8642450e959c347693a70c2",
+   "hero-reduced.svg": "e1d84b82f64c21583c578b10af7113bf87660e7106eecd734c2a5eb86da505fe",
    "social-preview.svg": "52cc9bda7bb5328572f782e5ca0abe31537d370d7685a365b278cb5cf5a0f44f"
   },
   "SUNSETX": {
-   "hero-dark.svg": "5821fc35bce86197460f6fdab3bf7633b92961b6b9e4159228c8defd0369aef4",
-   "hero-light.svg": "35cde7821f5276fe8d2cbb06070e483b307a32bb2f389ce2130ea8029c9e31d7",
-   "hero-motion.svg": "2f8f0b56f0d251fde3b73ad59e3fbc17d6f278956a3afda9b9d73fc6e89713f0",
-   "hero-reduced.svg": "5821fc35bce86197460f6fdab3bf7633b92961b6b9e4159228c8defd0369aef4",
-   "social-preview.svg": "e863a2f945d4d1e9e0623b9712021df9f212ac28fcbee1fa793037339667728b"
+   "hero-dark.svg": "83c31cf5a91313c295b7ab32b32fd3d3de3bc30775ebe70c43dc345546bcd78a",
+   "hero-light.svg": "282c1938f62035047233dead274beee8ed6bcdbfc5880219ef141ac9e118516c",
+   "hero-motion.svg": "97532fb22e7528f743957cedadeaf5e5495dfef6b1330d8c05779c412b41abf8",
+   "hero-reduced.svg": "83c31cf5a91313c295b7ab32b32fd3d3de3bc30775ebe70c43dc345546bcd78a",
+   "social-preview.svg": "83dfa56ea947a4500b9e205b70fc01bbd98ffc7f1f878f8e380ecaf408d3aa13"
   },
   "ShopRight": {
-   "hero-dark.svg": "19f419289d9ec8526faaeaee4fbec3fdea58b1d952300fad48a248ca245da8b8",
-   "hero-light.svg": "afb0c225757bcb8b6792d187450bd1a87d9378c30af027e85c4b089ba88222b5",
-   "hero-motion.svg": "005012f75290c595dc30752a95a313e48df7512061e1cae57c3b0eb03a5ce003",
-   "hero-reduced.svg": "19f419289d9ec8526faaeaee4fbec3fdea58b1d952300fad48a248ca245da8b8",
-   "social-preview.svg": "aef938014bfaf15775c363c197c2d3b175fffe5892251f78ad88a4475cb611fa"
+   "hero-dark.svg": "7a3b805e8d3b72bc0124c2b75a31ca8c885497f7aa313c125e97f7bccfd4dbfd",
+   "hero-light.svg": "063b1bbdba7468ca505a2942d7cd754941c712283e050aa43d330f2ee846ea69",
+   "hero-motion.svg": "f642d3dbd43c5d5157f40f6cd493cb6ec4b9f235428037819589c553082040de",
+   "hero-reduced.svg": "7a3b805e8d3b72bc0124c2b75a31ca8c885497f7aa313c125e97f7bccfd4dbfd",
+   "social-preview.svg": "c5a519112487b1679caf97f0bc612bebca0c502b3d96e48d91be1fcf159559bb"
   },
   "SoulMayte": {
-   "hero-dark.svg": "971c22663cf103061e6b52700154b591e00e264a5c5d2406e711343c7be832e6",
-   "hero-light.svg": "d6ee241eb7e6cddf1b0ed8d332e3409220792308acd10d9facda6e38539a7fde",
-   "hero-motion.svg": "2f551d3626acdf4c8e69bed54f106aadea0f6e14efb85680d1a6338220cce883",
-   "hero-reduced.svg": "971c22663cf103061e6b52700154b591e00e264a5c5d2406e711343c7be832e6",
+   "hero-dark.svg": "7b703855a46f9f4d4002a14a0f0c400d938b13b34353ee245d351cef3d216afa",
+   "hero-light.svg": "3627438c56bbadf953dccb75902050df888c7ce5506776c686c7c893b9dbf02f",
+   "hero-motion.svg": "23c7df74fc51c2ead217eb274e259cca2274e26ee4191664d1b1bf43aa64ed25",
+   "hero-reduced.svg": "7b703855a46f9f4d4002a14a0f0c400d938b13b34353ee245d351cef3d216afa",
    "social-preview.svg": "ed0f96a1bbf65b4e5122b154558c1184daa6997a6ac40f5a47038e844e77091e"
   },
   "Spouwse": {
-   "hero-dark.svg": "45c327e3474422d853bbb6158dccd74584d3b8b49b97fae67729bf183fb3b62b",
-   "hero-light.svg": "0ff0cf1835c48737d6da306878e119ce7b34d96207a9ea30145e92d5a9816ef5",
-   "hero-motion.svg": "4e581abb8760ab670697f53ae264e22090f0744f03cfa2c83a0b29175b614d88",
-   "hero-reduced.svg": "45c327e3474422d853bbb6158dccd74584d3b8b49b97fae67729bf183fb3b62b",
+   "hero-dark.svg": "8f4a575586e0d82d37feb0d934d727723e6054cd9eafd0f64bcfaf71f2563a2d",
+   "hero-light.svg": "b20305a0225601d728eb7626c135a95fb980db595ce375def8e3f2dc333becce",
+   "hero-motion.svg": "766f94dbae6a1af4d0b6bc914d4dc29edaf38e440312ab9d61682a8dcb59cd78",
+   "hero-reduced.svg": "8f4a575586e0d82d37feb0d934d727723e6054cd9eafd0f64bcfaf71f2563a2d",
    "social-preview.svg": "ed193486ea9798330129413fd16b02ec70cd3f22f19032c65f7a0b45bd129355"
   },
   "TherapyUX": {
-   "hero-dark.svg": "09043f11a197612563fa52341f427f1c44209a6a53f33338b2c1dfc4b452381d",
-   "hero-light.svg": "a0e87b5f5edda2479b9334a234f0d5ed3fd2305292f9937a43b0ba2063eac8f8",
-   "hero-motion.svg": "f561796b50f4a2f1c211604d938c2d76e92c8b605dc465d89e2cd7eb82a9d1f8",
-   "hero-reduced.svg": "09043f11a197612563fa52341f427f1c44209a6a53f33338b2c1dfc4b452381d",
+   "hero-dark.svg": "0069b205e263a5b0935cb3d702765cfedbcf5de52dff6d4522103d9eb7461746",
+   "hero-light.svg": "47f67cc3c5383d20bfabd80d2a20cfcca4685f36eebd43fdcc7d439336cf97df",
+   "hero-motion.svg": "51f861481419081e5a89d54fe707d3a6ca2c492386a266ea1ece16272c66c1e2",
+   "hero-reduced.svg": "0069b205e263a5b0935cb3d702765cfedbcf5de52dff6d4522103d9eb7461746",
    "social-preview.svg": "42a4769ba33c4b991584ee29c4671e35ccfa0d970d081f79f3ce15f3c27149f9"
   },
   "TrustxVerify": {
@@ -155,123 +155,123 @@
    "social-preview.svg": "5f580b9be95ce35a19842748fa3dab6c8cc3317505c97099ab1b16386afb913e"
   },
   "YouState": {
-   "hero-dark.svg": "122c74d7bbe4a1a662a3e93229db7799d17f6bf80739343a4dff65e333584f85",
-   "hero-light.svg": "028adb739e9ceaaf281bb83ae82bda16b2aaec1f2d27799811dc125d5c6d7fda",
-   "hero-motion.svg": "547e0d08b86157455a6d54c9014f9230c22e7d5ab84e858b788de71438d9ea65",
-   "hero-reduced.svg": "122c74d7bbe4a1a662a3e93229db7799d17f6bf80739343a4dff65e333584f85",
+   "hero-dark.svg": "ee813f81dddbf65fb9ffd3a30910fd8b5121602ae678357dc6238c8e381bac23",
+   "hero-light.svg": "123b8bde9312666f39231ef0d51801bf44d91c8708b81b62a10f2405f658b07a",
+   "hero-motion.svg": "58f88c4a63414f94995bb8a26985377e37f9a03d28233f09be215a6e5a084253",
+   "hero-reduced.svg": "ee813f81dddbf65fb9ffd3a30910fd8b5121602ae678357dc6238c8e381bac23",
    "social-preview.svg": "285d9362ddf1186c5d501305c1415ac6461f71d1355959d532f8facdbdf9f567"
   },
   "access-layer": {
-   "hero-dark.svg": "04b70c8bc9400f77dc08e8cf8f8e287673c26c22e6a91554f4f829a9a1e93894",
-   "hero-light.svg": "f774f28e704855681e73bae5280306c8a516eae619e81fe4bb6c739fa63f5b95",
-   "hero-motion.svg": "ab1e30a37437b141a36be19f787793c5c5d6f8ccac37b3e305f99904ca3081bf",
-   "hero-reduced.svg": "04b70c8bc9400f77dc08e8cf8f8e287673c26c22e6a91554f4f829a9a1e93894",
-   "social-preview.svg": "ed09326a77d37eb4711466823c35e149d4cd218647d5dfad8b2051b5df71282a"
+   "hero-dark.svg": "0de3fd4ef4f5d9ea9e57d9bf84a7653a2fcd4af1c296c3b28e7ae2448d063f64",
+   "hero-light.svg": "3cb645a38634936e250f7f644ab62fffa7287b1cbf30321f367076d2fd086d34",
+   "hero-motion.svg": "2719c09886e55aff1ed04dae7033d811d63575bc56bd5878fc545c568b6cb84a",
+   "hero-reduced.svg": "0de3fd4ef4f5d9ea9e57d9bf84a7653a2fcd4af1c296c3b28e7ae2448d063f64",
+   "social-preview.svg": "4ace265aba3e796e3ca23b3f5fb9e409e5bfaf25ac8299d6cedd0e6e108de80e"
   },
   "agentapi-hub": {
-   "hero-dark.svg": "01392bf055e41f4298275f115b924c47b8e46eb6e87857e56903129c7eba0d41",
-   "hero-light.svg": "1de1c4b1d455a2ddfc19678da0711e34a37a072a3c01a08f790479cf4df1a32b",
-   "hero-motion.svg": "5004e8d7cecb27a6ed32758224631f5c097c8b2ecbd0bb913ce8d2699ed0b1fb",
-   "hero-reduced.svg": "01392bf055e41f4298275f115b924c47b8e46eb6e87857e56903129c7eba0d41",
-   "social-preview.svg": "d9fbe273aa6afac47322a4a469b5535e41a35ee0d8af21a741dee3b4dc3c6a9a"
+   "hero-dark.svg": "28c0cfa62dc5d76efaf5b1e8f5185f79c44752aa1b55375831593f923b148558",
+   "hero-light.svg": "144e8d2fd702da5639212d28b810d33251d3b957d0f164d8fd71416d8f3e90e4",
+   "hero-motion.svg": "da3167fb37488674ee64ba4e16a01882ed381ac53f5e5f569e3b806a1923a642",
+   "hero-reduced.svg": "28c0cfa62dc5d76efaf5b1e8f5185f79c44752aa1b55375831593f923b148558",
+   "social-preview.svg": "93644a1269ea5241102eee540637e51edb64d85f135b6541f39c49d36c613db7"
   },
   "agentcore-silicon": {
-   "hero-dark.svg": "dfe764bc6b1b5162b85eecf147f252fbc8d06deaea5219a386696b5b80d81480",
-   "hero-light.svg": "6811dc088bbfa04192134871f7a659ce8fd8b1f6ead445ee8716b697a8e2ef5b",
-   "hero-motion.svg": "380e61866b55fc4b00b1bc88538c716f48d97223b1952740bfd6bf8233e7f299",
-   "hero-reduced.svg": "dfe764bc6b1b5162b85eecf147f252fbc8d06deaea5219a386696b5b80d81480",
-   "social-preview.svg": "d820c729bcfd134fe54bb05a451f1dcf959abd42ed1f99b0b585c7ed895e152e"
+   "hero-dark.svg": "5058713e22c08a1bea78b9ddfc001b773f722597ae47b1e0f10ab8f727087de1",
+   "hero-light.svg": "35d2d5c3af633ddd5cbccb14f96e0b42126df6e4afe8b5bc1aac4aec1c4a01e8",
+   "hero-motion.svg": "4c7dc5521ead5fcb9f47ac9f3b0a76b774ffc3e7b592ff06566093963ce48dee",
+   "hero-reduced.svg": "5058713e22c08a1bea78b9ddfc001b773f722597ae47b1e0f10ab8f727087de1",
+   "social-preview.svg": "157f375c9e94030e972341d9d68480578d05ebdbb971f16ccdebca5f11ae7bef"
   },
   "agentos": {
-   "hero-dark.svg": "14d7fa76814b889d40952c3aa87e7bd481127ca35c4a25f4212917971747129b",
-   "hero-light.svg": "a9ddf652b9e76f9ec3628da26e5f4226f3eec7c02aff63774354b395cdb3fb41",
-   "hero-motion.svg": "358d6b8209bc4141eec7e1ce3d60c3750562e2020465272ff462a43597c774ba",
-   "hero-reduced.svg": "14d7fa76814b889d40952c3aa87e7bd481127ca35c4a25f4212917971747129b",
-   "social-preview.svg": "6c3c2069ecce12e152a33068a1c257efef54dc301d57aee7f7c0ba056b6dfb0a"
+   "hero-dark.svg": "962eef49e9f8d11c27f595e26aed8d89b22293f6f032f9f80700d02630c419a8",
+   "hero-light.svg": "5716eaec715a0379463e30d7ba6240fec808fb5e15deb928b26b9cca71e11ba6",
+   "hero-motion.svg": "fe76482b926ef43ebcd31596208e55bc16d29119c1de7218fa4ef92381491a3c",
+   "hero-reduced.svg": "962eef49e9f8d11c27f595e26aed8d89b22293f6f032f9f80700d02630c419a8",
+   "social-preview.svg": "4e8e8cf39827406289886dcb7dee3c4d884d59814117e5eab1f1ac75fdd36eea"
   },
   "agentos-website": {
-   "hero-dark.svg": "e2c940a42c513bd0c5fe46c9d9426cdef5388b6876b98cfb386e8e2b4d558b18",
-   "hero-light.svg": "65a7645c4e45f58884a685e7a8b1d51512e88d87992494e3eada24661f61e178",
-   "hero-motion.svg": "0a9232627a7df41d612bb096433ca84bcad7741ff12997dc18d7bbc195199154",
-   "hero-reduced.svg": "e2c940a42c513bd0c5fe46c9d9426cdef5388b6876b98cfb386e8e2b4d558b18",
-   "social-preview.svg": "a03df89418c88fe88a8403c7c9640464ef7dd2bc329d914b05348a5aeefd8715"
+   "hero-dark.svg": "b12f9195b9d900c7594208b6949f96f25c1aa22b88dc8f249032cf208ce6bfca",
+   "hero-light.svg": "1b88a2072e2c88b6e0385f65c7da61501610ebac0b57c6145eaaa00e8f4ddbe3",
+   "hero-motion.svg": "2c7dcd429edc553340b745dc12e9ac45a8d7b2a6beb57c1594656a5dffeff043",
+   "hero-reduced.svg": "b12f9195b9d900c7594208b6949f96f25c1aa22b88dc8f249032cf208ce6bfca",
+   "social-preview.svg": "aab3b36a2db709fa6ccbd0847b0e094f01defe79c10b2298856436b2b434075a"
   },
   "autoerp": {
-   "hero-dark.svg": "8a67e576e864c621c5e6552da43b927dd8ce1ad73e719a4171a5b25f75e506c6",
-   "hero-light.svg": "e648dbb159eb1b8500ba1163f8b9b140a12f57e8fab83d66130310147d5588a6",
-   "hero-motion.svg": "91212fd3ab7c000b1ce4978e56717abd68047413f556bd68f8f068accfded510",
-   "hero-reduced.svg": "8a67e576e864c621c5e6552da43b927dd8ce1ad73e719a4171a5b25f75e506c6",
-   "social-preview.svg": "8bc062bc312f7e1fb9f408020cb954580686f176f84e55c29b8bd864165b040b"
+   "hero-dark.svg": "8af47373b6c8aba158d63c048c057ad00dc8d8269465bd9cd41a62619e04f7e7",
+   "hero-light.svg": "3ddd855c5d9011a779c16ba07457dc3bb231e605d7dcf0a5ab813957db1064be",
+   "hero-motion.svg": "adde914bbf7f46838a1c252839801b2e9db8697525f66286dfce106f37c9ede1",
+   "hero-reduced.svg": "8af47373b6c8aba158d63c048c057ad00dc8d8269465bd9cd41a62619e04f7e7",
+   "social-preview.svg": "88c30006c8843e49150151ad736c87d8f4bc7f90aafa4180fd81c5666e3abdea"
   },
   "betterfintech": {
-   "hero-dark.svg": "1bd5c68f6ab94f7206cd46dba14d6821f252df5b75031f290c0ef1a2f98d0145",
-   "hero-light.svg": "c4f91cc25dc5e6fd7cecbdba0ad8f7438404bd03791575e2144acf0e09296577",
-   "hero-motion.svg": "eba6942d542877feba969f59044be6ab013469e0f046fd9ec59e664043c06204",
-   "hero-reduced.svg": "1bd5c68f6ab94f7206cd46dba14d6821f252df5b75031f290c0ef1a2f98d0145",
+   "hero-dark.svg": "9e5b601c51b5d7cea81d177447f6e037d6124fa07352dfeaa900cfebc5e75518",
+   "hero-light.svg": "1e677f3d103cd012b1d90cd392da9ac1487c8a39752cc7392575eb0b08cc9abe",
+   "hero-motion.svg": "1ce4c1fb1f5406c014fdc877b8b90908d0badadd39b59245939329e4777db22a",
+   "hero-reduced.svg": "9e5b601c51b5d7cea81d177447f6e037d6124fa07352dfeaa900cfebc5e75518",
    "social-preview.svg": "65c8db5925ea18db3f66cacadbbe7ed1bd5328683bc97dbadc2855f356e918f8"
   },
   "bioyield-labs": {
-   "hero-dark.svg": "16c3bad9519f3663ed1322eb0de76fea2feb4150551f88c5cf1f45717a7d07f0",
-   "hero-light.svg": "7e41d2ab0fb153631d0da339cecefcd6bb02917953235cd39623f4f925a240de",
-   "hero-motion.svg": "b1fc820d8228ea7720ad1a426d780eededb0165508a6711a38f73c9646f5850e",
-   "hero-reduced.svg": "16c3bad9519f3663ed1322eb0de76fea2feb4150551f88c5cf1f45717a7d07f0",
-   "social-preview.svg": "e59e5399624ca77e8a3c8578ebfe8a9938defad3db59b1e66386e685cb7f4f04"
+   "hero-dark.svg": "f23ac532909a478a28de61df8e53bfa40f06b1f44cd10d4c579bfbb64e68cedd",
+   "hero-light.svg": "6b71d5fd0a0085437f0906f451205a1b7bd5f9ff702b8a7ca645798bde3b3e3b",
+   "hero-motion.svg": "12a2293c3fd6898a2b20114977bfb9438a0e140050cbd611575424d9a216298d",
+   "hero-reduced.svg": "f23ac532909a478a28de61df8e53bfa40f06b1f44cd10d4c579bfbb64e68cedd",
+   "social-preview.svg": "597a9d38bd42b254b176d3f87d7f9beb359a83a54f944f931fe6b3b48d10178c"
   },
   "blitzproof": {
-   "hero-dark.svg": "54924dbdf1e07665c7f096f83984c1ceaa81479151857f77ef5a48de22664f82",
-   "hero-light.svg": "9be09f5e368d864bf043d0d67f331253b612391f26610cc89f1de4897128d326",
-   "hero-motion.svg": "cc6974ffadd366149ffc302e0dd4dc2a3de464fd4512b7cda7b03517bef5c0d8",
-   "hero-reduced.svg": "54924dbdf1e07665c7f096f83984c1ceaa81479151857f77ef5a48de22664f82",
+   "hero-dark.svg": "6918432e6d5f2a2cb19efea6ca02dfe3fa2e76f6e260804eb552856a9ec03cc4",
+   "hero-light.svg": "5da37e4ccd6b2b4b69b86dac1c10f7b2c3a6e28548b295b61eab713629e7ddd9",
+   "hero-motion.svg": "adf8dd5fe12bfc8e4fa62f1ad673a2d63203eac3a74c15f2bfc3ddabfb25fbbd",
+   "hero-reduced.svg": "6918432e6d5f2a2cb19efea6ca02dfe3fa2e76f6e260804eb552856a9ec03cc4",
    "social-preview.svg": "433b322db5d557e849126a751f3008d15dae5cb343ac1cd3ac8f6687fd07025d"
   },
   "blitzunicorn": {
-   "hero-dark.svg": "c65690a82e9d1c7084e93cb63ee27e4bdcd5db003783133dfe601c3c96631aff",
-   "hero-light.svg": "6b5ac4fd3303b584832c152f119b7bafdf013e4fb6d6d1f0059e07c5edb35c54",
-   "hero-motion.svg": "acfab68cbf93117d372772b87d89769862cc78608806a9807b0c76e5f20d089d",
-   "hero-reduced.svg": "c65690a82e9d1c7084e93cb63ee27e4bdcd5db003783133dfe601c3c96631aff",
+   "hero-dark.svg": "8add94aa66b43c5e8f10a0c44bdec81b46d0db87ff4c05aa377a150f358b7f4d",
+   "hero-light.svg": "d4a85f9a956d76608fa584dcf9b6eab254b79310b5c140ced33069126b26f8f2",
+   "hero-motion.svg": "a745df16abe6b3621bc708b428869b7554c8690e9c3255cfb7073d8100502ff6",
+   "hero-reduced.svg": "8add94aa66b43c5e8f10a0c44bdec81b46d0db87ff4c05aa377a150f358b7f4d",
    "social-preview.svg": "f8411bad5eef83449a71fb8ee3422a92619921de551151c20c20c3e852703c7e"
   },
   "buildloop-usa": {
-   "hero-dark.svg": "74570c52b820b7eb88880dc0d9cd0e3c773e6d92b4f45ef7b1e26542257934f8",
-   "hero-light.svg": "ab8de1e5c97dc5be353918003f042acab712beaa797d09f77ea936d9a6668198",
-   "hero-motion.svg": "afb39f6bc8f13ec56bcc00dcb3bc29ea97679ca08bd17cefb2516350bbcb2ff9",
-   "hero-reduced.svg": "74570c52b820b7eb88880dc0d9cd0e3c773e6d92b4f45ef7b1e26542257934f8",
-   "social-preview.svg": "9b489bf86fa601f5a7123fd73e86634108aa9fa00870215983dfdaf72630fc7e"
+   "hero-dark.svg": "0fa0cdff882a9dd767478df230ddadfd430445f155f6d3e6c95a9d8161976b78",
+   "hero-light.svg": "f8e253ec50c5903c093dc7a05e72959177e89e9a6eac1ab2653a0e6030d128c0",
+   "hero-motion.svg": "bbe1984641ef49811b5f5a3c812908a644414b7a04219a722853bf6760569d64",
+   "hero-reduced.svg": "0fa0cdff882a9dd767478df230ddadfd430445f155f6d3e6c95a9d8161976b78",
+   "social-preview.svg": "64e09f01282553148611beefc0d42d39eb88714790070916e94135fcd6df27fb"
   },
   "cannex-logistics": {
-   "hero-dark.svg": "c79c2067642e40aca59c8655f16a5477472a382ca6f719dac4dce7e9969ff84a",
-   "hero-light.svg": "27c428d6e6702963b1f8ea328f9263820056e86f606f75506187017c2ecffac0",
-   "hero-motion.svg": "b601742f5aa9f07259b490fe81e24d6c9d3d18a5cfe4cac4499215ab5b00328b",
-   "hero-reduced.svg": "c79c2067642e40aca59c8655f16a5477472a382ca6f719dac4dce7e9969ff84a",
+   "hero-dark.svg": "e84197e6da801143a93e65b2a9cfd5ef73e54a46a993d3a8c2dda3327fe7d29a",
+   "hero-light.svg": "b127c6efc88176b7663237a45f6455f14f17f1946ce25e97cb4c3102cbd2557c",
+   "hero-motion.svg": "6523723dfaf8bb027d9410f9b57668527de8ee1df5ebc73cd5e3cf99ac60e379",
+   "hero-reduced.svg": "e84197e6da801143a93e65b2a9cfd5ef73e54a46a993d3a8c2dda3327fe7d29a",
    "social-preview.svg": "01fd41ffdbaf160e019afc9ec54bf03bf43c840672d544678edfd6d1b86acf92"
   },
   "cheetahbearfuel": {
-   "hero-dark.svg": "f020cbcf37419ec0996e0fd952eefbc935b5d54f18ea77b9b994431177e30e0d",
-   "hero-light.svg": "ddf74b2c08c317beee6cb0dc6b91eae15fd57f7b0bc6000029797e3691211fa6",
-   "hero-motion.svg": "0fc42c6e7488b843d41dfde9461b2983385dea8dbbd6b3822f15a967b02d76e1",
-   "hero-reduced.svg": "f020cbcf37419ec0996e0fd952eefbc935b5d54f18ea77b9b994431177e30e0d",
-   "social-preview.svg": "5302166d2218b794d732c434fe589dbb0947ad071c645a6647a611315979fb47"
+   "hero-dark.svg": "39b88929e45cf69879c3fdfe4036342852deb43077edc0bd107770a07c5cc804",
+   "hero-light.svg": "c475b616d05bad8959255db7d84b603ab54c540dd2f1ba10b4777d609bc1ecd7",
+   "hero-motion.svg": "c4ce91d5129847cbe1676c6684bc8d7a42c996cf556f726097fcb31228b1e70e",
+   "hero-reduced.svg": "39b88929e45cf69879c3fdfe4036342852deb43077edc0bd107770a07c5cc804",
+   "social-preview.svg": "02d6490b1d4257cb6fdcf47153c9d9086b8de15501213dcbc3b88f6e299f74eb"
   },
   "childdevos": {
-   "hero-dark.svg": "e7f65667f3da3bfba89fa103b958ae7b0a13c0964c1e4561c25c1c69522dbc54",
-   "hero-light.svg": "f03bcf11502cddf5f3e853bcd6e21ba46cde77f63a1f05d70454d03f1373793f",
-   "hero-motion.svg": "7c2261c74e2de8043beb0efd558868f37cd5ecb428fc6a04092f6af1ae64f935",
-   "hero-reduced.svg": "e7f65667f3da3bfba89fa103b958ae7b0a13c0964c1e4561c25c1c69522dbc54",
-   "social-preview.svg": "c866fda872aa69fd8643b12a8a6933047203edc3f6a0decbb631e87be1e35d02"
+   "hero-dark.svg": "83d4c4c759ce090c88ca8aaec22ef217973542ef1bc10a6270d2f6d10913e90b",
+   "hero-light.svg": "0dfec38e2f025326e0ce3d237cc7d668bf278828ae2deaea408a09d83fb3a36b",
+   "hero-motion.svg": "06121577a368f5293cd869599a5aa148c8e1e94e450a636b77d6f55d87d67e40",
+   "hero-reduced.svg": "83d4c4c759ce090c88ca8aaec22ef217973542ef1bc10a6270d2f6d10913e90b",
+   "social-preview.svg": "0fc3a288ad3ec9e59b5613eed9a3593a853ef343c0787a68389e974c3254c446"
   },
   "chipflow": {
-   "hero-dark.svg": "ec61c0e2f401ed10f8a2a58e65b9b74302455cf6f647fb75a7ed22153966bd1f",
-   "hero-light.svg": "23cbb2c5f7ead73ada8821440f47f07f5422d9089801836d6b65ff004c18117e",
-   "hero-motion.svg": "00b55f95e7945656a8798c63a57c4007cb246c374b9176807300ef753b651516",
-   "hero-reduced.svg": "ec61c0e2f401ed10f8a2a58e65b9b74302455cf6f647fb75a7ed22153966bd1f",
-   "social-preview.svg": "381ee0dd49eb03f7e863ac1f99f920eb0e5e633edbe8338b8dc18b86e3491c6b"
+   "hero-dark.svg": "3036418f0171c75410d50856d2b73b897ce880cf32c9c33f4b9979d22d1f9c10",
+   "hero-light.svg": "481fbcf8576cc4fc486ca0c03f37d1487c92cd39eba611ba6ab5414f3b9a5603",
+   "hero-motion.svg": "bf4e5b5547c935382f6dda064ce5fc986f153779ce3989ace0f7c605146c9acc",
+   "hero-reduced.svg": "3036418f0171c75410d50856d2b73b897ce880cf32c9c33f4b9979d22d1f9c10",
+   "social-preview.svg": "bfa525e10c5b462615d56547a845ff540d7d30ebdf22f82d3c23c2707e54a5c8"
   },
   "claimpilot-ai": {
-   "hero-dark.svg": "d36ff8257ecbb5c3148b0c99ebc1b70374f65ee4bf11cec28de64b6682a56fb5",
-   "hero-light.svg": "7a378ea8d713d0f99f4c662b9dac66766ec1f6b3275a7d147bd7dacdb8a6ece1",
-   "hero-motion.svg": "96525221ade4a552294276d9c8ab0e9a89a9da4850d2f00a94240a17acceb1af",
-   "hero-reduced.svg": "d36ff8257ecbb5c3148b0c99ebc1b70374f65ee4bf11cec28de64b6682a56fb5",
-   "social-preview.svg": "9fbd6fbc92ede5de1c03a17904c790f45898cfc92197a1da5c837c6d17c2ff11"
+   "hero-dark.svg": "94af5c453e6fad841f82291aaaf4745a53ed276e299d8a45f64cd65365c71272",
+   "hero-light.svg": "dcb3033dc6b2ba4a7317ddc4727e28a6df93f3d790c52ffaecce28234c07e2a0",
+   "hero-motion.svg": "a8d45e3d59a871ecac7c2323a46c65451091affbd38e71c22a66dacf939e480f",
+   "hero-reduced.svg": "94af5c453e6fad841f82291aaaf4745a53ed276e299d8a45f64cd65365c71272",
+   "social-preview.svg": "5eecafae28a6d862339839031eec0aa547dfdb296803948aa19114fd75d69ebb"
   },
   "cleanstack-macos": {
    "hero-dark.svg": "bd3534f20222760752a52685115e5239254320ead0eb1c6b9366e220496cb197",
@@ -281,25 +281,25 @@
    "social-preview.svg": "275bcc01541d389f12c8f8f4504c9f91d2dbb7b872b18aeefd7ceee0353f6fc2"
   },
   "cleanstack-os": {
-   "hero-dark.svg": "3520775ebe7ad52d5dd4955748e8ce5f6746e5e42246749b623b7ca1a2f00bec",
-   "hero-light.svg": "43e88720d0418e20e155975efd9f19884036311096910b33f69d24481157b01a",
-   "hero-motion.svg": "678e7c362d4c9b400bae6572cea0fe087f2bb3050b7c701328bd42715767d229",
-   "hero-reduced.svg": "3520775ebe7ad52d5dd4955748e8ce5f6746e5e42246749b623b7ca1a2f00bec",
+   "hero-dark.svg": "7e819a3b5e03c009626c613dd6658eff0fa557793734346aa9ac314429c0959a",
+   "hero-light.svg": "c4577e2bacf73f88bc2d5996a4704d3ff9d8a71388a2747c49f434888514a9ca",
+   "hero-motion.svg": "03d52e03ef1b6c39538d784a79783292a280263ee1071f6758db8cd428cec6ed",
+   "hero-reduced.svg": "7e819a3b5e03c009626c613dd6658eff0fa557793734346aa9ac314429c0959a",
    "social-preview.svg": "d2f5938a8c2c09937121d14fc6e2973bca64f87cbed14a997ba8e7a3d8bdaa40"
   },
   "cloudcastle": {
-   "hero-dark.svg": "b312178aaea23a8afed1e303f46d3ef7fc34e65ba8efee408cad718defcb0544",
-   "hero-light.svg": "ee6877647153daee96764ccb890411876837d717c1ba2f07175e7873b6384151",
-   "hero-motion.svg": "84932b2d8e134f5436f8e77c5eba679a4aeda72b4ed6b58cd3e5b0362c87edbf",
-   "hero-reduced.svg": "b312178aaea23a8afed1e303f46d3ef7fc34e65ba8efee408cad718defcb0544",
+   "hero-dark.svg": "fa112833b8cb5fdfcdec1be3256b65de75a5d2489bc183c3926702a934021eea",
+   "hero-light.svg": "45827c3e880c7d0c40f320162a7e15a4ae03cdaf312feed6af46cf4e8a627c0d",
+   "hero-motion.svg": "b0b4fdb5d536eef87bd5ea2fc454f98545c1c759fc1be3112e3b5ce3e7403df4",
+   "hero-reduced.svg": "fa112833b8cb5fdfcdec1be3256b65de75a5d2489bc183c3926702a934021eea",
    "social-preview.svg": "15240f6eba05e3e2650a210d7e704faf795c4a014c232a58fc1c87b1428f546a"
   },
   "commos": {
-   "hero-dark.svg": "3610646a9e9854ba0391220a31d7da3f49942cfa9ab7925d097840be307e4ad6",
-   "hero-light.svg": "7fbd3dab94fa0103451c58372a12bb1e085d969ee3048c5c08487811fce001b5",
-   "hero-motion.svg": "ac90d3d1190ead0831ab624c7b1f24ceb655968e572e060bfbd348e2fd26a9b5",
-   "hero-reduced.svg": "3610646a9e9854ba0391220a31d7da3f49942cfa9ab7925d097840be307e4ad6",
-   "social-preview.svg": "114db5c750c4253afa395814bda7bb4814ff9829ce5f9f8a6233e6b2ffd044c8"
+   "hero-dark.svg": "3fa9ea289b6ea24971edf4292011adf23752d061ecd89ae9229d1f77a91f94db",
+   "hero-light.svg": "a05014580e5703e9257aaf4c71582b130965a273da2ba12b7e7a953bab05fd23",
+   "hero-motion.svg": "c6ce59baf698086f359735e476798a889a8962cb682291bbd819b55f16144601",
+   "hero-reduced.svg": "3fa9ea289b6ea24971edf4292011adf23752d061ecd89ae9229d1f77a91f94db",
+   "social-preview.svg": "8bb1ec58397a13d8b90298219d0e407fbdb35daeb861c44cc64ff8dc50f99cd6"
   },
   "companyos": {
    "hero-dark.svg": "dbe9b318bbeeab6282de8193a93e496ed54b5ae641783b02eba720bdd7c2d143",
@@ -309,46 +309,46 @@
    "social-preview.svg": "7e81c89f1ae007eb399dbc06adaa7348daf00ead1e2c54535bd278b276bac5c5"
   },
   "computeflow": {
-   "hero-dark.svg": "afa69ddb3620fc88c0f7408cd737b20b4ff19b242a96389a2114cd9c2d035e4c",
-   "hero-light.svg": "f05f7a4d6d9a1b04160b993d1b3b4e2a0a1690f550e238e456098f4090321c42",
-   "hero-motion.svg": "6e385b48c7b12a0412dc118cb9a59bff8ae54b142dd70af61a4fd43bc70c026e",
-   "hero-reduced.svg": "afa69ddb3620fc88c0f7408cd737b20b4ff19b242a96389a2114cd9c2d035e4c",
-   "social-preview.svg": "0c4627a2c8e59f5edc6f4d8bf6a4c27cd031b4acc60cc7f6a7e14010432b50f5"
+   "hero-dark.svg": "17a71cda9c2f67dc963d98658003105bb65b7cc6bbae32d08b6cb4b16c4fa19e",
+   "hero-light.svg": "443ed89a0e6497d89b29dd40c4e6e87f11eee56856656f871bbe1b87c877da54",
+   "hero-motion.svg": "c75bff6ec29ddd8c24f8d9394ca6eeb55241e8366a4425e847d404f4d702bc7f",
+   "hero-reduced.svg": "17a71cda9c2f67dc963d98658003105bb65b7cc6bbae32d08b6cb4b16c4fa19e",
+   "social-preview.svg": "b358debb0ac615fd1bfd6f5f3f874b2f790d353c0114419bca8a803db8a9fead"
   },
   "computeflow-website": {
-   "hero-dark.svg": "cca2d526c80f7d9b628c040ddabf46f9e0de6e57766ad87471d45fb6d58ea6ad",
-   "hero-light.svg": "df80dc124f884789c26e1dfd5d0c73513cbff588727496b51b17c20bd77331d6",
-   "hero-motion.svg": "b2275ccf5b86671c7457e2145e789f8231917f73d4125f5cdd629d5148a36434",
-   "hero-reduced.svg": "cca2d526c80f7d9b628c040ddabf46f9e0de6e57766ad87471d45fb6d58ea6ad",
+   "hero-dark.svg": "a6e4bce11f01238cefcceb219385140f7c3ede55440c90d2d4fff80bda5f2b3a",
+   "hero-light.svg": "577282750df2e1bdc3f29e643fb8a367587dd64672de1588fc3a3d9da2d9f2ce",
+   "hero-motion.svg": "ca30888caaf120e2401f084a2a6b00cfaedb4e3510730253238a75fb871cf1d3",
+   "hero-reduced.svg": "a6e4bce11f01238cefcceb219385140f7c3ede55440c90d2d4fff80bda5f2b3a",
    "social-preview.svg": "72f114b62a82356925ad00a480255cb6f4b6d31758c45b9ff73fa4cafd0f774f"
   },
   "cortexhq": {
-   "hero-dark.svg": "964c0cc84a097256dad92a6a985d864f0cf140e6e658f9eac44f92eb0336cdef",
-   "hero-light.svg": "ac5233faf580b17b85721fdaf975f13bf1ff59a7415b18730a97ac4888a1106e",
-   "hero-motion.svg": "a5fa3cf335edcca729db48d2b0031e96837672d99b694f8d20817aa1bfee336d",
-   "hero-reduced.svg": "964c0cc84a097256dad92a6a985d864f0cf140e6e658f9eac44f92eb0336cdef",
-   "social-preview.svg": "eb554a0d63e9733e24c4d351a4cfede7cdf2d153ba28e665d4cc97a948661c5c"
+   "hero-dark.svg": "c45b7fe6076500e82cb873a63af7dc3209c554e0ac1c6730231f75e8ea7aeef8",
+   "hero-light.svg": "13ff3fdffd619c594e614314ed030051d5912a963b35ae0f842e0212d4dabb5e",
+   "hero-motion.svg": "31f0dc5c0213abc91137f1a5b95fa41d27ae5d6bb0d042d4ebedff240ddae4dc",
+   "hero-reduced.svg": "c45b7fe6076500e82cb873a63af7dc3209c554e0ac1c6730231f75e8ea7aeef8",
+   "social-preview.svg": "af10177847eb99ddec51e690d2c29edd4f417949c61d0d53db759f9ac871b54d"
   },
   "cortexhq-website": {
-   "hero-dark.svg": "4af8e130e4bdc2a5c7a1e0e819d145bc3c386715048c40437c0637d62ac3b18f",
-   "hero-light.svg": "71c6e3ca888920cb364c5c67ef64abb986ff74d89dc722d04d2da1d0948de50c",
-   "hero-motion.svg": "5388971bd459644396318260a7466392db55278c1c0b5d1f3e8890d11a8a8238",
-   "hero-reduced.svg": "4af8e130e4bdc2a5c7a1e0e819d145bc3c386715048c40437c0637d62ac3b18f",
-   "social-preview.svg": "f97cc6783b2dea76997fc99007b54d5e6404e539a26bc3a6a5622daa476edd29"
+   "hero-dark.svg": "cedf040fb53de43555bcd33ffff30de68296e60ff6673785bd8ccc4ebff22e80",
+   "hero-light.svg": "ef56a3b7282a5829a59788a91874b956b70f19bac723ab17e682e85aa194478d",
+   "hero-motion.svg": "84ba25ec9ca7d6ca45ef8924842fbd479b6dd45d9cf56bb297b0aeadbbba8627",
+   "hero-reduced.svg": "cedf040fb53de43555bcd33ffff30de68296e60ff6673785bd8ccc4ebff22e80",
+   "social-preview.svg": "f32d5055ccde52b4758d4b94f49b755fc3e3d025e74d59df29387769f47be7c8"
   },
   "cropshield-ai": {
-   "hero-dark.svg": "d92309b39cd941bd5e4775ce5ec5f435bf08becaef2c0a64ce0c8d41ea2f4ff6",
-   "hero-light.svg": "ee79f19a04129d8e22abb06a351406db4e4a6f86da6f95a38b5452a2259d7aa7",
-   "hero-motion.svg": "b1ea276bad5dc012dd80dab598c90da4b9a92499fff9d42c1c5ebad7f8b3a126",
-   "hero-reduced.svg": "d92309b39cd941bd5e4775ce5ec5f435bf08becaef2c0a64ce0c8d41ea2f4ff6",
-   "social-preview.svg": "3ccda7b3e3db3cb1cf4e5a69dbe68a22214b68a5122460fd9afbf82589cf181f"
+   "hero-dark.svg": "c65d3e0d75878a5eb5d501cadad050606eb3cdf1655c747e60f5a3de15b3dda7",
+   "hero-light.svg": "6f4213a63d1825c657a3c98d1e6d525f1c4adeaccb7a787f6f3031a3cb50e998",
+   "hero-motion.svg": "cee8ae6fbd22941e3a187e37d27e3be4e30bad2ac4adfd038e45555cfdf363d2",
+   "hero-reduced.svg": "c65d3e0d75878a5eb5d501cadad050606eb3cdf1655c747e60f5a3de15b3dda7",
+   "social-preview.svg": "c4fbf931b84cddd06c73f1939703e40101043220b405e221343a6f251bb86798"
   },
   "cropshield-ai-website": {
-   "hero-dark.svg": "834c8c985096cabc9e527307c7caae9b63c68f89d86c486eb961a2369c80547e",
-   "hero-light.svg": "165ac7f77c9dd54e49ab040cbe22769477cb7a9451f73ef8f368e6aad035b93f",
-   "hero-motion.svg": "cf596c564f9802f4c0e1701fbba12e17d3b7ca81fc43497cac68027b9bfaabbb",
-   "hero-reduced.svg": "834c8c985096cabc9e527307c7caae9b63c68f89d86c486eb961a2369c80547e",
-   "social-preview.svg": "0868754d0f776c059983961ca6a06cdcb6eeaa1af6c55ce07c2d73c7b8fa2a99"
+   "hero-dark.svg": "0b654dd2f5bfbb8584831ffb9141bcb92d6df1cd980cbba437cb8e9629d842f7",
+   "hero-light.svg": "0bf9a3ff791cb602d24e30c5302b974c1045961c7824288d8829d612f3dd81b5",
+   "hero-motion.svg": "1f22890053c9cdea9b9b14c20a7e9f60cda15c9d9a06e9064910fdac226b72f9",
+   "hero-reduced.svg": "0b654dd2f5bfbb8584831ffb9141bcb92d6df1cd980cbba437cb8e9629d842f7",
+   "social-preview.svg": "ea1a34f51c70f4974f248c79c3fe34b745fc541b0543139d0f12b7663ce9720c"
   },
   "datatherapy": {
    "hero-dark.svg": "dd23e3d1c7c923d78fae94bf6702a243fc22c213eb3006337888ae157ee34dc3",
@@ -365,11 +365,11 @@
    "social-preview.svg": "c101a9e94643ae786ac9ee116f48ba94784a5d0791559b66d0efdbfd5acdf0fd"
   },
   "deploylocal": {
-   "hero-dark.svg": "6a4540a273c96901c4e6e8105465704c5e2dd602f161f15ffc6b08e90c67b9b3",
-   "hero-light.svg": "f00aaa28854ba243aa2c4407ad6dd470fcd4673aa263054adc7520ee548f8c11",
-   "hero-motion.svg": "dcc25ec979e31fde52984c7e280734b9cea29a028d4cf74547b334a42b271d89",
-   "hero-reduced.svg": "6a4540a273c96901c4e6e8105465704c5e2dd602f161f15ffc6b08e90c67b9b3",
-   "social-preview.svg": "73edf19fed7c3b2b78d8d96a7604e1eda592d3d00fb91c71c5f4de9a5798157e"
+   "hero-dark.svg": "ca39c38e3e55ad8ac65891555557bfab7c6189cff33a31b502034a7934d491f9",
+   "hero-light.svg": "018222ac65e59c59d0560d3ee7a948df483fd904f9490c68bb491f4a23c65652",
+   "hero-motion.svg": "2cabcd835e1d25be433f00e87cbd053440f49a61f96071519f5b5cc041a6b02a",
+   "hero-reduced.svg": "ca39c38e3e55ad8ac65891555557bfab7c6189cff33a31b502034a7934d491f9",
+   "social-preview.svg": "5ad47e9a69d9557a7eb76ee72953c095413aa6a25b9847385979729f2e56dd45"
   },
   "deploylocal-website": {
    "hero-dark.svg": "d551b57de7833994769726bb3878de299cde169f70edfa2559aefc6a09a8128b",
@@ -393,18 +393,18 @@
    "social-preview.svg": "b1f2a967832f23867fdb7a9e6d2054371f0ce81596e16365d7dfebb502c46f62"
   },
   "enterprisepilot": {
-   "hero-dark.svg": "34a510be003750cd13658ed896347889f840a0afc250b295029f0ab6cbae7cdd",
-   "hero-light.svg": "dd026c5096c151c5cd1b3e6264851b13d2802e1974cd1a500e11f2417d77c603",
-   "hero-motion.svg": "7c92d03cdde9acb15d849fa6e3817c07b83a2642e9020b6c1ced47e6233d2e42",
-   "hero-reduced.svg": "34a510be003750cd13658ed896347889f840a0afc250b295029f0ab6cbae7cdd",
-   "social-preview.svg": "730d2afc1ac6935c6af580f2fe083704d6f821e872a3b5a3bb3364d244ce2001"
+   "hero-dark.svg": "97f347bdfb000cc471d218473481b9f72702aa6529654b44b14cc82152495a7c",
+   "hero-light.svg": "53fc90fb767fc70568ca810edf4e7a44fcf80863cc77772c1b1ebaf0a6771cca",
+   "hero-motion.svg": "ba3b79f428bd5f5e465c32d90c0335bfc22236a5de0308ee5cb5ca8acc4b7a37",
+   "hero-reduced.svg": "97f347bdfb000cc471d218473481b9f72702aa6529654b44b14cc82152495a7c",
+   "social-preview.svg": "c570714663b1a5d1d9a67c1dfdceeda781451854286adca3afff06986a429da9"
   },
   "evalforge": {
-   "hero-dark.svg": "0910e44c79bd92c62ba86b34a94362c95251b12ed4a0ba9f3bd7d628f3127dc8",
-   "hero-light.svg": "a93adf07eb3f3e8ae28e778a1e145e53d62798f6532cfd521ea0db9c34d74f18",
-   "hero-motion.svg": "6d9b85bd3bedc9157ff6a7fe8291f8c56b45c8f2c695c599a3eb11c341a023ee",
-   "hero-reduced.svg": "0910e44c79bd92c62ba86b34a94362c95251b12ed4a0ba9f3bd7d628f3127dc8",
-   "social-preview.svg": "22e7fad8c2bac166c163dae7e038f4dd99c587242d3b4f334021a4ad9814706f"
+   "hero-dark.svg": "99f6ff74ab3834d525f1033885d00c0b928ab068aa0cf0e8a68820996cfc43cf",
+   "hero-light.svg": "bf6a158882e61e7bb10ec90c43683c051918b3f28c3be173cbbab44603c270e4",
+   "hero-motion.svg": "b2280c15d7499f674eab6a47e153dc31dbbecb1bae97051f91dab52a16d79889",
+   "hero-reduced.svg": "99f6ff74ab3834d525f1033885d00c0b928ab068aa0cf0e8a68820996cfc43cf",
+   "social-preview.svg": "8cb9f2ed1e614252e7d2c579e96903d9af86d37b2cd9720e904ae83335dd9ff9"
   },
   "evsec-one": {
    "hero-dark.svg": "690488f599d145ceac3f5b9ba4c842835c1c28143b00ce7ed0c43f54b16494c2",
@@ -414,32 +414,32 @@
    "social-preview.svg": "ca3a526724ad3e7d1ed8ef6ee3feb4db8fa908ce791b30f7bfb1d8c4e901854a"
   },
   "execmemory-ai": {
-   "hero-dark.svg": "dc5ebe7980908e3e3c8a7e83b9f0331ee6c1613d044ccc50a364a7ddaa20d42f",
-   "hero-light.svg": "1cdbc4b47a7006a327e6a91d952bc94c00fa0f935547a368565f88dfacd7c5f9",
-   "hero-motion.svg": "3907e7af8a193c2eeb1a4c0b5b062fd67c48ae788339dff9de11792600017b1e",
-   "hero-reduced.svg": "dc5ebe7980908e3e3c8a7e83b9f0331ee6c1613d044ccc50a364a7ddaa20d42f",
-   "social-preview.svg": "70c061328c4dea44e76e297a3fe87bae68ad3c5ead09655124d67714721b5687"
+   "hero-dark.svg": "54ee2373f243dd7b2466dd6ea7d5db4542b446ffae45dd70f90f01dfbc29ea23",
+   "hero-light.svg": "1b729d05cfd9bb1a909bfe4c9b9fd5b4b3fa96ba4131f28f235d96172777fffa",
+   "hero-motion.svg": "22340f12078873117e1b59c40890eaec80efd96cf90baf504356207599fc24d5",
+   "hero-reduced.svg": "54ee2373f243dd7b2466dd6ea7d5db4542b446ffae45dd70f90f01dfbc29ea23",
+   "social-preview.svg": "aad69f374679b03528877fa85299cd78e4f83b6478f1d5621a27c8401525f103"
   },
   "executionos": {
-   "hero-dark.svg": "1fda85d3803f99d36d509b7fdaebbd85374b5082c5dd9e83f77f7c181539ecf6",
-   "hero-light.svg": "d20bba575fde90587aa9426e6383a702f8c283de97e235bd0db949a3bc0f023a",
-   "hero-motion.svg": "5c291f08b78d11efc60768fb43e04803b9a058e726b722e2425f0467ac961f8f",
-   "hero-reduced.svg": "1fda85d3803f99d36d509b7fdaebbd85374b5082c5dd9e83f77f7c181539ecf6",
+   "hero-dark.svg": "4c57f9acf78b8ae39b093c507100c8ca9bbda9cccc6e09bb90ce0dda8b1b2661",
+   "hero-light.svg": "5e72c0f923e1666858756db146c4a82e9ca1266464ff1fd6c325380a66f67c42",
+   "hero-motion.svg": "3234cc4e64366f6548ce7fde52a02b7d954858ba2ef978dfbfd29623e7de8ab7",
+   "hero-reduced.svg": "4c57f9acf78b8ae39b093c507100c8ca9bbda9cccc6e09bb90ce0dda8b1b2661",
    "social-preview.svg": "fc9cc24acef9d2224e9f5a1b582b61cf12a3aa7eff0b1420cd071233b75ab172"
   },
   "fastprocure-ai": {
-   "hero-dark.svg": "2f81161c5873a6f985409a681cadfda68ab34b499f8d65e5aac0405e89425460",
-   "hero-light.svg": "64699fafa86f481fe4d5b199643e3f34d45414d1aa1f38e844305f906a1fb420",
-   "hero-motion.svg": "23d36f6a74c6b841e9b9d2279c937206f0dcabab89b08d552b611dd28249382b",
-   "hero-reduced.svg": "2f81161c5873a6f985409a681cadfda68ab34b499f8d65e5aac0405e89425460",
-   "social-preview.svg": "a7aa26814abfda48bd9b354eb05153102f491bfb19597b0821fe66eb20f4144a"
+   "hero-dark.svg": "33062cd1fb83914aa545e667167fb42f30b2f33a0b52cce2213a73eba1270baf",
+   "hero-light.svg": "6e54f66ccb0a826c5ef41685aeff29bef682ac62016fe8a764cda499a2586997",
+   "hero-motion.svg": "fd921e0fc569535ec07ff0a0cc9aa1bbf463a736b297fc42f6277e0ecd4e64e3",
+   "hero-reduced.svg": "33062cd1fb83914aa545e667167fb42f30b2f33a0b52cce2213a73eba1270baf",
+   "social-preview.svg": "25d7310d4b92e7ff6287c7dabb92ce32ac028fc197813fc456973160d2b35b39"
   },
   "forgeflow": {
-   "hero-dark.svg": "4a34a64ab61000e75b0c287b7597a360fadecf8169f3393d444bcc3220a389c3",
-   "hero-light.svg": "216f1f5dd55ddc80f30253b6735b4e355c24c80193b700cb0e72793d22fe8cbb",
-   "hero-motion.svg": "c3c056fe69f144cca862a20dd8614bebf94b0c85443304a1b9dafe47f6a1a302",
-   "hero-reduced.svg": "4a34a64ab61000e75b0c287b7597a360fadecf8169f3393d444bcc3220a389c3",
-   "social-preview.svg": "bd56059784701bf6ad491558c322f051c94d59ec54aba1cae7b59d5a28050541"
+   "hero-dark.svg": "43980fcd078995cc606e326dae8cdeaadef5398f1dfce17be8debb594dd7cf7f",
+   "hero-light.svg": "7e317405215509e4568dcbca0bc0f24a197c72fb752a6aeb65a031002e3f5493",
+   "hero-motion.svg": "a1f4b7000aa003fc338ed3295190c2f94cede6ad09719d784a20097db2c2923f",
+   "hero-reduced.svg": "43980fcd078995cc606e326dae8cdeaadef5398f1dfce17be8debb594dd7cf7f",
+   "social-preview.svg": "731f1c5bb7333a6fdd174a3fc98be4d71bc3114fcfea23e58e99a83e456d6c5d"
   },
   "founderskingdom": {
    "hero-dark.svg": "eeb93a57f1cdf9039e263c649e9cdb4f68e4465447c9b12b52ff10bad1ad9b81",
@@ -449,25 +449,25 @@
    "social-preview.svg": "d8c2dc049ee74a3a110141447d197283b1a5a8d5dc6177c65c7b7794dfc62527"
   },
   "freeconomie": {
-   "hero-dark.svg": "7f36a5ed1240e9669dc1a726dc2b876f65340232006c009b8dabd479836b7faf",
-   "hero-light.svg": "546ca6b2d49b5465f6f3e7a99829fd211a10c99466d3df49f0cb29784c509217",
-   "hero-motion.svg": "67aeb0f7d317611dc9dd380d1849368ef58db7ed66f083b913466f70eff3f7eb",
-   "hero-reduced.svg": "7f36a5ed1240e9669dc1a726dc2b876f65340232006c009b8dabd479836b7faf",
-   "social-preview.svg": "c57bf444cc42934974cbe8809e08e67d8e1cabc64115495dc01dda5cf1fd6f66"
+   "hero-dark.svg": "ac21be866c55885386933091666349fd45ec310b4bafbeb04b89b3f98b00b4f9",
+   "hero-light.svg": "89ca5bc805a9bd06c29a93b895180af08f8f6461ff52a7f7813d959825f2fc2f",
+   "hero-motion.svg": "dad740f1b13e29d0b751b24c0cf359a3bc433e3b8f0f5a572c3977d7e17574c6",
+   "hero-reduced.svg": "ac21be866c55885386933091666349fd45ec310b4bafbeb04b89b3f98b00b4f9",
+   "social-preview.svg": "af653ec825fa79e59edabbb1bd403d77e521e6608dc0114f9e1019ae3969d801"
   },
   "fullofshit": {
-   "hero-dark.svg": "2f6e0366933b95f6c8451bf039491982c154fc8c7f9e8b2ea393aea260ad9f22",
-   "hero-light.svg": "ee8477f544377858a1d6d1d32cc3f9c41e6a066b3d00bc32ada95ad076dc9cae",
-   "hero-motion.svg": "36518835e43239e012dc73ab2c3e758e500470bfcc13e44fce630ead73e18be5",
-   "hero-reduced.svg": "2f6e0366933b95f6c8451bf039491982c154fc8c7f9e8b2ea393aea260ad9f22",
-   "social-preview.svg": "83ae632441490bc45feffdd3d358b389d9b9c0becce81e897adc513139911284"
+   "hero-dark.svg": "f075dc9a7d350314b7b0c3b8824116e90cdf5a008389a74a5f47a4e60e43a329",
+   "hero-light.svg": "09f1a686b303ce62ae784b4d1c6ec6285594fef12c1785279fb2dcead966e620",
+   "hero-motion.svg": "8c37dc29738d2429c31f50a57bc7f54bb287938122ec27583f542f6a908b0cac",
+   "hero-reduced.svg": "f075dc9a7d350314b7b0c3b8824116e90cdf5a008389a74a5f47a4e60e43a329",
+   "social-preview.svg": "5c1cd15918078fe60b80f6cad154dc833a587036b9f637e12ffd317781fd720b"
   },
   "gamecombo": {
-   "hero-dark.svg": "0f59aa52e6390ce1323943de58b05037f4783902f61457b6fe95bf9f97508479",
-   "hero-light.svg": "c33310a3dcdd6bbdc4b721e11bdfa32521b620a3c22f0be536533e2b06a41583",
-   "hero-motion.svg": "a73fde2144ae2f1ffbed8214030e679b0958ffba88741fde89da42ee57f6d765",
-   "hero-reduced.svg": "0f59aa52e6390ce1323943de58b05037f4783902f61457b6fe95bf9f97508479",
-   "social-preview.svg": "e3305278c834dcdad607328ab265cb1f5bfe9c21237db6693c78224ca3761e60"
+   "hero-dark.svg": "a3e785d0326a1fa21f699a8035c5efd55d683c76e917a58acae21189d8feff87",
+   "hero-light.svg": "89cb7f847f19e47a1f852478f4098ff2ee009f7f7478c66a83ac382f84f0fab1",
+   "hero-motion.svg": "b2ee4225d105252d1ce958dc5b0b323656f6fbfca0e1eacdeda8c49e7c6f8765",
+   "hero-reduced.svg": "a3e785d0326a1fa21f699a8035c5efd55d683c76e917a58acae21189d8feff87",
+   "social-preview.svg": "01a283bb3ba4aaa5c18e41ae74f29d234b725d4aa89981cedee129706b49df1c"
   },
   "genotwin-health": {
    "hero-dark.svg": "64017beb3dc54143e588588fcd01c4e1b9ba562fc8217e62171bcdecaf5def18",
@@ -491,11 +491,11 @@
    "social-preview.svg": "54a485643ea6fcbc6a91a2392074bea500ae0e252d0ef58e744d04a327c4553f"
   },
   "ghostframe": {
-   "hero-dark.svg": "fd2d960dcfe02007ac6f8ad60e2b29bf1973d16b13089db6f3feef0faa6b887e",
-   "hero-light.svg": "054e111c7ebee1817618e30ec7a86d540ef1a6f8d43962c82b7f7f44a0288c0a",
-   "hero-motion.svg": "b5a197cade096cb46c9237b7534197ea075a996133dad776f219f91297657e78",
-   "hero-reduced.svg": "fd2d960dcfe02007ac6f8ad60e2b29bf1973d16b13089db6f3feef0faa6b887e",
-   "social-preview.svg": "a38734df68d3b1a8dbc77d336d45ed274689d0a105d7de07c4e204918f3c1f2d"
+   "hero-dark.svg": "91b6441e065bdaa430ef3b5ea01c052e357ba77a93f9ea7a3964b31b731e9204",
+   "hero-light.svg": "7a91a0d656d30b9e9a28725dc7f1fa06d915afcc04ba733859bd2a860102af4d",
+   "hero-motion.svg": "fa03f14383ae17c6697ba7441fb4e3aede40d85af80cdd2210139cc38dc17c37",
+   "hero-reduced.svg": "91b6441e065bdaa430ef3b5ea01c052e357ba77a93f9ea7a3964b31b731e9204",
+   "social-preview.svg": "aa7c22aaffc5cb5c26bb05f6f2f29558e57c340f7fefd29c183362313b78b484"
   },
   "grokbot-office": {
    "hero-dark.svg": "ca780c25a9b0f82e4573ee4834b48d46f99a9e387384c412e3e7a4267856909f",
@@ -575,18 +575,18 @@
    "social-preview.svg": "c7b288f106327705efd8db779cbff7a83c4b0c41f99e2aee65e813809ecafc93"
   },
   "lagrangeos": {
-   "hero-dark.svg": "dcc0b8069af314a55b8b952de94a2618835a9b1fbadc6e6e71405a2e3c3230c1",
-   "hero-light.svg": "e7fdf32eb120d72d8321fcc7618693fcb0e9c7b7b5bc9ba16cfb531f4d47a594",
-   "hero-motion.svg": "dc102c3052de5d382e3c0bceac89296b5cee5138bb36c3801015c4d422626c00",
-   "hero-reduced.svg": "dcc0b8069af314a55b8b952de94a2618835a9b1fbadc6e6e71405a2e3c3230c1",
-   "social-preview.svg": "76f356089d20271787c74ef8ee5df76ab6cfab85abbd1164fa17b757e52f1d9b"
+   "hero-dark.svg": "a0ad467d265c0fe26693e3e0e754f6b3e02faf1c010b4a6d5817080f96523eaf",
+   "hero-light.svg": "da185a36173e0064f51ad458d98daf3c104771d90cca4261a51f8136291abb13",
+   "hero-motion.svg": "4f46d6b816e7d8ed79eee9856715a9e749c092c35f7d5782a19362d1e036cf7c",
+   "hero-reduced.svg": "a0ad467d265c0fe26693e3e0e754f6b3e02faf1c010b4a6d5817080f96523eaf",
+   "social-preview.svg": "a2118aa8ed84698fc6f184bc305ddae3ff8393244eebe6138f9806a2deb27876"
   },
   "ledgerops-ai": {
-   "hero-dark.svg": "c61c2b8b7fac5d35d8a5926be07119faf3f9f65fec918f97fbc568ad490cd80d",
-   "hero-light.svg": "bf7343426697745c5fd1e4b6dac095da8fe7b1a6ce4a8b05f46e831ccf4abc41",
-   "hero-motion.svg": "a262f38bba65514eb3ae060d4cc170dea5a332f559eb2c43620088c907463631",
-   "hero-reduced.svg": "c61c2b8b7fac5d35d8a5926be07119faf3f9f65fec918f97fbc568ad490cd80d",
-   "social-preview.svg": "08e92f779973348c828fcedf296add01be278400020fda3c013a1c4fa3d40c20"
+   "hero-dark.svg": "a1a17ea2186825d6a27f54a04107aff9d1447f6c33eb6389086bba200ceb79ec",
+   "hero-light.svg": "23dd87dee2477b70ef021d9ecd73dc4e2005e4fc21495707c441771c36ec3cb0",
+   "hero-motion.svg": "f071d0d9bf2347fac9e5c8a488c0bf45c034bb659ee7555f8fa98a83f82e2eff",
+   "hero-reduced.svg": "a1a17ea2186825d6a27f54a04107aff9d1447f6c33eb6389086bba200ceb79ec",
+   "social-preview.svg": "0d84194d893e82c24452036279032f7d2d9d06fc4a513b25b57a413ae990bbc1"
   },
   "legacybridge": {
    "hero-dark.svg": "00a704fe7ae34c664c91eacd317d00dbb126f393dcbfb41f3975625f012c9f72",
@@ -596,11 +596,11 @@
    "social-preview.svg": "cf885d64f6f1a5134515c6178bd91ae5b0470d323c1f214336cf7e4fa7194edb"
   },
   "life-finds-a-way": {
-   "hero-dark.svg": "fe0470eb5e70b72314e6032d44c5bca91a28834dcbb8b9181678aa2e60a4af88",
-   "hero-light.svg": "821eb2526fe91eea77735fc31485080a6843ef13a7de89aa60839813eb9e62d5",
-   "hero-motion.svg": "04c9ce478cab73109ea51dee263a12ecc79e093773852d5b1c3808218d91b510",
-   "hero-reduced.svg": "fe0470eb5e70b72314e6032d44c5bca91a28834dcbb8b9181678aa2e60a4af88",
-   "social-preview.svg": "28d4d3e0f6b106e406bf180449c1e0cc18ac6876da53e4f4541354f0dafa3916"
+   "hero-dark.svg": "c51ad5b681e29ba833df0ba3ec69ba2a703ff81b468bf47fe074c7c1d62fed50",
+   "hero-light.svg": "7817bdc19ac0ff58bc3cbb7a5da85a22f77a72bc7211d0242c5267b441f34eb1",
+   "hero-motion.svg": "41a6aace046c376bd9717ecf2cf2cb7bb668b25f89667b4cb2e90107e6670522",
+   "hero-reduced.svg": "c51ad5b681e29ba833df0ba3ec69ba2a703ff81b468bf47fe074c7c1d62fed50",
+   "social-preview.svg": "b7b4480cbb51fb2cf9bd0a487070165cb12470ea72d55e8dfb1bf814b1270c44"
   },
   "loopcompute-cloud": {
    "hero-dark.svg": "f15ecd614889d4eb5d662a327f247e3f4af324c47a39973e693ce532b2ef42e9",
@@ -610,11 +610,11 @@
    "social-preview.svg": "c053b5bdbde93ee99aba50c62117f3f1e0b4d6059a366a17e5dae16cbdd13f13"
   },
   "lunarfoundry": {
-   "hero-dark.svg": "dcd5ead34d2d072203acdb4149a9e08b4bbb0c51768a26d0b9d42a261ebbd996",
-   "hero-light.svg": "6db6125882160c6671c4beac4de247dbfa0b2f16447b756c932324dbb8e632c9",
-   "hero-motion.svg": "2380c859006310fc44e97668a20c3c3e6b0f09e25b7991dd6d6bc78dc58bfbc9",
-   "hero-reduced.svg": "dcd5ead34d2d072203acdb4149a9e08b4bbb0c51768a26d0b9d42a261ebbd996",
-   "social-preview.svg": "5be3390b8c19b43790393ecf2833d48d89ab0ad2cd889617be5c54aafa8f4579"
+   "hero-dark.svg": "586d1ef919dba4522093718370d577a09ab8b91463650d1dba52d490de564dcf",
+   "hero-light.svg": "c3e686a5e5ac099df105793d28329f914f56899eabaf2531d25abfb36b8fb625",
+   "hero-motion.svg": "22cbcaca11b301b0e12bcf22b7d364eda688b29bf52ecec296e06886acf89a58",
+   "hero-reduced.svg": "586d1ef919dba4522093718370d577a09ab8b91463650d1dba52d490de564dcf",
+   "social-preview.svg": "2be50e665a42577e66979b812ff71ac2eb3c132f024de1d8f34f3a7a21520e60"
   },
   "luvconvos": {
    "hero-dark.svg": "6b27e4ec48d1099734cf9a4762c8600ec42e3cae20ef74163d8d3f16bc75f576",
@@ -638,46 +638,46 @@
    "social-preview.svg": "7a72f470ece95fe476289737fc88e51c1171638b416810d1e2c53b9ce75711d8"
   },
   "morphui": {
-   "hero-dark.svg": "eb9dfdaa37311b3abf0293d081cbe51ffa01aab2df44b18440ff9ed442a74a34",
-   "hero-light.svg": "add5893a97cd319220a7be9185a73f0d41719523eeccfd63da64afb31057ec5c",
-   "hero-motion.svg": "5c82a481a0a9df63532a6c200dc3b9f08c9fc04c750b0dbd73acad4c357cc824",
-   "hero-reduced.svg": "eb9dfdaa37311b3abf0293d081cbe51ffa01aab2df44b18440ff9ed442a74a34",
-   "social-preview.svg": "c6a6dcef4018bee840dd78464cf16a13336bbafe26b383a1544e7f19fdaccbbe"
+   "hero-dark.svg": "4ce068e2037821d63df5e95a24f4d43000197a4914b43cf6acfe77d919273e01",
+   "hero-light.svg": "973c932716e4bc13597d2445f0476697e7113ad42fbf94854d30e7d7e089a34b",
+   "hero-motion.svg": "fae4d8d736cbebd8ae11ff5930f39956fd9790254f62829bd22a5ef99d878869",
+   "hero-reduced.svg": "4ce068e2037821d63df5e95a24f4d43000197a4914b43cf6acfe77d919273e01",
+   "social-preview.svg": "337f214916faf25b4a6293eb53d6833206d2e9d18729780e7cb504b9234550ea"
   },
   "n1-therapeutics": {
-   "hero-dark.svg": "afb67f3102edfbbce9667614ad037fca9bd92d72a2161f81e986767a845c83e4",
-   "hero-light.svg": "4f0c729ee39cbe4347355ed3e61870d4fb7cf5b6a73297c12178c96e46df7b7f",
-   "hero-motion.svg": "56ffec91c976771353d4956e7193e9cb8b4338423ffa4fc5f4380c75b95f4ad9",
-   "hero-reduced.svg": "afb67f3102edfbbce9667614ad037fca9bd92d72a2161f81e986767a845c83e4",
-   "social-preview.svg": "d6f4d0e25e3ca13a48ce7a52992502900e6532ce46d76caee98e88a81e98a800"
+   "hero-dark.svg": "a8bad6d67da836830c2b75aaaa17e7397abd4abc1ea45739085a9d4a8999a498",
+   "hero-light.svg": "e067b84e8113a943a6895d41aa11415bb87a582b74d47f64b08b5b353c99a298",
+   "hero-motion.svg": "4d33ed0b312050622772e3cd34204eb999821455ec49bcf7661348a057eadbb0",
+   "hero-reduced.svg": "a8bad6d67da836830c2b75aaaa17e7397abd4abc1ea45739085a9d4a8999a498",
+   "social-preview.svg": "a21106517cf1b098e4fe1229f49890a66a051810e937e502c002fb1163d2a79c"
   },
   "nex-robotix": {
-   "hero-dark.svg": "86cc3539e982978a831692823253fc7bf1ff296cff40868f60581689702cfb23",
-   "hero-light.svg": "8877141577fee3bf8828e0db0e6f6e7ef22e919986edd45553953a3e37b50198",
-   "hero-motion.svg": "3be557b9eee7c302803bdc8e7939d48c82a192f82daaf2ef63a17c0e7b7a3fff",
-   "hero-reduced.svg": "86cc3539e982978a831692823253fc7bf1ff296cff40868f60581689702cfb23",
-   "social-preview.svg": "49531fbdc01e6e4e3f23cbbc6b57a4f9e1b98df7248271745ba24a0835de9dc9"
+   "hero-dark.svg": "8306ee5b5d5ef550ff436787aa80b480b05b627759f0a55b367dfe3ce520a9c1",
+   "hero-light.svg": "bdd7cfbfd078211d1cde8ab9fe07f58cad4dcafc65965bc1049a17bd8dbd6957",
+   "hero-motion.svg": "58da46fd96866af9e776f1b1e2413e0b3953a6f0054ede4f6e3b4bd820e21ca5",
+   "hero-reduced.svg": "8306ee5b5d5ef550ff436787aa80b480b05b627759f0a55b367dfe3ce520a9c1",
+   "social-preview.svg": "f5c1034f8d2a69a499b1362e709e9bf0a48eec1a541819fde4cd5da0dddff2e3"
   },
   "obviouslybad": {
-   "hero-dark.svg": "b3d9a7348ca545cf5644709f996a83077fbdb7a0e12c41ffdd7fe73ad239fe2d",
-   "hero-light.svg": "09478a46c47f584b84aca9b7249dbe4b026a1099086cdfe10e11c997e0522a0c",
-   "hero-motion.svg": "4b85aa8e4130bc80186839ceb3f4f1fcbd3e39dcfa083cbb3bcc598adae7567d",
-   "hero-reduced.svg": "b3d9a7348ca545cf5644709f996a83077fbdb7a0e12c41ffdd7fe73ad239fe2d",
-   "social-preview.svg": "3c26d4051751b9d3278974e80bccb8a8f9ad9b684830c87b977d98760ef66055"
+   "hero-dark.svg": "40bd4f72b5c1cd2db0aef2daef9284ab57d6ca34cc134d5a2ac6489837068248",
+   "hero-light.svg": "a4cf7df1202dc07ce15486f740605234470efdbf6328c89933af8f5ec6c1426a",
+   "hero-motion.svg": "29f16681fc878592b803c04a4311478225cd2e059e46623dcc8e8e2c0e2220be",
+   "hero-reduced.svg": "40bd4f72b5c1cd2db0aef2daef9284ab57d6ca34cc134d5a2ac6489837068248",
+   "social-preview.svg": "43a63079aaeabdd927b5fd1fa4e08ba8754801017b24b3d6af3872ac6ad2c1a4"
   },
   "oddbotix": {
-   "hero-dark.svg": "f7cb774c76b20acab18976bdb8a2dc5134db9226e1e2a887778ec4d2e6d6fe12",
-   "hero-light.svg": "10092a5626576eedd6c1258e1213e96c4e8c5f5a861922804f2fc1bf2d37994a",
-   "hero-motion.svg": "e12c60e7f5730e730001033062a9b6e1e69653d90cfac72d0feb2d4f5f72dd3d",
-   "hero-reduced.svg": "f7cb774c76b20acab18976bdb8a2dc5134db9226e1e2a887778ec4d2e6d6fe12",
-   "social-preview.svg": "e9cdc364a564202ad1f5177f365b6f58b1006a03872cdf90afaa5b505676c223"
+   "hero-dark.svg": "3c6c5fa7913edff2ec6b0735a9e32a38f8d55992a629b48dae3bfe356ea46d6d",
+   "hero-light.svg": "c994ca6d4b47e485748cddb2b55b5686b1c92bd97db940bdd37820f1231ee271",
+   "hero-motion.svg": "19e256544223b32d0d19c8ee0f1b2b653f6f17c1fba04c1d02c3599469804d16",
+   "hero-reduced.svg": "3c6c5fa7913edff2ec6b0735a9e32a38f8d55992a629b48dae3bfe356ea46d6d",
+   "social-preview.svg": "735b552c853c950315f011bb70986885a39d0afae28d6f6496cca617a4e419c1"
   },
   "oodax": {
-   "hero-dark.svg": "fc9ce905fc298b515d81184c5ef3452f35ca85370df7976bafa17dcc491e113c",
-   "hero-light.svg": "eb2646529c372cdc43ed77987da4a8b4afca0c11f23ed751fba9b46ac1ccf0ac",
-   "hero-motion.svg": "ed50e2df7ee1af75a89a39e10289ca9140bea4d53c63823c67cb8d785e2d70ab",
-   "hero-reduced.svg": "fc9ce905fc298b515d81184c5ef3452f35ca85370df7976bafa17dcc491e113c",
-   "social-preview.svg": "f263342e524fcd7ee872bf2fc68bdd4f5731f8a44d637b8a59f3780c2266acb0"
+   "hero-dark.svg": "5faf9656616d3656becb7fad1f1ef67b114760676b292770b73db248c603db1e",
+   "hero-light.svg": "dd82c190fd76b1f74400e2b99275ac6758ca2d8040fd8bda12371f042a3b4b94",
+   "hero-motion.svg": "efdb8f508b2d6b07dc4a5a2c2f96aae6e99180cc3bab68671d7fc2617a6870da",
+   "hero-reduced.svg": "5faf9656616d3656becb7fad1f1ef67b114760676b292770b73db248c603db1e",
+   "social-preview.svg": "46121a866f072ee24f22987aacaa42e17ed94e39855b68817288a94077d36ad4"
   },
   "opencode-watchdog": {
    "hero-dark.svg": "75d563805e852d77d7316ab2d81cc3ed41cb266d48ec9485018c47c9b57b53a0",
@@ -694,25 +694,25 @@
    "social-preview.svg": "dcbe96050c4076618b81a46679dc82d692edcad5159343ee715f5a646a1043ee"
   },
   "opsautopilot": {
-   "hero-dark.svg": "2be59e2bb2e577ac6dd0f8833f1a620938d7ee6f344285144dee77922b39071d",
-   "hero-light.svg": "eef0f5da7fa1e99bd5d3aeb254bf3c8c6d463af919ac6b9a9b59e4335a094fc5",
-   "hero-motion.svg": "ccde08f273d5c00ca792dad9e08aecb4930f33fdb25e266959ec4c2694e453e6",
-   "hero-reduced.svg": "2be59e2bb2e577ac6dd0f8833f1a620938d7ee6f344285144dee77922b39071d",
-   "social-preview.svg": "7bfa401bc0fe04f9e6c0c6cb280af16beaed2f1f1857e18a5cf695e6abb9c270"
+   "hero-dark.svg": "07dc2ac3d9873b22f83515a42ecfcbfb4cb258d133a52ce89bc1244bcbea493c",
+   "hero-light.svg": "c688d6ee4cf2b60e852e0d35ccb59d00b6127c43312bf6475877169cb3379bec",
+   "hero-motion.svg": "296f908aaa51b6c0aab65011fa0255f2d0663ead936e003f904ef5351c14c77b",
+   "hero-reduced.svg": "07dc2ac3d9873b22f83515a42ecfcbfb4cb258d133a52ce89bc1244bcbea493c",
+   "social-preview.svg": "ecf75a7b2c7f3baec8bc6bb441096dedce4738334975f2156f50288665d56496"
   },
   "orbitchip": {
-   "hero-dark.svg": "d8251e5f8e5668f32c25a85bc07b6e5c8ed54265eed686171cb9d7ae56df68cc",
-   "hero-light.svg": "2d7e90c6d60f5b77655c2da096e480d746d6a58a24566374412fdbb5c66a48e5",
-   "hero-motion.svg": "9f9a72c107cf99f493560e9507bd24057a8ccaf9a60449f9bfae892daf0c2006",
-   "hero-reduced.svg": "d8251e5f8e5668f32c25a85bc07b6e5c8ed54265eed686171cb9d7ae56df68cc",
-   "social-preview.svg": "d5a859629d39a1f20ecbfffca4cd94189fbfdccce577b3cb7f20d799e9f2e5e1"
+   "hero-dark.svg": "edea8af741c425e548d20bf24e88c6e8af47a5fe584423089ef22acc5af912ea",
+   "hero-light.svg": "766cf0d74dcb936e15ce0b643f069ccb9df1a275501b0c64c93097b16e4e529e",
+   "hero-motion.svg": "b9e8e9789a7972b6c29e650239dfb4f62e67f60628f4a87da8525c29fdadfbf2",
+   "hero-reduced.svg": "edea8af741c425e548d20bf24e88c6e8af47a5fe584423089ef22acc5af912ea",
+   "social-preview.svg": "47a4173a9585a0bbeff75716d719716b010d9d84adbf6217f1a61f57dfe512b7"
   },
   "orbitprint": {
-   "hero-dark.svg": "de78034e6418b3633478f5251722b54a81a06eda5ee510432252a7b6e68889bd",
-   "hero-light.svg": "703aaf11d50b546d0d9ebe25c43bb3dfc2da0b6b95f2ab2ce5f1032132395e1e",
-   "hero-motion.svg": "420a5e70b09ff77c03963048d6ccd08e1231d795bb8ef1934d2b3d4d586d9d71",
-   "hero-reduced.svg": "de78034e6418b3633478f5251722b54a81a06eda5ee510432252a7b6e68889bd",
-   "social-preview.svg": "eb954916b66618280535ee829e2416189d3e7e9ca293d8371afad080a4febb2c"
+   "hero-dark.svg": "af7778d24affb3c2b1fabf3ea183235ea9258d6fd47733a4a1da9b668fef2aa8",
+   "hero-light.svg": "1810ce252549eb3c7c6581a71cbcfe1f8cd89f3c363289f90d31d4c3f007ec17",
+   "hero-motion.svg": "5a2a3c212f4128cae8557a7edf897fd43bb9c19569eeb51cbf4f7e76c021d7ec",
+   "hero-reduced.svg": "af7778d24affb3c2b1fabf3ea183235ea9258d6fd47733a4a1da9b668fef2aa8",
+   "social-preview.svg": "50722083e362dacf51a54e69774784a48af5be13705d013c328d83f6177523c9"
   },
   "poolwater": {
    "hero-dark.svg": "2055776abb1fa5c50acc2349a2d35b7cc1ae8e32dad0c63498ae9f23bbf0e71b",
@@ -722,39 +722,39 @@
    "social-preview.svg": "f08782209664c8e43a1f107aad3ada5335244b8e0efdf4568a538404a92f7578"
   },
   "psychemap": {
-   "hero-dark.svg": "4938bc312daadb021f45dcb790f1f78c029740204b54c687f720d3495ed28797",
-   "hero-light.svg": "6f4e8362156363cb368f360c89cda09853ab7ec94a298240704bce1591c76fcc",
-   "hero-motion.svg": "834e3519fc2ba977c1c41bbc68ab823258d9d5445441454ebd90901e31326d4c",
-   "hero-reduced.svg": "4938bc312daadb021f45dcb790f1f78c029740204b54c687f720d3495ed28797",
-   "social-preview.svg": "457bdba0663e4787408c38dff654323858d45d1ddff7c9c893004b845b4c98e4"
+   "hero-dark.svg": "f427616bf4aa1b59456135babace4205e1ac388d7e79e6bc7c7979ddd396d3bf",
+   "hero-light.svg": "bfc91c578b492626326274323b70af1d87d4fe113ee476ecda7ca6d3d0c1faff",
+   "hero-motion.svg": "86e8faa1bf5fcb84d8757ebab2313b38ef6497c16b49ae270fa27502c3ac6673",
+   "hero-reduced.svg": "f427616bf4aa1b59456135babace4205e1ac388d7e79e6bc7c7979ddd396d3bf",
+   "social-preview.svg": "0a469ec7a50600d1501184b108176d6d307037100bb9232d7d8e36e16c93ba92"
   },
   "readablestack": {
-   "hero-dark.svg": "dcd59c06f5962430cae0262432c64a9ee845a2adf852017468c7fcbb1c5fe88f",
-   "hero-light.svg": "dc7d35504c4d1580daf3961ad8b41baed685f5d645baa1f14612fb4c47b220a3",
-   "hero-motion.svg": "eb0b005264900afd2f6b96bf5ad6e7dae44581715366f86455dcd0b7f46c5505",
-   "hero-reduced.svg": "dcd59c06f5962430cae0262432c64a9ee845a2adf852017468c7fcbb1c5fe88f",
-   "social-preview.svg": "9f77f52a582659e13e8632fb8f539ac1d7f4dbe29a1dc36cceed6aba5f8573bc"
+   "hero-dark.svg": "d9517103dc5a0d70a0d44596f70467bac76d0b2bd71b1a2e75361006cfdfb688",
+   "hero-light.svg": "84384422999b14cb0a1c775a44a105d1037351bbf71e04b6188b277707e84a6c",
+   "hero-motion.svg": "119c9b2fb912e734a1b7ddd8b40908a563371f8797a89adf45fb1e45c72c4bab",
+   "hero-reduced.svg": "d9517103dc5a0d70a0d44596f70467bac76d0b2bd71b1a2e75361006cfdfb688",
+   "social-preview.svg": "732343341a06d57bc2c860b0e2e94c73c6ff99bbd5398647a8105517b96fc8ac"
   },
   "redwoud": {
-   "hero-dark.svg": "9ebdd9e638fcada94c2af005b02b3c2870f86d5842089d7259bbb719dd9d6766",
-   "hero-light.svg": "c053d79e587f08e92deb8ea3c22876239ef06622baf858fe546d6f1150beae25",
-   "hero-motion.svg": "641327ff9cb1938d7815ed745958789a88ae8fe46aacc2c047642d635c327755",
-   "hero-reduced.svg": "9ebdd9e638fcada94c2af005b02b3c2870f86d5842089d7259bbb719dd9d6766",
-   "social-preview.svg": "b32faf36ae91532fede9f0715f85b8e8e4c3556acfe5d0ca95d22e0fb1659da9"
+   "hero-dark.svg": "314044d3ec3584efdd560d153340a356a265b84adc82a3897e5073a965912007",
+   "hero-light.svg": "77277c51e29af01c08de8de913e584c28e5edb12efff6092209f7093a8f3b899",
+   "hero-motion.svg": "79ecb5365ec29cf726059969c0716572c9205f8d1d9c47285ba4a5eee532bf0a",
+   "hero-reduced.svg": "314044d3ec3584efdd560d153340a356a265b84adc82a3897e5073a965912007",
+   "social-preview.svg": "7e7bb425bf650004a96dd0947af8ea486b433f6608f9fcff92e9bf563588501f"
   },
   "reviewforge-ai": {
-   "hero-dark.svg": "10c239233b3eb15e2a31e8f4cb5659eaede7666be52182cf11e692dc26eef622",
-   "hero-light.svg": "7f74f1e5ba5fbbb4b5fb5f5009e238b56b1ac889d65abe8c1a6cfa281515c680",
-   "hero-motion.svg": "5bb556af936f226ed003a3cfb492159fb8363030b5a1e10cd7a682453a6428dc",
-   "hero-reduced.svg": "10c239233b3eb15e2a31e8f4cb5659eaede7666be52182cf11e692dc26eef622",
-   "social-preview.svg": "9df530349fb40e2d0ee92220001601ad2212d3232bcfff9536519ed3b0146125"
+   "hero-dark.svg": "cb33127ec771fb262187a795875a0b0dc797d6a3b6261273275c5edfd69a32c9",
+   "hero-light.svg": "e494ceace507ae5178692a720324ec1bedd734972d7d10864194d8267d6a398e",
+   "hero-motion.svg": "8df19d987c832e4354ae80dfb6e771700c5bb31bb131800d892b1af88d68d424",
+   "hero-reduced.svg": "cb33127ec771fb262187a795875a0b0dc797d6a3b6261273275c5edfd69a32c9",
+   "social-preview.svg": "177e0896733e1bd32b104a5177ac814c91242df79781830be8f194caeb826a71"
   },
   "saeturtle": {
-   "hero-dark.svg": "0b89c309ae8b7bfb2a19ef8e50f7ccf603d529ca135f4a31384bd1140950b352",
-   "hero-light.svg": "c8b22705f6134b4f08a3da97e5c0a50020145c35bf63df53e995c8d77909730d",
-   "hero-motion.svg": "20b1a38f233eee38c03a86ba979e718524f06d64e69771a796c1f6d4bb7345bf",
-   "hero-reduced.svg": "0b89c309ae8b7bfb2a19ef8e50f7ccf603d529ca135f4a31384bd1140950b352",
-   "social-preview.svg": "336620b34312db95aed63b6af1b3bba5e9c3efa01d81a821cf0bea7637ee323c"
+   "hero-dark.svg": "bff1a30bbdca77547b74bc10a623fecc1b4d7c5ebc4a2b2abda7fa98b5082131",
+   "hero-light.svg": "93adabab124a33a928591c6bb3ce14811ebcf806739af3bf98decfbe19c53ec4",
+   "hero-motion.svg": "cf770853c0b738b5f7a961e9196c99068d96ce6b6f62c488cbd5d45fc39ca44b",
+   "hero-reduced.svg": "bff1a30bbdca77547b74bc10a623fecc1b4d7c5ebc4a2b2abda7fa98b5082131",
+   "social-preview.svg": "5e654329351604c6fd287043b1718bd6aca0e842e23c3d1da23cec38911f561a"
   },
   "seai-mind": {
    "hero-dark.svg": "663b9da195a9f7f0abf22f08f0bf2bfe3c81ec061d12fc499aaf487cdf27d6a7",
@@ -764,46 +764,46 @@
    "social-preview.svg": "dc813cbfc91ec206e97e5fedaeb82b2a8363fe85203d3c5f73bed216b9337f70"
   },
   "siliconcontrol-tower": {
-   "hero-dark.svg": "adba8461407055b71c727295e670a53132cd2704f701b922fdc96ff2bc75257e",
-   "hero-light.svg": "39d612b4903235938c436df7ae221001ae8218e7067bc0b03aa07d76042226e0",
-   "hero-motion.svg": "922a8a8b555f48f492d4b4dfed2f281f50ec7773e8c26c1e2ef43ea9b56569a5",
-   "hero-reduced.svg": "adba8461407055b71c727295e670a53132cd2704f701b922fdc96ff2bc75257e",
-   "social-preview.svg": "c3691c45435a16e842e2704c3137ddb4ce878bd3b7b722d56bc1e5a7e79afb73"
+   "hero-dark.svg": "10176c438507542853be5bf1c5533888f051fb8d324addfd6f1dcf695fc854fe",
+   "hero-light.svg": "3ae81b278b1de094e459610d0369585ae0aa1ec0a361f83aac87b0945ad16093",
+   "hero-motion.svg": "de3489dd5f3b0b232833ee44cee40360551d06b1424fffb1792bc676ccd7c912",
+   "hero-reduced.svg": "10176c438507542853be5bf1c5533888f051fb8d324addfd6f1dcf695fc854fe",
+   "social-preview.svg": "bdd27a195bf530abee6ab76c55ac69228176d218a6bffb300b602db4a134b428"
   },
   "spacecompute-cloud": {
-   "hero-dark.svg": "fb9d002dfab891a457c59c2b8f315ec0366488804385e36d5967f5a86c6671df",
-   "hero-light.svg": "bd8fc503f2359fba87a0815916d0a7fa0d5ba9e0758d3b2acccdd76db20ec0e5",
-   "hero-motion.svg": "1e04d618e01b016558d89ebf83af6a1769b0537398650b17670ebd82fefb7616",
-   "hero-reduced.svg": "fb9d002dfab891a457c59c2b8f315ec0366488804385e36d5967f5a86c6671df",
-   "social-preview.svg": "692ddb255088ec907d177cf62043d2d7e91d495a1e18af319a217992ff90b827"
+   "hero-dark.svg": "e3ba66903aa313e5943a9e9bce1e904592142a71d7a602dba1897d0e64439fd6",
+   "hero-light.svg": "b30ba5d3bd5322df1a1274484359060b8c982e67f9199a22579404e132d7ebb2",
+   "hero-motion.svg": "34710f20e85c69f1992e9a743714426e0376f2137b4eac94fedef2845ed6aeb4",
+   "hero-reduced.svg": "e3ba66903aa313e5943a9e9bce1e904592142a71d7a602dba1897d0e64439fd6",
+   "social-preview.svg": "a768f912074ab40ad6540a0462ab846cd8f576ea8f053e4b2ef0b7edf65ac45a"
   },
   "spaceedu": {
-   "hero-dark.svg": "a81b121933a10ec9c2e7a9e5227b33ed257cf720c79f3d8136f2cc672d5f8040",
-   "hero-light.svg": "79c970ec38f3889a9528120576da4ad01b375842eddd65e87c787343ecf1443e",
-   "hero-motion.svg": "fea0923f59ee785a68610e78d0480e1739579c9a624f3dc987a72ea5addc3776",
-   "hero-reduced.svg": "a81b121933a10ec9c2e7a9e5227b33ed257cf720c79f3d8136f2cc672d5f8040",
-   "social-preview.svg": "96e97f7f921252f585403d5f039c337739f018309fb0870f0b2d7df13bd78739"
+   "hero-dark.svg": "4fb965bfcc0e142045e3e8baccb1f283bf3c6cf310e4472f53bdf6fc29aac7fe",
+   "hero-light.svg": "1190e391f3ed815b12e670792c80df7247134ef1f2159ad01765836419c56c31",
+   "hero-motion.svg": "b8a075886de89b1190495ac95f1f1035cc0d2edd61b4d21622b67a03c0ed3eae",
+   "hero-reduced.svg": "4fb965bfcc0e142045e3e8baccb1f283bf3c6cf310e4472f53bdf6fc29aac7fe",
+   "social-preview.svg": "aa87e659ece882849cdaa27e0d5f12b1370f021e808d37f256b388f0fcdf39c7"
   },
   "startupquick": {
-   "hero-dark.svg": "45248782f9693931726bcca6a33976396a61bcd9379e2aca41308302e16bd4ee",
-   "hero-light.svg": "fc2cefadc8f70bc0ccf83dc9cd34ff1896d1e4a24798f6d71cf68bb39364c9ba",
-   "hero-motion.svg": "677e4600f54680037a58c91c003cec0495825e3bd48211eb09fc3c3a4353e9bd",
-   "hero-reduced.svg": "45248782f9693931726bcca6a33976396a61bcd9379e2aca41308302e16bd4ee",
-   "social-preview.svg": "69137adf1686fe94552f3213f2d5cb72c093410cf448cc929897d19ff11c2cd0"
+   "hero-dark.svg": "c661ca0c4dbcede4cba7eb9fe7fc04ccd7dc101b7e9fa5d4a8a5eab635dab6e6",
+   "hero-light.svg": "b1927de7fc34ac139314a0c6f90a2620f0b59dc408dc4024690983aef45283a5",
+   "hero-motion.svg": "404aeb14914257bb8aafa9e1b0c25e571764dc6adbd3dc2ffe2e2a5de35a3a49",
+   "hero-reduced.svg": "c661ca0c4dbcede4cba7eb9fe7fc04ccd7dc101b7e9fa5d4a8a5eab635dab6e6",
+   "social-preview.svg": "b0d2e5a4b02b1a6da71a5517d3c05173735d2cc0d63b5b099d8e3ff68124d89f"
   },
   "strxngth": {
-   "hero-dark.svg": "804bb11c8fbabf31a4bfad4b00f4fad540537226a14fbb8a4c60bf53046a6e14",
-   "hero-light.svg": "b3b235a5e7b8ac075766ac2002ca15e6bcbddd6296baa3d18108686b0ee4f6e4",
-   "hero-motion.svg": "b247261f21639b90800da8cdaca71ec903ca52eef42aaae90790ef4c1b71e16e",
-   "hero-reduced.svg": "804bb11c8fbabf31a4bfad4b00f4fad540537226a14fbb8a4c60bf53046a6e14",
-   "social-preview.svg": "de5efaeacff7a629fdb4bbe66bfac195194d1a657bdb05f259931496b3c9f63c"
+   "hero-dark.svg": "28c295b9e6eb9eb5684968144bd8e0878831290a7831ca8b523f0e02c6dfa756",
+   "hero-light.svg": "af65c64aa9c50b394fc45737a3ae1cc726b1ca560798128d6d3e785020760ac5",
+   "hero-motion.svg": "d7e4afa2c99c2e48b48643ec979ac0a308741f559d7f565bb0e4eacc225af9e1",
+   "hero-reduced.svg": "28c295b9e6eb9eb5684968144bd8e0878831290a7831ca8b523f0e02c6dfa756",
+   "social-preview.svg": "60105e658a5cedb06cb9406e034710b586374c7c28973d91712be683bddcea60"
   },
   "supplyos-ai": {
-   "hero-dark.svg": "96b35ce85761b1f219924e076ae340df02d7b4b367f3e210386a46d0550d225a",
-   "hero-light.svg": "1faecf118004b9d8b40e6be3283e49d84ee34d247ceb217517a1234b27b8d6b7",
-   "hero-motion.svg": "9e5563972653b052c7a5f453f1e3df5057182192a99e63fd0e5f39462bce17ad",
-   "hero-reduced.svg": "96b35ce85761b1f219924e076ae340df02d7b4b367f3e210386a46d0550d225a",
-   "social-preview.svg": "278037a15eb32bb84f55073f1f557f4615ccc2ccd85afea99db14b87c3bda3b5"
+   "hero-dark.svg": "9d8cc57e12ed7a3bc93f7414f8468b1cc85db447e3379a48322c3799b1b88f25",
+   "hero-light.svg": "dd1deba92950f0187b0372df9e3820add5b390a360120dc062c408594f767e05",
+   "hero-motion.svg": "a883bd08b296968a5c0f42b8d3aac64e558ade0015fc29df296a4ef11c7eb175",
+   "hero-reduced.svg": "9d8cc57e12ed7a3bc93f7414f8468b1cc85db447e3379a48322c3799b1b88f25",
+   "social-preview.svg": "523799ef8a6751f15bb7b4fde417b9f0a64a7878e5986bab0e75ef94d9d1b0a3"
   },
   "swarmshield": {
    "hero-dark.svg": "3df85a3fd09a279c8c9d8e0aba4f600aed4d6b8baf2114844dc63b0b21d1613f",
@@ -820,25 +820,25 @@
    "social-preview.svg": "3b8b2e00262b4b470154865a3141e506359ba99a9461904f58e8a5a2387bb095"
   },
   "trajectoryos": {
-   "hero-dark.svg": "539219065b6ec058fd74e626b61bf2ffecd774ce6ac62a9fbb38ed973ee4dccd",
-   "hero-light.svg": "97d05c69cb67af5aa0672b7a94f3787b24a65269554d31d67e8580cd8d762681",
-   "hero-motion.svg": "7ab72800b8033d056a9f0f321c4e256a404d2563b5d04de60b62c5eb795bc1d6",
-   "hero-reduced.svg": "539219065b6ec058fd74e626b61bf2ffecd774ce6ac62a9fbb38ed973ee4dccd",
-   "social-preview.svg": "4e632067b8986999dcf2d169a45b8f142fd312c0aa2843012e25f495ef5d09ec"
+   "hero-dark.svg": "075934ebc2512c9a8c41eb0a2ca328900854f761bbcd01828fad109e2db2bb9d",
+   "hero-light.svg": "75f132ef0634ce4bc0adcc123af80d68f2a6523586f24622836db17bab21ca5f",
+   "hero-motion.svg": "8fc900853a4161fc48083b9fc4bf7508f12e992a79f4b4589e38e21704e42bea",
+   "hero-reduced.svg": "075934ebc2512c9a8c41eb0a2ca328900854f761bbcd01828fad109e2db2bb9d",
+   "social-preview.svg": "21df1b995f3d5a11b0567fad8032a91846c8a9a5b4f0a5345e4d4f515b6c4a59"
   },
   "useros": {
-   "hero-dark.svg": "17d58c5fb856d64ed7893d71f7442a27540c3811ad81cf7e6e5cd9c052a020e7",
-   "hero-light.svg": "181448b76984e53df1071d6294591560d21fb4aaf313c0500ca398b2bd395e77",
-   "hero-motion.svg": "943b827e694d6615acbe2c61863db05793bf04479665e43376afcfdf95ea128c",
-   "hero-reduced.svg": "17d58c5fb856d64ed7893d71f7442a27540c3811ad81cf7e6e5cd9c052a020e7",
-   "social-preview.svg": "ec583a94edf3668065ad8c5fdd1dc43d22cf4e8f8cc5cbcf8d5e1259b8df6c40"
+   "hero-dark.svg": "de29a34cb7d090c086874af7f091381329918ef9da61a352631330c0dcfaea54",
+   "hero-light.svg": "38b66d1102871e27cd14099a1a84a77419efcb44d8a4882ed8c680cedf13c01c",
+   "hero-motion.svg": "cb546aee70a7c1ddefb87846c5ba6f446aa6cfec598ea70c9f4957bb498a8b49",
+   "hero-reduced.svg": "de29a34cb7d090c086874af7f091381329918ef9da61a352631330c0dcfaea54",
+   "social-preview.svg": "1bd3d0f0b23d12b3487170bd951ec55f57f3f094565f805cdf396f6e6b2c448b"
   },
   "uxvisualengine": {
-   "hero-dark.svg": "0aa769769f14b2aa975923f003a96ad71fd811aa2c6368d7853099e941bd5238",
-   "hero-light.svg": "390926cdfcbb7743503d1c5688006c189a094d7a45e3a3296461e3d51c903803",
-   "hero-motion.svg": "235fe7662a511803cc5d0d649314226d394ecbf50b3da2ebb2d7b4573cf7fae8",
-   "hero-reduced.svg": "0aa769769f14b2aa975923f003a96ad71fd811aa2c6368d7853099e941bd5238",
-   "social-preview.svg": "10e4d306bc4b74ac2a22668698fce9a15c4f37c255cc2a4064c1ac7fac1a49cc"
+   "hero-dark.svg": "547b7e9213429ec2a0175937cbac63f3a029985dbba5762386b9a09cd623c248",
+   "hero-light.svg": "87ed93b42268beb8f036e0d9308f8078dad5cdb39a43be8f13f396b4ed4a6909",
+   "hero-motion.svg": "5f53a008a060ec9c2ec00964ec47e09afa8589a4996846352e1bd02fa4936976",
+   "hero-reduced.svg": "547b7e9213429ec2a0175937cbac63f3a029985dbba5762386b9a09cd623c248",
+   "social-preview.svg": "ba57c48e1a11596d89766163a089874c555e497559418f61d54bbb0bafdbd474"
   },
   "valuedsociety": {
    "hero-dark.svg": "6313b2f2534788e4bc7a44696eb55d4ae2cfddd126cc2c793ad211620ccb4ccc",
@@ -855,18 +855,18 @@
    "social-preview.svg": "ced7fa1c06436510e229d3469b0536c3aed7d9c9b54a0c5f5327d7905f5761c9"
   },
   "vizuler": {
-   "hero-dark.svg": "7612f71103d71e9725fdf3aa9d719c8e7de8cb8b1787a694429883734b6ae493",
-   "hero-light.svg": "1bd8ddf60cc365a44fe354e198dd9761b2863231f1da672e26864bd7d17e6eb7",
-   "hero-motion.svg": "63ea09824bf3c2c4ac28e5ce9b523b8064a8ea692fced8901503dba98342477b",
-   "hero-reduced.svg": "7612f71103d71e9725fdf3aa9d719c8e7de8cb8b1787a694429883734b6ae493",
-   "social-preview.svg": "d0df571cfa38dbbce33c722187d8f62a221175be0a31bdb99d8badbbdc324876"
+   "hero-dark.svg": "42cc5d4c6b343e806bbcb1209cf54eaf071b2453e16ba477a50ba96ecccef558",
+   "hero-light.svg": "3a2fc1f212c77f8f43c1cc650357272d4facfdb94abd1cb5d04b06a9b7fb6fdb",
+   "hero-motion.svg": "50b1683e9607d66316c3bf1fdff9a137f3c562f1dacf675fc20c19f4dc6ca222",
+   "hero-reduced.svg": "42cc5d4c6b343e806bbcb1209cf54eaf071b2453e16ba477a50ba96ecccef558",
+   "social-preview.svg": "edbf48c7ad780673bd266acfedb3ab10c3f337f811c9c83c7a81850cda52dae7"
   },
   "workflowcanvas": {
-   "hero-dark.svg": "8bf41265f37230dc8eee7466edfaff098d57cb8eeb1612913f1ba11f314f2e0d",
-   "hero-light.svg": "77a61484ce4abf28beb916d77dc5d4f7b670a5b03795e2c7b9eae6b725645592",
-   "hero-motion.svg": "98bf0773af50cf323c50a4464b78be8c2fc453668c61b1281d9181c6e540b9c4",
-   "hero-reduced.svg": "8bf41265f37230dc8eee7466edfaff098d57cb8eeb1612913f1ba11f314f2e0d",
-   "social-preview.svg": "9caaa6d670bb8bc26834c1cd34d3c1a24ffef79eda802ae742461c5651355759"
+   "hero-dark.svg": "8ca0743b0bd6f6521972edc3874734bb0ecef35d49e65855aa836c7039f0abef",
+   "hero-light.svg": "5c0298426919639878ad9fe29cca65678aadd4d40e3725402b1c0f0913c9a7fb",
+   "hero-motion.svg": "2b2d4699a92b6b9796892613566882e6fd1b7bb79a2aff553b86c14687ec8660",
+   "hero-reduced.svg": "8ca0743b0bd6f6521972edc3874734bb0ecef35d49e65855aa836c7039f0abef",
+   "social-preview.svg": "d3a8c2f227d1d4106cf45cf60f3b41e5698e0106c4c07956d91dd60ac12b6690"
   },
   "youareprofound": {
    "hero-dark.svg": "6964828ab42a8ba547c67b1355bef0239f0cf6e8bf90ad984d38a61198358b1d",

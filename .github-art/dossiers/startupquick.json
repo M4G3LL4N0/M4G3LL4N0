@@ -31,7 +31,7 @@
  ],
  "geometry_family": "CAPITAL_MECHANICS",
  "github_repo": "startupquick",
- "industry": "DATA",
+ "industry": "INFRASTRUCTURE",
  "input_types": [
   "HTTP requests (JSON)"
  ],
@@ -79,10 +79,9 @@
  "primary_workflow": "",
  "problem": "StartupQuick helps founders turn startup ideas into premium, shareable startup websites in minutes.",
  "problem_source": "project source",
- "project_category": "DATA",
- "project_category_basis": "project text: sqlite",
+ "project_category": "INFRASTRUCTURE",
+ "project_category_basis": "public venture card category: startup infrastructure",
  "project_category_previous": "DATA",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "Launch before the momentum fades.",
  "purpose": "startupquick. package.json.",
  "release": "0.1.0",

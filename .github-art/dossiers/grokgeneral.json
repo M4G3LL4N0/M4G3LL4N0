@@ -77,7 +77,6 @@
  "project_category": "DEVELOPER_TOOLS",
  "project_category_basis": "ships a verified CLI",
  "project_category_previous": "DEVELOPER_TOOLS",
- "public_financial_context": "not published per venture",
  "public_noaerth_positioning": "The local kernel for the GrokBot ecosystem.",
  "purpose": "grokgeneral. pyproject.toml; 37 test file(s); local-first storage.",
  "release": "0.1.0",
