@@ -10,7 +10,7 @@
     "appears here."
   ],
   "schema": "github-v5-public-inventory/1",
-  "generated_at": "2026-10-06T02:02:40+00:00",
+  "generated_at": "2026-10-06T03:16:20+00:00",
   "owner": "M4G3LL4N0",
   "counts": {
     "public_visible": 122,
@@ -61,8 +61,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "access-layer",
@@ -86,8 +86,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1452
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "agentapi-hub",
@@ -111,8 +111,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 980
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "agentcore-silicon",
@@ -136,8 +136,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 976
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "agentos",
@@ -161,8 +161,8 @@
         "green": true
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 6938
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "ai-dev-workflow-starter",
@@ -186,8 +186,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 898
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "autoerp",
@@ -211,8 +211,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 970
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "Ayncient",
@@ -236,8 +236,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1960
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "BehindCurtain",
@@ -261,8 +261,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "betterfintech",
@@ -286,8 +286,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 989
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "bioyield-labs",
@@ -311,8 +311,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 982
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "blitzproof",
@@ -336,8 +336,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "blitzunicorn",
@@ -361,8 +361,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1002
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "Bourgaeux",
@@ -386,8 +386,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1263
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "BrandCrossover",
@@ -411,8 +411,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "buildloop-usa",
@@ -436,8 +436,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 968
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "cannex-logistics",
@@ -461,8 +461,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "cheetahbearfuel",
@@ -486,8 +486,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "childdevos",
@@ -511,8 +511,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1488
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "chipflow",
@@ -536,8 +536,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 460
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "claimpilot-ai",
@@ -561,8 +561,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 494
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "cleanstack-macos",
@@ -586,8 +586,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1065
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "cleanstack-os",
@@ -611,8 +611,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "cloudcastle",
@@ -636,8 +636,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 542
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "commos",
@@ -661,8 +661,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1203
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "companyos",
@@ -686,8 +686,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 503
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "computeflow",
@@ -711,8 +711,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1336
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "cortexhq",
@@ -736,8 +736,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1119
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "cropshield-ai",
@@ -761,8 +761,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 991
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "Cruxenio",
@@ -786,8 +786,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "CxNTRADICT",
@@ -811,8 +811,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "datatherapy",
@@ -836,8 +836,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 274
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "deploylocal",
@@ -861,8 +861,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "devstate",
@@ -886,8 +886,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 981
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "EmailSimple",
@@ -911,8 +911,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "enterprisepilot",
@@ -936,8 +936,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 986
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "evalforge",
@@ -961,8 +961,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 2159
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "evsec-one",
@@ -986,8 +986,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "EVSec.one",
@@ -1011,8 +1011,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1008
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "execmemory-ai",
@@ -1036,8 +1036,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 968
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "executionos",
@@ -1061,8 +1061,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 964
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "fastprocure-ai",
@@ -1086,8 +1086,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1199
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "ForeverLuvd",
@@ -1111,8 +1111,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "forgeflow",
@@ -1136,8 +1136,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "founderskingdom",
@@ -1161,8 +1161,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 730
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "fullofshit",
@@ -1186,8 +1186,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 952
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "FundMind",
@@ -1211,8 +1211,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1007
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "FungMind",
@@ -1236,8 +1236,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "gamecombo",
@@ -1261,8 +1261,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "genotwin-health",
@@ -1286,8 +1286,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 825
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "gh0st",
@@ -1311,8 +1311,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 11398
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "ghostframe",
@@ -1336,8 +1336,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "grokbot-office",
@@ -1361,8 +1361,8 @@
         "green": true
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 5623
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "grokbot-society",
@@ -1386,8 +1386,8 @@
         "green": true
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 17713
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "grokgeneral",
@@ -1411,8 +1411,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 18369
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "grokinstall",
@@ -1436,8 +1436,8 @@
         "green": true
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 13885
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "grokmax",
@@ -1461,8 +1461,8 @@
         "green": true
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 6885
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "HackerzArt",
@@ -1486,8 +1486,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1431
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "happyblock",
@@ -1511,8 +1511,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "imessage",
@@ -1536,8 +1536,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1511
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "interceptorgrid",
@@ -1561,8 +1561,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 986
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "lagrangeos",
@@ -1586,8 +1586,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1069
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "ledgerops-ai",
@@ -1611,8 +1611,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 980
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "legacybridge",
@@ -1636,8 +1636,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "life-finds-a-way",
@@ -1661,8 +1661,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "loopcompute-cloud",
@@ -1686,8 +1686,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 990
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "lunarfoundry",
@@ -1711,8 +1711,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 980
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "luvconvos",
@@ -1736,8 +1736,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 882
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "luvpartnr",
@@ -1761,8 +1761,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "luvstories",
@@ -1786,8 +1786,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1596
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "M4G3LL4N0",
@@ -1811,8 +1811,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 12005
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "Modex",
@@ -1836,8 +1836,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "morphui",
@@ -1861,8 +1861,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 970
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "n1-therapeutics",
@@ -1886,8 +1886,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 994
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "NaextBlock",
@@ -1911,8 +1911,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "nex-robotix",
@@ -1936,8 +1936,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "node_modules",
@@ -1961,8 +1961,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1147
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "obviouslybad",
@@ -1986,8 +1986,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 658
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "oddbotix",
@@ -2011,8 +2011,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "oodax",
@@ -2036,8 +2036,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "opencode-watchdog",
@@ -2061,8 +2061,8 @@
         "green": true
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 4488
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "opsautopilot",
@@ -2086,8 +2086,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 980
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "orbitchip",
@@ -2111,8 +2111,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 974
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "orbitprint",
@@ -2136,8 +2136,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 976
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "poolwater",
@@ -2161,8 +2161,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1837
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "psychemap",
@@ -2186,8 +2186,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "readablestack",
@@ -2211,8 +2211,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 982
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "redwoud",
@@ -2236,8 +2236,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 769
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "RequestAyo",
@@ -2261,8 +2261,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "reviewforge-ai",
@@ -2286,8 +2286,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "saeturtle",
@@ -2311,8 +2311,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "seai-mind",
@@ -2336,8 +2336,8 @@
         "green": true
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 2332
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "ShopRight",
@@ -2361,8 +2361,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "siliconcontrol-tower",
@@ -2386,8 +2386,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 996
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "SoulMayte",
@@ -2411,8 +2411,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "spacecompute-cloud",
@@ -2436,8 +2436,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 992
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "spaceedu",
@@ -2461,8 +2461,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "Spouwse",
@@ -2486,8 +2486,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1036
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "src",
@@ -2511,8 +2511,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1060
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "startupquick",
@@ -2536,8 +2536,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 472
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "STRxGNTH",
@@ -2561,8 +2561,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1007
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "strxngth",
@@ -2586,8 +2586,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "styles",
@@ -2611,8 +2611,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1025
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "SUNSETX",
@@ -2636,8 +2636,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "supplyos-ai",
@@ -2661,8 +2661,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 978
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "swarmshield",
@@ -2686,8 +2686,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "tempoos",
@@ -2711,8 +2711,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 822
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "TherapyUX",
@@ -2736,8 +2736,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "trajectoryos",
@@ -2761,8 +2761,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1601
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "TrustxVerify",
@@ -2786,8 +2786,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 3242
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "useros",
@@ -2811,8 +2811,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1315
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "uxvisualengine",
@@ -2836,8 +2836,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 990
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "valuedsociety",
@@ -2861,8 +2861,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "vencapmentor",
@@ -2886,8 +2886,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 988
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "VentureRank-OS",
@@ -2911,8 +2911,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "vizuler",
@@ -2936,8 +2936,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1318
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "why-are-you-here",
@@ -2961,8 +2961,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 2492
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "workflowcanvas",
@@ -2986,8 +2986,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 984
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "youareprofound",
@@ -3011,8 +3011,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "YouState",
@@ -3036,8 +3036,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1923
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "Zaeus",
@@ -3061,8 +3061,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1004
+      "readme_present": false,
+      "readme_bytes": 0
     },
     {
       "name": "zaeux",
@@ -3086,8 +3086,8 @@
         "green": false
       },
       "pushed_at": "",
-      "readme_present": true,
-      "readme_bytes": 1450
+      "readme_present": false,
+      "readme_bytes": 0
     }
   ]
 }
