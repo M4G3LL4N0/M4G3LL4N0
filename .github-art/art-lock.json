@@ -33,9 +33,9 @@
   "assets/profile/nav/repositories-light.svg": "5bbf827851c9472472817c1bf38aec895ff4815a218ec2592f75d90c374f5f42",
   "assets/profile/nav/why-dark.svg": "9131519192dcb9910d1919418c9b983eab2c60e4fe83dd364c7fae8552a1b84a",
   "assets/profile/nav/why-light.svg": "2daced9478e35d0a988c6f0f12b9a68ec68fcd317567be79cba32019a8ba4c8d",
-  "assets/profile/portfolio-economics-dark.svg": "77943bf4e322acaa23408d4fdc6e961fc3f3772464dd8c54d246decb18a46026",
-  "assets/profile/portfolio-economics-light.svg": "8ff7e0813f09212ef652142c9ad3968f14f25c195265664dc6631fab3c8e2527",
-  "assets/profile/portfolio-economics-motion.svg": "cf3eb7b8fa9c02ed63d240e55dbf825fce2304c6458b4cbfc24a820b92ca8943",
+  "assets/profile/portfolio-economics-dark.svg": "e84500155dc2118e6bab551a6a97161559d1fe17a904a4129474f96dcf0bf1ff",
+  "assets/profile/portfolio-economics-light.svg": "5cf9e9a1140144c8ca8f12070b435184bca7b6fe85436f9646360785b8a0152d",
+  "assets/profile/portfolio-economics-motion.svg": "a0b353ec84b3bf866e8adc8fb0ad97bc99c44c829d3ee0e7590635d4738cec9b",
   "assets/profile/system-map-dark-compact.svg": "9aa3635c0a2097a03a2f4f3871557b9b9ca243ea5bb693a604aa089039dd5326",
   "assets/profile/system-map-dark.svg": "18d64c633441529de303a78bc461806bc1222d91cfc769ad26c5319617f20f8b",
   "assets/profile/system-map-light-compact.svg": "e7726769bc8928bae09b36a5a0246d01fbc0a97ba7c4e9dcdc1e839028d2f279",
@@ -57,7 +57,7 @@
   "assets/profile/windows/opencode-watchdog-light.svg": "7095bcb4d7f097fb65ce837d63103ff05900c9aa2dc24341932f18be7fb59a24",
   "assets/social-preview.svg": "a2fd3735a057b26384ff82cf544290edb53e3166e8533de95e85c662e5986b66"
  },
- "design_source_sha": "200bfcaaa2040fc8490f899905f3a585f116c0117bda50e4f86338fde9fd594c",
+ "design_source_sha": "7d335db4dadba9f8e33f7d0c142e159ed270d360bdb8cc9c13930d5490f9b6be",
  "design_version": "V6",
  "factual_assets": {
   "assets/profile/build-signal-dark.svg": "5c04d9c96c6dea7c6ddb13fe0b108a320eb9bad0284be6169d2988cf817508fd",

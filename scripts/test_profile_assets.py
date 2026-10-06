@@ -309,17 +309,37 @@ class TestIdentity(unittest.TestCase):
 class TestMotion(unittest.TestCase):
     """Ambient only. Small, slow, and never the only source of information."""
 
-    def test_no_rapid_animation(self):
-        """Below 3 flashes/second, with margin. A full-panel flash at 1.6s is 0.6Hz."""
+    _ANIM = re.compile(
+        r"<animate(?:Transform|Motion|Color)?\b[^>]*?dur=\"([\d.]+)s\""
+        r"[^>]*?(?:repeatCount=\"indefinite\")?[^>]*?/?>", re.S)
+
+    def test_no_rapid_looping_animation(self):
+        """Repeating motion must stay below roughly 3 flashes per second.
+
+        The threshold applies to *repeating* motion only. A short one-shot
+        transition that freezes is not a flash: a bar revealing in 0.4s and
+        then holding cannot trigger anything, and treating it as a hazard would
+        forbid every reveal animation in the system.
+
+        An earlier version flagged any duration under 1s regardless of
+        repetition, which made correct one-shot reveals impossible to ship.
+        """
         offenders = []
         for path in svgs():
             raw = path.read_text(encoding="utf-8")
-            for dur in re.findall(r'dur="([\d.]+)s"', raw):
-                seconds = float(dur)
+            for m in re.finditer(r"<animate(?:Transform|Motion|Color)?\b[^>]*>",
+                                 raw, re.S):
+                tag = m.group(0)
+                dm = re.search(r'dur="([\d.]+)s"', tag)
+                if not dm:
+                    continue
+                seconds = float(dm.group(1))
+                loops = 'repeatCount="indefinite"' in tag or "repeatDur=" in tag
                 if seconds <= 0:
                     offenders.append(f"{path.name}: non-positive duration")
-                elif seconds < 1.0:
-                    offenders.append(f"{path.name}: {seconds}s loop is too fast")
+                elif loops and seconds < 1.0:
+                    offenders.append(
+                        f"{path.name}: looping {seconds}s is too fast")
         self.assertEqual(offenders, [], f"aggressive motion: {offenders}")
 
     def test_motion_has_static_twin(self):

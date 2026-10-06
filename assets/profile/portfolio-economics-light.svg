@@ -7,44 +7,32 @@
 <text x="56" y="112" fill="#141a205c" font-size="13" letter-spacing="0.4">124 registered ventures · 16 Live · 102 Building · 6 Research</text>
 <text x="1144" y="52" fill="#141a205c" font-size="11.5" text-anchor="end" letter-spacing="0.4">linear scale · 0 → $2.80B · bar length is proportional to value</text>
 <text x="56" y="136" fill="#141a20" font-size="14" font-weight="600" letter-spacing="0.6">MODELED GROSS</text>
-<g>
-<text x="56" y="167" fill="#141a20b0" font-size="12.5" letter-spacing="1.1" text-transform="uppercase">low</text>
 <rect x="132" y="155" width="844" height="22" fill="#141a20" opacity="0.055"/>
-<g><rect x="132" y="155" width="68.9" height="22" rx="4" fill="#e7c27a" opacity="0.92"/></g>
-<text x="992" y="172" fill="#141a20" font-size="16" font-weight="600" font-variant-numeric="tabular-nums">$228.6M</text>
-</g>
-<g>
-<text x="56" y="229" fill="#141a20b0" font-size="12.5" letter-spacing="1.1" text-transform="uppercase">base</text>
+<rect x="132" y="155" width="0" height="22" rx="4" fill="#e7c27a" opacity="0.92"><animate attributeName="width" from="0" to="68.9" dur="1.4s" begin="1.05s" fill="freeze"/></rect>
+<text x="56" y="167" fill="#141a20b0" font-size="12.5" letter-spacing="1.1" text-transform="uppercase" opacity="0">low<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.05s" fill="freeze"/></text>
+<text x="992" y="172" fill="#141a20" font-size="16" font-weight="600" font-variant-numeric="tabular-nums" opacity="0">$228.6M<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.55s" fill="freeze"/></text>
 <rect x="132" y="217" width="844" height="22" fill="#141a20" opacity="0.055"/>
-<g><rect x="132" y="217" width="196.8" height="22" rx="4" fill="#e7c27a" opacity="0.92"/></g>
-<text x="992" y="234" fill="#141a20" font-size="16" font-weight="600" font-variant-numeric="tabular-nums">$653.2M</text>
-</g>
-<g>
-<text x="56" y="291" fill="#141a20b0" font-size="12.5" letter-spacing="1.1" text-transform="uppercase">high</text>
+<rect x="132" y="217" width="0" height="22" rx="4" fill="#e7c27a" opacity="0.92"><animate attributeName="width" from="0" to="196.8" dur="1.4s" begin="1.35s" fill="freeze"/></rect>
+<text x="56" y="229" fill="#141a20b0" font-size="12.5" letter-spacing="1.1" text-transform="uppercase" opacity="0">base<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.35s" fill="freeze"/></text>
+<text x="992" y="234" fill="#141a20" font-size="16" font-weight="600" font-variant-numeric="tabular-nums" opacity="0">$653.2M<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.85s" fill="freeze"/></text>
 <rect x="132" y="279" width="844" height="22" fill="#141a20" opacity="0.055"/>
-<g><rect x="132" y="279" width="844.0" height="22" rx="4" fill="#e7c27a" opacity="0.92"/></g>
-<text x="992" y="296" fill="#141a20" font-size="16" font-weight="600" font-variant-numeric="tabular-nums">$2.80B</text>
-</g>
+<rect x="132" y="279" width="0" height="22" rx="4" fill="#e7c27a" opacity="0.92"><animate attributeName="width" from="0" to="844.0" dur="1.4s" begin="1.65s" fill="freeze"/></rect>
+<text x="56" y="291" fill="#141a20b0" font-size="12.5" letter-spacing="1.1" text-transform="uppercase" opacity="0">high<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.65s" fill="freeze"/></text>
+<text x="992" y="296" fill="#141a20" font-size="16" font-weight="600" font-variant-numeric="tabular-nums" opacity="0">$2.80B<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.15s" fill="freeze"/></text>
 <text x="56" y="376" fill="#141a20" font-size="14" font-weight="600" letter-spacing="0.6">RISK-ADJUSTED</text>
 <text x="246" y="376" fill="#141a205c" font-size="12.5" letter-spacing="0.3">after 25% portfolio overlap haircut</text>
-<g>
-<text x="56" y="407" fill="#141a20b0" font-size="12.5" letter-spacing="1.1" text-transform="uppercase">low</text>
 <rect x="132" y="395" width="844" height="22" fill="#141a20" opacity="0.055"/>
-<g><rect x="132" y="395" width="51.6" height="22" rx="4" fill="#7fd1c1" opacity="0.92"/></g>
-<text x="992" y="412" fill="#141a20" font-size="16" font-weight="600" font-variant-numeric="tabular-nums">$171.5M</text>
-</g>
-<g>
-<text x="56" y="469" fill="#141a20b0" font-size="12.5" letter-spacing="1.1" text-transform="uppercase">base</text>
+<rect x="132" y="395" width="0" height="22" rx="4" fill="#7fd1c1" opacity="0.92"><animate attributeName="width" from="0" to="51.6" dur="1.4s" begin="2.40s" fill="freeze"/></rect>
+<text x="56" y="407" fill="#141a20b0" font-size="12.5" letter-spacing="1.1" text-transform="uppercase" opacity="0">low<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.40s" fill="freeze"/></text>
+<text x="992" y="412" fill="#141a20" font-size="16" font-weight="600" font-variant-numeric="tabular-nums" opacity="0">$171.5M<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.90s" fill="freeze"/></text>
 <rect x="132" y="457" width="844" height="22" fill="#141a20" opacity="0.055"/>
-<g><rect x="132" y="457" width="147.6" height="22" rx="4" fill="#7fd1c1" opacity="0.92"/></g>
-<text x="992" y="474" fill="#141a20" font-size="16" font-weight="600" font-variant-numeric="tabular-nums">$489.9M</text>
-</g>
-<g>
-<text x="56" y="531" fill="#141a20b0" font-size="12.5" letter-spacing="1.1" text-transform="uppercase">high</text>
+<rect x="132" y="457" width="0" height="22" rx="4" fill="#7fd1c1" opacity="0.92"><animate attributeName="width" from="0" to="147.6" dur="1.4s" begin="2.70s" fill="freeze"/></rect>
+<text x="56" y="469" fill="#141a20b0" font-size="12.5" letter-spacing="1.1" text-transform="uppercase" opacity="0">base<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.70s" fill="freeze"/></text>
+<text x="992" y="474" fill="#141a20" font-size="16" font-weight="600" font-variant-numeric="tabular-nums" opacity="0">$489.9M<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.20s" fill="freeze"/></text>
 <rect x="132" y="519" width="844" height="22" fill="#141a20" opacity="0.055"/>
-<g><rect x="132" y="519" width="633.0" height="22" rx="4" fill="#7fd1c1" opacity="0.92"/></g>
-<text x="992" y="536" fill="#141a20" font-size="16" font-weight="600" font-variant-numeric="tabular-nums">$2.10B</text>
-</g>
+<rect x="132" y="519" width="0" height="22" rx="4" fill="#7fd1c1" opacity="0.92"><animate attributeName="width" from="0" to="633.0" dur="1.4s" begin="3.00s" fill="freeze"/></rect>
+<text x="56" y="531" fill="#141a20b0" font-size="12.5" letter-spacing="1.1" text-transform="uppercase" opacity="0">high<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.00s" fill="freeze"/></text>
+<text x="992" y="536" fill="#141a20" font-size="16" font-weight="600" font-variant-numeric="tabular-nums" opacity="0">$2.10B<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.50s" fill="freeze"/></text>
 <line x1="56" y1="558" x2="1144" y2="558" stroke="#141a202b" stroke-width="1"/>
 <text x="56" y="580" fill="#141a205c" font-size="11.5" letter-spacing="0.35">Figures are a portfolio model, not Noaerth corporate value. Attributable parent NAV not established. Methodology: PORTFOLIO_ECONOMICS.md</text>
 </svg>

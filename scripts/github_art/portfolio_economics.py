@@ -84,24 +84,17 @@ def plate(theme: str, animated: bool) -> str:
          '</desc>',
          f'<rect width="{W}" height="{H}" fill="{canvas}"/>']
 
+    # SMIL, not CSS. An earlier version animated these bars with @keyframes
+    # inside an SVG <style>, which GitHub's renderer does not honour: the live
+    # asset contained zero <animate> elements and did not move at all. The
+    # computational hero and terminal use SMIL for the same reason.
+    #
+    # Width is animated rather than a scale transform, because a transform on
+    # an SVG element needs a transform-origin that behaves inconsistently
+    # across renderers; animating the attribute itself is unambiguous.
     if animated:
-        p.append(
-            '<style>'
-            '@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}'
-            '@keyframes resolve{from{opacity:0}to{opacity:1}}'
-            '@keyframes sweep{from{transform:translateX(0)}'
-            'to{transform:translateX(640px)}}'
-            '.b{transform-origin:' + f'{LABEL_W}px 0px' + '}'
-            '.b1{animation:grow 1.5s cubic-bezier(.2,.8,.2,1) both}'
-            '.b2{animation:grow 1.5s .3s cubic-bezier(.2,.8,.2,1) both}'
-            '.b3{animation:grow 1.5s .6s cubic-bezier(.2,.8,.2,1) both}'
-            '.a1{animation:resolve .9s 1.5s both}'
-            '.a2{animation:resolve .9s 1.8s both}'
-            '.a3{animation:resolve .9s 2.1s both}'
-            '.sweep{animation:sweep 3.4s ease-in-out infinite alternate}'
-            '@media (prefers-reduced-motion: reduce){'
-            '.b,.sweep{animation:none !important}}'
-            '</style>')
+        p.append('<style>@media (prefers-reduced-motion: reduce){'
+                 '*{animation:none !important}}</style>')
 
     # Header
     p.append(f'<text x="{PAD}" y="52" fill="{ink}" font-size="26" '
@@ -141,26 +134,55 @@ def plate(theme: str, animated: bool) -> str:
             v = vals[key]
             length = max(2.0, (v / peak) * BAR_MAX)
             by = y + i * row
-            klass = f' class="{bg[i]}"' if animated else ""
-            fade = f' class="{fa[i]}"' if animated else ""
-            p.append(f'<g{fade}>')
-            p.append(f'<text x="{PAD}" y="{by + 17}" fill="{dim}" '
-                     f'font-size="12.5" letter-spacing="1.1" '
-                     f'text-transform="uppercase">{key}</text>')
+            base = 1.05 + i * 0.30 + gi * 1.35
+            # Track is always present so the scale reads as a scale.
             p.append(f'<rect x="{LABEL_W}" y="{by + 5}" width="{BAR_MAX}" '
                      f'height="22" fill="{ink}" opacity="0.055"/>')
-            p.append(f'<g{klass}><rect x="{LABEL_W}" y="{by + 5}" '
-                     f'width="{length:.1f}" height="22" rx="4" '
-                     f'fill="{colour}" opacity="0.92"/></g>')
+            # The bar grows from zero to its final length, then holds. The value
+            # never changes: only the reveal is animated.
+            p.append(
+                f'<rect x="{LABEL_W}" y="{by + 5}" width="0" height="22" '
+                f'rx="4" fill="{colour}" opacity="0.92">'
+                f'<animate attributeName="width" from="0" '
+                f'to="{length:.1f}" dur="1.4s" '
+                f'begin="{base:.2f}s" fill="freeze"/></rect>')
+            p.append(f'<text x="{PAD}" y="{by + 17}" fill="{dim}" '
+                     f'font-size="12.5" letter-spacing="1.1" '
+                     f'text-transform="uppercase" opacity="0">{key}'
+                     f'<animate attributeName="opacity" from="0" to="1" '
+                     f'dur="0.4s" begin="{base:.2f}s" fill="freeze"/></text>')
             p.append(f'<text x="{LABEL_W + BAR_MAX + 16}" y="{by + 22}" '
                      f'fill="{ink}" font-size="16" font-weight="600" '
-                     f'font-variant-numeric="tabular-nums">{fmt(v)}</text>')
-            p.append('</g>')
+                     f'font-variant-numeric="tabular-nums" opacity="0">'
+                     f'{fmt(v)}'
+                     f'<animate attributeName="opacity" from="0" to="1" '
+                     f'dur="0.4s" begin="{base + 0.5:.2f}s" '
+                     f'fill="freeze"/></text>')
 
+    # The haircut rule itself becomes visible: a marker travels the full width
+    # while the gross bar is on screen, so the 25 percent reduction is shown
+    # rather than stated.
     if animated:
-        p.append(f'<rect class="sweep" x="{LABEL_W}" y="{top - 26}" '
-                 f'width="120" height="8" rx="4" fill="{GROSS}" '
-                 f'opacity="0.22"/>')
+        p.append(
+            f'<g opacity="0">'
+            f'<animate attributeName="opacity" from="0" to="1" dur="0.5s" '
+            f'begin="1.1s" fill="freeze"/>'
+            f'<line x1="{LABEL_W}" y1="{top + 118}" x2="{LABEL_W + BAR_MAX}" '
+            f'y2="{top + 118}" stroke="{GROSS}" stroke-width="1" '
+            f'stroke-dasharray="3 4" opacity="0.5"/>'
+            f'<rect x="{LABEL_W}" y="{top + 113}" width="2" height="10" '
+            f'fill="{GROSS}"/>'
+            f'<animateMotion dur="1.3s" begin="1.3s" fill="freeze" '
+            f'path="M{LABEL_W} {top + 118} L{LABEL_W + BAR_MAX} {top + 118}"/>'
+            f'<rect x="{LABEL_W + BAR_MAX * 0.75 - 1}" y="{top + 110}" '
+            f'width="2" height="16" fill="{ADJUSTED}"/>'
+            f'</g>')
+        p.append(
+            f'<text x="{LABEL_W + BAR_MAX * 0.75 + 8}" y="{top + 123}" '
+            f'fill="{ADJUSTED}" font-size="10.5" opacity="0">'
+            f'25% haircut'
+            f'<animate attributeName="opacity" from="0" to="0.9" dur="0.4s" '
+            f'begin="2.7s" fill="freeze"/></text>')
 
     foot = H - 40
     p.append(f'<line x1="{PAD}" y1="{foot - 22}" x2="{W - PAD}" y2="{foot - 22}" '
