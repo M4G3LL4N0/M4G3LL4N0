@@ -1,0 +1,65 @@
+{
+ "animation_metaphor": "objective becomes a plan, tools execute, verification resolves",
+ "architecture_type": "AGENT_LOOP",
+ "benchmark_dimensions": [],
+ "canonical_name": "SE-AI Mind",
+ "ci": {
+  "present": true,
+  "workflows": []
+ },
+ "color_family": "",
+ "control_flow": "objective becomes a plan, tools execute, verification resolves",
+ "data_flow": "",
+ "depth": "layered",
+ "design_version": "V6",
+ "evidence": {
+  "source_a_commits": "23",
+  "source_a_files": 191,
+  "source_a_local": "/Users/matador/startups/seai-mind",
+  "source_b_venture": "se-ai-mind",
+  "source_c_github": "https://github.com/M4G3LL4N0/seai-mind"
+ },
+ "experimental_features": [],
+ "frameworks": [],
+ "geometry_family": "AGENT_LOOP",
+ "github_repo": "seai-mind",
+ "industry": "SECURITY",
+ "input_types": [],
+ "known_limitations": [],
+ "languages": [
+  "TypeScript"
+ ],
+ "major_components": [],
+ "mapping_confidence": "high",
+ "material_family": "",
+ "output_types": [],
+ "primary_user": "",
+ "primary_visual_metaphor": "closed loop with a verification terminus",
+ "primary_workflow": "objective becomes a plan, tools execute, verification resolves",
+ "problem": "",
+ "project_category": "SECURITY",
+ "public_financial_context": "not published per venture",
+ "public_noaerth_positioning": "",
+ "purpose": "Open-source self-evolving AI kernel with an auditable memory and capability loop.",
+ "release": "unknown",
+ "secondary_visual_metaphor": "",
+ "secondary_workflows": [],
+ "security_characteristics": [],
+ "state_model": "",
+ "technical_category": "AGENT_LOOP",
+ "terminal_metaphor": "a cursor running real commands",
+ "tests": {
+  "executed": false,
+  "files": 12,
+  "note": "counted from the tree; not executed in Part 1",
+  "present": true
+ },
+ "trillionx_intensity": "standard",
+ "unresolved": [
+  "primary_user",
+  "problem"
+ ],
+ "venture_stage": "",
+ "verified_features": [],
+ "visual_density": "medium"
+}

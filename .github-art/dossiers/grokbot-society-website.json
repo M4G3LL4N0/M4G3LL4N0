@@ -1,0 +1,65 @@
+{
+ "animation_metaphor": "nodes advertise capability, a coordinator selects, work converges",
+ "architecture_type": "DISTRIBUTED",
+ "benchmark_dimensions": [],
+ "canonical_name": "grokbot-society-website",
+ "ci": {
+  "present": true,
+  "workflows": []
+ },
+ "color_family": "",
+ "control_flow": "nodes advertise capability, a coordinator selects, work converges",
+ "data_flow": "",
+ "depth": "layered",
+ "design_version": "V6",
+ "evidence": {
+  "source_a_commits": "8",
+  "source_a_files": 129,
+  "source_a_local": "/Users/matador/startups/grokbot-society",
+  "source_b_venture": "",
+  "source_c_github": "https://github.com/M4G3LL4N0/grokbot-society-website"
+ },
+ "experimental_features": [],
+ "frameworks": [],
+ "geometry_family": "DISTRIBUTED",
+ "github_repo": "grokbot-society-website",
+ "industry": "INFRASTRUCTURE",
+ "input_types": [],
+ "known_limitations": [],
+ "languages": [
+  "TypeScript"
+ ],
+ "major_components": [],
+ "mapping_confidence": "high",
+ "material_family": "",
+ "output_types": [],
+ "primary_user": "",
+ "primary_visual_metaphor": "a service mesh with one coordinating node",
+ "primary_workflow": "nodes advertise capability, a coordinator selects, work converges",
+ "problem": "",
+ "project_category": "INFRASTRUCTURE",
+ "public_financial_context": "not published per venture",
+ "public_noaerth_positioning": "",
+ "purpose": "Public website for the persistent-agent runtime.",
+ "release": "unknown",
+ "secondary_visual_metaphor": "",
+ "secondary_workflows": [],
+ "security_characteristics": [],
+ "state_model": "",
+ "technical_category": "DISTRIBUTED",
+ "terminal_metaphor": "a cursor running real commands",
+ "tests": {
+  "executed": false,
+  "files": 14,
+  "note": "counted from the tree; not executed in Part 1",
+  "present": true
+ },
+ "trillionx_intensity": "standard",
+ "unresolved": [
+  "primary_user",
+  "problem"
+ ],
+ "venture_stage": "",
+ "verified_features": [],
+ "visual_density": "medium"
+}

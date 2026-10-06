@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "records ingest, normalise, index, answer",
+ "animation_metaphor": "records cross a trust boundary, get validated, and are held or rejected",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "agentapi-hub",
@@ -8,7 +8,7 @@
   "workflows": []
  },
  "color_family": "",
- "control_flow": "records ingest, normalise, index, answer",
+ "control_flow": "records cross a trust boundary, get validated, and are held or rejected",
  "data_flow": "",
  "depth": "layered",
  "design_version": "V6",
@@ -34,8 +34,8 @@
  "material_family": "",
  "output_types": [],
  "primary_user": "",
- "primary_visual_metaphor": "parallel channels converging into an index",
- "primary_workflow": "records ingest, normalise, index, answer",
+ "primary_visual_metaphor": "gated channels passing through a sealed boundary",
+ "primary_workflow": "records cross a trust boundary, get validated, and are held or rejected",
  "problem": "",
  "project_category": "SECURITY",
  "public_financial_context": "not published per venture",

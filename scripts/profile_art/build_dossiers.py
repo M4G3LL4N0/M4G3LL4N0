@@ -276,6 +276,41 @@ CATEGORY_RULES: list[tuple[str, tuple[str, ...]]] = [
 # Architecture families -> animation metaphor. Motion must express what the
 # system does, so the family is chosen from the architecture rather than from
 # the category alone.
+# Composed animation stories. Resolved from architecture AND category, because
+# a data flow in a security product is not the same motion as a data flow in a
+# financial one: the first is a boundary holding, the second is capital
+# settling. Keyed (architecture, category) with an architecture-only fallback.
+ARCH_CATEGORY_ANIMATION = {
+    ("DATA_FLOW", "SECURITY"): "records cross a trust boundary, get validated, and are held or rejected",
+    ("DATA_FLOW", "FINANCE"): "capital enters, allocates across positions, and settles into an outcome",
+    ("DATA_FLOW", "AGENT"): "an objective becomes context, tools read and write state, the loop closes",
+    ("DATA_FLOW", "DEVELOPER_TOOLS"): "a dependency graph resolves, packages install, the build advances",
+    ("DATA_FLOW", "GENERAL"): "records ingest, normalise, index, answer",
+    ("DOCUMENT", "SECURITY"): "policy surfaces assemble into a readable security posture",
+    ("DOCUMENT", "FINANCE"): "scenarios lay out side by side for comparison",
+    ("DOCUMENT", "GENERAL"): "sections assemble and settle into a readable surface",
+    ("DOCUMENT", "AGENT"): "documentation resolves into an explanation a reader can follow",
+    ("DISTRIBUTED", "INFRASTRUCTURE"): "nodes advertise capability, a coordinator selects, work converges",
+    ("AGENT_LOOP", "AGENT"): "objective becomes a plan, tools execute, verification resolves the answer",
+    ("SCHEDULER", "INFRASTRUCTURE"): "jobs enter, queue, lease, complete",
+    ("CLI", "DEVELOPER_TOOLS"): "a cursor runs real commands and the output resolves",
+    ("SECURITY", "SECURITY"): "threat approaches a boundary, the boundary reacts, the path closes",
+    ("ROUTER", "GENERAL"): "requests arrive, candidates narrow, one route is selected",
+    ("GENERATIVE", "GENERAL"): "a seed expands into structured form",
+    ("LIBRARY", "DEVELOPER_TOOLS"): "symbols resolve against a dependency graph",
+}
+
+ARCH_CATEGORY_GEOMETRY = {
+    ("DATA_FLOW", "SECURITY"): "gated channels passing through a sealed boundary",
+    ("DATA_FLOW", "FINANCE"): "ledger columns with allocation flow between them",
+    ("DATA_FLOW", "AGENT"): "a state ring with tool nodes attached",
+    ("DATA_FLOW", "DEVELOPER_TOOLS"): "an orthogonal dependency lattice",
+    ("DOCUMENT", "SECURITY"): "nested policy frames with a visible boundary edge",
+    ("DOCUMENT", "FINANCE"): "scenario panels on a comparative plane",
+    ("DISTRIBUTED", "INFRASTRUCTURE"): "a service mesh with one coordinating node",
+    ("AGENT_LOOP", "AGENT"): "a closed loop with a verification terminus",
+}
+
 ARCH_ANIMATION = {
     "SCHEDULER": "jobs enter, queue, lease, complete",
     "PIPELINE": "source transforms through ordered stages into a verified result",
@@ -420,13 +455,15 @@ def build_dossier(m: dict, repo: dict, local: dict, venture: dict | None) -> dic
         "architecture_type": arch,
         "major_components": [],
         "data_flow": "",
-        "control_flow": ARCH_ANIMATION[arch],
+        "control_flow": ARCH_CATEGORY_ANIMATION.get((arch, cat),
+                                                    ARCH_ANIMATION[arch]),
         "state_model": "",
 
         "input_types": [],
         "output_types": [],
 
-        "primary_workflow": ARCH_ANIMATION[arch],
+        "primary_workflow": ARCH_CATEGORY_ANIMATION.get((arch, cat),
+                                                       ARCH_ANIMATION[arch]),
         "secondary_workflows": [],
 
         "verified_features": [],
@@ -449,9 +486,11 @@ def build_dossier(m: dict, repo: dict, local: dict, venture: dict | None) -> dic
         "venture_stage": (venture or {}).get("status", ""),
         "public_financial_context": "not published per venture",
 
-        "primary_visual_metaphor": ARCH_GEOMETRY[arch],
+        "primary_visual_metaphor": ARCH_CATEGORY_GEOMETRY.get(
+            (arch, cat), ARCH_GEOMETRY[arch]),
         "secondary_visual_metaphor": "",
-        "animation_metaphor": ARCH_ANIMATION[arch],
+        "animation_metaphor": ARCH_CATEGORY_ANIMATION.get((arch, cat),
+                                                           ARCH_ANIMATION[arch]),
         "terminal_metaphor": ("a cursor running real commands"
                               if local.get("scripts") else ""),
         "geometry_family": arch,

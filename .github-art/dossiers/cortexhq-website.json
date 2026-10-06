@@ -1,0 +1,65 @@
+{
+ "animation_metaphor": "a dependency graph resolves, packages install, the build advances",
+ "architecture_type": "DATA_FLOW",
+ "benchmark_dimensions": [],
+ "canonical_name": "cortexhq-website",
+ "ci": {
+  "present": false,
+  "workflows": []
+ },
+ "color_family": "",
+ "control_flow": "a dependency graph resolves, packages install, the build advances",
+ "data_flow": "",
+ "depth": "layered",
+ "design_version": "V6",
+ "evidence": {
+  "source_a_commits": "2",
+  "source_a_files": 105,
+  "source_a_local": "/Users/matador/startups/cortexhq",
+  "source_b_venture": "",
+  "source_c_github": "https://github.com/M4G3LL4N0/cortexhq-website"
+ },
+ "experimental_features": [],
+ "frameworks": [],
+ "geometry_family": "DATA_FLOW",
+ "github_repo": "cortexhq-website",
+ "industry": "DEVELOPER_TOOLS",
+ "input_types": [],
+ "known_limitations": [],
+ "languages": [
+  "HTML"
+ ],
+ "major_components": [],
+ "mapping_confidence": "high",
+ "material_family": "",
+ "output_types": [],
+ "primary_user": "",
+ "primary_visual_metaphor": "an orthogonal dependency lattice",
+ "primary_workflow": "a dependency graph resolves, packages install, the build advances",
+ "problem": "",
+ "project_category": "DEVELOPER_TOOLS",
+ "public_financial_context": "not published per venture",
+ "public_noaerth_positioning": "",
+ "purpose": "cortexhq website. package.json.",
+ "release": "unknown",
+ "secondary_visual_metaphor": "",
+ "secondary_workflows": [],
+ "security_characteristics": [],
+ "state_model": "",
+ "technical_category": "DATA_FLOW",
+ "terminal_metaphor": "a cursor running real commands",
+ "tests": {
+  "executed": false,
+  "files": 0,
+  "note": "counted from the tree; not executed in Part 1",
+  "present": false
+ },
+ "trillionx_intensity": "standard",
+ "unresolved": [
+  "primary_user",
+  "problem"
+ ],
+ "venture_stage": "",
+ "verified_features": [],
+ "visual_density": "medium"
+}

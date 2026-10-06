@@ -1,0 +1,82 @@
+{
+ "$comment": "Repositories mapping refused to guess. Each entry states what the repository is and the evidence for it. UNRESOLVED entries remain unresolved rather than being assigned a project by assumption.",
+ "decisions": {
+  "FundMind": {
+   "action_required": "owner decision: supply the local project path",
+   "canonical_project_name": "FundMind",
+   "evidence": "no local checkout and no venture card",
+   "feature": false,
+   "generate_art": false,
+   "resolution": "UNRESOLVED_REVIEW"
+  },
+  "M4G3LL4N0": {
+   "canonical_project_name": "DUNG30N5 profile",
+   "evidence": "repository contains README.md and assets/profile only; it is the account profile, not an engineering system",
+   "feature": false,
+   "generate_art": false,
+   "resolution": "PROFILE"
+  },
+  "STRxGNTH": {
+   "action_required": "owner decision: supply the local project path",
+   "canonical_project_name": "STRxGNTH",
+   "evidence": "no local checkout and no venture card",
+   "feature": false,
+   "generate_art": false,
+   "resolution": "UNRESOLVED_REVIEW"
+  },
+  "Zaeus": {
+   "action_required": "owner decision: supply the local project path",
+   "canonical_project_name": "Zaeus",
+   "evidence": "no local checkout and no venture card",
+   "feature": false,
+   "generate_art": false,
+   "resolution": "UNRESOLVED_REVIEW"
+  },
+  "ai-dev-workflow-starter": {
+   "action_required": "owner decision: supply the local project path",
+   "canonical_project_name": "AI Dev Workflow Starter",
+   "evidence": "template repository with no local checkout and no venture card; correspondence cannot be established",
+   "feature": false,
+   "generate_art": false,
+   "resolution": "UNRESOLVED_REVIEW"
+  },
+  "imessage": {
+   "action_required": "owner decision: supply the local project path",
+   "canonical_project_name": "imessage",
+   "evidence": "repository carries the standard portfolio register set but no local checkout and no venture card; correspondence cannot be established from available sources",
+   "feature": false,
+   "generate_art": false,
+   "resolution": "UNRESOLVED_REVIEW"
+  },
+  "node_modules": {
+   "action_required": "owner decision: deletion is not authorised",
+   "canonical_project_name": "node_modules",
+   "evidence": "root contains .DS_Store, .package-lock.json and installed packages (@supabase, @types, clsx, tslib, undici-types, ws). This is a committed dependency directory, not source.",
+   "feature": false,
+   "generate_art": false,
+   "resolution": "ARTIFACT"
+  },
+  "src": {
+   "canonical_project_name": "src",
+   "evidence": "contains app/, components/, docs/ and a Next.js tree. This is a real application committed under a directory-style name, not a stray folder.",
+   "feature": false,
+   "generate_art": true,
+   "resolution": "MISNAMED_WORK"
+  },
+  "styles": {
+   "canonical_project_name": "styles",
+   "evidence": "contains main.css plus a docs/ directory: a design-token and stylesheet system published under a directory-style name",
+   "feature": false,
+   "generate_art": true,
+   "resolution": "MISNAMED_WORK"
+  },
+  "why-are-you-here": {
+   "canonical_project_name": "Why Are You Here",
+   "evidence": "single-page site with its own source; an intentional authored page rather than an accidental artifact",
+   "feature": false,
+   "generate_art": true,
+   "resolution": "MISNAMED_WORK"
+  }
+ },
+ "owner": "M4G3LL4N0"
+}

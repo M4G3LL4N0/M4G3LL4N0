@@ -1,0 +1,65 @@
+{
+ "animation_metaphor": "jobs enter, queue, lease, complete",
+ "architecture_type": "SCHEDULER",
+ "benchmark_dimensions": [],
+ "canonical_name": "GrokGeneral",
+ "ci": {
+  "present": false,
+  "workflows": []
+ },
+ "color_family": "",
+ "control_flow": "jobs enter, queue, lease, complete",
+ "data_flow": "",
+ "depth": "layered",
+ "design_version": "V6",
+ "evidence": {
+  "source_a_commits": "26",
+  "source_a_files": 84,
+  "source_a_local": "/Users/matador/startups/grokgeneral",
+  "source_b_venture": "grokgeneral",
+  "source_c_github": "https://github.com/M4G3LL4N0/grokgeneral"
+ },
+ "experimental_features": [],
+ "frameworks": [],
+ "geometry_family": "SCHEDULER",
+ "github_repo": "grokgeneral",
+ "industry": "SECURITY",
+ "input_types": [],
+ "known_limitations": [],
+ "languages": [
+  "Python"
+ ],
+ "major_components": [],
+ "mapping_confidence": "high",
+ "material_family": "",
+ "output_types": [],
+ "primary_user": "",
+ "primary_visual_metaphor": "queue lanes with lease markers",
+ "primary_workflow": "jobs enter, queue, lease, complete",
+ "problem": "",
+ "project_category": "SECURITY",
+ "public_financial_context": "not published per venture",
+ "public_noaerth_positioning": "",
+ "purpose": "grokgeneral. pyproject.toml; 37 test file(s); local-first storage.",
+ "release": "unknown",
+ "secondary_visual_metaphor": "",
+ "secondary_workflows": [],
+ "security_characteristics": [],
+ "state_model": "",
+ "technical_category": "SCHEDULER",
+ "terminal_metaphor": "",
+ "tests": {
+  "executed": false,
+  "files": 37,
+  "note": "counted from the tree; not executed in Part 1",
+  "present": true
+ },
+ "trillionx_intensity": "standard",
+ "unresolved": [
+  "primary_user",
+  "problem"
+ ],
+ "venture_stage": "",
+ "verified_features": [],
+ "visual_density": "medium"
+}

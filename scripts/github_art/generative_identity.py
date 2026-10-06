@@ -273,13 +273,24 @@ def main() -> int:
         low = n.lower()
         if any(s in low for s in denylist) or low in deny_exact:
             continue
-        if low.endswith("-website"):
-            continue
+        # Website repositories were excluded from identity generation entirely,
+        # which left 13 of them with no mark at all -- the uniqueness audit
+        # reported them as (None, None, None). They are excluded from *technical*
+        # classification, because a presentation layer must never inform
+        # architecture, but they still need a distinct visual identity.
+        is_site = low.endswith(("-website", "-site"))
         topics = [t["name"] if isinstance(t, dict) else t
                   for t in (r.get("repositoryTopics") or [])]
         lang = ((r.get("primaryLanguage") or {}).get("name") or "").lower()
-        inputs[n] = (str(r.get("id") or n), r.get("description") or "",
-                     topics, lang)
+        desc = r.get("description") or ""
+        if is_site:
+            # A site's identity follows its parent project's category, so the
+            # presentation layer stays visually related to the product it
+            # presents without being treated as the product itself.
+            parent = re.sub(r"(-website|-site)$", "", n)
+            desc = f"{desc} Presentation surface for {parent}."
+            lang = ""
+        inputs[n] = (str(r.get("id") or n), desc, topics, lang)
     derived = assign(inputs)
 
     if args.write:

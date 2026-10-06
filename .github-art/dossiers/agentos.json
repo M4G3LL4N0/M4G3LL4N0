@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "peers exchange state and converge",
+ "animation_metaphor": "nodes advertise capability, a coordinator selects, work converges",
  "architecture_type": "DISTRIBUTED",
  "benchmark_dimensions": [],
  "canonical_name": "AgentOS",
@@ -8,7 +8,7 @@
   "workflows": []
  },
  "color_family": "",
- "control_flow": "peers exchange state and converge",
+ "control_flow": "nodes advertise capability, a coordinator selects, work converges",
  "data_flow": "",
  "depth": "layered",
  "design_version": "V6",
@@ -34,8 +34,8 @@
  "material_family": "",
  "output_types": [],
  "primary_user": "",
- "primary_visual_metaphor": "lattice with partial connectivity",
- "primary_workflow": "peers exchange state and converge",
+ "primary_visual_metaphor": "a service mesh with one coordinating node",
+ "primary_workflow": "nodes advertise capability, a coordinator selects, work converges",
  "problem": "",
  "project_category": "INFRASTRUCTURE",
  "public_financial_context": "not published per venture",

@@ -1,7 +1,7 @@
 {
  "$comment": "Repository to local project to venture slug. Confidence is never assumed; MAPPING_REVIEW_REQUIRED means no project claims were emitted for that repository.",
  "owner": "M4G3LL4N0",
- "count": 20,
+ "count": 136,
  "records": [
   {
    "map": {
@@ -516,6 +516,2966 @@
     "website_repository": false
    },
    "dossier_path": ".github-art/dossiers/childdevos.json"
+  },
+  {
+   "map": {
+    "github_repo": "chipflow",
+    "github_url": "https://github.com/M4G3LL4N0/chipflow",
+    "local_project_path": "/Users/matador/startups/chipflow",
+    "noaerth_venture_slug": "chipflow",
+    "noaerth_venture_url": "https://www.noaerth.com/chipflow",
+    "canonical_project_name": "ChipFlow",
+    "aliases": [
+     "chipflow",
+     "chipflow",
+     "chipflow",
+     "chipflow",
+     "chipflow"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/chipflow.json"
+  },
+  {
+   "map": {
+    "github_repo": "claimpilot-ai",
+    "github_url": "https://github.com/M4G3LL4N0/claimpilot-ai",
+    "local_project_path": "/Users/matador/startups/claimpilot-ai",
+    "noaerth_venture_slug": "claimpilot-ai",
+    "noaerth_venture_url": "https://www.noaerth.com/claimpilot-ai",
+    "canonical_project_name": "ClaimPilot AI",
+    "aliases": [
+     "claimpilot-ai",
+     "claimpilotai",
+     "claimpilot-ai",
+     "claimpilot_ai",
+     "claimpilotai"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/claimpilot-ai.json"
+  },
+  {
+   "map": {
+    "github_repo": "cleanstack-macos",
+    "github_url": "https://github.com/M4G3LL4N0/cleanstack-macos",
+    "local_project_path": "/Users/matador/startups/cleanstack-macos",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "cleanstack-macos",
+    "aliases": [
+     "cleanstack-macos",
+     "cleanstackmacos",
+     "cleanstack-macos",
+     "cleanstack_macos",
+     "cleanstackmacos"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/cleanstack-macos.json"
+  },
+  {
+   "map": {
+    "github_repo": "cleanstack-os",
+    "github_url": "https://github.com/M4G3LL4N0/cleanstack-os",
+    "local_project_path": "/Users/matador/startups/cleanstack-os",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "cleanstack-os",
+    "aliases": [
+     "cleanstack-os",
+     "cleanstackos",
+     "cleanstack-os",
+     "cleanstack_os",
+     "cleanstackos"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/cleanstack-os.json"
+  },
+  {
+   "map": {
+    "github_repo": "cloudcastle",
+    "github_url": "https://github.com/M4G3LL4N0/cloudcastle",
+    "local_project_path": "/Users/matador/startups/cloudcastle",
+    "noaerth_venture_slug": "cloudcastle",
+    "noaerth_venture_url": "https://www.noaerth.com/cloudcastle",
+    "canonical_project_name": "CloudCastle",
+    "aliases": [
+     "cloudcastle",
+     "cloudcastle",
+     "cloudcastle",
+     "cloudcastle",
+     "cloudcastle"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/cloudcastle.json"
+  },
+  {
+   "map": {
+    "github_repo": "commos",
+    "github_url": "https://github.com/M4G3LL4N0/commos",
+    "local_project_path": "/Users/matador/startups/commos",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "commos",
+    "aliases": [
+     "commos",
+     "commos",
+     "commos",
+     "commos",
+     "commos"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/commos.json"
+  },
+  {
+   "map": {
+    "github_repo": "companyos",
+    "github_url": "https://github.com/M4G3LL4N0/companyos",
+    "local_project_path": "/Users/matador/startups/companyos",
+    "noaerth_venture_slug": "companyos",
+    "noaerth_venture_url": "https://www.noaerth.com/companyos",
+    "canonical_project_name": "CompanyOS",
+    "aliases": [
+     "companyos",
+     "companyos",
+     "companyos",
+     "companyos",
+     "companyos"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/companyos.json"
+  },
+  {
+   "map": {
+    "github_repo": "computeflow",
+    "github_url": "https://github.com/M4G3LL4N0/computeflow",
+    "local_project_path": "/Users/matador/startups/computeflow",
+    "noaerth_venture_slug": "computeflow",
+    "noaerth_venture_url": "https://www.noaerth.com/computeflow",
+    "canonical_project_name": "ComputeFlow",
+    "aliases": [
+     "computeflow",
+     "computeflow",
+     "computeflow",
+     "computeflow",
+     "computeflow"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/computeflow.json"
+  },
+  {
+   "map": {
+    "github_repo": "computeflow-website",
+    "github_url": "https://github.com/M4G3LL4N0/computeflow-website",
+    "local_project_path": "/Users/matador/startups/computeflow",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "computeflow-website",
+    "aliases": [
+     "computeflow-website",
+     "computeflowwebsite",
+     "computeflow-website",
+     "computeflow_website",
+     "computeflowwebsite"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "website repository maps to its parent project folder"
+    ],
+    "visibility": "public",
+    "website_repository": true
+   },
+   "dossier_path": ".github-art/dossiers/computeflow-website.json"
+  },
+  {
+   "map": {
+    "github_repo": "cortexhq",
+    "github_url": "https://github.com/M4G3LL4N0/cortexhq",
+    "local_project_path": "/Users/matador/startups/cortexhq",
+    "noaerth_venture_slug": "cortexhq",
+    "noaerth_venture_url": "https://www.noaerth.com/cortexhq",
+    "canonical_project_name": "CortexHQ",
+    "aliases": [
+     "cortexhq",
+     "cortexhq",
+     "cortexhq",
+     "cortexhq",
+     "cortexhq"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/cortexhq.json"
+  },
+  {
+   "map": {
+    "github_repo": "cortexhq-website",
+    "github_url": "https://github.com/M4G3LL4N0/cortexhq-website",
+    "local_project_path": "/Users/matador/startups/cortexhq",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "cortexhq-website",
+    "aliases": [
+     "cortexhq-website",
+     "cortexhqwebsite",
+     "cortexhq-website",
+     "cortexhq_website",
+     "cortexhqwebsite"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "website repository maps to its parent project folder"
+    ],
+    "visibility": "public",
+    "website_repository": true
+   },
+   "dossier_path": ".github-art/dossiers/cortexhq-website.json"
+  },
+  {
+   "map": {
+    "github_repo": "cropshield-ai",
+    "github_url": "https://github.com/M4G3LL4N0/cropshield-ai",
+    "local_project_path": "/Users/matador/startups/cropshield-ai",
+    "noaerth_venture_slug": "cropshield-ai",
+    "noaerth_venture_url": "https://www.noaerth.com/cropshield-ai",
+    "canonical_project_name": "CropShield AI",
+    "aliases": [
+     "cropshield-ai",
+     "cropshieldai",
+     "cropshield-ai",
+     "cropshield_ai",
+     "cropshieldai"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/cropshield-ai.json"
+  },
+  {
+   "map": {
+    "github_repo": "cropshield-ai-website",
+    "github_url": "https://github.com/M4G3LL4N0/cropshield-ai-website",
+    "local_project_path": "/Users/matador/startups/cropshield-ai",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "cropshield-ai-website",
+    "aliases": [
+     "cropshield-ai-website",
+     "cropshieldaiwebsite",
+     "cropshield-ai-website",
+     "cropshield_ai_website",
+     "cropshieldaiwebsite"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "website repository maps to its parent project folder"
+    ],
+    "visibility": "public",
+    "website_repository": true
+   },
+   "dossier_path": ".github-art/dossiers/cropshield-ai-website.json"
+  },
+  {
+   "map": {
+    "github_repo": "Cruxenio",
+    "github_url": "https://github.com/M4G3LL4N0/Cruxenio",
+    "local_project_path": "/Users/matador/startups/cruxenio",
+    "noaerth_venture_slug": "cruxenio",
+    "noaerth_venture_url": "https://www.noaerth.com/cruxenio",
+    "canonical_project_name": "Cruxenio",
+    "aliases": [
+     "cruxenio",
+     "cruxenio",
+     "cruxenio",
+     "cruxenio",
+     "cruxenio"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/Cruxenio.json"
+  },
+  {
+   "map": {
+    "github_repo": "CxNTRADICT",
+    "github_url": "https://github.com/M4G3LL4N0/CxNTRADICT",
+    "local_project_path": "/Users/matador/startups/cxntradict",
+    "noaerth_venture_slug": "cxntradict",
+    "noaerth_venture_url": "https://www.noaerth.com/cxntradict",
+    "canonical_project_name": "Cxntradict",
+    "aliases": [
+     "cxntradict",
+     "cxntradict",
+     "cxntradict",
+     "cxntradict",
+     "cxntradict"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/CxNTRADICT.json"
+  },
+  {
+   "map": {
+    "github_repo": "datatherapy",
+    "github_url": "https://github.com/M4G3LL4N0/datatherapy",
+    "local_project_path": "/Users/matador/startups/datatherapy",
+    "noaerth_venture_slug": "datatherapy",
+    "noaerth_venture_url": "https://www.noaerth.com/datatherapy",
+    "canonical_project_name": "DataTherapy",
+    "aliases": [
+     "datatherapy",
+     "datatherapy",
+     "datatherapy",
+     "datatherapy",
+     "datatherapy"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/datatherapy.json"
+  },
+  {
+   "map": {
+    "github_repo": "datatherapy-website",
+    "github_url": "https://github.com/M4G3LL4N0/datatherapy-website",
+    "local_project_path": "/Users/matador/startups/datatherapy",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "datatherapy-website",
+    "aliases": [
+     "datatherapy-website",
+     "datatherapywebsite",
+     "datatherapy-website",
+     "datatherapy_website",
+     "datatherapywebsite"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "website repository maps to its parent project folder"
+    ],
+    "visibility": "public",
+    "website_repository": true
+   },
+   "dossier_path": ".github-art/dossiers/datatherapy-website.json"
+  },
+  {
+   "map": {
+    "github_repo": "deploylocal",
+    "github_url": "https://github.com/M4G3LL4N0/deploylocal",
+    "local_project_path": "/Users/matador/startups/deploylocal",
+    "noaerth_venture_slug": "deploylocal",
+    "noaerth_venture_url": "https://www.noaerth.com/deploylocal",
+    "canonical_project_name": "DeployLocal",
+    "aliases": [
+     "deploylocal",
+     "deploylocal",
+     "deploylocal",
+     "deploylocal",
+     "deploylocal"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/deploylocal.json"
+  },
+  {
+   "map": {
+    "github_repo": "deploylocal-website",
+    "github_url": "https://github.com/M4G3LL4N0/deploylocal-website",
+    "local_project_path": "/Users/matador/startups/deploylocal",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "deploylocal-website",
+    "aliases": [
+     "deploylocal-website",
+     "deploylocalwebsite",
+     "deploylocal-website",
+     "deploylocal_website",
+     "deploylocalwebsite"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "website repository maps to its parent project folder"
+    ],
+    "visibility": "public",
+    "website_repository": true
+   },
+   "dossier_path": ".github-art/dossiers/deploylocal-website.json"
+  },
+  {
+   "map": {
+    "github_repo": "devstate",
+    "github_url": "https://github.com/M4G3LL4N0/devstate",
+    "local_project_path": "/Users/matador/startups/devstate",
+    "noaerth_venture_slug": "devstate",
+    "noaerth_venture_url": "https://www.noaerth.com/devstate",
+    "canonical_project_name": "DevState",
+    "aliases": [
+     "devstate",
+     "devstate",
+     "devstate",
+     "devstate",
+     "devstate"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/devstate.json"
+  },
+  {
+   "map": {
+    "github_repo": "devstate-website",
+    "github_url": "https://github.com/M4G3LL4N0/devstate-website",
+    "local_project_path": "/Users/matador/startups/devstate",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "devstate-website",
+    "aliases": [
+     "devstate-website",
+     "devstatewebsite",
+     "devstate-website",
+     "devstate_website",
+     "devstatewebsite"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "website repository maps to its parent project folder"
+    ],
+    "visibility": "public",
+    "website_repository": true
+   },
+   "dossier_path": ".github-art/dossiers/devstate-website.json"
+  },
+  {
+   "map": {
+    "github_repo": "EmailSimple",
+    "github_url": "https://github.com/M4G3LL4N0/EmailSimple",
+    "local_project_path": "/Users/matador/startups/emailsimple",
+    "noaerth_venture_slug": "emailsimple",
+    "noaerth_venture_url": "https://www.noaerth.com/emailsimple",
+    "canonical_project_name": "EmailSimple",
+    "aliases": [
+     "emailsimple",
+     "emailsimple",
+     "emailsimple",
+     "emailsimple",
+     "emailsimple"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/EmailSimple.json"
+  },
+  {
+   "map": {
+    "github_repo": "enterprisepilot",
+    "github_url": "https://github.com/M4G3LL4N0/enterprisepilot",
+    "local_project_path": "/Users/matador/startups/enterprisepilot",
+    "noaerth_venture_slug": "enterprisepilot",
+    "noaerth_venture_url": "https://www.noaerth.com/enterprisepilot",
+    "canonical_project_name": "EnterprisePilot",
+    "aliases": [
+     "enterprisepilot",
+     "enterprisepilot",
+     "enterprisepilot",
+     "enterprisepilot",
+     "enterprisepilot"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/enterprisepilot.json"
+  },
+  {
+   "map": {
+    "github_repo": "evalforge",
+    "github_url": "https://github.com/M4G3LL4N0/evalforge",
+    "local_project_path": "/Users/matador/startups/evalforge",
+    "noaerth_venture_slug": "evalforge",
+    "noaerth_venture_url": "https://www.noaerth.com/evalforge",
+    "canonical_project_name": "EvalForge",
+    "aliases": [
+     "evalforge",
+     "evalforge",
+     "evalforge",
+     "evalforge",
+     "evalforge"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/evalforge.json"
+  },
+  {
+   "map": {
+    "github_repo": "evsec-one",
+    "github_url": "https://github.com/M4G3LL4N0/evsec-one",
+    "local_project_path": "/Users/matador/startups/evsec-one",
+    "noaerth_venture_slug": "evsec-one",
+    "noaerth_venture_url": "https://www.noaerth.com/evsec-one",
+    "canonical_project_name": "EvSec-One",
+    "aliases": [
+     "evsec-one",
+     "evsecone",
+     "evsec-one",
+     "evsec_one",
+     "evsecone"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/evsec-one.json"
+  },
+  {
+   "map": {
+    "github_repo": "EVSec.one",
+    "github_url": "https://github.com/M4G3LL4N0/EVSec.one",
+    "local_project_path": "/Users/matador/startups/evsec-one",
+    "noaerth_venture_slug": "evsec-one",
+    "noaerth_venture_url": "https://www.noaerth.com/evsec-one",
+    "canonical_project_name": "EvSec-One",
+    "aliases": [
+     "evsec.one",
+     "evsec.one",
+     "evsec.one",
+     "evsec.one",
+     "evsecone"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/EVSec.one.json"
+  },
+  {
+   "map": {
+    "github_repo": "execmemory-ai",
+    "github_url": "https://github.com/M4G3LL4N0/execmemory-ai",
+    "local_project_path": "/Users/matador/startups/execmemory-ai",
+    "noaerth_venture_slug": "execmemory-ai",
+    "noaerth_venture_url": "https://www.noaerth.com/execmemory-ai",
+    "canonical_project_name": "ExecMemory AI",
+    "aliases": [
+     "execmemory-ai",
+     "execmemoryai",
+     "execmemory-ai",
+     "execmemory_ai",
+     "execmemoryai"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/execmemory-ai.json"
+  },
+  {
+   "map": {
+    "github_repo": "executionos",
+    "github_url": "https://github.com/M4G3LL4N0/executionos",
+    "local_project_path": "/Users/matador/startups/executionos",
+    "noaerth_venture_slug": "executionos",
+    "noaerth_venture_url": "https://www.noaerth.com/executionos",
+    "canonical_project_name": "ExecutionOS",
+    "aliases": [
+     "executionos",
+     "executionos",
+     "executionos",
+     "executionos",
+     "executionos"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/executionos.json"
+  },
+  {
+   "map": {
+    "github_repo": "fastprocure-ai",
+    "github_url": "https://github.com/M4G3LL4N0/fastprocure-ai",
+    "local_project_path": "/Users/matador/startups/fastprocure-ai",
+    "noaerth_venture_slug": "fastprocure-ai",
+    "noaerth_venture_url": "https://www.noaerth.com/fastprocure-ai",
+    "canonical_project_name": "FastProcure AI",
+    "aliases": [
+     "fastprocure-ai",
+     "fastprocureai",
+     "fastprocure-ai",
+     "fastprocure_ai",
+     "fastprocureai"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/fastprocure-ai.json"
+  },
+  {
+   "map": {
+    "github_repo": "ForeverLuvd",
+    "github_url": "https://github.com/M4G3LL4N0/ForeverLuvd",
+    "local_project_path": "/Users/matador/startups/foreverluvd",
+    "noaerth_venture_slug": "foreverluvd",
+    "noaerth_venture_url": "https://www.noaerth.com/foreverluvd",
+    "canonical_project_name": "ForeverLuvd",
+    "aliases": [
+     "foreverluvd",
+     "foreverluvd",
+     "foreverluvd",
+     "foreverluvd",
+     "foreverluvd"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/ForeverLuvd.json"
+  },
+  {
+   "map": {
+    "github_repo": "forgeflow",
+    "github_url": "https://github.com/M4G3LL4N0/forgeflow",
+    "local_project_path": "/Users/matador/startups/forgeflow",
+    "noaerth_venture_slug": "forgeflow",
+    "noaerth_venture_url": "https://www.noaerth.com/forgeflow",
+    "canonical_project_name": "ForgeFlow",
+    "aliases": [
+     "forgeflow",
+     "forgeflow",
+     "forgeflow",
+     "forgeflow",
+     "forgeflow"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/forgeflow.json"
+  },
+  {
+   "map": {
+    "github_repo": "founderskingdom",
+    "github_url": "https://github.com/M4G3LL4N0/founderskingdom",
+    "local_project_path": "/Users/matador/startups/founderskingdom",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "founderskingdom",
+    "aliases": [
+     "founderskingdom",
+     "founderskingdom",
+     "founderskingdom",
+     "founderskingdom",
+     "founderskingdom"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/founderskingdom.json"
+  },
+  {
+   "map": {
+    "github_repo": "freeconomie",
+    "github_url": "https://github.com/M4G3LL4N0/freeconomie",
+    "local_project_path": "/Users/matador/startups/freeconomie",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "freeconomie",
+    "aliases": [
+     "freeconomie",
+     "freeconomie",
+     "freeconomie",
+     "freeconomie",
+     "freeconomie"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/freeconomie.json"
+  },
+  {
+   "map": {
+    "github_repo": "fullofshit",
+    "github_url": "https://github.com/M4G3LL4N0/fullofshit",
+    "local_project_path": "/Users/matador/startups/fullofshit",
+    "noaerth_venture_slug": "fullofshit",
+    "noaerth_venture_url": "https://www.noaerth.com/fullofshit",
+    "canonical_project_name": "FullOfShit",
+    "aliases": [
+     "fullofshit",
+     "fullofshit",
+     "fullofshit",
+     "fullofshit",
+     "fullofshit"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/fullofshit.json"
+  },
+  {
+   "map": {
+    "github_repo": "FundMind",
+    "github_url": "https://github.com/M4G3LL4N0/FundMind",
+    "local_project_path": "",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "FundMind",
+    "aliases": [
+     "fundmind",
+     "fundmind",
+     "fundmind",
+     "fundmind",
+     "fundmind"
+    ],
+    "classification": "",
+    "confidence": "MAPPING_REVIEW_REQUIRED",
+    "basis": [],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ""
+  },
+  {
+   "map": {
+    "github_repo": "FungMind",
+    "github_url": "https://github.com/M4G3LL4N0/FungMind",
+    "local_project_path": "/Users/matador/startups/fungmind",
+    "noaerth_venture_slug": "fungmind",
+    "noaerth_venture_url": "https://www.noaerth.com/fungmind",
+    "canonical_project_name": "FungMind",
+    "aliases": [
+     "fungmind",
+     "fungmind",
+     "fungmind",
+     "fungmind",
+     "fungmind"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/FungMind.json"
+  },
+  {
+   "map": {
+    "github_repo": "gamecombo",
+    "github_url": "https://github.com/M4G3LL4N0/gamecombo",
+    "local_project_path": "/Users/matador/startups/gamecombo",
+    "noaerth_venture_slug": "gamecombo",
+    "noaerth_venture_url": "https://www.noaerth.com/gamecombo",
+    "canonical_project_name": "GameCombo",
+    "aliases": [
+     "gamecombo",
+     "gamecombo",
+     "gamecombo",
+     "gamecombo",
+     "gamecombo"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/gamecombo.json"
+  },
+  {
+   "map": {
+    "github_repo": "genotwin-health",
+    "github_url": "https://github.com/M4G3LL4N0/genotwin-health",
+    "local_project_path": "/Users/matador/startups/genotwin-health",
+    "noaerth_venture_slug": "genotwin-health",
+    "noaerth_venture_url": "https://www.noaerth.com/genotwin-health",
+    "canonical_project_name": "GenoTwin Health",
+    "aliases": [
+     "genotwin-health",
+     "genotwinhealth",
+     "genotwin-health",
+     "genotwin_health",
+     "genotwinhealth"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/genotwin-health.json"
+  },
+  {
+   "map": {
+    "github_repo": "gh0st",
+    "github_url": "https://github.com/M4G3LL4N0/gh0st",
+    "local_project_path": "/Users/matador/startups/gh0st",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "gh0st",
+    "aliases": [
+     "gh0st",
+     "gh0st",
+     "gh0st",
+     "gh0st",
+     "gh0st"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/gh0st.json"
+  },
+  {
+   "map": {
+    "github_repo": "gh0st-website",
+    "github_url": "https://github.com/M4G3LL4N0/gh0st-website",
+    "local_project_path": "/Users/matador/startups/gh0st",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "gh0st-website",
+    "aliases": [
+     "gh0st-website",
+     "gh0stwebsite",
+     "gh0st-website",
+     "gh0st_website",
+     "gh0stwebsite"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "website repository maps to its parent project folder"
+    ],
+    "visibility": "public",
+    "website_repository": true
+   },
+   "dossier_path": ".github-art/dossiers/gh0st-website.json"
+  },
+  {
+   "map": {
+    "github_repo": "ghostframe",
+    "github_url": "https://github.com/M4G3LL4N0/ghostframe",
+    "local_project_path": "/Users/matador/startups/ghostframe",
+    "noaerth_venture_slug": "ghostframe",
+    "noaerth_venture_url": "https://www.noaerth.com/ghostframe",
+    "canonical_project_name": "GhostFrame",
+    "aliases": [
+     "ghostframe",
+     "ghostframe",
+     "ghostframe",
+     "ghostframe",
+     "ghostframe"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/ghostframe.json"
+  },
+  {
+   "map": {
+    "github_repo": "grokbot-office",
+    "github_url": "https://github.com/M4G3LL4N0/grokbot-office",
+    "local_project_path": "/Users/matador/startups/grokbot-office",
+    "noaerth_venture_slug": "grokbot-office",
+    "noaerth_venture_url": "https://www.noaerth.com/grokbot-office",
+    "canonical_project_name": "GrokBot Office",
+    "aliases": [
+     "grokbot-office",
+     "grokbotoffice",
+     "grokbot-office",
+     "grokbot_office",
+     "grokbotoffice"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/grokbot-office.json"
+  },
+  {
+   "map": {
+    "github_repo": "grokbot-office-website",
+    "github_url": "https://github.com/M4G3LL4N0/grokbot-office-website",
+    "local_project_path": "/Users/matador/startups/grokbot-office",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "grokbot-office-website",
+    "aliases": [
+     "grokbot-office-website",
+     "grokbotofficewebsite",
+     "grokbot-office-website",
+     "grokbot_office_website",
+     "grokbotofficewebsite"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "website repository maps to its parent project folder"
+    ],
+    "visibility": "public",
+    "website_repository": true
+   },
+   "dossier_path": ".github-art/dossiers/grokbot-office-website.json"
+  },
+  {
+   "map": {
+    "github_repo": "grokbot-society",
+    "github_url": "https://github.com/M4G3LL4N0/grokbot-society",
+    "local_project_path": "/Users/matador/startups/grokbot-society",
+    "noaerth_venture_slug": "grokbot-society",
+    "noaerth_venture_url": "https://www.noaerth.com/grokbot-society",
+    "canonical_project_name": "GrokBot Society",
+    "aliases": [
+     "grokbot-society",
+     "grokbotsociety",
+     "grokbot-society",
+     "grokbot_society",
+     "grokbotsociety"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/grokbot-society.json"
+  },
+  {
+   "map": {
+    "github_repo": "grokbot-society-website",
+    "github_url": "https://github.com/M4G3LL4N0/grokbot-society-website",
+    "local_project_path": "/Users/matador/startups/grokbot-society",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "grokbot-society-website",
+    "aliases": [
+     "grokbot-society-website",
+     "grokbotsocietywebsite",
+     "grokbot-society-website",
+     "grokbot_society_website",
+     "grokbotsocietywebsite"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "website repository maps to its parent project folder"
+    ],
+    "visibility": "public",
+    "website_repository": true
+   },
+   "dossier_path": ".github-art/dossiers/grokbot-society-website.json"
+  },
+  {
+   "map": {
+    "github_repo": "grokgeneral",
+    "github_url": "https://github.com/M4G3LL4N0/grokgeneral",
+    "local_project_path": "/Users/matador/startups/grokgeneral",
+    "noaerth_venture_slug": "grokgeneral",
+    "noaerth_venture_url": "https://www.noaerth.com/grokgeneral",
+    "canonical_project_name": "GrokGeneral",
+    "aliases": [
+     "grokgeneral",
+     "grokgeneral",
+     "grokgeneral",
+     "grokgeneral",
+     "grokgeneral"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/grokgeneral.json"
+  },
+  {
+   "map": {
+    "github_repo": "grokinstall",
+    "github_url": "https://github.com/M4G3LL4N0/grokinstall",
+    "local_project_path": "/Users/matador/startups/grokinstall",
+    "noaerth_venture_slug": "grokinstall",
+    "noaerth_venture_url": "https://www.noaerth.com/grokinstall",
+    "canonical_project_name": "GrokInstall",
+    "aliases": [
+     "grokinstall",
+     "grokinstall",
+     "grokinstall",
+     "grokinstall",
+     "grokinstall"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/grokinstall.json"
+  },
+  {
+   "map": {
+    "github_repo": "grokinstall-website",
+    "github_url": "https://github.com/M4G3LL4N0/grokinstall-website",
+    "local_project_path": "/Users/matador/startups/grokinstall",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "grokinstall-website",
+    "aliases": [
+     "grokinstall-website",
+     "grokinstallwebsite",
+     "grokinstall-website",
+     "grokinstall_website",
+     "grokinstallwebsite"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "website repository maps to its parent project folder"
+    ],
+    "visibility": "public",
+    "website_repository": true
+   },
+   "dossier_path": ".github-art/dossiers/grokinstall-website.json"
+  },
+  {
+   "map": {
+    "github_repo": "grokmax",
+    "github_url": "https://github.com/M4G3LL4N0/grokmax",
+    "local_project_path": "/Users/matador/startups/grokmax",
+    "noaerth_venture_slug": "grokmax",
+    "noaerth_venture_url": "https://www.noaerth.com/grokmax",
+    "canonical_project_name": "GrokMax",
+    "aliases": [
+     "grokmax",
+     "grokmax",
+     "grokmax",
+     "grokmax",
+     "grokmax"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/grokmax.json"
+  },
+  {
+   "map": {
+    "github_repo": "grokmax-website",
+    "github_url": "https://github.com/M4G3LL4N0/grokmax-website",
+    "local_project_path": "/Users/matador/startups/grokmax",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "grokmax-website",
+    "aliases": [
+     "grokmax-website",
+     "grokmaxwebsite",
+     "grokmax-website",
+     "grokmax_website",
+     "grokmaxwebsite"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "website repository maps to its parent project folder"
+    ],
+    "visibility": "public",
+    "website_repository": true
+   },
+   "dossier_path": ".github-art/dossiers/grokmax-website.json"
+  },
+  {
+   "map": {
+    "github_repo": "HackerzArt",
+    "github_url": "https://github.com/M4G3LL4N0/HackerzArt",
+    "local_project_path": "/Users/matador/startups/hackerzart",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "HackerzArt",
+    "aliases": [
+     "hackerzart",
+     "hackerzart",
+     "hackerzart",
+     "hackerzart",
+     "hackerzart"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/HackerzArt.json"
+  },
+  {
+   "map": {
+    "github_repo": "happyblock",
+    "github_url": "https://github.com/M4G3LL4N0/happyblock",
+    "local_project_path": "/Users/matador/startups/happyblock",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "happyblock",
+    "aliases": [
+     "happyblock",
+     "happyblock",
+     "happyblock",
+     "happyblock",
+     "happyblock"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/happyblock.json"
+  },
+  {
+   "map": {
+    "github_repo": "imessage",
+    "github_url": "https://github.com/M4G3LL4N0/imessage",
+    "local_project_path": "",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "imessage",
+    "aliases": [
+     "imessage",
+     "imessage",
+     "imessage",
+     "imessage",
+     "imessage"
+    ],
+    "classification": "",
+    "confidence": "MAPPING_REVIEW_REQUIRED",
+    "basis": [],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ""
+  },
+  {
+   "map": {
+    "github_repo": "interceptorgrid",
+    "github_url": "https://github.com/M4G3LL4N0/interceptorgrid",
+    "local_project_path": "/Users/matador/startups/interceptorgrid",
+    "noaerth_venture_slug": "interceptorgrid",
+    "noaerth_venture_url": "https://www.noaerth.com/interceptorgrid",
+    "canonical_project_name": "InterceptorGrid",
+    "aliases": [
+     "interceptorgrid",
+     "interceptorgrid",
+     "interceptorgrid",
+     "interceptorgrid",
+     "interceptorgrid"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/interceptorgrid.json"
+  },
+  {
+   "map": {
+    "github_repo": "lagrangeos",
+    "github_url": "https://github.com/M4G3LL4N0/lagrangeos",
+    "local_project_path": "/Users/matador/startups/lagrangeos",
+    "noaerth_venture_slug": "lagrangeos",
+    "noaerth_venture_url": "https://www.noaerth.com/lagrangeos",
+    "canonical_project_name": "LagrangeOS",
+    "aliases": [
+     "lagrangeos",
+     "lagrangeos",
+     "lagrangeos",
+     "lagrangeos",
+     "lagrangeos"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/lagrangeos.json"
+  },
+  {
+   "map": {
+    "github_repo": "ledgerops-ai",
+    "github_url": "https://github.com/M4G3LL4N0/ledgerops-ai",
+    "local_project_path": "/Users/matador/startups/ledgerops-ai",
+    "noaerth_venture_slug": "ledgerops-ai",
+    "noaerth_venture_url": "https://www.noaerth.com/ledgerops-ai",
+    "canonical_project_name": "LedgerOps AI",
+    "aliases": [
+     "ledgerops-ai",
+     "ledgeropsai",
+     "ledgerops-ai",
+     "ledgerops_ai",
+     "ledgeropsai"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/ledgerops-ai.json"
+  },
+  {
+   "map": {
+    "github_repo": "legacybridge",
+    "github_url": "https://github.com/M4G3LL4N0/legacybridge",
+    "local_project_path": "/Users/matador/startups/legacybridge",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "legacybridge",
+    "aliases": [
+     "legacybridge",
+     "legacybridge",
+     "legacybridge",
+     "legacybridge",
+     "legacybridge"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/legacybridge.json"
+  },
+  {
+   "map": {
+    "github_repo": "life-finds-a-way",
+    "github_url": "https://github.com/M4G3LL4N0/life-finds-a-way",
+    "local_project_path": "/Users/matador/startups/life-finds-a-way",
+    "noaerth_venture_slug": "life-finds-a-way",
+    "noaerth_venture_url": "https://www.noaerth.com/life-finds-a-way",
+    "canonical_project_name": "Life Finds A Way",
+    "aliases": [
+     "life-finds-a-way",
+     "lifefindsaway",
+     "life-finds-a-way",
+     "life_finds_a_way",
+     "lifefindsaway"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/life-finds-a-way.json"
+  },
+  {
+   "map": {
+    "github_repo": "loopcompute-cloud",
+    "github_url": "https://github.com/M4G3LL4N0/loopcompute-cloud",
+    "local_project_path": "/Users/matador/startups/loopcompute-cloud",
+    "noaerth_venture_slug": "loopcompute-cloud",
+    "noaerth_venture_url": "https://www.noaerth.com/loopcompute-cloud",
+    "canonical_project_name": "LoopCompute Cloud",
+    "aliases": [
+     "loopcompute-cloud",
+     "loopcomputecloud",
+     "loopcompute-cloud",
+     "loopcompute_cloud",
+     "loopcomputecloud"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/loopcompute-cloud.json"
+  },
+  {
+   "map": {
+    "github_repo": "lunarfoundry",
+    "github_url": "https://github.com/M4G3LL4N0/lunarfoundry",
+    "local_project_path": "/Users/matador/startups/lunarfoundry",
+    "noaerth_venture_slug": "lunarfoundry",
+    "noaerth_venture_url": "https://www.noaerth.com/lunarfoundry",
+    "canonical_project_name": "LunarFoundry",
+    "aliases": [
+     "lunarfoundry",
+     "lunarfoundry",
+     "lunarfoundry",
+     "lunarfoundry",
+     "lunarfoundry"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/lunarfoundry.json"
+  },
+  {
+   "map": {
+    "github_repo": "luvconvos",
+    "github_url": "https://github.com/M4G3LL4N0/luvconvos",
+    "local_project_path": "/Users/matador/startups/luvconvos",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "luvconvos",
+    "aliases": [
+     "luvconvos",
+     "luvconvos",
+     "luvconvos",
+     "luvconvos",
+     "luvconvos"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/luvconvos.json"
+  },
+  {
+   "map": {
+    "github_repo": "luvpartnr",
+    "github_url": "https://github.com/M4G3LL4N0/luvpartnr",
+    "local_project_path": "/Users/matador/startups/luvpartnr",
+    "noaerth_venture_slug": "luvpartnr",
+    "noaerth_venture_url": "https://www.noaerth.com/luvpartnr",
+    "canonical_project_name": "LuvPartnr",
+    "aliases": [
+     "luvpartnr",
+     "luvpartnr",
+     "luvpartnr",
+     "luvpartnr",
+     "luvpartnr"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/luvpartnr.json"
+  },
+  {
+   "map": {
+    "github_repo": "luvstories",
+    "github_url": "https://github.com/M4G3LL4N0/luvstories",
+    "local_project_path": "/Users/matador/startups/luvstories",
+    "noaerth_venture_slug": "luvstories",
+    "noaerth_venture_url": "https://www.noaerth.com/luvstories",
+    "canonical_project_name": "LuvStories",
+    "aliases": [
+     "luvstories",
+     "luvstories",
+     "luvstories",
+     "luvstories",
+     "luvstories"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/luvstories.json"
+  },
+  {
+   "map": {
+    "github_repo": "M4G3LL4N0",
+    "github_url": "https://github.com/M4G3LL4N0/M4G3LL4N0",
+    "local_project_path": "",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "M4G3LL4N0",
+    "aliases": [
+     "m4g3ll4n0",
+     "m4g3ll4n0",
+     "m4g3ll4n0",
+     "m4g3ll4n0",
+     "m4g3ll4n0"
+    ],
+    "classification": "",
+    "confidence": "MAPPING_REVIEW_REQUIRED",
+    "basis": [],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ""
+  },
+  {
+   "map": {
+    "github_repo": "Modex",
+    "github_url": "https://github.com/M4G3LL4N0/Modex",
+    "local_project_path": "/Users/matador/startups/modex",
+    "noaerth_venture_slug": "modex",
+    "noaerth_venture_url": "https://www.noaerth.com/modex",
+    "canonical_project_name": "Modex",
+    "aliases": [
+     "modex",
+     "modex",
+     "modex",
+     "modex",
+     "modex"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/Modex.json"
+  },
+  {
+   "map": {
+    "github_repo": "morphui",
+    "github_url": "https://github.com/M4G3LL4N0/morphui",
+    "local_project_path": "/Users/matador/startups/morphui",
+    "noaerth_venture_slug": "morphui",
+    "noaerth_venture_url": "https://www.noaerth.com/morphui",
+    "canonical_project_name": "MorphUI",
+    "aliases": [
+     "morphui",
+     "morphui",
+     "morphui",
+     "morphui",
+     "morphui"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/morphui.json"
+  },
+  {
+   "map": {
+    "github_repo": "n1-therapeutics",
+    "github_url": "https://github.com/M4G3LL4N0/n1-therapeutics",
+    "local_project_path": "/Users/matador/startups/n1-therapeutics",
+    "noaerth_venture_slug": "n-1-therapeutics",
+    "noaerth_venture_url": "https://www.noaerth.com/n-1-therapeutics",
+    "canonical_project_name": "N-1 Therapeutics",
+    "aliases": [
+     "n1-therapeutics",
+     "n1therapeutics",
+     "n1-therapeutics",
+     "n1_therapeutics",
+     "n1therapeutics"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/n1-therapeutics.json"
+  },
+  {
+   "map": {
+    "github_repo": "NaextBlock",
+    "github_url": "https://github.com/M4G3LL4N0/NaextBlock",
+    "local_project_path": "/Users/matador/startups/naextblock",
+    "noaerth_venture_slug": "naextblock",
+    "noaerth_venture_url": "https://www.noaerth.com/naextblock",
+    "canonical_project_name": "NaextBlock",
+    "aliases": [
+     "naextblock",
+     "naextblock",
+     "naextblock",
+     "naextblock",
+     "naextblock"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/NaextBlock.json"
+  },
+  {
+   "map": {
+    "github_repo": "nex-robotix",
+    "github_url": "https://github.com/M4G3LL4N0/nex-robotix",
+    "local_project_path": "/Users/matador/startups/nex-robotix",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "nex-robotix",
+    "aliases": [
+     "nex-robotix",
+     "nexrobotix",
+     "nex-robotix",
+     "nex_robotix",
+     "nexrobotix"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/nex-robotix.json"
+  },
+  {
+   "map": {
+    "github_repo": "node_modules",
+    "github_url": "https://github.com/M4G3LL4N0/node_modules",
+    "local_project_path": "",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "node_modules",
+    "aliases": [
+     "node_modules",
+     "node_modules",
+     "nodemodules",
+     "node_modules",
+     "nodemodules"
+    ],
+    "classification": "",
+    "confidence": "MAPPING_REVIEW_REQUIRED",
+    "basis": [],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ""
+  },
+  {
+   "map": {
+    "github_repo": "obviouslybad",
+    "github_url": "https://github.com/M4G3LL4N0/obviouslybad",
+    "local_project_path": "/Users/matador/startups/obviouslybad",
+    "noaerth_venture_slug": "obviouslybad",
+    "noaerth_venture_url": "https://www.noaerth.com/obviouslybad",
+    "canonical_project_name": "ObviouslyBad",
+    "aliases": [
+     "obviouslybad",
+     "obviouslybad",
+     "obviouslybad",
+     "obviouslybad",
+     "obviouslybad"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/obviouslybad.json"
+  },
+  {
+   "map": {
+    "github_repo": "oddbotix",
+    "github_url": "https://github.com/M4G3LL4N0/oddbotix",
+    "local_project_path": "/Users/matador/startups/oddbotix",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "oddbotix",
+    "aliases": [
+     "oddbotix",
+     "oddbotix",
+     "oddbotix",
+     "oddbotix",
+     "oddbotix"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/oddbotix.json"
+  },
+  {
+   "map": {
+    "github_repo": "oodax",
+    "github_url": "https://github.com/M4G3LL4N0/oodax",
+    "local_project_path": "/Users/matador/startups/oodax",
+    "noaerth_venture_slug": "oodax",
+    "noaerth_venture_url": "https://www.noaerth.com/oodax",
+    "canonical_project_name": "Oodax",
+    "aliases": [
+     "oodax",
+     "oodax",
+     "oodax",
+     "oodax",
+     "oodax"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/oodax.json"
+  },
+  {
+   "map": {
+    "github_repo": "opencode-watchdog",
+    "github_url": "https://github.com/M4G3LL4N0/opencode-watchdog",
+    "local_project_path": "/Users/matador/startups/opencode-watchdog",
+    "noaerth_venture_slug": "opencode-watchdog",
+    "noaerth_venture_url": "https://www.noaerth.com/opencode-watchdog",
+    "canonical_project_name": "OpenCode Watchdog",
+    "aliases": [
+     "opencode-watchdog",
+     "opencodewatchdog",
+     "opencode-watchdog",
+     "opencode_watchdog",
+     "opencodewatchdog"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/opencode-watchdog.json"
+  },
+  {
+   "map": {
+    "github_repo": "opencode-watchdog-website",
+    "github_url": "https://github.com/M4G3LL4N0/opencode-watchdog-website",
+    "local_project_path": "/Users/matador/startups/opencode-watchdog",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "opencode-watchdog-website",
+    "aliases": [
+     "opencode-watchdog-website",
+     "opencodewatchdogwebsite",
+     "opencode-watchdog-website",
+     "opencode_watchdog_website",
+     "opencodewatchdogwebsite"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "website repository maps to its parent project folder"
+    ],
+    "visibility": "public",
+    "website_repository": true
+   },
+   "dossier_path": ".github-art/dossiers/opencode-watchdog-website.json"
+  },
+  {
+   "map": {
+    "github_repo": "opsautopilot",
+    "github_url": "https://github.com/M4G3LL4N0/opsautopilot",
+    "local_project_path": "/Users/matador/startups/opsautopilot",
+    "noaerth_venture_slug": "opsautopilot",
+    "noaerth_venture_url": "https://www.noaerth.com/opsautopilot",
+    "canonical_project_name": "OpsAutopilot",
+    "aliases": [
+     "opsautopilot",
+     "opsautopilot",
+     "opsautopilot",
+     "opsautopilot",
+     "opsautopilot"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/opsautopilot.json"
+  },
+  {
+   "map": {
+    "github_repo": "orbitchip",
+    "github_url": "https://github.com/M4G3LL4N0/orbitchip",
+    "local_project_path": "/Users/matador/startups/orbitchip",
+    "noaerth_venture_slug": "orbitchip",
+    "noaerth_venture_url": "https://www.noaerth.com/orbitchip",
+    "canonical_project_name": "OrbitChip",
+    "aliases": [
+     "orbitchip",
+     "orbitchip",
+     "orbitchip",
+     "orbitchip",
+     "orbitchip"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/orbitchip.json"
+  },
+  {
+   "map": {
+    "github_repo": "orbitprint",
+    "github_url": "https://github.com/M4G3LL4N0/orbitprint",
+    "local_project_path": "/Users/matador/startups/orbitprint",
+    "noaerth_venture_slug": "orbitprint",
+    "noaerth_venture_url": "https://www.noaerth.com/orbitprint",
+    "canonical_project_name": "OrbitPrint",
+    "aliases": [
+     "orbitprint",
+     "orbitprint",
+     "orbitprint",
+     "orbitprint",
+     "orbitprint"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/orbitprint.json"
+  },
+  {
+   "map": {
+    "github_repo": "poolwater",
+    "github_url": "https://github.com/M4G3LL4N0/poolwater",
+    "local_project_path": "/Users/matador/startups/poolwater",
+    "noaerth_venture_slug": "poolwater",
+    "noaerth_venture_url": "https://www.noaerth.com/poolwater",
+    "canonical_project_name": "PoolWater",
+    "aliases": [
+     "poolwater",
+     "poolwater",
+     "poolwater",
+     "poolwater",
+     "poolwater"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/poolwater.json"
+  },
+  {
+   "map": {
+    "github_repo": "psychemap",
+    "github_url": "https://github.com/M4G3LL4N0/psychemap",
+    "local_project_path": "/Users/matador/startups/psychemap",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "psychemap",
+    "aliases": [
+     "psychemap",
+     "psychemap",
+     "psychemap",
+     "psychemap",
+     "psychemap"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/psychemap.json"
+  },
+  {
+   "map": {
+    "github_repo": "readablestack",
+    "github_url": "https://github.com/M4G3LL4N0/readablestack",
+    "local_project_path": "/Users/matador/startups/readablestack",
+    "noaerth_venture_slug": "readablestack",
+    "noaerth_venture_url": "https://www.noaerth.com/readablestack",
+    "canonical_project_name": "ReadableStack",
+    "aliases": [
+     "readablestack",
+     "readablestack",
+     "readablestack",
+     "readablestack",
+     "readablestack"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/readablestack.json"
+  },
+  {
+   "map": {
+    "github_repo": "redwoud",
+    "github_url": "https://github.com/M4G3LL4N0/redwoud",
+    "local_project_path": "/Users/matador/startups/redwoud",
+    "noaerth_venture_slug": "redwoud",
+    "noaerth_venture_url": "https://www.noaerth.com/redwoud",
+    "canonical_project_name": "Redwoud",
+    "aliases": [
+     "redwoud",
+     "redwoud",
+     "redwoud",
+     "redwoud",
+     "redwoud"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/redwoud.json"
+  },
+  {
+   "map": {
+    "github_repo": "RequestAyo",
+    "github_url": "https://github.com/M4G3LL4N0/RequestAyo",
+    "local_project_path": "/Users/matador/startups/requestayo",
+    "noaerth_venture_slug": "requestayo",
+    "noaerth_venture_url": "https://www.noaerth.com/requestayo",
+    "canonical_project_name": "RequestAyo",
+    "aliases": [
+     "requestayo",
+     "requestayo",
+     "requestayo",
+     "requestayo",
+     "requestayo"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/RequestAyo.json"
+  },
+  {
+   "map": {
+    "github_repo": "reviewforge-ai",
+    "github_url": "https://github.com/M4G3LL4N0/reviewforge-ai",
+    "local_project_path": "/Users/matador/startups/reviewforge-ai",
+    "noaerth_venture_slug": "reviewforge-ai",
+    "noaerth_venture_url": "https://www.noaerth.com/reviewforge-ai",
+    "canonical_project_name": "ReviewForge AI",
+    "aliases": [
+     "reviewforge-ai",
+     "reviewforgeai",
+     "reviewforge-ai",
+     "reviewforge_ai",
+     "reviewforgeai"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/reviewforge-ai.json"
+  },
+  {
+   "map": {
+    "github_repo": "saeturtle",
+    "github_url": "https://github.com/M4G3LL4N0/saeturtle",
+    "local_project_path": "/Users/matador/startups/saeturtle",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "saeturtle",
+    "aliases": [
+     "saeturtle",
+     "saeturtle",
+     "saeturtle",
+     "saeturtle",
+     "saeturtle"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/saeturtle.json"
+  },
+  {
+   "map": {
+    "github_repo": "seai-mind",
+    "github_url": "https://github.com/M4G3LL4N0/seai-mind",
+    "local_project_path": "/Users/matador/startups/seai-mind",
+    "noaerth_venture_slug": "se-ai-mind",
+    "noaerth_venture_url": "https://www.noaerth.com/se-ai-mind",
+    "canonical_project_name": "SE-AI Mind",
+    "aliases": [
+     "seai-mind",
+     "seaimind",
+     "seai-mind",
+     "seai_mind",
+     "seaimind"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/seai-mind.json"
+  },
+  {
+   "map": {
+    "github_repo": "ShopRight",
+    "github_url": "https://github.com/M4G3LL4N0/ShopRight",
+    "local_project_path": "/Users/matador/startups/shopright",
+    "noaerth_venture_slug": "shopright",
+    "noaerth_venture_url": "https://www.noaerth.com/shopright",
+    "canonical_project_name": "ShopRight",
+    "aliases": [
+     "shopright",
+     "shopright",
+     "shopright",
+     "shopright",
+     "shopright"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/ShopRight.json"
+  },
+  {
+   "map": {
+    "github_repo": "siliconcontrol-tower",
+    "github_url": "https://github.com/M4G3LL4N0/siliconcontrol-tower",
+    "local_project_path": "/Users/matador/startups/siliconcontrol-tower",
+    "noaerth_venture_slug": "siliconcontrol-tower",
+    "noaerth_venture_url": "https://www.noaerth.com/siliconcontrol-tower",
+    "canonical_project_name": "SiliconControl Tower",
+    "aliases": [
+     "siliconcontrol-tower",
+     "siliconcontroltower",
+     "siliconcontrol-tower",
+     "siliconcontrol_tower",
+     "siliconcontroltower"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/siliconcontrol-tower.json"
+  },
+  {
+   "map": {
+    "github_repo": "SoulMayte",
+    "github_url": "https://github.com/M4G3LL4N0/SoulMayte",
+    "local_project_path": "/Users/matador/startups/soulmayte",
+    "noaerth_venture_slug": "soulmayte",
+    "noaerth_venture_url": "https://www.noaerth.com/soulmayte",
+    "canonical_project_name": "SoulMayte",
+    "aliases": [
+     "soulmayte",
+     "soulmayte",
+     "soulmayte",
+     "soulmayte",
+     "soulmayte"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/SoulMayte.json"
+  },
+  {
+   "map": {
+    "github_repo": "spacecompute-cloud",
+    "github_url": "https://github.com/M4G3LL4N0/spacecompute-cloud",
+    "local_project_path": "/Users/matador/startups/spacecompute-cloud",
+    "noaerth_venture_slug": "spacecompute-cloud",
+    "noaerth_venture_url": "https://www.noaerth.com/spacecompute-cloud",
+    "canonical_project_name": "SpaceCompute Cloud",
+    "aliases": [
+     "spacecompute-cloud",
+     "spacecomputecloud",
+     "spacecompute-cloud",
+     "spacecompute_cloud",
+     "spacecomputecloud"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/spacecompute-cloud.json"
+  },
+  {
+   "map": {
+    "github_repo": "spaceedu",
+    "github_url": "https://github.com/M4G3LL4N0/spaceedu",
+    "local_project_path": "/Users/matador/startups/spaceedu",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "spaceedu",
+    "aliases": [
+     "spaceedu",
+     "spaceedu",
+     "spaceedu",
+     "spaceedu",
+     "spaceedu"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/spaceedu.json"
+  },
+  {
+   "map": {
+    "github_repo": "Spouwse",
+    "github_url": "https://github.com/M4G3LL4N0/Spouwse",
+    "local_project_path": "/Users/matador/startups/spouwse",
+    "noaerth_venture_slug": "spouwse",
+    "noaerth_venture_url": "https://www.noaerth.com/spouwse",
+    "canonical_project_name": "Spouwse",
+    "aliases": [
+     "spouwse",
+     "spouwse",
+     "spouwse",
+     "spouwse",
+     "spouwse"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/Spouwse.json"
+  },
+  {
+   "map": {
+    "github_repo": "src",
+    "github_url": "https://github.com/M4G3LL4N0/src",
+    "local_project_path": "",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "src",
+    "aliases": [
+     "src",
+     "src",
+     "src",
+     "src",
+     "src"
+    ],
+    "classification": "",
+    "confidence": "MAPPING_REVIEW_REQUIRED",
+    "basis": [],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ""
+  },
+  {
+   "map": {
+    "github_repo": "startupquick",
+    "github_url": "https://github.com/M4G3LL4N0/startupquick",
+    "local_project_path": "/Users/matador/startups/startupquick",
+    "noaerth_venture_slug": "startupquick",
+    "noaerth_venture_url": "https://www.noaerth.com/startupquick",
+    "canonical_project_name": "StartupQuick",
+    "aliases": [
+     "startupquick",
+     "startupquick",
+     "startupquick",
+     "startupquick",
+     "startupquick"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/startupquick.json"
+  },
+  {
+   "map": {
+    "github_repo": "STRxGNTH",
+    "github_url": "https://github.com/M4G3LL4N0/STRxGNTH",
+    "local_project_path": "",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "STRxGNTH",
+    "aliases": [
+     "strxgnth",
+     "strxgnth",
+     "strxgnth",
+     "strxgnth",
+     "strxgnth"
+    ],
+    "classification": "",
+    "confidence": "MAPPING_REVIEW_REQUIRED",
+    "basis": [],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ""
+  },
+  {
+   "map": {
+    "github_repo": "strxngth",
+    "github_url": "https://github.com/M4G3LL4N0/strxngth",
+    "local_project_path": "/Users/matador/startups/strxngth",
+    "noaerth_venture_slug": "strxngth",
+    "noaerth_venture_url": "https://www.noaerth.com/strxngth",
+    "canonical_project_name": "STRxNGTH",
+    "aliases": [
+     "strxngth",
+     "strxngth",
+     "strxngth",
+     "strxngth",
+     "strxngth"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/strxngth.json"
+  },
+  {
+   "map": {
+    "github_repo": "styles",
+    "github_url": "https://github.com/M4G3LL4N0/styles",
+    "local_project_path": "",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "styles",
+    "aliases": [
+     "styles",
+     "styles",
+     "styles",
+     "styles",
+     "styles"
+    ],
+    "classification": "",
+    "confidence": "MAPPING_REVIEW_REQUIRED",
+    "basis": [],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ""
+  },
+  {
+   "map": {
+    "github_repo": "SUNSETX",
+    "github_url": "https://github.com/M4G3LL4N0/SUNSETX",
+    "local_project_path": "/Users/matador/startups/sunsetx",
+    "noaerth_venture_slug": "sunsetx",
+    "noaerth_venture_url": "https://www.noaerth.com/sunsetx",
+    "canonical_project_name": "SunsetX",
+    "aliases": [
+     "sunsetx",
+     "sunsetx",
+     "sunsetx",
+     "sunsetx",
+     "sunsetx"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/SUNSETX.json"
+  },
+  {
+   "map": {
+    "github_repo": "supplyos-ai",
+    "github_url": "https://github.com/M4G3LL4N0/supplyos-ai",
+    "local_project_path": "/Users/matador/startups/supplyos-ai",
+    "noaerth_venture_slug": "supplyos-ai",
+    "noaerth_venture_url": "https://www.noaerth.com/supplyos-ai",
+    "canonical_project_name": "SupplyOS AI",
+    "aliases": [
+     "supplyos-ai",
+     "supplyosai",
+     "supplyos-ai",
+     "supplyos_ai",
+     "supplyosai"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/supplyos-ai.json"
+  },
+  {
+   "map": {
+    "github_repo": "swarmshield",
+    "github_url": "https://github.com/M4G3LL4N0/swarmshield",
+    "local_project_path": "/Users/matador/startups/swarmshield",
+    "noaerth_venture_slug": "swarmshield",
+    "noaerth_venture_url": "https://www.noaerth.com/swarmshield",
+    "canonical_project_name": "SwarmShield",
+    "aliases": [
+     "swarmshield",
+     "swarmshield",
+     "swarmshield",
+     "swarmshield",
+     "swarmshield"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/swarmshield.json"
+  },
+  {
+   "map": {
+    "github_repo": "tempoos",
+    "github_url": "https://github.com/M4G3LL4N0/tempoos",
+    "local_project_path": "/Users/matador/startups/tempoos",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "tempoos",
+    "aliases": [
+     "tempoos",
+     "tempoos",
+     "tempoos",
+     "tempoos",
+     "tempoos"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/tempoos.json"
+  },
+  {
+   "map": {
+    "github_repo": "TherapyUX",
+    "github_url": "https://github.com/M4G3LL4N0/TherapyUX",
+    "local_project_path": "/Users/matador/startups/therapyux",
+    "noaerth_venture_slug": "therapyux",
+    "noaerth_venture_url": "https://www.noaerth.com/therapyux",
+    "canonical_project_name": "TherapyUX",
+    "aliases": [
+     "therapyux",
+     "therapyux",
+     "therapyux",
+     "therapyux",
+     "therapyux"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/TherapyUX.json"
+  },
+  {
+   "map": {
+    "github_repo": "trajectoryos",
+    "github_url": "https://github.com/M4G3LL4N0/trajectoryos",
+    "local_project_path": "/Users/matador/startups/trajectoryos",
+    "noaerth_venture_slug": "trajectoryos",
+    "noaerth_venture_url": "https://www.noaerth.com/trajectoryos",
+    "canonical_project_name": "TrajectoryOS",
+    "aliases": [
+     "trajectoryos",
+     "trajectoryos",
+     "trajectoryos",
+     "trajectoryos",
+     "trajectoryos"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/trajectoryos.json"
+  },
+  {
+   "map": {
+    "github_repo": "TrustxVerify",
+    "github_url": "https://github.com/M4G3LL4N0/TrustxVerify",
+    "local_project_path": "/Users/matador/startups/trustxverify",
+    "noaerth_venture_slug": "trustxverify",
+    "noaerth_venture_url": "https://www.noaerth.com/trustxverify",
+    "canonical_project_name": "TrustXVerify",
+    "aliases": [
+     "trustxverify",
+     "trustxverify",
+     "trustxverify",
+     "trustxverify",
+     "trustxverify"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/TrustxVerify.json"
+  },
+  {
+   "map": {
+    "github_repo": "useros",
+    "github_url": "https://github.com/M4G3LL4N0/useros",
+    "local_project_path": "/Users/matador/startups/useros",
+    "noaerth_venture_slug": "useros",
+    "noaerth_venture_url": "https://www.noaerth.com/useros",
+    "canonical_project_name": "UserOS",
+    "aliases": [
+     "useros",
+     "useros",
+     "useros",
+     "useros",
+     "useros"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/useros.json"
+  },
+  {
+   "map": {
+    "github_repo": "uxvisualengine",
+    "github_url": "https://github.com/M4G3LL4N0/uxvisualengine",
+    "local_project_path": "/Users/matador/startups/uxvisualengine",
+    "noaerth_venture_slug": "uxvisualengine",
+    "noaerth_venture_url": "https://www.noaerth.com/uxvisualengine",
+    "canonical_project_name": "UXVisualEngine",
+    "aliases": [
+     "uxvisualengine",
+     "uxvisualengine",
+     "uxvisualengine",
+     "uxvisualengine",
+     "uxvisualengine"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/uxvisualengine.json"
+  },
+  {
+   "map": {
+    "github_repo": "valuedsociety",
+    "github_url": "https://github.com/M4G3LL4N0/valuedsociety",
+    "local_project_path": "/Users/matador/startups/valuedsociety",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "valuedsociety",
+    "aliases": [
+     "valuedsociety",
+     "valuedsociety",
+     "valuedsociety",
+     "valuedsociety",
+     "valuedsociety"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/valuedsociety.json"
+  },
+  {
+   "map": {
+    "github_repo": "vencapmentor",
+    "github_url": "https://github.com/M4G3LL4N0/vencapmentor",
+    "local_project_path": "/Users/matador/startups/vencapmentor",
+    "noaerth_venture_slug": "vencapmentor",
+    "noaerth_venture_url": "https://www.noaerth.com/vencapmentor",
+    "canonical_project_name": "VenCapMentor",
+    "aliases": [
+     "vencapmentor",
+     "vencapmentor",
+     "vencapmentor",
+     "vencapmentor",
+     "vencapmentor"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/vencapmentor.json"
+  },
+  {
+   "map": {
+    "github_repo": "VentureRank-OS",
+    "github_url": "https://github.com/M4G3LL4N0/VentureRank-OS",
+    "local_project_path": "/Users/matador/startups/venturerank-os",
+    "noaerth_venture_slug": "venturerank-os",
+    "noaerth_venture_url": "https://www.noaerth.com/venturerank-os",
+    "canonical_project_name": "VentureRank OS",
+    "aliases": [
+     "venturerank-os",
+     "venturerankos",
+     "venturerank-os",
+     "venturerank_os",
+     "venturerankos"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/VentureRank-OS.json"
+  },
+  {
+   "map": {
+    "github_repo": "vizuler",
+    "github_url": "https://github.com/M4G3LL4N0/vizuler",
+    "local_project_path": "/Users/matador/startups/vizuler",
+    "noaerth_venture_slug": "vizuler",
+    "noaerth_venture_url": "https://www.noaerth.com/vizuler",
+    "canonical_project_name": "Vizuler",
+    "aliases": [
+     "vizuler",
+     "vizuler",
+     "vizuler",
+     "vizuler",
+     "vizuler"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/vizuler.json"
+  },
+  {
+   "map": {
+    "github_repo": "why-are-you-here",
+    "github_url": "https://github.com/M4G3LL4N0/why-are-you-here",
+    "local_project_path": "",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "why-are-you-here",
+    "aliases": [
+     "why-are-you-here",
+     "whyareyouhere",
+     "why-are-you-here",
+     "why_are_you_here",
+     "whyareyouhere"
+    ],
+    "classification": "",
+    "confidence": "MAPPING_REVIEW_REQUIRED",
+    "basis": [],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ""
+  },
+  {
+   "map": {
+    "github_repo": "workflowcanvas",
+    "github_url": "https://github.com/M4G3LL4N0/workflowcanvas",
+    "local_project_path": "/Users/matador/startups/workflowcanvas",
+    "noaerth_venture_slug": "workflowcanvas",
+    "noaerth_venture_url": "https://www.noaerth.com/workflowcanvas",
+    "canonical_project_name": "WorkflowCanvas",
+    "aliases": [
+     "workflowcanvas",
+     "workflowcanvas",
+     "workflowcanvas",
+     "workflowcanvas",
+     "workflowcanvas"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/workflowcanvas.json"
+  },
+  {
+   "map": {
+    "github_repo": "youareprofound",
+    "github_url": "https://github.com/M4G3LL4N0/youareprofound",
+    "local_project_path": "/Users/matador/startups/youareprofound",
+    "noaerth_venture_slug": "youareprofound",
+    "noaerth_venture_url": "https://www.noaerth.com/youareprofound",
+    "canonical_project_name": "YouAreProfound",
+    "aliases": [
+     "youareprofound",
+     "youareprofound",
+     "youareprofound",
+     "youareprofound",
+     "youareprofound"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/youareprofound.json"
+  },
+  {
+   "map": {
+    "github_repo": "YouState",
+    "github_url": "https://github.com/M4G3LL4N0/YouState",
+    "local_project_path": "/Users/matador/startups/youstate",
+    "noaerth_venture_slug": "youstate",
+    "noaerth_venture_url": "https://www.noaerth.com/youstate",
+    "canonical_project_name": "YouState",
+    "aliases": [
+     "youstate",
+     "youstate",
+     "youstate",
+     "youstate",
+     "youstate"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/YouState.json"
+  },
+  {
+   "map": {
+    "github_repo": "Zaeus",
+    "github_url": "https://github.com/M4G3LL4N0/Zaeus",
+    "local_project_path": "",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "Zaeus",
+    "aliases": [
+     "zaeus",
+     "zaeus",
+     "zaeus",
+     "zaeus",
+     "zaeus"
+    ],
+    "classification": "",
+    "confidence": "MAPPING_REVIEW_REQUIRED",
+    "basis": [],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ""
+  },
+  {
+   "map": {
+    "github_repo": "zaeux",
+    "github_url": "https://github.com/M4G3LL4N0/zaeux",
+    "local_project_path": "/Users/matador/startups/zaeux",
+    "noaerth_venture_slug": "zaeux",
+    "noaerth_venture_url": "https://www.noaerth.com/zaeux",
+    "canonical_project_name": "Zaeux",
+    "aliases": [
+     "zaeux",
+     "zaeux",
+     "zaeux",
+     "zaeux",
+     "zaeux"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/zaeux.json"
   }
  ]
 }

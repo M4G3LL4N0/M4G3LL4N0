@@ -1,0 +1,65 @@
+{
+ "animation_metaphor": "threat approaches a boundary, the boundary reacts, the path closes",
+ "architecture_type": "SECURITY",
+ "benchmark_dimensions": [],
+ "canonical_name": "gh0st-website",
+ "ci": {
+  "present": true,
+  "workflows": []
+ },
+ "color_family": "",
+ "control_flow": "threat approaches a boundary, the boundary reacts, the path closes",
+ "data_flow": "",
+ "depth": "layered",
+ "design_version": "V6",
+ "evidence": {
+  "source_a_commits": "15",
+  "source_a_files": 194,
+  "source_a_local": "/Users/matador/startups/gh0st",
+  "source_b_venture": "",
+  "source_c_github": "https://github.com/M4G3LL4N0/gh0st-website"
+ },
+ "experimental_features": [],
+ "frameworks": [],
+ "geometry_family": "SECURITY",
+ "github_repo": "gh0st-website",
+ "industry": "SECURITY",
+ "input_types": [],
+ "known_limitations": [],
+ "languages": [
+  "TypeScript"
+ ],
+ "major_components": [],
+ "mapping_confidence": "high",
+ "material_family": "",
+ "output_types": [],
+ "primary_user": "",
+ "primary_visual_metaphor": "closed concentric containment around a protected core",
+ "primary_workflow": "threat approaches a boundary, the boundary reacts, the path closes",
+ "problem": "",
+ "project_category": "SECURITY",
+ "public_financial_context": "not published per venture",
+ "public_noaerth_positioning": "",
+ "purpose": "Public site for gh0st \u2014 local-first encrypted private AI client.",
+ "release": "unknown",
+ "secondary_visual_metaphor": "",
+ "secondary_workflows": [],
+ "security_characteristics": [],
+ "state_model": "",
+ "technical_category": "SECURITY",
+ "terminal_metaphor": "a cursor running real commands",
+ "tests": {
+  "executed": false,
+  "files": 1,
+  "note": "counted from the tree; not executed in Part 1",
+  "present": true
+ },
+ "trillionx_intensity": "standard",
+ "unresolved": [
+  "primary_user",
+  "problem"
+ ],
+ "venture_stage": "",
+ "verified_features": [],
+ "visual_density": "medium"
+}

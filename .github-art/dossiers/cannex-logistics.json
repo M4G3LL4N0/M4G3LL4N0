@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "sections assemble and settle",
+ "animation_metaphor": "policy surfaces assemble into a readable security posture",
  "architecture_type": "DOCUMENT",
  "benchmark_dimensions": [],
  "canonical_name": "CannexLogistics",
@@ -8,7 +8,7 @@
   "workflows": []
  },
  "color_family": "",
- "control_flow": "sections assemble and settle",
+ "control_flow": "policy surfaces assemble into a readable security posture",
  "data_flow": "",
  "depth": "layered",
  "design_version": "V6",
@@ -34,8 +34,8 @@
  "material_family": "",
  "output_types": [],
  "primary_user": "",
- "primary_visual_metaphor": "nested frames with a typographic rail",
- "primary_workflow": "sections assemble and settle",
+ "primary_visual_metaphor": "nested policy frames with a visible boundary edge",
+ "primary_workflow": "policy surfaces assemble into a readable security posture",
  "problem": "",
  "project_category": "SECURITY",
  "public_financial_context": "not published per venture",

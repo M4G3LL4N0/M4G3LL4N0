@@ -1,0 +1,65 @@
+{
+ "animation_metaphor": "an objective becomes context, tools read and write state, the loop closes",
+ "architecture_type": "DATA_FLOW",
+ "benchmark_dimensions": [],
+ "canonical_name": "ShopRight",
+ "ci": {
+  "present": false,
+  "workflows": []
+ },
+ "color_family": "",
+ "control_flow": "an objective becomes context, tools read and write state, the loop closes",
+ "data_flow": "",
+ "depth": "layered",
+ "design_version": "V6",
+ "evidence": {
+  "source_a_commits": "51",
+  "source_a_files": 103,
+  "source_a_local": "/Users/matador/startups/shopright",
+  "source_b_venture": "shopright",
+  "source_c_github": "https://github.com/M4G3LL4N0/ShopRight"
+ },
+ "experimental_features": [],
+ "frameworks": [],
+ "geometry_family": "DATA_FLOW",
+ "github_repo": "ShopRight",
+ "industry": "AGENT",
+ "input_types": [],
+ "known_limitations": [],
+ "languages": [
+  "TypeScript"
+ ],
+ "major_components": [],
+ "mapping_confidence": "high",
+ "material_family": "",
+ "output_types": [],
+ "primary_user": "",
+ "primary_visual_metaphor": "a state ring with tool nodes attached",
+ "primary_workflow": "an objective becomes context, tools read and write state, the loop closes",
+ "problem": "",
+ "project_category": "AGENT",
+ "public_financial_context": "not published per venture",
+ "public_noaerth_positioning": "",
+ "purpose": "ShopRight. build via `package.json`.",
+ "release": "unknown",
+ "secondary_visual_metaphor": "",
+ "secondary_workflows": [],
+ "security_characteristics": [],
+ "state_model": "",
+ "technical_category": "DATA_FLOW",
+ "terminal_metaphor": "a cursor running real commands",
+ "tests": {
+  "executed": false,
+  "files": 0,
+  "note": "counted from the tree; not executed in Part 1",
+  "present": false
+ },
+ "trillionx_intensity": "standard",
+ "unresolved": [
+  "primary_user",
+  "problem"
+ ],
+ "venture_stage": "",
+ "verified_features": [],
+ "visual_density": "medium"
+}

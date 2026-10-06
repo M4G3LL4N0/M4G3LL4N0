@@ -1,0 +1,65 @@
+{
+ "animation_metaphor": "jobs enter, queue, lease, complete",
+ "architecture_type": "SCHEDULER",
+ "benchmark_dimensions": [],
+ "canonical_name": "GrokInstall",
+ "ci": {
+  "present": true,
+  "workflows": []
+ },
+ "color_family": "",
+ "control_flow": "jobs enter, queue, lease, complete",
+ "data_flow": "",
+ "depth": "layered",
+ "design_version": "V6",
+ "evidence": {
+  "source_a_commits": "10",
+  "source_a_files": 173,
+  "source_a_local": "/Users/matador/startups/grokinstall",
+  "source_b_venture": "grokinstall",
+  "source_c_github": "https://github.com/M4G3LL4N0/grokinstall"
+ },
+ "experimental_features": [],
+ "frameworks": [],
+ "geometry_family": "SCHEDULER",
+ "github_repo": "grokinstall",
+ "industry": "SECURITY",
+ "input_types": [],
+ "known_limitations": [],
+ "languages": [
+  "Go"
+ ],
+ "major_components": [],
+ "mapping_confidence": "high",
+ "material_family": "",
+ "output_types": [],
+ "primary_user": "",
+ "primary_visual_metaphor": "queue lanes with lease markers",
+ "primary_workflow": "jobs enter, queue, lease, complete",
+ "problem": "",
+ "project_category": "SECURITY",
+ "public_financial_context": "not published per venture",
+ "public_noaerth_positioning": "",
+ "purpose": "Install the capability, not the complexity. A Go CLI that inspects a repo and installs the smallest useful integration.",
+ "release": "unknown",
+ "secondary_visual_metaphor": "",
+ "secondary_workflows": [],
+ "security_characteristics": [],
+ "state_model": "",
+ "technical_category": "SCHEDULER",
+ "terminal_metaphor": "a cursor running real commands",
+ "tests": {
+  "executed": false,
+  "files": 46,
+  "note": "counted from the tree; not executed in Part 1",
+  "present": true
+ },
+ "trillionx_intensity": "standard",
+ "unresolved": [
+  "primary_user",
+  "problem"
+ ],
+ "venture_stage": "",
+ "verified_features": [],
+ "visual_density": "medium"
+}

@@ -1,0 +1,67 @@
+{
+ "animation_metaphor": "capital enters, allocates across positions, and settles into an outcome",
+ "architecture_type": "DATA_FLOW",
+ "benchmark_dimensions": [],
+ "canonical_name": "DevState",
+ "ci": {
+  "present": false,
+  "workflows": []
+ },
+ "color_family": "",
+ "control_flow": "capital enters, allocates across positions, and settles into an outcome",
+ "data_flow": "",
+ "depth": "layered",
+ "design_version": "V6",
+ "evidence": {
+  "source_a_commits": "unknown",
+  "source_a_files": 41,
+  "source_a_local": "/Users/matador/startups/devstate",
+  "source_b_venture": "devstate",
+  "source_c_github": "https://github.com/M4G3LL4N0/devstate"
+ },
+ "experimental_features": [],
+ "frameworks": [],
+ "geometry_family": "DATA_FLOW",
+ "github_repo": "devstate",
+ "industry": "FINANCE",
+ "input_types": [],
+ "known_limitations": [],
+ "languages": [
+  "js",
+  "ts",
+  "tsx"
+ ],
+ "major_components": [],
+ "mapping_confidence": "high",
+ "material_family": "",
+ "output_types": [],
+ "primary_user": "",
+ "primary_visual_metaphor": "ledger columns with allocation flow between them",
+ "primary_workflow": "capital enters, allocates across positions, and settles into an outcome",
+ "problem": "",
+ "project_category": "FINANCE",
+ "public_financial_context": "not published per venture",
+ "public_noaerth_positioning": "",
+ "purpose": "Startup portfolio: devstate",
+ "release": "unknown",
+ "secondary_visual_metaphor": "",
+ "secondary_workflows": [],
+ "security_characteristics": [],
+ "state_model": "",
+ "technical_category": "DATA_FLOW",
+ "terminal_metaphor": "a cursor running real commands",
+ "tests": {
+  "executed": false,
+  "files": 0,
+  "note": "counted from the tree; not executed in Part 1",
+  "present": false
+ },
+ "trillionx_intensity": "standard",
+ "unresolved": [
+  "primary_user",
+  "problem"
+ ],
+ "venture_stage": "",
+ "verified_features": [],
+ "visual_density": "medium"
+}

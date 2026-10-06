@@ -1,5 +1,5 @@
 {
- "animation_metaphor": "records ingest, normalise, index, answer",
+ "animation_metaphor": "capital enters, allocates across positions, and settles into an outcome",
  "architecture_type": "DATA_FLOW",
  "benchmark_dimensions": [],
  "canonical_name": "AgentCore Silicon",
@@ -8,7 +8,7 @@
   "workflows": []
  },
  "color_family": "",
- "control_flow": "records ingest, normalise, index, answer",
+ "control_flow": "capital enters, allocates across positions, and settles into an outcome",
  "data_flow": "",
  "depth": "layered",
  "design_version": "V6",
@@ -34,8 +34,8 @@
  "material_family": "",
  "output_types": [],
  "primary_user": "",
- "primary_visual_metaphor": "parallel channels converging into an index",
- "primary_workflow": "records ingest, normalise, index, answer",
+ "primary_visual_metaphor": "ledger columns with allocation flow between them",
+ "primary_workflow": "capital enters, allocates across positions, and settles into an outcome",
  "problem": "",
  "project_category": "FINANCE",
  "public_financial_context": "not published per venture",
