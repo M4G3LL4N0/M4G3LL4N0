@@ -104,14 +104,21 @@ def completeness_fields(name: str, meta: dict, local: Path | None) -> dict:
                                 "no homepage; single-project repository"),
         "readme_complete": st(bool(isinstance(readme, dict)),
                               "no README on the default branch"),
-        "hero_complete": st(any(f.lower().endswith((".svg", ".png")) for f in root),
-                            "no hero asset at repository root"),
+        # Art lives under assets/hero/, not at the repository root. The earlier
+        # version scanned only root entries, so every repository with published
+        # art was reported as having none -- 122 false failures.
+        "hero_complete": st(
+            any(p.endswith("assets/hero/hero-motion.svg") or
+                (p.endswith((".svg", ".png")) and "/" not in p) for p in paths),
+            "no hero asset"),
         "animated_art_complete": st(
-            any(re.search(r"(motion|anim)", f, re.I) and f.endswith(".svg") for f in root),
-            "no animated SVG variant"),
+            "assets/hero/hero-motion.svg" in paths,
+            "no animated hero variant under assets/hero/"),
         "static_fallback_complete": st(
-            any(f.lower().endswith((".svg", ".png")) for f in root),
-            "no static art to fall back to"),
+            all(x in paths for x in ("assets/hero/hero-dark.svg",
+                                     "assets/hero/hero-light.svg",
+                                     "assets/hero/hero-reduced.svg")),
+            "missing a static dark, light or reduced-motion fallback"),
         "social_preview_complete": {
             "state": NA,
             "reason": "GitHub exposes no API field for a custom social preview; "

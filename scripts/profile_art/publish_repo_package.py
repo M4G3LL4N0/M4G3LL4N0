@@ -21,8 +21,10 @@ import argparse
 import base64
 import json
 import os
+import random
 import subprocess
 import sys
+import time
 from pathlib import Path
 
 PROFILE = Path(__file__).resolve().parents[2]
@@ -70,8 +72,24 @@ def sha_of(repo: str, path: str) -> str:
     return d.get("sha", "") if isinstance(d, dict) else ""
 
 
+# GitHub applies a secondary abuse limit to rapid mutations from one account.
+# Publishing 126 repositories back to back tripped it, and every subsequent
+# measurement silently returned empty -- which looked like missing art rather
+# than a throttled client. Mutations are therefore serialised and spaced.
+MUTATION_DELAY = float(os.environ.get("PUBLISH_DELAY", "0.7"))
+_last_mutation = [0.0]
+
+
+def throttle() -> None:
+    gap = time.monotonic() - _last_mutation[0]
+    if gap < MUTATION_DELAY:
+        time.sleep(MUTATION_DELAY - gap + random.uniform(0, 0.25))
+    _last_mutation[0] = time.monotonic()
+
+
 def write(repo: str, path: str, content: str, message: str,
           branch: str) -> tuple[bool, str]:
+    throttle()
     cmd = ["gh", "api", f"repos/{OWNER}/{repo}/contents/{path}", "-X", "PUT",
            "-f", f"message={message}",
            "-f", "content=" + base64.b64encode(content.encode()).decode(),
