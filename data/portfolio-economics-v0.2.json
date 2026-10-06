@@ -1,0 +1,86 @@
+{
+  "$comment": "Provenance record for every published portfolio-economics figure. The point of this file is that a reader can tell exactly how strong each number is without having to trust the profile.",
+  "model": {
+    "name": "Noaerth portfolio economics",
+    "version": "v0.2",
+    "source_type": "user_provided_management_model",
+    "independent_verification": "unavailable",
+    "audited": false,
+    "attributable_nav_established": false,
+    "provenance_note": "Figures were supplied directly by the owner in conversation. They are not the output of any workbook, script or model file present in this repository or anywhere under /Users/matador/startups. A search of the local portfolio for the stated counts and values returned no matching model. They are therefore recorded as owner-provided management estimates, which is a weaker and more accurate claim than 'model output'.",
+    "as_of": null,
+    "currency": "USD"
+  },
+  "required_labels": [
+    "MANAGEMENT ESTIMATE",
+    "UNAUDITED",
+    "VENTURE-LEVEL VALUATION MODEL",
+    "NOT AN INDEPENDENT APPRAISAL",
+    "NOT ATTRIBUTABLE PARENT NAV"
+  ],
+  "venture_counts": {
+    "registered_ventures": 124,
+    "by_stage": {
+      "live": 16,
+      "building": 102,
+      "research": 6
+    },
+    "stage_sum_check": "16 + 102 + 6 = 124, consistent"
+  },
+  "scenarios": {
+    "gross_venture_value": {
+      "low": 228635000,
+      "base": 653243000,
+      "high": 2802180000
+    },
+    "risk_adjusted": {
+      "haircut": 0.25,
+      "haircut_basis": "portfolio overlap and correlation between ventures",
+      "low": 171476000,
+      "base": 489932000,
+      "high": 2101635000
+    }
+  },
+  "arithmetic_checks": [
+    {
+      "claim": "25% haircut of the low scenario",
+      "computation": "228635000 * 0.75 = 171476250",
+      "stated": 171476000,
+      "delta": 250,
+      "verdict": "CONSISTENT_WITHIN_ROUNDING",
+      "note": "The stated low figure is rounded to the nearest thousand. The exact product is 171,476,250."
+    },
+    {
+      "claim": "25% haircut of the base scenario",
+      "computation": "653243000 * 0.75 = 489932250",
+      "stated": 489932000,
+      "delta": 250,
+      "verdict": "CONSISTENT_WITHIN_ROUNDING",
+      "note": "The stated base figure is rounded to the nearest thousand. The exact product is 489,932,250."
+    },
+    {
+      "claim": "25% haircut of the high scenario",
+      "computation": "2802180000 * 0.75 = 2101635000",
+      "stated": 2101635000,
+      "delta": 0,
+      "verdict": "EXACT"
+    },
+    {
+      "claim": "stage counts sum to registered ventures",
+      "computation": "16 + 102 + 6 = 124",
+      "stated": 124,
+      "delta": 0,
+      "verdict": "EXACT"
+    }
+  ],
+  "limitations": [
+    "No workbook, script or model file backing these figures exists in this repository or on the local filesystem. The numbers cannot currently be recomputed.",
+    "The 25% overlap haircut is applied uniformly to all three scenarios. That is a simplifying assumption, not a measurement: real correlated exposure would differ per venture and per stage.",
+    "Venture-level valuation is not additive to parent value. Summing 124 independent venture valuations assumes none of them share costs, customers, staff or liabilities.",
+    "Attributable parent NAV is not established. Ownership percentages across the 124 ventures are undocumented, so no figure here can be assigned to the parent entity.",
+    "No traction, revenue, comparable-transaction or discount-rate evidence supports the scenario spread.",
+    "'Live' and 'Building' are stage labels, not verified operating status."
+  ],
+  "publication_rule": "Every public rendering of these figures must carry all five labels in required_labels. The phrase 'Noaerth is worth $653M' is prohibited; the permitted form is 'Portfolio model: $653.2M gross base scenario, management estimate, unaudited, not attributable parent NAV'.",
+  "geometry_rule": "Any generated financial graphic must be numerically honest. Bar or area length must be proportional to the stated value on a stated scale. No 3D volume, perspective or shadow may encode magnitude, because perspective exaggerates and would make the low scenario look larger than the base scenario."
+}
