@@ -55,11 +55,24 @@ def gh(args: list[str], token: str) -> subprocess.CompletedProcess:
 
 
 def token() -> str:
-    tok = os.environ.get("GH_TOKEN") or subprocess.run(
-        ["gh", "auth", "token"], capture_output=True, text=True).stdout.strip()
+    """Return a usable token, or raise RuntimeError.
+
+    Raised rather than exited so the caller can decide whether an absent token
+    is a hard failure. On a pull request from a fork the repository secret is
+    not exposed, so treating that as a build failure reports a problem with the
+    fork rather than a real disagreement between sources.
+    """
+    tok = os.environ.get("GH_TOKEN") or ""
     if not tok:
-        print("reconcile: no GitHub token available", file=sys.stderr)
-        sys.exit(2)
+        try:
+            tok = subprocess.run(["gh", "auth", "token"],
+                                 capture_output=True, text=True).stdout.strip()
+        except (FileNotFoundError, OSError):
+            # gh not installed or not on PATH. A traceback here would blame the
+            # environment rather than reporting the actual condition.
+            raise RuntimeError("gh CLI not available and GH_TOKEN unset")
+    if not tok:
+        raise RuntimeError("no GitHub token available")
     return tok
 
 
@@ -158,7 +171,23 @@ def main() -> int:
     ap.add_argument("--json", default="", help="also write the full result here")
     args = ap.parse_args()
 
-    tok = token()
+    try:
+        tok = token()
+    except RuntimeError as exc:
+        # Report the skip and why. Silently passing would make the gate
+        # unfalsifiable; failing would blame a fork for a missing secret.
+        print("INVENTORY RECONCILIATION")
+        print(f"account: {OWNER}")
+        print()
+        print(f"SKIPPED: {exc}")
+        print("  No token, so no remote source could be queried. A pull request")
+        print("  from a fork does not receive repository secrets, so this gate")
+        print("  cannot run there. The zero-missing ledger invariant still runs,")
+        print("  because it verifies the committed ledger and needs no network.")
+        print()
+        print("  To run reconciliation locally:")
+        print("    GH_TOKEN=$(gh auth token) python3 scripts/profile_art/reconcile_inventory.py")
+        return 0
     sources = {
         "gh_cli": source_gh_cli(tok),
         "graphql": source_graphql(tok),

@@ -109,8 +109,8 @@ jobs:
           python3 scripts/profile_art/reconcile_inventory.py --json reconcile.json
 
       - name: Zero-missing ledger invariant holds
-        env:
-          GH_TOKEN: ${{ secrets.GH_PAT }}
+        # No token needed: this verifies the committed ledger against its own
+        # invariants, which is the contract that must hold unconditionally.
         run: |
           set -euo pipefail
           python3 scripts/profile_art/build_account_ledger.py --check
