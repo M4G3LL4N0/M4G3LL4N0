@@ -1,0 +1,1264 @@
+{
+ "$comment": "Vercel projects with a GitHub git integration, which triggers automatic production deployment on push. Disconnecting the link stops git-triggered deploys. Manual deploys via the CLI, deploy hooks and the dashboard do not require a link, so intentional deployment is preserved.",
+ "team": "team_Lz4OCU2eTnruvq8tL9XUVkUZ",
+ "captured_at": "2026-10-06T19:35:24Z",
+ "projects_total": 198,
+ "github_linked": 78,
+ "production_branch_main": 78,
+ "updated_within_10h": 16,
+ "connections": [
+  {
+   "vercel_project": "access-layer",
+   "vercel_project_id": "prj_sHynlgYtZqv0qqoCqUIm2NLCaj7g",
+   "github_repo": "access-layer",
+   "github_link": "access-layer",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": true,
+   "latest_production_alias": [
+    "app.accessxworld.com",
+    "www.accessxworld.com",
+    "accessxworld.noaerth.com",
+    "access-layer-five.vercel.app",
+    "accessxworld.com",
+    "access-layer-noaerth.vercel.app",
+    "access-layer-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791258559
+  },
+  {
+   "vercel_project": "agentos-website",
+   "vercel_project_id": "prj_vUh9pKtI8sObAFM0UQfq33tB5B00",
+   "github_repo": "agentos-website",
+   "github_link": "agentos-website",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "agentos-website-ten.vercel.app",
+    "agentos-website-noaerth.vercel.app",
+    "agentos-website-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791261712
+  },
+  {
+   "vercel_project": "autobuilder-mvp",
+   "vercel_project_id": "prj_o1zoQjoUxZoerZDE4BDEhL9yaL6J",
+   "github_repo": "autobuilder",
+   "github_link": "autobuilder",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "autobuilder-mvp-noaerth.vercel.app",
+    "autobuilder-mvp-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1790520707
+  },
+  {
+   "vercel_project": "ayncient",
+   "vercel_project_id": "prj_nfKiUS1AyRYtNIwChT83dzbEXLj6",
+   "github_repo": "Ayncient",
+   "github_link": "Ayncient",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "ayncient.vercel.app",
+    "ayncient.noaerth.com",
+    "ayncient-noaerth.vercel.app",
+    "ayncient-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1790628454
+  },
+  {
+   "vercel_project": "behindcurtain",
+   "vercel_project_id": "prj_f9tpJIQtgamAQY66a27ivR9dW46e",
+   "github_repo": "BehindCurtain",
+   "github_link": "BehindCurtain",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "behindcurtain.vercel.app",
+    "behindcurtain.noaerth.com",
+    "behindcurtain-noaerth.vercel.app",
+    "behindcurtain-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791307140
+  },
+  {
+   "vercel_project": "betterfintech",
+   "vercel_project_id": "prj_2fZkSmXVoh5Sq9CA465REu8l8ypY",
+   "github_repo": "betterfintech",
+   "github_link": "betterfintech",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "betterfintech-noaerth.vercel.app",
+    "betterfintech-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791295202
+  },
+  {
+   "vercel_project": "blitzproof",
+   "vercel_project_id": "prj_duStuTzlJcQaMFhBK4rI7HAgKoxv",
+   "github_repo": "blitzproof",
+   "github_link": "blitzproof",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "blitzproof-noaerth.vercel.app",
+    "blitzproof-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791259567
+  },
+  {
+   "vercel_project": "blitzunicorn",
+   "vercel_project_id": "prj_u5KHpNBXHx4xScTKpxW9fYQFh7KD",
+   "github_repo": "blitzunicorn",
+   "github_link": "blitzunicorn",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "blitzunicorn-noaerth.vercel.app",
+    "blitzunicorn-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791295217
+  },
+  {
+   "vercel_project": "bourgaeux",
+   "vercel_project_id": "prj_EyiHM2HsRfFI9PpPaGMW3tJlyphq",
+   "github_repo": "Bourgaeux",
+   "github_link": "Bourgaeux",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "bourgaeux.vercel.app",
+    "bourgaeux.noaerth.com",
+    "bourgaeux-noaerth.vercel.app",
+    "bourgaeux-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791307174
+  },
+  {
+   "vercel_project": "brandcrossover",
+   "vercel_project_id": "prj_qgJCVmtSNklk9fLVlyqQqJPvvQhn",
+   "github_repo": "BrandCrossover",
+   "github_link": "BrandCrossover",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "brandcrossover-noaerth.vercel.app",
+    "brandcrossover-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791307131
+  },
+  {
+   "vercel_project": "cannex-logistics",
+   "vercel_project_id": "prj_RPsl8oBNaRZZ0N0FfHJBVohVMBhD",
+   "github_repo": "cannex-logistics",
+   "github_link": "cannex-logistics",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "cannex-logistics.vercel.app",
+    "cannexlogistics.noaerth.com",
+    "cannex-logistics-noaerth.vercel.app",
+    "cannex-logistics-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791259656
+  },
+  {
+   "vercel_project": "cheetahbearfuel",
+   "vercel_project_id": "prj_sevkbeSRa2TksdNOSPZTLolojhra",
+   "github_repo": "cheetahbearfuel",
+   "github_link": "cheetahbearfuel",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "cheetahbearfuel.vercel.app",
+    "cheetahbearfuel.noaerth.com",
+    "cheetahbearfuel-noaerth.vercel.app",
+    "cheetahbearfuel-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791259678
+  },
+  {
+   "vercel_project": "childdevos",
+   "vercel_project_id": "prj_OF1Qb0mYDQo7mpyDpC4mK4tuv8eg",
+   "github_repo": "childdevos",
+   "github_link": "childdevos",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "childdevos.vercel.app",
+    "childdevos.noaerth.com",
+    "childdevos-noaerth.vercel.app",
+    "childdevos-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791268548
+  },
+  {
+   "vercel_project": "cleanstack-macos",
+   "vercel_project_id": "prj_4EUJPKNk6dtcsXyJzuGmQgvOGAhs",
+   "github_repo": "cleanstack-macos",
+   "github_link": "cleanstack-macos",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "cleanstack-macos.vercel.app",
+    "cleanstack-macos-noaerth.vercel.app",
+    "cleanstack-macos-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791308871
+  },
+  {
+   "vercel_project": "cleanstack-os",
+   "vercel_project_id": "prj_hv6dyFlZLRxLH1Vg93I0lZqNAe18",
+   "github_repo": "cleanstack-os",
+   "github_link": "cleanstack-os",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "cleanstack-os.vercel.app",
+    "cleanstack-os.noaerth.com",
+    "cleanstack-os-noaerth.vercel.app",
+    "cleanstack-os-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791259733
+  },
+  {
+   "vercel_project": "cloudcastle",
+   "vercel_project_id": "prj_Ka17Zi6DLM9PKL3SKafBXQ5DSEyM",
+   "github_repo": "cloudcastle",
+   "github_link": "cloudcastle",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "cloudcastle.noaerth.com",
+    "cloudcastle-beta.vercel.app",
+    "cloudcastle-noaerth.vercel.app",
+    "cloudcastle-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791314776
+  },
+  {
+   "vercel_project": "commos-website",
+   "vercel_project_id": "prj_8Mfkk05KNkTmdUVkHxQ9dGGQo5ph",
+   "github_repo": "commos",
+   "github_link": "commos",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "commos-website.vercel.app",
+    "commos-website-noaerth.vercel.app",
+    "commos-website-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791268599
+  },
+  {
+   "vercel_project": "computeflow-website",
+   "vercel_project_id": "prj_dABWbdcAhiWrKcuumRfmayg4cMth",
+   "github_repo": "computeflow-website",
+   "github_link": "computeflow-website",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "computeflow-website.vercel.app",
+    "computeflow-website-noaerth.vercel.app",
+    "computeflow-website-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791261762
+  },
+  {
+   "vercel_project": "cortexhq-website",
+   "vercel_project_id": "prj_wc66LFc181ADuJD8OBlx1moXts8U",
+   "github_repo": "cortexhq-website",
+   "github_link": "cortexhq-website",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "cortexhq-website.vercel.app",
+    "cortexhq-website-noaerth.vercel.app",
+    "cortexhq-website-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791261768
+  },
+  {
+   "vercel_project": "cropshield-ai-website",
+   "vercel_project_id": "prj_KYHe0JXO0TGzk3ySCshXvtyrW2VE",
+   "github_repo": "cropshield-ai-website",
+   "github_link": "cropshield-ai-website",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "cropshield-ai-website.vercel.app",
+    "cropshield-ai-website-noaerth.vercel.app",
+    "cropshield-ai-website-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791261774
+  },
+  {
+   "vercel_project": "cruxenio",
+   "vercel_project_id": "prj_orvKu0ZWBBnEUKjmjcJYdCk2qOVB",
+   "github_repo": "Cruxenio",
+   "github_link": "Cruxenio",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "cruxenio-noaerth.vercel.app",
+    "cruxenio-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791259701
+  },
+  {
+   "vercel_project": "cruxenio-website",
+   "vercel_project_id": "prj_c3tRdG9ZmlDfWMl65VY1CDFMeIAF",
+   "github_repo": "cruxenio-website",
+   "github_link": "cruxenio-website",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "cruxenio-website.vercel.app",
+    "cruxenio-website-noaerth.vercel.app",
+    "cruxenio-website-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791261780
+  },
+  {
+   "vercel_project": "cxntradict",
+   "vercel_project_id": "prj_WJmIMoyr5LSAHPZOCCA7QO11Iajq",
+   "github_repo": "CxNTRADICT",
+   "github_link": "CxNTRADICT",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "cxntradict.vercel.app",
+    "cxntradict.noaerth.com",
+    "cxntradict-noaerth.vercel.app",
+    "cxntradict-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791308422
+  },
+  {
+   "vercel_project": "cxntradict-website",
+   "vercel_project_id": "prj_E11jU2GyO8R5Rg0gVl8FJXRUYLiZ",
+   "github_repo": "cxntradict-website",
+   "github_link": "cxntradict-website",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "cxntradict-website.vercel.app",
+    "cxntradict-website-noaerth.vercel.app",
+    "cxntradict-website-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791261785
+  },
+  {
+   "vercel_project": "datatherapy",
+   "vercel_project_id": "prj_KVUWBBVGpf2NNbRz1ORiNLib49zs",
+   "github_repo": "datatherapy",
+   "github_link": "datatherapy",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "datatherapy-noaerth.vercel.app",
+    "datatherapy-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791260141
+  },
+  {
+   "vercel_project": "datatherapy-website",
+   "vercel_project_id": "prj_uW36sl8G6t1mp3cZTdtbuA2eadVi",
+   "github_repo": "datatherapy-website",
+   "github_link": "datatherapy-website",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "datatherapy-website.vercel.app",
+    "datatherapy-website-noaerth.vercel.app",
+    "datatherapy-website-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791261795
+  },
+  {
+   "vercel_project": "deploylocal",
+   "vercel_project_id": "prj_w4e4RtPAgqreOCD7kVSmsisJDwdO",
+   "github_repo": "deploylocal",
+   "github_link": "deploylocal",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": true,
+   "latest_production_alias": [
+    "deploylocal-noaerth.vercel.app",
+    "deploylocal-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791258546
+  },
+  {
+   "vercel_project": "deploylocal-website",
+   "vercel_project_id": "prj_BH1w2AwOMggE0y6aHSE594jl4Scj",
+   "github_repo": "deploylocal-website",
+   "github_link": "deploylocal-website",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "deploylocal-website.vercel.app",
+    "deploylocal-website-noaerth.vercel.app",
+    "deploylocal-website-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791258400
+  },
+  {
+   "vercel_project": "devstate-website",
+   "vercel_project_id": "prj_Zqyf7D5o37nGnhySD9kNl5mIa7IS",
+   "github_repo": "devstate-website",
+   "github_link": "devstate-website",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "devstate-website.vercel.app",
+    "devstate-website-noaerth.vercel.app",
+    "devstate-website-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791258405
+  },
+  {
+   "vercel_project": "emailsimple",
+   "vercel_project_id": "prj_TuNj9iUN6h8nSDjvTtSMoEt0zy4w",
+   "github_repo": "EmailSimple",
+   "github_link": "EmailSimple",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "emailsimple.vercel.app",
+    "emailsimple.noaerth.com",
+    "emailsimple-noaerth.vercel.app",
+    "emailsimple-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791259900
+  },
+  {
+   "vercel_project": "emailsimple-website",
+   "vercel_project_id": "prj_cp0d8qeYaIcD83ES9FqNNg3qJeun",
+   "github_repo": "emailsimple-website",
+   "github_link": "emailsimple-website",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "emailsimple-website.vercel.app",
+    "emailsimple-website-noaerth.vercel.app",
+    "emailsimple-website-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791258412
+  },
+  {
+   "vercel_project": "evsec-one",
+   "vercel_project_id": "prj_2aJMjhEhTRbmuXbFf1gKRiu5y9uF",
+   "github_repo": "EVSec.one",
+   "github_link": "EVSec.one",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "evsec-one-noaerth.vercel.app",
+    "evsec-one-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791295312
+  },
+  {
+   "vercel_project": "foreverluvd",
+   "vercel_project_id": "prj_nJJBl1ZnR4HEkiS0ZIQhjPtFSvxR",
+   "github_repo": "ForeverLuvd",
+   "github_link": "ForeverLuvd",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "foreverluvd.vercel.app",
+    "foreverluvd.noaerth.com",
+    "foreverluvd-noaerth.vercel.app",
+    "foreverluvd-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791259922
+  },
+  {
+   "vercel_project": "founderskingdom",
+   "vercel_project_id": "prj_EaClDWNnn6QwXTJirdnjaBeqQK3s",
+   "github_repo": "founderskingdom",
+   "github_link": "founderskingdom",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": true,
+   "latest_production_alias": [
+    "founderskingdom-noaerth.vercel.app",
+    "founderskingdom-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791258557
+  },
+  {
+   "vercel_project": "freeconomie",
+   "vercel_project_id": "prj_MlwKyZMsnSZIvSTP6xdQHiFhaRsn",
+   "github_repo": "freewash-finder",
+   "github_link": "freewash-finder",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "freeconomie-noaerth.vercel.app",
+    "freeconomie-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791260315
+  },
+  {
+   "vercel_project": "fungmind",
+   "vercel_project_id": "prj_NYYThX5cAqeQs81a3K5GlWqD9o5a",
+   "github_repo": "FungMind",
+   "github_link": "FungMind",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "fungmind-noaerth.vercel.app",
+    "fungmind-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791259750
+  },
+  {
+   "vercel_project": "gh0st",
+   "vercel_project_id": "prj_8OlBCkaKw1asd9qwcFwnWGegyvOj",
+   "github_repo": "gh0st-website",
+   "github_link": "gh0st-website",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "gh0st-six.vercel.app",
+    "gh0st-noaerth.vercel.app",
+    "gh0st-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791258337
+  },
+  {
+   "vercel_project": "grokgeneral",
+   "vercel_project_id": "prj_WeXRmS4AL5NZRLiVei9HCM98TrtY",
+   "github_repo": "grokgeneral",
+   "github_link": "grokgeneral",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "grokgeneral.vercel.app",
+    "grokgeneral-noaerth.vercel.app",
+    "grokgeneral-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791260469
+  },
+  {
+   "vercel_project": "grokinstall-website",
+   "vercel_project_id": "prj_W0MKDN2Z1PejQuEWnrjYBfgvNGMk",
+   "github_repo": "grokinstall-website",
+   "github_link": "grokinstall-website",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "grokinstall-website.vercel.app",
+    "grokinstall-website-noaerth.vercel.app",
+    "grokinstall-website-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791258375
+  },
+  {
+   "vercel_project": "grokmax",
+   "vercel_project_id": "prj_EgPhEEyto5joRojucmJRWy7gDd2Z",
+   "github_repo": "grokmax-website",
+   "github_link": "grokmax-website",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "grokmax.noaerth.com",
+    "grokmax-orpin.vercel.app",
+    "grokmax-noaerth.vercel.app",
+    "grokmax-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791258445
+  },
+  {
+   "vercel_project": "hackerzart",
+   "vercel_project_id": "prj_GKCJmAWVeWJ3FJhA5GrNfsIRrd3o",
+   "github_repo": "HackerzArt",
+   "github_link": "HackerzArt",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "hackerzart-noaerth.vercel.app",
+    "hackerzart-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791268670
+  },
+  {
+   "vercel_project": "happyblock",
+   "vercel_project_id": "prj_OgTDVN6w9CgsjFZkKK3N03kIAAWd",
+   "github_repo": "happyblock",
+   "github_link": "happyblock",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "happyblock-noaerth.vercel.app",
+    "happyblock-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791259773
+  },
+  {
+   "vercel_project": "legacybridge",
+   "vercel_project_id": "prj_7lQvTiRfLnYipYFM1e3Tmeq1vdXp",
+   "github_repo": "legacybridge",
+   "github_link": "legacybridge",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "legacybridge.noaerth.com",
+    "legacybridge-seven.vercel.app",
+    "legacybridge-noaerth.vercel.app",
+    "legacybridge-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791259560
+  },
+  {
+   "vercel_project": "luvconvos",
+   "vercel_project_id": "prj_ZNmERCo9GOzPKHsu1CkwULZxVbdj",
+   "github_repo": "luvconvos",
+   "github_link": "luvconvos",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "luvconvos-noaerth.vercel.app",
+    "luvconvos-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791260195
+  },
+  {
+   "vercel_project": "luvpartnr",
+   "vercel_project_id": "prj_YyYrNzeXdFeEJHponF92K0JtAcCX",
+   "github_repo": "luvpartnr",
+   "github_link": "luvpartnr",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": true,
+   "latest_production_alias": [
+    "luvpartnr-noaerth.vercel.app",
+    "luvpartnr-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791258570
+  },
+  {
+   "vercel_project": "luvstories",
+   "vercel_project_id": "prj_x101CifhfW3vNVVVcl4izQ58dXAI",
+   "github_repo": "luvstories",
+   "github_link": "luvstories",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "luvstories-noaerth.vercel.app",
+    "luvstories-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791260208
+  },
+  {
+   "vercel_project": "modex",
+   "vercel_project_id": "prj_KmE6X6ZDYTVU80kfDwywfmCgOiK5",
+   "github_repo": "Modex",
+   "github_link": "Modex",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "modex-noaerth.vercel.app",
+    "modex-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791259785
+  },
+  {
+   "vercel_project": "naextblock",
+   "vercel_project_id": "prj_rAteemfXdFTFr9kHZ9S1UlMgEaDj",
+   "github_repo": "NaextBlock",
+   "github_link": "NaextBlock",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "naextblock-noaerth.vercel.app",
+    "naextblock-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791259796
+  },
+  {
+   "vercel_project": "noaerth",
+   "vercel_project_id": "prj_ZbrlSSwKnY9B0Edk57JcvtV5FxVV",
+   "github_repo": "noaerth",
+   "github_link": "noaerth",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": true,
+   "latest_production_alias": [
+    "www.noaerth.com",
+    "noaerth.vercel.app",
+    "noaerth.com",
+    "noaerth-noaerth.vercel.app",
+    "noaerth-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1790963358
+  },
+  {
+   "vercel_project": "noaerth-ecosystem",
+   "vercel_project_id": "prj_2urGyj6D7imP9tAfM2Wgg6KnN8PW",
+   "github_repo": "Noaerth-Labs",
+   "github_link": "Noaerth-Labs",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "noaerth-ecosystem-keystone-labs1.vercel.app",
+    "noaerth-ecosystem-m4g3ll4n0-keystone-labs1.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1790571821
+  },
+  {
+   "vercel_project": "noaerth-labs",
+   "vercel_project_id": "prj_CgRPu75JA42DX2OaurB4NpQr6ELt",
+   "github_repo": "Noaerth-Labs",
+   "github_link": "Noaerth-Labs",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "noaerth-labs.vercel.app",
+    "noaerth-labs-noaerth.vercel.app",
+    "noaerth-labs-noaerth-labs-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1790571821
+  },
+  {
+   "vercel_project": "noaerth-team",
+   "vercel_project_id": "prj_kmN0e1tiDmKD2pYjpHGLLDciAwd2",
+   "github_repo": "Noaerth-Team",
+   "github_link": "Noaerth-Team",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "noaerth-team.vercel.app",
+    "noaerth-team.noaerth.com",
+    "noaerth-team-noaerth.vercel.app",
+    "noaerth-team-noaerth-labs-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1790571844
+  },
+  {
+   "vercel_project": "node_modules",
+   "vercel_project_id": "prj_i2SYBcwrqfy3o0O55eBzhCNGPeM7",
+   "github_repo": "node_modules",
+   "github_link": "node_modules",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "nodemodules-bice.vercel.app",
+    "nodemodules-noaerth.vercel.app",
+    "nodemodules-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791268411
+  },
+  {
+   "vercel_project": "oddbotix",
+   "vercel_project_id": "prj_52Q1CTPFL4VljGI7RxKahToPdtyn",
+   "github_repo": "oddbotix",
+   "github_link": "oddbotix",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "oddbotix.vercel.app",
+    "oddbotix.noaerth.com",
+    "oddbotix-noaerth.vercel.app",
+    "oddbotix-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791309811
+  },
+  {
+   "vercel_project": "opencode-watchdog",
+   "vercel_project_id": "prj_P4i4fB2D40p56B7a69tqpzmRnc7b",
+   "github_repo": "opencode-watchdog-website",
+   "github_link": "opencode-watchdog-website",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "opencode-watchdog.vercel.app",
+    "opencode-watchdog-noaerth.vercel.app",
+    "opencode-watchdog-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791258388
+  },
+  {
+   "vercel_project": "poolwater",
+   "vercel_project_id": "prj_kvgB4zzTvTIASuQJM7B4rekUnVDl",
+   "github_repo": "poolwater",
+   "github_link": "poolwater",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "poolwater-noaerth.vercel.app",
+    "poolwater-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791259829
+  },
+  {
+   "vercel_project": "redwoud",
+   "vercel_project_id": "prj_35TUqznjP3dffzyCOzMidD2R9gCV",
+   "github_repo": "redwoud",
+   "github_link": "redwoud",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": true,
+   "latest_production_alias": [
+    "redwoud-noaerth.vercel.app",
+    "redwoud-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791259506
+  },
+  {
+   "vercel_project": "requestayo",
+   "vercel_project_id": "prj_ygjSoDh8rSGcE0Xn4gRWKtRcy24S",
+   "github_repo": "RequestAyo",
+   "github_link": "RequestAyo",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "requestayo-noaerth.vercel.app",
+    "requestayo-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791260219
+  },
+  {
+   "vercel_project": "saeturtle",
+   "vercel_project_id": "prj_KSGCFJfiRgLdbWTH7DP4uD2gW3zl",
+   "github_repo": "saeturtle",
+   "github_link": "saeturtle",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "saeturtle-noaerth.vercel.app",
+    "saeturtle-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791259840
+  },
+  {
+   "vercel_project": "shopright",
+   "vercel_project_id": "prj_2RAirvFTnGcE0BQr7miBBLLznXhp",
+   "github_repo": "ShopRight",
+   "github_link": "ShopRight",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "shopright-noaerth.vercel.app",
+    "shopright-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791259851
+  },
+  {
+   "vercel_project": "soulmayte",
+   "vercel_project_id": "prj_ABFXtSTQH3TsAB5bn1l2mFNlxK1e",
+   "github_repo": "SoulMayte",
+   "github_link": "SoulMayte",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "soulmayte-noaerth.vercel.app",
+    "soulmayte-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791259860
+  },
+  {
+   "vercel_project": "spaceedu",
+   "vercel_project_id": "prj_qWCyeiAGBME4Bc8W3kzzMWCoOFGC",
+   "github_repo": "spaceedu",
+   "github_link": "spaceedu",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "spaceedu-noaerth.vercel.app",
+    "spaceedu-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791260228
+  },
+  {
+   "vercel_project": "spouwse",
+   "vercel_project_id": "prj_QAtkfpIbcxVfQEjoYiJs91q2Y8O0",
+   "github_repo": "Spouwse",
+   "github_link": "Spouwse",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "spouwse.vercel.app",
+    "spouwse.noaerth.com",
+    "spouwse-noaerth.vercel.app",
+    "spouwse-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791268767
+  },
+  {
+   "vercel_project": "src",
+   "vercel_project_id": "prj_jZnyOKoIrzlP9q0RoNt8VhpLoawi",
+   "github_repo": "src",
+   "github_link": "src",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "src-alpha-steel.vercel.app",
+    "src-noaerth.vercel.app",
+    "src-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791295038
+  },
+  {
+   "vercel_project": "startupquick",
+   "vercel_project_id": "prj_pGI3rEKPr2NMIFTcgj2nsmiWbPvx",
+   "github_repo": "startupquick",
+   "github_link": "startupquick",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "startupquick.vercel.app",
+    "startupquick-online.noaerth.com",
+    "startupquick-noaerth.vercel.app",
+    "startupquick-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791260598
+  },
+  {
+   "vercel_project": "strxngth",
+   "vercel_project_id": "prj_6fJRUOTS52qadODXsxK2XFhAgQQ4",
+   "github_repo": "strxngth",
+   "github_link": "strxngth",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "strxngth-noaerth.vercel.app",
+    "strxngth-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791260256
+  },
+  {
+   "vercel_project": "styles",
+   "vercel_project_id": "prj_JX4Tfw23NuhAwLC7M9MbUXVuTyHr",
+   "github_repo": "styles",
+   "github_link": "styles",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "styles-beta-liart.vercel.app",
+    "styles-noaerth.vercel.app",
+    "styles-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791295072
+  },
+  {
+   "vercel_project": "sunsetx",
+   "vercel_project_id": "prj_QwkBmhaPMP8JzQYg9Kx0pUn5uL6x",
+   "github_repo": "SUNSETX",
+   "github_link": "SUNSETX",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": true,
+   "latest_production_alias": [
+    "sunsetx.vercel.app",
+    "sunsetx.noaerth.com",
+    "sunsetx-noaerth.vercel.app",
+    "sunsetx-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791258692
+  },
+  {
+   "vercel_project": "tempoos",
+   "vercel_project_id": "prj_CEO52StAJ79ZPOA2EOixf3HqeLw2",
+   "github_repo": "tempoos",
+   "github_link": "tempoos",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "tempoos-noaerth.vercel.app",
+    "tempoos-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791259897
+  },
+  {
+   "vercel_project": "therapyux",
+   "vercel_project_id": "prj_Och2h9ix9R6apkAIqmUkj0m1vJRN",
+   "github_repo": "TherapyUX",
+   "github_link": "TherapyUX",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "therapyux-noaerth.vercel.app",
+    "therapyux-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791307996
+  },
+  {
+   "vercel_project": "trustxverify",
+   "vercel_project_id": "prj_oj8xtvozGXF8Su9HhNssA7T95tv7",
+   "github_repo": "TrustxVerify",
+   "github_link": "TrustxVerify",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "trustxverify.vercel.app",
+    "trustxverify.noaerth.com",
+    "trustxverify-noaerth.vercel.app",
+    "trustxverify-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791260377
+  },
+  {
+   "vercel_project": "uxvisualengine",
+   "vercel_project_id": "prj_tC8MRmO7hqECJxeilbckl5OsOBUv",
+   "github_repo": "uxvisualengine",
+   "github_link": "uxvisualengine",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "uxvisualengine-noaerth.vercel.app",
+    "uxvisualengine-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791295497
+  },
+  {
+   "vercel_project": "valuedsociety",
+   "vercel_project_id": "prj_PMeaUp6uGtISVvtNpjADUOVEwTI9",
+   "github_repo": "valuedsociety",
+   "github_link": "valuedsociety",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "virtus-eta.vercel.app",
+    "valuedsociety.noaerth.com",
+    "valuedsociety-noaerth.vercel.app",
+    "valuedsociety-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791260670
+  },
+  {
+   "vercel_project": "vencapmentor",
+   "vercel_project_id": "prj_HUpS4HpikJENEJuDcdISOt42Jvtb",
+   "github_repo": "vencapmentor",
+   "github_link": "vencapmentor",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "vencapmentor-noaerth.vercel.app",
+    "vencapmentor-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791295509
+  },
+  {
+   "vercel_project": "venturerank-os",
+   "vercel_project_id": "prj_XKX6jovMksmn0IVWgR9IJzkcPpCo",
+   "github_repo": "VentureRank-OS",
+   "github_link": "VentureRank-OS",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "venturerank-os.vercel.app",
+    "venturerank-os.noaerth.com",
+    "venturerank-os-noaerth.vercel.app",
+    "venturerank-os-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1790523624
+  },
+  {
+   "vercel_project": "youareprofound",
+   "vercel_project_id": "prj_F4MGfRmbQnmB7vJmv87REYSCgABW",
+   "github_repo": "youareprofound",
+   "github_link": "youareprofound",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "youareprofound-noaerth.vercel.app",
+    "youareprofound-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791260294
+  },
+  {
+   "vercel_project": "youstate",
+   "vercel_project_id": "prj_UU4tej9LUYSimTMqjls1XHwYoq7V",
+   "github_repo": "YouState",
+   "github_link": "YouState",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "youstate-noaerth.vercel.app",
+    "youstate-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791259944
+  },
+  {
+   "vercel_project": "zaeux",
+   "vercel_project_id": "prj_vz829s8sM5p7r0DjOLh0eB2rkbBi",
+   "github_repo": "Zaeus",
+   "github_link": "Zaeus",
+   "git_type": "github",
+   "production_branch": "main",
+   "sourceless": null,
+   "latest_production_alias": [
+    "zaeux-noaerth.vercel.app",
+    "zaeux-git-main-noaerth.vercel.app"
+   ],
+   "repo_root": null,
+   "updated_at": 1791295540
+  }
+ ],
+ "disconnected_at": "2026-10-06T19:38:47Z",
+ "disconnected": 78,
+ "disconnect_failures": 0,
+ "verification": {
+  "method": "oddbotix: documentation-only commit pushed to main, deployment count compared before and after",
+  "deployments_before": 9,
+  "deployments_after": 9,
+  "result": "GIT_PUSH_NO_LONGER_TRIGGERS_VERCEL_DEPLOYMENT",
+  "projects_intact": 191,
+  "production_deployments_intact": 189,
+  "still_linked_after": 0,
+  "manual_deploy_preserved": "CLI, deploy hooks and dashboard deploys do not require a git link"
+ }
+}
