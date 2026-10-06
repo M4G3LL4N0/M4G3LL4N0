@@ -257,6 +257,91 @@ def main() -> int:
     if not converged:
         queue.append("completion has not caught up with remote public count")
 
+
+    # ---- V6 Part 1 gates -------------------------------------------------
+
+    # Art reversion must be structurally impossible, not merely unlikely.
+    art_lock = subprocess.run(
+        [sys.executable, str(PROFILE / "scripts/profile_art/art_lock.py"), "--verify"],
+        capture_output=True, text=True, cwd=str(PROFILE))
+    checks.append(("art lock holds (design assets unreverted)", art_lock.returncode == 0,
+                   "holds" if art_lock.returncode == 0 else
+                   art_lock.stdout.strip().splitlines()[-1][:60]))
+    if art_lock.returncode != 0:
+        queue.append("art lock violated: a design-controlled asset changed without "
+                     "an explicit --lock")
+
+    # The scheduled job must not run the design generator.
+    sync = (PROFILE / ".github/workflows/sync-profile.yml").read_text(encoding="utf-8")
+    runs_generator = re.search(r"^\s*python3 .*generate\.py", sync, re.M) is not None
+    sweeps_art = "git add README.md assets/profile\n" in sync or         re.search(r"git add README\.md assets/profile$", sync, re.M) is not None
+    checks.append(("scheduled automation cannot regenerate or commit design art",
+                   not runs_generator and not sweeps_art,
+                   "generator removed and staging narrowed" if not runs_generator
+                   and not sweeps_art else "design generator still reachable"))
+    if runs_generator or sweeps_art:
+        queue.append("sync-profile.yml still regenerates or stages design assets")
+
+    # Mapping, dossiers, art plan, uniqueness.
+    pm = PROFILE / "project-map.json"
+    mapping = json.loads(pm.read_text()) if pm.exists() else {"records": []}
+    unresolved = [r["map"]["github_repo"] for r in mapping["records"]
+                  if r["map"]["confidence"] == "MAPPING_REVIEW_REQUIRED"]
+    checks.append(("every public repository is mapped or explicitly flagged",
+                   True, f"{len(mapping['records'])} mapped, "
+                         f"{len(unresolved)} flagged for review"))
+    if unresolved:
+        queue.append(f"resolve mapping: {unresolved[:6]}")
+
+    dossier_count = len(list((PROFILE / ".github-art" / "dossiers").glob("*.json"))) \
+        if (PROFILE / ".github-art" / "dossiers").is_dir() else 0
+    checks.append(("project dossiers exist for mapped repositories",
+                   dossier_count >= len(mapping["records"]) - len(unresolved),
+                   f"{dossier_count} dossiers"))
+
+    artplan = PROFILE / "GITHUB_V6_PROJECT_ART_PLAN.md"
+    plan_text = artplan.read_text(encoding="utf-8") if artplan.exists() else ""
+    rows = plan_text.count("| `")
+    checks.append(("art plan covers every public owned repository",
+                   rows >= len(mapping["records"]) - len(unresolved),
+                   f"{rows} rows in GITHUB_V6_PROJECT_ART_PLAN.md"))
+
+    audit = subprocess.run(
+        [sys.executable, str(PROFILE / "scripts/profile_art/build_art_plan.py"),
+         "--audit-only"], capture_output=True, text=True, cwd=str(PROFILE))
+    checks.append(("no shared hero, palette or motion story across the portfolio",
+                   audit.returncode == 0,
+                   "unique" if audit.returncode == 0 else
+                   (audit.stdout.strip().splitlines()[-1][:60])))
+    if audit.returncode != 0:
+        queue.append("uniqueness audit: too many repositories share a hero, "
+                     "palette or animation story")
+
+    # Financial provenance must be recorded before anything is published.
+    fin = PROFILE / "data" / "portfolio-economics-v0.2.json"
+    fin_ok = False
+    if fin.exists():
+        f = json.loads(fin.read_text())
+        fin_ok = (f["model"]["source_type"] == "user_provided_management_model"
+                  and f["model"]["audited"] is False
+                  and f["model"]["attributable_nav_established"] is False
+                  and len(f["required_labels"]) == 5)
+    readme = (PROFILE / "README.md").read_text(encoding="utf-8")
+    # Markdown line wrapping and the blockquote prefix put these labels across
+    # several lines, so a literal substring search reports a label that is
+    # plainly present in the rendered page. Whitespace and '>' are normalised
+    # before matching.
+    flat = re.sub(r"[\s>]+", " ", readme.upper())
+    labels_on_profile = all(
+        l in flat for l in ("MANAGEMENT ESTIMATE", "UNAUDITED",
+                            "VENTURE-LEVEL VALUATION MODEL",
+                            "NOT AN INDEPENDENT APPRAISAL",
+                            "NOT ATTRIBUTABLE PARENT NAV"))
+    checks.append(("financial source record established and labelled on profile",
+                   fin_ok and labels_on_profile,
+                   "recorded with all five labels" if fin_ok and labels_on_profile
+                   else "missing provenance or labels"))
+
     # report
     print("=" * 74)
     print("GITHUB COMPLETION ASSERTION")
