@@ -125,7 +125,18 @@ def main() -> int:
         if is_site_only(name):
             withheld_site_only += 1
             continue
-        if repo.get("private"):
+        # Check both shapes. The snapshot carries `visibility`, and gh returns it
+        # uppercase; an earlier version only tested a `private` boolean that the
+        # snapshot never had, so every private repository -- including every
+        # denylisted one -- was published into the inventory.
+        vis = str(repo.get("visibility") or "").strip().lower()
+        is_private = bool(repo.get("private")) or (vis and vis != "public")
+        if is_private:
+            withheld_private += 1
+            continue
+        if not vis and "private" not in repo:
+            # No visibility information at all: refuse to publish rather than
+            # assume the permissive answer.
             withheld_private += 1
             continue
         public_rows.append(repo)
@@ -158,9 +169,22 @@ def main() -> int:
             "ci": {
                 "has_workflow": bool(repo.get("has_ci")),
                 "latest_conclusion": conclusion or None,
+                # Three states, not two. A repository with no workflow, or with
+                # a workflow that has never produced a recorded run, is
+                # UNKNOWN. Reporting that as "not green" put 135 freshly
+                # published repositories on a failure list purely because no
+                # measurement had been taken yet.
+                "state": ("green" if conclusion == "success"
+                          else "red" if conclusion in ("failure", "cancelled", "timed_out")
+                          else "unknown"),
                 "green": conclusion == "success",
             },
             "pushed_at": repo.get("pushed_at") or "",
+            # Recorded explicitly. The safety suite asserts README coverage, and
+            # an absent field reads identically to an absent README, so the
+            # check could not tell "no README" from "not measured".
+            "readme_present": bool((readmes.get(name.lower()) or "").strip()),
+            "readme_bytes": len((readmes.get(name.lower()) or "").encode("utf-8")),
         })
 
     counts: dict[str, int] = {}
@@ -194,8 +218,10 @@ def main() -> int:
         "measured_totals": {
             "verified_tests": sum(e["verified_tests"] or 0 for e in engineering),
             "releases": sum(e["release_count"] for e in engineering),
-            "ci_green": sum(1 for e in engineering if e["ci"]["green"]),
-            "ci_not_green": sorted(e["name"] for e in engineering if not e["ci"]["green"]),
+            "ci_green": sum(1 for e in engineering if e["ci"]["state"] == "green"),
+            "ci_red": sorted(e["name"] for e in engineering if e["ci"]["state"] == "red"),
+            "ci_unknown": sum(1 for e in engineering if e["ci"]["state"] == "unknown"),
+            "ci_with_workflow": sum(1 for e in engineering if e["ci"]["has_workflow"]),
             "external_merged_prs": 0,
             "external_merged_pr_note": (
                 "no pull request authored by this account has been merged into a "

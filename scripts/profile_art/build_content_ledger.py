@@ -63,6 +63,21 @@ def read_readme(full_name: str) -> str:
         return ""
 
 
+# Absolute local paths, including the author's home directory, must never reach
+# a published artifact. The ledger quotes commands and links lifted verbatim out
+# of every public README, so without redaction a repository that happens to
+# document an absolute local path would leak the author's directory layout into
+# the profile repository.
+LOCAL_PATH = re.compile(r"/Users/[A-Za-z0-9_.-]+(?:/[A-Za-z0-9_.-]+)*")
+HOME_PATH = re.compile(r"/home/[A-Za-z0-9_.-]+(?:/[A-Za-z0-9_.-]+)*")
+REDACTED = "<local-path-redacted>"
+
+
+def redact(text: str) -> str:
+    text = LOCAL_PATH.sub(REDACTED, text)
+    return HOME_PATH.sub(REDACTED, text)
+
+
 def commands_from(readme: str) -> list[str]:
     """Invocations a reader could actually paste."""
     found: list[str] = []
@@ -122,7 +137,7 @@ def main() -> int:
 
     entries = {}
     for repo in inventory["repositories"]:
-        readme = read_readme(repo["full_name"])
+        readme = redact(read_readme(repo["full_name"]))
         entries[repo["name"]] = {
             "full_name": repo["full_name"],
             "classification": repo["classification"],

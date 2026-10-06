@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T22:11:58+00:00",
+  "generated_at": "2026-10-05T22:52:03+00:00",
   "owner": "M4G3LL4N0",
   "source": "enriched repos.json snapshot + tests.json (operator-recorded test counts)",
   "excludes": "site-only (*-website) and identity surfaces are not engineering systems",
@@ -22,8 +22,8 @@
       "key": "ci_backed",
       "label": "CI",
       "note": "systems whose latest workflow run passed",
-      "value": 5,
-      "display": "5"
+      "value": 6,
+      "display": "6"
     },
     {
       "key": "public_releases",
