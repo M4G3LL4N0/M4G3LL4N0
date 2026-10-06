@@ -1,5 +1,11 @@
 # GitHub Elite — Mass Rollout Report
 
+> **SUPERSEDED — portfolio economics removed from GitHub in V7.**
+> This report is retained as an accurate record of what was published
+> and when it was retired. The financial section, plate and methodology
+> were deliberately withdrawn by direction change. They are not current
+> and must not be cited. Noaerth.com is outside the GitHub-only boundary
+> and is untouched.
 Generated from measured repository state. Every number here was read from the
 GitHub API or produced by a command that ran. Where a measurement was not
 taken, the report says so rather than estimating.

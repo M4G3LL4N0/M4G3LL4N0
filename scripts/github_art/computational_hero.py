@@ -60,9 +60,8 @@ TERM_LINES = [
     ("ci        6 green  \u00b7  4 red  \u00b7  110 not configured", DIM),
     ("releases  9", DIM),
     ("", INK),
-    ("$ portfolio economics --caveated", INK),
-    ("base  $653.2M gross  \u00b7  $489.9M risk-adjusted", GOLD),
-    ("management estimate \u00b7 unaudited \u00b7 not attributable NAV", FAINT),
+    ("$ stack --language --systems", INK),
+    ("typescript \u00b7 python \u00b7 go \u00b7 rust", DIM),
     ("", INK),
     ("$ why-are-you-here", INK),
 ]

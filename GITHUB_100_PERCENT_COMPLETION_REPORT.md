@@ -1,5 +1,11 @@
 # GitHub 100% Completion Report
 
+> **SUPERSEDED — portfolio economics removed from GitHub in V7.**
+> This report is retained as an accurate record of what was published
+> and when it was retired. The financial section, plate and methodology
+> were deliberately withdrawn by direction change. They are not current
+> and must not be cited. Noaerth.com is outside the GitHub-only boundary
+> and is untouched.
 **GITHUB NOT COMPLETE** — 12 of 13 assertion conditions pass. The remaining
 condition and its exact queue are stated at the end. No optimistic summary.
 

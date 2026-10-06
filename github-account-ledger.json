@@ -2,7 +2,7 @@
  "$comment": "One record per canonical repository. Every field is COMPLETE or NOT_APPLICABLE with a reason; UNKNOWN is never a terminal value.",
  "account": "M4G3LL4N0",
  "canonical_count": 152,
- "generated_at": "2026-10-06T20:11:30Z",
+ "generated_at": "2026-10-06T19:59:44Z",
  "records": [
   {
    "name": "1bc",
@@ -12,13 +12,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/1bc",
    "canonical_project": "1bc",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: 1bc. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -138,13 +139,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/access-layer",
    "canonical_project": "access-layer",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Neutral coordination layer for access to space (MVP)",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -264,13 +266,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/agentapi-hub",
    "canonical_project": "agentapi-hub",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "AgentAPI Hub MVP: searchable marketplace for agent-ready APIs, CLIs, MCP servers, schemas, and machine-readable docs \u2014 agent orchestration",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -390,13 +393,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/agentcore-silicon",
    "canonical_project": "agentcore-silicon",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "AgentCore Silicon MVP: launch site and interactive workload benchmark simulator for agent-optimized silicon \u2014 agent orchestration and evaluation harness",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -516,13 +520,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/agentos",
    "canonical_project": "agentos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Provider-neutral AI agent execution and orchestration engine: objective in, verified outcome out.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -642,13 +647,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/agentos-website",
    "canonical_project": "agentos",
    "classification": "SITE_ONLY",
    "denylisted": false,
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "Public site for AgentOS \u2014 the execution substrate, explained without the marketing fog.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -777,6 +783,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "ai dev workflow starter. package.json; CI configured.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -799,7 +806,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -896,13 +903,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/autobuilder",
    "canonical_project": "autobuilder",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
    "site_only": false,
    "delete_requested": false,
    "public_expected": false,
+   "description_text": "",
    "description_complete": {
     "state": "NOT_APPLICABLE",
     "reason": "no description recorded on the repository"
@@ -925,7 +933,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -1022,13 +1030,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/autobuilder-3",
    "canonical_project": "autobuilder-3",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
    "site_only": false,
    "delete_requested": false,
    "public_expected": false,
+   "description_text": "Startup portfolio: autobuilder-3",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -1051,7 +1060,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -1148,13 +1157,14 @@
    "default_branch": "",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/autobuilder-mvp",
    "canonical_project": "autobuilder-mvp",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
    "site_only": false,
    "delete_requested": false,
    "public_expected": false,
+   "description_text": "Startup portfolio: autobuilder-mvp",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -1177,7 +1187,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -1274,13 +1284,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/autoerp",
    "canonical_project": "autoerp",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "AutoERP MVP: AI ERP command center for finance, HR, procurement, inventory, and operations",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -1400,13 +1411,14 @@
    "default_branch": "auto-1775597267-ayncient",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/ayncient",
    "canonical_project": "Ayncient",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Ayncient. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -1424,16 +1436,16 @@
     "reason": ""
    },
    "hero_complete": {
-    "state": "COMPLETE",
-    "reason": ""
+    "state": "NOT_APPLICABLE",
+    "reason": "no hero asset"
    },
    "animated_art_complete": {
-    "state": "COMPLETE",
-    "reason": ""
+    "state": "NOT_APPLICABLE",
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
-    "state": "COMPLETE",
-    "reason": ""
+    "state": "NOT_APPLICABLE",
+    "reason": "missing a static dark, light or reduced-motion fallback"
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -1516,7 +1528,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 15 field(s)"
+   "next_action": "complete 18 field(s)"
   },
   {
    "name": "BehindCurtain",
@@ -1526,13 +1538,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/behindcurtain",
    "canonical_project": "BehindCurtain",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "BehindCurtain. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -1652,13 +1665,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/betterfintech",
    "canonical_project": "betterfintech",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "betterfintech. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -1778,13 +1792,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/bioyield-labs",
    "canonical_project": "bioyield-labs",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Premium Next.js MVP for **RNA-based and microbial crop protection** planning: simulator, pest matcher, trial intake, and dashboard (SQLite + Prisma) \u2014 reporting surface",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -1904,13 +1919,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/blitzproof",
    "canonical_project": "blitzproof",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "BlitzProof is a startup validation engine for founders and venture studios",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -2030,13 +2046,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/blitzunicorn",
    "canonical_project": "blitzunicorn",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "blitzunicorn. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -2156,13 +2173,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/bourgaeux",
    "canonical_project": "Bourgaeux",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Bourgaeux. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -2282,13 +2300,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/brandcrossover",
    "canonical_project": "BrandCrossover",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "BrandCrossover. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -2408,13 +2427,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/buildloop-usa",
    "canonical_project": "buildloop-usa",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "BuildLoop USA MVP: marketplace-style rapid prototyping network for U.S",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -2534,13 +2554,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/cannex-logistics",
    "canonical_project": "cannex-logistics",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "cannex logistics. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -2660,13 +2681,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/cheetahbearfuel",
    "canonical_project": "cheetahbearfuel",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "cheetahbearfuel. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -2786,13 +2808,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/childdevos",
    "canonical_project": "childdevos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "ChildDevOS is an AI-powered childcare intelligence platform for childcare centers, preschools, daycare providers, teachers, admins, and parents \u2014 request routing",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -2912,13 +2935,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/chipflow",
    "canonical_project": "chipflow",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Real-time allocation, logistics, and risk monitoring MVP for semiconductor buyers and manufacturers \u2014 observability",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -3038,13 +3062,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/claimpilot-ai",
    "canonical_project": "claimpilot-ai",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "AI-native insurance brokerage MVP for SMB policy matching, quote comparison, renewal planning, and broker actioning \u2014 distributed coordination",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -3164,13 +3189,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/cleanstack-macos",
    "canonical_project": "cleanstack-macos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "cleanstack macos. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -3290,13 +3316,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/cleanstack-os",
    "canonical_project": "cleanstack-os",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "cleanstack os. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -3416,13 +3443,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/cloudcastle",
    "canonical_project": "cloudcastle",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "CloudCastle is an automated retail infrastructure platform with a premium market-facing site, operator dashboard shell, and Supabase-ready data foundation \u2014 reporting surface",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -3542,13 +3570,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/commos",
    "canonical_project": "commos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Communications Operating System \u2014 shared communications control plane for the TRILLIONX ecosystem",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -3668,13 +3697,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/companyos",
    "canonical_project": "companyos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Closed-loop AI operating system MVP for capturing meetings, customer interactions, tickets, goals, and execution metrics \u2014 observability",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -3794,13 +3824,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/computeflow",
    "canonical_project": "computeflow",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Route AI workloads across cloud, private, edge, sovereign, and future orbital compute infrastructure",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -3920,13 +3951,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/computeflow-website",
    "canonical_project": "computeflow",
    "classification": "SITE_ONLY",
    "denylisted": false,
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "computeflow website: Lean public website \u2014 observability",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -4048,13 +4080,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/cortexhq",
    "canonical_project": "cortexhq",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: cortexhq",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -4174,13 +4207,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/cortexhq-website",
    "canonical_project": "cortexhq",
    "classification": "SITE_ONLY",
    "denylisted": false,
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "cortexhq website: Lean public website \u2014 observability",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -4302,13 +4336,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/cropshield-ai",
    "canonical_project": "cropshield-ai",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Premium Next.js MVP for **AI-assisted crop diagnostics** and **precision spray planning** with a deterministic rules engine (swap in real CV/robotics later)",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -4428,13 +4463,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/cropshield-ai-website",
    "canonical_project": "cropshield-ai",
    "classification": "SITE_ONLY",
    "denylisted": false,
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "cropshield ai website: Lean public website \u2014 observability",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -4556,13 +4592,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/cruxenio",
    "canonical_project": "Cruxenio",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Cruxenio. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -4682,13 +4719,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/cruxenio-website",
    "canonical_project": "cruxenio",
    "classification": "SITE_ONLY",
    "denylisted": false,
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "cruxenio website. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -4711,7 +4749,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -4810,13 +4848,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/cxntradict",
    "canonical_project": "CxNTRADICT",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "CxNTRADICT. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -4936,13 +4975,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/cxntradict-website",
    "canonical_project": "cxntradict",
    "classification": "SITE_ONLY",
    "denylisted": false,
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "cxntradict website. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -4965,7 +5005,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -5064,13 +5104,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/datatherapy",
    "canonical_project": "datatherapy",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "DataTherapy is a clarity-first platform designed to help people understand scary news, fear-triggering ideas, and uncertainty using structured data, context, and calm interpretation",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -5190,13 +5231,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/datatherapy-website",
    "canonical_project": "datatherapy",
    "classification": "SITE_ONLY",
    "denylisted": false,
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "datatherapy website: Lean public website \u2014 observability",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -5318,13 +5360,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/deploylocal",
    "canonical_project": "deploylocal",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Autonomous high-profit website acquisition, generation, sales and recurring-revenue engine",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -5444,13 +5487,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/deploylocal-website",
    "canonical_project": "deploylocal",
    "classification": "SITE_ONLY",
    "denylisted": false,
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "deploylocal website: Lean public website \u2014 observability",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -5572,13 +5616,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/devstate",
    "canonical_project": "devstate",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "DevState is a developer storage compression and recovery engine",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -5698,13 +5743,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/devstate-website",
    "canonical_project": "devstate",
    "classification": "SITE_ONLY",
    "denylisted": false,
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "devstate website: Lean public website \u2014 observability",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -5826,13 +5872,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/emailsimple",
    "canonical_project": "EmailSimple",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "EmailSimple. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -5952,13 +5999,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/emailsimple-website",
    "canonical_project": "emailsimple",
    "classification": "SITE_ONLY",
    "denylisted": false,
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "emailsimple website. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -5981,7 +6029,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -6080,13 +6128,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/enterprisepilot",
    "canonical_project": "enterprisepilot",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "EnterprisePilot MVP: pilot packaging generator for startups selling into Fortune 100 buyers",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -6206,13 +6255,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/evalforge",
    "canonical_project": "evalforge",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "EvalForge is a human-in-the-loop AI evaluation cockpit for comparing chatbot responses and coding answers with multiple OpenRouter models \u2014 evaluation harness",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -6332,13 +6382,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/evsec-one",
    "canonical_project": "evsec-one",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "evsec one. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -6465,6 +6516,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "EVSec.one. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -6584,13 +6636,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/execmemory-ai",
    "canonical_project": "execmemory-ai",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Executive operating MVP: paste **meeting notes** (or load **demo notes**) to generate a chief-of-staff style pack \u2014 **CEO brief**, **unresolved risks**, **delegated tasks**, **follow-up",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -6710,13 +6763,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/executionos",
    "canonical_project": "executionos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: executionos",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -6836,13 +6890,14 @@
    "default_branch": "portfolio/fastprocure-ai/planner-draft",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/fastprocure-ai",
    "canonical_project": "fastprocure-ai",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Procurement acceleration MVP for enterprise teams evaluating AI startups",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -6860,16 +6915,16 @@
     "reason": ""
    },
    "hero_complete": {
-    "state": "COMPLETE",
-    "reason": ""
+    "state": "NOT_APPLICABLE",
+    "reason": "no hero asset"
    },
    "animated_art_complete": {
-    "state": "COMPLETE",
-    "reason": ""
+    "state": "NOT_APPLICABLE",
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
-    "state": "COMPLETE",
-    "reason": ""
+    "state": "NOT_APPLICABLE",
+    "reason": "missing a static dark, light or reduced-motion fallback"
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -6952,7 +7007,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 16 field(s)"
+   "next_action": "complete 19 field(s)"
   },
   {
    "name": "ForeverLuvd",
@@ -6962,13 +7017,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/foreverluvd",
    "canonical_project": "ForeverLuvd",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "ForeverLuvd. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -7088,13 +7144,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/forgeflow",
    "canonical_project": "forgeflow",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: forgeflow",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -7214,13 +7271,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/founderskingdom",
    "canonical_project": "founderskingdom",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "FoundersKingdom is the operating system for founders building multiple startups.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -7340,13 +7398,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/freeconomie",
    "canonical_project": "freeconomie",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "**Freeconomie** is a premium **free-economy intelligence** product: it helps people **discover, verify, route, stack, and redeem** high-value free offers, trials, perks, and local",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -7473,6 +7532,7 @@
    "site_only": false,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "freewash finder. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -7495,7 +7555,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -7592,13 +7652,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/fullofshit",
    "canonical_project": "fullofshit",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Premium Next.js + TypeScript + Tailwind site + MVP demo for **Full of Shit** \u2014 a startup reality engine that brutally tells founders whether an idea is real, redundant, missing a buyer,",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -7725,6 +7786,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "FundMind. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -7747,7 +7809,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -7844,13 +7906,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/fungmind",
    "canonical_project": "FungMind",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "FungMind. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -7970,13 +8033,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/gamecombo",
    "canonical_project": "gamecombo",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: gamecombo",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -8096,13 +8160,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/genotwin-health",
    "canonical_project": "genotwin-health",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Educational MVP: a **non-medical** \u201chealth twin\u201d worksheet that combines mock genomics notes, wearable-style summaries, sleep, activity, nutrition, and goals into wellness insights,",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -8222,13 +8287,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/gh0st",
    "canonical_project": "gh0st",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Local-first encrypted AI client for xAI/Grok with verifiable no-retention guarantees.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -8348,13 +8414,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/gh0st-website",
    "canonical_project": "gh0st",
    "classification": "SITE_ONLY",
    "denylisted": false,
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "Public site for gh0st \u2014 local-first encrypted private AI client.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -8476,13 +8543,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/ghostframe",
    "canonical_project": "ghostframe",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: ghostframe",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -8602,13 +8670,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/grokbot-concierge-website",
    "canonical_project": "grokbot-concierge",
    "classification": "SITE_ONLY",
    "denylisted": false,
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "grokbot concierge website. package.json; local-first storage.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -8631,7 +8700,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -8730,13 +8799,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/grokbot-office",
    "canonical_project": "grokbot-office",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Agent workforce architecture: roles, policy, handoffs and resource governance as configuration.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -8856,13 +8926,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/grokbot-office-website",
    "canonical_project": "grokbot-office",
    "classification": "SITE_ONLY",
    "denylisted": false,
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "Public reference site for the agent workforce architecture.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -8984,13 +9055,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/grokbot-society",
    "canonical_project": "grokbot-society",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Provider-neutral runtime for persistent synthetic people: roles, memory, economics and governance.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -9110,13 +9182,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/grokbot-society-website",
    "canonical_project": "grokbot-society",
    "classification": "SITE_ONLY",
    "denylisted": false,
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "Public website for the persistent-agent runtime.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -9238,13 +9311,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/grokgeneral",
    "canonical_project": "grokgeneral",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "grokgeneral. pyproject.toml; 37 test file(s); local-first storage.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -9364,13 +9438,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/grokinstall",
    "canonical_project": "grokinstall",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Install the capability, not the complexity. A Go CLI that inspects a repo and installs the smallest useful integration.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -9490,13 +9565,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/grokinstall-website",
    "canonical_project": "grokinstall",
    "classification": "SITE_ONLY",
    "denylisted": false,
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "Public site for GrokInstall \u2014 capability installation as a decision, not a script.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -9618,13 +9694,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/grokmax",
    "canonical_project": "grokmax",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Deterministic-first LLM routing: zero-cost executors first, five-layer cache, telemetry that never overstates savings.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -9744,13 +9821,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/grokmax-website",
    "canonical_project": "grokmax",
    "classification": "SITE_ONLY",
    "denylisted": false,
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "GrokMax marketing site \u2014 deterministic-first routing to scale down GrokBot usage. Static Next.js export, deployed to grokmax.noaerth.com.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -9872,13 +9950,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/hackerzart",
    "canonical_project": "HackerzArt",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "HackerzArt. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -9998,13 +10077,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/happyblock",
    "canonical_project": "happyblock",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "happyblock. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -10131,6 +10211,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "A production-oriented Next.js app that sends iMessages via Photon Codes using a secure server-side API route \u2014 service API",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -10153,7 +10234,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -10250,13 +10331,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/interceptorgrid",
    "canonical_project": "interceptorgrid",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "**Non-operational MVP.** A simulated command center for **airspace safety coordination**: monitoring, alerting, detection confidence, escalation, response workflow, and compliance-style \u2014.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -10376,13 +10458,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/lagrangeos",
    "canonical_project": "lagrangeos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: lagrangeos",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -10502,13 +10585,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/ledgerops-ai",
    "canonical_project": "ledgerops-ai",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "AI-native accounting firm MVP: paste mock transactions, pick a business type, and generate a **monthly close report** with classification, anomalies, missing receipts, tax notes, CFO \u2014 reporting.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -10628,13 +10712,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/legacybridge",
    "canonical_project": "legacybridge",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "legacybridge. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -10754,13 +10839,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/life-finds-a-way",
    "canonical_project": "life-finds-a-way",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: life-finds-a-way",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -10880,13 +10966,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/loopcompute-cloud",
    "canonical_project": "loopcompute-cloud",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "LoopCompute Cloud MVP: cloud workload planner for multi-agent orchestration, memory persistence, and latency-aware routing \u2014 agent orchestration and request routing",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -11006,13 +11093,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/lunarfoundry",
    "canonical_project": "lunarfoundry",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Lunarfoundry MVP: space industrial planning simulator for lunar resource extraction and processing",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -11132,13 +11220,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/luvconvos",
    "canonical_project": "luvconvos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "luvconvos. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -11258,13 +11347,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/luvpartnr",
    "canonical_project": "luvpartnr",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "LUVPARTNR is a private AI relationship intelligence platform that helps users analyze partner behavior, communication patterns, compatibility, and long-term risk using structured reports, decision-support tools, and a living case file system.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -11384,13 +11474,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/luvstories",
    "canonical_project": "luvstories",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "LuvStories is a private relationship intelligence platform that helps users build, understand, and shape their love stories through private workspaces",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -11517,6 +11608,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Profile of M4G3LL4N0 \u2014 autonomous systems, developer infrastructure, and research tooling under Noaerth.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -11534,12 +11626,12 @@
     "reason": ""
    },
    "hero_complete": {
-    "state": "COMPLETE",
-    "reason": ""
+    "state": "NOT_APPLICABLE",
+    "reason": "no hero asset"
    },
    "animated_art_complete": {
-    "state": "COMPLETE",
-    "reason": ""
+    "state": "NOT_APPLICABLE",
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -11626,7 +11718,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 13 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "Modex",
@@ -11636,13 +11728,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/modex",
    "canonical_project": "Modex",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Modex. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -11762,13 +11855,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/morphui",
    "canonical_project": "morphui",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Interactive MVP for an **AI interface layer** that reshapes SaaS dashboards from **role**, **workflow**, **layout preference**, and **natural language** intent \u2014 workflow engine",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -11888,13 +11982,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/n1-therapeutics",
    "canonical_project": "n1-therapeutics",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "**Research and care-navigation MVP \u2014 not medical advice.** Users build an educational N-of-1 worksheet (condition category, biomarker themes, symptoms, goals)",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -12014,13 +12109,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/naextblock",
    "canonical_project": "NaextBlock",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "NaextBlock. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -12140,13 +12236,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/nex-robotix",
    "canonical_project": "nex-robotix",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: nex-robotix",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -12266,13 +12363,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/noaerth",
    "canonical_project": "noaerth",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
    "site_only": false,
    "delete_requested": false,
    "public_expected": false,
+   "description_text": "Noaerth is a next-generation holding company built to create, acquire, organize, and compound startups through a unified parent structure.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -12295,7 +12393,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -12392,13 +12490,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/noaerth-cloud-factory",
    "canonical_project": "noaerth-cloud-factory",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
    "site_only": false,
    "delete_requested": false,
    "public_expected": false,
+   "description_text": "Startup portfolio: noaerth-cloud-factory",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -12421,7 +12520,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -12525,6 +12624,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": false,
+   "description_text": "",
    "description_complete": {
     "state": "NOT_APPLICABLE",
     "reason": "no description recorded on the repository"
@@ -12547,7 +12647,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -12644,13 +12744,14 @@
    "default_branch": "portfolio/noaerth-labs/public-feed",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/noaerth-labs",
    "canonical_project": "Noaerth-Labs",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
    "site_only": false,
    "delete_requested": false,
    "public_expected": false,
+   "description_text": "",
    "description_complete": {
     "state": "NOT_APPLICABLE",
     "reason": "no description recorded on the repository"
@@ -12673,7 +12774,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -12770,13 +12871,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/noaerth-operator",
    "canonical_project": "noaerth-operator",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
    "site_only": false,
    "delete_requested": false,
    "public_expected": false,
+   "description_text": "Startup portfolio: noaerth-operator",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -12799,7 +12901,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -12896,13 +12998,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/noaerth-portfolio-os",
    "canonical_project": "noaerth-portfolio-os",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
    "site_only": false,
    "delete_requested": false,
    "public_expected": false,
+   "description_text": "Stdlib-only control plane for a portfolio of autonomous agents: SQLite work queue, reviewer separation, and an allowlist public boundary.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -12925,7 +13028,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -13022,13 +13125,14 @@
    "default_branch": "portfolio/noaerth-team/public-room",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/noaerth-team",
    "canonical_project": "Noaerth-Team",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
    "site_only": false,
    "delete_requested": false,
    "public_expected": false,
+   "description_text": "",
    "description_complete": {
     "state": "NOT_APPLICABLE",
     "reason": "no description recorded on the repository"
@@ -13051,7 +13155,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -13155,6 +13259,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "node modules. 1 test file(s).",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -13177,7 +13282,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -13274,13 +13379,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/obviouslybad",
    "canonical_project": "obviouslybad",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: obviouslybad",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -13400,13 +13506,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/oddbotix",
    "canonical_project": "oddbotix",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "oddbotix. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -13526,13 +13633,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/oodax",
    "canonical_project": "oodax",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: oodax. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -13652,13 +13760,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/opencode-watchdog",
    "canonical_project": "opencode-watchdog",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Local circuit breaker for runaway OpenCode sessions. Deterministic detection, no model, no data leaves the machine.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -13778,13 +13887,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/opencode-watchdog-website",
    "canonical_project": "opencode-watchdog",
    "classification": "SITE_ONLY",
    "denylisted": false,
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "Public site for OpenCode Watchdog \u2014 a local circuit breaker for runaway agent sessions.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -13906,13 +14016,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/opsautopilot",
    "canonical_project": "opsautopilot",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "AI operations autopilot simulator MVP for bottleneck detection, follow-up generation, task routing, and operating rhythm planning \u2014 request routing",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -14032,13 +14143,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/orbitchip",
    "canonical_project": "orbitchip",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Orbitchip MVP: premium space hardware website with interactive chip configuration",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -14158,13 +14270,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/orbitprint",
    "canonical_project": "orbitprint",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Orbitprint MVP: orbital construction simulator for in-space 3D printing with lunar/asteroid-derived materials",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -14284,13 +14397,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/paios-one",
    "canonical_project": "paios-one",
    "classification": "EXCLUDED_PRIVATE",
    "denylisted": true,
    "site_only": false,
    "delete_requested": false,
    "public_expected": false,
+   "description_text": "",
    "description_complete": {
     "state": "NOT_APPLICABLE",
     "reason": "no description recorded on the repository"
@@ -14313,7 +14427,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -14410,13 +14524,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/poolwater",
    "canonical_project": "poolwater",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "POOL WATER is a late-night adult social gaming and nightlife brand",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -14536,13 +14651,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/psychemap",
    "canonical_project": "psychemap",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: psychemap",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -14662,13 +14778,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/readablestack",
    "canonical_project": "readablestack",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "ReadableStack MVP: docs conversion demo for agent-readable instructions, schemas, examples, edge cases, and export outputs \u2014 agent orchestration",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -14788,13 +14905,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/redwoud",
    "canonical_project": "redwoud",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "REDWOUD is an AI-powered real-time global intelligence platform that turns worldwide data, news, market signals, economic indicators, geopolitical developments, and public information",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -14914,13 +15032,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/requestayo",
    "canonical_project": "RequestAyo",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "RequestAyo. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -15040,13 +15159,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/reviewforge-ai",
    "canonical_project": "reviewforge-ai",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: reviewforge-ai",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -15166,13 +15286,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/saeturtle",
    "canonical_project": "saeturtle",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Premium early-family operating system for childcare planning, nursery setup, developmental recommendations, routines, caregiver coordination, and future family-commerce / smart nursery",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -15292,13 +15413,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/seai-mind",
    "canonical_project": "seai-mind",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Open-source self-evolving AI kernel with an auditable memory and capability loop.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -15418,13 +15540,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/shopright",
    "canonical_project": "ShopRight",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "ShopRight. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -15544,13 +15667,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/siliconcontrol-tower",
    "canonical_project": "siliconcontrol-tower",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "AI command center MVP for semiconductor supply chain risk, demand pressure, and geopolitical alerting",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -15670,13 +15794,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/soulmayte",
    "canonical_project": "SoulMayte",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "SoulMayte. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -15796,13 +15921,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/spacecompute-cloud",
    "canonical_project": "spacecompute-cloud",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "SpaceCompute Cloud MVP: orbit-edge workload planner and deployment dashboard for satellite AI workloads \u2014 reporting surface",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -15922,13 +16048,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/spaceedu",
    "canonical_project": "spaceedu",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "spaceedu. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -16048,13 +16175,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/spouwse",
    "canonical_project": "Spouwse",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Spouwse. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -16181,6 +16309,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "src. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -16203,7 +16332,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -16300,13 +16429,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/startupquick",
    "canonical_project": "startupquick",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "StartupQuick helps founders turn startup ideas into premium, shareable startup websites in minutes",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -16433,6 +16563,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "STRxGNTH. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -16455,7 +16586,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -16552,13 +16683,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/strxngth",
    "canonical_project": "strxngth",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "strxngth. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -16685,6 +16817,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "styles. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -16707,7 +16840,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -16804,13 +16937,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/sunsetx",
    "canonical_project": "SUNSETX",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "SUNSETX predicts and ranks the best sunset experiences using weather, location, and environmental data. Real-time scoring, peak timing, and smart recommendations for where to go and when.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -16930,13 +17064,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/supplyos-ai",
    "canonical_project": "supplyos-ai",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "SupplyOS AI MVP: supply chain risk dashboard with autonomous recommendations and supplier mapping \u2014 reporting surface",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17056,13 +17191,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/swarmshield",
    "canonical_project": "swarmshield",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: swarmshield",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17182,13 +17318,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/tempoos",
    "canonical_project": "tempoos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "The AI operating system for time allocation, focus protection, and adaptive weekly planning",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17308,13 +17445,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/therapyux",
    "canonical_project": "TherapyUX",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "TherapyUX. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17434,13 +17572,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/trajectoryos",
    "canonical_project": "trajectoryos",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: trajectoryos",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17560,13 +17699,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/trustxverify",
    "canonical_project": "TrustxVerify",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "TrustxVerify. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17686,13 +17826,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/useros",
    "canonical_project": "useros",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: useros",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17812,13 +17953,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/uxvisualengine",
    "canonical_project": "uxvisualengine",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "uxvisualengine. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17938,13 +18080,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/valuedsociety",
    "canonical_project": "valuedsociety",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "valuedsociety. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -18064,13 +18207,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/vencapmentor",
    "canonical_project": "vencapmentor",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "vencapmentor. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -18190,13 +18334,14 @@
    "default_branch": "auto-1775600914-venturerank-os",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/venturerank-os",
    "canonical_project": "VentureRank-OS",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "VentureRank OS. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -18214,16 +18359,16 @@
     "reason": ""
    },
    "hero_complete": {
-    "state": "COMPLETE",
-    "reason": ""
+    "state": "NOT_APPLICABLE",
+    "reason": "no hero asset"
    },
    "animated_art_complete": {
-    "state": "COMPLETE",
-    "reason": ""
+    "state": "NOT_APPLICABLE",
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
-    "state": "COMPLETE",
-    "reason": ""
+    "state": "NOT_APPLICABLE",
+    "reason": "missing a static dark, light or reduced-motion fallback"
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -18306,7 +18451,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 15 field(s)"
+   "next_action": "complete 18 field(s)"
   },
   {
    "name": "vizuler",
@@ -18316,13 +18461,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/vizuler",
    "canonical_project": "vizuler",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: vizuler",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -18449,6 +18595,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "How did you find this GitHub?",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -18471,7 +18618,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -18568,13 +18715,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/workflowcanvas",
    "canonical_project": "workflowcanvas",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "MVP for a **personalized enterprise workflow canvas**: collect **role, daily tasks, apps, pain points, priorities, and team size**, then generate a **workspace** with **task lanes**, \u2014 workflow engine",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -18694,13 +18842,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/youareprofound",
    "canonical_project": "youareprofound",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "youareprofound. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -18820,13 +18969,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/youstate",
    "canonical_project": "YouState",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Pulse is a universal human optimization OS that adapts nutrition, energy, recovery, focus, and daily performance recommendations to each person's real life in real time",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -18953,6 +19103,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Zaeus. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -18975,7 +19126,7 @@
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant"
+    "reason": "no animated hero variant under assets/hero/"
    },
    "static_fallback_complete": {
     "state": "NOT_APPLICABLE",
@@ -19072,13 +19223,14 @@
    "default_branch": "main",
    "archived": false,
    "fork": false,
-   "local_path": "",
+   "local_path": "/Users/matador/startups/zaeux",
    "canonical_project": "zaeux",
    "classification": "PUBLIC_PROJECT",
    "denylisted": false,
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Zaeux is a premium onchain financial layer for payments, treasury, programmable credit, and infrastructure",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""

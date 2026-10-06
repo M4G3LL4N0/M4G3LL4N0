@@ -70,6 +70,26 @@ jobs:
       # Design-controlled assets must not drift without an explicit lock move.
       # Runs before the reproducibility gate so a reverted hero is reported as a
       # lock violation rather than as a hash mismatch.
+      # Product repositories are read-only evidence this round. This gate
+      # fails if any product source, manifest, lockfile, framework config or
+      # product test changed, so drift into product repair is caught rather
+      # than noticed later.
+      - name: Product code freeze holds
+        run: |
+          set -euo pipefail
+          python3 scripts/profile_art/freeze_guard.py --verify
+
+      # A GitHub push must never become a production deployment. 78 Vercel
+      # projects were once wired to repositories here, and presentation commits
+      # were deploying to production. This gate makes that unrepeatable.
+      - name: No git-triggered Vercel deployment
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          set -euo pipefail
+          python3 scripts/profile_art/vercel_guard.py --json /tmp/vercel.json
+
       - name: Art lock holds
         run: |
           set -euo pipefail
