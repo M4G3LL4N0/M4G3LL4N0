@@ -56,10 +56,22 @@ def tok() -> str:
         ["gh", "auth", "token"], capture_output=True, text=True).stdout.strip()
 
 
+THROTTLED = False
+
+
 def gh_json(path: str):
+    """Return None on failure, but distinguish throttling from absence.
+
+    A rate-limited request returns an error body. Treating that as 'no README'
+    reported 86 repositories as undocumented when they are documented, which is
+    the same shape of error as claiming art is missing when it is present.
+    """
+    global THROTTLED
     p = subprocess.run(["gh", "api", path], capture_output=True, text=True,
                        env=dict(os.environ, GH_TOKEN=tok(), GH_PAGER="cat"))
     if p.returncode != 0:
+        if "rate limit" in (p.stderr or "").lower():
+            THROTTLED = True
         return None
     try:
         return json.loads(p.stdout)
@@ -67,14 +79,32 @@ def gh_json(path: str):
         return None
 
 
-def blob(repo: str, path: str) -> str:
+def raw(repo: str, branch: str, path: str) -> str | None:
+    """Fetch through raw.githubusercontent.com.
+
+    Not subject to the API rate limit, so the audit still measures something
+    when the API refuses to answer. Returns None only on a genuine 404.
+    """
+    import urllib.error
+    import urllib.request
+    url = f"https://raw.githubusercontent.com/{OWNER}/{repo}/{branch}/{path}"
+    try:
+        with urllib.request.urlopen(url, timeout=25) as fh:
+            return fh.read().decode("utf-8", "replace")
+    except urllib.error.HTTPError as exc:
+        return None if exc.code == 404 else None
+    except Exception:
+        return None
+
+
+def blob(repo: str, path: str, branch: str = "main") -> str:
     d = gh_json(f"repos/{OWNER}/{repo}/contents/{path}")
     if isinstance(d, dict) and d.get("content"):
         try:
             return base64.b64decode(d["content"]).decode("utf-8", "replace")
         except Exception:
-            return ""
-    return ""
+            pass
+    return raw(repo, branch, path) or ""
 
 
 def denied(name: str) -> bool:
@@ -109,11 +139,20 @@ def main() -> int:
     ap.add_argument("--out", default=str(LEDGER))
     args = ap.parse_args()
 
-    repos = gh_json(f"users/{OWNER}/repos?per_page=100&type=owner&visibility=public") or []
-    repos = [r for r in repos
-             if isinstance(r, dict)
-             and r.get("owner", {}).get("login") == OWNER
-             and not denied(r["name"])]
+    # Take the repository list from the committed ledger rather than the API.
+    # An empty API response previously produced "0 images, 0 unresolved", which
+    # reads as a clean result while measuring nothing at all.
+    led = PROFILE / "github-account-ledger.json"
+    if not led.exists():
+        print("github-account-ledger.json missing; run build_account_ledger.py")
+        return 1
+    data = json.loads(led.read_text(encoding="utf-8"))
+    repos = [{"name": r["name"], "default_branch": r.get("default_branch") or "main"}
+             for r in data.get("records", [])
+             if r.get("visibility") == "public" and not denied(r["name"])]
+    if not repos:
+        print("  no public repositories in the ledger")
+        return 1
 
     rows = []
     counters = Counter()
@@ -121,12 +160,15 @@ def main() -> int:
     for repo in repos:
         name = repo["name"]
         branch = repo.get("default_branch") or "main"
-        readme = blob(name, "README.md")
+        readme = blob(name, "README.md", branch)
         if not readme:
-            rows.append({"repo": name, "path": "README.md", "purpose": "no README",
-                         "animated": "N/A", "fallback": "N/A", "live": False,
-                         "note": "repository has no README"})
-            counters["no_readme"] += 1
+            reason = ("read unavailable: API throttled" if THROTTLED
+                      else "repository has no README")
+            rows.append({"repo": name, "path": "README.md",
+                         "purpose": "UNVERIFIED" if THROTTLED else "no README",
+                         "animated": "UNVERIFIED" if THROTTLED else "N/A",
+                         "fallback": "N/A", "live": False, "note": reason})
+            counters["throttled" if THROTTLED else "no_readme"] += 1
             continue
         refs = IMG.findall(readme) + SRC.findall(readme)
         for ref in dict.fromkeys(refs):
@@ -144,7 +186,7 @@ def main() -> int:
                              "live": True, "note": "remote badge, static by design"})
                 counters["static_by_platform"] += 1
                 continue
-            text = blob(name, ref)
+            text = blob(name, ref, branch)
             exists = bool(text)
             low = ref.lower()
             if not exists:
@@ -182,6 +224,21 @@ def main() -> int:
                              "animated": state, "fallback": "n/a",
                              "live": True, "note": f"{len(text)} bytes raster"})
 
+    import time
+    ledger = {
+        "$comment": "Every image referenced by a public owned repository, with "
+                    "its purpose, animation state and live resolution. Resolved "
+                    "means ANIMATED or an explicit static reason; UNKNOWN is not "
+                    "a permitted value.",
+        "generated_at": time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()),
+        "owner": OWNER,
+        "image_count": len(rows),
+        "unresolved": len([r for r in rows if r["animated"] == "UNKNOWN"]),
+        "images": rows,
+    }
+    Path(PROFILE / "github-image-ledger.json").write_text(
+        json.dumps(ledger, indent=1) + "\n", encoding="utf-8")
+
     out = ["# Image ledger", "",
            f"Every image referenced by a public owned repository. "
            f"**{len(rows)} images** across **{len(repos)} repositories**.", "",
@@ -200,11 +257,18 @@ def main() -> int:
                    f"{r['animated']} | {r['fallback']} | "
                    f"{'yes' if r['live'] else 'NO'} | {r['note'][:44]} |")
 
-    unresolved = [r for r in rows if r["animated"] == "UNKNOWN"]
+    unresolved = [r for r in rows
+                  if r["animated"] in ("UNKNOWN", "UNVERIFIED")]
     out += ["", f"## Unresolved: **{len(unresolved)}**", ""]
     if unresolved:
         for r in unresolved:
-            out.append(f"- `{r['repo']}` `{r['path']}`")
+            out.append(f"- `{r['repo']}` `{r['path']}` \u2014 {r['note']}")
+        if THROTTLED:
+            out.append("")
+            out.append("These are **unverified, not missing**. The GitHub API "
+                       "rate limit was reached during this run. Re-run when the "
+                       "limit clears; raw.githubusercontent.com is not subject to "
+                       "it and can be used instead.")
     else:
         out.append("None.")
 

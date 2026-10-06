@@ -1,0 +1,2529 @@
+{
+ "$comment": "Every image referenced by a public owned repository, with its purpose, animation state and live resolution. Resolved means ANIMATED or an explicit static reason; UNKNOWN is not a permitted value.",
+ "generated_at": "2026-10-06T20:44:04Z",
+ "owner": "M4G3LL4N0",
+ "image_count": 280,
+ "unresolved": 0,
+ "images": [
+  {
+   "repo": "1bc",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "1bc",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "access-layer",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "26 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "access-layer",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "agentapi-hub",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "23 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "agentapi-hub",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "agentcore-silicon",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "24 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "agentcore-silicon",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "agentos",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "26 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "agentos",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "agentos",
+   "path": "assets/social-card.png",
+   "purpose": "social-card",
+   "animated": "STATIC_BY_PLATFORM",
+   "fallback": "n/a",
+   "live": true,
+   "note": "74697 bytes raster"
+  },
+  {
+   "repo": "agentos-website",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "26 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "agentos-website",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "autoerp",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "24 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "autoerp",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "Ayncient",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "24 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "Ayncient",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "BehindCurtain",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "10 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "BehindCurtain",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "betterfintech",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "14 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "betterfintech",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "bioyield-labs",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "27 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "bioyield-labs",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "blitzproof",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "17 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "blitzproof",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "blitzunicorn",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "17 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "blitzunicorn",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "Bourgaeux",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "14 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "Bourgaeux",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "BrandCrossover",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "14 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "BrandCrossover",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "buildloop-usa",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "24 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "buildloop-usa",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "cannex-logistics",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "11 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "cannex-logistics",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "cheetahbearfuel",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "21 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "cheetahbearfuel",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "childdevos",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "27 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "childdevos",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "chipflow",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "24 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "chipflow",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "claimpilot-ai",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "24 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "claimpilot-ai",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "cleanstack-macos",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "24 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "cleanstack-macos",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "cleanstack-os",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "14 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "cleanstack-os",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "cloudcastle",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "14 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "cloudcastle",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "commos",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "27 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "commos",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "companyos",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "companyos",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "computeflow",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "17 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "computeflow",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "computeflow-website",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "11 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "computeflow-website",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "cortexhq",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "24 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "cortexhq",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "cortexhq-website",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "24 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "cortexhq-website",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "cropshield-ai",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "24 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "cropshield-ai",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "cropshield-ai-website",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "24 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "cropshield-ai-website",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "Cruxenio",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "17 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "Cruxenio",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "CxNTRADICT",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "10 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "CxNTRADICT",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "datatherapy",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "6 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "datatherapy",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "datatherapy-website",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "6 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "datatherapy-website",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "deploylocal",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "17 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "deploylocal",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "deploylocal-website",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "17 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "deploylocal-website",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "devstate",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "19 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "devstate",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "devstate-website",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "19 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "devstate-website",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "EmailSimple",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "EmailSimple",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "enterprisepilot",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "24 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "enterprisepilot",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "evalforge",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "12 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "evalforge",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "evsec-one",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "14 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "evsec-one",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "EVSec.one",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "14 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "EVSec.one",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "execmemory-ai",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "execmemory-ai",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "executionos",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "11 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "executionos",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "fastprocure-ai",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "24 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "fastprocure-ai",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "ForeverLuvd",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "6 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "ForeverLuvd",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "forgeflow",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "17 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "forgeflow",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "founderskingdom",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "14 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "founderskingdom",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "freeconomie",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "21 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "freeconomie",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "fullofshit",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "11 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "fullofshit",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "FungMind",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "21 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "FungMind",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "gamecombo",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "13 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "gamecombo",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "genotwin-health",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "genotwin-health",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "gh0st",
+   "path": "https://github.com/M4G3LL4N0/gh0st/actions/workflows/ci.yml/badge.svg",
+   "purpose": "ci_badge",
+   "animated": "STATIC_BY_PLATFORM",
+   "fallback": "n/a",
+   "live": true,
+   "note": "remote badge, static by design"
+  },
+  {
+   "repo": "gh0st",
+   "path": "https://github.com/M4G3LL4N0/gh0st/actions/workflows/security.yml/badge.svg",
+   "purpose": "ci_badge",
+   "animated": "STATIC_BY_PLATFORM",
+   "fallback": "n/a",
+   "live": true,
+   "note": "remote badge, static by design"
+  },
+  {
+   "repo": "gh0st",
+   "path": "https://img.shields.io/badge/License-MIT-yellow.svg",
+   "purpose": "shields_badge",
+   "animated": "STATIC_BY_PLATFORM",
+   "fallback": "n/a",
+   "live": true,
+   "note": "remote badge, static by design"
+  },
+  {
+   "repo": "gh0st",
+   "path": "https://img.shields.io/github/v/release/M4G3LL4N0/gh0st?include_prereleases",
+   "purpose": "release_badge",
+   "animated": "STATIC_BY_PLATFORM",
+   "fallback": "n/a",
+   "live": true,
+   "note": "remote badge, static by design"
+  },
+  {
+   "repo": "gh0st",
+   "path": "https://img.shields.io/badge/Tauri-2.0-blue",
+   "purpose": "shields_badge",
+   "animated": "STATIC_BY_PLATFORM",
+   "fallback": "n/a",
+   "live": true,
+   "note": "remote badge, static by design"
+  },
+  {
+   "repo": "gh0st",
+   "path": "https://img.shields.io/badge/TypeScript-5.5-blue",
+   "purpose": "shields_badge",
+   "animated": "STATIC_BY_PLATFORM",
+   "fallback": "n/a",
+   "live": true,
+   "note": "remote badge, static by design"
+  },
+  {
+   "repo": "gh0st",
+   "path": "https://img.shields.io/badge/Platform-macOS%20%7C%20Browser%20%7C%20CLI-lightgrey",
+   "purpose": "shields_badge",
+   "animated": "STATIC_BY_PLATFORM",
+   "fallback": "n/a",
+   "live": true,
+   "note": "remote badge, static by design"
+  },
+  {
+   "repo": "gh0st",
+   "path": "https://img.shields.io/badge/Local--First-\u2713-brightgreen",
+   "purpose": "shields_badge",
+   "animated": "STATIC_BY_PLATFORM",
+   "fallback": "n/a",
+   "live": true,
+   "note": "remote badge, static by design"
+  },
+  {
+   "repo": "gh0st",
+   "path": "https://img.shields.io/badge/Telemetry-None-brightgreen",
+   "purpose": "shields_badge",
+   "animated": "STATIC_BY_PLATFORM",
+   "fallback": "n/a",
+   "live": true,
+   "note": "remote badge, static by design"
+  },
+  {
+   "repo": "gh0st",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "gh0st",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "gh0st",
+   "path": "assets/social-card.png",
+   "purpose": "social-card",
+   "animated": "STATIC_BY_PLATFORM",
+   "fallback": "n/a",
+   "live": true,
+   "note": "74842 bytes raster"
+  },
+  {
+   "repo": "gh0st-website",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "gh0st-website",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "ghostframe",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "21 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "ghostframe",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "grokbot-office",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "23 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "grokbot-office",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "grokbot-office-website",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "23 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "grokbot-office-website",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "grokbot-society",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "23 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "grokbot-society",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "grokbot-society-website",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "23 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "grokbot-society-website",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "grokgeneral",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "19 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "grokgeneral",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "grokinstall",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "16 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "grokinstall",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "grokinstall",
+   "path": "assets/social-card.png",
+   "purpose": "social-card",
+   "animated": "STATIC_BY_PLATFORM",
+   "fallback": "n/a",
+   "live": true,
+   "note": "74100 bytes raster"
+  },
+  {
+   "repo": "grokinstall-website",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "23 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "grokinstall-website",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "grokmax",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "26 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "grokmax",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "grokmax",
+   "path": "assets/social-card.png",
+   "purpose": "social-card",
+   "animated": "STATIC_BY_PLATFORM",
+   "fallback": "n/a",
+   "live": true,
+   "note": "80796 bytes raster"
+  },
+  {
+   "repo": "grokmax-website",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "26 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "grokmax-website",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "HackerzArt",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "14 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "HackerzArt",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "happyblock",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "6 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "happyblock",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "interceptorgrid",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "14 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "interceptorgrid",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "lagrangeos",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "11 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "lagrangeos",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "ledgerops-ai",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "10 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "ledgerops-ai",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "legacybridge",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "10 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "legacybridge",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "life-finds-a-way",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "life-finds-a-way",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "loopcompute-cloud",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "loopcompute-cloud",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "lunarfoundry",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "24 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "lunarfoundry",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "luvconvos",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "17 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "luvconvos",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "luvpartnr",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "17 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "luvpartnr",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "luvstories",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "12 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "luvstories",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "M4G3LL4N0",
+   "path": "assets/profile/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "55 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "M4G3LL4N0",
+   "path": "assets/profile/nav/noaerth-dark.svg",
+   "purpose": "noaerth-dark",
+   "animated": "STATIC",
+   "fallback": "check",
+   "live": true,
+   "note": "0 SMIL, css=False, a11y=True"
+  },
+  {
+   "repo": "M4G3LL4N0",
+   "path": "assets/profile/nav/repositories-dark.svg",
+   "purpose": "repositories-dark",
+   "animated": "STATIC",
+   "fallback": "check",
+   "live": true,
+   "note": "0 SMIL, css=False, a11y=True"
+  },
+  {
+   "repo": "M4G3LL4N0",
+   "path": "assets/profile/nav/why-dark.svg",
+   "purpose": "why-dark",
+   "animated": "STATIC",
+   "fallback": "check",
+   "live": true,
+   "note": "0 SMIL, css=False, a11y=True"
+  },
+  {
+   "repo": "M4G3LL4N0",
+   "path": "assets/profile/build-signal-dark.svg",
+   "purpose": "build-signal-dark",
+   "animated": "STATIC",
+   "fallback": "check",
+   "live": true,
+   "note": "0 SMIL, css=False, a11y=True"
+  },
+  {
+   "repo": "M4G3LL4N0",
+   "path": "assets/profile/windows/agentos-dark.svg",
+   "purpose": "agentos-dark",
+   "animated": "STATIC",
+   "fallback": "check",
+   "live": true,
+   "note": "0 SMIL, css=False, a11y=True"
+  },
+  {
+   "repo": "M4G3LL4N0",
+   "path": "assets/profile/windows/grokinstall-dark.svg",
+   "purpose": "grokinstall-dark",
+   "animated": "STATIC",
+   "fallback": "check",
+   "live": true,
+   "note": "0 SMIL, css=False, a11y=True"
+  },
+  {
+   "repo": "M4G3LL4N0",
+   "path": "assets/profile/windows/grokmax-dark.svg",
+   "purpose": "grokmax-dark",
+   "animated": "STATIC",
+   "fallback": "check",
+   "live": true,
+   "note": "0 SMIL, css=False, a11y=True"
+  },
+  {
+   "repo": "M4G3LL4N0",
+   "path": "assets/profile/windows/gh0st-dark.svg",
+   "purpose": "gh0st-dark",
+   "animated": "STATIC",
+   "fallback": "check",
+   "live": true,
+   "note": "0 SMIL, css=False, a11y=True"
+  },
+  {
+   "repo": "M4G3LL4N0",
+   "path": "assets/profile/windows/opencode-watchdog-dark.svg",
+   "purpose": "opencode-watchdog-dark",
+   "animated": "STATIC",
+   "fallback": "check",
+   "live": true,
+   "note": "0 SMIL, css=False, a11y=True"
+  },
+  {
+   "repo": "M4G3LL4N0",
+   "path": "assets/profile/system-map-dark.svg",
+   "purpose": "system-map-dark",
+   "animated": "STATIC",
+   "fallback": "check",
+   "live": true,
+   "note": "0 SMIL, css=False, a11y=True"
+  },
+  {
+   "repo": "M4G3LL4N0",
+   "path": "assets/profile/public-universe-dark.svg",
+   "purpose": "public-universe-dark",
+   "animated": "STATIC",
+   "fallback": "check",
+   "live": true,
+   "note": "0 SMIL, css=False, a11y=True"
+  },
+  {
+   "repo": "M4G3LL4N0",
+   "path": "assets/profile/terminal-motion.svg",
+   "purpose": "terminal-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "13 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "Modex",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "56 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "Modex",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "morphui",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "morphui",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "n1-therapeutics",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "24 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "n1-therapeutics",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "NaextBlock",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "24 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "NaextBlock",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "nex-robotix",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "17 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "nex-robotix",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "obviouslybad",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "11 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "obviouslybad",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "oddbotix",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "21 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "oddbotix",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "oodax",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "17 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "oodax",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "opencode-watchdog",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "23 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "opencode-watchdog",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "opencode-watchdog",
+   "path": "assets/social-card.png",
+   "purpose": "social-card",
+   "animated": "STATIC_BY_PLATFORM",
+   "fallback": "n/a",
+   "live": true,
+   "note": "89560 bytes raster"
+  },
+  {
+   "repo": "opencode-watchdog-website",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "23 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "opencode-watchdog-website",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "opsautopilot",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "50 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "opsautopilot",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "orbitchip",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "24 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "orbitchip",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "orbitprint",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "24 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "orbitprint",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "poolwater",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "17 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "poolwater",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "psychemap",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "17 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "psychemap",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "readablestack",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "24 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "readablestack",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "redwoud",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "30 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "redwoud",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "RequestAyo",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "17 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "RequestAyo",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "reviewforge-ai",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "12 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "reviewforge-ai",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "saeturtle",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "23 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "saeturtle",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "seai-mind",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "17 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "seai-mind",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "ShopRight",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "27 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "ShopRight",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "siliconcontrol-tower",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "24 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "siliconcontrol-tower",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "SoulMayte",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "17 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "SoulMayte",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "spacecompute-cloud",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "24 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "spacecompute-cloud",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "spaceedu",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "30 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "spaceedu",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "Spouwse",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "10 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "Spouwse",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "startupquick",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "17 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "startupquick",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "strxngth",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "21 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "strxngth",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "SUNSETX",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "30 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "SUNSETX",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "supplyos-ai",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "24 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "supplyos-ai",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "swarmshield",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "11 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "swarmshield",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "tempoos",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "tempoos",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "TherapyUX",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "10 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "TherapyUX",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "trajectoryos",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "11 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "trajectoryos",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "TrustxVerify",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "TrustxVerify",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "useros",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "11 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "useros",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "uxvisualengine",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "12 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "uxvisualengine",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "valuedsociety",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "10 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "valuedsociety",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "vencapmentor",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "10 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "vencapmentor",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "VentureRank-OS",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "23 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "VentureRank-OS",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "vizuler",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "11 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "vizuler",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "15 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "why-are-you-here",
+   "path": "./assets/hero.svg",
+   "purpose": "hero",
+   "animated": "STATIC",
+   "fallback": "none",
+   "live": true,
+   "note": "0 SMIL, css=False, a11y=True"
+  },
+  {
+   "repo": "workflowcanvas",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "24 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "workflowcanvas",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "20 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "youareprofound",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "6 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "youareprofound",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "YouState",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "6 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "YouState",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "zaeux",
+   "path": "assets/hero/hero-motion.svg",
+   "purpose": "hero-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "10 SMIL, css=True, a11y=True"
+  },
+  {
+   "repo": "zaeux",
+   "path": "assets/hero/computational-motion.svg",
+   "purpose": "computational-motion",
+   "animated": "ANIMATED",
+   "fallback": "reduced_motion",
+   "live": true,
+   "note": "25 SMIL, css=True, a11y=True"
+  }
+ ]
+}
