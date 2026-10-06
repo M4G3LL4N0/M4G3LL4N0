@@ -60,11 +60,11 @@
 | --- | --- | --- |
 | Systems | **8** | public engineering repositories |
 | Tests | **2,032** | tests run and recorded by an operator |
-| CI | **5** | systems whose latest workflow run passed |
+| CI | **6** | systems whose latest workflow run passed |
 | Releases | **9** | GitHub releases published |
 | Active | **8** | public systems with a commit in the last 180 days |
 
-<sub>Measured 2026-10-05T22:11:58+00:00. Source: enriched repos.json snapshot + tests.json (operator-recorded test counts). Stars and forks are deliberately absent: at this scale they are not evidence.</sub>
+<sub>Measured 2026-10-05T22:52:03+00:00. Source: enriched repos.json snapshot + tests.json (operator-recorded test counts). Stars and forks are deliberately absent: at this scale they are not evidence.</sub>
 <!-- signal:end -->
 
 ---
