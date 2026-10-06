@@ -10,6 +10,9 @@ set reads as one system while every tile remains individually recognisable.
 """
 from __future__ import annotations
 
+import json
+from pathlib import Path
+
 from . import geometry as G
 from . import tokens as T
 
@@ -113,12 +116,43 @@ FLAGSHIP_ORDER = (
 STANDALONE = ("grokbot-office", "grokbot-society", "seai-mind", "gh0st")
 
 
+def _generated() -> dict:
+    """Derived identities, loaded once from data/generated-identities.json."""
+    global _GENERATED
+    if _GENERATED is None:
+        path = Path(__file__).resolve().parents[2] / "data" / "generated-identities.json"
+        try:
+            _GENERATED = json.loads(path.read_text(encoding="utf-8"))["identities"]
+        except (OSError, KeyError, json.JSONDecodeError):
+            _GENERATED = {}
+    return _GENERATED
+
+
+_GENERATED: dict | None = None
+
+
+def has_identity(slug: str) -> bool:
+    """Whether a designed identity exists, authored or derived."""
+    return slug in IDENTITIES or slug in _generated()
+
+
 def identity(slug: str) -> dict:
-    if slug not in IDENTITIES:
-        raise KeyError(
-            f"no identity defined for {slug!r}. Every public system needs one; "
-            f"add it to IDENTITIES with a motif that matches what it does.")
-    return IDENTITIES[slug]
+    """Resolve a system identity.
+
+    Hand-authored identities win. Everything else falls back to the generative
+    system, which derives a structurally distinct mark from the repository's
+    semantic class and its GitHub node id. That is why every public repository
+    has a distinct mark without 124 hand-written entries, and why the marks are
+    reproducible: the seed is a stable id, not runtime randomness.
+    """
+    if slug in IDENTITIES:
+        return IDENTITIES[slug]
+    gen = _generated()
+    if slug in gen:
+        return gen[slug]
+    raise KeyError(
+        f"no identity for {slug!r}. Add it to IDENTITIES, or run "
+        f"scripts/github_art/generative_identity.py --write to derive one.")
 
 
 def glyph(slug: str, theme_name: str, cx: float, cy: float, size: float = 30) -> str:
@@ -186,11 +220,6 @@ def signature_motifs() -> set:
 
 
 DEFAULT_MATERIAL = "optical_glass"
-
-
-def has_identity(slug: str) -> bool:
-    """Whether a designed identity exists for this slug."""
-    return slug in IDENTITIES
 
 
 def material_for(slug: str) -> str:
