@@ -1,132 +1,139 @@
 {
-  "$comment": [
-    "Provenance for every edge drawn in assets/profile/system-map-*.svg.",
-    "",
-    "A relationship appears in the public diagram only if it is recorded here",
-    "with evidence. An edge that is merely plausible, convenient, or visually",
-    "balanced does not belong in this file and therefore cannot appear in the",
-    "graphic. Adding an edge means adding evidence, not the other way round.",
-    "",
-    "All paths are relative to public repositories. This file is published on",
-    "purpose: it is the audit trail that makes the diagram checkable. A test",
-    "(scripts/test_profile_assets.py) fails if a private-looking path, host, or",
-    "secret ever appears here."
-  ],
-  "version": 1,
-  "map": "assets/profile/system-map-dark.svg",
-  "edges": [
+ "$comment": [
+  "Provenance for every edge drawn in assets/profile/system-map-*.svg.",
+  "",
+  "A relationship appears in the public diagram only if it is recorded here",
+  "with evidence. An edge that is merely plausible, convenient, or visually",
+  "balanced does not belong in this file and therefore cannot appear in the",
+  "graphic. Adding an edge means adding evidence, not the other way round.",
+  "",
+  "All paths are relative to public repositories. This file is published on",
+  "purpose: it is the audit trail that makes the diagram checkable. A test",
+  "(scripts/test_profile_assets.py) fails if a private-looking path, host, or",
+  "secret ever appears here.",
+  "Private repository names are never recorded in this file."
+ ],
+ "version": 1,
+ "map": "assets/profile/system-map-dark.svg",
+ "edges": [
+  {
+   "source": "grokbot-office",
+   "target": "agentos",
+   "relation": "workforce configuration sits above the execution substrate",
+   "evidence_type": "documented runtime dependency",
+   "evidence": [
     {
-      "source": "grokbot-office",
-      "target": "agentos",
-      "relation": "workforce configuration sits above the execution substrate",
-      "evidence_type": "documented runtime dependency",
-      "evidence": [
-        {
-          "repo": "grokbot-office",
-          "path": "README.md",
-          "line": 26,
-          "quote": "AgentOS is the provider-neutral execution and orchestration substrate. GrokBot Office supplies the workforce configuration that sits above it. The relationship is explicit and read-only at this package boundary; neither project claims ownership of the other."
-        },
-        {
-          "repo": "grokbot-office",
-          "path": "AGENTOS.md",
-          "line": 1,
-          "quote": "# AgentOS relationship"
-        }
-      ],
-      "confidence": "explicit",
-      "bilateral": false
+     "repo": "grokbot-office",
+     "path": "README.md",
+     "line": 26,
+     "quote": "AgentOS is the provider-neutral execution and orchestration substrate. GrokBot Office supplies the workforce configuration that sits above it. The relationship is explicit and read-only at this package boundary; neither project claims ownership of the other."
     },
     {
-      "source": "grokmax",
-      "target": "opencode",
-      "relation": "ships an adapter that executes work inside OpenCode",
-      "evidence_type": "import / integration",
-      "evidence": [
-        {
-          "repo": "grokmax",
-          "path": "packages/adapters/src/opencode.ts",
-          "line": 30,
-          "quote": "export class OpenCodeProvider implements Provider<OpenCodeOptions>"
-        },
-        {
-          "repo": "grokmax",
-          "path": "packages/adapters/src/index.ts",
-          "line": 17,
-          "quote": "export { OpenCodeProvider, runSpawn, containedOrBase } from \"./opencode.js\";"
-        }
-      ],
-      "confidence": "explicit",
-      "bilateral": false,
-      "note": "opencode is a third-party runtime, not a repository in this portfolio."
-    },
-    {
-      "source": "opencode-watchdog",
-      "target": "opencode",
-      "relation": "ingests the OpenCode session event stream and aborts a degenerate session",
-      "evidence_type": "import / integration",
-      "evidence": [
-        {
-          "repo": "opencode-watchdog",
-          "path": "src/adapters/opencode/ingest.ts",
-          "line": 17,
-          "quote": "export function splitSseChunk(chunk: string): { complete: string[]; remainder: string }"
-        },
-        {
-          "repo": "opencode-watchdog",
-          "path": "README.md",
-          "line": 13,
-          "quote": "OpenCode Watchdog is an independent community project by Noaerth. It is not affiliated with, endorsed by, or maintained by the OpenCode team."
-        }
-      ],
-      "confidence": "explicit",
-      "bilateral": false,
-      "note": "The non-affiliation statement is load-bearing: it forbids implying any relationship with the OpenCode team."
+     "repo": "grokbot-office",
+     "path": "AGENTOS.md",
+     "line": 1,
+     "quote": "# AgentOS relationship"
     }
-  ],
-  "deliberate_non_edges": [
+   ],
+   "confidence": "explicit",
+   "bilateral": false
+  },
+  {
+   "source": "grokmax",
+   "target": "opencode",
+   "relation": "ships an adapter that executes work inside OpenCode",
+   "evidence_type": "import / integration",
+   "evidence": [
     {
-      "pair": ["noaerth-portfolio-os", "agentos"],
-      "reason": "Explicitly disclaimed, not merely undocumented. README.md:144 lists under 'Deliberately not built' the item 'Its own agent runtime. That is AgentOS.' Drawing an edge would assert a dependency the project explicitly refuses.",
-      "evidence": [
-        {
-          "repo": "noaerth-portfolio-os",
-          "path": "README.md",
-          "line": 144,
-          "quote": "Its own agent runtime. That is AgentOS."
-        }
-      ]
+     "repo": "grokmax",
+     "path": "packages/adapters/src/opencode.ts",
+     "line": 30,
+     "quote": "export class OpenCodeProvider implements Provider<OpenCodeOptions>"
     },
     {
-      "pair": ["gh0st", "any"],
-      "reason": "No documented dependency on or from any other portfolio repository. Presented as an independent surface."
-    },
-    {
-      "pair": ["grokinstall", "any"],
-      "reason": "No documented dependency on or from any other portfolio repository. Presented as an independent tool."
-    },
-    {
-      "pair": ["grokbot-society", "any"],
-      "reason": "No documented dependency on or from any other portfolio repository."
-    },
-    {
-      "pair": ["seai-mind", "any"],
-      "reason": "No documented dependency on or from any other portfolio repository."
+     "repo": "grokmax",
+     "path": "packages/adapters/src/index.ts",
+     "line": 17,
+     "quote": "export { OpenCodeProvider, runSpawn, containedOrBase } from \"./opencode.js\";"
     }
-  ],
-  "external": [
+   ],
+   "confidence": "explicit",
+   "bilateral": false,
+   "note": "opencode is a third-party runtime, not a repository in this portfolio."
+  },
+  {
+   "source": "opencode-watchdog",
+   "target": "opencode",
+   "relation": "ingests the OpenCode session event stream and aborts a degenerate session",
+   "evidence_type": "import / integration",
+   "evidence": [
     {
-      "name": "opencode",
-      "kind": "third-party runtime",
-      "affiliation": "none",
-      "evidence": [
-        {
-          "repo": "opencode-watchdog",
-          "path": "README.md",
-          "line": 13,
-          "quote": "not affiliated with, endorsed by, or maintained by the OpenCode team"
-        }
-      ]
+     "repo": "opencode-watchdog",
+     "path": "src/adapters/opencode/ingest.ts",
+     "line": 17,
+     "quote": "export function splitSseChunk(chunk: string): { complete: string[]; remainder: string }"
+    },
+    {
+     "repo": "opencode-watchdog",
+     "path": "README.md",
+     "line": 13,
+     "quote": "OpenCode Watchdog is an independent community project by Noaerth. It is not affiliated with, endorsed by, or maintained by the OpenCode team."
     }
-  ]
+   ],
+   "confidence": "explicit",
+   "bilateral": false,
+   "note": "The non-affiliation statement is load-bearing: it forbids implying any relationship with the OpenCode team."
+  }
+ ],
+ "deliberate_non_edges": [
+  {
+   "pair": [
+    "agentos"
+   ],
+   "reason": "The portfolio control plane is a private repository and is deliberately not drawn: it orchestrates these systems, it is not a runtime dependency of them, and naming it here would disclose a private repository name."
+  },
+  {
+   "pair": [
+    "gh0st",
+    "any"
+   ],
+   "reason": "No documented dependency on or from any other portfolio repository. Presented as an independent surface."
+  },
+  {
+   "pair": [
+    "grokinstall",
+    "any"
+   ],
+   "reason": "No documented dependency on or from any other portfolio repository. Presented as an independent tool."
+  },
+  {
+   "pair": [
+    "grokbot-society",
+    "any"
+   ],
+   "reason": "No documented dependency on or from any other portfolio repository."
+  },
+  {
+   "pair": [
+    "seai-mind",
+    "any"
+   ],
+   "reason": "No documented dependency on or from any other portfolio repository."
+  }
+ ],
+ "external": [
+  {
+   "name": "opencode",
+   "kind": "third-party runtime",
+   "affiliation": "none",
+   "evidence": [
+    {
+     "repo": "opencode-watchdog",
+     "path": "README.md",
+     "line": 13,
+     "quote": "not affiliated with, endorsed by, or maintained by the OpenCode team"
+    }
+   ]
+  }
+ ]
 }

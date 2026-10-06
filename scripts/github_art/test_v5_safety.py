@@ -27,6 +27,11 @@ from pathlib import Path
 PROFILE = Path(__file__).resolve().parents[2]
 INVENTORY = PROFILE / "GITHUB_V5_PUBLIC_INVENTORY.json"
 LEDGER = PROFILE / "GITHUB_V5_CONTENT_LEDGER.json"
+PRIVATE_REPO_NAMES = {"noaerth-portfolio-os", "noaerth-cloud-factory",
+                      "noaerth-ecosystem", "noaerth-operator", "Noaerth-Labs",
+                      "Noaerth-Team", "autobuilder", "autobuilder-3",
+                      "autobuilder-mvp", "paios-one"}
+
 SYSTEM_MAP_EVIDENCE = PROFILE / "system-map-evidence.json"
 
 PUBLIC_ARTEFACTS = (
@@ -205,14 +210,26 @@ class TestEvidenceIntegrity(unittest.TestCase):
                               f"{slug} is drawn on the map with no identity")
 
     def test_disclaimed_relationships_stay_absent(self):
-        """portfolio-os -> agentos is disclaimed in its own README."""
+        """The private control plane must not be drawn as a dependency.
+
+        The disclaimer between the portfolio control plane and AgentOS is
+        recorded without naming the control plane, because that repository is
+        private and this file is published. The assertion therefore checks that
+        no edge reaches a private repository at all, rather than checking for
+        one hard-coded name -- a check that itself disclosed the name it was
+        protecting.
+        """
         data = json.loads(SYSTEM_MAP_EVIDENCE.read_text(encoding="utf-8"))
         drawn = {f"{e['source']}->{e['target']}" for e in data["edges"]}
-        self.assertNotIn("noaerth-portfolio-os->agentos", drawn,
-                         "a relationship the project explicitly disclaims must not be drawn")
-        self.assertTrue(any("portfolio-os" in pair["pair"][0]
-                            for pair in data.get("deliberate_non_edges", [])),
-                        "the disclaimer should be recorded as a deliberate non-edge")
+        for edge in drawn:
+            for endpoint in edge.split("->"):
+                self.assertNotIn(
+                    endpoint, PRIVATE_REPO_NAMES,
+                    f"an edge reaches a private repository: {edge}")
+        raw = SYSTEM_MAP_EVIDENCE.read_text(encoding="utf-8")
+        for name in PRIVATE_REPO_NAMES:
+            self.assertNotIn(name, raw,
+                             f"private repository name disclosed in a public file: {name}")
 
 
 class TestPreservationBaseline(unittest.TestCase):
