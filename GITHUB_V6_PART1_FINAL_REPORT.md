@@ -1,5 +1,11 @@
 # GITHUB V6 — PART 1 FINAL REPORT
 
+> **SUPERSEDED — portfolio economics removed from GitHub in V7.**
+> This report is retained as an accurate record of what was published
+> and when it was retired. The financial section, plate and methodology
+> were deliberately withdrawn by direction change. They are not current
+> and must not be cited. Noaerth.com is outside the GitHub-only boundary
+> and is untouched.
 **GATES: 20 of 21 pass.** The one failing condition and its exact queue are at
 the end. Nothing below rounds up.
 

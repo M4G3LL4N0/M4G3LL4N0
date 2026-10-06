@@ -518,7 +518,6 @@ def build_dossier(m: dict, repo: dict, local: dict, venture: dict | None) -> dic
 
         "public_noaerth_positioning": (venture or {}).get("positioning", ""),
         "venture_stage": (venture or {}).get("status", ""),
-        "public_financial_context": "not published per venture",
 
         "primary_visual_metaphor": ARCH_CATEGORY_GEOMETRY.get(
             (arch, cat), ARCH_GEOMETRY[arch]),

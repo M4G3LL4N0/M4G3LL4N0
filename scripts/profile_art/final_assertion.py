@@ -317,30 +317,9 @@ def main() -> int:
         queue.append("uniqueness audit: too many repositories share a hero, "
                      "palette or animation story")
 
-    # Financial provenance must be recorded before anything is published.
-    fin = PROFILE / "data" / "portfolio-economics-v0.2.json"
-    fin_ok = False
-    if fin.exists():
-        f = json.loads(fin.read_text())
-        fin_ok = (f["model"]["source_type"] == "user_provided_management_model"
-                  and f["model"]["audited"] is False
-                  and f["model"]["attributable_nav_established"] is False
-                  and len(f["required_labels"]) == 5)
-    readme = (PROFILE / "README.md").read_text(encoding="utf-8")
-    # Markdown line wrapping and the blockquote prefix put these labels across
-    # several lines, so a literal substring search reports a label that is
-    # plainly present in the rendered page. Whitespace and '>' are normalised
-    # before matching.
-    flat = re.sub(r"[\s>]+", " ", readme.upper())
-    labels_on_profile = all(
-        l in flat for l in ("MANAGEMENT ESTIMATE", "UNAUDITED",
-                            "VENTURE-LEVEL VALUATION MODEL",
-                            "NOT AN INDEPENDENT APPRAISAL",
-                            "NOT ATTRIBUTABLE PARENT NAV"))
-    checks.append(("financial source record established and labelled on profile",
-                   fin_ok and labels_on_profile,
-                   "recorded with all five labels" if fin_ok and labels_on_profile
-                   else "missing provenance or labels"))
+    # Portfolio economics were removed from GitHub in V7 by direction
+    # change, so the former provenance gate no longer applies. Noaerth.com is
+    # outside the GitHub-only boundary and is untouched.
 
     # report
     print("=" * 74)
