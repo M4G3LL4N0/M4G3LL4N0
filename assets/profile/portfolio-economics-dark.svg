@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="1200" height="620" role="img" aria-label="Portfolio model: gross venture value low $228.6M, base $653.2M, high $2.80B. Risk-adjusted after a 25 percent haircut: low $171.5M, base $489.9M, high $2.10B.">
+<title>Noaerth portfolio economics — management estimate, unaudited, not attributable parent NAV</title>
+<desc>Horizontal bar plate on a linear scale. Modeled gross venture value: low $228.6M, base $653.2M, high $2.80B. Risk-adjusted after a 25 percent portfolio overlap haircut: low $171.5M, base $489.9M, high $2.10B. Bar length is proportional to value; no volume or perspective encodes magnitude. 124 registered ventures: 16 Live, 102 Building, 6 Research. Attributable parent NAV is not established.</desc>
+<rect width="1200" height="620" fill="#0a0d12"/>
+<text x="56" y="52" fill="#f4efe4" font-size="26" font-weight="640" letter-spacing="-0.3">Portfolio economics</text>
+<text x="56" y="80" fill="#f4efe4b0" font-size="13.5" letter-spacing="0.5">MANAGEMENT ESTIMATE · UNAUDITED · VENTURE-LEVEL MODEL · NOT AN INDEPENDENT APPRAISAL · NOT ATTRIBUTABLE PARENT NAV</text>
+<text x="56" y="112" fill="#f4efe45c" font-size="13" letter-spacing="0.4">124 registered ventures · 16 Live · 102 Building · 6 Research</text>
+<text x="1144" y="52" fill="#f4efe45c" font-size="11.5" text-anchor="end" letter-spacing="0.4">linear scale · 0 → $2.80B · bar length is proportional to value</text>
+<text x="56" y="136" fill="#f4efe4" font-size="14" font-weight="600" letter-spacing="0.6">MODELED GROSS</text>
+<g>
+<text x="56" y="167" fill="#f4efe4b0" font-size="12.5" letter-spacing="1.1" text-transform="uppercase">low</text>
+<rect x="132" y="155" width="844" height="22" fill="#f4efe4" opacity="0.055"/>
+<g><rect x="132" y="155" width="68.9" height="22" rx="4" fill="#e7c27a" opacity="0.92"/></g>
+<text x="992" y="172" fill="#f4efe4" font-size="16" font-weight="600" font-variant-numeric="tabular-nums">$228.6M</text>
+</g>
+<g>
+<text x="56" y="229" fill="#f4efe4b0" font-size="12.5" letter-spacing="1.1" text-transform="uppercase">base</text>
+<rect x="132" y="217" width="844" height="22" fill="#f4efe4" opacity="0.055"/>
+<g><rect x="132" y="217" width="196.8" height="22" rx="4" fill="#e7c27a" opacity="0.92"/></g>
+<text x="992" y="234" fill="#f4efe4" font-size="16" font-weight="600" font-variant-numeric="tabular-nums">$653.2M</text>
+</g>
+<g>
+<text x="56" y="291" fill="#f4efe4b0" font-size="12.5" letter-spacing="1.1" text-transform="uppercase">high</text>
+<rect x="132" y="279" width="844" height="22" fill="#f4efe4" opacity="0.055"/>
+<g><rect x="132" y="279" width="844.0" height="22" rx="4" fill="#e7c27a" opacity="0.92"/></g>
+<text x="992" y="296" fill="#f4efe4" font-size="16" font-weight="600" font-variant-numeric="tabular-nums">$2.80B</text>
+</g>
+<text x="56" y="376" fill="#f4efe4" font-size="14" font-weight="600" letter-spacing="0.6">RISK-ADJUSTED</text>
+<text x="246" y="376" fill="#f4efe45c" font-size="12.5" letter-spacing="0.3">after 25% portfolio overlap haircut</text>
+<g>
+<text x="56" y="407" fill="#f4efe4b0" font-size="12.5" letter-spacing="1.1" text-transform="uppercase">low</text>
+<rect x="132" y="395" width="844" height="22" fill="#f4efe4" opacity="0.055"/>
+<g><rect x="132" y="395" width="51.6" height="22" rx="4" fill="#7fd1c1" opacity="0.92"/></g>
+<text x="992" y="412" fill="#f4efe4" font-size="16" font-weight="600" font-variant-numeric="tabular-nums">$171.5M</text>
+</g>
+<g>
+<text x="56" y="469" fill="#f4efe4b0" font-size="12.5" letter-spacing="1.1" text-transform="uppercase">base</text>
+<rect x="132" y="457" width="844" height="22" fill="#f4efe4" opacity="0.055"/>
+<g><rect x="132" y="457" width="147.6" height="22" rx="4" fill="#7fd1c1" opacity="0.92"/></g>
+<text x="992" y="474" fill="#f4efe4" font-size="16" font-weight="600" font-variant-numeric="tabular-nums">$489.9M</text>
+</g>
+<g>
+<text x="56" y="531" fill="#f4efe4b0" font-size="12.5" letter-spacing="1.1" text-transform="uppercase">high</text>
+<rect x="132" y="519" width="844" height="22" fill="#f4efe4" opacity="0.055"/>
+<g><rect x="132" y="519" width="633.0" height="22" rx="4" fill="#7fd1c1" opacity="0.92"/></g>
+<text x="992" y="536" fill="#f4efe4" font-size="16" font-weight="600" font-variant-numeric="tabular-nums">$2.10B</text>
+</g>
+<line x1="56" y1="558" x2="1144" y2="558" stroke="#f4efe42b" stroke-width="1"/>
+<text x="56" y="580" fill="#f4efe45c" font-size="11.5" letter-spacing="0.35">Figures are a portfolio model, not Noaerth corporate value. Attributable parent NAV not established. Methodology: PORTFOLIO_ECONOMICS.md</text>
+</svg>

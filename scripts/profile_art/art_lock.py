@@ -57,6 +57,7 @@ DESIGN_GLOBS = (
     "assets/profile/avatar/*.svg",
     "assets/profile/cards/*.svg",
     "assets/social-preview.svg",
+    "assets/profile/portfolio-economics-*.svg",
 )
 
 # Factual: measured state that is expected to change on a schedule.

@@ -199,6 +199,38 @@ all, because none is documented — and several systems whose relationships are 
 
 ---
 
+## Portfolio economics
+
+<p align="center">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/profile/portfolio-economics-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/profile/portfolio-economics-light.svg">
+    <img src="assets/profile/portfolio-economics-motion.svg" alt="Portfolio model scenarios: gross venture value low $228.6M, base $653.2M, high $2,802.2M; risk-adjusted after a 25 percent portfolio overlap haircut, low $171.5M, base $489.9M, high $2,101.6M. Bar length is proportional to value on a linear scale." width="100%">
+  </picture>
+</p>
+
+> **MANAGEMENT ESTIMATE · UNAUDITED · VENTURE-LEVEL VALUATION MODEL · NOT AN
+> INDEPENDENT APPRAISAL · NOT ATTRIBUTABLE PARENT NAV**
+
+124 registered ventures: 16 Live, 102 Building, 6 Research.
+
+| scenario | modeled gross | risk-adjusted (25% haircut) |
+| --- | --- | --- |
+| Low | $228.635M | $171.476M |
+| Base | $653.243M | $489.932M |
+| High | $2.80218B | $2.101635B |
+
+These are portfolio model outputs, **not** Noaerth corporate value. Attributable
+parent NAV is not established: ownership percentages across the 124 ventures
+are undocumented. The figures are internally consistent — the 25% haircut
+reproduces the stated risk-adjusted values to within $250 — but no workbook or
+script backs them, so they cannot currently be recomputed.
+
+Full methodology, arithmetic checks and limitations:
+[`PORTFOLIO_ECONOMICS.md`](PORTFOLIO_ECONOMICS.md) ·
+source record: [`data/portfolio-economics-v0.2.json`](data/portfolio-economics-v0.2.json)
+
+
 ## Selected labs
 
 <!-- labs:start -->
