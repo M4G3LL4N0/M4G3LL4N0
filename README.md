@@ -22,8 +22,8 @@
   </a>
   <a href="#flagships">
     <picture>
-      <source media="(prefers-color-scheme: light)" srcset="assets/profile/nav/systems-light.svg">
-      <img src="assets/profile/nav/systems-dark.svg" alt="{Systems — the six flagships}" height="92">
+      <source media="(prefers-color-scheme: light)" srcset="assets/profile/nav/repositories-light.svg">
+      <img src="assets/profile/nav/repositories-dark.svg" alt="{Repositories — full inventory}" height="92">
     </picture>
   </a>
   <a href="https://github.com/M4G3LL4N0/why-are-you-here">
