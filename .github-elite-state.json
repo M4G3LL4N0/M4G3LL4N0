@@ -7,847 +7,858 @@
    "class": "BLOCKING",
    "name": "grokbot-office-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "BLOCKING",
    "name": "agentos-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "BLOCKING",
    "name": "grokbot-society-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "BLOCKING",
    "name": "computeflow-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "BLOCKING",
    "name": "cortexhq-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "BLOCKING",
    "name": "cropshield-ai-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "BLOCKING",
    "name": "cruxenio-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "BLOCKED_WITH_REASON"
   },
   {
    "class": "BLOCKING",
    "name": "cxntradict-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "BLOCKED_WITH_REASON"
   },
   {
    "class": "BLOCKING",
    "name": "datatherapy-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "BLOCKING",
    "name": "deploylocal-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "BLOCKING",
    "name": "devstate-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "BLOCKING",
    "name": "emailsimple-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "BLOCKED_WITH_REASON"
   },
   {
    "class": "BLOCKING",
    "name": "gh0st-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "BLOCKING",
    "name": "grokinstall-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "BLOCKING",
    "name": "grokmax-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "BLOCKING",
    "name": "opencode-watchdog-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "BLOCKING",
    "name": "grokbot-concierge-website",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "BLOCKED_WITH_REASON"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "agentos",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "grokbot-office",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "grokbot-society",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "grokinstall",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "opencode-watchdog",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "gh0st",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "grokmax",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "seai-mind",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "access-layer",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "M4G3LL4N0",
    "pending_fields": 0,
-   "state": "DONE"
+   "reason": "The profile repository itself. It carries the portfolio identity and system map, not per-project hero art.",
+   "state": "NOT_APPLICABLE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "redwoud",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "grokgeneral",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "legacybridge",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "node_modules",
    "pending_fields": 0,
-   "state": "DONE"
+   "reason": "Committed dependency artifact, not a project. Needs an owner decision: delete or keep.",
+   "state": "BLOCKED_WITH_REASON"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "ai-dev-workflow-starter",
    "pending_fields": 0,
-   "state": "DONE"
+   "reason": "No local checkout. Art and description are derived from source; writing without it would be invention.",
+   "state": "BLOCKED_WITH_REASON"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "Ayncient",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "BehindCurtain",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "blitzproof",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "Bourgaeux",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "BrandCrossover",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "cannex-logistics",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "cheetahbearfuel",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "childdevos",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "cleanstack-os",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "cloudcastle",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "commos",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "Cruxenio",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "CxNTRADICT",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "datatherapy",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "deploylocal",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "EmailSimple",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "ForeverLuvd",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "founderskingdom",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "FungMind",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "HackerzArt",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "happyblock",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "luvpartnr",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "Modex",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "NaextBlock",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "oddbotix",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "poolwater",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "saeturtle",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "ShopRight",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "SoulMayte",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "Spouwse",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "startupquick",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "SUNSETX",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "tempoos",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "TherapyUX",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "TrustxVerify",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "valuedsociety",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "VentureRank-OS",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "YouState",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "1bc",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "agentapi-hub",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "chipflow",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "claimpilot-ai",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "cleanstack-macos",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "companyos",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "computeflow",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "cortexhq",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "enterprisepilot",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "evalforge",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "evsec-one",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "fastprocure-ai",
    "pending_fields": 0,
-   "state": "DONE"
+   "reason": "Default branch is portfolio/fastprocure-ai/planner-draft and no local checkout is mapped.",
+   "state": "BLOCKED_WITH_REASON"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "forgeflow",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "freeconomie",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "fullofshit",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "gamecombo",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "genotwin-health",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "ghostframe",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "imessage",
    "pending_fields": 0,
-   "state": "DONE"
+   "reason": "No local checkout. Art and description are derived from source; writing without it would be invention.",
+   "state": "BLOCKED_WITH_REASON"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "interceptorgrid",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "lagrangeos",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "life-finds-a-way",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "loopcompute-cloud",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "luvconvos",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "luvstories",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "nex-robotix",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "obviouslybad",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "oodax",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "psychemap",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "readablestack",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "RequestAyo",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "reviewforge-ai",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "spaceedu",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "src",
    "pending_fields": 0,
-   "state": "DONE"
+   "reason": "Misnamed real work. No local checkout, so nothing about it can be verified.",
+   "state": "BLOCKED_WITH_REASON"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "strxngth",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "styles",
    "pending_fields": 0,
-   "state": "DONE"
+   "reason": "Misnamed real work. No local checkout, so nothing about it can be verified.",
+   "state": "BLOCKED_WITH_REASON"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "swarmshield",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "trajectoryos",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "useros",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "vizuler",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "youareprofound",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "zaeux",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "agentcore-silicon",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "autoerp",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "betterfintech",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "bioyield-labs",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "blitzunicorn",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "buildloop-usa",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "cropshield-ai",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "devstate",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "EVSec.one",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "execmemory-ai",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "executionos",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "FundMind",
    "pending_fields": 0,
-   "state": "DONE"
+   "reason": "No local checkout. Art and description are derived from source; writing without it would be invention.",
+   "state": "BLOCKED_WITH_REASON"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "ledgerops-ai",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "lunarfoundry",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "morphui",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "n1-therapeutics",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "opsautopilot",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "orbitchip",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "orbitprint",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "siliconcontrol-tower",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "spacecompute-cloud",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "STRxGNTH",
    "pending_fields": 0,
-   "state": "DONE"
+   "reason": "No local checkout. Art and description are derived from source; writing without it would be invention.",
+   "state": "BLOCKED_WITH_REASON"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "supplyos-ai",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "uxvisualengine",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "vencapmentor",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "why-are-you-here",
    "pending_fields": 0,
-   "state": "DONE"
+   "reason": "Misnamed real work. No local checkout, so nothing about it can be verified.",
+   "state": "BLOCKED_WITH_REASON"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "workflowcanvas",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "COMPLETE"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "Zaeus",
    "pending_fields": 0,
-   "state": "DONE"
+   "reason": "No local checkout. Art and description are derived from source; writing without it would be invention.",
+   "state": "BLOCKED_WITH_REASON"
   },
   {
    "class": "PUBLIC_PROJECT",
    "name": "freewash-finder",
    "pending_fields": 0,
-   "state": "DONE"
+   "state": "BLOCKED_WITH_REASON"
   }
  ],
  "records": {
