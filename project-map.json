@@ -1,0 +1,521 @@
+{
+ "$comment": "Repository to local project to venture slug. Confidence is never assumed; MAPPING_REVIEW_REQUIRED means no project claims were emitted for that repository.",
+ "owner": "M4G3LL4N0",
+ "count": 20,
+ "records": [
+  {
+   "map": {
+    "github_repo": "1bc",
+    "github_url": "https://github.com/M4G3LL4N0/1bc",
+    "local_project_path": "/Users/matador/startups/1bc",
+    "noaerth_venture_slug": "1bc",
+    "noaerth_venture_url": "https://www.noaerth.com/1bc",
+    "canonical_project_name": "1BC",
+    "aliases": [
+     "1bc",
+     "1bc",
+     "1bc",
+     "1bc",
+     "1bc"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/1bc.json"
+  },
+  {
+   "map": {
+    "github_repo": "access-layer",
+    "github_url": "https://github.com/M4G3LL4N0/access-layer",
+    "local_project_path": "/Users/matador/startups/access-layer",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "access-layer",
+    "aliases": [
+     "access-layer",
+     "accesslayer",
+     "access-layer",
+     "access_layer",
+     "accesslayer"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/access-layer.json"
+  },
+  {
+   "map": {
+    "github_repo": "agentapi-hub",
+    "github_url": "https://github.com/M4G3LL4N0/agentapi-hub",
+    "local_project_path": "/Users/matador/startups/agentapi-hub",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "agentapi-hub",
+    "aliases": [
+     "agentapi-hub",
+     "agentapihub",
+     "agentapi-hub",
+     "agentapi_hub",
+     "agentapihub"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/agentapi-hub.json"
+  },
+  {
+   "map": {
+    "github_repo": "agentcore-silicon",
+    "github_url": "https://github.com/M4G3LL4N0/agentcore-silicon",
+    "local_project_path": "/Users/matador/startups/agentcore-silicon",
+    "noaerth_venture_slug": "agentcore-silicon",
+    "noaerth_venture_url": "https://www.noaerth.com/agentcore-silicon",
+    "canonical_project_name": "AgentCore Silicon",
+    "aliases": [
+     "agentcore-silicon",
+     "agentcoresilicon",
+     "agentcore-silicon",
+     "agentcore_silicon",
+     "agentcoresilicon"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/agentcore-silicon.json"
+  },
+  {
+   "map": {
+    "github_repo": "agentos",
+    "github_url": "https://github.com/M4G3LL4N0/agentos",
+    "local_project_path": "/Users/matador/startups/agentos",
+    "noaerth_venture_slug": "agentos",
+    "noaerth_venture_url": "https://www.noaerth.com/agentos",
+    "canonical_project_name": "AgentOS",
+    "aliases": [
+     "agentos",
+     "agentos",
+     "agentos",
+     "agentos",
+     "agentos"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/agentos.json"
+  },
+  {
+   "map": {
+    "github_repo": "agentos-website",
+    "github_url": "https://github.com/M4G3LL4N0/agentos-website",
+    "local_project_path": "/Users/matador/startups/agentos",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "agentos-website",
+    "aliases": [
+     "agentos-website",
+     "agentoswebsite",
+     "agentos-website",
+     "agentos_website",
+     "agentoswebsite"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "website repository maps to its parent project folder"
+    ],
+    "visibility": "public",
+    "website_repository": true
+   },
+   "dossier_path": ".github-art/dossiers/agentos-website.json"
+  },
+  {
+   "map": {
+    "github_repo": "ai-dev-workflow-starter",
+    "github_url": "https://github.com/M4G3LL4N0/ai-dev-workflow-starter",
+    "local_project_path": "",
+    "noaerth_venture_slug": "",
+    "noaerth_venture_url": "",
+    "canonical_project_name": "ai-dev-workflow-starter",
+    "aliases": [
+     "ai-dev-workflow-starter",
+     "aidevworkflowstarter",
+     "ai-dev-workflow-starter",
+     "ai_dev_workflow_starter",
+     "aidevworkflowstarter"
+    ],
+    "classification": "",
+    "confidence": "MAPPING_REVIEW_REQUIRED",
+    "basis": [],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ""
+  },
+  {
+   "map": {
+    "github_repo": "autoerp",
+    "github_url": "https://github.com/M4G3LL4N0/autoerp",
+    "local_project_path": "/Users/matador/startups/autoerp",
+    "noaerth_venture_slug": "autoerp",
+    "noaerth_venture_url": "https://www.noaerth.com/autoerp",
+    "canonical_project_name": "AutoERP",
+    "aliases": [
+     "autoerp",
+     "autoerp",
+     "autoerp",
+     "autoerp",
+     "autoerp"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/autoerp.json"
+  },
+  {
+   "map": {
+    "github_repo": "Ayncient",
+    "github_url": "https://github.com/M4G3LL4N0/Ayncient",
+    "local_project_path": "/Users/matador/startups/ayncient",
+    "noaerth_venture_slug": "ayncient",
+    "noaerth_venture_url": "https://www.noaerth.com/ayncient",
+    "canonical_project_name": "Ayncient",
+    "aliases": [
+     "ayncient",
+     "ayncient",
+     "ayncient",
+     "ayncient",
+     "ayncient"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/Ayncient.json"
+  },
+  {
+   "map": {
+    "github_repo": "BehindCurtain",
+    "github_url": "https://github.com/M4G3LL4N0/BehindCurtain",
+    "local_project_path": "/Users/matador/startups/behindcurtain",
+    "noaerth_venture_slug": "behindcurtain",
+    "noaerth_venture_url": "https://www.noaerth.com/behindcurtain",
+    "canonical_project_name": "BehindCurtain",
+    "aliases": [
+     "behindcurtain",
+     "behindcurtain",
+     "behindcurtain",
+     "behindcurtain",
+     "behindcurtain"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/BehindCurtain.json"
+  },
+  {
+   "map": {
+    "github_repo": "betterfintech",
+    "github_url": "https://github.com/M4G3LL4N0/betterfintech",
+    "local_project_path": "/Users/matador/startups/betterfintech",
+    "noaerth_venture_slug": "betterfintech",
+    "noaerth_venture_url": "https://www.noaerth.com/betterfintech",
+    "canonical_project_name": "BetterFinTech",
+    "aliases": [
+     "betterfintech",
+     "betterfintech",
+     "betterfintech",
+     "betterfintech",
+     "betterfintech"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/betterfintech.json"
+  },
+  {
+   "map": {
+    "github_repo": "bioyield-labs",
+    "github_url": "https://github.com/M4G3LL4N0/bioyield-labs",
+    "local_project_path": "/Users/matador/startups/bioyield-labs",
+    "noaerth_venture_slug": "bioyield-labs",
+    "noaerth_venture_url": "https://www.noaerth.com/bioyield-labs",
+    "canonical_project_name": "BioYield Labs",
+    "aliases": [
+     "bioyield-labs",
+     "bioyieldlabs",
+     "bioyield-labs",
+     "bioyield_labs",
+     "bioyieldlabs"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/bioyield-labs.json"
+  },
+  {
+   "map": {
+    "github_repo": "blitzproof",
+    "github_url": "https://github.com/M4G3LL4N0/blitzproof",
+    "local_project_path": "/Users/matador/startups/blitzproof",
+    "noaerth_venture_slug": "blitzproof",
+    "noaerth_venture_url": "https://www.noaerth.com/blitzproof",
+    "canonical_project_name": "BlitzProof",
+    "aliases": [
+     "blitzproof",
+     "blitzproof",
+     "blitzproof",
+     "blitzproof",
+     "blitzproof"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/blitzproof.json"
+  },
+  {
+   "map": {
+    "github_repo": "blitzunicorn",
+    "github_url": "https://github.com/M4G3LL4N0/blitzunicorn",
+    "local_project_path": "/Users/matador/startups/blitzunicorn",
+    "noaerth_venture_slug": "blitzunicorn",
+    "noaerth_venture_url": "https://www.noaerth.com/blitzunicorn",
+    "canonical_project_name": "BlitzUnicorn",
+    "aliases": [
+     "blitzunicorn",
+     "blitzunicorn",
+     "blitzunicorn",
+     "blitzunicorn",
+     "blitzunicorn"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/blitzunicorn.json"
+  },
+  {
+   "map": {
+    "github_repo": "Bourgaeux",
+    "github_url": "https://github.com/M4G3LL4N0/Bourgaeux",
+    "local_project_path": "/Users/matador/startups/bourgaeux",
+    "noaerth_venture_slug": "bourgaeux",
+    "noaerth_venture_url": "https://www.noaerth.com/bourgaeux",
+    "canonical_project_name": "Bourgaeux",
+    "aliases": [
+     "bourgaeux",
+     "bourgaeux",
+     "bourgaeux",
+     "bourgaeux",
+     "bourgaeux"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/Bourgaeux.json"
+  },
+  {
+   "map": {
+    "github_repo": "BrandCrossover",
+    "github_url": "https://github.com/M4G3LL4N0/BrandCrossover",
+    "local_project_path": "/Users/matador/startups/brandcrossover",
+    "noaerth_venture_slug": "brandcrossover",
+    "noaerth_venture_url": "https://www.noaerth.com/brandcrossover",
+    "canonical_project_name": "BrandCrossover",
+    "aliases": [
+     "brandcrossover",
+     "brandcrossover",
+     "brandcrossover",
+     "brandcrossover",
+     "brandcrossover"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/BrandCrossover.json"
+  },
+  {
+   "map": {
+    "github_repo": "buildloop-usa",
+    "github_url": "https://github.com/M4G3LL4N0/buildloop-usa",
+    "local_project_path": "/Users/matador/startups/buildloop-usa",
+    "noaerth_venture_slug": "buildloop-usa",
+    "noaerth_venture_url": "https://www.noaerth.com/buildloop-usa",
+    "canonical_project_name": "BuildLoop USA",
+    "aliases": [
+     "buildloop-usa",
+     "buildloopusa",
+     "buildloop-usa",
+     "buildloop_usa",
+     "buildloopusa"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/buildloop-usa.json"
+  },
+  {
+   "map": {
+    "github_repo": "cannex-logistics",
+    "github_url": "https://github.com/M4G3LL4N0/cannex-logistics",
+    "local_project_path": "/Users/matador/startups/cannex-logistics",
+    "noaerth_venture_slug": "cannexlogistics",
+    "noaerth_venture_url": "https://www.noaerth.com/cannexlogistics",
+    "canonical_project_name": "CannexLogistics",
+    "aliases": [
+     "cannex-logistics",
+     "cannexlogistics",
+     "cannex-logistics",
+     "cannex_logistics",
+     "cannexlogistics"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/cannex-logistics.json"
+  },
+  {
+   "map": {
+    "github_repo": "cheetahbearfuel",
+    "github_url": "https://github.com/M4G3LL4N0/cheetahbearfuel",
+    "local_project_path": "/Users/matador/startups/cheetahbearfuel",
+    "noaerth_venture_slug": "cheetah-bear-fuel",
+    "noaerth_venture_url": "https://www.noaerth.com/cheetah-bear-fuel",
+    "canonical_project_name": "Cheetah Bear Fuel",
+    "aliases": [
+     "cheetahbearfuel",
+     "cheetahbearfuel",
+     "cheetahbearfuel",
+     "cheetahbearfuel",
+     "cheetahbearfuel"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/cheetahbearfuel.json"
+  },
+  {
+   "map": {
+    "github_repo": "childdevos",
+    "github_url": "https://github.com/M4G3LL4N0/childdevos",
+    "local_project_path": "/Users/matador/startups/childdevos",
+    "noaerth_venture_slug": "childdevos",
+    "noaerth_venture_url": "https://www.noaerth.com/childdevos",
+    "canonical_project_name": "ChildDevOS",
+    "aliases": [
+     "childdevos",
+     "childdevos",
+     "childdevos",
+     "childdevos",
+     "childdevos"
+    ],
+    "classification": "",
+    "confidence": "high",
+    "basis": [
+     "local folder name matches repository name",
+     "matched a public venture card"
+    ],
+    "visibility": "public",
+    "website_repository": false
+   },
+   "dossier_path": ".github-art/dossiers/childdevos.json"
+  }
+ ]
+}

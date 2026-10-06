@@ -1,0 +1,65 @@
+{
+ "animation_metaphor": "peers exchange state and converge",
+ "architecture_type": "DISTRIBUTED",
+ "benchmark_dimensions": [],
+ "canonical_name": "agentos-website",
+ "ci": {
+  "present": true,
+  "workflows": []
+ },
+ "color_family": "",
+ "control_flow": "peers exchange state and converge",
+ "data_flow": "",
+ "depth": "layered",
+ "design_version": "V6",
+ "evidence": {
+  "source_a_commits": "7",
+  "source_a_files": 166,
+  "source_a_local": "/Users/matador/startups/agentos",
+  "source_b_venture": "",
+  "source_c_github": "https://github.com/M4G3LL4N0/agentos-website"
+ },
+ "experimental_features": [],
+ "frameworks": [],
+ "geometry_family": "DISTRIBUTED",
+ "github_repo": "agentos-website",
+ "industry": "SECURITY",
+ "input_types": [],
+ "known_limitations": [],
+ "languages": [
+  "TypeScript"
+ ],
+ "major_components": [],
+ "mapping_confidence": "high",
+ "material_family": "",
+ "output_types": [],
+ "primary_user": "",
+ "primary_visual_metaphor": "lattice with partial connectivity",
+ "primary_workflow": "peers exchange state and converge",
+ "problem": "",
+ "project_category": "SECURITY",
+ "public_financial_context": "not published per venture",
+ "public_noaerth_positioning": "",
+ "purpose": "Public site for AgentOS \u2014 the execution substrate, explained without the marketing fog.",
+ "release": "unknown",
+ "secondary_visual_metaphor": "",
+ "secondary_workflows": [],
+ "security_characteristics": [],
+ "state_model": "",
+ "technical_category": "DISTRIBUTED",
+ "terminal_metaphor": "",
+ "tests": {
+  "executed": false,
+  "files": 44,
+  "note": "counted from the tree; not executed in Part 1",
+  "present": true
+ },
+ "trillionx_intensity": "standard",
+ "unresolved": [
+  "primary_user",
+  "problem"
+ ],
+ "venture_stage": "",
+ "verified_features": [],
+ "visual_density": "medium"
+}

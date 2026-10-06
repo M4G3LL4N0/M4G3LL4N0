@@ -1,0 +1,4623 @@
+{
+ "$comment": "Public venture cards from noaerth.com. Public information only. Positioning is captured to reconcile against code, never copied verbatim into a README.",
+ "source": "https://www.noaerth.com",
+ "retrieved_at": "2026-10-06T16:27:04Z",
+ "ventures": [
+  {
+   "name": "Autobuilder",
+   "slug": "autobuilder",
+   "site": "https://autobuilder-public.vercel.app/",
+   "aria_label": "Open Autobuilder site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://autobuilder-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "Redwoud",
+   "slug": "redwoud",
+   "site": "https://redwoud.noaerth.com/",
+   "aria_label": "Open Redwoud site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://redwoud.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "SunsetX",
+   "slug": "sunsetx",
+   "site": "https://sunsetx.noaerth.com/",
+   "aria_label": "Open SunsetX site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://sunsetx.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "AgentOS",
+   "slug": "agentos",
+   "site": "https://agentos-website-ten.vercel.app/",
+   "aria_label": "Open AgentOS site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://agentos-website-ten.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "GrokBot Office",
+   "slug": "grokbot-office",
+   "site": "https://grokbot-office-xi.vercel.app/",
+   "aria_label": "Open GrokBot Office site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://grokbot-office-xi.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "GrokBot Society",
+   "slug": "grokbot-society",
+   "site": "https://grokbot-society.vercel.app/",
+   "aria_label": "Open GrokBot Society site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://grokbot-society.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "GrokInstall",
+   "slug": "grokinstall",
+   "site": "https://grokinstall-website.vercel.app/",
+   "aria_label": "Open GrokInstall site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://grokinstall-website.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "GrokMax",
+   "slug": "grokmax",
+   "site": "https://grokmax.noaerth.com/",
+   "aria_label": "Open GrokMax site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://grokmax.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "OpenCode Watchdog",
+   "slug": "opencode-watchdog",
+   "site": "https://opencode-watchdog.vercel.app/",
+   "aria_label": "Open OpenCode Watchdog site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://opencode-watchdog.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "SE-AI Mind",
+   "slug": "se-ai-mind",
+   "site": "https://seai-mind.vercel.app/",
+   "aria_label": "Open SE-AI Mind site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://seai-mind.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "Dirty Sneakers",
+   "slug": "dirty-sneakers",
+   "site": "https://dirty-sneakers.vercel.app/",
+   "aria_label": "Open Dirty Sneakers site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://dirty-sneakers.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "Q-Concierge",
+   "slug": "q-concierge",
+   "site": "https://grokbot-concierge.vercel.app/",
+   "aria_label": "Open Q-Concierge site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://grokbot-concierge.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "Stay Seated Please",
+   "slug": "stay-seated-please",
+   "site": "https://stayseatedplease.vercel.app/",
+   "aria_label": "Open Stay Seated Please site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://stayseatedplease.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "Wordless",
+   "slug": "wordless",
+   "site": "https://wordless-chi.vercel.app/",
+   "aria_label": "Open Wordless site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://wordless-chi.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "DeployLocal",
+   "slug": "deploylocal",
+   "site": "https://deploylocal-website.vercel.app/",
+   "aria_label": "Open DeployLocal site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://deploylocal-website.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "Cruxenio",
+   "slug": "cruxenio",
+   "site": "https://cruxenio-website.vercel.app/",
+   "aria_label": "Open Cruxenio site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://cruxenio-website.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "PoolWater",
+   "slug": "poolwater",
+   "site": "https://poolwater.noaerth.com/",
+   "aria_label": "Open PoolWater site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://poolwater.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "RequestAyo",
+   "slug": "requestayo",
+   "site": "https://requestayo.noaerth.com/",
+   "aria_label": "Open RequestAyo site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://requestayo.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "BetterFinTech",
+   "slug": "betterfintech",
+   "site": "https://betterfintech-public.vercel.app/",
+   "aria_label": "Open BetterFinTech site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://betterfintech-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "CannexLogistics",
+   "slug": "cannexlogistics",
+   "site": "https://cannex-logistics-public.vercel.app/",
+   "aria_label": "Open CannexLogistics site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://cannex-logistics-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "CloudCastle",
+   "slug": "cloudcastle",
+   "site": "https://cloudcastle-public.vercel.app/",
+   "aria_label": "Open CloudCastle site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://cloudcastle-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "DataTherapy",
+   "slug": "datatherapy",
+   "site": "https://datatherapy-website.vercel.app/",
+   "aria_label": "Open DataTherapy site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://datatherapy-website.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "LuvStories",
+   "slug": "luvstories",
+   "site": "https://luvstories.vercel.app/",
+   "aria_label": "Open LuvStories site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://luvstories.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "StartupQuick",
+   "slug": "startupquick",
+   "site": "https://startupquick.noaerth.com/",
+   "aria_label": "Open StartupQuick site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://startupquick.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "VenCapMentor",
+   "slug": "vencapmentor",
+   "site": "https://vencapmentor-public.vercel.app/",
+   "aria_label": "Open VenCapMentor site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://vencapmentor-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "YouAreProfound",
+   "slug": "youareprofound",
+   "site": "https://youareprofound-public.vercel.app/",
+   "aria_label": "Open YouAreProfound site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://youareprofound-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "Zaeux",
+   "slug": "zaeux",
+   "site": "https://zaeux-public.vercel.app/",
+   "aria_label": "Open Zaeux site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://zaeux-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "BlitzProof",
+   "slug": "blitzproof",
+   "site": "https://blitzproof-public.vercel.app/",
+   "aria_label": "Open BlitzProof site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://blitzproof-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "BlitzUnicorn",
+   "slug": "blitzunicorn",
+   "site": "https://blitzunicorn-public.vercel.app/",
+   "aria_label": "Open BlitzUnicorn site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://blitzunicorn-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "UXVisualEngine",
+   "slug": "uxvisualengine",
+   "site": "https://uxvisualengine-public.vercel.app/",
+   "aria_label": "Open UXVisualEngine site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://uxvisualengine-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "ChildDevOS",
+   "slug": "childdevos",
+   "site": "https://childdevos-public.vercel.app/",
+   "aria_label": "Open ChildDevOS site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://childdevos-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "Vizuler",
+   "slug": "vizuler",
+   "site": "https://vizuler-public.vercel.app/",
+   "aria_label": "Open Vizuler site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://vizuler-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "AccessXWorld",
+   "slug": "accessxworld",
+   "site": "https://access-layer-public.vercel.app/",
+   "aria_label": "Open AccessXWorld site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://access-layer-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "Ayncient",
+   "slug": "ayncient",
+   "site": "https://ayncient-public.vercel.app/",
+   "aria_label": "Open Ayncient site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://ayncient-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "Bourgaeux",
+   "slug": "bourgaeux",
+   "site": "https://bourgaeux-public.vercel.app/",
+   "aria_label": "Open Bourgaeux site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://bourgaeux-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "DevState",
+   "slug": "devstate",
+   "site": "https://devstate-website.vercel.app/",
+   "aria_label": "Open DevState site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://devstate-website.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "EmailSimple",
+   "slug": "emailsimple",
+   "site": "https://emailsimple-website.vercel.app/",
+   "aria_label": "Open EmailSimple site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://emailsimple-website.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "EvSec-One",
+   "slug": "evsec-one",
+   "site": "https://evsec-one-public.vercel.app/",
+   "aria_label": "Open EvSec-One site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://evsec-one-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "ForeverLuvd",
+   "slug": "foreverluvd",
+   "site": "https://foreverluvd.vercel.app/",
+   "aria_label": "Open ForeverLuvd site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://foreverluvd.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "FungMind",
+   "slug": "fungmind",
+   "site": "https://fungmind.vercel.app/",
+   "aria_label": "Open FungMind site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://fungmind.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "LuvPartnr",
+   "slug": "luvpartnr",
+   "site": "https://luvpartnr.vercel.app/",
+   "aria_label": "Open LuvPartnr site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://luvpartnr.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "Modex",
+   "slug": "modex",
+   "site": "https://modex.noaerth.com/",
+   "aria_label": "Open Modex site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://modex.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "Noaerth Labs",
+   "slug": "noaerth-labs",
+   "site": "https://noaerth-labs.noaerth.com/",
+   "aria_label": "Open Noaerth Labs site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://noaerth-labs.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "ShopRight",
+   "slug": "shopright",
+   "site": "https://shopright.noaerth.com/",
+   "aria_label": "Open ShopRight site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://shopright.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "SoulMayte",
+   "slug": "soulmayte",
+   "site": "https://soulmayte.noaerth.com/",
+   "aria_label": "Open SoulMayte site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://soulmayte.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "Spouwse",
+   "slug": "spouwse",
+   "site": "https://spouwse.noaerth.com/",
+   "aria_label": "Open Spouwse site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://spouwse.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "STRxNGTH",
+   "slug": "strxngth",
+   "site": "https://strxngth.noaerth.com/",
+   "aria_label": "Open STRxNGTH site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://strxngth.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "TherapyUX",
+   "slug": "therapyux",
+   "site": "https://therapyux-public.vercel.app/",
+   "aria_label": "Open TherapyUX site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://therapyux-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "TrustXVerify",
+   "slug": "trustxverify",
+   "site": "https://trustxverify-public.vercel.app/",
+   "aria_label": "Open TrustXVerify site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://trustxverify-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "BehindCurtain",
+   "slug": "behindcurtain",
+   "site": "https://behindcurtain-public.vercel.app/",
+   "aria_label": "Open BehindCurtain site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://behindcurtain-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "BrandCrossover",
+   "slug": "brandcrossover",
+   "site": "https://brandcrossover-public.vercel.app/",
+   "aria_label": "Open BrandCrossover site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://brandcrossover-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "Cxntradict",
+   "slug": "cxntradict",
+   "site": "https://cxntradict-website.vercel.app/",
+   "aria_label": "Open Cxntradict site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://cxntradict-website.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "NaextBlock",
+   "slug": "naextblock",
+   "site": "https://naextblock.vercel.app/",
+   "aria_label": "Open NaextBlock site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://naextblock.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "VentureRank OS",
+   "slug": "venturerank-os",
+   "site": "https://venturerank-os-public.vercel.app/",
+   "aria_label": "Open VentureRank OS site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://venturerank-os-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "YouState",
+   "slug": "youstate",
+   "site": "https://youstate-public.vercel.app/",
+   "aria_label": "Open YouState site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://youstate-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "AgentAPI",
+   "slug": "agentapi",
+   "site": "https://agentapi-hub-public.vercel.app/",
+   "aria_label": "Open AgentAPI site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://agentapi-hub-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "AgentCore Silicon",
+   "slug": "agentcore-silicon",
+   "site": "https://agentcore-silicon-public.vercel.app/",
+   "aria_label": "Open AgentCore Silicon site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://agentcore-silicon-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "AutoERP",
+   "slug": "autoerp",
+   "site": "https://autoerp-public.vercel.app/",
+   "aria_label": "Open AutoERP site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://autoerp-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "BuildLoop USA",
+   "slug": "buildloop-usa",
+   "site": "https://buildloop-usa-public.vercel.app/",
+   "aria_label": "Open BuildLoop USA site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://buildloop-usa-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "ChipFlow",
+   "slug": "chipflow",
+   "site": "https://chipflow-public.vercel.app/",
+   "aria_label": "Open ChipFlow site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://chipflow-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "ComputeFlow",
+   "slug": "computeflow",
+   "site": "https://computeflow-website.vercel.app/",
+   "aria_label": "Open ComputeFlow site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://computeflow-website.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "CropShield AI",
+   "slug": "cropshield-ai",
+   "site": "https://cropshield-ai-website.vercel.app/",
+   "aria_label": "Open CropShield AI site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://cropshield-ai-website.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "EnterprisePilot",
+   "slug": "enterprisepilot",
+   "site": "https://enterprisepilot-public.vercel.app/",
+   "aria_label": "Open EnterprisePilot site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://enterprisepilot-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "ExecMemory AI",
+   "slug": "execmemory-ai",
+   "site": "https://execmemory-ai-public.vercel.app/",
+   "aria_label": "Open ExecMemory AI site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://execmemory-ai-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "FastProcure AI",
+   "slug": "fastprocure-ai",
+   "site": "https://fastprocure-ai.vercel.app/",
+   "aria_label": "Open FastProcure AI site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://fastprocure-ai.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "FullOfShit",
+   "slug": "fullofshit",
+   "site": "https://fullofshit.vercel.app/",
+   "aria_label": "Open FullOfShit site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://fullofshit.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "GameCombo",
+   "slug": "gamecombo",
+   "site": "https://gamecombo-nine.vercel.app/",
+   "aria_label": "Open GameCombo site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://gamecombo-nine.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "GenoTwin Health",
+   "slug": "genotwin-health",
+   "site": "https://genotwin-health.vercel.app/",
+   "aria_label": "Open GenoTwin Health site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://genotwin-health.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "GhostFrame",
+   "slug": "ghostframe",
+   "site": "https://ghostframe-ten.vercel.app/",
+   "aria_label": "Open GhostFrame site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://ghostframe-ten.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "InterceptorGrid",
+   "slug": "interceptorgrid",
+   "site": "https://interceptorgrid.vercel.app/",
+   "aria_label": "Open InterceptorGrid site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://interceptorgrid.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "LagrangeOS",
+   "slug": "lagrangeos",
+   "site": "https://lagrangeos.vercel.app/",
+   "aria_label": "Open LagrangeOS site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://lagrangeos.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "Life Finds A Way",
+   "slug": "life-finds-a-way",
+   "site": "https://life-finds-a-way.noaerth.com/",
+   "aria_label": "Open Life Finds A Way site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://life-finds-a-way.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "LoopCompute Cloud",
+   "slug": "loopcompute-cloud",
+   "site": "https://loopcompute-cloud.noaerth.com/",
+   "aria_label": "Open LoopCompute Cloud site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://loopcompute-cloud.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "LunarFoundry",
+   "slug": "lunarfoundry",
+   "site": "https://lunarfoundry.noaerth.com/",
+   "aria_label": "Open LunarFoundry site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://lunarfoundry.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "MorphUI",
+   "slug": "morphui",
+   "site": "https://morphui.noaerth.com/",
+   "aria_label": "Open MorphUI site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://morphui.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "Noaerth Operator",
+   "slug": "noaerth-operator",
+   "site": "https://noaerth-operator.noaerth.com/",
+   "aria_label": "Open Noaerth Operator site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://noaerth-operator.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "ObviouslyBad",
+   "slug": "obviouslybad",
+   "site": "https://obviouslybad.vercel.app/",
+   "aria_label": "Open ObviouslyBad site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://obviouslybad.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "Oodax",
+   "slug": "oodax",
+   "site": "https://oodax.vercel.app/",
+   "aria_label": "Open Oodax site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://oodax.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "OpsAutopilot",
+   "slug": "opsautopilot",
+   "site": "https://opsautopilot.noaerth.com/",
+   "aria_label": "Open OpsAutopilot site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://opsautopilot.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "OrbitChip",
+   "slug": "orbitchip",
+   "site": "https://orbitchip.noaerth.com/",
+   "aria_label": "Open OrbitChip site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://orbitchip.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "OrbitPrint",
+   "slug": "orbitprint",
+   "site": "https://orbitprint.noaerth.com/",
+   "aria_label": "Open OrbitPrint site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://orbitprint.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "ReadableStack",
+   "slug": "readablestack",
+   "site": "https://readablestack.noaerth.com/",
+   "aria_label": "Open ReadableStack site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://readablestack.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "SiliconControl Tower",
+   "slug": "siliconcontrol-tower",
+   "site": "https://siliconcontrol-tower.noaerth.com/",
+   "aria_label": "Open SiliconControl Tower site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://siliconcontrol-tower.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "SpaceCompute Cloud",
+   "slug": "spacecompute-cloud",
+   "site": "https://spacecompute-cloud.noaerth.com/",
+   "aria_label": "Open SpaceCompute Cloud site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://spacecompute-cloud.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "SupplyOS AI",
+   "slug": "supplyos-ai",
+   "site": "https://supplyos-ai-public.vercel.app/",
+   "aria_label": "Open SupplyOS AI site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://supplyos-ai-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "SwarmShield",
+   "slug": "swarmshield",
+   "site": "https://swarmshield-public.vercel.app/",
+   "aria_label": "Open SwarmShield site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://swarmshield-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "TrajectoryOS",
+   "slug": "trajectoryos",
+   "site": "https://trajectoryos-public.vercel.app/",
+   "aria_label": "Open TrajectoryOS site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://trajectoryos-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "UserOS",
+   "slug": "useros",
+   "site": "https://useros-public.vercel.app/",
+   "aria_label": "Open UserOS site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://useros-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "WorkflowCanvas",
+   "slug": "workflowcanvas",
+   "site": "https://workflowcanvas-public.vercel.app/",
+   "aria_label": "Open WorkflowCanvas site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://workflowcanvas-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "BioYield Labs",
+   "slug": "bioyield-labs",
+   "site": "https://bioyield-labs-public.vercel.app/",
+   "aria_label": "Open BioYield Labs site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://bioyield-labs-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "Brad&#x27;s Best Bubbles",
+   "slug": "brad-x27-s-best-bubbles",
+   "site": "https://bradsbestbubbles-public.vercel.app/",
+   "aria_label": "Open Brad&#x27;s Best Bubbles site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://bradsbestbubbles-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "Cheetah Bear Fuel",
+   "slug": "cheetah-bear-fuel",
+   "site": "https://cheetahbearfuel-public.vercel.app/",
+   "aria_label": "Open Cheetah Bear Fuel site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://cheetahbearfuel-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "ClaimPilot AI",
+   "slug": "claimpilot-ai",
+   "site": "https://claimpilot-ai-public.vercel.app/",
+   "aria_label": "Open ClaimPilot AI site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://claimpilot-ai-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "CompanyOS",
+   "slug": "companyos",
+   "site": "https://companyos-public.vercel.app/",
+   "aria_label": "Open CompanyOS site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://companyos-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "CortexHQ",
+   "slug": "cortexhq",
+   "site": "https://cortexhq-website.vercel.app/",
+   "aria_label": "Open CortexHQ site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://cortexhq-website.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "EvalForge",
+   "slug": "evalforge",
+   "site": "https://evalforge-public.vercel.app/",
+   "aria_label": "Open EvalForge site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://evalforge-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "ForgeFlow",
+   "slug": "forgeflow",
+   "site": "https://forgeflow.noaerth.com/",
+   "aria_label": "Open ForgeFlow site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://forgeflow.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "GrokGeneral",
+   "slug": "grokgeneral",
+   "site": "https://grokgeneral.vercel.app/",
+   "aria_label": "Open GrokGeneral site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://grokgeneral.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "LedgerOps AI",
+   "slug": "ledgerops-ai",
+   "site": "https://ledgerops-ai.vercel.app/",
+   "aria_label": "Open LedgerOps AI site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://ledgerops-ai.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "Lost Bag",
+   "slug": "lost-bag",
+   "site": "https://www.noaerth.com/ventures/lost-bag",
+   "aria_label": "Open Lost Bag site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://www.noaerth.com/ventures/lost-bag"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "N-1 Therapeutics",
+   "slug": "n-1-therapeutics",
+   "site": "https://www.noaerth.com/ventures/n1-therapeutics",
+   "aria_label": "Open N-1 Therapeutics site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://www.noaerth.com/ventures/n1-therapeutics"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "NATUREX",
+   "slug": "naturex",
+   "site": "https://www.noaerth.com/ventures/naturex",
+   "aria_label": "Open NATUREX site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://www.noaerth.com/ventures/naturex"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "P-Aware",
+   "slug": "p-aware",
+   "site": "https://www.noaerth.com/ventures/p-aware",
+   "aria_label": "Open P-Aware site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://www.noaerth.com/ventures/p-aware"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "Photon iMessage",
+   "slug": "photon-imessage",
+   "site": "https://imessage-eight.vercel.app/",
+   "aria_label": "Open Photon iMessage site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://imessage-eight.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "ReviewForge AI",
+   "slug": "reviewforge-ai",
+   "site": "https://www.noaerth.com/ventures/reviewforge-ai",
+   "aria_label": "Open ReviewForge AI site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://www.noaerth.com/ventures/reviewforge-ai"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "1BC",
+   "slug": "1bc",
+   "site": "https://1bc-public.vercel.app/",
+   "aria_label": "Open 1BC site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://1bc-public.vercel.app/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "ExecutionOS",
+   "slug": "executionos",
+   "site": "https://executionos.noaerth.com/",
+   "aria_label": "Open ExecutionOS site",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [
+    "https://executionos.noaerth.com/"
+   ],
+   "public_metrics": {},
+   "retrieved_at": "2026-10-06T16:27:04Z",
+   "page_sections": [
+    {
+     "heading": "Who are you here as?"
+    },
+    {
+     "heading": "What the studio made public."
+    },
+    {
+     "heading": "One portfolio, different kinds of work."
+    },
+    {
+     "heading": "PAIOS"
+    },
+    {
+     "heading": "Build with Noaerth. Prove with the portfolio. Accelerate with the ecosystem."
+    },
+    {
+     "heading": "Proof you can open\u2014not pitch-deck promises."
+    },
+    {
+     "heading": "Plan, score, and review\u2014before you ship."
+    },
+    {
+     "heading": "Full venture operating map."
+    },
+    {
+     "heading": "Full venture operating map"
+    }
+   ]
+  },
+  {
+   "name": "_named_in_prose",
+   "slug": "_prose",
+   "site": "",
+   "positioning": "",
+   "category": "",
+   "status": "",
+   "public_links": [],
+   "public_metrics": {},
+   "names": [
+    "AccessXWorld",
+    "AutoERP"
+   ],
+   "retrieved_at": "2026-10-06T16:27:04Z"
+  }
+ ]
+}
