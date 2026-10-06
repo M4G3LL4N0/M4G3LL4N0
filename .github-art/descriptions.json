@@ -1,0 +1,603 @@
+{
+ "1bc": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "Startup portfolio: 1bc. package.json.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "Ayncient": {
+  "description": "All database operations are scoped to the `ayncient` schema",
+  "old": "Ayncient. build via `package.json`.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "BehindCurtain": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "BehindCurtain. package.json.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "Bourgaeux": {
+  "description": "_Purpose not confidently inferable from repository evidence._",
+  "old": "Bourgaeux. build via `package.json`.",
+  "rejected_because": [
+   "inherits a placeholder rather than describing the project"
+  ]
+ },
+ "BrandCrossover": {
+  "description": "AI-powered intelligence for discovering, scoring, and launching profitable brand crossover products and collaborations\u2014built for CPG, food & beverage, agencies, licensors, and retail",
+  "old": "BrandCrossover. package.json.",
+  "rejected_because": [
+   "opens with generic marketing language"
+  ]
+ },
+ "Cruxenio": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "Cruxenio. build via `package.json`.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "CxNTRADICT": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "CxNTRADICT. package.json.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "EmailSimple": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "EmailSimple. package.json.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "ForeverLuvd": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "ForeverLuvd. package.json.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "FungMind": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "FungMind. build via `package.json`.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "HackerzArt": {
+  "description": "_Purpose not confidently inferable from repository evidence._",
+  "old": "HackerzArt. package.json.",
+  "rejected_because": [
+   "inherits a placeholder rather than describing the project"
+  ]
+ },
+ "Modex": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "Modex. build via `package.json`.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "NaextBlock": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "NaextBlock. package.json.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "RequestAyo": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "RequestAyo. package.json.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "ShopRight": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "ShopRight. build via `package.json`.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "SoulMayte": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "SoulMayte. build via `package.json`.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "TherapyUX": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "TherapyUX. build via `package.json`.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "TrustxVerify": {
+  "description": "TrustxVerify is the trust layer for global commerce",
+  "old": "TrustxVerify. package.json.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "VentureRank-OS": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "VentureRank OS. package.json.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "YouState": {
+  "description": "Pulse is a universal human optimization OS that adapts nutrition, energy, recovery, focus, and daily performance recommendations to each person's real life in real time",
+  "old": "YouState. build via `package.json`.",
+  "rejected_because": []
+ },
+ "agentapi-hub": {
+  "description": "AgentAPI Hub MVP: searchable marketplace for agent-ready APIs, CLIs, MCP servers, schemas, and machine-readable docs \u2014 agent orchestration",
+  "old": "Startup portfolio: agentapi-hub",
+  "rejected_because": []
+ },
+ "agentcore-silicon": {
+  "description": "AgentCore Silicon MVP: launch site and interactive workload benchmark simulator for agent-optimized silicon \u2014 agent orchestration and evaluation harness",
+  "old": "Startup portfolio: agentcore-silicon",
+  "rejected_because": []
+ },
+ "ai-dev-workflow-starter": {
+  "description": "A separate starter repository for building a safe AI-assisted software development workflow \u2014 workflow engine",
+  "old": "ai dev workflow starter. package.json; CI configured.",
+  "rejected_because": [
+   "contains implementation trivia"
+  ]
+ },
+ "autoerp": {
+  "description": "AutoERP MVP: AI ERP command center for finance, HR, procurement, inventory, and operations",
+  "old": "Startup portfolio: autoerp",
+  "rejected_because": []
+ },
+ "bioyield-labs": {
+  "description": "Premium Next.js MVP for **RNA-based and microbial crop protection** planning: simulator, pest matcher, trial intake, and dashboard (SQLite + Prisma) \u2014 reporting surface",
+  "old": "Startup portfolio: bioyield-labs",
+  "rejected_because": []
+ },
+ "blitzproof": {
+  "description": "BlitzProof is a startup validation engine for founders and venture studios",
+  "old": "blitzproof. package.json.",
+  "rejected_because": []
+ },
+ "buildloop-usa": {
+  "description": "BuildLoop USA MVP: marketplace-style rapid prototyping network for U.S",
+  "old": "Startup portfolio: buildloop-usa",
+  "rejected_because": []
+ },
+ "cannex-logistics": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "cannex logistics. package.json.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "cheetahbearfuel": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "cheetahbearfuel. package.json.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "childdevos": {
+  "description": "ChildDevOS is an AI-powered childcare intelligence platform for childcare centers, preschools, daycare providers, teachers, admins, and parents \u2014 request routing",
+  "old": "childdevos. package.json.",
+  "rejected_because": []
+ },
+ "chipflow": {
+  "description": "Real-time allocation, logistics, and risk monitoring MVP for semiconductor buyers and manufacturers \u2014 observability",
+  "old": "Startup portfolio: chipflow",
+  "rejected_because": []
+ },
+ "claimpilot-ai": {
+  "description": "AI-native insurance brokerage MVP for SMB policy matching, quote comparison, renewal planning, and broker actioning \u2014 distributed coordination",
+  "old": "Startup portfolio: claimpilot-ai",
+  "rejected_because": []
+ },
+ "cleanstack-os": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "cleanstack os. package.json.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "cloudcastle": {
+  "description": "CloudCastle is an automated retail infrastructure platform with a premium market-facing site, operator dashboard shell, and Supabase-ready data foundation \u2014 reporting surface",
+  "old": "cloudcastle. package.json.",
+  "rejected_because": []
+ },
+ "commos": {
+  "description": "Communications Operating System \u2014 shared communications control plane for the TRILLIONX ecosystem",
+  "old": "commos. build via `package.json`.",
+  "rejected_because": []
+ },
+ "companyos": {
+  "description": "Closed-loop AI operating system MVP for capturing meetings, customer interactions, tickets, goals, and execution metrics \u2014 observability",
+  "old": "Startup portfolio: companyos",
+  "rejected_because": []
+ },
+ "computeflow": {
+  "description": "Route AI workloads across cloud, private, edge, sovereign, and future orbital compute infrastructure",
+  "old": "Startup portfolio: computeflow",
+  "rejected_because": []
+ },
+ "computeflow-website": {
+  "description": "computeflow website: Lean public website \u2014 observability",
+  "old": "computeflow website. package.json.",
+  "rejected_because": []
+ },
+ "cortexhq": {
+  "description": "Premium SaaS-style MVP: a **simulated** company brain",
+  "old": "Startup portfolio: cortexhq",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "cortexhq-website": {
+  "description": "cortexhq website: Lean public website \u2014 observability",
+  "old": "cortexhq website. package.json.",
+  "rejected_because": []
+ },
+ "cropshield-ai": {
+  "description": "Premium Next.js MVP for **AI-assisted crop diagnostics** and **precision spray planning** with a deterministic rules engine (swap in real CV/robotics later)",
+  "old": "Startup portfolio: cropshield-ai",
+  "rejected_because": []
+ },
+ "cropshield-ai-website": {
+  "description": "cropshield ai website: Lean public website \u2014 observability",
+  "old": "cropshield ai website. package.json.",
+  "rejected_because": []
+ },
+ "datatherapy": {
+  "description": "DataTherapy is a clarity-first platform designed to help people understand scary news, fear-triggering ideas, and uncertainty using structured data, context, and calm interpretation",
+  "old": "datatherapy. package.json; 1 test file(s).",
+  "rejected_because": []
+ },
+ "datatherapy-website": {
+  "description": "datatherapy website: Lean public website \u2014 observability",
+  "old": "datatherapy website. package.json.",
+  "rejected_because": []
+ },
+ "deploylocal": {
+  "description": "Autonomous high-profit website acquisition, generation, sales and recurring-revenue engine",
+  "old": "deploylocal. build via `package.json`.",
+  "rejected_because": []
+ },
+ "deploylocal-website": {
+  "description": "deploylocal website: Lean public website \u2014 observability",
+  "old": "deploylocal website. package.json.",
+  "rejected_because": []
+ },
+ "devstate": {
+  "description": "DevState is a developer storage compression and recovery engine",
+  "old": "Startup portfolio: devstate",
+  "rejected_because": []
+ },
+ "devstate-website": {
+  "description": "devstate website: Lean public website \u2014 observability",
+  "old": "devstate website. package.json.",
+  "rejected_because": []
+ },
+ "enterprisepilot": {
+  "description": "EnterprisePilot MVP: pilot packaging generator for startups selling into Fortune 100 buyers",
+  "old": "Startup portfolio: enterprisepilot",
+  "rejected_because": []
+ },
+ "evalforge": {
+  "description": "EvalForge is a human-in-the-loop AI evaluation cockpit for comparing chatbot responses and coding answers with multiple OpenRouter models \u2014 evaluation harness",
+  "old": "Startup portfolio: evalforge",
+  "rejected_because": []
+ },
+ "evsec-one": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "evsec one. build via `package.json`.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "execmemory-ai": {
+  "description": "Executive operating MVP: paste **meeting notes** (or load **demo notes**) to generate a chief-of-staff style pack \u2014 **CEO brief**, **unresolved risks**, **delegated tasks**, **follow-up",
+  "old": "Startup portfolio: execmemory-ai",
+  "rejected_because": []
+ },
+ "executionos": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "Startup portfolio: executionos",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "fastprocure-ai": {
+  "description": "Procurement acceleration MVP for enterprise teams evaluating AI startups",
+  "old": "Startup portfolio: fastprocure-ai",
+  "rejected_because": []
+ },
+ "forgeflow": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "Startup portfolio: forgeflow",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "freeconomie": {
+  "description": "**Freeconomie** is a premium **free-economy intelligence** product: it helps people **discover, verify, route, stack, and redeem** high-value free offers, trials, perks, and local",
+  "old": "Startup portfolio: freeconomie",
+  "rejected_because": []
+ },
+ "fullofshit": {
+  "description": "Premium Next.js + TypeScript + Tailwind site + MVP demo for **Full of Shit** \u2014 a startup reality engine that brutally tells founders whether an idea is real, redundant, missing a buyer,",
+  "old": "Startup portfolio: fullofshit",
+  "rejected_because": []
+ },
+ "gamecombo": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "Startup portfolio: gamecombo",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "genotwin-health": {
+  "description": "Educational MVP: a **non-medical** \u201chealth twin\u201d worksheet that combines mock genomics notes, wearable-style summaries, sleep, activity, nutrition, and goals into wellness insights,",
+  "old": "Startup portfolio: genotwin-health",
+  "rejected_because": []
+ },
+ "ghostframe": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "Startup portfolio: ghostframe",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "happyblock": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "happyblock. package.json.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "imessage": {
+  "description": "A production-oriented Next.js app that sends iMessages via Photon Codes using a secure server-side API route \u2014 service API",
+  "old": "Startup portfolio: imessage",
+  "rejected_because": []
+ },
+ "interceptorgrid": {
+  "description": "**Non-operational MVP.** A simulated command center for **airspace safety coordination**: monitoring, alerting, detection confidence, escalation, response workflow, and compliance-style \u2014.",
+  "old": "Startup portfolio: interceptorgrid",
+  "rejected_because": []
+ },
+ "lagrangeos": {
+  "description": "**Experimental astrodynamics, accelerated by AI.**",
+  "old": "Startup portfolio: lagrangeos",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "ledgerops-ai": {
+  "description": "AI-native accounting firm MVP: paste mock transactions, pick a business type, and generate a **monthly close report** with classification, anomalies, missing receipts, tax notes, CFO \u2014 reporting.",
+  "old": "Startup portfolio: ledgerops-ai",
+  "rejected_because": []
+ },
+ "legacybridge": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "legacybridge. package.json.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "life-finds-a-way": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "Startup portfolio: life-finds-a-way",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "loopcompute-cloud": {
+  "description": "LoopCompute Cloud MVP: cloud workload planner for multi-agent orchestration, memory persistence, and latency-aware routing \u2014 agent orchestration and request routing",
+  "old": "Startup portfolio: loopcompute-cloud",
+  "rejected_because": []
+ },
+ "lunarfoundry": {
+  "description": "Lunarfoundry MVP: space industrial planning simulator for lunar resource extraction and processing",
+  "old": "Startup portfolio: lunarfoundry",
+  "rejected_because": []
+ },
+ "luvconvos": {
+  "description": "Practice the conversation before it matters",
+  "old": "luvconvos. build via `package.json`.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "luvstories": {
+  "description": "LuvStories is a private relationship intelligence platform that helps users build, understand, and shape their love stories through private workspaces",
+  "old": "luvstories. package.json.",
+  "rejected_because": []
+ },
+ "morphui": {
+  "description": "Interactive MVP for an **AI interface layer** that reshapes SaaS dashboards from **role**, **workflow**, **layout preference**, and **natural language** intent \u2014 workflow engine",
+  "old": "Startup portfolio: morphui",
+  "rejected_because": []
+ },
+ "n1-therapeutics": {
+  "description": "**Research and care-navigation MVP \u2014 not medical advice.** Users build an educational N-of-1 worksheet (condition category, biomarker themes, symptoms, goals)",
+  "old": "Startup portfolio: n1-therapeutics",
+  "rejected_because": []
+ },
+ "nex-robotix": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "Startup portfolio: nex-robotix",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "obviouslybad": {
+  "description": "obviouslybad: Free public startup idea stress testing",
+  "old": "Startup portfolio: obviouslybad",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "oddbotix": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "oddbotix. build via `package.json`.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "oodax": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "Startup portfolio: oodax. package.json.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "opsautopilot": {
+  "description": "AI operations autopilot simulator MVP for bottleneck detection, follow-up generation, task routing, and operating rhythm planning \u2014 request routing",
+  "old": "Startup portfolio: opsautopilot",
+  "rejected_because": []
+ },
+ "orbitchip": {
+  "description": "Orbitchip MVP: premium space hardware website with interactive chip configuration",
+  "old": "Startup portfolio: orbitchip",
+  "rejected_because": []
+ },
+ "orbitprint": {
+  "description": "Orbitprint MVP: orbital construction simulator for in-space 3D printing with lunar/asteroid-derived materials",
+  "old": "Startup portfolio: orbitprint",
+  "rejected_because": []
+ },
+ "poolwater": {
+  "description": "POOL WATER is a late-night adult social gaming and nightlife brand",
+  "old": "poolwater. build via `package.json`.",
+  "rejected_because": []
+ },
+ "psychemap": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "Startup portfolio: psychemap",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "readablestack": {
+  "description": "ReadableStack MVP: docs conversion demo for agent-readable instructions, schemas, examples, edge cases, and export outputs \u2014 agent orchestration",
+  "old": "Startup portfolio: readablestack",
+  "rejected_because": []
+ },
+ "redwoud": {
+  "description": "REDWOUD is an AI-powered real-time global intelligence platform that turns worldwide data, news, market signals, economic indicators, geopolitical developments, and public information",
+  "old": "redwoud. package.json; CI configured.",
+  "rejected_because": []
+ },
+ "reviewforge-ai": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "Startup portfolio: reviewforge-ai",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "saeturtle": {
+  "description": "Premium early-family operating system for childcare planning, nursery setup, developmental recommendations, routines, caregiver coordination, and future family-commerce / smart nursery",
+  "old": "saeturtle. build via `package.json`.",
+  "rejected_because": []
+ },
+ "siliconcontrol-tower": {
+  "description": "AI command center MVP for semiconductor supply chain risk, demand pressure, and geopolitical alerting",
+  "old": "Startup portfolio: siliconcontrol-tower",
+  "rejected_because": []
+ },
+ "spacecompute-cloud": {
+  "description": "SpaceCompute Cloud MVP: orbit-edge workload planner and deployment dashboard for satellite AI workloads \u2014 reporting surface",
+  "old": "Startup portfolio: spacecompute-cloud",
+  "rejected_because": []
+ },
+ "spaceedu": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "spaceedu. build via `package.json`.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "startupquick": {
+  "description": "StartupQuick helps founders turn startup ideas into premium, shareable startup websites in minutes",
+  "old": "startupquick. package.json.",
+  "rejected_because": []
+ },
+ "strxngth": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "strxngth. build via `package.json`.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "supplyos-ai": {
+  "description": "SupplyOS AI MVP: supply chain risk dashboard with autonomous recommendations and supplier mapping \u2014 reporting surface",
+  "old": "Startup portfolio: supplyos-ai",
+  "rejected_because": []
+ },
+ "swarmshield": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "Startup portfolio: swarmshield",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "tempoos": {
+  "description": "The AI operating system for time allocation, focus protection, and adaptive weekly planning",
+  "old": "tempoos. build via `package.json`.",
+  "rejected_because": []
+ },
+ "trajectoryos": {
+  "description": "**Mission-grade calculations for the frontier.**",
+  "old": "Startup portfolio: trajectoryos",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "useros": {
+  "description": "_Purpose not confidently inferable from repository evidence._",
+  "old": "Startup portfolio: useros",
+  "rejected_because": [
+   "inherits a placeholder rather than describing the project"
+  ]
+ },
+ "valuedsociety": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "valuedsociety. package.json.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "vizuler": {
+  "description": "_Purpose not confidently inferable from repository evidence._",
+  "old": "Startup portfolio: vizuler",
+  "rejected_because": [
+   "inherits a placeholder rather than describing the project"
+  ]
+ },
+ "workflowcanvas": {
+  "description": "MVP for a **personalized enterprise workflow canvas**: collect **role, daily tasks, apps, pain points, priorities, and team size**, then generate a **workspace** with **task lanes**, \u2014 workflow engine",
+  "old": "Startup portfolio: workflowcanvas",
+  "rejected_because": []
+ },
+ "youareprofound": {
+  "description": "You can start editing the page by modifying `app/page.tsx`",
+  "old": "youareprofound. package.json.",
+  "rejected_because": [
+   "no distinguishing mechanism"
+  ]
+ },
+ "zaeux": {
+  "description": "Zaeux is a premium onchain financial layer for payments, treasury, programmable credit, and infrastructure",
+  "old": "zaeux. build via `package.json`.",
+  "rejected_because": []
+ }
+}

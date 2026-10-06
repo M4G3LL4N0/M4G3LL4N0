@@ -2,7 +2,7 @@
  "$comment": "One record per canonical repository. Every field is COMPLETE or NOT_APPLICABLE with a reason; UNKNOWN is never a terminal value.",
  "account": "M4G3LL4N0",
  "canonical_count": 152,
- "generated_at": "2026-10-06T18:35:00Z",
+ "generated_at": "2026-10-06T19:59:44Z",
  "records": [
   {
    "name": "1bc",
@@ -19,6 +19,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: 1bc. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -145,6 +146,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Neutral coordination layer for access to space (MVP)",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -271,6 +273,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "AgentAPI Hub MVP: searchable marketplace for agent-ready APIs, CLIs, MCP servers, schemas, and machine-readable docs \u2014 agent orchestration",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -397,6 +400,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "AgentCore Silicon MVP: launch site and interactive workload benchmark simulator for agent-optimized silicon \u2014 agent orchestration and evaluation harness",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -523,6 +527,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Provider-neutral AI agent execution and orchestration engine: objective in, verified outcome out.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -649,6 +654,7 @@
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "Public site for AgentOS \u2014 the execution substrate, explained without the marketing fog.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -777,6 +783,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "ai dev workflow starter. package.json; CI configured.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -790,8 +797,8 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -814,16 +821,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -838,8 +845,8 @@
     "reason": "discussions not enabled"
    },
    "ci_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no workflow; not applicable unless executable code exists"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "tests_state": {
     "state": "NOT_APPLICABLE",
@@ -875,8 +882,8 @@
     "reason": "no issue forms"
    },
    "pr_template_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no pull request template"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "changelog_state": {
     "state": "NOT_APPLICABLE",
@@ -886,7 +893,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 24 field(s)"
+   "next_action": "complete 18 field(s)"
   },
   {
    "name": "autobuilder",
@@ -903,6 +910,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": false,
+   "description_text": "",
    "description_complete": {
     "state": "NOT_APPLICABLE",
     "reason": "no description recorded on the repository"
@@ -1029,6 +1037,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": false,
+   "description_text": "Startup portfolio: autobuilder-3",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -1042,8 +1051,8 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -1155,6 +1164,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": false,
+   "description_text": "Startup portfolio: autobuilder-mvp",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -1281,6 +1291,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "AutoERP MVP: AI ERP command center for finance, HR, procurement, inventory, and operations",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -1407,6 +1418,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Ayncient. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -1533,6 +1545,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "BehindCurtain. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -1659,6 +1672,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "betterfintech. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -1785,6 +1799,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Premium Next.js MVP for **RNA-based and microbial crop protection** planning: simulator, pest matcher, trial intake, and dashboard (SQLite + Prisma) \u2014 reporting surface",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -1911,6 +1926,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "BlitzProof is a startup validation engine for founders and venture studios",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -2037,6 +2053,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "blitzunicorn. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -2163,6 +2180,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Bourgaeux. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -2289,6 +2307,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "BrandCrossover. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -2415,6 +2434,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "BuildLoop USA MVP: marketplace-style rapid prototyping network for U.S",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -2541,6 +2561,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "cannex logistics. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -2667,6 +2688,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "cheetahbearfuel. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -2793,6 +2815,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "ChildDevOS is an AI-powered childcare intelligence platform for childcare centers, preschools, daycare providers, teachers, admins, and parents \u2014 request routing",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -2919,6 +2942,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Real-time allocation, logistics, and risk monitoring MVP for semiconductor buyers and manufacturers \u2014 observability",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -3045,6 +3069,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "AI-native insurance brokerage MVP for SMB policy matching, quote comparison, renewal planning, and broker actioning \u2014 distributed coordination",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -3171,6 +3196,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "cleanstack macos. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -3297,6 +3323,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "cleanstack os. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -3423,6 +3450,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "CloudCastle is an automated retail infrastructure platform with a premium market-facing site, operator dashboard shell, and Supabase-ready data foundation \u2014 reporting surface",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -3549,6 +3577,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Communications Operating System \u2014 shared communications control plane for the TRILLIONX ecosystem",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -3675,6 +3704,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Closed-loop AI operating system MVP for capturing meetings, customer interactions, tickets, goals, and execution metrics \u2014 observability",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -3801,6 +3831,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Route AI workloads across cloud, private, edge, sovereign, and future orbital compute infrastructure",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -3927,6 +3958,7 @@
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "computeflow website: Lean public website \u2014 observability",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -4055,6 +4087,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: cortexhq",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -4181,6 +4214,7 @@
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "cortexhq website: Lean public website \u2014 observability",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -4309,6 +4343,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Premium Next.js MVP for **AI-assisted crop diagnostics** and **precision spray planning** with a deterministic rules engine (swap in real CV/robotics later)",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -4435,6 +4470,7 @@
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "cropshield ai website: Lean public website \u2014 observability",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -4563,6 +4599,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Cruxenio. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -4689,6 +4726,7 @@
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "cruxenio website. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -4702,12 +4740,12 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
@@ -4726,16 +4764,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -4817,6 +4855,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "CxNTRADICT. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -4830,20 +4869,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -4854,16 +4893,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -4926,7 +4965,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "cxntradict-website",
@@ -4943,6 +4982,7 @@
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "cxntradict website. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -4956,12 +4996,12 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
@@ -4980,16 +5020,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -5071,6 +5111,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "DataTherapy is a clarity-first platform designed to help people understand scary news, fear-triggering ideas, and uncertainty using structured data, context, and calm interpretation",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -5197,6 +5238,7 @@
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "datatherapy website: Lean public website \u2014 observability",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -5325,6 +5367,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Autonomous high-profit website acquisition, generation, sales and recurring-revenue engine",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -5451,6 +5494,7 @@
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "deploylocal website: Lean public website \u2014 observability",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -5579,6 +5623,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "DevState is a developer storage compression and recovery engine",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -5705,6 +5750,7 @@
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "devstate website: Lean public website \u2014 observability",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -5833,6 +5879,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "EmailSimple. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -5846,20 +5893,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -5870,16 +5917,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -5942,7 +5989,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "emailsimple-website",
@@ -5959,6 +6006,7 @@
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "emailsimple website. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -5972,12 +6020,12 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
@@ -5996,16 +6044,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -6087,6 +6135,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "EnterprisePilot MVP: pilot packaging generator for startups selling into Fortune 100 buyers",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -6213,6 +6262,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "EvalForge is a human-in-the-loop AI evaluation cockpit for comparing chatbot responses and coding answers with multiple OpenRouter models \u2014 evaluation harness",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -6339,6 +6389,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "evsec one. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -6465,6 +6516,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "EVSec.one. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -6478,20 +6530,20 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -6502,16 +6554,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -6574,7 +6626,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 24 field(s)"
+   "next_action": "complete 17 field(s)"
   },
   {
    "name": "execmemory-ai",
@@ -6591,6 +6643,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Executive operating MVP: paste **meeting notes** (or load **demo notes**) to generate a chief-of-staff style pack \u2014 **CEO brief**, **unresolved risks**, **delegated tasks**, **follow-up",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -6717,6 +6770,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: executionos",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -6843,6 +6897,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Procurement acceleration MVP for enterprise teams evaluating AI startups",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -6969,6 +7024,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "ForeverLuvd. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -6982,20 +7038,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -7006,16 +7062,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -7078,7 +7134,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "forgeflow",
@@ -7095,6 +7151,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: forgeflow",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -7221,6 +7278,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "FoundersKingdom is the operating system for founders building multiple startups.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -7347,6 +7405,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "**Freeconomie** is a premium **free-economy intelligence** product: it helps people **discover, verify, route, stack, and redeem** high-value free offers, trials, perks, and local",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -7473,6 +7532,7 @@
    "site_only": false,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "freewash finder. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -7486,8 +7546,8 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -7510,8 +7570,8 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
     "state": "NOT_APPLICABLE",
@@ -7582,7 +7642,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 24 field(s)"
+   "next_action": "complete 22 field(s)"
   },
   {
    "name": "fullofshit",
@@ -7599,6 +7659,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Premium Next.js + TypeScript + Tailwind site + MVP demo for **Full of Shit** \u2014 a startup reality engine that brutally tells founders whether an idea is real, redundant, missing a buyer,",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -7725,6 +7786,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "FundMind. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -7738,8 +7800,8 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -7762,16 +7824,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -7834,7 +7896,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 24 field(s)"
+   "next_action": "complete 20 field(s)"
   },
   {
    "name": "FungMind",
@@ -7851,6 +7913,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "FungMind. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -7864,20 +7927,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -7888,16 +7951,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -7960,7 +8023,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "gamecombo",
@@ -7977,6 +8040,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: gamecombo",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -8103,6 +8167,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Educational MVP: a **non-medical** \u201chealth twin\u201d worksheet that combines mock genomics notes, wearable-style summaries, sleep, activity, nutrition, and goals into wellness insights,",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -8229,6 +8294,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Local-first encrypted AI client for xAI/Grok with verifiable no-retention guarantees.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -8242,40 +8308,40 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
     "reason": "GitHub exposes no API field for a custom social preview; verified by rendering only"
    },
    "license_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no license file or SPDX id"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -8290,12 +8356,12 @@
     "reason": ""
    },
    "ci_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no workflow; not applicable unless executable code exists"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "tests_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no test file present in the repository tree"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "fresh_clone_state": {
     "state": "NOT_APPLICABLE",
@@ -8327,18 +8393,18 @@
     "reason": "no issue forms"
    },
    "pr_template_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no pull request template"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "changelog_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CHANGELOG.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "archive_status": false,
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 21 field(s)"
+   "next_action": "complete 9 field(s)"
   },
   {
    "name": "gh0st-website",
@@ -8355,6 +8421,7 @@
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "Public site for gh0st \u2014 local-first encrypted private AI client.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -8483,6 +8550,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: ghostframe",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -8609,6 +8677,7 @@
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "grokbot concierge website. package.json; local-first storage.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -8622,8 +8691,8 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -8646,16 +8715,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -8737,6 +8806,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Agent workforce architecture: roles, policy, handoffs and resource governance as configuration.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -8863,6 +8933,7 @@
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "Public reference site for the agent workforce architecture.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -8991,6 +9062,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Provider-neutral runtime for persistent synthetic people: roles, memory, economics and governance.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -9117,6 +9189,7 @@
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "Public website for the persistent-agent runtime.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -9245,6 +9318,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "grokgeneral. pyproject.toml; 37 test file(s); local-first storage.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -9371,6 +9445,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Install the capability, not the complexity. A Go CLI that inspects a repo and installs the smallest useful integration.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -9384,40 +9459,40 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
     "reason": "GitHub exposes no API field for a custom social preview; verified by rendering only"
    },
    "license_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no license file or SPDX id"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -9432,12 +9507,12 @@
     "reason": ""
    },
    "ci_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no workflow; not applicable unless executable code exists"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "tests_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no test file present in the repository tree"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "fresh_clone_state": {
     "state": "NOT_APPLICABLE",
@@ -9469,18 +9544,18 @@
     "reason": "no issue forms"
    },
    "pr_template_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no pull request template"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "changelog_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CHANGELOG.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "archive_status": false,
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 20 field(s)"
+   "next_action": "complete 8 field(s)"
   },
   {
    "name": "grokinstall-website",
@@ -9497,6 +9572,7 @@
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "Public site for GrokInstall \u2014 capability installation as a decision, not a script.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -9625,6 +9701,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Deterministic-first LLM routing: zero-cost executors first, five-layer cache, telemetry that never overstates savings.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -9638,40 +9715,40 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
     "reason": "GitHub exposes no API field for a custom social preview; verified by rendering only"
    },
    "license_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no license file or SPDX id"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -9686,12 +9763,12 @@
     "reason": ""
    },
    "ci_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no workflow; not applicable unless executable code exists"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "tests_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no test file present in the repository tree"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "fresh_clone_state": {
     "state": "NOT_APPLICABLE",
@@ -9723,18 +9800,18 @@
     "reason": "no issue forms"
    },
    "pr_template_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no pull request template"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "changelog_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CHANGELOG.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "archive_status": false,
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 21 field(s)"
+   "next_action": "complete 9 field(s)"
   },
   {
    "name": "grokmax-website",
@@ -9751,6 +9828,7 @@
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "GrokMax marketing site \u2014 deterministic-first routing to scale down GrokBot usage. Static Next.js export, deployed to grokmax.noaerth.com.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -9879,6 +9957,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "HackerzArt. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -9892,20 +9971,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -9916,16 +9995,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -9988,7 +10067,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "happyblock",
@@ -10005,6 +10084,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "happyblock. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -10131,6 +10211,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "A production-oriented Next.js app that sends iMessages via Photon Codes using a secure server-side API route \u2014 service API",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -10144,8 +10225,8 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -10168,16 +10249,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -10240,7 +10321,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 23 field(s)"
+   "next_action": "complete 19 field(s)"
   },
   {
    "name": "interceptorgrid",
@@ -10257,6 +10338,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "**Non-operational MVP.** A simulated command center for **airspace safety coordination**: monitoring, alerting, detection confidence, escalation, response workflow, and compliance-style \u2014.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -10383,6 +10465,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: lagrangeos",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -10509,6 +10592,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "AI-native accounting firm MVP: paste mock transactions, pick a business type, and generate a **monthly close report** with classification, anomalies, missing receipts, tax notes, CFO \u2014 reporting.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -10635,6 +10719,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "legacybridge. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -10761,6 +10846,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: life-finds-a-way",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -10887,6 +10973,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "LoopCompute Cloud MVP: cloud workload planner for multi-agent orchestration, memory persistence, and latency-aware routing \u2014 agent orchestration and request routing",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -11013,6 +11100,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Lunarfoundry MVP: space industrial planning simulator for lunar resource extraction and processing",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -11139,6 +11227,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "luvconvos. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -11265,6 +11354,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "LUVPARTNR is a private AI relationship intelligence platform that helps users analyze partner behavior, communication patterns, compatibility, and long-term risk using structured reports, decision-support tools, and a living case file system.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -11391,6 +11481,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "LuvStories is a private relationship intelligence platform that helps users build, understand, and shape their love stories through private workspaces",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -11517,6 +11608,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Profile of M4G3LL4N0 \u2014 autonomous systems, developer infrastructure, and research tooling under Noaerth.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -11643,6 +11735,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Modex. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -11656,20 +11749,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -11680,16 +11773,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -11752,7 +11845,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "morphui",
@@ -11769,6 +11862,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Interactive MVP for an **AI interface layer** that reshapes SaaS dashboards from **role**, **workflow**, **layout preference**, and **natural language** intent \u2014 workflow engine",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -11895,6 +11989,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "**Research and care-navigation MVP \u2014 not medical advice.** Users build an educational N-of-1 worksheet (condition category, biomarker themes, symptoms, goals)",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -12021,6 +12116,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "NaextBlock. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -12034,20 +12130,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -12058,16 +12154,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -12130,7 +12226,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "nex-robotix",
@@ -12147,6 +12243,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: nex-robotix",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -12273,6 +12370,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": false,
+   "description_text": "Noaerth is a next-generation holding company built to create, acquire, organize, and compound startups through a unified parent structure.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -12286,12 +12384,12 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
     "state": "NOT_APPLICABLE",
@@ -12334,12 +12432,12 @@
     "reason": "discussions not enabled"
    },
    "ci_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no workflow; not applicable unless executable code exists"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "tests_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no test file present in the repository tree"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "fresh_clone_state": {
     "state": "NOT_APPLICABLE",
@@ -12371,8 +12469,8 @@
     "reason": "no issue forms"
    },
    "pr_template_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no pull request template"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "changelog_state": {
     "state": "NOT_APPLICABLE",
@@ -12399,6 +12497,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": false,
+   "description_text": "Startup portfolio: noaerth-cloud-factory",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -12412,8 +12511,8 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -12525,6 +12624,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": false,
+   "description_text": "",
    "description_complete": {
     "state": "NOT_APPLICABLE",
     "reason": "no description recorded on the repository"
@@ -12538,8 +12638,8 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -12651,6 +12751,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": false,
+   "description_text": "",
    "description_complete": {
     "state": "NOT_APPLICABLE",
     "reason": "no description recorded on the repository"
@@ -12777,6 +12878,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": false,
+   "description_text": "Startup portfolio: noaerth-operator",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -12903,6 +13005,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": false,
+   "description_text": "Stdlib-only control plane for a portfolio of autonomous agents: SQLite work queue, reviewer separation, and an allowlist public boundary.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -12916,8 +13019,8 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -12936,8 +13039,8 @@
     "reason": "GitHub exposes no API field for a custom social preview; verified by rendering only"
    },
    "license_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no license file or SPDX id"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "security_state": {
     "state": "NOT_APPLICABLE",
@@ -12964,12 +13067,12 @@
     "reason": ""
    },
    "ci_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no workflow; not applicable unless executable code exists"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "tests_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no test file present in the repository tree"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "fresh_clone_state": {
     "state": "NOT_APPLICABLE",
@@ -13001,12 +13104,12 @@
     "reason": "no issue forms"
    },
    "pr_template_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no pull request template"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "changelog_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CHANGELOG.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "archive_status": false,
    "last_verified_sha": "",
@@ -13029,6 +13132,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": false,
+   "description_text": "",
    "description_complete": {
     "state": "NOT_APPLICABLE",
     "reason": "no description recorded on the repository"
@@ -13155,6 +13259,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "node modules. 1 test file(s).",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -13168,8 +13273,8 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -13192,16 +13297,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -13220,8 +13325,8 @@
     "reason": "no workflow; not applicable unless executable code exists"
    },
    "tests_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no test file present in the repository tree"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "fresh_clone_state": {
     "state": "NOT_APPLICABLE",
@@ -13264,7 +13369,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 17 field(s)"
   },
   {
    "name": "obviouslybad",
@@ -13281,6 +13386,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: obviouslybad",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -13407,6 +13513,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "oddbotix. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -13533,6 +13640,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: oodax. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -13659,6 +13767,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Local circuit breaker for runaway OpenCode sessions. Deterministic detection, no model, no data leaves the machine.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -13672,40 +13781,40 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
     "reason": "GitHub exposes no API field for a custom social preview; verified by rendering only"
    },
    "license_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no license file or SPDX id"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -13720,12 +13829,12 @@
     "reason": ""
    },
    "ci_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no workflow; not applicable unless executable code exists"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "tests_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no test file present in the repository tree"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "fresh_clone_state": {
     "state": "NOT_APPLICABLE",
@@ -13757,18 +13866,18 @@
     "reason": "no issue forms"
    },
    "pr_template_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no pull request template"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "changelog_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CHANGELOG.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "archive_status": false,
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 20 field(s)"
+   "next_action": "complete 8 field(s)"
   },
   {
    "name": "opencode-watchdog-website",
@@ -13785,6 +13894,7 @@
    "site_only": true,
    "delete_requested": true,
    "public_expected": false,
+   "description_text": "Public site for OpenCode Watchdog \u2014 a local circuit breaker for runaway agent sessions.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -13913,6 +14023,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "AI operations autopilot simulator MVP for bottleneck detection, follow-up generation, task routing, and operating rhythm planning \u2014 request routing",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -14039,6 +14150,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Orbitchip MVP: premium space hardware website with interactive chip configuration",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -14165,6 +14277,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Orbitprint MVP: orbital construction simulator for in-space 3D printing with lunar/asteroid-derived materials",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -14291,6 +14404,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": false,
+   "description_text": "",
    "description_complete": {
     "state": "NOT_APPLICABLE",
     "reason": "no description recorded on the repository"
@@ -14304,8 +14418,8 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -14356,8 +14470,8 @@
     "reason": "no workflow; not applicable unless executable code exists"
    },
    "tests_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no test file present in the repository tree"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "fresh_clone_state": {
     "state": "NOT_APPLICABLE",
@@ -14417,6 +14531,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "POOL WATER is a late-night adult social gaming and nightlife brand",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -14543,6 +14658,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: psychemap",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -14669,6 +14785,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "ReadableStack MVP: docs conversion demo for agent-readable instructions, schemas, examples, edge cases, and export outputs \u2014 agent orchestration",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -14795,6 +14912,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "REDWOUD is an AI-powered real-time global intelligence platform that turns worldwide data, news, market signals, economic indicators, geopolitical developments, and public information",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -14921,6 +15039,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "RequestAyo. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -14934,20 +15053,20 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -14958,16 +15077,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -15030,7 +15149,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 23 field(s)"
+   "next_action": "complete 16 field(s)"
   },
   {
    "name": "reviewforge-ai",
@@ -15047,6 +15166,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: reviewforge-ai",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -15173,6 +15293,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Premium early-family operating system for childcare planning, nursery setup, developmental recommendations, routines, caregiver coordination, and future family-commerce / smart nursery",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -15299,6 +15420,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Open-source self-evolving AI kernel with an auditable memory and capability loop.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -15425,6 +15547,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "ShopRight. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -15438,20 +15561,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -15462,16 +15585,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -15534,7 +15657,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "siliconcontrol-tower",
@@ -15551,6 +15674,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "AI command center MVP for semiconductor supply chain risk, demand pressure, and geopolitical alerting",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -15677,6 +15801,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "SoulMayte. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -15690,20 +15815,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -15714,16 +15839,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -15786,7 +15911,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "spacecompute-cloud",
@@ -15803,6 +15928,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "SpaceCompute Cloud MVP: orbit-edge workload planner and deployment dashboard for satellite AI workloads \u2014 reporting surface",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -15929,6 +16055,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "spaceedu. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -16055,6 +16182,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Spouwse. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -16068,20 +16196,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -16092,16 +16220,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -16164,7 +16292,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "src",
@@ -16181,6 +16309,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "src. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -16194,8 +16323,8 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -16218,16 +16347,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -16290,7 +16419,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 23 field(s)"
+   "next_action": "complete 19 field(s)"
   },
   {
    "name": "startupquick",
@@ -16307,6 +16436,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "StartupQuick helps founders turn startup ideas into premium, shareable startup websites in minutes",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -16433,6 +16563,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "STRxGNTH. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -16446,8 +16577,8 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -16470,16 +16601,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -16542,7 +16673,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 24 field(s)"
+   "next_action": "complete 20 field(s)"
   },
   {
    "name": "strxngth",
@@ -16559,6 +16690,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "strxngth. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -16685,6 +16817,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "styles. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -16698,8 +16831,8 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -16722,16 +16855,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -16794,7 +16927,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 23 field(s)"
+   "next_action": "complete 19 field(s)"
   },
   {
    "name": "SUNSETX",
@@ -16811,6 +16944,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "SUNSETX predicts and ranks the best sunset experiences using weather, location, and environmental data. Real-time scoring, peak timing, and smart recommendations for where to go and when.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -16824,20 +16958,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -16848,16 +16982,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -16920,7 +17054,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "supplyos-ai",
@@ -16937,6 +17071,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "SupplyOS AI MVP: supply chain risk dashboard with autonomous recommendations and supplier mapping \u2014 reporting surface",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17063,6 +17198,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: swarmshield",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17189,6 +17325,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "The AI operating system for time allocation, focus protection, and adaptive weekly planning",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17315,6 +17452,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "TherapyUX. build via `package.json`.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17328,20 +17466,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -17352,16 +17490,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -17424,7 +17562,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "trajectoryos",
@@ -17441,6 +17579,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: trajectoryos",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17567,6 +17706,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "TrustxVerify. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17580,20 +17720,20 @@
     "reason": ""
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -17604,16 +17744,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -17676,7 +17816,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 22 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "useros",
@@ -17693,6 +17833,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: useros",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17819,6 +17960,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "uxvisualengine. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -17945,6 +18087,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "valuedsociety. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -18071,6 +18214,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "vencapmentor. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -18197,6 +18341,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "VentureRank OS. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -18323,6 +18468,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Startup portfolio: vizuler",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -18449,6 +18595,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "How did you find this GitHub?",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -18462,8 +18609,8 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -18486,12 +18633,12 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
     "state": "NOT_APPLICABLE",
@@ -18558,7 +18705,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 23 field(s)"
+   "next_action": "complete 20 field(s)"
   },
   {
    "name": "workflowcanvas",
@@ -18575,6 +18722,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "MVP for a **personalized enterprise workflow canvas**: collect **role, daily tasks, apps, pain points, priorities, and team size**, then generate a **workspace** with **task lanes**, \u2014 workflow engine",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -18701,6 +18849,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "youareprofound. package.json.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -18827,6 +18976,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Pulse is a universal human optimization OS that adapts nutrition, energy, recovery, focus, and daily performance recommendations to each person's real life in real time",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -18844,16 +18994,16 @@
     "reason": ""
    },
    "hero_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no hero asset"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "animated_art_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no animated hero variant under assets/hero/"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "static_fallback_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "missing a static dark, light or reduced-motion fallback"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "social_preview_complete": {
     "state": "NOT_APPLICABLE",
@@ -18864,16 +19014,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -18936,7 +19086,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 21 field(s)"
+   "next_action": "complete 15 field(s)"
   },
   {
    "name": "Zaeus",
@@ -18953,6 +19103,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Zaeus. Work in progress; see the repository contents for detail.",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
@@ -18966,8 +19117,8 @@
     "reason": "no homepage; single-project repository"
    },
    "readme_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no README on the default branch"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "hero_complete": {
     "state": "NOT_APPLICABLE",
@@ -18990,16 +19141,16 @@
     "reason": "no license file or SPDX id"
    },
    "security_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no SECURITY.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "contributing_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CONTRIBUTING.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "code_of_conduct_state": {
-    "state": "NOT_APPLICABLE",
-    "reason": "no CODE_OF_CONDUCT.md"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "support_state": {
     "state": "NOT_APPLICABLE",
@@ -19062,7 +19213,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 24 field(s)"
+   "next_action": "complete 20 field(s)"
   },
   {
    "name": "zaeux",
@@ -19079,6 +19230,7 @@
    "site_only": false,
    "delete_requested": false,
    "public_expected": true,
+   "description_text": "Zaeux is a premium onchain financial layer for payments, treasury, programmable credit, and infrastructure",
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""

@@ -96,6 +96,9 @@ def completeness_fields(name: str, meta: dict, local: Path | None) -> dict:
         return {"state": COMPLETE if present else NA, "reason": "" if present else reason_if_absent}
 
     return {
+        # The raw description text is retained so downstream tooling can find
+        # and replace generic descriptions without another API pass.
+        "description_text": (meta.get("description") or "").strip(),
         "description_complete": st(bool((meta.get("description") or "").strip()),
                                    "no description recorded on the repository"),
         "topics_complete": st(len(topics) >= 5,
