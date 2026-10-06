@@ -98,6 +98,19 @@ jobs:
           fi
           echo "committed artwork matches the generator, and generation is deterministic"
 
+      # The zero-missing invariants. These fail loudly rather than reporting a
+      # number, because a silently truncated source is how 52 repositories went
+      # missing from a previous report.
+      - name: Inventory sources reconcile
+        run: |
+          set -euo pipefail
+          python3 scripts/profile_art/reconcile_inventory.py --json reconcile.json
+
+      - name: Zero-missing ledger invariant holds
+        run: |
+          set -euo pipefail
+          python3 scripts/profile_art/build_account_ledger.py --check
+
       - name: Generated README blocks are up to date
         run: |
           set -euo pipefail

@@ -1,0 +1,1616 @@
+{
+ "$comment": "Resumable completion state. Written after every repository so an interrupted run continues from the first incomplete record rather than from the start.",
+ "canonical_count": 152,
+ "initiated_at": "2026-10-06T03:00:45Z",
+ "queue": [
+  {
+   "class": "BLOCKING",
+   "name": "grokbot-office-website",
+   "pending_fields": 14,
+   "state": "PENDING"
+  },
+  {
+   "class": "BLOCKING",
+   "name": "agentos-website",
+   "pending_fields": 17,
+   "state": "PENDING"
+  },
+  {
+   "class": "BLOCKING",
+   "name": "grokbot-society-website",
+   "pending_fields": 19,
+   "state": "PENDING"
+  },
+  {
+   "class": "BLOCKING",
+   "name": "gh0st-website",
+   "pending_fields": 20,
+   "state": "PENDING"
+  },
+  {
+   "class": "BLOCKING",
+   "name": "computeflow-website",
+   "pending_fields": 21,
+   "state": "PENDING"
+  },
+  {
+   "class": "BLOCKING",
+   "name": "cortexhq-website",
+   "pending_fields": 21,
+   "state": "PENDING"
+  },
+  {
+   "class": "BLOCKING",
+   "name": "cropshield-ai-website",
+   "pending_fields": 21,
+   "state": "PENDING"
+  },
+  {
+   "class": "BLOCKING",
+   "name": "cruxenio-website",
+   "pending_fields": 21,
+   "state": "PENDING"
+  },
+  {
+   "class": "BLOCKING",
+   "name": "cxntradict-website",
+   "pending_fields": 21,
+   "state": "PENDING"
+  },
+  {
+   "class": "BLOCKING",
+   "name": "grokinstall-website",
+   "pending_fields": 21,
+   "state": "PENDING"
+  },
+  {
+   "class": "BLOCKING",
+   "name": "opencode-watchdog-website",
+   "pending_fields": 21,
+   "state": "PENDING"
+  },
+  {
+   "class": "BLOCKING",
+   "name": "datatherapy-website",
+   "pending_fields": 22,
+   "state": "PENDING"
+  },
+  {
+   "class": "BLOCKING",
+   "name": "deploylocal-website",
+   "pending_fields": 22,
+   "state": "PENDING"
+  },
+  {
+   "class": "BLOCKING",
+   "name": "devstate-website",
+   "pending_fields": 22,
+   "state": "PENDING"
+  },
+  {
+   "class": "BLOCKING",
+   "name": "emailsimple-website",
+   "pending_fields": 22,
+   "state": "PENDING"
+  },
+  {
+   "class": "BLOCKING",
+   "name": "grokmax-website",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "BLOCKING",
+   "name": "grokbot-concierge-website",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "grokbot-office",
+   "pending_fields": 12,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "grokbot-society",
+   "pending_fields": 12,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "grokinstall",
+   "pending_fields": 12,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "opencode-watchdog",
+   "pending_fields": 12,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "agentos",
+   "pending_fields": 13,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "gh0st",
+   "pending_fields": 13,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "grokmax",
+   "pending_fields": 14,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "M4G3LL4N0",
+   "pending_fields": 16,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "seai-mind",
+   "pending_fields": 16,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "access-layer",
+   "pending_fields": 20,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "why-are-you-here",
+   "pending_fields": 21,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "deploylocal",
+   "pending_fields": 22,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "founderskingdom",
+   "pending_fields": 22,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "luvpartnr",
+   "pending_fields": 22,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "SUNSETX",
+   "pending_fields": 22,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "1bc",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "agentapi-hub",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "agentcore-silicon",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "autoerp",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "bioyield-labs",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "buildloop-usa",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "chipflow",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "claimpilot-ai",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "companyos",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "computeflow",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "cortexhq",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "cropshield-ai",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "devstate",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "enterprisepilot",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "evalforge",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "execmemory-ai",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "executionos",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "fastprocure-ai",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "forgeflow",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "freeconomie",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "fullofshit",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "gamecombo",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "genotwin-health",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "ghostframe",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "imessage",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "interceptorgrid",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "lagrangeos",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "ledgerops-ai",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "life-finds-a-way",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "loopcompute-cloud",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "lunarfoundry",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "morphui",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "n1-therapeutics",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "nex-robotix",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "obviouslybad",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "oodax",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "opsautopilot",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "orbitchip",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "orbitprint",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "psychemap",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "readablestack",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "reviewforge-ai",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "siliconcontrol-tower",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "spacecompute-cloud",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "supplyos-ai",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "swarmshield",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "trajectoryos",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "useros",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "vizuler",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "PUBLIC_PROJECT",
+   "name": "workflowcanvas",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "redwoud",
+   "pending_fields": 21,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "ai-dev-workflow-starter",
+   "pending_fields": 22,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "legacybridge",
+   "pending_fields": 22,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "Ayncient",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "BehindCurtain",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "blitzproof",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "Bourgaeux",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "BrandCrossover",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "cannex-logistics",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "cheetahbearfuel",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "childdevos",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "cleanstack-macos",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "cleanstack-os",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "cloudcastle",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "commos",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "Cruxenio",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "CxNTRADICT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "EmailSimple",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "ForeverLuvd",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "FungMind",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "HackerzArt",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "happyblock",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "Modex",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "NaextBlock",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "node_modules",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "oddbotix",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "poolwater",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "saeturtle",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "ShopRight",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "SoulMayte",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "Spouwse",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "src",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "styles",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "tempoos",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "TherapyUX",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "TrustxVerify",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "VentureRank-OS",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "YouState",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "betterfintech",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "blitzunicorn",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "datatherapy",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "evsec-one",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "EVSec.one",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "FundMind",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "grokgeneral",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "luvconvos",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "luvstories",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "RequestAyo",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "spaceedu",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "startupquick",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "STRxGNTH",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "strxngth",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "uxvisualengine",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "valuedsociety",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "vencapmentor",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "youareprofound",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "Zaeus",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "zaeux",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  {
+   "class": "LAB",
+   "name": "freewash-finder",
+   "pending_fields": 25,
+   "state": "PENDING"
+  }
+ ],
+ "records": {
+  "1bc": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "Ayncient": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "BehindCurtain": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "Bourgaeux": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "BrandCrossover": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "Cruxenio": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "CxNTRADICT": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "EVSec.one": {
+   "class": "LAB",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  "EmailSimple": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "ForeverLuvd": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "FundMind": {
+   "class": "LAB",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  "FungMind": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "HackerzArt": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "M4G3LL4N0": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 16,
+   "state": "PENDING"
+  },
+  "Modex": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "NaextBlock": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "Noaerth-Labs": {
+   "class": "BLOCKING",
+   "pending_fields": 0,
+   "state": "EXCLUDED_DENYLISTED"
+  },
+  "Noaerth-Team": {
+   "class": "BLOCKING",
+   "pending_fields": 0,
+   "state": "EXCLUDED_DENYLISTED"
+  },
+  "RequestAyo": {
+   "class": "LAB",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  "STRxGNTH": {
+   "class": "LAB",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  "SUNSETX": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 22,
+   "state": "PENDING"
+  },
+  "ShopRight": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "SoulMayte": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "Spouwse": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "TherapyUX": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "TrustxVerify": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "VentureRank-OS": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "YouState": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "Zaeus": {
+   "class": "LAB",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  "access-layer": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 20,
+   "state": "PENDING"
+  },
+  "agentapi-hub": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "agentcore-silicon": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "agentos": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 13,
+   "state": "PENDING"
+  },
+  "agentos-website": {
+   "class": "BLOCKING",
+   "pending_fields": 17,
+   "state": "PENDING"
+  },
+  "ai-dev-workflow-starter": {
+   "class": "LAB",
+   "pending_fields": 22,
+   "state": "PENDING"
+  },
+  "autobuilder": {
+   "class": "BLOCKING",
+   "pending_fields": 0,
+   "state": "EXCLUDED_DENYLISTED"
+  },
+  "autobuilder-3": {
+   "class": "BLOCKING",
+   "pending_fields": 0,
+   "state": "EXCLUDED_DENYLISTED"
+  },
+  "autobuilder-mvp": {
+   "class": "BLOCKING",
+   "pending_fields": 0,
+   "state": "EXCLUDED_DENYLISTED"
+  },
+  "autoerp": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "betterfintech": {
+   "class": "LAB",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  "bioyield-labs": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "blitzproof": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "blitzunicorn": {
+   "class": "LAB",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  "buildloop-usa": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "cannex-logistics": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "cheetahbearfuel": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "childdevos": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "chipflow": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "claimpilot-ai": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "cleanstack-macos": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "cleanstack-os": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "cloudcastle": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "commos": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "companyos": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "computeflow": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "computeflow-website": {
+   "class": "BLOCKING",
+   "pending_fields": 21,
+   "state": "PENDING"
+  },
+  "cortexhq": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "cortexhq-website": {
+   "class": "BLOCKING",
+   "pending_fields": 21,
+   "state": "PENDING"
+  },
+  "cropshield-ai": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "cropshield-ai-website": {
+   "class": "BLOCKING",
+   "pending_fields": 21,
+   "state": "PENDING"
+  },
+  "cruxenio-website": {
+   "class": "BLOCKING",
+   "pending_fields": 21,
+   "state": "PENDING"
+  },
+  "cxntradict-website": {
+   "class": "BLOCKING",
+   "pending_fields": 21,
+   "state": "PENDING"
+  },
+  "datatherapy": {
+   "class": "LAB",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  "datatherapy-website": {
+   "class": "BLOCKING",
+   "pending_fields": 22,
+   "state": "PENDING"
+  },
+  "deploylocal": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 22,
+   "state": "PENDING"
+  },
+  "deploylocal-website": {
+   "class": "BLOCKING",
+   "pending_fields": 22,
+   "state": "PENDING"
+  },
+  "devstate": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "devstate-website": {
+   "class": "BLOCKING",
+   "pending_fields": 22,
+   "state": "PENDING"
+  },
+  "emailsimple-website": {
+   "class": "BLOCKING",
+   "pending_fields": 22,
+   "state": "PENDING"
+  },
+  "enterprisepilot": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "evalforge": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "evsec-one": {
+   "class": "LAB",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  "execmemory-ai": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "executionos": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "fastprocure-ai": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "forgeflow": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "founderskingdom": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 22,
+   "state": "PENDING"
+  },
+  "freeconomie": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "freewash-finder": {
+   "class": "LAB",
+   "pending_fields": 25,
+   "state": "PENDING"
+  },
+  "fullofshit": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "gamecombo": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "genotwin-health": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "gh0st": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 13,
+   "state": "PENDING"
+  },
+  "gh0st-website": {
+   "class": "BLOCKING",
+   "pending_fields": 20,
+   "state": "PENDING"
+  },
+  "ghostframe": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "grokbot-concierge-website": {
+   "class": "BLOCKING",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  "grokbot-office": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 12,
+   "state": "PENDING"
+  },
+  "grokbot-office-website": {
+   "class": "BLOCKING",
+   "pending_fields": 14,
+   "state": "PENDING"
+  },
+  "grokbot-society": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 12,
+   "state": "PENDING"
+  },
+  "grokbot-society-website": {
+   "class": "BLOCKING",
+   "pending_fields": 19,
+   "state": "PENDING"
+  },
+  "grokgeneral": {
+   "class": "LAB",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  "grokinstall": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 12,
+   "state": "PENDING"
+  },
+  "grokinstall-website": {
+   "class": "BLOCKING",
+   "pending_fields": 21,
+   "state": "PENDING"
+  },
+  "grokmax": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 14,
+   "state": "PENDING"
+  },
+  "grokmax-website": {
+   "class": "BLOCKING",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "happyblock": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "imessage": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "interceptorgrid": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "lagrangeos": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "ledgerops-ai": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "legacybridge": {
+   "class": "LAB",
+   "pending_fields": 22,
+   "state": "PENDING"
+  },
+  "life-finds-a-way": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "loopcompute-cloud": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "lunarfoundry": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "luvconvos": {
+   "class": "LAB",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  "luvpartnr": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 22,
+   "state": "PENDING"
+  },
+  "luvstories": {
+   "class": "LAB",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  "morphui": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "n1-therapeutics": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "nex-robotix": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "noaerth": {
+   "class": "BLOCKING",
+   "pending_fields": 0,
+   "state": "EXCLUDED_DENYLISTED"
+  },
+  "noaerth-cloud-factory": {
+   "class": "BLOCKING",
+   "pending_fields": 0,
+   "state": "EXCLUDED_DENYLISTED"
+  },
+  "noaerth-ecosystem": {
+   "class": "BLOCKING",
+   "pending_fields": 0,
+   "state": "EXCLUDED_DENYLISTED"
+  },
+  "noaerth-operator": {
+   "class": "BLOCKING",
+   "pending_fields": 0,
+   "state": "EXCLUDED_DENYLISTED"
+  },
+  "noaerth-portfolio-os": {
+   "class": "BLOCKING",
+   "pending_fields": 0,
+   "state": "EXCLUDED_DENYLISTED"
+  },
+  "node_modules": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "obviouslybad": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "oddbotix": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "oodax": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "opencode-watchdog": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 12,
+   "state": "PENDING"
+  },
+  "opencode-watchdog-website": {
+   "class": "BLOCKING",
+   "pending_fields": 21,
+   "state": "PENDING"
+  },
+  "opsautopilot": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "orbitchip": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "orbitprint": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "paios-one": {
+   "class": "BLOCKING",
+   "pending_fields": 0,
+   "state": "EXCLUDED_DENYLISTED"
+  },
+  "poolwater": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "psychemap": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "readablestack": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "redwoud": {
+   "class": "LAB",
+   "pending_fields": 21,
+   "state": "PENDING"
+  },
+  "reviewforge-ai": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "saeturtle": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "seai-mind": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 16,
+   "state": "PENDING"
+  },
+  "siliconcontrol-tower": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "spacecompute-cloud": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "spaceedu": {
+   "class": "LAB",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  "src": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "startupquick": {
+   "class": "LAB",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  "strxngth": {
+   "class": "LAB",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  "styles": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "supplyos-ai": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "swarmshield": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "tempoos": {
+   "class": "LAB",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "trajectoryos": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "useros": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "uxvisualengine": {
+   "class": "LAB",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  "valuedsociety": {
+   "class": "LAB",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  "vencapmentor": {
+   "class": "LAB",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  "vizuler": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "why-are-you-here": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 21,
+   "state": "PENDING"
+  },
+  "workflowcanvas": {
+   "class": "PUBLIC_PROJECT",
+   "pending_fields": 23,
+   "state": "PENDING"
+  },
+  "youareprofound": {
+   "class": "LAB",
+   "pending_fields": 24,
+   "state": "PENDING"
+  },
+  "zaeux": {
+   "class": "LAB",
+   "pending_fields": 24,
+   "state": "PENDING"
+  }
+ },
+ "schema": 1
+}
