@@ -235,6 +235,9 @@ def main() -> int:
         }
         is_denied = denied(name)
         is_site = name.lower().endswith(SITE_SUFFIX)
+        # Explicit deletion targets are not publication candidates. They are
+        # empty or superseded and are removed, not made public.
+        is_delete_target = name == "freewash-finder"
         local = local_by_name.get(name.lower())
 
         fields = completeness_fields(name, meta, local)
@@ -266,8 +269,9 @@ def main() -> int:
             "classification": classification,
             "denylisted": is_denied,
             "site_only": is_site,
-            "delete_requested": is_site or name == "freewash-finder",
-            "public_expected": not is_denied and not is_site,
+            "delete_requested": is_site or is_delete_target,
+            "public_expected": not is_denied and not is_site
+                               and not is_delete_target,
             **fields,
             "last_verified_sha": "",
             "last_verified_at": "",

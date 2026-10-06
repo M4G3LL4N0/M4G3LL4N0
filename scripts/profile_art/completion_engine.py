@@ -135,16 +135,23 @@ def put(repo: str, filename: str, content: str, message: str,
     successes, so 141 repositories were reported as completed while not one
     file had changed.
     """
-    proc = subprocess.run(
-        ["gh", "api", f"repos/{OWNER}/{repo}/contents/{filename}",
-         "-X", "PUT",
-         "-f", f"message={message}",
-         "-f", "content=" + base64.b64encode(content.encode()).decode(),
-         "-f", f"branch={branch}"],
-        capture_output=True, text=True,
-        env=dict(os.environ, GH_TOKEN=tok(), GH_PAGER="cat"))
-    ok = proc.returncode == 0
-    if not ok:
+    cmd = ["gh", "api", f"repos/{OWNER}/{repo}/contents/{filename}",
+           "-X", "PUT",
+           "-f", f"message={message}",
+           "-f", "content=" + base64.b64encode(content.encode()).decode(),
+           "-f", f"branch={branch}"]
+
+    # Replacing an existing file requires its blob sha; GitHub answers 422
+    # "sha wasn't supplied" without it. Creating a new file must NOT send one.
+    # Omitting this made every README replacement fail while every new file
+    # succeeded, which is why placeholders survived a run that reported success.
+    existing = api(f"repos/{OWNER}/{repo}/contents/{filename}")
+    if isinstance(existing, dict) and existing.get("sha"):
+        cmd += ["-f", f"sha={existing['sha']}"]
+
+    proc = subprocess.run(cmd, capture_output=True, text=True,
+                          env=dict(os.environ, GH_TOKEN=tok(), GH_PAGER="cat"))
+    if proc.returncode != 0:
         return False, (proc.stderr or proc.stdout)[:200]
     return True, ""
 
@@ -531,6 +538,10 @@ def process(name: str, dry: bool) -> dict:
                    env=dict(os.environ, GH_TOKEN=tok()))
     wrote = 0
     errors: list[str] = []
+    # A repository with no README at all is the common case, not an edge case.
+    # The previous condition only fired when a placeholder was present, so 44
+    # repositories with no README were left without one while the engine
+    # reported the run as successful.
     if "STATUS: UNDOCUMENTED" in r["readme"] or not r["readme"].strip():
         ok, err = put(name, "README.md", readme,
                       "docs: replace the generated placeholder with a "

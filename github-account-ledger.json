@@ -2,7 +2,7 @@
  "$comment": "One record per canonical repository. Every field is COMPLETE or NOT_APPLICABLE with a reason; UNKNOWN is never a terminal value.",
  "account": "M4G3LL4N0",
  "canonical_count": 152,
- "generated_at": "2026-10-06T05:24:16Z",
+ "generated_at": "2026-10-06T15:01:27Z",
  "records": [
   {
    "name": "1bc",
@@ -403,7 +403,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "1 topics set; policy minimum is 5"
+    "reason": "2 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -1287,7 +1287,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "1 topics set; policy minimum is 5"
+    "reason": "2 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -1665,7 +1665,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "0 topics set; policy minimum is 5"
+    "reason": "1 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -1791,7 +1791,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "2 topics set; policy minimum is 5"
+    "reason": "3 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -2043,7 +2043,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "3 topics set; policy minimum is 5"
+    "reason": "4 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -2421,7 +2421,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "0 topics set; policy minimum is 5"
+    "reason": "1 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -3177,7 +3177,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "1 topics set; policy minimum is 5"
+    "reason": "2 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "COMPLETE",
@@ -3933,7 +3933,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "1 topics set; policy minimum is 5"
+    "reason": "2 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "COMPLETE",
@@ -4060,8 +4060,8 @@
     "reason": ""
    },
    "topics_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "4 topics set; policy minimum is 5"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -4164,7 +4164,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 20 field(s)"
+   "next_action": "complete 19 field(s)"
   },
   {
    "name": "cortexhq-website",
@@ -4187,7 +4187,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "1 topics set; policy minimum is 5"
+    "reason": "2 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "COMPLETE",
@@ -4315,7 +4315,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "0 topics set; policy minimum is 5"
+    "reason": "1 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -4441,7 +4441,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "2 topics set; policy minimum is 5"
+    "reason": "3 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "COMPLETE",
@@ -4695,7 +4695,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "1 topics set; policy minimum is 5"
+    "reason": "2 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "COMPLETE",
@@ -4949,7 +4949,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "1 topics set; policy minimum is 5"
+    "reason": "2 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "COMPLETE",
@@ -5203,7 +5203,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "2 topics set; policy minimum is 5"
+    "reason": "3 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "COMPLETE",
@@ -5457,7 +5457,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "0 topics set; policy minimum is 5"
+    "reason": "1 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "COMPLETE",
@@ -5585,7 +5585,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "0 topics set; policy minimum is 5"
+    "reason": "1 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -5711,7 +5711,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "0 topics set; policy minimum is 5"
+    "reason": "1 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "COMPLETE",
@@ -5965,7 +5965,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "0 topics set; policy minimum is 5"
+    "reason": "1 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "COMPLETE",
@@ -6092,8 +6092,8 @@
     "reason": ""
    },
    "topics_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "4 topics set; policy minimum is 5"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -6196,7 +6196,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 20 field(s)"
+   "next_action": "complete 19 field(s)"
   },
   {
    "name": "evalforge",
@@ -6471,7 +6471,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "0 topics set; policy minimum is 5"
+    "reason": "1 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -6597,7 +6597,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "0 topics set; policy minimum is 5"
+    "reason": "1 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -6723,7 +6723,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "0 topics set; policy minimum is 5"
+    "reason": "1 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -7336,7 +7336,7 @@
    "name": "freeconomie",
    "name_with_owner": "M4G3LL4N0/freeconomie",
    "github_id": null,
-   "visibility": "private",
+   "visibility": "public",
    "default_branch": "main",
    "archived": false,
    "fork": false,
@@ -7472,14 +7472,14 @@
    "denylisted": false,
    "site_only": false,
    "delete_requested": true,
-   "public_expected": true,
+   "public_expected": false,
    "description_complete": {
     "state": "COMPLETE",
     "reason": ""
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "0 topics set; policy minimum is 5"
+    "reason": "1 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -7731,7 +7731,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "0 topics set; policy minimum is 5"
+    "reason": "1 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -10262,8 +10262,8 @@
     "reason": ""
    },
    "topics_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "4 topics set; policy minimum is 5"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -10366,7 +10366,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 20 field(s)"
+   "next_action": "complete 19 field(s)"
   },
   {
    "name": "lagrangeos",
@@ -10515,7 +10515,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "3 topics set; policy minimum is 5"
+    "reason": "4 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -10892,8 +10892,8 @@
     "reason": ""
    },
    "topics_complete": {
-    "state": "NOT_APPLICABLE",
-    "reason": "4 topics set; policy minimum is 5"
+    "state": "COMPLETE",
+    "reason": ""
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -10996,7 +10996,7 @@
    "last_verified_sha": "",
    "last_verified_at": "",
    "blockers": [],
-   "next_action": "complete 20 field(s)"
+   "next_action": "complete 19 field(s)"
   },
   {
    "name": "lunarfoundry",
@@ -11019,7 +11019,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "3 topics set; policy minimum is 5"
+    "reason": "4 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -11775,7 +11775,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "3 topics set; policy minimum is 5"
+    "reason": "4 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -11901,7 +11901,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "3 topics set; policy minimum is 5"
+    "reason": "4 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -13919,7 +13919,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "3 topics set; policy minimum is 5"
+    "reason": "4 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -14045,7 +14045,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "3 topics set; policy minimum is 5"
+    "reason": "4 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -14171,7 +14171,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "3 topics set; policy minimum is 5"
+    "reason": "4 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -15557,7 +15557,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "3 topics set; policy minimum is 5"
+    "reason": "4 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -15809,7 +15809,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "3 topics set; policy minimum is 5"
+    "reason": "4 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -16187,7 +16187,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "2 topics set; policy minimum is 5"
+    "reason": "3 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "COMPLETE",
@@ -16439,7 +16439,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "0 topics set; policy minimum is 5"
+    "reason": "1 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -16691,7 +16691,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "1 topics set; policy minimum is 5"
+    "reason": "2 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "COMPLETE",
@@ -16943,7 +16943,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "3 topics set; policy minimum is 5"
+    "reason": "4 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -17825,7 +17825,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "0 topics set; policy minimum is 5"
+    "reason": "1 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -18077,7 +18077,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "0 topics set; policy minimum is 5"
+    "reason": "1 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -18581,7 +18581,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "3 topics set; policy minimum is 5"
+    "reason": "4 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
@@ -18959,7 +18959,7 @@
    },
    "topics_complete": {
     "state": "NOT_APPLICABLE",
-    "reason": "0 topics set; policy minimum is 5"
+    "reason": "1 topics set; policy minimum is 5"
    },
    "homepage_complete": {
     "state": "NOT_APPLICABLE",
