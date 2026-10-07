@@ -34,7 +34,7 @@ import time
 OWNER = "M4G3LL4N0"
 PROFILE = pathlib.Path(__file__).resolve().parents[3]
 PORTFOLIO = pathlib.Path("/Users/matador/startups")
-V8_SOURCE = pathlib.Path("/tmp/github-v8-source")
+V8_SOURCE = PROFILE / ".github-art" / "source-cache"
 OUT = PROFILE / ".github-art" / "v8-index.json"
 
 SKIP_DIRS = {
@@ -129,6 +129,47 @@ CS_PRIMITIVE_SIGNALS = {
 
 def tok() -> str:
     return os.environ.get("GH_TOKEN", "")
+
+
+# Next.js App Router + Pages Router route extraction.
+# The previous pattern required a leading "/" before "app"/"src", but rel paths
+# come from Path.relative_to() and never carry one, so route detection silently
+# returned nothing for every App Router repository.
+ROUTE_RE = re.compile(r"^(?:src/)?app/(.*?)/?(page|route)\.[jt]sx?$")
+PAGES_RE = re.compile(r"^(?:src/)?pages/(.*)\.[jt]sx?$")
+
+
+def _segment(seg: str) -> str:
+    """Normalise a Next.js dynamic segment: [id] -> :id, [...s]/[[...s]] -> *s."""
+    if not (seg.startswith("[") and seg.endswith("]")):
+        return seg
+    inner = seg.strip("[]").strip()
+    if inner.startswith("..."):
+        name = inner[3:]
+        return f"*{name}" if name else "*"
+    return f":{inner}" if inner else ""
+
+
+def route_of(rel: str) -> str | None:
+    """Return the URL route for a Next.js app/page or pages-router file, else None."""
+    m = ROUTE_RE.match(rel)
+    if m:
+        body, kind = m.group(1), m.group(2)
+        if kind == "route" and not body.startswith("api"):
+            return None
+    else:
+        p = PAGES_RE.match(rel)
+        if not p:
+            return None
+        body = p.group(1)
+    parts = []
+    for seg in body.split("/"):
+        if not seg or seg in ("index", "."):
+            continue
+        s = _segment(seg)
+        if s:
+            parts.append(s)
+    return "/" + "/".join(parts) if parts else "/"
 
 
 def walk(root: pathlib.Path):
@@ -297,12 +338,9 @@ def analyse(name: str, root: pathlib.Path | None, origin: str,
                                                 ".github", ".cursor", ".opencode",
                                                 "node_modules", "tests", "test"):
             modules.append(parts[0])
-        if re.search(r"/(app|src)/(.*/)?(page|route)\.[jt]sx?$", rel):
-            m = re.search(r"/(app|src)/([^/]*)/?(page|route)\.[jt]sx?$", rel)
-            if m and m.group(2):
-                routes.append("/" + m.group(2))
-            elif "/app/page." in rel or "/src/app/page." in rel:
-                routes.append("/")
+        r = route_of(rel)
+        if r:
+            routes.append(r)
         if suf in (".ts", ".tsx", ".js", ".jsx", ".py", ".go", ".rs", ".sh", ".sql") \
            and f.stat().st_size < 60_000:
             try:

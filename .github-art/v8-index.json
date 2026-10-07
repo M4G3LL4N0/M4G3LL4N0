@@ -4,7 +4,7 @@
   "1bc": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "42860a52e4e2d09e",
+   "content_hash": "e76298ad6e058c94",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -35,7 +35,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 944,
+   "files": 949,
    "frameworks": [
     "Next.js",
     "React",
@@ -68,6 +68,7 @@
     "app",
     "components",
     "public-site",
+    "src",
     "venture-os"
    ],
    "repo": "1bc",
@@ -76,8 +77,18 @@
     "/about",
     "/contact",
     "/dashboard",
+    "/demo",
+    "/docs",
     "/governance",
-    "/pricing"
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 49,
    "source_origin": "portfolio",
@@ -88,7 +99,7 @@
   "Ayncient": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "1fca6b3d5ee7d035",
+   "content_hash": "2df33f3ddb3d2259",
    "cs_primitives": [],
    "docs": [
     ".autobuilder/guardrails.md",
@@ -119,7 +130,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 967,
+   "files": 969,
    "frameworks": [
     "D3",
     "Next.js",
@@ -170,9 +181,27 @@
    "repo": "Ayncient",
    "routes": [
     "/",
+    "/about",
+    "/api/save-result",
+    "/api/waitlist",
+    "/contact",
     "/dashboard",
+    "/dashboard/check-in",
+    "/dashboard/journal",
+    "/dashboard/protocols",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
     "/quiz",
-    "/reset"
+    "/reset",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 49,
    "source_origin": "portfolio",
@@ -183,7 +212,7 @@
   "BehindCurtain": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "bedbd6861837b3cb",
+   "content_hash": "8b712f25217d00ad",
    "cs_primitives": [
     "event_stream"
    ],
@@ -216,7 +245,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 947,
+   "files": 948,
    "frameworks": [
     "D3",
     "Next.js",
@@ -268,7 +297,16 @@
    "routes": [
     "/",
     "/admin",
-    "/explorer"
+    "/api/checkout",
+    "/api/search",
+    "/docs",
+    "/explorer",
+    "/how-it-works",
+    "/privacy",
+    "/profiles/:slug",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 47,
    "source_origin": "portfolio",
@@ -279,7 +317,7 @@
   "Bourgaeux": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "a39df00cc67a5891",
+   "content_hash": "6ca61d8ccd8a908b",
    "cs_primitives": [],
    "docs": [
     ".aider.chat.history.md",
@@ -310,7 +348,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 973,
+   "files": 975,
    "frameworks": [
     "Next.js",
     "React",
@@ -360,7 +398,24 @@
    ],
    "repo": "Bourgaeux",
    "routes": [
-    "/"
+    "/",
+    "/about",
+    "/api/chat",
+    "/api/checkout",
+    "/api/recommend",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 49,
    "source_origin": "portfolio",
@@ -371,7 +426,7 @@
   "BrandCrossover": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "eb340db70aeecc56",
+   "content_hash": "e6710045375374be",
    "cs_primitives": [
     "policy"
    ],
@@ -404,7 +459,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 948,
+   "files": 949,
    "frameworks": [
     "D3",
     "Next.js",
@@ -457,10 +512,26 @@
    "repo": "BrandCrossover",
    "routes": [
     "/",
+    "/about",
     "/admin",
+    "/api/checkout",
+    "/api/intake",
+    "/api/waitlist",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
     "/report-demo",
     "/request-received",
-    "/thank-you"
+    "/support",
+    "/terms",
+    "/thank-you",
+    "/trust"
    ],
    "shared_template_files": 49,
    "source_origin": "portfolio",
@@ -471,7 +542,7 @@
   "Cruxenio": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "a00ddfe32fc5961b",
+   "content_hash": "a08fb7acf6b80b50",
    "cs_primitives": [
     "policy"
    ],
@@ -502,7 +573,7 @@
     "CLAUDE.md"
    ],
    "entry_points": [],
-   "files": 948,
+   "files": 949,
    "frameworks": [
     "D3",
     "Next.js",
@@ -552,9 +623,29 @@
    "repo": "Cruxenio",
    "routes": [
     "/",
+    "/about",
     "/admin",
+    "/api/approve-move",
+    "/api/checkout",
+    "/api/delete-draft",
+    "/api/submit-move",
+    "/api/waitlist",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
     "/moves",
-    "/submit"
+    "/moves/:slug",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/submit",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 49,
    "source_origin": "portfolio",
@@ -565,7 +656,7 @@
   "CxNTRADICT": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "c2fa38362f4150b8",
+   "content_hash": "7d6cfd028a5d0e9b",
    "cs_primitives": [
     "index"
    ],
@@ -596,7 +687,7 @@
     "CLAIM_REGISTER.md"
    ],
    "entry_points": [],
-   "files": 942,
+   "files": 943,
    "frameworks": [
     "D3",
     "Next.js",
@@ -647,7 +738,23 @@
    "repo": "CxNTRADICT",
    "routes": [
     "/",
-    "/analyze"
+    "/about",
+    "/analyze",
+    "/api/analyze",
+    "/api/checkout",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 49,
    "source_origin": "portfolio",
@@ -686,14 +793,14 @@
    "routes": [],
    "shared_template_files": 0,
    "source_origin": "clone",
-   "source_path": "/tmp/github-v8-source/EVSec.one",
+   "source_path": "/Users/matador/startups/github-profile/.github-art/source-cache/EVSec.one",
    "test_count": 0,
    "tests": []
   },
   "EmailSimple": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "40b890071bf3a9ce",
+   "content_hash": "f4d4c4bac1204678",
    "cs_primitives": [
     "index",
     "scheduler"
@@ -728,7 +835,7 @@
     "src/components/index.ts",
     "src/lib/providers/index.ts"
    ],
-   "files": 1023,
+   "files": 1024,
    "frameworks": [
     "D3",
     "Next.js",
@@ -779,12 +886,29 @@
    "repo": "EmailSimple",
    "routes": [
     "/",
+    "/about",
     "/accounts",
+    "/actions",
+    "/api/accounts",
+    "/api/accounts/:id/disconnect",
+    "/api/accounts/:id/sync",
+    "/api/auth/gmail",
+    "/api/auth/gmail/callback",
+    "/api/waitlist",
+    "/calendar",
+    "/contact",
     "/dashboard",
+    "/demo",
+    "/docs",
     "/features",
+    "/follow-ups",
+    "/how-it-works",
+    "/intake",
+    "/investor",
     "/onboarding",
     "/pricing",
-    "/waitlist"
+    "/privacy",
+    "/product"
    ],
    "shared_template_files": 54,
    "source_origin": "portfolio",
@@ -795,7 +919,7 @@
   "ForeverLuvd": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "175d955866240142",
+   "content_hash": "14328b41d593f593",
    "cs_primitives": [
     "crypto",
     "agent_graph",
@@ -831,7 +955,7 @@
     "public-site/index.html",
     "src/lib/data/index.ts"
    ],
-   "files": 966,
+   "files": 967,
    "frameworks": [
     "D3",
     "Next.js",
@@ -883,15 +1007,29 @@
    "repo": "ForeverLuvd",
    "routes": [
     "/",
+    "/about",
+    "/api/checkout",
+    "/auth/sign-in",
+    "/auth/sign-up",
     "/chat",
+    "/contact",
     "/dashboard",
+    "/demo",
+    "/docs",
     "/family",
+    "/how-it-works",
+    "/intake",
+    "/investor",
     "/legacy",
+    "/loved-ones/:id",
+    "/loved-ones/new",
+    "/memories/new",
     "/onboarding",
     "/pricing",
+    "/privacy",
+    "/product",
     "/settings",
-    "/technology",
-    "/voice"
+    "/support"
    ],
    "shared_template_files": 47,
    "source_origin": "portfolio",
@@ -930,14 +1068,14 @@
    "routes": [],
    "shared_template_files": 0,
    "source_origin": "clone",
-   "source_path": "/tmp/github-v8-source/FundMind",
+   "source_path": "/Users/matador/startups/github-profile/.github-art/source-cache/FundMind",
    "test_count": 0,
    "tests": []
   },
   "FungMind": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "91264ba5783bec7b",
+   "content_hash": "98439ea3921fbf6b",
    "cs_primitives": [],
    "docs": [
     ".autobuilder/recovery-memory.md",
@@ -968,7 +1106,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 939,
+   "files": 941,
    "frameworks": [
     "D3",
     "Next.js",
@@ -1020,9 +1158,24 @@
    "routes": [
     "/",
     "/about",
+    "/api/waitlist",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
     "/investors",
+    "/pricing",
+    "/privacy",
+    "/product",
     "/products",
-    "/science"
+    "/products/:slug",
+    "/science",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 50,
    "source_origin": "portfolio",
@@ -1033,7 +1186,7 @@
   "HackerzArt": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "c29b79e4bfd55716",
+   "content_hash": "84f160c5ce8b1d4f",
    "cs_primitives": [
     "policy",
     "pipeline"
@@ -1067,7 +1220,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 966,
+   "files": 969,
    "frameworks": [
     "D3",
     "Next.js",
@@ -1117,7 +1270,32 @@
     "venture-os"
    ],
    "repo": "HackerzArt",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/checkout",
+    "/api/gallery",
+    "/api/generate",
+    "/contact",
+    "/dashboard",
+    "/dashboard/account",
+    "/dashboard/generate",
+    "/dashboard/history",
+    "/dashboard/styles",
+    "/demo",
+    "/docs",
+    "/gallery",
+    "/generate",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/investors",
+    "/login",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/signup"
+   ],
    "shared_template_files": 51,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/hackerzart",
@@ -1125,29 +1303,79 @@
    "tests": []
   },
   "M4G3LL4N0": {
-   "ci_workflows": [],
-   "confidence": "E1",
-   "content_hash": null,
-   "cs_primitives": [],
-   "docs": [],
+   "ci_workflows": [
+    ".github/workflows/sync-profile.yml",
+    ".github/workflows/trillionx-svg-generation.yml",
+    ".github/workflows/verify-profile.yml"
+   ],
+   "confidence": "E2",
+   "content_hash": "98600bb0d5d1b9e9",
+   "cs_primitives": [
+    "queue",
+    "terminal",
+    "compiler_stage",
+    "index",
+    "policy",
+    "cache"
+   ],
+   "docs": [
+    "CODE_OF_CONDUCT.md",
+    "COMPLETENESS.md",
+    "CONTRIBUTING.md",
+    "GITHUB_100_PERCENT_COMPLETION_REPORT.md",
+    "GITHUB_ELITE_MASS_ROLLOUT_REPORT.md",
+    "GITHUB_V5_1_FINAL_REPORT.md",
+    "GITHUB_V5_DESIGN_SYSTEM.md",
+    "GITHUB_V5_ROLLOUT_PLAN.md",
+    "GITHUB_V6_FINAL_REPORT.md",
+    "GITHUB_V6_PART1_FINAL_REPORT.md",
+    "GITHUB_V6_PART1_ROOTCAUSE.md",
+    "GITHUB_V6_PROJECT_ART_PLAN.md",
+    "GITHUB_V6_TECHNICAL_REPORT.md",
+    "GITHUB_V7_FINAL_REPORT.md",
+    "GITHUB_V7_PART1_REPORT.md",
+    "GITHUB_V8_ART_STORYBOARD.md",
+    "IMAGE_LEDGER.md",
+    "NORTHSTAR.md",
+    "README.md",
+    "SECURITY.md",
+    "docs/VERCEL_DISCONNECT_VERIFICATION.md"
+   ],
    "entry_points": [],
-   "files": 0,
+   "files": 1938,
    "frameworks": [],
-   "git": {},
-   "has_code": false,
-   "languages": {},
+   "git": {
+    "authors": 1,
+    "commits": "1",
+    "last_commit": "2026-10-07T12:12:53-06:00",
+    "recent_subjects": [
+     "feat(trillionx): complete TRILLIONX DMT GitHub profile with animated SVGs"
+    ],
+    "remote_branches": 2
+   },
+   "has_code": true,
+   "languages": {
+    "HTML": 1,
+    "Python": 70
+   },
    "manifests": [],
-   "modules": [],
+   "modules": [
+    ".github-art",
+    "data",
+    "scripts"
+   ],
    "repo": "M4G3LL4N0",
    "routes": [],
-   "source_origin": "none",
-   "source_path": null,
+   "shared_template_files": 0,
+   "source_origin": "clone",
+   "source_path": "/Users/matador/startups/github-profile/.github-art/source-cache/M4G3LL4N0",
+   "test_count": 0,
    "tests": []
   },
   "Modex": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "5799191b08829516",
+   "content_hash": "7b114c0f451cbaa8",
    "cs_primitives": [
     "pipeline"
    ],
@@ -1181,7 +1409,7 @@
     "lib/experiments/index.ts",
     "public-site/index.html"
    ],
-   "files": 950,
+   "files": 951,
    "frameworks": [
     "D3",
     "Next.js",
@@ -1231,7 +1459,32 @@
     "venture-os"
    ],
    "repo": "Modex",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/accuracy",
+    "/api/analyze",
+    "/api/checkout",
+    "/api/discover",
+    "/api/experiments",
+    "/api/history",
+    "/api/ingest",
+    "/api/outcome",
+    "/api/predict",
+    "/api/waitlist",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/founder",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/investors",
+    "/portfolio",
+    "/pricing",
+    "/privacy"
+   ],
    "shared_template_files": 35,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/modex",
@@ -1241,7 +1494,7 @@
   "NaextBlock": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "3b9880b521a0fd81",
+   "content_hash": "10e72f892fad5a73",
    "cs_primitives": [],
    "docs": [
     ".autobuilder/guardrails.md",
@@ -1272,7 +1525,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 958,
+   "files": 959,
    "frameworks": [
     "D3",
     "Next.js",
@@ -1324,8 +1577,24 @@
    "repo": "NaextBlock",
    "routes": [
     "/",
+    "/about",
+    "/api/waitlist",
+    "/contact",
+    "/dashboard",
     "/deal-analyzer",
-    "/map"
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/map",
+    "/neighborhood/:slug",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 51,
    "source_origin": "portfolio",
@@ -1336,7 +1605,7 @@
   "RequestAyo": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "7946bdf1a9263656",
+   "content_hash": "159c9b0530e9fdb9",
    "cs_primitives": [
     "index",
     "policy",
@@ -1373,7 +1642,7 @@
     "src/components/dashboard/index.ts",
     "src/components/profile/index.ts"
    ],
-   "files": 951,
+   "files": 952,
    "frameworks": [
     "D3",
     "Next.js",
@@ -1425,9 +1694,29 @@
    "repo": "RequestAyo",
    "routes": [
     "/",
+    "/about",
     "/admin",
+    "/api/checkout",
+    "/api/complete",
+    "/api/feedback",
+    "/api/profile",
+    "/api/request",
+    "/api/select",
+    "/api/waitlist",
+    "/contact",
     "/dashboard",
-    "/profile"
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/profile",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 48,
    "source_origin": "portfolio",
@@ -1466,14 +1755,14 @@
    "routes": [],
    "shared_template_files": 0,
    "source_origin": "clone",
-   "source_path": "/tmp/github-v8-source/STRxGNTH",
+   "source_path": "/Users/matador/startups/github-profile/.github-art/source-cache/STRxGNTH",
    "test_count": 0,
    "tests": []
   },
   "SUNSETX": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "bf08de3018dda218",
+   "content_hash": "d6a7bc7c73433ee4",
    "cs_primitives": [
     "api_flow",
     "cache",
@@ -1510,7 +1799,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 997,
+   "files": 998,
    "frameworks": [
     "D3",
     "Next.js",
@@ -1562,7 +1851,30 @@
    ],
    "repo": "SUNSETX",
    "routes": [
-    "/"
+    "/",
+    "/about",
+    "/api/cron/daily-report",
+    "/api/favorites",
+    "/api/global-sunset-board",
+    "/api/live-score",
+    "/api/perfect-sunset",
+    "/api/preferences",
+    "/api/push-leave-now",
+    "/api/push-send",
+    "/api/push-subscribe",
+    "/api/share",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms"
    ],
    "shared_template_files": 49,
    "source_origin": "portfolio",
@@ -1573,7 +1885,7 @@
   "ShopRight": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "5e3299484401f61e",
+   "content_hash": "8e731f4029a0a468",
    "cs_primitives": [
     "index"
    ],
@@ -1606,7 +1918,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 980,
+   "files": 981,
    "frameworks": [
     "D3",
     "Next.js",
@@ -1661,11 +1973,27 @@
    "repo": "ShopRight",
    "routes": [
     "/",
+    "/about",
+    "/api/analyze",
+    "/api/og",
+    "/api/recommendations",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
     "/history",
+    "/how-it-works",
+    "/intake",
+    "/investor",
     "/pricing",
+    "/privacy",
+    "/product",
     "/profile",
     "/results",
-    "/scan"
+    "/scan",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 54,
    "source_origin": "portfolio",
@@ -1676,7 +2004,7 @@
   "SoulMayte": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "98fbb58cac5c16d2",
+   "content_hash": "52be4b094660b35f",
    "cs_primitives": [
     "policy"
    ],
@@ -1709,7 +2037,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 946,
+   "files": 947,
    "frameworks": [
     "D3",
     "Next.js",
@@ -1762,11 +2090,28 @@
    "repo": "SoulMayte",
    "routes": [
     "/",
+    "/about",
     "/analyze",
+    "/api/analyze",
+    "/api/checkout",
+    "/api/quiz",
+    "/api/waitlist",
+    "/contact",
     "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
     "/pricing",
+    "/privacy",
+    "/product",
     "/quiz",
-    "/reports"
+    "/reports",
+    "/reports/:id",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 49,
    "source_origin": "portfolio",
@@ -1777,7 +2122,7 @@
   "Spouwse": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "85ef66b47109d6a4",
+   "content_hash": "19e777c3dabef6fa",
    "cs_primitives": [],
    "docs": [
     ".autobuilder/guardrails.md",
@@ -1808,7 +2153,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 946,
+   "files": 947,
    "frameworks": [
     "D3",
     "Next.js",
@@ -1860,11 +2205,26 @@
    "repo": "Spouwse",
    "routes": [
     "/",
+    "/about",
     "/admin",
+    "/api/checkout",
+    "/api/waitlist",
+    "/contact",
     "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
     "/login",
+    "/pricing",
+    "/privacy",
+    "/product",
     "/quiz",
-    "/thank-you"
+    "/support",
+    "/terms",
+    "/thank-you",
+    "/trust"
    ],
    "shared_template_files": 46,
    "source_origin": "portfolio",
@@ -1875,7 +2235,7 @@
   "TherapyUX": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "b4dc7e504cc6f13f",
+   "content_hash": "5c2b4c21e69ad98c",
    "cs_primitives": [
     "crypto"
    ],
@@ -1912,7 +2272,7 @@
     "public-site/index.html",
     "types/index.ts"
    ],
-   "files": 989,
+   "files": 990,
    "frameworks": [
     "Next.js",
     "React",
@@ -1962,7 +2322,30 @@
    ],
    "repo": "TherapyUX",
    "routes": [
-    "/sessions"
+    "/",
+    "/(app)/dashboard",
+    "/(app)/modes",
+    "/(app)/modes/:modeId",
+    "/(app)/recovery-map",
+    "/(app)/sessions",
+    "/(app)/sessions/:sessionId",
+    "/(app)/sessions/new",
+    "/(app)/settings",
+    "/about",
+    "/api/waitlist",
+    "/app/sessions",
+    "/app/sessions/:sessionId",
+    "/app/sessions/new",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/modes",
+    "/pricing",
+    "/privacy"
    ],
    "shared_template_files": 34,
    "source_origin": "portfolio",
@@ -1973,7 +2356,7 @@
   "TrustxVerify": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "5cc255ec89e2b7eb",
+   "content_hash": "72bae7b0c7d31393",
    "cs_primitives": [
     "policy"
    ],
@@ -2006,7 +2389,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 949,
+   "files": 950,
    "frameworks": [
     "Next.js",
     "React",
@@ -2057,13 +2440,29 @@
    "repo": "TrustxVerify",
    "routes": [
     "/",
+    "/about",
     "/admin",
+    "/api/admin/reports",
+    "/api/entity-connections",
+    "/api/intake",
+    "/api/report",
+    "/api/search",
+    "/api/waitlist",
+    "/contact",
+    "/dashboard",
     "/demo",
+    "/docs",
+    "/entity/:id",
+    "/how-it-works",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
     "/report",
     "/report-demo",
     "/request-received",
     "/search",
-    "/thank-you"
+    "/support"
    ],
    "shared_template_files": 49,
    "source_origin": "portfolio",
@@ -2074,7 +2473,7 @@
   "VentureRank-OS": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "62154a9add07c874",
+   "content_hash": "fb4b6185e7ce1e30",
    "cs_primitives": [
     "queue"
    ],
@@ -2107,7 +2506,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 949,
+   "files": 950,
    "frameworks": [
     "Next.js",
     "React",
@@ -2157,11 +2556,27 @@
    "repo": "VentureRank-OS",
    "routes": [
     "/",
+    "/about",
+    "/admin/intake",
+    "/api/ideas",
+    "/api/rankings",
+    "/api/spawn",
+    "/contact",
     "/dashboard",
     "/demo",
+    "/docs",
+    "/how-it-works",
     "/ideas",
+    "/ideas/:slug",
+    "/investor",
     "/portfolio",
-    "/rankings"
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/rankings",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 45,
    "source_origin": "portfolio",
@@ -2172,7 +2587,7 @@
   "YouState": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "22390a45617ba3a1",
+   "content_hash": "328f0a763a1e7bc2",
    "cs_primitives": [
     "policy"
    ],
@@ -2205,7 +2620,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 985,
+   "files": 986,
    "frameworks": [
     "Next.js",
     "React",
@@ -2258,8 +2673,29 @@
    "repo": "YouState",
    "routes": [
     "/",
-    "/onboarding",
-    "/settings"
+    "/(marketing)/about",
+    "/(marketing)/pricing",
+    "/api/checkout",
+    "/app",
+    "/app/onboarding",
+    "/app/settings",
+    "/auth",
+    "/blog",
+    "/careers",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/features",
+    "/how-it-works",
+    "/intake",
+    "/integrations",
+    "/investor",
+    "/press",
+    "/privacy",
+    "/product",
+    "/research",
+    "/support"
    ],
    "shared_template_files": 65,
    "source_origin": "portfolio",
@@ -2298,14 +2734,14 @@
    "routes": [],
    "shared_template_files": 0,
    "source_origin": "clone",
-   "source_path": "/tmp/github-v8-source/Zaeus",
+   "source_path": "/Users/matador/startups/github-profile/.github-art/source-cache/Zaeus",
    "test_count": 0,
    "tests": []
   },
   "access-layer": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "cbd5ef2e00da6cf1",
+   "content_hash": "d20bddc3c41beb85",
    "cs_primitives": [
     "policy",
     "index",
@@ -2343,7 +2779,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 1158,
+   "files": 1160,
    "frameworks": [
     "D3",
     "Next.js",
@@ -2399,27 +2835,27 @@
     "/",
     "/account",
     "/admin",
+    "/admin/access-points",
+    "/admin/access-points/:venueId",
+    "/admin/leads",
+    "/admin/metrics",
+    "/admin/ops",
+    "/admin/pilot-pack",
+    "/admin/seed",
+    "/admin/venues",
+    "/admin/venues/:venueId",
     "/analytics",
     "/api-docs",
-    "/checkout",
-    "/contact",
-    "/dashboard",
-    "/demo",
-    "/developers",
-    "/enterprise",
-    "/government",
-    "/hardware",
-    "/health",
-    "/home-v1",
-    "/home-v2",
-    "/investors",
-    "/kiosk",
-    "/login",
-    "/map",
-    "/network",
-    "/onboard",
-    "/onboarding",
-    "/operators"
+    "/api/access-points",
+    "/api/access-points/create",
+    "/api/access-points/list",
+    "/api/admin/access-point-create",
+    "/api/admin/access-point-status",
+    "/api/admin/convert-lead",
+    "/api/admin/create-device",
+    "/api/admin/create-invite",
+    "/api/admin/create-venue",
+    "/api/admin/lead-status"
    ],
    "shared_template_files": 60,
    "source_origin": "portfolio",
@@ -2432,7 +2868,7 @@
   "agentapi-hub": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "77adf3a68653f118",
+   "content_hash": "0016677f21c0f1dd",
    "cs_primitives": [
     "benchmark",
     "stack",
@@ -2469,7 +2905,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 930,
+   "files": 934,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -2508,7 +2944,29 @@
     "venture-os"
    ],
    "repo": "agentapi-hub",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/submit",
+    "/api/tools",
+    "/api/tools/:id",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/marketplace",
+    "/marketplace/:id",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/submit",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 35,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/agentapi-hub",
@@ -2518,7 +2976,7 @@
   "agentcore-silicon": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "0e3651db634335e0",
+   "content_hash": "1c3f956a74c7e107",
    "cs_primitives": [
     "benchmark",
     "agent_graph",
@@ -2554,7 +3012,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 930,
+   "files": 934,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -2592,7 +3050,27 @@
     "venture-os"
    ],
    "repo": "agentcore-silicon",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/benchmarks",
+    "/api/benchmarks/:id",
+    "/contact",
+    "/dashboard",
+    "/dashboard/benchmarks/:id",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/simulate",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 35,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/agentcore-silicon",
@@ -2604,7 +3082,7 @@
     ".github/workflows/ci.yml"
    ],
    "confidence": "E3",
-   "content_hash": "1fd7c6a3e3ba74ce",
+   "content_hash": "ea00eac64198c397",
    "cs_primitives": [
     "policy",
     "benchmark",
@@ -2643,7 +3121,7 @@
     "src/agentos/__main__.py",
     "src/agentos/cli.py"
    ],
-   "files": 222,
+   "files": 225,
    "frameworks": [
     "Vercel AI SDK"
    ],
@@ -2671,7 +3149,9 @@
     ".opencode/package.json",
     "pyproject.toml"
    ],
-   "modules": [],
+   "modules": [
+    "src"
+   ],
    "repo": "agentos",
    "routes": [],
    "shared_template_files": 1,
@@ -2726,7 +3206,7 @@
     ".github/workflows/ci.yml"
    ],
    "confidence": "E3",
-   "content_hash": "435b6d747d29423f",
+   "content_hash": "c81c2cd700570c9b",
    "cs_primitives": [
     "policy",
     "simulator"
@@ -2743,12 +3223,13 @@
     "CHANGELOG.md",
     "CLAUDE.md",
     "CURRENT_STATE.md",
+    "NORTHSTAR.md",
     "README.md"
    ],
    "entry_points": [
     "index.html"
    ],
-   "files": 36,
+   "files": 38,
    "frameworks": [],
    "git": {
     "authors": 1,
@@ -2846,14 +3327,14 @@
    "routes": [],
    "shared_template_files": 0,
    "source_origin": "clone",
-   "source_path": "/tmp/github-v8-source/ai-dev-workflow-starter",
+   "source_path": "/Users/matador/startups/github-profile/.github-art/source-cache/ai-dev-workflow-starter",
    "test_count": 0,
    "tests": []
   },
   "autoerp": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "3616432659c1290a",
+   "content_hash": "480037e3de320e5a",
    "cs_primitives": [
     "queue"
    ],
@@ -2886,7 +3367,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 929,
+   "files": 930,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -2927,7 +3408,27 @@
     "venture-os"
    ],
    "repo": "autoerp",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/command",
+    "/api/command/:id",
+    "/contact",
+    "/dashboard",
+    "/dashboard/runs/:id",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/planner",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 35,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/autoerp",
@@ -2937,7 +3438,7 @@
   "betterfintech": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "20e6d3e1621e1e20",
+   "content_hash": "042a639783e7e8b6",
    "cs_primitives": [
     "index"
    ],
@@ -2970,7 +3471,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 939,
+   "files": 940,
    "frameworks": [
     "D3",
     "Next.js",
@@ -3011,7 +3512,24 @@
    ],
    "repo": "betterfintech",
    "routes": [
-    "/"
+    "/",
+    "/about",
+    "/api/checkout",
+    "/api/report",
+    "/api/scan",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 47,
    "source_origin": "portfolio",
@@ -3022,7 +3540,7 @@
   "bioyield-labs": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "ab39bdfcf15104fa",
+   "content_hash": "dbf25a1095c91d03",
    "cs_primitives": [
     "stack",
     "simulator"
@@ -3056,7 +3574,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 961,
+   "files": 962,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -3098,7 +3616,29 @@
     "venture-os"
    ],
    "repo": "bioyield-labs",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/plans",
+    "/api/plans/:id",
+    "/api/trials",
+    "/contact",
+    "/dashboard",
+    "/dashboard/plans/:id",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/planner",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trials",
+    "/trust"
+   ],
    "shared_template_files": 61,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/bioyield-labs",
@@ -3108,7 +3648,7 @@
   "blitzproof": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "f22918bf4de9d90b",
+   "content_hash": "b6d0adf4db8ece33",
    "cs_primitives": [
     "index",
     "ast"
@@ -3142,7 +3682,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 947,
+   "files": 948,
    "frameworks": [
     "Next.js",
     "React",
@@ -3191,7 +3731,30 @@
    ],
    "repo": "blitzproof",
    "routes": [
-    "/"
+    "/",
+    "/about",
+    "/api/checkout",
+    "/api/ideas",
+    "/api/lead",
+    "/api/leads",
+    "/api/payment",
+    "/api/payments",
+    "/api/run",
+    "/api/track",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/i",
+    "/i/:id",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms"
    ],
    "shared_template_files": 36,
    "source_origin": "portfolio",
@@ -3202,7 +3765,7 @@
   "blitzunicorn": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "ddd1e649ddb9edc2",
+   "content_hash": "0152ec0ca41a847f",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -3233,7 +3796,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 951,
+   "files": 952,
    "frameworks": [
     "Next.js",
     "React"
@@ -3269,7 +3832,25 @@
    ],
    "repo": "blitzunicorn",
    "routes": [
-    "/dashboard"
+    "/",
+    "/about",
+    "/api/checkout",
+    "/api/launch",
+    "/api/projects",
+    "/api/run",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 64,
    "source_origin": "portfolio",
@@ -3280,7 +3861,7 @@
   "buildloop-usa": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "1f6b368ea605720f",
+   "content_hash": "9cb8f0351ea33722",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -3311,7 +3892,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 915,
+   "files": 916,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -3352,7 +3933,27 @@
     "venture-os"
    ],
    "repo": "buildloop-usa",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/requests",
+    "/api/requests/:id",
+    "/contact",
+    "/dashboard",
+    "/dashboard/requests/:id",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/request",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 36,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/buildloop-usa",
@@ -3362,7 +3963,7 @@
   "cannex-logistics": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "9a61746ee0faaa06",
+   "content_hash": "dc63bde1fa31c474",
    "cs_primitives": [],
    "docs": [
     ".autobuilder/guardrails.md",
@@ -3393,7 +3994,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 924,
+   "files": 925,
    "frameworks": [
     "D3",
     "Next.js",
@@ -3441,10 +4042,26 @@
    "repo": "cannex-logistics",
    "routes": [
     "/",
-    "/compliance",
-    "/intelligence",
-    "/network",
-    "/operations"
+    "/about",
+    "/api/checkout",
+    "/app",
+    "/app/compliance",
+    "/app/intelligence",
+    "/app/network",
+    "/app/operations",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 35,
    "source_origin": "portfolio",
@@ -3455,7 +4072,7 @@
   "cheetahbearfuel": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "ca4ee1a750dffe08",
+   "content_hash": "23800c32434bb20f",
    "cs_primitives": [],
    "docs": [
     ".autobuilder/guardrails.md",
@@ -3486,7 +4103,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 930,
+   "files": 931,
    "frameworks": [
     "D3",
     "Next.js",
@@ -3535,7 +4152,22 @@
    ],
    "repo": "cheetahbearfuel",
    "routes": [
-    "/"
+    "/",
+    "/about",
+    "/api/waitlist",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 47,
    "source_origin": "portfolio",
@@ -3546,7 +4178,7 @@
   "childdevos": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "1a2cca3eb90f5fd4",
+   "content_hash": "c7569608224fee65",
    "cs_primitives": [
     "policy"
    ],
@@ -3579,7 +4211,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 930,
+   "files": 931,
    "frameworks": [
     "D3",
     "Next.js",
@@ -3622,7 +4254,27 @@
     "venture-os"
    ],
    "repo": "childdevos",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/health",
+    "/api/reports/daily",
+    "/api/teacher/log",
+    "/contact",
+    "/dashboard/parent",
+    "/dashboard/teacher",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 35,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/childdevos",
@@ -3632,7 +4284,7 @@
   "chipflow": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "b99416c030d35a6f",
+   "content_hash": "f81ad1587ac37762",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -3663,7 +4315,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 917,
+   "files": 918,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -3709,7 +4361,27 @@
     "venture-os"
    ],
    "repo": "chipflow",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/allocation",
+    "/api/allocation/:id",
+    "/contact",
+    "/dashboard",
+    "/dashboard/runs/:id",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/planner",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 35,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/chipflow",
@@ -3719,7 +4391,7 @@
   "claimpilot-ai": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "7fead11f2f09bc53",
+   "content_hash": "9327bab87cf9f71c",
    "cs_primitives": [
     "policy",
     "stack",
@@ -3754,7 +4426,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 932,
+   "files": 933,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -3796,7 +4468,24 @@
    ],
    "repo": "claimpilot-ai",
    "routes": [
-    "/"
+    "/",
+    "/about",
+    "/api/intake",
+    "/api/intake/:id",
+    "/contact",
+    "/dashboard",
+    "/dashboard/runs/:id",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 34,
    "source_origin": "portfolio",
@@ -3807,7 +4496,7 @@
   "cleanstack-macos": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "e75c9d2f2e27ce6e",
+   "content_hash": "a10810c4d5c2e86d",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -3826,19 +4515,19 @@
     "EXPANSION_TRILLIONX_REPORT.md",
     "FINALFORGE_FOLDER_NOTE.md",
     "FOLDER_NOTE.md",
+    "NORTHSTAR.md",
     "PHOENIXLOOP_FOLDER_NOTE.md",
     "TOTAL_EXPERT_COUNCIL_REPORT.md",
     "TRILLIONX_V3_STATUS.md",
     "USER_TRUTH_FOLDER_NOTE.md",
     "USER_TRUTH_REPORT.md",
     "VENTURE_COUNCIL_360.md",
-    "VENTURE_COUNCIL_FOLDER_NOTE.md",
-    "VENTURE_SIGNATURE_STATUS.md"
+    "VENTURE_COUNCIL_FOLDER_NOTE.md"
    ],
    "entry_points": [
     "site/index.html"
    ],
-   "files": 47,
+   "files": 48,
    "frameworks": [],
    "git": {
     "authors": 1,
@@ -3868,7 +4557,9 @@
     "site"
    ],
    "repo": "cleanstack-macos",
-   "routes": [],
+   "routes": [
+    "/api/checkout"
+   ],
    "shared_template_files": 0,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/cleanstack-macos",
@@ -3878,7 +4569,7 @@
   "cleanstack-os": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "2c1e4c279a50eafe",
+   "content_hash": "d0010531503c8095",
    "cs_primitives": [
     "cache"
    ],
@@ -3911,7 +4602,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 959,
+   "files": 960,
    "frameworks": [
     "Next.js",
     "React",
@@ -3952,14 +4643,29 @@
    "repo": "cleanstack-os",
    "routes": [
     "/",
-    "/archive",
-    "/command-center",
-    "/command-palette",
-    "/notifications",
-    "/reports",
-    "/scan",
-    "/settings",
-    "/team"
+    "/about",
+    "/admin/leads",
+    "/admin/leads/:id",
+    "/admin/summary",
+    "/analytics",
+    "/api/admin/export-leads",
+    "/api/checkout",
+    "/api/waitlist",
+    "/app",
+    "/app/archive",
+    "/app/command-center",
+    "/app/command-palette",
+    "/app/machines/builder-laptop",
+    "/app/notifications",
+    "/app/projects/local-model-lab",
+    "/app/reports",
+    "/app/scan",
+    "/app/settings",
+    "/app/team",
+    "/changelog",
+    "/contact",
+    "/dashboard",
+    "/demo"
    ],
    "shared_template_files": 32,
    "source_origin": "portfolio",
@@ -3970,7 +4676,7 @@
   "cloudcastle": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "f5f7c19cab86066b",
+   "content_hash": "5a495287f1c58c13",
    "cs_primitives": [
     "pipeline"
    ],
@@ -4003,7 +4709,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 957,
+   "files": 958,
    "frameworks": [
     "D3",
     "Next.js",
@@ -4056,10 +4762,26 @@
    "repo": "cloudcastle",
    "routes": [
     "/",
+    "/about",
+    "/api/checkout",
+    "/api/machines",
+    "/api/venues",
+    "/contact",
     "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
     "/launch",
     "/network",
-    "/operators"
+    "/operators",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 49,
    "source_origin": "portfolio",
@@ -4070,7 +4792,7 @@
   "commos": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "62975dd4f89228ec",
+   "content_hash": "1ec1cf054ed5d771",
    "cs_primitives": [
     "policy",
     "index",
@@ -4088,14 +4810,15 @@
     ".opencode/agents/reviewer.md",
     ".opencode/agents/worker.md",
     "AGENTS.md",
-    "CLAUDE.md"
+    "CLAUDE.md",
+    "NORTHSTAR.md"
    ],
    "entry_points": [
     "public-site/index.html",
     "src/lib/connectors/index.ts",
     "src/lib/db/index.ts"
    ],
-   "files": 57,
+   "files": 58,
    "frameworks": [
     "Next.js",
     "React",
@@ -4133,6 +4856,7 @@
    "repo": "commos",
    "routes": [
     "/",
+    "/docs/api",
     "/setup"
    ],
    "shared_template_files": 0,
@@ -4144,7 +4868,7 @@
   "companyos": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "fdd4d52a32f70caf",
+   "content_hash": "203374b56864ba19",
    "cs_primitives": [
     "stack",
     "queue"
@@ -4178,7 +4902,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 928,
+   "files": 929,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -4220,7 +4944,29 @@
     "venture-os"
    ],
    "repo": "companyos",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/runs",
+    "/api/runs/:id",
+    "/brief",
+    "/command",
+    "/contact",
+    "/dashboard",
+    "/dashboard/runs/:id",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/rhythm",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 35,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/companyos",
@@ -4230,7 +4976,7 @@
   "computeflow": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "ac2eabdf0a8dbd97",
+   "content_hash": "34f961394935eb05",
    "cs_primitives": [
     "benchmark",
     "stack",
@@ -4265,7 +5011,7 @@
     "CLAUDE.md"
    ],
    "entry_points": [],
-   "files": 938,
+   "files": 940,
    "frameworks": [
     "Next.js",
     "React",
@@ -4304,7 +5050,16 @@
     "/contact",
     "/dashboard",
     "/demo",
-    "/pricing"
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 47,
    "source_origin": "portfolio",
@@ -4315,7 +5070,7 @@
   "computeflow-website": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "307d31cd95c02871",
+   "content_hash": "a4f1d25c9439094b",
    "cs_primitives": [
     "benchmark"
    ],
@@ -4329,6 +5084,7 @@
     ".opencode/agents/worker.md",
     "AGENTS.md",
     "CLAUDE.md",
+    "NORTHSTAR.md",
     "README.md",
     "public/AGENTS.md",
     "public/CLAUDE.md",
@@ -4338,7 +5094,7 @@
     "index.html",
     "public/index.html"
    ],
-   "files": 31,
+   "files": 32,
    "frameworks": [],
    "git": {
     "authors": 1,
@@ -4373,7 +5129,7 @@
   "cortexhq": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "8d9bdd443abaccf3",
+   "content_hash": "38d54496f27640af",
    "cs_primitives": [
     "memory_map",
     "simulator",
@@ -4406,7 +5162,7 @@
     "CLEANUP_SUMMARY.md"
    ],
    "entry_points": [],
-   "files": 932,
+   "files": 933,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -4443,7 +5199,30 @@
     "venture-os"
    ],
    "repo": "cortexhq",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/brain",
+    "/api/brain/:id",
+    "/contact",
+    "/dashboard",
+    "/dashboard/runs/:id",
+    "/decisions",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/sources",
+    "/support",
+    "/terms",
+    "/timeline",
+    "/trust",
+    "/workspace"
+   ],
    "shared_template_files": 36,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/cortexhq",
@@ -4453,7 +5232,7 @@
   "cortexhq-website": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "e487e15a8d835746",
+   "content_hash": "0a43b94f1ddc7bab",
    "cs_primitives": [
     "simulator"
    ],
@@ -4467,6 +5246,7 @@
     ".opencode/agents/worker.md",
     "AGENTS.md",
     "CLAUDE.md",
+    "NORTHSTAR.md",
     "README.md",
     "public/AGENTS.md",
     "public/CLAUDE.md",
@@ -4476,7 +5256,7 @@
     "index.html",
     "public/index.html"
    ],
-   "files": 31,
+   "files": 32,
    "frameworks": [
     "Vercel AI SDK"
    ],
@@ -4513,7 +5293,7 @@
   "cropshield-ai": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "9aa9d3c0fb37a637",
+   "content_hash": "2136bc91b519178f",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -4542,7 +5322,7 @@
     "CLAUDE.md"
    ],
    "entry_points": [],
-   "files": 925,
+   "files": 927,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -4570,7 +5350,28 @@
     "venture-os"
    ],
    "repo": "cropshield-ai",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/analyze",
+    "/api/reports",
+    "/api/reports/:id",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/reports",
+    "/reports/:id",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 35,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/cropshield-ai",
@@ -4580,7 +5381,7 @@
   "cropshield-ai-website": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "22dd94d9089eb6f2",
+   "content_hash": "ace31ce7e491e21b",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -4592,6 +5393,7 @@
     ".opencode/agents/worker.md",
     "AGENTS.md",
     "CLAUDE.md",
+    "NORTHSTAR.md",
     "README.md",
     "public/AGENTS.md",
     "public/CLAUDE.md",
@@ -4601,7 +5403,7 @@
     "index.html",
     "public/index.html"
    ],
-   "files": 31,
+   "files": 32,
    "frameworks": [
     "Vercel AI SDK"
    ],
@@ -4638,7 +5440,7 @@
   "datatherapy": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "7e2bac48b59d15d0",
+   "content_hash": "cfa22b59543b81db",
    "cs_primitives": [],
    "docs": [
     ".autobuilder/guardrails.md",
@@ -4667,7 +5469,7 @@
     "CLAUDE.md"
    ],
    "entry_points": [],
-   "files": 967,
+   "files": 968,
    "frameworks": [
     "D3",
     "Next.js",
@@ -4715,27 +5517,28 @@
    "routes": [
     "/",
     "/about",
+    "/api/checkout",
     "/app",
+    "/app/examples",
+    "/app/how-it-works",
     "/brief",
     "/cognitive-load",
     "/contact",
-    "/examples",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/enterprise",
     "/fear-categories",
+    "/fear-categories/:categoryId",
     "/fear-library",
     "/how-it-works",
     "/impact-assessment",
+    "/intake",
     "/interpretation-guide",
+    "/investor",
     "/investors",
     "/media-analysis",
-    "/pricing",
-    "/privacy",
-    "/product",
-    "/response-framework",
-    "/sample-brief",
-    "/technology",
-    "/terms",
-    "/trend-analysis",
-    "/use-cases"
+    "/partners"
    ],
    "shared_template_files": 45,
    "source_origin": "portfolio",
@@ -4748,7 +5551,7 @@
   "datatherapy-website": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "b389ae90fe0336f4",
+   "content_hash": "e7ada5ebc1286b58",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -4760,6 +5563,7 @@
     ".opencode/agents/worker.md",
     "AGENTS.md",
     "CLAUDE.md",
+    "NORTHSTAR.md",
     "README.md",
     "public/AGENTS.md",
     "public/CLAUDE.md",
@@ -4769,7 +5573,7 @@
     "index.html",
     "public/index.html"
    ],
-   "files": 31,
+   "files": 32,
    "frameworks": [],
    "git": {
     "authors": 1,
@@ -4804,7 +5608,7 @@
   "deploylocal": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "aa5165d48281a4c7",
+   "content_hash": "d68cf14faaad36c8",
    "cs_primitives": [
     "stack",
     "queue",
@@ -4832,12 +5636,12 @@
     "LAUNCH_READINESS.md",
     "LOCAL_REVIEW.md",
     "NOAERTH_UPGRADE_REPORT.md",
+    "NORTHSTAR.md",
     "PREMIUM_UI_UX_REPORT.md",
     "PRODUCT_DIRECTION_DECISION.md",
     "PROOF_LOOP.md",
     "README.md",
-    "RECOVERY_NOTES.md",
-    "RUNBOOK.md"
+    "RECOVERY_NOTES.md"
    ],
    "entry_points": [
     "src/ai/index.ts",
@@ -4858,7 +5662,7 @@
     "src/revenue/sales/index.ts",
     "src/scoring/index.ts"
    ],
-   "files": 313,
+   "files": 314,
    "frameworks": [
     "D3",
     "Next.js",
@@ -4917,12 +5721,29 @@
    "repo": "deploylocal",
    "routes": [
     "/",
-    "/dashboard",
-    "/generate",
-    "/leads",
-    "/queue",
-    "/sites",
-    "/u"
+    "/api/bulk-generate-sites",
+    "/api/checkout",
+    "/api/claim-site",
+    "/api/create-checkout",
+    "/api/create-site-invite",
+    "/api/demo-checkout",
+    "/api/generate-and-save",
+    "/api/generate-site",
+    "/api/gmail/notify",
+    "/api/health",
+    "/api/preview-intake",
+    "/api/process-queue",
+    "/api/run",
+    "/api/run-daily-lead-pipeline",
+    "/api/save-search-results",
+    "/api/search-businesses",
+    "/api/send-email",
+    "/api/unsubscribe",
+    "/api/update-lead-status",
+    "/api/webhooks",
+    "/api/webhooks/stripe",
+    "/app",
+    "/app/generate"
    ],
    "shared_template_files": 3,
    "source_origin": "portfolio",
@@ -4948,7 +5769,7 @@
   "deploylocal-website": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "a1d36cef676ae668",
+   "content_hash": "278f393dbf67620f",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -4960,6 +5781,7 @@
     ".opencode/agents/worker.md",
     "AGENTS.md",
     "CLAUDE.md",
+    "NORTHSTAR.md",
     "README.md",
     "public/AGENTS.md",
     "public/CLAUDE.md",
@@ -4969,7 +5791,7 @@
     "index.html",
     "public/index.html"
    ],
-   "files": 31,
+   "files": 32,
    "frameworks": [],
    "git": {
     "authors": 1,
@@ -5004,7 +5826,7 @@
   "devstate": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "9b2bc19f42a5ce5c",
+   "content_hash": "437dd8421e928fc1",
    "cs_primitives": [
     "terminal"
    ],
@@ -5037,7 +5859,7 @@
    "entry_points": [
     "src/index.js"
    ],
-   "files": 873,
+   "files": 877,
    "frameworks": [
     "Next.js",
     "React",
@@ -5065,7 +5887,24 @@
     "venture-os"
    ],
    "repo": "devstate",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/checkout",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 32,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/devstate",
@@ -5075,7 +5914,7 @@
   "devstate-website": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "37dcd9648552f416",
+   "content_hash": "f806523e3153b97e",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -5087,6 +5926,7 @@
     ".opencode/agents/worker.md",
     "AGENTS.md",
     "CLAUDE.md",
+    "NORTHSTAR.md",
     "README.md",
     "public/AGENTS.md",
     "public/CLAUDE.md",
@@ -5096,7 +5936,7 @@
     "index.html",
     "public/index.html"
    ],
-   "files": 31,
+   "files": 32,
    "frameworks": [],
    "git": {
     "authors": 1,
@@ -5131,7 +5971,7 @@
   "enterprisepilot": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "8fb6f51da42294ef",
+   "content_hash": "b3fdfb719756ab6f",
    "cs_primitives": [
     "index"
    ],
@@ -5164,7 +6004,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 927,
+   "files": 928,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -5204,7 +6044,27 @@
     "venture-os"
    ],
    "repo": "enterprisepilot",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/pilot",
+    "/api/pilot/:id",
+    "/contact",
+    "/dashboard",
+    "/dashboard/runs/:id",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/planner",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 35,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/enterprisepilot",
@@ -5214,7 +6074,7 @@
   "evalforge": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "8fbc45c00d67c4b2",
+   "content_hash": "63bc97e256d42f01",
    "cs_primitives": [
     "policy",
     "stack"
@@ -5248,7 +6108,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 930,
+   "files": 931,
    "frameworks": [
     "Next.js",
     "React",
@@ -5289,7 +6149,24 @@
     "venture-os"
    ],
    "repo": "evalforge",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/evaluate",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 33,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/evalforge",
@@ -5301,7 +6178,7 @@
   "evsec-one": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "0f3feec0f35f5b21",
+   "content_hash": "bb8798e2df460828",
    "cs_primitives": [
     "policy",
     "index",
@@ -5337,7 +6214,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 981,
+   "files": 982,
    "frameworks": [
     "D3",
     "Next.js",
@@ -5392,12 +6269,24 @@
    "routes": [
     "/",
     "/about",
+    "/api/checkout",
+    "/contact",
     "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
     "/onboarding",
     "/pricing",
+    "/privacy",
+    "/product",
     "/scan",
     "/sign-in",
-    "/sign-up"
+    "/sign-up",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 36,
    "source_origin": "portfolio",
@@ -5408,7 +6297,7 @@
   "execmemory-ai": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "1af8462c8d7a480c",
+   "content_hash": "b11ecca042b5662f",
    "cs_primitives": [
     "stack",
     "queue",
@@ -5443,7 +6332,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 930,
+   "files": 931,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -5483,7 +6372,27 @@
     "venture-os"
    ],
    "repo": "execmemory-ai",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/exec",
+    "/api/exec/:id",
+    "/brief",
+    "/contact",
+    "/dashboard",
+    "/dashboard/runs/:id",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 36,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/execmemory-ai",
@@ -5495,7 +6404,7 @@
   "executionos": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "1ea3af69033a479e",
+   "content_hash": "376f08ad2d4429c1",
    "cs_primitives": [
     "index",
     "queue"
@@ -5529,7 +6438,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 957,
+   "files": 958,
    "frameworks": [
     "Next.js",
     "React",
@@ -5568,7 +6477,30 @@
    ],
    "repo": "executionos",
    "routes": [
-    "/(marketing)"
+    "/(marketing)",
+    "/(platform)/dashboard",
+    "/(platform)/onboarding",
+    "/(platform)/settings",
+    "/(platform)/startups/:id",
+    "/(platform)/startups/:id/analysis",
+    "/(platform)/startups/:id/competitors",
+    "/(platform)/startups/:id/exports",
+    "/(platform)/startups/:id/gtm",
+    "/(platform)/startups/:id/intelligence",
+    "/(platform)/startups/:id/mvp",
+    "/(platform)/startups/new",
+    "/about",
+    "/contact",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms"
    ],
    "shared_template_files": 49,
    "source_origin": "portfolio",
@@ -5579,7 +6511,7 @@
   "fastprocure-ai": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "a04df06aaac86628",
+   "content_hash": "736dadb26c980cb1",
    "cs_primitives": [
     "simulator",
     "stack"
@@ -5613,7 +6545,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 925,
+   "files": 926,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -5651,7 +6583,27 @@
     "venture-os"
    ],
    "repo": "fastprocure-ai",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/procure",
+    "/api/procure/:id",
+    "/contact",
+    "/dashboard",
+    "/dashboard/runs/:id",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/planner",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 35,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/fastprocure-ai",
@@ -5661,7 +6613,7 @@
   "forgeflow": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "04f7098b1512dc47",
+   "content_hash": "d8bad46def383361",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -5692,7 +6644,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 932,
+   "files": 934,
    "frameworks": [
     "Next.js",
     "React",
@@ -5734,7 +6686,16 @@
     "/contact",
     "/dashboard",
     "/demo",
-    "/pricing"
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 49,
    "source_origin": "portfolio",
@@ -5745,7 +6706,7 @@
   "founderskingdom": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "2be2eb42d4eec833",
+   "content_hash": "b13612c0a482a587",
    "cs_primitives": [
     "stack",
     "index"
@@ -5779,7 +6740,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 962,
+   "files": 964,
    "frameworks": [
     "D3",
     "Next.js",
@@ -5832,7 +6793,29 @@
    "repo": "founderskingdom",
    "routes": [
     "/",
-    "/leads"
+    "/about",
+    "/api/checkout",
+    "/api/contact",
+    "/api/waitlist",
+    "/app/leads",
+    "/contact",
+    "/create",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/ecosystem",
+    "/features",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/manifesto",
+    "/platform",
+    "/press",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/security",
+    "/startups/:id"
    ],
    "shared_template_files": 32,
    "source_origin": "portfolio",
@@ -5843,7 +6826,7 @@
   "freeconomie": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "ac8a75c355adb154",
+   "content_hash": "2770c2feefe588f9",
    "cs_primitives": [],
    "docs": [
     ".aider.chat.history.md",
@@ -5874,7 +6857,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 984,
+   "files": 985,
    "frameworks": [
     "D3",
     "Next.js",
@@ -5928,9 +6911,29 @@
    "repo": "freeconomie",
    "routes": [
     "/",
+    "/about",
+    "/api/checkout",
+    "/api/favorites",
+    "/api/locations",
+    "/api/locations/search",
+    "/api/route/optimize",
+    "/api/submit",
+    "/api/submit-offer",
+    "/api/waitlist",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
     "/list",
     "/map",
-    "/submit"
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/submit",
+    "/support"
    ],
    "shared_template_files": 57,
    "source_origin": "portfolio",
@@ -5941,7 +6944,7 @@
   "fullofshit": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "47105bbcb43de594",
+   "content_hash": "b88883e1423d13e0",
    "cs_primitives": [
     "stack"
    ],
@@ -5974,7 +6977,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 926,
+   "files": 927,
    "frameworks": [
     "Next.js",
     "React",
@@ -6012,7 +7015,21 @@
    ],
    "repo": "fullofshit",
    "routes": [
-    "/"
+    "/",
+    "/about",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 47,
    "source_origin": "portfolio",
@@ -6023,7 +7040,7 @@
   "gamecombo": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "c5a5f98fcd11e30b",
+   "content_hash": "1b999fad09ee7b66",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -6052,7 +7069,7 @@
     "CLEANUP_SUMMARY.md"
    ],
    "entry_points": [],
-   "files": 929,
+   "files": 930,
    "frameworks": [
     "Next.js",
     "React",
@@ -6092,7 +7109,16 @@
     "/contact",
     "/dashboard",
     "/demo",
-    "/pricing"
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 49,
    "source_origin": "portfolio",
@@ -6103,7 +7129,7 @@
   "genotwin-health": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "ee8b9189fdf67a2f",
+   "content_hash": "cbc871aa39abca98",
    "cs_primitives": [
     "stack"
    ],
@@ -6134,7 +7160,7 @@
     "CLEANUP_SUMMARY.md"
    ],
    "entry_points": [],
-   "files": 921,
+   "files": 922,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -6171,7 +7197,26 @@
     "venture-os"
    ],
    "repo": "genotwin-health",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/twin",
+    "/api/twin/:id",
+    "/contact",
+    "/dashboard",
+    "/dashboard/runs/:id",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 35,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/genotwin-health",
@@ -6190,7 +7235,7 @@
     ".worktrees/privacy-gated-multi-provider/.github/workflows/security.yml"
    ],
    "confidence": "E3",
-   "content_hash": "bf7c37fe31fb7cb9",
+   "content_hash": "883af372f138fd4a",
    "cs_primitives": [
     "crypto",
     "index",
@@ -6251,7 +7296,7 @@
     "packages/ui/src/index.ts",
     "packages/xai/src/index.ts"
    ],
-   "files": 437,
+   "files": 438,
    "frameworks": [
     "Express",
     "React",
@@ -6341,7 +7386,7 @@
   "gh0st-website": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "7bdb5a295387900c",
+   "content_hash": "16ec63fe31b00482",
    "cs_primitives": [
     "terminal",
     "crypto",
@@ -6359,10 +7404,11 @@
     ".opencode/agents/worker.md",
     "AGENTS.md",
     "CLAUDE.md",
+    "NORTHSTAR.md",
     "README.md"
    ],
    "entry_points": [],
-   "files": 60,
+   "files": 61,
    "frameworks": [
     "Next.js",
     "React",
@@ -6398,6 +7444,16 @@
    "repo": "gh0st-website",
    "routes": [
     "/",
+    "/docs/agents",
+    "/docs/browser",
+    "/docs/cli",
+    "/docs/development",
+    "/docs/files",
+    "/docs/getting-started",
+    "/docs/macos",
+    "/docs/privacy",
+    "/docs/troubleshooting",
+    "/docs/zdr",
     "/download",
     "/faq",
     "/privacy",
@@ -6412,7 +7468,7 @@
   "ghostframe": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "217a3e6f91e82f68",
+   "content_hash": "7927df07297c9577",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -6441,7 +7497,7 @@
     "CLEANUP_SUMMARY.md"
    ],
    "entry_points": [],
-   "files": 898,
+   "files": 899,
    "frameworks": [
     "Next.js",
     "React",
@@ -6476,7 +7532,23 @@
     "venture-os"
    ],
    "repo": "ghostframe",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 36,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/ghostframe",
@@ -6488,7 +7560,7 @@
     ".github/workflows/ci.yml"
    ],
    "confidence": "E3",
-   "content_hash": "e57493e91a6e0913",
+   "content_hash": "0899f82d219ca7df",
    "cs_primitives": [
     "stack",
     "policy",
@@ -6518,12 +7590,12 @@
     "FAQ.md",
     "KNOWN_LIMITATIONS.md",
     "MIGRATION.md",
+    "NORTHSTAR.md",
     "OFFLINE.md",
-    "PUBLICATION_AUDIT.md",
-    "QUICKSTART.md"
+    "PUBLICATION_AUDIT.md"
    ],
    "entry_points": [],
-   "files": 299,
+   "files": 300,
    "frameworks": [],
    "git": {
     "authors": 1,
@@ -6593,7 +7665,7 @@
     ".github/workflows/ci.yml"
    ],
    "confidence": "E3",
-   "content_hash": "323cf3830dafc36c",
+   "content_hash": "6e56b004bd649df6",
    "cs_primitives": [
     "index",
     "cache",
@@ -6612,13 +7684,14 @@
     "CHANGELOG.md",
     "CLAUDE.md",
     "CONTRIBUTING.md",
+    "NORTHSTAR.md",
     "PUBLICATION_AUDIT.md",
     "README.md",
     "ROADMAP.md",
     "SECURITY.md"
    ],
    "entry_points": [],
-   "files": 54,
+   "files": 56,
    "frameworks": [
     "Next.js",
     "React",
@@ -6653,7 +7726,16 @@
     "scripts"
    ],
    "repo": "grokbot-office-website",
-   "routes": [],
+   "routes": [
+    "/",
+    "/architecture",
+    "/docs",
+    "/efficiency",
+    "/learning",
+    "/roadmap",
+    "/security",
+    "/workforce"
+   ],
    "shared_template_files": 0,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/grokbot-office-website",
@@ -6667,7 +7749,7 @@
     ".github/workflows/ci.yml"
    ],
    "confidence": "E3",
-   "content_hash": "2f7f8c755444be1a",
+   "content_hash": "4615a2bc07fbe360",
    "cs_primitives": [
     "stack",
     "simulator",
@@ -6691,6 +7773,7 @@
     "CLAUDE.md",
     "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
+    "NORTHSTAR.md",
     "README.md",
     "SECURITY.md",
     "docs/CHATGPT_INTEGRATION.md",
@@ -6699,8 +7782,7 @@
     "docs/GOD.md",
     "docs/GROKBOT_INTEGRATION.md",
     "docs/MEMORY.md",
-    "docs/PROVIDERS.md",
-    "docs/ROADMAP.md"
+    "docs/PROVIDERS.md"
    ],
    "entry_points": [
     "src/budget/index.ts",
@@ -6717,7 +7799,7 @@
     "src/roles/index.ts",
     "src/telemetry/index.ts"
    ],
-   "files": 146,
+   "files": 147,
    "frameworks": [
     "Vercel AI SDK",
     "Vitest"
@@ -6778,7 +7860,7 @@
     ".github/workflows/ci.yml"
    ],
    "confidence": "E3",
-   "content_hash": "e4ca1a43134964bb",
+   "content_hash": "01d348a890e4db33",
    "cs_primitives": [
     "policy",
     "simulator",
@@ -6797,10 +7879,11 @@
     ".opencode/agents/worker.md",
     "AGENTS.md",
     "CLAUDE.md",
+    "NORTHSTAR.md",
     "README.md"
    ],
    "entry_points": [],
-   "files": 77,
+   "files": 78,
    "frameworks": [
     "Next.js",
     "React",
@@ -6860,7 +7943,7 @@
   "grokgeneral": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "55db95a4f3dba4fe",
+   "content_hash": "33d82d4a22171c4c",
    "cs_primitives": [
     "policy",
     "cache",
@@ -6879,6 +7962,7 @@
     ".opencode/agents/worker.md",
     "AGENTS.md",
     "CLAUDE.md",
+    "NORTHSTAR.md",
     "README.md",
     "docs/grokbot-adoption.md",
     "docs/grokbot-integration.md",
@@ -6895,7 +7979,7 @@
     "grokgeneral/cli.py",
     "site/index.html"
    ],
-   "files": 98,
+   "files": 99,
    "frameworks": [
     "Vercel AI SDK"
    ],
@@ -6986,7 +8070,7 @@
     "internal/inspect/testdata/node-repo/.github/workflows/ci.yml"
    ],
    "confidence": "E3",
-   "content_hash": "c47d5a0c78f42709",
+   "content_hash": "92addf127a2e3cff",
    "cs_primitives": [
     "terminal",
     "cache",
@@ -7013,20 +8097,20 @@
     "CLAUDE.md",
     "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
+    "NORTHSTAR.md",
     "README.md",
     "ROADMAP.md",
     "SECURITY.md",
     "docs/GROKBOT-HANDOFF.md",
     "docs/architecture.md",
-    "docs/audit.md",
-    "docs/capabilities.md"
+    "docs/audit.md"
    ],
    "entry_points": [
     "cmd/grokinstall/main.go",
     "internal/inspect/testdata/go-repo/main.go",
     "internal/inspect/testdata/python-repo/src/pwidget/cli.py"
    ],
-   "files": 185,
+   "files": 186,
    "frameworks": [
     "Vercel AI SDK"
    ],
@@ -7083,7 +8167,7 @@
   "grokinstall-website": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "f6f11e550d229835",
+   "content_hash": "45b6433946f9f198",
    "cs_primitives": [
     "crypto"
    ],
@@ -7097,12 +8181,13 @@
     ".opencode/agents/worker.md",
     "AGENTS.md",
     "CLAUDE.md",
+    "NORTHSTAR.md",
     "README.md"
    ],
    "entry_points": [
     "index.html"
    ],
-   "files": 23,
+   "files": 24,
    "frameworks": [],
    "git": {
     "authors": 1,
@@ -7140,7 +8225,7 @@
     ".github/workflows/ci.yml"
    ],
    "confidence": "E3",
-   "content_hash": "b7c88c445844ea68",
+   "content_hash": "94adacd94ffbcf5d",
    "cs_primitives": [
     "cache",
     "stack",
@@ -7163,6 +8248,7 @@
     "CLAUDE.md",
     "CONTRIBUTING.md",
     "LAUNCH_CHECKLIST.md",
+    "NORTHSTAR.md",
     "README.md",
     "SECURITY.md",
     "benchmarks/fixtures/repo-min/README.md",
@@ -7172,8 +8258,7 @@
     "docs/INBOT-MODE.md",
     "docs/LIVE-BENCHMARK.md",
     "docs/PLATFORM-MEASUREMENT.md",
-    "docs/REPRODUCING-LIVE-BENCHMARK.md",
-    "docs/architecture.md"
+    "docs/REPRODUCING-LIVE-BENCHMARK.md"
    ],
    "entry_points": [
     "apps/cli/src/index.ts",
@@ -7193,7 +8278,7 @@
     "packages/telemetry/src/index.ts",
     "packages/usage/src/index.ts"
    ],
-   "files": 222,
+   "files": 223,
    "frameworks": [
     "Vercel AI SDK",
     "Vitest"
@@ -7285,7 +8370,7 @@
   "grokmax-website": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "c947c2d77e8d0270",
+   "content_hash": "6baff832bc98614e",
    "cs_primitives": [
     "cache",
     "terminal",
@@ -7300,10 +8385,12 @@
     ".opencode/agents/reviewer.md",
     ".opencode/agents/worker.md",
     "AGENTS.md",
-    "CLAUDE.md"
+    "CLAUDE.md",
+    "NORTHSTAR.md",
+    "README.md"
    ],
    "entry_points": [],
-   "files": 33,
+   "files": 35,
    "frameworks": [
     "Next.js",
     "React",
@@ -7337,7 +8424,9 @@
     "components"
    ],
    "repo": "grokmax-website",
-   "routes": [],
+   "routes": [
+    "/"
+   ],
    "shared_template_files": 0,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/grokmax-website",
@@ -7347,7 +8436,7 @@
   "happyblock": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "4d4322d6bd7576ea",
+   "content_hash": "ce9c1d18f3a407aa",
    "cs_primitives": [],
    "docs": [
     ".autobuilder/guardrails.md",
@@ -7378,7 +8467,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 979,
+   "files": 980,
    "frameworks": [
     "D3",
     "Next.js",
@@ -7428,10 +8517,26 @@
    "repo": "happyblock",
    "routes": [
     "/",
+    "/about",
+    "/api/checkout",
+    "/contact",
     "/dashboard",
+    "/dashboard/projects",
+    "/dashboard/projects/:id",
+    "/dashboard/scenarios/:id",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
     "/investors",
+    "/pricing",
+    "/privacy",
     "/product",
+    "/support",
     "/technology",
+    "/terms",
+    "/trust",
     "/use-cases",
     "/waitlist"
    ],
@@ -7499,17 +8604,20 @@
     "public-site"
    ],
    "repo": "imessage",
-   "routes": [],
+   "routes": [
+    "/",
+    "/api/send"
+   ],
    "shared_template_files": 1,
    "source_origin": "clone",
-   "source_path": "/tmp/github-v8-source/imessage",
+   "source_path": "/Users/matador/startups/github-profile/.github-art/source-cache/imessage",
    "test_count": 0,
    "tests": []
   },
   "interceptorgrid": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "683512570accbd0a",
+   "content_hash": "3ee3f88fbc8ce1e1",
    "cs_primitives": [
     "simulator",
     "queue"
@@ -7543,7 +8651,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 926,
+   "files": 927,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -7583,7 +8691,27 @@
     "venture-os"
    ],
    "repo": "interceptorgrid",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/grid",
+    "/api/grid/:id",
+    "/command",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/runs/:id",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 35,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/interceptorgrid",
@@ -7593,7 +8721,7 @@
   "lagrangeos": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "638e772a064011d9",
+   "content_hash": "0eef96d8a96c455c",
    "cs_primitives": [
     "simulator"
    ],
@@ -7626,7 +8754,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 925,
+   "files": 926,
    "frameworks": [
     "Next.js",
     "React",
@@ -7663,7 +8791,21 @@
    ],
    "repo": "lagrangeos",
    "routes": [
-    "/"
+    "/",
+    "/about",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 47,
    "source_origin": "portfolio",
@@ -7674,7 +8816,7 @@
   "ledgerops-ai": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "3ba2a154eafc4f6b",
+   "content_hash": "ff90cb18cc6b3893",
    "cs_primitives": [
     "simulator",
     "index",
@@ -7709,7 +8851,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 926,
+   "files": 927,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -7749,7 +8891,27 @@
     "venture-os"
    ],
    "repo": "ledgerops-ai",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/closes",
+    "/api/closes/:id",
+    "/close",
+    "/contact",
+    "/dashboard",
+    "/dashboard/closes/:id",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 35,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/ledgerops-ai",
@@ -7759,7 +8921,7 @@
   "legacybridge": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "6685158c5138eede",
+   "content_hash": "42a9e44940303036",
    "cs_primitives": [
     "index",
     "policy",
@@ -7795,7 +8957,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 1002,
+   "files": 1003,
    "frameworks": [
     "D3",
     "Next.js",
@@ -7847,28 +9009,28 @@
    "routes": [
     "/",
     "/about",
+    "/api/checkout",
+    "/api/og",
     "/app",
+    "/app/artifacts",
+    "/app/command-center",
+    "/app/connectors",
+    "/app/ingest",
+    "/app/notifications",
+    "/app/onboarding",
+    "/app/reports/executive-summary",
+    "/app/settings",
+    "/app/sources",
+    "/app/workflows",
+    "/app/workflows/:slug",
     "/architecture",
-    "/artifacts",
     "/buyers",
-    "/command-center",
     "/compare",
-    "/connectors",
     "/contact",
+    "/dashboard",
     "/demo",
     "/docs",
-    "/enterprise",
-    "/faq",
-    "/industries",
-    "/ingest",
-    "/login",
-    "/notifications",
-    "/onboarding",
-    "/pilot",
-    "/platform",
-    "/pricing",
-    "/resources",
-    "/roi"
+    "/enterprise"
    ],
    "shared_template_files": 48,
    "source_origin": "portfolio",
@@ -7879,7 +9041,7 @@
   "life-finds-a-way": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "80fdfaef4f5a2cdc",
+   "content_hash": "87de1363022abb29",
    "cs_primitives": [
     "simulator"
    ],
@@ -7912,7 +9074,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 915,
+   "files": 916,
    "frameworks": [
     "Next.js",
     "React",
@@ -7951,7 +9113,25 @@
     "venture-os"
    ],
    "repo": "life-finds-a-way",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/investors",
+    "/platform",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 36,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/life-finds-a-way",
@@ -7961,7 +9141,7 @@
   "loopcompute-cloud": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "884bcbecf5501480",
+   "content_hash": "c32edf363904ef70",
    "cs_primitives": [
     "benchmark",
     "agent_graph"
@@ -7995,7 +9175,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 918,
+   "files": 919,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -8036,7 +9216,27 @@
     "venture-os"
    ],
    "repo": "loopcompute-cloud",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/workloads",
+    "/api/workloads/:id",
+    "/contact",
+    "/dashboard",
+    "/dashboard/runs/:id",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/planner",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 34,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/loopcompute-cloud",
@@ -8046,7 +9246,7 @@
   "lunarfoundry": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "4ed31d082e485ad2",
+   "content_hash": "a5409f5cd6bae4f6",
    "cs_primitives": [
     "simulator"
    ],
@@ -8079,7 +9279,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 928,
+   "files": 929,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -8120,7 +9320,27 @@
     "venture-os"
    ],
    "repo": "lunarfoundry",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/plans",
+    "/api/plans/:id",
+    "/contact",
+    "/dashboard",
+    "/dashboard/plans/:id",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/planner",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 35,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/lunarfoundry",
@@ -8130,7 +9350,7 @@
   "luvconvos": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "b714cef16ff66a23",
+   "content_hash": "cec56000168f36bd",
    "cs_primitives": [
     "simulator"
    ],
@@ -8163,7 +9383,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 1010,
+   "files": 1011,
    "frameworks": [
     "D3",
     "Next.js",
@@ -8217,7 +9437,29 @@
    "repo": "luvconvos",
    "routes": [
     "/",
-    "/login"
+    "/(app)/dashboard",
+    "/(app)/relationships",
+    "/(app)/relationships/:id",
+    "/(app)/reports",
+    "/(app)/simulator",
+    "/(marketing)/how-it-works",
+    "/(marketing)/investors",
+    "/(marketing)/technology",
+    "/about",
+    "/api/auth",
+    "/api/checkout",
+    "/api/simulate",
+    "/contact",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/login",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support"
    ],
    "shared_template_files": 48,
    "source_origin": "portfolio",
@@ -8228,7 +9470,7 @@
   "luvpartnr": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "df229c06ad40a878",
+   "content_hash": "cf6d2715286d9810",
    "cs_primitives": [],
    "docs": [
     ".autobuilder/guardrails.md",
@@ -8259,7 +9501,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 978,
+   "files": 979,
    "frameworks": [
     "D3",
     "Next.js",
@@ -8312,10 +9554,29 @@
    "repo": "luvpartnr",
    "routes": [
     "/",
-    "/analyze",
-    "/cases",
-    "/dashboard",
-    "/reports"
+    "/about",
+    "/api/analyze-entry",
+    "/api/analyze-message",
+    "/api/checkout",
+    "/api/global-insights",
+    "/api/profile-insights",
+    "/api/push-send",
+    "/api/push-subscribe",
+    "/api/reports/generate",
+    "/api/share-report",
+    "/app",
+    "/app/analyze",
+    "/app/cases",
+    "/app/cases/:id",
+    "/app/cases/:id/add-entry",
+    "/app/cases/:id/entries/:entryId/edit",
+    "/app/cases/:id/report",
+    "/app/cases/new",
+    "/app/dashboard",
+    "/app/reports",
+    "/app/reports/:id",
+    "/contact",
+    "/demo"
    ],
    "shared_template_files": 64,
    "source_origin": "portfolio",
@@ -8326,7 +9587,7 @@
   "luvstories": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "af66c04b22518640",
+   "content_hash": "818fc7c489039001",
    "cs_primitives": [
     "index",
     "crypto",
@@ -8361,7 +9622,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 949,
+   "files": 950,
    "frameworks": [
     "D3",
     "Next.js",
@@ -8414,9 +9675,25 @@
    "repo": "luvstories",
    "routes": [
     "/",
+    "/about",
+    "/api/checkout",
+    "/auth/callback",
+    "/contact",
     "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
     "/login",
-    "/signup"
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/signup",
+    "/stories/:id",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 47,
    "source_origin": "portfolio",
@@ -8427,7 +9704,7 @@
   "morphui": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "80620f4d08d46cd0",
+   "content_hash": "bf84c1bbdb389a16",
    "cs_primitives": [
     "pipeline",
     "stack"
@@ -8461,7 +9738,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 928,
+   "files": 929,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -8503,7 +9780,26 @@
     "venture-os"
    ],
    "repo": "morphui",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/morph",
+    "/api/morph/:id",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/history",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 36,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/morphui",
@@ -8515,7 +9811,7 @@
   "n1-therapeutics": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "75bd81a029d777be",
+   "content_hash": "9e7207f09920cf4b",
    "cs_primitives": [
     "index"
    ],
@@ -8548,7 +9844,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 928,
+   "files": 929,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -8590,7 +9886,26 @@
    ],
    "repo": "n1-therapeutics",
    "routes": [
-    "/"
+    "/",
+    "/about",
+    "/api/sessions",
+    "/api/sessions/:id",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/explore/:id",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/sessions",
+    "/support",
+    "/terms",
+    "/trials",
+    "/trust"
    ],
    "shared_template_files": 35,
    "source_origin": "portfolio",
@@ -8601,7 +9916,7 @@
   "nex-robotix": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "b9e9345e44660c23",
+   "content_hash": "a3ebdf8fa90d58c7",
    "cs_primitives": [
     "simulator",
     "stack",
@@ -8637,7 +9952,7 @@
     "public-site/index.html",
     "src/components/visuals/index.ts"
    ],
-   "files": 986,
+   "files": 987,
    "frameworks": [
     "Next.js",
     "React",
@@ -8678,19 +9993,27 @@
     "/",
     "/about",
     "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
     "/industries",
+    "/industries/construction",
+    "/industries/hospitality",
+    "/intake",
+    "/investor",
     "/investors",
     "/mvp",
     "/pilot",
     "/platform",
+    "/pricing",
+    "/privacy",
+    "/product",
     "/research",
     "/robotics",
     "/robots",
-    "/safety",
-    "/technology",
-    "/teleoperation",
-    "/use-cases",
-    "/visual-system"
+    "/robots/nex-assist",
+    "/robots/nex-build"
    ],
    "shared_template_files": 49,
    "source_origin": "portfolio",
@@ -8800,7 +10123,7 @@
    "routes": [],
    "shared_template_files": 0,
    "source_origin": "clone",
-   "source_path": "/tmp/github-v8-source/node_modules",
+   "source_path": "/Users/matador/startups/github-profile/.github-art/source-cache/node_modules",
    "test_count": 1,
    "tests": [
     "@types/node/test/reporters.d.ts"
@@ -8809,7 +10132,7 @@
   "obviouslybad": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "3f818b5675986ceb",
+   "content_hash": "ca234f6c2ef5132b",
    "cs_primitives": [
     "stack"
    ],
@@ -8842,7 +10165,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 930,
+   "files": 932,
    "frameworks": [
     "Next.js",
     "React",
@@ -8882,7 +10205,20 @@
    "routes": [
     "/",
     "/about",
-    "/examples"
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/examples",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 47,
    "source_origin": "portfolio",
@@ -8893,7 +10229,7 @@
   "oddbotix": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "1e108591c2063e5f",
+   "content_hash": "a93c1363daabc000",
    "cs_primitives": [
     "simulator",
     "stack",
@@ -8928,7 +10264,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 950,
+   "files": 952,
    "frameworks": [
     "D3",
     "Next.js",
@@ -8977,7 +10313,32 @@
     "venture-os"
    ],
    "repo": "oddbotix",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/applications",
+    "/careers",
+    "/contact",
+    "/dashboard",
+    "/deck",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/investor-memo",
+    "/investor-summary",
+    "/investors",
+    "/mission",
+    "/partners",
+    "/platform",
+    "/press",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/roadmap",
+    "/support"
+   ],
    "shared_template_files": 36,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/oddbotix",
@@ -8987,7 +10348,7 @@
   "oodax": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "d6a7306559d69251",
+   "content_hash": "7d0494a6d04fccdd",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -9018,7 +10379,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 937,
+   "files": 942,
    "frameworks": [
     "Next.js",
     "React",
@@ -9051,6 +10412,7 @@
     "app",
     "components",
     "public-site",
+    "src",
     "venture-os"
    ],
    "repo": "oodax",
@@ -9060,7 +10422,16 @@
     "/contact",
     "/dashboard",
     "/demo",
-    "/pricing"
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 49,
    "source_origin": "portfolio",
@@ -9073,7 +10444,7 @@
     ".github/workflows/ci.yml"
    ],
    "confidence": "E3",
-   "content_hash": "10b6065cc8b9960d",
+   "content_hash": "a9d3cfd53f0872c2",
    "cs_primitives": [
     "stack",
     "agent_graph",
@@ -9096,6 +10467,7 @@
     "CLAUDE.md",
     "CODE_OF_CONDUCT.md",
     "CONTRIBUTING.md",
+    "NORTHSTAR.md",
     "README.md",
     "SECURITY.md",
     "docs/PART1.md",
@@ -9104,7 +10476,7 @@
    "entry_points": [
     "src/cli/index.ts"
    ],
-   "files": 94,
+   "files": 97,
    "frameworks": [],
    "git": {
     "authors": 1,
@@ -9160,7 +10532,7 @@
   "opencode-watchdog-website": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "47b6c697b4895860",
+   "content_hash": "6a2d1f62fcc5aba7",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -9172,10 +10544,11 @@
     ".opencode/agents/worker.md",
     "AGENTS.md",
     "CLAUDE.md",
+    "NORTHSTAR.md",
     "README.md"
    ],
    "entry_points": [],
-   "files": 31,
+   "files": 33,
    "frameworks": [
     "Next.js",
     "React",
@@ -9206,7 +10579,10 @@
     "lib"
    ],
    "repo": "opencode-watchdog-website",
-   "routes": [],
+   "routes": [
+    "/",
+    "/commands"
+   ],
    "shared_template_files": 0,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/opencode-watchdog-website",
@@ -9216,7 +10592,7 @@
   "opsautopilot": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "f288869ca869de8a",
+   "content_hash": "b06f4f9e83e80c60",
    "cs_primitives": [
     "queue",
     "simulator"
@@ -9250,7 +10626,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 933,
+   "files": 937,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -9291,7 +10667,26 @@
     "venture-os"
    ],
    "repo": "opsautopilot",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/simulations",
+    "/api/simulations/:id",
+    "/contact",
+    "/dashboard",
+    "/dashboard/runs/:id",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 35,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/opsautopilot",
@@ -9301,7 +10696,7 @@
   "orbitchip": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "c398cef9f30efa5e",
+   "content_hash": "19a95eb20cd81a2d",
    "cs_primitives": [
     "benchmark",
     "stack"
@@ -9335,7 +10730,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 927,
+   "files": 931,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -9376,7 +10771,27 @@
     "venture-os"
    ],
    "repo": "orbitchip",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/reports",
+    "/api/reports/:id",
+    "/configure",
+    "/contact",
+    "/dashboard",
+    "/dashboard/reports/:id",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 35,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/orbitchip",
@@ -9386,7 +10801,7 @@
   "orbitprint": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "45baa0dd3b4b4aa4",
+   "content_hash": "7452569e3771ba76",
    "cs_primitives": [
     "stack",
     "simulator"
@@ -9420,7 +10835,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 927,
+   "files": 931,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -9460,7 +10875,27 @@
     "venture-os"
    ],
    "repo": "orbitprint",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/plans",
+    "/api/plans/:id",
+    "/configure",
+    "/contact",
+    "/dashboard",
+    "/dashboard/plans/:id",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 35,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/orbitprint",
@@ -9470,7 +10905,7 @@
   "poolwater": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "09702a66473bac76",
+   "content_hash": "9c1ed0d14ab37a78",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -9501,7 +10936,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 935,
+   "files": 936,
    "frameworks": [
     "D3",
     "Next.js",
@@ -9552,7 +10987,32 @@
     "venture-os"
    ],
    "repo": "poolwater",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/admin",
+    "/api/admin/overview",
+    "/api/checkout",
+    "/api/contact",
+    "/api/events",
+    "/api/venue-inquiry",
+    "/api/waitlist",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/energy",
+    "/events",
+    "/faq",
+    "/gallery",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/investors",
+    "/join",
+    "/pricing",
+    "/privacy"
+   ],
    "shared_template_files": 34,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/poolwater",
@@ -9562,7 +11022,7 @@
   "psychemap": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "b0d03b85a1209213",
+   "content_hash": "7e13ac7e98eb0d17",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -9594,7 +11054,7 @@
     "public-site/index.html",
     "src/types/index.ts"
    ],
-   "files": 961,
+   "files": 962,
    "frameworks": [
     "Next.js",
     "React",
@@ -9638,12 +11098,27 @@
     "/",
     "/about",
     "/atlas",
+    "/atlas/:slug",
+    "/contact",
     "/dashboard",
+    "/dashboard/library",
+    "/dashboard/maps",
+    "/dashboard/new",
+    "/dashboard/settings",
+    "/demo",
+    "/docs",
     "/examples",
+    "/how-it-works",
+    "/intake",
+    "/investor",
     "/login",
     "/map",
+    "/map/:id",
     "/pricing",
-    "/signup"
+    "/privacy",
+    "/product",
+    "/signup",
+    "/support"
    ],
    "shared_template_files": 49,
    "source_origin": "portfolio",
@@ -9654,7 +11129,7 @@
   "readablestack": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "253af77d0d451f4e",
+   "content_hash": "34b3c70f2bbe460d",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -9685,7 +11160,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 925,
+   "files": 927,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -9725,7 +11200,27 @@
     "venture-os"
    ],
    "repo": "readablestack",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/convert",
+    "/api/convert/:id",
+    "/contact",
+    "/converter",
+    "/dashboard",
+    "/dashboard/runs/:id",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 36,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/readablestack",
@@ -9737,7 +11232,7 @@
     ".github/workflows/ci.yml"
    ],
    "confidence": "E3",
-   "content_hash": "f1e951c8e9afaa69",
+   "content_hash": "c0eed41435bd9172",
    "cs_primitives": [
     "event_stream",
     "index",
@@ -9773,7 +11268,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 989,
+   "files": 990,
    "frameworks": [
     "D3",
     "Next.js",
@@ -9829,7 +11324,32 @@
     "venture-os"
    ],
    "repo": "redwoud",
-   "routes": [],
+   "routes": [
+    "/",
+    "/_error",
+    "/about",
+    "/alerts",
+    "/api/briefing",
+    "/api/feed",
+    "/api/ingest",
+    "/api/trends",
+    "/briefing",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/entity/:slug",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/investors",
+    "/login",
+    "/onboarding",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/stream"
+   ],
    "shared_template_files": 43,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/redwoud",
@@ -9839,7 +11359,7 @@
   "reviewforge-ai": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "b47e9c27c215e8cc",
+   "content_hash": "9d783199b0c09f26",
    "cs_primitives": [
     "stack"
    ],
@@ -9872,7 +11392,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 922,
+   "files": 923,
    "frameworks": [
     "Next.js",
     "React",
@@ -9910,7 +11430,21 @@
    ],
    "repo": "reviewforge-ai",
    "routes": [
-    "/"
+    "/",
+    "/about",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 49,
    "source_origin": "portfolio",
@@ -9921,7 +11455,7 @@
   "saeturtle": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "0b902e802f3847d3",
+   "content_hash": "4c774c590ac9504f",
    "cs_primitives": [],
    "docs": [
     ".autobuilder/guardrails.md",
@@ -9953,7 +11487,7 @@
     "public-site/index.html",
     "src/types/index.ts"
    ],
-   "files": 1001,
+   "files": 1003,
    "frameworks": [
     "D3",
     "Next.js",
@@ -10004,12 +11538,26 @@
    "repo": "saeturtle",
    "routes": [
     "/",
+    "/about",
+    "/api/checkout",
+    "/api/recommendations",
+    "/api/waitlist",
+    "/contact",
     "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
     "/investors",
     "/login",
     "/onboarding",
     "/pricing",
-    "/product"
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 64,
    "source_origin": "portfolio",
@@ -10022,7 +11570,7 @@
     ".github/workflows/ci.yml"
    ],
    "confidence": "E3",
-   "content_hash": "48534a0445c671d5",
+   "content_hash": "4fd98aa85ff34c6e",
    "cs_primitives": [
     "benchmark",
     "policy",
@@ -10043,6 +11591,7 @@
     "AGENTS.md",
     "CHANGELOG.md",
     "CLAUDE.md",
+    "NORTHSTAR.md",
     "README.md",
     "docs/NORTHSTAR.md",
     "docs/architecture/COGNITIVE_COMPILER.md",
@@ -10054,8 +11603,7 @@
     "docs/architecture/INTELLIGENCE_GENOME.md",
     "docs/architecture/MEMORY_MODEL.md",
     "docs/architecture/MIND_MODEL.md",
-    "docs/architecture/MINIMAL_KERNEL.md",
-    "docs/architecture/PACKAGE_DECISIONS.md"
+    "docs/architecture/MINIMAL_KERNEL.md"
    ],
    "entry_points": [
     "packages/cli/src/index.ts",
@@ -10066,7 +11614,7 @@
     "packages/state/src/index.ts",
     "web/src/lib/content/index.ts"
    ],
-   "files": 209,
+   "files": 210,
    "frameworks": [
     "Jest",
     "Next.js",
@@ -10117,20 +11665,7 @@
     "web"
    ],
    "repo": "seai-mind",
-   "routes": [
-    "/app",
-    "/architecture",
-    "/benchmarks",
-    "/docs",
-    "/evolution",
-    "/license",
-    "/minds",
-    "/privacy",
-    "/research",
-    "/roadmap",
-    "/security",
-    "/what-is-seai"
-   ],
+   "routes": [],
    "shared_template_files": 0,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/seai-mind",
@@ -10153,7 +11688,7 @@
   "siliconcontrol-tower": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "9a0c5eb36931b19b",
+   "content_hash": "52a82dd157c1bfd8",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -10184,7 +11719,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 918,
+   "files": 919,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -10225,7 +11760,27 @@
     "venture-os"
    ],
    "repo": "siliconcontrol-tower",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/tower",
+    "/api/tower/:id",
+    "/contact",
+    "/dashboard",
+    "/dashboard/runs/:id",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/planner",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 35,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/siliconcontrol-tower",
@@ -10235,7 +11790,7 @@
   "spacecompute-cloud": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "fcd728371ca5d693",
+   "content_hash": "d34dbc39d1a1a6a1",
    "cs_primitives": [
     "benchmark",
     "policy",
@@ -10271,7 +11826,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 927,
+   "files": 929,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -10312,7 +11867,27 @@
     "venture-os"
    ],
    "repo": "spacecompute-cloud",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/plans",
+    "/api/plans/:id",
+    "/contact",
+    "/dashboard",
+    "/dashboard/deployments/:id",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/planner",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 34,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/spacecompute-cloud",
@@ -10322,7 +11897,7 @@
   "spaceedu": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "87e775feef1a0209",
+   "content_hash": "a21d028e26a62dd0",
    "cs_primitives": [
     "stack",
     "index",
@@ -10357,7 +11932,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 1022,
+   "files": 1023,
    "frameworks": [
     "D3",
     "Next.js",
@@ -10406,17 +11981,26 @@
     "/about",
     "/account",
     "/admin",
+    "/admin/analytics",
+    "/admin/content",
+    "/admin/missions",
+    "/admin/waitlist",
     "/alerts",
+    "/api/admin/analytics-events",
+    "/api/admin/missions/:slug",
+    "/api/admin/settings/recommendations",
+    "/api/admin/waitlist",
+    "/api/me/alerts",
+    "/api/me/interests",
+    "/api/me/profile",
+    "/api/me/watchlist",
+    "/api/missions",
     "/compare",
     "/contact",
     "/dashboard",
-    "/learn",
-    "/login",
-    "/missions",
-    "/onboarding",
-    "/roadmap",
-    "/settings",
-    "/signup"
+    "/demo",
+    "/docs",
+    "/how-it-works"
    ],
    "shared_template_files": 53,
    "source_origin": "portfolio",
@@ -10459,17 +12043,20 @@
     "lib"
    ],
    "repo": "src",
-   "routes": [],
+   "routes": [
+    "/",
+    "/api/waitlist"
+   ],
    "shared_template_files": 7,
    "source_origin": "clone",
-   "source_path": "/tmp/github-v8-source/src",
+   "source_path": "/Users/matador/startups/github-profile/.github-art/source-cache/src",
    "test_count": 0,
    "tests": []
   },
   "startupquick": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "786e42c617004c28",
+   "content_hash": "a8422103fd3336ea",
    "cs_primitives": [
     "index"
    ],
@@ -10502,7 +12089,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 969,
+   "files": 970,
    "frameworks": [
     "D3",
     "Next.js",
@@ -10551,8 +12138,29 @@
    "repo": "startupquick",
    "routes": [
     "/",
+    "/about",
+    "/api/assets/upload",
+    "/api/checkout",
+    "/api/generate",
+    "/api/startups",
+    "/api/startups/:slug",
+    "/api/startups/:slug/regenerate",
+    "/api/tenant-resolve",
     "/auth",
-    "/dashboard"
+    "/contact",
+    "/dashboard",
+    "/dashboard/manage/:slug",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/startups",
+    "/startups/:slug",
+    "/support"
    ],
    "shared_template_files": 47,
    "source_origin": "portfolio",
@@ -10563,7 +12171,7 @@
   "strxngth": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "44979bd2a63376e4",
+   "content_hash": "ddce501352e233bd",
    "cs_primitives": [
     "ast"
    ],
@@ -10596,7 +12204,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 970,
+   "files": 972,
    "frameworks": [
     "D3",
     "Next.js",
@@ -10650,9 +12258,23 @@
    "repo": "strxngth",
    "routes": [
     "/",
+    "/about",
+    "/api/generate-plan",
+    "/contact",
     "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
     "/onboarding",
-    "/sign-in"
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/sign-in",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 51,
    "source_origin": "portfolio",
@@ -10693,14 +12315,14 @@
    "routes": [],
    "shared_template_files": 0,
    "source_origin": "clone",
-   "source_path": "/tmp/github-v8-source/styles",
+   "source_path": "/Users/matador/startups/github-profile/.github-art/source-cache/styles",
    "test_count": 0,
    "tests": []
   },
   "supplyos-ai": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "fb3db57e51b9b25c",
+   "content_hash": "86774e2ddc83973f",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -10731,7 +12353,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 918,
+   "files": 919,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -10770,7 +12392,27 @@
     "venture-os"
    ],
    "repo": "supplyos-ai",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/risk",
+    "/api/risk/:id",
+    "/contact",
+    "/dashboard",
+    "/dashboard/runs/:id",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/planner",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 35,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/supplyos-ai",
@@ -10780,7 +12422,7 @@
   "swarmshield": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "eeb770ad72ae81e8",
+   "content_hash": "5ed39082da923870",
    "cs_primitives": [
     "simulator"
    ],
@@ -10813,7 +12455,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 943,
+   "files": 945,
    "frameworks": [
     "D3",
     "Next.js",
@@ -10856,7 +12498,16 @@
     "/contact",
     "/dashboard",
     "/demo",
-    "/pricing"
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 47,
    "source_origin": "portfolio",
@@ -10867,7 +12518,7 @@
   "tempoos": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "82b2f0c3ac0ac72a",
+   "content_hash": "3a6d462cae18d7ae",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -10900,7 +12551,7 @@
     "components/ui/index.ts",
     "public-site/index.html"
    ],
-   "files": 928,
+   "files": 930,
    "frameworks": [
     "D3",
     "Next.js",
@@ -10950,7 +12601,28 @@
     "venture-os"
    ],
    "repo": "tempoos",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/checkout",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/generate",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/planner",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust",
+    "/vision",
+    "/waitlist"
+   ],
    "shared_template_files": 36,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/tempoos",
@@ -10960,7 +12632,7 @@
   "trajectoryos": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "96703513f2b284c5",
+   "content_hash": "a53d1f9cffbf6fbc",
    "cs_primitives": [],
    "docs": [
     ".autobuilder/guardrails.md",
@@ -10992,7 +12664,7 @@
     "components/landing/index.ts",
     "public-site/index.html"
    ],
-   "files": 911,
+   "files": 912,
    "frameworks": [
     "Next.js",
     "React",
@@ -11029,7 +12701,23 @@
     "venture-os"
    ],
    "repo": "trajectoryos",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 35,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/trajectoryos",
@@ -11039,7 +12727,7 @@
   "useros": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "5d89b91493f94aed",
+   "content_hash": "15e2433a64ecbe76",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -11070,7 +12758,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 928,
+   "files": 930,
    "frameworks": [
     "Next.js",
     "React",
@@ -11112,7 +12800,16 @@
     "/contact",
     "/dashboard",
     "/demo",
-    "/pricing"
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 48,
    "source_origin": "portfolio",
@@ -11123,7 +12820,7 @@
   "uxvisualengine": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "b2c4e2ec37c994a1",
+   "content_hash": "494d577bcac9b878",
    "cs_primitives": [
     "stack",
     "index",
@@ -11149,6 +12846,7 @@
     "LAUNCH_READINESS.md",
     "LOCAL_REVIEW.md",
     "NOAERTH_UPGRADE_REPORT.md",
+    "NORTHSTAR.md",
     "PREMIUM_UI_UX_REPORT.md",
     "PROOF_LOOP.md",
     "README.md",
@@ -11163,7 +12861,7 @@
     "src/engine/index.ts",
     "src/engine/qa/index.ts"
    ],
-   "files": 262,
+   "files": 263,
    "frameworks": [
     "Next.js",
     "Playwright",
@@ -11200,7 +12898,28 @@
    ],
    "repo": "uxvisualengine",
    "routes": [
-    "/"
+    "/",
+    "/api/audit",
+    "/api/baseline",
+    "/api/checkout",
+    "/api/compare",
+    "/api/components",
+    "/api/critique",
+    "/api/decide",
+    "/api/design-system",
+    "/api/health",
+    "/api/history",
+    "/api/improve",
+    "/api/inspect",
+    "/api/iteration-image",
+    "/api/knowledge",
+    "/api/model",
+    "/api/motion",
+    "/api/originality",
+    "/api/portfolio",
+    "/api/providers",
+    "/api/sandbox",
+    "/api/storybook"
    ],
    "shared_template_files": 0,
    "source_origin": "portfolio",
@@ -11225,7 +12944,7 @@
   "valuedsociety": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "781aaa5457934512",
+   "content_hash": "8e6260aeb71507c9",
    "cs_primitives": [],
    "docs": [
     ".autobuilder/guardrails.md",
@@ -11257,7 +12976,7 @@
     "public-site/index.html",
     "src/types/index.ts"
    ],
-   "files": 947,
+   "files": 948,
    "frameworks": [
     "Next.js",
     "React",
@@ -11309,10 +13028,22 @@
    "routes": [
     "/",
     "/about",
+    "/api/checkout",
+    "/api/waitlist",
     "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
     "/how-it-works",
+    "/intake",
+    "/investor",
     "/investors",
+    "/pricing",
+    "/privacy",
     "/product",
+    "/support",
+    "/terms",
+    "/trust",
     "/waitlist"
    ],
    "shared_template_files": 49,
@@ -11324,7 +13055,7 @@
   "vencapmentor": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "54ad0546315a5eb9",
+   "content_hash": "3edfa2c162faf1f0",
    "cs_primitives": [
     "stack"
    ],
@@ -11357,7 +13088,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 939,
+   "files": 940,
    "frameworks": [
     "Next.js",
     "OpenAI SDK",
@@ -11395,7 +13126,28 @@
     "venture-os"
    ],
    "repo": "vencapmentor",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/checkout",
+    "/api/mentor",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/mentor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/quiz",
+    "/results",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 36,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/vencapmentor",
@@ -11405,7 +13157,7 @@
   "vizuler": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "8da8b54731fb77a2",
+   "content_hash": "ae3ef8432aac8e7a",
    "cs_primitives": [
     "simulator"
    ],
@@ -11438,7 +13190,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 928,
+   "files": 930,
    "frameworks": [
     "D3",
     "Next.js",
@@ -11527,14 +13279,14 @@
    "routes": [],
    "shared_template_files": 0,
    "source_origin": "clone",
-   "source_path": "/tmp/github-v8-source/why-are-you-here",
+   "source_path": "/Users/matador/startups/github-profile/.github-art/source-cache/why-are-you-here",
    "test_count": 0,
    "tests": []
   },
   "workflowcanvas": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "12c6d9615d90f4ad",
+   "content_hash": "be66cc9fbb15d861",
    "cs_primitives": [
     "stack",
     "index",
@@ -11571,7 +13323,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 923,
+   "files": 924,
    "frameworks": [
     "Next.js",
     "Prisma",
@@ -11610,7 +13362,27 @@
     "venture-os"
    ],
    "repo": "workflowcanvas",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/canvas",
+    "/api/canvas/:id",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/history",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/studio",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 36,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/workflowcanvas",
@@ -11620,7 +13392,7 @@
   "youareprofound": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "1250f06b0c818f7b",
+   "content_hash": "81d2b0e68b75f212",
    "cs_primitives": [],
    "docs": [
     ".autobuilder/guardrails.md",
@@ -11651,7 +13423,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 918,
+   "files": 919,
    "frameworks": [
     "Next.js",
     "React",
@@ -11690,7 +13462,23 @@
    ],
    "repo": "youareprofound",
    "routes": [
-    "/"
+    "/",
+    "/about",
+    "/api/checkout",
+    "/app",
+    "/contact",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/support",
+    "/terms",
+    "/trust"
    ],
    "shared_template_files": 36,
    "source_origin": "portfolio",
@@ -11701,7 +13489,7 @@
   "zaeux": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "aec2a9f493725e2f",
+   "content_hash": "d9df1be2950665c7",
    "cs_primitives": [
     "stack"
    ],
@@ -11734,7 +13522,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 939,
+   "files": 940,
    "frameworks": [
     "Next.js",
     "React",
@@ -11785,7 +13573,30 @@
     "venture-os"
    ],
    "repo": "zaeux",
-   "routes": [],
+   "routes": [
+    "/",
+    "/about",
+    "/api/checkout",
+    "/api/waitlist",
+    "/contact",
+    "/core",
+    "/credit",
+    "/dashboard",
+    "/demo",
+    "/docs",
+    "/how-it-works",
+    "/intake",
+    "/investor",
+    "/login",
+    "/pay",
+    "/pricing",
+    "/privacy",
+    "/product",
+    "/reserve",
+    "/support",
+    "/terms",
+    "/trust"
+   ],
    "shared_template_files": 35,
    "source_origin": "portfolio",
    "source_path": "/Users/matador/startups/zaeux",
