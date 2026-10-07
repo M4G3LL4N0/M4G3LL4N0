@@ -37,6 +37,16 @@ PORTFOLIO = pathlib.Path("/Users/matador/startups")
 V8_SOURCE = PROFILE / ".github-art" / "source-cache"
 OUT = PROFILE / ".github-art" / "v8-index.json"
 
+IGNORED_MODULE_DIRS = {
+    "docs", "assets", "public", "node_modules", "tests", "test", "e2e",
+    ".github", ".cursor", ".opencode", ".startup", ".autobuilder", ".next",
+    ".turbo", ".vercel", ".vscode", "dist", "build", "out", "coverage",
+    "vendor", "__pycache__", ".venv", "venv", "migrations", "seeds", "fixtures",
+}
+
+MONOREPO_ROOTS = {"packages", "apps", "services", "libs", "modules", "crates",
+                  "workspaces", "cmd", "internal"}
+
 SKIP_DIRS = {
     ".git", "node_modules", "dist", "build", ".next", "coverage", "vendor",
     "__pycache__", ".venv", "venv", "target", ".trillionx-agent-fabric",
@@ -179,6 +189,56 @@ def walk(root: pathlib.Path):
             yield pathlib.Path(dirpath) / fn
 
 
+
+def dep_keys(manifest_paths: list[str], roots: list[pathlib.Path]) -> set[str]:
+    """Exact dependency package names declared by this repository.
+
+    Framework detection used to substring-match the concatenated manifest text,
+    so the signal "ai" fired on "tailwindcss" (t-AIL-wind) and "Vercel AI SDK"
+    was reported for 118 of 136 repositories. Signals are matched against these
+    exact keys instead, so a framework is only claimed when it is really
+    declared.
+    """
+    keys: set[str] = set()
+    for rel in manifest_paths:
+        name = rel.rsplit("/", 1)[-1]
+        path = None
+        for root in roots:
+            cand = root / rel
+            if cand.exists():
+                path = cand
+                break
+        if path is None:
+            continue
+        text = read_text(path)
+        if name == "package.json":
+            try:
+                data = json.loads(text)
+            except Exception:
+                continue
+            if not isinstance(data, dict):
+                continue
+            for field in ("dependencies", "devDependencies", "peerDependencies",
+                          "optionalDependencies"):
+                block = data.get(field)
+                if isinstance(block, dict):
+                    keys.update(k.lower() for k in block if isinstance(k, str))
+        elif name == "requirements.txt":
+            for line in text.splitlines():
+                line = line.split("#", 1)[0].strip()
+                if not line:
+                    continue
+                m = re.match(r"^([A-Za-z0-9._-]+)", line)
+                if m:
+                    keys.add(m.group(1).lower())
+        elif name == "pyproject.toml":
+            for m in re.finditer(r"([A-Za-z0-9._-]+)\s*[=<>~!\[]", text):
+                keys.add(m.group(1).lower())
+            for m in re.finditer(r"^\s*\"([A-Za-z0-9._-]+)\"", text, re.M):
+                keys.add(m.group(1).lower())
+    return keys
+
+
 def read_text(p: pathlib.Path, limit: int = 200_000) -> str:
     try:
         if p.stat().st_size > limit:
@@ -299,6 +359,7 @@ def analyse(name: str, root: pathlib.Path | None, origin: str,
     modules: list[str] = []
     docs: list[str] = []
     routes: list[str] = []
+    module_roots: set[str] = set()
     blob: list[str] = []
     files = 0
     shared_files = 0
@@ -332,12 +393,16 @@ def analyse(name: str, root: pathlib.Path | None, origin: str,
         if base in ("main.py", "__main__.py", "main.go", "main.rs", "index.ts",
                     "index.js", "cli.py", "app.py", "server.py", "index.html"):
             entries.append(rel)
-        # top-level source directories become module names
+        # Module boundaries. A top-level directory that holds source code is a
+        # module whatever its depth, and monorepo roots (packages/x, apps/x)
+        # are recorded at two levels so packages/cli is not flattened away.
         parts = rel.split("/")
-        if len(parts) == 2 and parts[0] not in ("docs", "assets", "public",
-                                                ".github", ".cursor", ".opencode",
-                                                "node_modules", "tests", "test"):
-            modules.append(parts[0])
+        top = parts[0]
+        if top not in IGNORED_MODULE_DIRS and len(parts) >= 2 and lang and \
+                lang not in ("Markdown", "JSON", "YAML", "CSS", "HTML"):
+            module_roots.add(top)
+            if top in MONOREPO_ROOTS and len(parts) >= 3:
+                module_roots.add(f"{top}/{parts[1]}")
         r = route_of(rel)
         if r:
             routes.append(r)
@@ -352,9 +417,9 @@ def analyse(name: str, root: pathlib.Path | None, origin: str,
                 continue
             blob.append(read_text(f, 60_000))
 
-    joined_deps = "\n".join(deps_text).lower()
+    exact_deps = dep_keys(sorted(set(manifests)), [root])
     frameworks = [fw for fw, sigs in FRAMEWORK_SIGNALS.items()
-                  if any(s.lower() in joined_deps for s in sigs)]
+                  if any(sig.lower() in exact_deps for sig in sigs)]
     code = "\n".join(blob)
     # Score by occurrence count against a per-primitive threshold. Keep the
     # strongest primitives only: a project with twelve matches for "queue" is
@@ -376,7 +441,7 @@ def analyse(name: str, root: pathlib.Path | None, origin: str,
         "test_count": len(set(tests)),
         "ci_workflows": sorted(set(workflows)),
         "entry_points": sorted(set(entries)),
-        "modules": sorted(set(modules))[:16],
+        "modules": sorted(module_roots)[:16],
         "docs": sorted(set(docs))[:24],
         "routes": sorted(set(routes))[:24],
         "cs_primitives": primitives,

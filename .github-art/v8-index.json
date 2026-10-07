@@ -4,7 +4,7 @@
   "1bc": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "e76298ad6e058c94",
+   "content_hash": "b8c02cb5df8bc5cd",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -39,8 +39,7 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -64,12 +63,9 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
-    "public-site",
-    "src",
-    "venture-os"
+    "src"
    ],
    "repo": "1bc",
    "routes": [
@@ -132,12 +128,10 @@
    ],
    "files": 969,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -171,12 +165,9 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "Ayncient",
    "routes": [
@@ -247,12 +238,10 @@
    ],
    "files": 948,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -285,13 +274,11 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "lib",
-    "public-site",
-    "venture-os"
+    "path",
+    "src"
    ],
    "repo": "BehindCurtain",
    "routes": [
@@ -352,8 +339,7 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -386,15 +372,10 @@
     "package.json"
    ],
    "modules": [
-    ".aider.tags.cache.v4",
-    ".autobuilder",
-    ".git-backup-before-clean-history",
-    ".startup",
     "app",
     "components",
     "lib",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "Bourgaeux",
    "routes": [
@@ -461,12 +442,10 @@
    ],
    "files": 949,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -500,14 +479,11 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
-    "public-site",
+    "src",
     "supabase",
-    "types",
-    "venture-os"
+    "types"
    ],
    "repo": "BrandCrossover",
    "routes": [
@@ -575,12 +551,10 @@
    "entry_points": [],
    "files": 949,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -613,12 +587,11 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "sql",
-    "venture-os"
+    "src",
+    "supabase"
    ],
    "repo": "Cruxenio",
    "routes": [
@@ -689,13 +662,11 @@
    "entry_points": [],
    "files": 943,
    "frameworks": [
-    "D3",
     "Next.js",
     "OpenAI SDK",
     "React",
     "Supabase",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -728,12 +699,10 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "lib",
-    "venture-os"
+    "src"
    ],
    "repo": "CxNTRADICT",
    "routes": [
@@ -837,12 +806,10 @@
    ],
    "files": 1024,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -875,13 +842,10 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "lib",
-    "migrations",
-    "venture-os"
+    "src"
    ],
    "repo": "EmailSimple",
    "routes": [
@@ -919,7 +883,7 @@
   "ForeverLuvd": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "14328b41d593f593",
+   "content_hash": "e689d0945cb2ea69",
    "cs_primitives": [
     "crypto",
     "agent_graph",
@@ -955,14 +919,12 @@
     "public-site/index.html",
     "src/lib/data/index.ts"
    ],
-   "files": 967,
+   "files": 968,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -996,13 +958,9 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
-    "public-site",
-    "src",
-    "venture-os"
+    "src"
    ],
    "repo": "ForeverLuvd",
    "routes": [
@@ -1108,12 +1066,10 @@
    ],
    "files": 941,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -1146,13 +1102,9 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
-    "public-site",
-    "src",
-    "venture-os"
+    "src"
    ],
    "repo": "FungMind",
    "routes": [
@@ -1222,12 +1174,10 @@
    ],
    "files": 969,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -1261,13 +1211,10 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "lib",
-    "public-site",
-    "venture-os"
+    "supabase"
    ],
    "repo": "HackerzArt",
    "routes": [
@@ -1360,8 +1307,6 @@
    },
    "manifests": [],
    "modules": [
-    ".github-art",
-    "data",
     "scripts"
    ],
    "repo": "M4G3LL4N0",
@@ -1416,8 +1361,7 @@
     "OpenAI SDK",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -1450,13 +1394,9 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
-    "lib",
-    "public-site",
-    "venture-os"
+    "lib"
    ],
    "repo": "Modex",
    "routes": [
@@ -1527,12 +1467,10 @@
    ],
    "files": 959,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -1566,13 +1504,10 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "lib",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "NaextBlock",
    "routes": [
@@ -1644,12 +1579,10 @@
    ],
    "files": 952,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -1684,12 +1617,11 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
     "lib",
-    "public-site",
-    "venture-os"
+    "src",
+    "supabase"
    ],
    "repo": "RequestAyo",
    "routes": [
@@ -1801,13 +1733,11 @@
    ],
    "files": 998,
    "frameworks": [
-    "D3",
     "Next.js",
     "OpenAI SDK",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -1840,14 +1770,10 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "path",
-    "public-site",
-    "supabase",
-    "venture-os"
+    "src"
    ],
    "repo": "SUNSETX",
    "routes": [
@@ -1920,13 +1846,11 @@
    ],
    "files": 981,
    "frameworks": [
-    "D3",
     "Next.js",
     "OpenAI SDK",
     "React",
     "Supabase",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -1961,14 +1885,11 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "lib",
-    "public-site",
     "sql",
-    "venture-os"
+    "src"
    ],
    "repo": "ShopRight",
    "routes": [
@@ -2039,12 +1960,10 @@
    ],
    "files": 947,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -2078,14 +1997,11 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "lib",
-    "public-site",
-    "supabase",
-    "venture-os"
+    "src",
+    "supabase"
    ],
    "repo": "SoulMayte",
    "routes": [
@@ -2155,12 +2071,10 @@
    ],
    "files": 947,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -2194,13 +2108,10 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "lib",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "Spouwse",
    "routes": [
@@ -2276,8 +2187,7 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -2310,15 +2220,11 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "hooks",
     "lib",
-    "public-site",
-    "types",
-    "venture-os"
+    "types"
    ],
    "repo": "TherapyUX",
    "routes": [
@@ -2394,8 +2300,7 @@
     "Next.js",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -2429,13 +2334,10 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
-    "public-site",
-    "supabase",
-    "venture-os"
+    "src",
+    "supabase"
    ],
    "repo": "TrustxVerify",
    "routes": [
@@ -2473,7 +2375,7 @@
   "VentureRank-OS": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "fb4b6185e7ce1e30",
+   "content_hash": "6704e87e92916975",
    "cs_primitives": [
     "queue"
    ],
@@ -2506,13 +2408,12 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 950,
+   "files": 951,
    "frameworks": [
     "Next.js",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -2546,12 +2447,9 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
+    "app",
     "components",
-    "migrations",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "VentureRank-OS",
    "routes": [
@@ -2587,7 +2485,7 @@
   "YouState": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "328f0a763a1e7bc2",
+   "content_hash": "1e5e96c3a52d5329",
    "cs_primitives": [
     "policy"
    ],
@@ -2620,13 +2518,12 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 986,
+   "files": 987,
    "frameworks": [
     "Next.js",
     "React",
     "Supabase",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -2661,14 +2558,10 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "lib",
-    "migrations",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "YouState",
    "routes": [
@@ -2781,11 +2674,9 @@
    ],
    "files": 1160,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -2819,16 +2710,11 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "lib",
-    "public-site",
     "src",
-    "supabase",
-    "temp-readme",
-    "venture-os"
+    "supabase"
    ],
    "repo": "access-layer",
    "routes": [
@@ -2911,7 +2797,6 @@
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -2935,13 +2820,10 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
     "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "agentapi-hub",
    "routes": [
@@ -3018,7 +2900,6 @@
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -3041,13 +2922,10 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
     "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "agentcore-silicon",
    "routes": [
@@ -3122,9 +3000,7 @@
     "src/agentos/cli.py"
    ],
    "files": 225,
-   "frameworks": [
-    "Vercel AI SDK"
-   ],
+   "frameworks": [],
    "git": {
     "authors": 1,
     "commits": "7",
@@ -3206,7 +3082,7 @@
     ".github/workflows/ci.yml"
    ],
    "confidence": "E3",
-   "content_hash": "c81c2cd700570c9b",
+   "content_hash": "003ca58eb47b0eef",
    "cs_primitives": [
     "policy",
     "simulator"
@@ -3299,9 +3175,7 @@
    ],
    "entry_points": [],
    "files": 43,
-   "frameworks": [
-    "Vercel AI SDK"
-   ],
+   "frameworks": [],
    "git": {
     "authors": 1,
     "commits": "1",
@@ -3320,7 +3194,6 @@
     "package.json"
    ],
    "modules": [
-    "prompts",
     "scripts"
    ],
    "repo": "ai-dev-workflow-starter",
@@ -3334,7 +3207,7 @@
   "autoerp": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "480037e3de320e5a",
+   "content_hash": "324fd8ec703b8d0f",
    "cs_primitives": [
     "queue"
    ],
@@ -3367,13 +3240,12 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 930,
+   "files": 931,
    "frameworks": [
     "Next.js",
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -3399,13 +3271,10 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
     "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "autoerp",
    "routes": [
@@ -3473,12 +3342,10 @@
    ],
    "files": 940,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -3502,13 +3369,10 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "lib",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "betterfintech",
    "routes": [
@@ -3580,7 +3444,6 @@
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -3607,13 +3470,10 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
     "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "bioyield-labs",
    "routes": [
@@ -3686,8 +3546,7 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -3720,14 +3579,10 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
-    "data",
     "lib",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "blitzproof",
    "routes": [
@@ -3765,7 +3620,7 @@
   "blitzunicorn": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "0152ec0ca41a847f",
+   "content_hash": "fa4297e318ab793a",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -3796,7 +3651,7 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 952,
+   "files": 953,
    "frameworks": [
     "Next.js",
     "React"
@@ -3822,13 +3677,10 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "lib",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "blitzunicorn",
    "routes": [
@@ -3898,7 +3750,6 @@
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -3924,13 +3775,9 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
-    "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "lib"
    ],
    "repo": "buildloop-usa",
    "routes": [
@@ -3996,12 +3843,10 @@
    ],
    "files": 925,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -4031,13 +3876,9 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
-    "lib",
-    "public-site",
-    "venture-os"
+    "lib"
    ],
    "repo": "cannex-logistics",
    "routes": [
@@ -4105,12 +3946,10 @@
    ],
    "files": 931,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -4143,12 +3982,9 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "cheetahbearfuel",
    "routes": [
@@ -4213,13 +4049,11 @@
    ],
    "files": 931,
    "frameworks": [
-    "D3",
     "Next.js",
     "OpenAI SDK",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -4244,14 +4078,10 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "lib",
-    "public-site",
-    "supabase",
-    "venture-os"
+    "supabase"
    ],
    "repo": "childdevos",
    "routes": [
@@ -4321,7 +4151,6 @@
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -4352,13 +4181,9 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
-    "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "lib"
    ],
    "repo": "chipflow",
    "routes": [
@@ -4432,7 +4257,6 @@
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -4458,13 +4282,10 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
     "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "claimpilot-ai",
    "routes": [
@@ -4496,7 +4317,7 @@
   "cleanstack-macos": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "a10810c4d5c2e86d",
+   "content_hash": "0271157593f03326",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -4527,7 +4348,7 @@
    "entry_points": [
     "site/index.html"
    ],
-   "files": 48,
+   "files": 49,
    "frameworks": [],
    "git": {
     "authors": 1,
@@ -4553,8 +4374,9 @@
     "site/package.json"
    ],
    "modules": [
-    "lib",
-    "site"
+    "Sources",
+    "app",
+    "lib"
    ],
    "repo": "cleanstack-macos",
    "routes": [
@@ -4569,7 +4391,7 @@
   "cleanstack-os": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "d0010531503c8095",
+   "content_hash": "07b5b8a6d4271050",
    "cs_primitives": [
     "cache"
    ],
@@ -4602,12 +4424,11 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 960,
+   "files": 961,
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -4631,14 +4452,9 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
-    "data",
-    "lib",
-    "public-site",
-    "venture-os"
+    "lib"
    ],
    "repo": "cleanstack-os",
    "routes": [
@@ -4676,7 +4492,7 @@
   "cloudcastle": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "5a495287f1c58c13",
+   "content_hash": "b6b7acabf21c2958",
    "cs_primitives": [
     "pipeline"
    ],
@@ -4709,14 +4525,12 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 958,
+   "files": 959,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -4750,14 +4564,11 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "lib",
-    "public-site",
-    "supabase",
-    "venture-os"
+    "src",
+    "supabase"
    ],
    "repo": "cloudcastle",
    "routes": [
@@ -4823,7 +4634,6 @@
     "Next.js",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -4849,8 +4659,6 @@
     "package.json"
    ],
    "modules": [
-    "data",
-    "public-site",
     "src"
    ],
    "repo": "commos",
@@ -4868,7 +4676,7 @@
   "companyos": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "203374b56864ba19",
+   "content_hash": "fdced1b4a99e1672",
    "cs_primitives": [
     "stack",
     "queue"
@@ -4902,13 +4710,12 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 929,
+   "files": 930,
    "frameworks": [
     "Next.js",
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -4935,13 +4742,9 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
-    "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "lib"
    ],
    "repo": "companyos",
    "routes": [
@@ -5015,8 +4818,7 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -5038,10 +4840,9 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
-    "venture-os"
+    "src"
    ],
    "repo": "computeflow",
    "routes": [
@@ -5070,7 +4871,7 @@
   "computeflow-website": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "a4f1d25c9439094b",
+   "content_hash": "09a1fd6dda27db0d",
    "cs_primitives": [
     "benchmark"
    ],
@@ -5094,7 +4895,7 @@
     "index.html",
     "public/index.html"
    ],
-   "files": 32,
+   "files": 33,
    "frameworks": [],
    "git": {
     "authors": 1,
@@ -5129,7 +4930,7 @@
   "cortexhq": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "38d54496f27640af",
+   "content_hash": "d9a781a43e1d5f85",
    "cs_primitives": [
     "memory_map",
     "simulator",
@@ -5162,13 +4963,12 @@
     "CLEANUP_SUMMARY.md"
    ],
    "entry_points": [],
-   "files": 933,
+   "files": 934,
    "frameworks": [
     "Next.js",
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -5191,12 +4991,9 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
-    "lib",
-    "prisma",
-    "venture-os"
+    "lib"
    ],
    "repo": "cortexhq",
    "routes": [
@@ -5232,7 +5029,7 @@
   "cortexhq-website": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "0a43b94f1ddc7bab",
+   "content_hash": "d11541795e10802e",
    "cs_primitives": [
     "simulator"
    ],
@@ -5256,10 +5053,8 @@
     "index.html",
     "public/index.html"
    ],
-   "files": 32,
-   "frameworks": [
-    "Vercel AI SDK"
-   ],
+   "files": 33,
+   "frameworks": [],
    "git": {
     "authors": 1,
     "commits": "3",
@@ -5328,7 +5123,6 @@
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {},
@@ -5342,12 +5136,10 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
     "lib",
-    "prisma",
-    "venture-os"
+    "src"
    ],
    "repo": "cropshield-ai",
    "routes": [
@@ -5381,7 +5173,7 @@
   "cropshield-ai-website": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "ace31ce7e491e21b",
+   "content_hash": "2fe2710d4b913332",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -5403,10 +5195,8 @@
     "index.html",
     "public/index.html"
    ],
-   "files": 32,
-   "frameworks": [
-    "Vercel AI SDK"
-   ],
+   "files": 33,
+   "frameworks": [],
    "git": {
     "authors": 1,
     "commits": "3",
@@ -5471,11 +5261,9 @@
    "entry_points": [],
    "files": 968,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -5507,11 +5295,9 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
-    "venture-os"
+    "src"
    ],
    "repo": "datatherapy",
    "routes": [
@@ -5608,7 +5394,7 @@
   "deploylocal": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "d68cf14faaad36c8",
+   "content_hash": "d2e33bb98e8e37ad",
    "cs_primitives": [
     "stack",
     "queue",
@@ -5662,9 +5448,8 @@
     "src/revenue/sales/index.ts",
     "src/scoring/index.ts"
    ],
-   "files": 314,
+   "files": 315,
    "frameworks": [
-    "D3",
     "Next.js",
     "OpenAI SDK",
     "Playwright",
@@ -5672,7 +5457,6 @@
     "Stripe",
     "Supabase",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -5707,11 +5491,8 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
     "app",
-    "bin",
     "components",
-    "data",
     "db",
     "lib",
     "scripts",
@@ -5863,8 +5644,7 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {},
    "has_code": true,
@@ -5877,14 +5657,10 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".devstate",
-    ".startup",
     "app",
     "components",
     "lib",
-    "src",
-    "venture-os"
+    "src"
    ],
    "repo": "devstate",
    "routes": [
@@ -6010,7 +5786,6 @@
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -6035,13 +5810,10 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
     "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "enterprisepilot",
    "routes": [
@@ -6112,8 +5884,7 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -6141,12 +5912,9 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
-    "lib",
-    "public-site",
-    "venture-os"
+    "lib"
    ],
    "repo": "evalforge",
    "routes": [
@@ -6216,12 +5984,10 @@
    ],
    "files": 982,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -6256,14 +6022,11 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "lib",
-    "public-site",
-    "supabase",
-    "venture-os"
+    "src",
+    "supabase"
    ],
    "repo": "evsec-one",
    "routes": [
@@ -6338,7 +6101,6 @@
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -6363,13 +6125,9 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
-    "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "lib"
    ],
    "repo": "execmemory-ai",
    "routes": [
@@ -6443,8 +6201,7 @@
     "Next.js",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -6469,11 +6226,9 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "executionos",
    "routes": [
@@ -6511,7 +6266,7 @@
   "fastprocure-ai": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "736dadb26c980cb1",
+   "content_hash": "1f2908cf8e69defb",
    "cs_primitives": [
     "simulator",
     "stack"
@@ -6545,13 +6300,12 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 926,
+   "files": 927,
    "frameworks": [
     "Next.js",
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -6574,13 +6328,10 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
     "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "fastprocure-ai",
    "routes": [
@@ -6648,8 +6399,7 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -6673,11 +6423,9 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "forgeflow",
    "routes": [
@@ -6742,12 +6490,10 @@
    ],
    "files": 964,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -6780,15 +6526,12 @@
     "package.json"
    ],
    "modules": [
-    ".aider.tags.cache.v4",
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "data",
+    "founderskingdom",
     "lib",
-    "public-site",
-    "venture-os"
+    "path"
    ],
    "repo": "founderskingdom",
    "routes": [
@@ -6826,7 +6569,7 @@
   "freeconomie": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "2770c2feefe588f9",
+   "content_hash": "7b5aed15b5791b25",
    "cs_primitives": [],
    "docs": [
     ".aider.chat.history.md",
@@ -6857,14 +6600,12 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 985,
+   "files": 986,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -6898,15 +6639,10 @@
     "package.json"
    ],
    "modules": [
-    ".aider.tags.cache.v4",
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "lib",
-    "public-site",
-    "src",
-    "venture-os"
+    "src"
    ],
    "repo": "freeconomie",
    "routes": [
@@ -6981,8 +6717,7 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -7007,11 +6742,9 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
+    "app",
     "components",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "fullofshit",
    "routes": [
@@ -7040,7 +6773,7 @@
   "gamecombo": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "1b999fad09ee7b66",
+   "content_hash": "e4169e73b1d657cc",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -7069,12 +6802,11 @@
     "CLEANUP_SUMMARY.md"
    ],
    "entry_points": [],
-   "files": 930,
+   "files": 931,
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -7097,10 +6829,9 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
-    "venture-os"
+    "src"
    ],
    "repo": "gamecombo",
    "routes": [
@@ -7166,7 +6897,6 @@
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -7189,12 +6919,9 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
-    "lib",
-    "prisma",
-    "venture-os"
+    "lib"
    ],
    "repo": "genotwin-health",
    "routes": [
@@ -7301,7 +7028,6 @@
     "Express",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Vitest"
    ],
    "git": {
@@ -7364,6 +7090,18 @@
     "packages/xai/package.json"
    ],
    "modules": [
+    ".worktrees",
+    "apps",
+    "apps/cli",
+    "apps/client",
+    "apps/site",
+    "packages",
+    "packages/core",
+    "packages/files",
+    "packages/security",
+    "packages/storage",
+    "packages/ui",
+    "packages/xai",
     "scripts"
    ],
    "repo": "gh0st",
@@ -7412,8 +7150,7 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -7440,7 +7177,9 @@
    "manifests": [
     "package.json"
    ],
-   "modules": [],
+   "modules": [
+    "src"
+   ],
    "repo": "gh0st-website",
    "routes": [
     "/",
@@ -7468,7 +7207,7 @@
   "ghostframe": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "7927df07297c9577",
+   "content_hash": "274b3dcdd18558a3",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -7497,12 +7236,11 @@
     "CLEANUP_SUMMARY.md"
    ],
    "entry_points": [],
-   "files": 899,
+   "files": 900,
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -7525,11 +7263,9 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
-    "lib",
-    "venture-os"
+    "lib"
    ],
    "repo": "ghostframe",
    "routes": [
@@ -7622,15 +7358,10 @@
     "package.json"
    ],
    "modules": [
-    "_harvest_export",
-    "config",
-    "examples",
-    "generated",
     "registry",
     "runtime",
     "scripts",
-    "src",
-    "state"
+    "src"
    ],
    "repo": "grokbot-office",
    "routes": [],
@@ -7695,8 +7426,7 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -7722,7 +7452,6 @@
    "modules": [
     "app",
     "components",
-    "data",
     "scripts"
    ],
    "repo": "grokbot-office-website",
@@ -7801,7 +7530,6 @@
    ],
    "files": 147,
    "frameworks": [
-    "Vercel AI SDK",
     "Vitest"
    ],
    "git": {
@@ -7829,7 +7557,8 @@
     "package.json"
    ],
    "modules": [
-    "examples"
+    "examples",
+    "src"
    ],
    "repo": "grokbot-society",
    "routes": [],
@@ -7887,8 +7616,7 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -7913,7 +7641,9 @@
    "manifests": [
     "package.json"
    ],
-   "modules": [],
+   "modules": [
+    "src"
+   ],
    "repo": "grokbot-society-website",
    "routes": [
     "/",
@@ -7980,9 +7710,7 @@
     "site/index.html"
    ],
    "files": 99,
-   "frameworks": [
-    "Vercel AI SDK"
-   ],
+   "frameworks": [],
    "git": {
     "authors": 1,
     "commits": "26",
@@ -8013,9 +7741,7 @@
     "pyproject.toml"
    ],
    "modules": [
-    "grokgeneral",
-    "grokgeneral.egg-info",
-    "site"
+    "grokgeneral"
    ],
    "repo": "grokgeneral",
    "routes": [],
@@ -8111,9 +7837,7 @@
     "internal/inspect/testdata/python-repo/src/pwidget/cli.py"
    ],
    "files": 186,
-   "frameworks": [
-    "Vercel AI SDK"
-   ],
+   "frameworks": [],
    "git": {
     "authors": 2,
     "commits": "10",
@@ -8151,7 +7875,22 @@
     "package.json"
    ],
    "modules": [
-    "bin"
+    "cmd",
+    "cmd/grokinstall",
+    "internal",
+    "internal/adapter",
+    "internal/adversarial",
+    "internal/archive",
+    "internal/audit",
+    "internal/cache",
+    "internal/capability",
+    "internal/cli",
+    "internal/contextpack",
+    "internal/diagnose",
+    "internal/diagnostics",
+    "internal/evidence",
+    "internal/inspect",
+    "internal/installer"
    ],
    "repo": "grokinstall",
    "routes": [],
@@ -8280,7 +8019,6 @@
    ],
    "files": 223,
    "frameworks": [
-    "Vercel AI SDK",
     "Vitest"
    ],
    "git": {
@@ -8330,7 +8068,22 @@
     "packages/usage/package.json"
    ],
    "modules": [
-    "data"
+    "apps",
+    "apps/cli",
+    "benchmarks",
+    "data",
+    "packages",
+    "packages/adapters",
+    "packages/artifacts",
+    "packages/cache",
+    "packages/compiler",
+    "packages/context",
+    "packages/core",
+    "packages/doctor",
+    "packages/edge",
+    "packages/experiment",
+    "packages/inbot",
+    "packages/ledger"
    ],
    "repo": "grokmax",
    "routes": [],
@@ -8394,8 +8147,7 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 2,
@@ -8469,12 +8221,10 @@
    ],
    "files": 980,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -8507,12 +8257,9 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "happyblock",
    "routes": [
@@ -8576,7 +8323,6 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -8600,8 +8346,7 @@
    ],
    "modules": [
     "app",
-    "components",
-    "public-site"
+    "components"
    ],
    "repo": "imessage",
    "routes": [
@@ -8657,7 +8402,6 @@
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -8682,13 +8426,10 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
     "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "interceptorgrid",
    "routes": [
@@ -8758,8 +8499,7 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -8783,11 +8523,9 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
+    "app",
     "components",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "lagrangeos",
    "routes": [
@@ -8857,7 +8595,6 @@
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -8882,13 +8619,10 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
     "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "ledgerops-ai",
    "routes": [
@@ -8959,11 +8693,9 @@
    ],
    "files": 1003,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -8997,13 +8729,10 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
-    "public-site",
     "scripts",
-    "venture-os"
+    "src"
    ],
    "repo": "legacybridge",
    "routes": [
@@ -9078,8 +8807,7 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -9103,14 +8831,10 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "content",
-    "lib",
-    "public-site",
-    "venture-os"
+    "lib"
    ],
    "repo": "life-finds-a-way",
    "routes": [
@@ -9181,7 +8905,6 @@
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -9207,13 +8930,9 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
-    "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "lib"
    ],
    "repo": "loopcompute-cloud",
    "routes": [
@@ -9246,7 +8965,7 @@
   "lunarfoundry": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "a5409f5cd6bae4f6",
+   "content_hash": "b5ac15ba506b8d94",
    "cs_primitives": [
     "simulator"
    ],
@@ -9279,13 +8998,12 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 929,
+   "files": 930,
    "frameworks": [
     "Next.js",
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -9311,13 +9029,10 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
     "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "lunarfoundry",
    "routes": [
@@ -9385,13 +9100,11 @@
    ],
    "files": 1011,
    "frameworks": [
-    "D3",
     "Next.js",
     "Playwright",
     "React",
     "Supabase",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Vitest",
     "Zod"
    ],
@@ -9426,13 +9139,10 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     ".storybook",
     "app",
     "components",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "luvconvos",
    "routes": [
@@ -9503,13 +9213,11 @@
    ],
    "files": 979,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Stripe",
     "Supabase",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -9543,13 +9251,10 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "lib",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "luvpartnr",
    "routes": [
@@ -9624,12 +9329,10 @@
    ],
    "files": 950,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -9664,13 +9367,10 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
-    "migrations",
-    "public-site",
-    "venture-os"
+    "src",
+    "supabase"
    ],
    "repo": "luvstories",
    "routes": [
@@ -9704,7 +9404,7 @@
   "morphui": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "bf84c1bbdb389a16",
+   "content_hash": "7b6052f5d8330e50",
    "cs_primitives": [
     "pipeline",
     "stack"
@@ -9738,13 +9438,12 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 929,
+   "files": 930,
    "frameworks": [
     "Next.js",
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -9771,13 +9470,10 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
     "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "morphui",
    "routes": [
@@ -9811,7 +9507,7 @@
   "n1-therapeutics": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "9e7207f09920cf4b",
+   "content_hash": "f1919539654e3eda",
    "cs_primitives": [
     "index"
    ],
@@ -9844,13 +9540,12 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 929,
+   "files": 930,
    "frameworks": [
     "Next.js",
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -9876,13 +9571,10 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
     "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "n1-therapeutics",
    "routes": [
@@ -9956,8 +9648,7 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -9982,11 +9673,9 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "nex-robotix",
    "routes": [
@@ -10069,12 +9758,7 @@
    "files": 338,
    "frameworks": [
     "Jest",
-    "Next.js",
     "OpenAI SDK",
-    "Playwright",
-    "Postgres",
-    "Supabase",
-    "Vercel AI SDK",
     "Vitest",
     "Zod"
    ],
@@ -10114,7 +9798,6 @@
     "@supabase",
     "@types",
     "clsx",
-    "iceberg-js",
     "tslib",
     "undici-types",
     "ws"
@@ -10169,8 +9852,7 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -10195,11 +9877,9 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
+    "app",
     "components",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "obviouslybad",
    "routes": [
@@ -10266,11 +9946,9 @@
    ],
    "files": 952,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -10304,13 +9982,10 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
+    ".husky",
     "app",
     "components",
-    "lib",
-    "public-site",
-    "venture-os"
+    "lib"
    ],
    "repo": "oddbotix",
    "routes": [
@@ -10383,8 +10058,7 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -10408,12 +10082,9 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
-    "public-site",
-    "src",
-    "venture-os"
+    "src"
    ],
    "repo": "oodax",
    "routes": [
@@ -10504,7 +10175,6 @@
    ],
    "modules": [
     "bin",
-    "fixtures",
     "scripts",
     "src"
    ],
@@ -10552,8 +10222,7 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -10632,7 +10301,6 @@
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -10658,13 +10326,10 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
     "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "opsautopilot",
    "routes": [
@@ -10696,7 +10361,7 @@
   "orbitchip": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "19a95eb20cd81a2d",
+   "content_hash": "39a996f1b16f1b40",
    "cs_primitives": [
     "benchmark",
     "stack"
@@ -10736,7 +10401,6 @@
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -10762,13 +10426,10 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
     "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "orbitchip",
    "routes": [
@@ -10841,7 +10502,6 @@
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -10866,13 +10526,10 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
     "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "orbitprint",
    "routes": [
@@ -10938,12 +10595,10 @@
    ],
    "files": 936,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -10977,14 +10632,10 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "lib",
-    "public-site",
-    "types",
-    "venture-os"
+    "types"
    ],
    "repo": "poolwater",
    "routes": [
@@ -11058,8 +10709,7 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -11087,11 +10737,9 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "psychemap",
    "routes": [
@@ -11166,7 +10814,6 @@
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -11191,13 +10838,10 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
     "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "readablestack",
    "routes": [
@@ -11270,12 +10914,10 @@
    ],
    "files": 990,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -11311,17 +10953,11 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "lib",
     "pages",
-    "prompts",
-    "public-site",
-    "scripts",
-    "styles",
-    "venture-os"
+    "scripts"
    ],
    "repo": "redwoud",
    "routes": [
@@ -11396,8 +11032,7 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -11422,11 +11057,9 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "reviewforge-ai",
    "routes": [
@@ -11489,12 +11122,10 @@
    ],
    "files": 1003,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -11527,13 +11158,10 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "lib",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "saeturtle",
    "routes": [
@@ -11616,11 +11244,9 @@
    ],
    "files": 210,
    "frameworks": [
-    "Jest",
     "Next.js",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Vitest",
     "Zod"
    ],
@@ -11662,6 +11288,13 @@
     "web/package.json"
    ],
    "modules": [
+    "packages",
+    "packages/cli",
+    "packages/core",
+    "packages/mind",
+    "packages/runtime",
+    "packages/sdk",
+    "packages/state",
     "web"
    ],
    "repo": "seai-mind",
@@ -11688,7 +11321,7 @@
   "siliconcontrol-tower": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "52a82dd157c1bfd8",
+   "content_hash": "d3f9589a1735eb55",
    "cs_primitives": [],
    "docs": [
     ".cursor/agents/escalator.md",
@@ -11719,13 +11352,12 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 919,
+   "files": 920,
    "frameworks": [
     "Next.js",
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -11751,13 +11383,9 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
-    "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "lib"
    ],
    "repo": "siliconcontrol-tower",
    "routes": [
@@ -11832,7 +11460,6 @@
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -11858,13 +11485,10 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
     "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "spacecompute-cloud",
    "routes": [
@@ -11934,12 +11558,10 @@
    ],
    "files": 1023,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -11967,13 +11589,12 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
+    "_quarantine",
     "app",
     "components",
     "lib",
-    "public-site",
-    "supabase",
-    "venture-os"
+    "src",
+    "supabase"
    ],
    "repo": "spaceedu",
    "routes": [
@@ -12091,13 +11712,11 @@
    ],
    "files": 970,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Stripe",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -12126,14 +11745,11 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "lib",
-    "public-site",
     "sql",
-    "venture-os"
+    "src"
    ],
    "repo": "startupquick",
    "routes": [
@@ -12206,13 +11822,11 @@
    ],
    "files": 972,
    "frameworks": [
-    "D3",
     "Next.js",
     "OpenAI SDK",
     "React",
     "Supabase",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -12246,14 +11860,11 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "lib",
-    "public-site",
-    "types",
-    "venture-os"
+    "src",
+    "types"
    ],
    "repo": "strxngth",
    "routes": [
@@ -12359,7 +11970,6 @@
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -12383,13 +11993,9 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
-    "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "lib"
    ],
    "repo": "supplyos-ai",
    "routes": [
@@ -12457,11 +12063,9 @@
    ],
    "files": 945,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -12485,11 +12089,9 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "swarmshield",
    "routes": [
@@ -12553,12 +12155,10 @@
    ],
    "files": 930,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
     "Supabase",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -12592,13 +12192,10 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
     "config",
-    "lib",
-    "public-site",
-    "venture-os"
+    "lib"
    ],
    "repo": "tempoos",
    "routes": [
@@ -12668,8 +12265,7 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -12692,13 +12288,9 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
-    "lib",
-    "public-site",
-    "venture-os"
+    "lib"
    ],
    "repo": "trajectoryos",
    "routes": [
@@ -12762,8 +12354,7 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -12787,11 +12378,9 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "useros",
    "routes": [
@@ -12866,8 +12455,7 @@
     "Next.js",
     "Playwright",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -12891,10 +12479,9 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".uxve",
-    "public-site",
-    "scripts"
+    ".test-build",
+    "scripts",
+    "src"
    ],
    "repo": "uxvisualengine",
    "routes": [
@@ -12981,8 +12568,7 @@
     "Next.js",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -13015,14 +12601,10 @@
     "package.json"
    ],
    "modules": [
-    ".aider.tags.cache.v4",
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "lib",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "valuedsociety",
    "routes": [
@@ -13055,7 +12637,7 @@
   "vencapmentor": {
    "ci_workflows": [],
    "confidence": "E3",
-   "content_hash": "3edfa2c162faf1f0",
+   "content_hash": "321f0d6b1fcb0364",
    "cs_primitives": [
     "stack"
    ],
@@ -13088,14 +12670,13 @@
    "entry_points": [
     "public-site/index.html"
    ],
-   "files": 940,
+   "files": 941,
    "frameworks": [
     "Next.js",
     "OpenAI SDK",
     "React",
     "Supabase",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -13117,13 +12698,9 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
-    "lib",
-    "public-site",
-    "venture-os"
+    "lib"
    ],
    "repo": "vencapmentor",
    "routes": [
@@ -13192,11 +12769,9 @@
    ],
    "files": 930,
    "frameworks": [
-    "D3",
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -13220,10 +12795,8 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "components",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "vizuler",
    "routes": [
@@ -13329,7 +12902,6 @@
     "Prisma",
     "React",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -13353,13 +12925,10 @@
     "package.json"
    ],
    "modules": [
-    ".startup",
     "app",
     "components",
     "lib",
-    "prisma",
-    "public-site",
-    "venture-os"
+    "src"
    ],
    "repo": "workflowcanvas",
    "routes": [
@@ -13427,8 +12996,7 @@
    "frameworks": [
     "Next.js",
     "React",
-    "Tailwind CSS",
-    "Vercel AI SDK"
+    "Tailwind CSS"
    ],
    "git": {
     "authors": 1,
@@ -13452,13 +13020,9 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
-    "lib",
-    "public-site",
-    "venture-os"
+    "lib"
    ],
    "repo": "youareprofound",
    "routes": [
@@ -13528,7 +13092,6 @@
     "React",
     "Supabase",
     "Tailwind CSS",
-    "Vercel AI SDK",
     "Zod"
    ],
    "git": {
@@ -13563,14 +13126,11 @@
     "package.json"
    ],
    "modules": [
-    ".autobuilder",
-    ".startup",
     "app",
     "components",
     "lib",
-    "public-site",
-    "types",
-    "venture-os"
+    "src",
+    "types"
    ],
    "repo": "zaeux",
    "routes": [
