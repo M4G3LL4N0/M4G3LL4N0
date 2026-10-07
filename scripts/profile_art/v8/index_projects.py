@@ -176,6 +176,10 @@ def route_of(rel: str) -> str | None:
     for seg in body.split("/"):
         if not seg or seg in ("index", "."):
             continue
+        # Next.js route groups, (app)/(marketing), organise files without
+        # appearing in the URL.
+        if seg.startswith("(") and seg.endswith(")"):
+            continue
         s = _segment(seg)
         if s:
             parts.append(s)

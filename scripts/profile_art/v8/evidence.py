@@ -94,6 +94,59 @@ def load_baseline(path: pathlib.Path | None = None) -> dict:
     return json.loads(path.read_text()).get("repos", {})
 
 
+# Motion vocabulary keys from geometry.MOTION. A renderer is handed one of
+# these strings, not prose: passing a sentence used to raise KeyError and the
+# whole art set failed to render.
+PRIMITIVE_MOTION = {
+    "queue": "queue_advance",
+    "stream": "queue_advance",
+    "worker": "queue_advance",
+    "tree": "tree_traverse",
+    "traversal": "tree_traverse",
+    "graph": "graph_resolve",
+    "protocol": "packet_route",
+    "router": "packet_route",
+    "api": "packet_route",
+    "cache": "index_probe",
+    "index": "index_probe",
+    "search": "index_probe",
+    "scheduler": "state_change",
+    "state_machine": "state_change",
+    "policy": "state_change",
+    "pipeline": "tessellate",
+    "compiler": "layer_separate",
+    "parser": "layer_separate",
+    "simulator": "tessellate",
+    "benchmark": "bar_sweep",
+    "crypto": "grid_snap",
+}
+
+GEOMETRY_SETS = ("cube", "rosette", "arch", "ring")
+
+
+def motion_for(d: dict) -> str:
+    """Pick the motion key that matches the repository's measured structure."""
+    ev = d["evidence"]
+    for prim in ev.get("cs_primitives") or []:
+        key = PRIMITIVE_MOTION.get(prim)
+        if key:
+            return key
+    routes = ev.get("routes") or []
+    if any(r.startswith("/api") for r in routes):
+        return "packet_route"
+    if len(routes) >= 4:
+        return "tree_traverse"
+    if ev.get("modules"):
+        return "layer_separate"
+    if ev.get("entry_points"):
+        return "terminal_exec"
+    if ev.get("test_count"):
+        return "test_progress"
+    if d.get("has_code"):
+        return "grid_snap"
+    return "tile_assemble"
+
+
 def _dominant_language(idx: dict) -> str | None:
     langs = {k: v for k, v in (idx.get("languages") or {}).items() if v}
     if not langs:
@@ -109,6 +162,7 @@ def route_summary(routes: list[str], limit: int = 3) -> str:
 
 
 FRAMEWORK_CATEGORY = {
+    "Supabase": "WEB_APPLICATION",
     "Next.js": "WEB_APPLICATION",
     "React": "WEB_APPLICATION",
     "Express": "WEB_APPLICATION",
@@ -310,12 +364,12 @@ def build(name: str, idx: dict, card: dict | None, base: dict,
         "commits": str((idx.get("git") or {}).get("commits", "?")),
         "tags": (idx.get("git") or {}).get("tags", 0),
     }
-    d["geometry_set"] = "iso" if modules else ("flow" if routes else "grid")
-    d["animation_story_1"] = (
-        f"{len(routes)} routes resolve as a navigation surface"
-        if routes else (
-            f"{len(modules)} modules resolve as a dependency surface"
-            if modules else "static identity surface"
+    d["geometry_set"] = GEOMETRY_SETS[seed_of(name, "geometry") % len(GEOMETRY_SETS)]
+    d["animation_story_1"] = motion_for(d)
+    d["animation_story_note"] = (
+        f"{len(routes)} routes resolve as a navigable surface" if routes else (
+            f"{len(modules)} modules resolve as a layered surface" if modules
+            else "identity surface; no executable structure detected"
         )
     )
     d["audience"] = "developer" if has_code else "visitor"

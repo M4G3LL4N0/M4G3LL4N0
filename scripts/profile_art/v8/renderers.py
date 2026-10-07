@@ -380,6 +380,10 @@ def render_data_flow(d: dict, name: str, light: bool = False, motion: bool = Tru
     stages = (d.get("pipeline_stages") or
               (d.get("inputs") or ["input"])[:1] + ["transform", "validate", "persist", "emit"])
     stages = [s for s in stages if s][:6]
+    # A single-stage pipeline produces no edges, and therefore no motion. Keep
+    # the honest stage and add the implicit boundary so the surface still moves.
+    if len(stages) == 1:
+        stages = stages + ["(no route surface)"]
     parts = [_defs(pal, "f")]
     cols = len(stages)
     gap = (w - 160) / max(cols, 2)
@@ -389,6 +393,10 @@ def render_data_flow(d: dict, name: str, light: bool = False, motion: bool = Tru
         xs.append(x)
         parts.append(arch(x + 46, 400, 96, 190, rgba(B, .1), .55, rgba(B, .4)))
         parts.append(cube(x + 6, 250 + (i % 3) * 22, 0, 78, [A, B, C][i % 3], B, C, .95))
+        if motion:
+            parts.append(pulse(cube(x + 6, 250 + (i % 3) * 22, 0, 78,
+                                    [A, B, C][i % 3], B, C, .95),
+                               dur / 2.4, i * 0.4))
         parts.append(f'<text x="{x + 46:.0f}" y="470" font-family="ui-monospace,Menlo,monospace" '
                      f'font-size="15" fill="{rgba(pal["ink"],.82)}" text-anchor="middle">'
                      f'{esc_text(str(s))[:13]}</text>')
@@ -594,7 +602,7 @@ def render_queue_field(d, pal, dur, motion) -> str:
             x, y = 120 + i * 106, 190 + lane * 74
             g = f'<g>{cube(x, y, 0, 52, col, B, C, .95)}'
             if motion:
-                g += (f'<g>{bar(x, y - 12, 52, 8, "none", .0, C, 2)}'
+                g += (f'<g>{bar(x, y - 12, 52, 8, C, 2, .85)}'
                       f'{animate_motion(x, y, x + 106, y, dur / 2.2, lane * 0.3 + i * 0.12)}</g>')
             out.append(g + "</g>")
     return "".join(out)
@@ -653,6 +661,12 @@ def render_footer(d: dict, name: str, light: bool = False, motion: bool = True) 
         for i in range(4):
             parts.append(cube(cx - 70 + i * 36, cy - 30, (3 - i) * 24, 44,
                               [A, B, C][i % 3], B, C, .95))
+    # Every surface in the set carries at least one animation, so an identity
+    # object is never the one static image in an otherwise animated gallery.
+    if motion:
+        parts.append(pulse(ring(cx, cy, 104, 1.6, rgba(A, .35)), dur, 0))
+        parts.append(f'<circle cx="{cx:.0f}" cy="{cy:.0f}" r="3" fill="{rgba(B,.9)}">'
+                     + animate_opacity("0.35;0.95;0.35", dur, 0) + "</circle>")
     parts.append(f'<text x="{cx + 200:.0f}" y="{cy - 6:.0f}" font-family="ui-monospace,Menlo,monospace" '
                  f'font-size="19" fill="{rgba(pal["ink"],.9)}">{esc_text(d["canonical_name"])}</text>')
     parts.append(f'<text x="{cx + 200:.0f}" y="{cy + 22:.0f}" font-family="ui-monospace,Menlo,monospace" '

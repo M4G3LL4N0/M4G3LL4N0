@@ -17,3 +17,4 @@ reconcile.json
 # Read-only clones of repositories that have no local portfolio checkout.
 # They exist only as evidence input for the indexer and are never published.
 .github-art/source-cache/
+.github-art/v8-art/
