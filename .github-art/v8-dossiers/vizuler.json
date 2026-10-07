@@ -1,0 +1,148 @@
+{
+ "API": [
+  "/about",
+  "/contact",
+  "/dashboard",
+  "/demo",
+  "/docs",
+  "/how-it-works",
+  "/intake",
+  "/investor"
+ ],
+ "CI": {
+  "present": false,
+  "workflow_count": 0,
+  "workflows": []
+ },
+ "CLI": true,
+ "CS_visual_1": "simulator",
+ "CS_visual_2": "",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [],
+ "animation_story_1": "stepped terrain with a live probe path",
+ "architecture": "DOCUMENT",
+ "audience": "",
+ "canonical_name": "Vizuler",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "control for vizuler enters at public-site/index.html and dispatches to 1 entry points across 15 routes (/, /about, /contact) using D3",
+ "cs_primitives": [
+  "simulator"
+ ],
+ "data_flow": "Simulation: requests traverse 15 routes (/, /about, /contact, /dashboard)",
+ "data_structures": [],
+ "description": "Vizuler: a simulation, structured around simulator.",
+ "domain": "Simulation",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "SUPPORTED_INFERENCE",
+  "README_outline": "FACT",
+  "algorithms": "NAME_BASED_HYPOTHESIS",
+  "api": "FACT",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "SUPPORTED_INFERENCE",
+  "data_flow": "FACT",
+  "data_structures": "NAME_BASED_HYPOTHESIS",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "FACT",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "SUPPORTED_INFERENCE",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 928,
+ "frameworks": [
+  "D3",
+  "Next.js",
+  "React",
+  "Tailwind CSS",
+  "Vercel AI SDK"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [],
+ "interfaces": [
+  "CLI entry points",
+  "15 HTTP routes"
+ ],
+ "known_limitations": [
+  "no test suite present in the repository",
+  "no continuous integration workflow"
+ ],
+ "languages": [
+  "CSS",
+  "HTML",
+  "JavaScript",
+  "TypeScript"
+ ],
+ "major_modules": [
+  ".startup",
+  "components",
+  "public-site",
+  "venture-os"
+ ],
+ "outputs": [],
+ "palette": "plum_azure",
+ "primary_visual_metaphor": "stepped terrain with a live probe path",
+ "problem": "A visual storytelling system for turning ideas, demos, and interfaces into clearer product experiences.",
+ "project_category": "SIMULATION",
+ "public_positioning": "A visual storytelling system for turning ideas, demos, and interfaces into clearer product experiences.",
+ "purpose": "Startup portfolio: vizuler",
+ "release": {
+  "commits": "3",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "simulator structure in simulation",
+ "security_model": [
+  "standard dependency hygiene"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "simulator with 1 cooperating structures",
+ "status": "PROTOTYPE",
+ "technical_category": "simulation",
+ "terminal_story": "operator runs Vizuler (TypeScript) from the command line; output resolves as a tree [vizuler]",
+ "testing": {
+  "count": 0,
+  "note": "counted from the repository tree, not executed",
+  "present": false
+ },
+ "topics": [
+  "simulation",
+  "typescript",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

@@ -1,0 +1,76 @@
+{
+ "canonical_name": "GhostFrame",
+ "confidence": "E3",
+ "palette": "peach_cyan",
+ "project_category": "GENERAL",
+ "repo": "ghostframe",
+ "slots": [
+  "hero",
+  "architecture",
+  "state_machine",
+  "component_map",
+  "build",
+  "domain",
+  "footer"
+ ],
+ "status": "PROTOTYPE",
+ "storyboard": [
+  {
+   "animation": "tiles lock into a grid as structure forms; 12.0s loop, offset 0.0s",
+   "computer_science_concept": "modular units assembling into a whole",
+   "geometry": "isometric blocks",
+   "material": "D3 density; #ffb4a2 on #1a1214; accents #48cae4, #f9c74f",
+   "purpose": "identity -- what the project is at a glance",
+   "slot": "hero"
+  },
+  {
+   "animation": "a dependency graph resolves toward its roots; 18.3s loop, offset 0.4s",
+   "computer_science_concept": "module graph over 5 modules",
+   "geometry": "module nodes",
+   "material": "D2 density; #ffb4a2 on #1a1214; accents #48cae4, #f9c74f",
+   "purpose": "how it is built",
+   "slot": "architecture"
+  },
+  {
+   "animation": "a state machine advances one transition; 13.4s loop, offset 0.8s",
+   "computer_science_concept": "stateless request handling",
+   "geometry": "node rosettes",
+   "material": "D2 density; #ffb4a2 on #1a1214; accents #48cae4, #f9c74f",
+   "purpose": "how it behaves",
+   "slot": "state_machine"
+  },
+  {
+   "animation": "facets rotate open, exposing the interior; 10.7s loop, offset 1.2s",
+   "computer_science_concept": "interface surface: modules",
+   "geometry": "facet grid",
+   "material": "D3 density; #ffb4a2 on #1a1214; accents #48cae4, #f9c74f",
+   "purpose": "how it is composed",
+   "slot": "component_map"
+  },
+  {
+   "animation": "tests advance and results resolve; 14.4s loop, offset 1.6s",
+   "computer_science_concept": "build evidence: 0 tests, 0 workflows",
+   "geometry": "progress bars",
+   "material": "D1 density; #ffb4a2 on #1a1214; accents #48cae4, #f9c74f",
+   "purpose": "how it is verified",
+   "slot": "build"
+  },
+  {
+   "animation": "an index probe walks a sorted key space; 15.9s loop, offset 2.0s",
+   "computer_science_concept": "General",
+   "geometry": "probe path",
+   "material": "D3 density; #ffb4a2 on #1a1214; accents #48cae4, #f9c74f",
+   "purpose": "the problem it addresses",
+   "slot": "domain"
+  },
+  {
+   "animation": "concentric rings pulse from a centre; 13.8s loop, offset 2.4s",
+   "computer_science_concept": "project signature",
+   "geometry": "single motif",
+   "material": "D2 density; #ffb4a2 on #1a1214; accents #48cae4, #f9c74f",
+   "purpose": "identity object -- a small signature mark",
+   "slot": "footer"
+  }
+ ],
+ "surface_count": 7
+}

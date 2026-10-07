@@ -1,0 +1,148 @@
+{
+ "API": [],
+ "CI": {
+  "present": true,
+  "workflow_count": 1,
+  "workflows": [
+   ".github/workflows/ci.yml"
+  ]
+ },
+ "CLI": true,
+ "CS_visual_1": "stack",
+ "CS_visual_2": "policy",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "technical_evidence",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [
+  "ast"
+ ],
+ "animation_story_1": "source transformed through analysis to output",
+ "architecture": "ROUTER",
+ "audience": "",
+ "canonical_name": "GrokBot Office",
+ "concurrency_model": "async runtime",
+ "confidence": "E3",
+ "control_flow": "grokbot-office run build",
+ "cs_primitives": [
+  "stack",
+  "policy",
+  "crypto",
+  "terminal",
+  "ast"
+ ],
+ "data_flow": "Developer Tools: data passes through stack structure",
+ "data_structures": [
+  "stack"
+ ],
+ "description": "GrokBot Office: a developer tool, structured around stack.",
+ "domain": "Developer Tools",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "FACT",
+  "README_outline": "FACT",
+  "algorithms": "FACT",
+  "api": "NAME_BASED_HYPOTHESIS",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "SUPPORTED_INFERENCE",
+  "concurrency_model": "FACT",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "FACT",
+  "data_structures": "FACT",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "NAME_BASED_HYPOTHESIS",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "NAME_BASED_HYPOTHESIS",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "FACT",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "FACT",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 299,
+ "frameworks": [],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [
+  "source files"
+ ],
+ "interfaces": [],
+ "known_limitations": [],
+ "languages": [
+  "HTML",
+  "JavaScript",
+  "Python",
+  "TypeScript"
+ ],
+ "major_modules": [
+  "_harvest_export",
+  "config",
+  "examples",
+  "generated",
+  "registry",
+  "runtime",
+  "scripts",
+  "src",
+  "state"
+ ],
+ "outputs": [
+  "build artifact"
+ ],
+ "palette": "mint_violet",
+ "primary_visual_metaphor": "source transformed through analysis to output",
+ "problem": "GrokBot Office is a public-safe reference control layer for a large, external workforce. It keeps the persistent supervisory core small: a small set of Grok supervisors owns intent, context, policy, tradeoffs, and handoffs while replaceable workers do the bounded work.",
+ "project_category": "DEVELOPER_TOOLS",
+ "public_positioning": "Run a workforce. Do not become the workforce.",
+ "purpose": "Agent workforce architecture: roles, policy, handoffs and resource governance as configuration.",
+ "release": {
+  "commits": "6",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "stack structure in developer tools",
+ "security_model": [
+  "policy evaluation",
+  "cryptographic verification"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "stack with 5 cooperating structures",
+ "status": "ACTIVE",
+ "technical_category": "developer-tooling",
+ "terminal_story": "operator runs GrokBot Office (TypeScript) from the command line; output resolves as a tree [grokbot-office]",
+ "testing": {
+  "count": 19,
+  "note": "counted from the repository tree, not executed",
+  "present": true
+ },
+ "topics": [
+  "developer-tooling",
+  "typescript",
+  "developer-tools",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

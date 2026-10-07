@@ -1,0 +1,144 @@
+{
+ "API": [],
+ "CI": {
+  "present": true,
+  "workflow_count": 3,
+  "workflows": [
+   ".github/workflows/ci.yml",
+   ".github/workflows/release.yml",
+   "internal/inspect/testdata/node-repo/.github/workflows/ci.yml"
+  ]
+ },
+ "CLI": true,
+ "CS_visual_1": "terminal",
+ "CS_visual_2": "cache",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "technical_evidence",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [
+  "index"
+ ],
+ "animation_story_1": "temporal signal surface with an audit path",
+ "architecture": "CLI",
+ "audience": "",
+ "canonical_name": "GrokInstall",
+ "concurrency_model": "goroutines",
+ "confidence": "E3",
+ "control_flow": "grokinstall run build",
+ "cs_primitives": [
+  "terminal",
+  "cache",
+  "policy",
+  "index",
+  "crypto",
+  "benchmark"
+ ],
+ "data_flow": "Quant Data: data passes through terminal structure",
+ "data_structures": [
+  "cache",
+  "index"
+ ],
+ "description": "GrokInstall: a data system, structured around terminal.",
+ "domain": "Quant Data",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "FACT",
+  "README_outline": "FACT",
+  "algorithms": "FACT",
+  "api": "NAME_BASED_HYPOTHESIS",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "FACT",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "FACT",
+  "data_structures": "FACT",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "FACT",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "FACT",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 185,
+ "frameworks": [
+  "Vercel AI SDK"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [],
+ "interfaces": [
+  "CLI entry points"
+ ],
+ "known_limitations": [],
+ "languages": [
+  "Go",
+  "JavaScript",
+  "Python"
+ ],
+ "major_modules": [
+  "bin"
+ ],
+ "outputs": [],
+ "palette": "navy_lavender",
+ "primary_visual_metaphor": "temporal signal surface with an audit path",
+ "problem": "Give GrokInstall a project and tell it what you want GrokBot to do.",
+ "project_category": "QUANT_DATA",
+ "public_positioning": "Your context already has the answer.",
+ "purpose": "Install the capability, not the complexity. A Go CLI that inspects a repo and installs the smallest useful integration.",
+ "release": {
+  "commits": "10",
+  "tags": 2
+ },
+ "secondary_visual_metaphor": "terminal structure in quant data",
+ "security_model": [
+  "policy evaluation",
+  "cryptographic verification"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "terminal with 6 cooperating structures",
+ "status": "ACTIVE",
+ "technical_category": "data-systems",
+ "terminal_story": "operator runs GrokInstall (Go) from the command line; output resolves as a tree [grokinstall]",
+ "testing": {
+  "count": 2,
+  "note": "counted from the repository tree, not executed",
+  "present": true
+ },
+ "topics": [
+  "data-systems",
+  "go",
+  "quant-data",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

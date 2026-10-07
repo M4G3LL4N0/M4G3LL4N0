@@ -1,0 +1,58 @@
+{
+ "canonical_name": "Fundmind",
+ "confidence": "E2",
+ "palette": "cream_orange",
+ "project_category": "FINANCE",
+ "repo": "FundMind",
+ "slots": [
+  "hero",
+  "state_machine",
+  "build",
+  "domain",
+  "footer"
+ ],
+ "status": "SCAFFOLD",
+ "storyboard": [
+  {
+   "animation": "tiles lock into a grid as structure forms; 12.0s loop, offset 0.0s",
+   "computer_science_concept": "modular units assembling into a whole",
+   "geometry": "isometric blocks",
+   "material": "D3 density; #f4a261 on #1b1712; accents #e76f51, #8ab17d",
+   "purpose": "identity -- what the project is at a glance",
+   "slot": "hero"
+  },
+  {
+   "animation": "a state machine advances one transition; 11.2s loop, offset 0.4s",
+   "computer_science_concept": "no runtime state; repository is a scaffold",
+   "geometry": "transition edges",
+   "material": "D2 density; #f4a261 on #1b1712; accents #e76f51, #8ab17d",
+   "purpose": "how it behaves",
+   "slot": "state_machine"
+  },
+  {
+   "animation": "tests advance and results resolve; 16.2s loop, offset 0.8s",
+   "computer_science_concept": "build evidence: 0 tests, 0 workflows",
+   "geometry": "evidence chips",
+   "material": "D1 density; #f4a261 on #1b1712; accents #e76f51, #8ab17d",
+   "purpose": "how it is verified",
+   "slot": "build"
+  },
+  {
+   "animation": "an index probe walks a sorted key space; 10.8s loop, offset 1.2s",
+   "computer_science_concept": "Finance",
+   "geometry": "indexed field",
+   "material": "D3 density; #f4a261 on #1b1712; accents #e76f51, #8ab17d",
+   "purpose": "the problem it addresses",
+   "slot": "domain"
+  },
+  {
+   "animation": "concentric rings pulse from a centre; 15.8s loop, offset 1.6s",
+   "computer_science_concept": "project signature",
+   "geometry": "identity object",
+   "material": "D2 density; #f4a261 on #1b1712; accents #e76f51, #8ab17d",
+   "purpose": "identity object -- a small signature mark",
+   "slot": "footer"
+  }
+ ],
+ "surface_count": 5
+}

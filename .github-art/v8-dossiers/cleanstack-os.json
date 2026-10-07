@@ -1,0 +1,158 @@
+{
+ "API": [
+  "/archive",
+  "/command-center",
+  "/command-palette",
+  "/notifications",
+  "/reports",
+  "/scan",
+  "/settings",
+  "/team"
+ ],
+ "CI": {
+  "present": false,
+  "workflow_count": 0,
+  "workflows": []
+ },
+ "CLI": true,
+ "CS_visual_1": "cache",
+ "CS_visual_2": "",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [],
+ "animation_story_1": "source transformed through analysis to output",
+ "architecture": "DATA_FLOW",
+ "audience": "",
+ "canonical_name": "cleanstack-os",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "control for cleanstack-os enters at public-site/index.html and dispatches to 1 entry points across 9 routes (/, /archive, /command-center) using Next.js",
+ "cs_primitives": [
+  "cache"
+ ],
+ "data_flow": "Developer Tools: requests traverse 9 routes (/, /archive, /command-center, /command-palette)",
+ "data_structures": [
+  "cache"
+ ],
+ "description": "cleanstack-os: a developer tool, structured around cache.",
+ "domain": "Developer Tools",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "SUPPORTED_INFERENCE",
+  "README_outline": "FACT",
+  "algorithms": "NAME_BASED_HYPOTHESIS",
+  "api": "FACT",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "FACT",
+  "data_structures": "FACT",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "NAME_BASED_HYPOTHESIS",
+  "project_category": "FACT",
+  "public_positioning": "NAME_BASED_HYPOTHESIS",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "SUPPORTED_INFERENCE",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 959,
+ "frameworks": [
+  "Next.js",
+  "React",
+  "Tailwind CSS",
+  "Vercel AI SDK"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [
+  "source files"
+ ],
+ "interfaces": [
+  "CLI entry points",
+  "9 HTTP routes"
+ ],
+ "known_limitations": [
+  "no test suite present in the repository",
+  "no continuous integration workflow"
+ ],
+ "languages": [
+  "CSS",
+  "HTML",
+  "JavaScript",
+  "TypeScript"
+ ],
+ "major_modules": [
+  ".autobuilder",
+  ".startup",
+  "app",
+  "components",
+  "data",
+  "lib",
+  "public-site",
+  "venture-os"
+ ],
+ "outputs": [
+  "build artifact"
+ ],
+ "palette": "mint_violet",
+ "primary_visual_metaphor": "source transformed through analysis to output",
+ "problem": "",
+ "project_category": "DEVELOPER_TOOLS",
+ "public_positioning": "",
+ "purpose": "cleanstack os. package.json.",
+ "release": {
+  "commits": "3",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "cache structure in developer tools",
+ "security_model": [
+  "standard dependency hygiene"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "cache with 1 cooperating structures",
+ "status": "PROTOTYPE",
+ "technical_category": "developer-tooling",
+ "terminal_story": "operator runs cleanstack-os (TypeScript) from the command line; output resolves as a tree [cleanstack-os]",
+ "testing": {
+  "count": 0,
+  "note": "counted from the repository tree, not executed",
+  "present": false
+ },
+ "topics": [
+  "developer-tooling",
+  "typescript",
+  "developer-tools",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

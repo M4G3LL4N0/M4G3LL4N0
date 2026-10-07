@@ -1,0 +1,125 @@
+{
+ "API": [],
+ "CI": {
+  "present": false,
+  "workflow_count": 0,
+  "workflows": []
+ },
+ "CLI": true,
+ "CS_visual_1": "api_flow",
+ "CS_visual_2": "",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "interfaces",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [],
+ "animation_story_1": "protected core behind a trust boundary",
+ "architecture": "DATA_FLOW",
+ "audience": "",
+ "canonical_name": "cropshield-ai-website",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "control for cropshield-ai-website enters at index.html and dispatches to 2 entry points across 0 routes (none) using Vercel AI SDK",
+ "cs_primitives": [],
+ "data_flow": "single-entry processing",
+ "data_structures": [],
+ "description": "cropshield-ai-website: a security system, organised as a modular system.",
+ "domain": "Security",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "SUPPORTED_INFERENCE",
+  "CS_visual_2": "SUPPORTED_INFERENCE",
+  "README_outline": "FACT",
+  "algorithms": "NAME_BASED_HYPOTHESIS",
+  "api": "NAME_BASED_HYPOTHESIS",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "SUPPORTED_INFERENCE",
+  "data_structures": "NAME_BASED_HYPOTHESIS",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "NAME_BASED_HYPOTHESIS",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "SUPPORTED_INFERENCE",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "FACT",
+  "state_model": "NAME_BASED_HYPOTHESIS",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 31,
+ "frameworks": [
+  "Vercel AI SDK"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [],
+ "interfaces": [
+  "CLI entry points"
+ ],
+ "known_limitations": [
+  "no test suite present in the repository",
+  "no continuous integration workflow"
+ ],
+ "languages": [
+  "CSS",
+  "HTML",
+  "JavaScript"
+ ],
+ "major_modules": [],
+ "outputs": [],
+ "palette": "graphite_coral",
+ "primary_visual_metaphor": "protected core behind a trust boundary",
+ "problem": "Premium Next.js MVP for **AI-assisted crop diagnostics** and **precision spray planning** with a deterministic rules engine (swap in real CV/robotics later).",
+ "project_category": "SECURITY",
+ "public_positioning": "AI monitoring and protection for agricultural operations and yield risk.",
+ "purpose": "cropshield ai website. package.json.",
+ "release": {
+  "commits": "3",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "security topology for cropshield-ai-website",
+ "security_model": [
+  "trust boundary enforcement"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "stateless request handling",
+ "status": "PROTOTYPE",
+ "technical_category": "security-engineering",
+ "terminal_story": "operator runs cropshield-ai-website (CSS) from the command line; output resolves as a tree [cropshield-ai-website]",
+ "testing": {
+  "count": 0,
+  "note": "counted from the repository tree, not executed",
+  "present": false
+ },
+ "topics": [
+  "security-engineering",
+  "security",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

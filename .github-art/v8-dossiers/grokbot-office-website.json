@@ -1,0 +1,141 @@
+{
+ "API": [],
+ "CI": {
+  "present": true,
+  "workflow_count": 1,
+  "workflows": [
+   ".github/workflows/ci.yml"
+  ]
+ },
+ "CLI": false,
+ "CS_visual_1": "index",
+ "CS_visual_2": "cache",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "technical_evidence",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [
+  "index"
+ ],
+ "animation_story_1": "temporal signal surface with an audit path",
+ "architecture": "ROUTER",
+ "audience": "",
+ "canonical_name": "grokbot-office-website",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "grokbot-office run build",
+ "cs_primitives": [
+  "index",
+  "cache",
+  "simulator"
+ ],
+ "data_flow": "Quant Data: data passes through index structure",
+ "data_structures": [
+  "index",
+  "cache"
+ ],
+ "description": "grokbot-office-website: a data system, structured around index.",
+ "domain": "Quant Data",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "FACT",
+  "README_outline": "FACT",
+  "algorithms": "FACT",
+  "api": "NAME_BASED_HYPOTHESIS",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "SUPPORTED_INFERENCE",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "FACT",
+  "data_structures": "FACT",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "NAME_BASED_HYPOTHESIS",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "FACT",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "SUPPORTED_INFERENCE",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "SUPPORTED_INFERENCE",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 54,
+ "frameworks": [
+  "Next.js",
+  "React",
+  "Tailwind CSS",
+  "Vercel AI SDK"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [],
+ "interfaces": [],
+ "known_limitations": [],
+ "languages": [
+  "CSS",
+  "JavaScript",
+  "TypeScript"
+ ],
+ "major_modules": [
+  "app",
+  "components",
+  "data",
+  "scripts"
+ ],
+ "outputs": [],
+ "palette": "navy_lavender",
+ "primary_visual_metaphor": "temporal signal surface with an audit path",
+ "problem": "GrokBot Office is a public-safe reference control layer for a large, external workforce. It keeps the persistent supervisory core small: a small set of Grok supervisors owns intent, context, policy, tradeoffs, and handoffs while replaceable workers do the bounded work.",
+ "project_category": "QUANT_DATA",
+ "public_positioning": "Run a workforce. Do not become the workforce.",
+ "purpose": "Public reference site for the agent workforce architecture.",
+ "release": {
+  "commits": "4",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "index structure in quant data",
+ "security_model": [
+  "standard dependency hygiene"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "index with 3 cooperating structures",
+ "status": "ACTIVE",
+ "technical_category": "data-systems",
+ "terminal_story": "the quant data loop advances via index [grokbot-office-website]",
+ "testing": {
+  "count": 1,
+  "note": "counted from the repository tree, not executed",
+  "present": true
+ },
+ "topics": [
+  "data-systems",
+  "typescript",
+  "quant-data",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

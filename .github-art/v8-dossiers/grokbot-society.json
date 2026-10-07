@@ -1,0 +1,141 @@
+{
+ "API": [],
+ "CI": {
+  "present": true,
+  "workflow_count": 1,
+  "workflows": [
+   ".github/workflows/ci.yml"
+  ]
+ },
+ "CLI": true,
+ "CS_visual_1": "stack",
+ "CS_visual_2": "simulator",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "technical_evidence",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [
+  "index"
+ ],
+ "animation_story_1": "temporal signal surface with an audit path",
+ "architecture": "DISTRIBUTED",
+ "audience": "",
+ "canonical_name": "GrokBot Society",
+ "concurrency_model": "event loop",
+ "confidence": "E3",
+ "control_flow": "control for grokbot-society enters at src/budget/index.ts and dispatches to 13 entry points across 0 routes (none) using Vercel AI SDK",
+ "cs_primitives": [
+  "stack",
+  "simulator",
+  "benchmark",
+  "cache",
+  "index",
+  "terminal"
+ ],
+ "data_flow": "Quant Data: data passes through stack structure",
+ "data_structures": [
+  "stack",
+  "cache",
+  "index"
+ ],
+ "description": "GrokBot Society: a data system, structured around stack.",
+ "domain": "Quant Data",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "FACT",
+  "README_outline": "FACT",
+  "algorithms": "FACT",
+  "api": "NAME_BASED_HYPOTHESIS",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "FACT",
+  "confidence": "FACT",
+  "control_flow": "SUPPORTED_INFERENCE",
+  "data_flow": "FACT",
+  "data_structures": "FACT",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "FACT",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "SUPPORTED_INFERENCE",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 146,
+ "frameworks": [
+  "Vercel AI SDK",
+  "Vitest"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [],
+ "interfaces": [
+  "CLI entry points"
+ ],
+ "known_limitations": [],
+ "languages": [
+  "TypeScript"
+ ],
+ "major_modules": [
+  "examples"
+ ],
+ "outputs": [],
+ "palette": "navy_lavender",
+ "primary_visual_metaphor": "temporal signal surface with an audit path",
+ "problem": "GrokBot Society is a runtime for building **persistent social worlds** populated by synthetic people who remember, relate, and evolve\u2014without burning money on continuous LLM calls.",
+ "project_category": "QUANT_DATA",
+ "public_positioning": "Persistent synthetic people without the swarm.",
+ "purpose": "Provider-neutral runtime for persistent synthetic people: roles, memory, economics and governance.",
+ "release": {
+  "commits": "8",
+  "tags": 1
+ },
+ "secondary_visual_metaphor": "stack structure in quant data",
+ "security_model": [
+  "standard dependency hygiene"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "stack with 6 cooperating structures",
+ "status": "ACTIVE",
+ "technical_category": "data-systems",
+ "terminal_story": "operator runs GrokBot Society (TypeScript) from the command line; output resolves as a tree [grokbot-society]",
+ "testing": {
+  "count": 15,
+  "note": "counted from the repository tree, not executed",
+  "present": true
+ },
+ "topics": [
+  "data-systems",
+  "typescript",
+  "quant-data",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

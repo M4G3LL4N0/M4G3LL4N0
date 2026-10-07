@@ -1,0 +1,149 @@
+{
+ "API": [],
+ "CI": {
+  "present": false,
+  "workflow_count": 0,
+  "workflows": []
+ },
+ "CLI": true,
+ "CS_visual_1": "index",
+ "CS_visual_2": "",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [
+  "index"
+ ],
+ "animation_story_1": "vital signs plotted against clinical thresholds",
+ "architecture": "DATA_FLOW",
+ "audience": "",
+ "canonical_name": "N-1 Therapeutics",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "control for n1-therapeutics enters at public-site/index.html and dispatches to 1 entry points across 1 routes (/) using Next.js",
+ "cs_primitives": [
+  "index"
+ ],
+ "data_flow": "Health: requests traverse 1 routes (/)",
+ "data_structures": [
+  "index"
+ ],
+ "description": "N-1 Therapeutics: a health tool, structured around index.",
+ "domain": "Health",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "SUPPORTED_INFERENCE",
+  "README_outline": "FACT",
+  "algorithms": "FACT",
+  "api": "NAME_BASED_HYPOTHESIS",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "FACT",
+  "data_structures": "FACT",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "SUPPORTED_INFERENCE",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "SUPPORTED_INFERENCE",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 928,
+ "frameworks": [
+  "Next.js",
+  "Prisma",
+  "React",
+  "Tailwind CSS",
+  "Vercel AI SDK",
+  "Zod"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [],
+ "interfaces": [
+  "CLI entry points",
+  "1 HTTP routes",
+  "database layer"
+ ],
+ "known_limitations": [
+  "no test suite present in the repository",
+  "no continuous integration workflow"
+ ],
+ "languages": [
+  "CSS",
+  "HTML",
+  "JavaScript",
+  "TypeScript"
+ ],
+ "major_modules": [
+  ".startup",
+  "app",
+  "components",
+  "lib",
+  "prisma",
+  "public-site",
+  "venture-os"
+ ],
+ "outputs": [],
+ "palette": "plum_azure",
+ "primary_visual_metaphor": "vital signs plotted against clinical thresholds",
+ "problem": "**Research and care-navigation MVP \u2014 not medical advice.** Users build an educational N-of-1 worksheet (condition category, biomarker themes, symptoms, goals). The app produces a high-level therapy landscape, a heuristic research-confidence score, a trial-readiness checklist, a physician discussion brief, and **fiction",
+ "project_category": "HEALTH",
+ "public_positioning": "An educational worksheet for a physician conversation.",
+ "purpose": "Startup portfolio: n1-therapeutics",
+ "release": {
+  "commits": "4",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "index structure in health",
+ "security_model": [
+  "standard dependency hygiene"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "index with 1 cooperating structures",
+ "status": "PROTOTYPE",
+ "technical_category": "health-tech",
+ "terminal_story": "operator runs N-1 Therapeutics (TypeScript) from the command line; output resolves as a tree [n1-therapeutics]",
+ "testing": {
+  "count": 0,
+  "note": "counted from the repository tree, not executed",
+  "present": false
+ },
+ "topics": [
+  "health-tech",
+  "typescript",
+  "health",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

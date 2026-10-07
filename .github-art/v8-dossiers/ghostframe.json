@@ -1,0 +1,132 @@
+{
+ "API": [],
+ "CI": {
+  "present": false,
+  "workflow_count": 0,
+  "workflows": []
+ },
+ "CLI": false,
+ "CS_visual_1": "component_map",
+ "CS_visual_2": "",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [],
+ "animation_story_1": "a single prism refracting many inputs",
+ "architecture": "DOCUMENT",
+ "audience": "",
+ "canonical_name": "GhostFrame",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "ghostframe linear request handling",
+ "cs_primitives": [],
+ "data_flow": "single-entry processing",
+ "data_structures": [],
+ "description": "GhostFrame: a general, built on TypeScript.",
+ "domain": "General",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "SUPPORTED_INFERENCE",
+  "CS_visual_2": "SUPPORTED_INFERENCE",
+  "README_outline": "FACT",
+  "algorithms": "NAME_BASED_HYPOTHESIS",
+  "api": "NAME_BASED_HYPOTHESIS",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "SUPPORTED_INFERENCE",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "SUPPORTED_INFERENCE",
+  "data_flow": "SUPPORTED_INFERENCE",
+  "data_structures": "NAME_BASED_HYPOTHESIS",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "NAME_BASED_HYPOTHESIS",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "SUPPORTED_INFERENCE",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "SUPPORTED_INFERENCE",
+  "state_model": "NAME_BASED_HYPOTHESIS",
+  "status": "FACT",
+  "terminal_story": "SUPPORTED_INFERENCE",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 898,
+ "frameworks": [
+  "Next.js",
+  "React",
+  "Tailwind CSS",
+  "Vercel AI SDK"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [],
+ "interfaces": [],
+ "known_limitations": [
+  "no test suite present in the repository",
+  "no continuous integration workflow"
+ ],
+ "languages": [
+  "CSS",
+  "JavaScript",
+  "TypeScript"
+ ],
+ "major_modules": [
+  ".startup",
+  "app",
+  "components",
+  "lib",
+  "venture-os"
+ ],
+ "outputs": [],
+ "palette": "slate_amber",
+ "primary_visual_metaphor": "a single prism refracting many inputs",
+ "problem": "Media intelligence for framing, narrative, and signal in public discourse.",
+ "project_category": "GENERAL",
+ "public_positioning": "Media intelligence for framing, narrative, and signal in public discourse.",
+ "purpose": "Startup portfolio: ghostframe",
+ "release": {
+  "commits": "3",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "general topology for ghostframe",
+ "security_model": [
+  "standard dependency hygiene"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "stateless request handling",
+ "status": "PROTOTYPE",
+ "technical_category": "application",
+ "terminal_story": "the general loop advances via core [ghostframe]",
+ "testing": {
+  "count": 0,
+  "note": "counted from the repository tree, not executed",
+  "present": false
+ },
+ "topics": [
+  "software",
+  "typescript",
+  "general",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

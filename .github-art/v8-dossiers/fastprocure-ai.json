@@ -1,0 +1,146 @@
+{
+ "API": [],
+ "CI": {
+  "present": false,
+  "workflow_count": 0,
+  "workflows": []
+ },
+ "CLI": true,
+ "CS_visual_1": "simulator",
+ "CS_visual_2": "stack",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [],
+ "animation_story_1": "stepped terrain with a live probe path",
+ "architecture": "DATA_FLOW",
+ "audience": "",
+ "canonical_name": "FastProcure AI",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "control for fastprocure-ai enters at public-site/index.html and dispatches to 1 entry points across 0 routes (none) using Next.js",
+ "cs_primitives": [
+  "simulator",
+  "stack"
+ ],
+ "data_flow": "Simulation: data passes through simulator structure",
+ "data_structures": [
+  "stack"
+ ],
+ "description": "FastProcure AI: a simulation, structured around simulator.",
+ "domain": "Simulation",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "FACT",
+  "README_outline": "FACT",
+  "algorithms": "NAME_BASED_HYPOTHESIS",
+  "api": "NAME_BASED_HYPOTHESIS",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "FACT",
+  "data_structures": "FACT",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "FACT",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "SUPPORTED_INFERENCE",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 925,
+ "frameworks": [
+  "Next.js",
+  "Prisma",
+  "React",
+  "Tailwind CSS",
+  "Vercel AI SDK",
+  "Zod"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [],
+ "interfaces": [
+  "CLI entry points",
+  "database layer"
+ ],
+ "known_limitations": [
+  "no test suite present in the repository",
+  "no continuous integration workflow"
+ ],
+ "languages": [
+  "CSS",
+  "HTML",
+  "JavaScript",
+  "TypeScript"
+ ],
+ "major_modules": [
+  ".startup",
+  "app",
+  "components",
+  "lib",
+  "prisma",
+  "public-site",
+  "venture-os"
+ ],
+ "outputs": [],
+ "palette": "plum_azure",
+ "primary_visual_metaphor": "stepped terrain with a live probe path",
+ "problem": "Procurement acceleration MVP for enterprise teams evaluating AI startups.",
+ "project_category": "SIMULATION",
+ "public_positioning": "Faster procurement decisions with AI-assisted vendor and spend intelligence.",
+ "purpose": "Startup portfolio: fastprocure-ai",
+ "release": {
+  "commits": "1",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "simulator structure in simulation",
+ "security_model": [
+  "standard dependency hygiene"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "simulator with 2 cooperating structures",
+ "status": "PROTOTYPE",
+ "technical_category": "simulation",
+ "terminal_story": "operator runs FastProcure AI (TypeScript) from the command line; output resolves as a tree [fastprocure-ai]",
+ "testing": {
+  "count": 0,
+  "note": "counted from the repository tree, not executed",
+  "present": false
+ },
+ "topics": [
+  "simulation",
+  "typescript",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

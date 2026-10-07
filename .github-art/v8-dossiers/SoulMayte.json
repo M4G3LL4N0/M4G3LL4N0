@@ -1,0 +1,153 @@
+{
+ "API": [
+  "/analyze",
+  "/dashboard",
+  "/pricing",
+  "/quiz",
+  "/reports"
+ ],
+ "CI": {
+  "present": false,
+  "workflow_count": 0,
+  "workflows": []
+ },
+ "CLI": true,
+ "CS_visual_1": "policy",
+ "CS_visual_2": "",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [],
+ "animation_story_1": "layered render pipeline resolving to a frame",
+ "architecture": "DATA_FLOW",
+ "audience": "",
+ "canonical_name": "SoulMayte",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "control for SoulMayte enters at public-site/index.html and dispatches to 1 entry points across 6 routes (/, /analyze, /dashboard) using D3",
+ "cs_primitives": [
+  "policy"
+ ],
+ "data_flow": "Media: requests traverse 6 routes (/, /analyze, /dashboard, /pricing)",
+ "data_structures": [],
+ "description": "SoulMayte: a media system, structured around policy.",
+ "domain": "Media",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "SUPPORTED_INFERENCE",
+  "README_outline": "FACT",
+  "algorithms": "NAME_BASED_HYPOTHESIS",
+  "api": "FACT",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "FACT",
+  "data_structures": "NAME_BASED_HYPOTHESIS",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "FACT",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "FACT",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 946,
+ "frameworks": [
+  "D3",
+  "Next.js",
+  "React",
+  "Supabase",
+  "Tailwind CSS",
+  "Vercel AI SDK"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [],
+ "interfaces": [
+  "CLI entry points",
+  "6 HTTP routes",
+  "database layer"
+ ],
+ "known_limitations": [
+  "no test suite present in the repository",
+  "no continuous integration workflow"
+ ],
+ "languages": [
+  "CSS",
+  "HTML",
+  "JavaScript",
+  "SQL",
+  "TypeScript"
+ ],
+ "major_modules": [
+  ".autobuilder",
+  ".startup",
+  "app",
+  "components",
+  "lib",
+  "public-site",
+  "supabase",
+  "venture-os"
+ ],
+ "outputs": [],
+ "palette": "coral_teal",
+ "primary_visual_metaphor": "layered render pipeline resolving to a frame",
+ "problem": "A deeper map of compatibility.",
+ "project_category": "MEDIA",
+ "public_positioning": "A deeper map of compatibility.",
+ "purpose": "SoulMayte is a media codebase of 946 files organised around policy.",
+ "release": {
+  "commits": "31",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "policy structure in media",
+ "security_model": [
+  "policy evaluation"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "policy with 1 cooperating structures",
+ "status": "PROTOTYPE",
+ "technical_category": "media-engineering",
+ "terminal_story": "operator runs SoulMayte (TypeScript) from the command line; output resolves as a tree [SoulMayte]",
+ "testing": {
+  "count": 0,
+  "note": "counted from the repository tree, not executed",
+  "present": false
+ },
+ "topics": [
+  "media-engineering",
+  "typescript",
+  "media",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

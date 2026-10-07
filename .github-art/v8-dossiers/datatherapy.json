@@ -1,0 +1,145 @@
+{
+ "API": [
+  "/about",
+  "/app",
+  "/brief",
+  "/cognitive-load",
+  "/contact",
+  "/examples",
+  "/fear-categories",
+  "/fear-library"
+ ],
+ "CI": {
+  "present": false,
+  "workflow_count": 0,
+  "workflows": []
+ },
+ "CLI": false,
+ "CS_visual_1": "api_flow",
+ "CS_visual_2": "",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "interfaces",
+  "technical_evidence",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [],
+ "animation_story_1": "vital signs plotted against clinical thresholds",
+ "architecture": "DATA_FLOW",
+ "audience": "",
+ "canonical_name": "DataTherapy",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "datatherapy linear request handling",
+ "cs_primitives": [],
+ "data_flow": "Health: requests traverse 23 routes (/, /about, /app, /brief)",
+ "data_structures": [],
+ "description": "DataTherapy: a health tool, built on TypeScript.",
+ "domain": "Health",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "SUPPORTED_INFERENCE",
+  "CS_visual_2": "SUPPORTED_INFERENCE",
+  "README_outline": "FACT",
+  "algorithms": "NAME_BASED_HYPOTHESIS",
+  "api": "FACT",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "SUPPORTED_INFERENCE",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "FACT",
+  "data_structures": "NAME_BASED_HYPOTHESIS",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "SUPPORTED_INFERENCE",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "SUPPORTED_INFERENCE",
+  "state_model": "NAME_BASED_HYPOTHESIS",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 967,
+ "frameworks": [
+  "D3",
+  "Next.js",
+  "React",
+  "Tailwind CSS",
+  "Vercel AI SDK"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [],
+ "interfaces": [
+  "23 HTTP routes"
+ ],
+ "known_limitations": [
+  "no continuous integration workflow"
+ ],
+ "languages": [
+  "CSS",
+  "JavaScript",
+  "TypeScript"
+ ],
+ "major_modules": [
+  ".autobuilder",
+  ".startup",
+  "app",
+  "components",
+  "venture-os"
+ ],
+ "outputs": [],
+ "palette": "slate_amber",
+ "primary_visual_metaphor": "vital signs plotted against clinical thresholds",
+ "problem": "DataTherapy is a clarity-first platform designed to help people understand scary news, fear-triggering ideas, and uncertainty using structured data, context, and calm interpretation.",
+ "project_category": "HEALTH",
+ "public_positioning": "Turn scary information into structured understanding.",
+ "purpose": "DataTherapy is a health codebase of 967 files.",
+ "release": {
+  "commits": "193",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "health topology for datatherapy",
+ "security_model": [
+  "standard dependency hygiene"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "stateless request handling",
+ "status": "ACTIVE",
+ "technical_category": "health-tech",
+ "terminal_story": "a request enters at /about and traverses the health route table [datatherapy]",
+ "testing": {
+  "count": 1,
+  "note": "counted from the repository tree, not executed",
+  "present": true
+ },
+ "topics": [
+  "health-tech",
+  "typescript",
+  "health",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

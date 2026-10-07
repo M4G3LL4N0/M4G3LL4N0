@@ -1,0 +1,140 @@
+{
+ "API": [],
+ "CI": {
+  "present": false,
+  "workflow_count": 0,
+  "workflows": []
+ },
+ "CLI": true,
+ "CS_visual_1": "api_flow",
+ "CS_visual_2": "",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "interfaces",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [],
+ "animation_story_1": "routing graph with capacity constraints",
+ "architecture": "DATA_FLOW",
+ "audience": "",
+ "canonical_name": "SupplyOS AI",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "control for supplyos-ai enters at public-site/index.html and dispatches to 1 entry points across 0 routes (none) using Next.js",
+ "cs_primitives": [],
+ "data_flow": "single-entry processing",
+ "data_structures": [],
+ "description": "SupplyOS AI: a logistics system, built on TypeScript.",
+ "domain": "Logistics",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "SUPPORTED_INFERENCE",
+  "CS_visual_2": "SUPPORTED_INFERENCE",
+  "README_outline": "FACT",
+  "algorithms": "NAME_BASED_HYPOTHESIS",
+  "api": "NAME_BASED_HYPOTHESIS",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "SUPPORTED_INFERENCE",
+  "data_structures": "NAME_BASED_HYPOTHESIS",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "SUPPORTED_INFERENCE",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "SUPPORTED_INFERENCE",
+  "state_model": "NAME_BASED_HYPOTHESIS",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 918,
+ "frameworks": [
+  "Next.js",
+  "Prisma",
+  "React",
+  "Tailwind CSS",
+  "Vercel AI SDK",
+  "Zod"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [],
+ "interfaces": [
+  "CLI entry points",
+  "database layer"
+ ],
+ "known_limitations": [
+  "no test suite present in the repository",
+  "no continuous integration workflow"
+ ],
+ "languages": [
+  "CSS",
+  "HTML",
+  "JavaScript",
+  "TypeScript"
+ ],
+ "major_modules": [
+  ".startup",
+  "app",
+  "components",
+  "lib",
+  "prisma",
+  "public-site",
+  "venture-os"
+ ],
+ "outputs": [],
+ "palette": "indigo_lime",
+ "primary_visual_metaphor": "routing graph with capacity constraints",
+ "problem": "SupplyOS AI MVP: supply chain risk dashboard with autonomous recommendations and supplier mapping.",
+ "project_category": "LOGISTICS",
+ "public_positioning": "AI operating layer for supply chain visibility and coordination.",
+ "purpose": "Startup portfolio: supplyos-ai",
+ "release": {
+  "commits": "2",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "logistics topology for supplyos-ai",
+ "security_model": [
+  "standard dependency hygiene"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "stateless request handling",
+ "status": "PROTOTYPE",
+ "technical_category": "logistics",
+ "terminal_story": "operator runs SupplyOS AI (TypeScript) from the command line; output resolves as a tree [supplyos-ai]",
+ "testing": {
+  "count": 0,
+  "note": "counted from the repository tree, not executed",
+  "present": false
+ },
+ "topics": [
+  "logistics",
+  "typescript",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

@@ -1,0 +1,151 @@
+{
+ "API": [],
+ "CI": {
+  "present": false,
+  "workflow_count": 0,
+  "workflows": []
+ },
+ "CLI": true,
+ "CS_visual_1": "benchmark",
+ "CS_visual_2": "policy",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [
+  "heap"
+ ],
+ "animation_story_1": "orbital mechanics plotted as a phase portrait",
+ "architecture": "DATA_FLOW",
+ "audience": "",
+ "canonical_name": "SpaceCompute Cloud",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "control for spacecompute-cloud enters at public-site/index.html and dispatches to 1 entry points across 0 routes (none) using Next.js",
+ "cs_primitives": [
+  "benchmark",
+  "policy",
+  "heap",
+  "simulator"
+ ],
+ "data_flow": "Space: data passes through benchmark structure",
+ "data_structures": [
+  "heap"
+ ],
+ "description": "SpaceCompute Cloud: a space system, structured around benchmark.",
+ "domain": "Space",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "FACT",
+  "README_outline": "FACT",
+  "algorithms": "FACT",
+  "api": "NAME_BASED_HYPOTHESIS",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "FACT",
+  "data_structures": "FACT",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "SUPPORTED_INFERENCE",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "FACT",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 927,
+ "frameworks": [
+  "Next.js",
+  "Prisma",
+  "React",
+  "Tailwind CSS",
+  "Vercel AI SDK",
+  "Zod"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [],
+ "interfaces": [
+  "CLI entry points",
+  "database layer"
+ ],
+ "known_limitations": [
+  "no test suite present in the repository",
+  "no continuous integration workflow"
+ ],
+ "languages": [
+  "CSS",
+  "HTML",
+  "JavaScript",
+  "TypeScript"
+ ],
+ "major_modules": [
+  ".startup",
+  "app",
+  "components",
+  "lib",
+  "prisma",
+  "public-site",
+  "venture-os"
+ ],
+ "outputs": [],
+ "palette": "indigo_lime",
+ "primary_visual_metaphor": "orbital mechanics plotted as a phase portrait",
+ "problem": "SpaceCompute Cloud MVP: orbit-edge workload planner and deployment dashboard for satellite AI workloads.",
+ "project_category": "SPACE",
+ "public_positioning": "Space-grade cloud compute for missions, simulation, and payloads.",
+ "purpose": "Startup portfolio: spacecompute-cloud",
+ "release": {
+  "commits": "4",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "benchmark structure in space",
+ "security_model": [
+  "policy evaluation"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "benchmark with 4 cooperating structures",
+ "status": "PROTOTYPE",
+ "technical_category": "space-tech",
+ "terminal_story": "operator runs SpaceCompute Cloud (TypeScript) from the command line; output resolves as a tree [spacecompute-cloud]",
+ "testing": {
+  "count": 0,
+  "note": "counted from the repository tree, not executed",
+  "present": false
+ },
+ "topics": [
+  "space-tech",
+  "typescript",
+  "space",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

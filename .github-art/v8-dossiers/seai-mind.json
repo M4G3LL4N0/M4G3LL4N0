@@ -1,0 +1,155 @@
+{
+ "API": [
+  "/app",
+  "/architecture",
+  "/benchmarks",
+  "/docs",
+  "/evolution",
+  "/license",
+  "/minds",
+  "/privacy"
+ ],
+ "CI": {
+  "present": true,
+  "workflow_count": 1,
+  "workflows": [
+   ".github/workflows/ci.yml"
+  ]
+ },
+ "CLI": true,
+ "CS_visual_1": "benchmark",
+ "CS_visual_2": "policy",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "technical_evidence",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [
+  "ast"
+ ],
+ "animation_story_1": "stepped terrain with a live probe path",
+ "architecture": "AGENT_LOOP",
+ "audience": "",
+ "canonical_name": "SE-AI Mind",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "control for seai-mind enters at packages/cli/src/index.ts and dispatches to 7 entry points across 12 routes (/app, /architecture, /benchmarks) using Jest",
+ "cs_primitives": [
+  "benchmark",
+  "policy",
+  "simulator",
+  "stack",
+  "ast",
+  "terminal"
+ ],
+ "data_flow": "Simulation: requests traverse 12 routes (/app, /architecture, /benchmarks, /docs)",
+ "data_structures": [
+  "stack"
+ ],
+ "description": "SE-AI Mind: a simulation, structured around benchmark.",
+ "domain": "Simulation",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "FACT",
+  "README_outline": "FACT",
+  "algorithms": "FACT",
+  "api": "FACT",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "FACT",
+  "data_structures": "FACT",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "FACT",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "FACT",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 209,
+ "frameworks": [
+  "Jest",
+  "Next.js",
+  "React",
+  "Tailwind CSS",
+  "Vercel AI SDK",
+  "Vitest",
+  "Zod"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [],
+ "interfaces": [
+  "CLI entry points",
+  "12 HTTP routes"
+ ],
+ "known_limitations": [],
+ "languages": [
+  "CSS",
+  "JavaScript",
+  "TypeScript"
+ ],
+ "major_modules": [
+  "web"
+ ],
+ "outputs": [],
+ "palette": "plum_azure",
+ "primary_visual_metaphor": "stepped terrain with a live probe path",
+ "problem": "Open-source self-evolving AI kernel. Small kernel, growing intelligence: Minds + Models + Memory + Skills + Tools + Evolution + Evaluation.",
+ "project_category": "SIMULATION",
+ "public_positioning": "A small kernel for a mind that can be measured.",
+ "purpose": "Open-source self-evolving AI kernel with an auditable memory and capability loop.",
+ "release": {
+  "commits": "23",
+  "tags": 1
+ },
+ "secondary_visual_metaphor": "benchmark structure in simulation",
+ "security_model": [
+  "policy evaluation"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "benchmark with 6 cooperating structures",
+ "status": "ACTIVE",
+ "technical_category": "simulation",
+ "terminal_story": "operator runs SE-AI Mind (TypeScript) from the command line; output resolves as a tree [seai-mind]",
+ "testing": {
+  "count": 12,
+  "note": "counted from the repository tree, not executed",
+  "present": true
+ },
+ "topics": [
+  "simulation",
+  "typescript",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

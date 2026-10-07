@@ -1,0 +1,142 @@
+{
+ "API": [],
+ "CI": {
+  "present": false,
+  "workflow_count": 0,
+  "workflows": []
+ },
+ "CLI": true,
+ "CS_visual_1": "api_flow",
+ "CS_visual_2": "",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "interfaces",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [],
+ "animation_story_1": "source transformed through analysis to output",
+ "architecture": "DOCUMENT",
+ "audience": "",
+ "canonical_name": "TrajectoryOS",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "control for trajectoryos enters at components/landing/index.ts and dispatches to 2 entry points across 0 routes (none) using Next.js",
+ "cs_primitives": [],
+ "data_flow": "single-entry processing",
+ "data_structures": [],
+ "description": "TrajectoryOS: a developer tool, built on TypeScript.",
+ "domain": "Developer Tools",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "SUPPORTED_INFERENCE",
+  "CS_visual_2": "SUPPORTED_INFERENCE",
+  "README_outline": "FACT",
+  "algorithms": "NAME_BASED_HYPOTHESIS",
+  "api": "NAME_BASED_HYPOTHESIS",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "SUPPORTED_INFERENCE",
+  "data_flow": "SUPPORTED_INFERENCE",
+  "data_structures": "NAME_BASED_HYPOTHESIS",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "FACT",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "SUPPORTED_INFERENCE",
+  "state_model": "NAME_BASED_HYPOTHESIS",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 911,
+ "frameworks": [
+  "Next.js",
+  "React",
+  "Tailwind CSS",
+  "Vercel AI SDK"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [
+  "source files"
+ ],
+ "interfaces": [
+  "CLI entry points"
+ ],
+ "known_limitations": [
+  "no test suite present in the repository",
+  "no continuous integration workflow"
+ ],
+ "languages": [
+  "CSS",
+  "HTML",
+  "JavaScript",
+  "TypeScript"
+ ],
+ "major_modules": [
+  ".autobuilder",
+  ".startup",
+  "app",
+  "components",
+  "lib",
+  "public-site",
+  "venture-os"
+ ],
+ "outputs": [
+  "build artifact"
+ ],
+ "palette": "mint_violet",
+ "primary_visual_metaphor": "source transformed through analysis to output",
+ "problem": "TrajectoryOS is an AI-native mission computation layer for space, physics, aerospace, robotics, and engineering teams. This repository contains the public marketing site (Next.js App Router).",
+ "project_category": "DEVELOPER_TOOLS",
+ "public_positioning": "Trajectory intelligence for ventures, markets, and strategic positioning.",
+ "purpose": "Startup portfolio: trajectoryos",
+ "release": {
+  "commits": "2",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "developer tools topology for trajectoryos",
+ "security_model": [
+  "standard dependency hygiene"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "stateless request handling",
+ "status": "PROTOTYPE",
+ "technical_category": "developer-tooling",
+ "terminal_story": "operator runs TrajectoryOS (TypeScript) from the command line; output resolves as a tree [trajectoryos]",
+ "testing": {
+  "count": 0,
+  "note": "counted from the repository tree, not executed",
+  "present": false
+ },
+ "topics": [
+  "developer-tooling",
+  "typescript",
+  "developer-tools",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

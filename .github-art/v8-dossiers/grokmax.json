@@ -1,0 +1,148 @@
+{
+ "API": [],
+ "CI": {
+  "present": true,
+  "workflow_count": 1,
+  "workflows": [
+   ".github/workflows/ci.yml"
+  ]
+ },
+ "CLI": true,
+ "CS_visual_1": "cache",
+ "CS_visual_2": "stack",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "technical_evidence",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [
+  "ast",
+  "compiler_stage"
+ ],
+ "animation_story_1": "source transformed through analysis to output",
+ "architecture": "AGENT_LOOP",
+ "audience": "",
+ "canonical_name": "GrokMax",
+ "concurrency_model": "event loop",
+ "confidence": "E3",
+ "control_flow": "control for grokmax enters at apps/cli/src/index.ts and dispatches to 16 entry points across 0 routes (none) using Vercel AI SDK",
+ "cs_primitives": [
+  "cache",
+  "stack",
+  "benchmark",
+  "terminal",
+  "ast",
+  "compiler_stage"
+ ],
+ "data_flow": "Developer Tools: data passes through cache structure",
+ "data_structures": [
+  "cache",
+  "stack"
+ ],
+ "description": "GrokMax: a developer tool, structured around cache.",
+ "domain": "Developer Tools",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "FACT",
+  "README_outline": "FACT",
+  "algorithms": "FACT",
+  "api": "NAME_BASED_HYPOTHESIS",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "FACT",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "FACT",
+  "data_structures": "FACT",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "FACT",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "SUPPORTED_INFERENCE",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 222,
+ "frameworks": [
+  "Vercel AI SDK",
+  "Vitest"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [
+  "source files"
+ ],
+ "interfaces": [
+  "CLI entry points"
+ ],
+ "known_limitations": [],
+ "languages": [
+  "JavaScript",
+  "Python",
+  "Shell",
+  "TypeScript"
+ ],
+ "major_modules": [
+  "data"
+ ],
+ "outputs": [
+  "build artifact"
+ ],
+ "palette": "mint_violet",
+ "primary_visual_metaphor": "source transformed through analysis to output",
+ "problem": "**Minimize GrokBot usage while maximizing verified useful output.**",
+ "project_category": "DEVELOPER_TOOLS",
+ "public_positioning": "Scale down before you scale up.",
+ "purpose": "Deterministic-first LLM routing: zero-cost executors first, five-layer cache, telemetry that never overstates savings.",
+ "release": {
+  "commits": "11",
+  "tags": 4
+ },
+ "secondary_visual_metaphor": "cache structure in developer tools",
+ "security_model": [
+  "standard dependency hygiene"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "cache with 6 cooperating structures",
+ "status": "ACTIVE",
+ "technical_category": "developer-tooling",
+ "terminal_story": "operator runs GrokMax (TypeScript) from the command line; output resolves as a tree [grokmax]",
+ "testing": {
+  "count": 26,
+  "note": "counted from the repository tree, not executed",
+  "present": true
+ },
+ "topics": [
+  "developer-tooling",
+  "typescript",
+  "developer-tools",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

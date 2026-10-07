@@ -1,0 +1,149 @@
+{
+ "API": [],
+ "CI": {
+  "present": false,
+  "workflow_count": 0,
+  "workflows": []
+ },
+ "CLI": true,
+ "CS_visual_1": "index",
+ "CS_visual_2": "ast",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [
+  "index",
+  "ast"
+ ],
+ "animation_story_1": "temporal signal surface with an audit path",
+ "architecture": "DATA_FLOW",
+ "audience": "",
+ "canonical_name": "BlitzProof",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "control for blitzproof enters at public-site/index.html and dispatches to 1 entry points across 1 routes (/) using Next.js",
+ "cs_primitives": [
+  "index",
+  "ast"
+ ],
+ "data_flow": "Quant Data: requests traverse 1 routes (/)",
+ "data_structures": [
+  "index"
+ ],
+ "description": "BlitzProof: a data system, structured around index.",
+ "domain": "Quant Data",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "FACT",
+  "README_outline": "FACT",
+  "algorithms": "FACT",
+  "api": "NAME_BASED_HYPOTHESIS",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "FACT",
+  "data_structures": "FACT",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "FACT",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "SUPPORTED_INFERENCE",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 947,
+ "frameworks": [
+  "Next.js",
+  "React",
+  "Tailwind CSS",
+  "Vercel AI SDK"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [],
+ "interfaces": [
+  "CLI entry points",
+  "1 HTTP routes"
+ ],
+ "known_limitations": [
+  "no test suite present in the repository",
+  "no continuous integration workflow"
+ ],
+ "languages": [
+  "CSS",
+  "HTML",
+  "JavaScript",
+  "TypeScript"
+ ],
+ "major_modules": [
+  ".autobuilder",
+  ".startup",
+  "app",
+  "components",
+  "data",
+  "lib",
+  "public-site",
+  "venture-os"
+ ],
+ "outputs": [],
+ "palette": "navy_lavender",
+ "primary_visual_metaphor": "temporal signal surface with an audit path",
+ "problem": "BlitzProof is a startup validation engine for founders and venture studios.",
+ "project_category": "QUANT_DATA",
+ "public_positioning": "Prove the startup before it proves you wrong.",
+ "purpose": "BlitzProof is a quant data codebase of 947 files organised around index.",
+ "release": {
+  "commits": "17",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "index structure in quant data",
+ "security_model": [
+  "standard dependency hygiene"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "index with 2 cooperating structures",
+ "status": "PROTOTYPE",
+ "technical_category": "data-systems",
+ "terminal_story": "operator runs BlitzProof (TypeScript) from the command line; output resolves as a tree [blitzproof]",
+ "testing": {
+  "count": 0,
+  "note": "counted from the repository tree, not executed",
+  "present": false
+ },
+ "topics": [
+  "data-systems",
+  "typescript",
+  "quant-data",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

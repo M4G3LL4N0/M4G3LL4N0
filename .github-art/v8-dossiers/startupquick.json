@@ -1,0 +1,155 @@
+{
+ "API": [
+  "/auth",
+  "/dashboard"
+ ],
+ "CI": {
+  "present": false,
+  "workflow_count": 0,
+  "workflows": []
+ },
+ "CLI": true,
+ "CS_visual_1": "index",
+ "CS_visual_2": "",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [
+  "index"
+ ],
+ "animation_story_1": "temporal signal surface with an audit path",
+ "architecture": "DATA_FLOW",
+ "audience": "",
+ "canonical_name": "StartupQuick",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "control for startupquick enters at public-site/index.html and dispatches to 1 entry points across 3 routes (/, /auth, /dashboard) using D3",
+ "cs_primitives": [
+  "index"
+ ],
+ "data_flow": "Quant Data: requests traverse 3 routes (/, /auth, /dashboard)",
+ "data_structures": [
+  "index"
+ ],
+ "description": "StartupQuick: a data system, structured around index.",
+ "domain": "Quant Data",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "SUPPORTED_INFERENCE",
+  "README_outline": "FACT",
+  "algorithms": "FACT",
+  "api": "FACT",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "FACT",
+  "data_structures": "FACT",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "FACT",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "SUPPORTED_INFERENCE",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 969,
+ "frameworks": [
+  "D3",
+  "Next.js",
+  "React",
+  "Stripe",
+  "Supabase",
+  "Tailwind CSS",
+  "Vercel AI SDK"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [],
+ "interfaces": [
+  "CLI entry points",
+  "3 HTTP routes",
+  "database layer"
+ ],
+ "known_limitations": [
+  "no test suite present in the repository",
+  "no continuous integration workflow"
+ ],
+ "languages": [
+  "CSS",
+  "HTML",
+  "JavaScript",
+  "SQL",
+  "TypeScript"
+ ],
+ "major_modules": [
+  ".autobuilder",
+  ".startup",
+  "app",
+  "components",
+  "lib",
+  "public-site",
+  "sql",
+  "venture-os"
+ ],
+ "outputs": [],
+ "palette": "navy_lavender",
+ "primary_visual_metaphor": "temporal signal surface with an audit path",
+ "problem": "StartupQuick helps founders turn startup ideas into premium, shareable startup websites in minutes.",
+ "project_category": "QUANT_DATA",
+ "public_positioning": "Launch before the momentum fades.",
+ "purpose": "StartupQuick is a quant data codebase of 969 files organised around index.",
+ "release": {
+  "commits": "7",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "index structure in quant data",
+ "security_model": [
+  "standard dependency hygiene"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "index with 1 cooperating structures",
+ "status": "PROTOTYPE",
+ "technical_category": "data-systems",
+ "terminal_story": "operator runs StartupQuick (TypeScript) from the command line; output resolves as a tree [startupquick]",
+ "testing": {
+  "count": 0,
+  "note": "counted from the repository tree, not executed",
+  "present": false
+ },
+ "topics": [
+  "data-systems",
+  "typescript",
+  "quant-data",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

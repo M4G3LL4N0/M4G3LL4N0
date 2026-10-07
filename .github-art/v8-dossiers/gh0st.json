@@ -1,0 +1,164 @@
+{
+ "API": [],
+ "CI": {
+  "present": true,
+  "workflow_count": 8,
+  "workflows": [
+   ".github/workflows/ci.yml",
+   ".github/workflows/codeql.yml",
+   ".github/workflows/release.yml",
+   ".github/workflows/security.yml",
+   ".worktrees/privacy-gated-multi-provider/.github/workflows/ci.yml",
+   ".worktrees/privacy-gated-multi-provider/.github/workflows/codeql.yml",
+   ".worktrees/privacy-gated-multi-provider/.github/workflows/release.yml",
+   ".worktrees/privacy-gated-multi-provider/.github/workflows/security.yml"
+  ]
+ },
+ "CLI": true,
+ "CS_visual_1": "crypto",
+ "CS_visual_2": "index",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "technical_evidence",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [
+  "index",
+  "ast"
+ ],
+ "animation_story_1": "multi-node reasoning path with a verification loop",
+ "architecture": "SECURITY",
+ "audience": "",
+ "canonical_name": "gh0st",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "control for gh0st enters at .worktrees/privacy-gated-multi-provider/apps/client/index.html and dispatches to 24 entry points across 0 routes (none) using Express",
+ "cs_primitives": [
+  "crypto",
+  "index",
+  "policy",
+  "stack",
+  "agent_graph",
+  "ast"
+ ],
+ "data_flow": "Agent: data passes through crypto structure",
+ "data_structures": [
+  "index",
+  "stack"
+ ],
+ "description": "gh0st: an agent system, structured around crypto.",
+ "domain": "Agent",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "FACT",
+  "README_outline": "FACT",
+  "algorithms": "FACT",
+  "api": "NAME_BASED_HYPOTHESIS",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "FACT",
+  "data_structures": "FACT",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "FACT",
+  "public_positioning": "NAME_BASED_HYPOTHESIS",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "FACT",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 437,
+ "frameworks": [
+  "Express",
+  "React",
+  "Tailwind CSS",
+  "Vercel AI SDK",
+  "Vitest"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [
+  "user request"
+ ],
+ "interfaces": [
+  "CLI entry points",
+  "HTTP API"
+ ],
+ "known_limitations": [],
+ "languages": [
+  "C",
+  "CSS",
+  "HTML",
+  "JavaScript",
+  "Rust",
+  "Shell",
+  "TypeScript"
+ ],
+ "major_modules": [
+  "scripts"
+ ],
+ "outputs": [
+  "tool calls",
+  "verifiable result"
+ ],
+ "palette": "indigo_lime",
+ "primary_visual_metaphor": "multi-node reasoning path with a verification loop",
+ "problem": "gh0st is a local-first interface for xAI/Grok. The CLI provides the current encrypted local-storage workflow; the macOS and browser clients are early interfaces. Conversations, files, agents, and local state stay on your device while xAI performs inference using `store=false` and, when enabled for your xAI team, verifi",
+ "project_category": "AGENT",
+ "public_positioning": "",
+ "purpose": "Local-first encrypted AI client for xAI/Grok with verifiable no-retention guarantees.",
+ "release": {
+  "commits": "15",
+  "tags": 1
+ },
+ "secondary_visual_metaphor": "crypto structure in agent",
+ "security_model": [
+  "policy evaluation",
+  "cryptographic verification"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "crypto with 6 cooperating structures",
+ "status": "ACTIVE",
+ "technical_category": "agent-systems",
+ "terminal_story": "operator runs gh0st (TypeScript) from the command line; output resolves as a tree [gh0st]",
+ "testing": {
+  "count": 8,
+  "note": "counted from the repository tree, not executed",
+  "present": true
+ },
+ "topics": [
+  "agent-systems",
+  "typescript",
+  "agent",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

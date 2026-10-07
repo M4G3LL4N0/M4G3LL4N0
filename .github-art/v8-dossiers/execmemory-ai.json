@@ -1,0 +1,151 @@
+{
+ "API": [],
+ "CI": {
+  "present": false,
+  "workflow_count": 0,
+  "workflows": []
+ },
+ "CLI": true,
+ "CS_visual_1": "stack",
+ "CS_visual_2": "queue",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "technical_evidence",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [
+  "memory_map"
+ ],
+ "animation_story_1": "stepped queue with workers activating",
+ "architecture": "DATA_FLOW",
+ "audience": "",
+ "canonical_name": "ExecMemory AI",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "control for execmemory-ai enters at public-site/index.html and dispatches to 1 entry points across 0 routes (none) using Next.js",
+ "cs_primitives": [
+  "stack",
+  "queue",
+  "memory_map"
+ ],
+ "data_flow": "Infrastructure: data passes through stack structure",
+ "data_structures": [
+  "stack",
+  "queue"
+ ],
+ "description": "ExecMemory AI: an infrastructure system, structured around stack.",
+ "domain": "Infrastructure",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "FACT",
+  "README_outline": "FACT",
+  "algorithms": "FACT",
+  "api": "NAME_BASED_HYPOTHESIS",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "FACT",
+  "data_structures": "FACT",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "FACT",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "SUPPORTED_INFERENCE",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 930,
+ "frameworks": [
+  "Next.js",
+  "Prisma",
+  "React",
+  "Tailwind CSS",
+  "Vercel AI SDK",
+  "Zod"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [],
+ "interfaces": [
+  "CLI entry points",
+  "database layer"
+ ],
+ "known_limitations": [
+  "no continuous integration workflow"
+ ],
+ "languages": [
+  "CSS",
+  "HTML",
+  "JavaScript",
+  "TypeScript"
+ ],
+ "major_modules": [
+  ".startup",
+  "app",
+  "components",
+  "lib",
+  "prisma",
+  "public-site",
+  "venture-os"
+ ],
+ "outputs": [],
+ "palette": "slate_amber",
+ "primary_visual_metaphor": "stepped queue with workers activating",
+ "problem": "Executive operating MVP: paste **meeting notes** (or load **demo notes**) to generate a chief-of-staff style pack \u2014 **CEO brief**, **unresolved risks**, **delegated tasks**, **follow-up email drafts**, **next-meeting agenda**, and a **decision tracker**. Persisted with Prisma + SQLite.",
+ "project_category": "INFRASTRUCTURE",
+ "public_positioning": "Executive memory and context systems for high-stakes decision makers.",
+ "purpose": "Startup portfolio: execmemory-ai",
+ "release": {
+  "commits": "3",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "stack structure in infrastructure",
+ "security_model": [
+  "standard dependency hygiene"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "stack with 3 cooperating structures",
+ "status": "ACTIVE",
+ "technical_category": "distributed-systems",
+ "terminal_story": "operator runs ExecMemory AI (TypeScript) from the command line; output resolves as a tree [execmemory-ai]",
+ "testing": {
+  "count": 1,
+  "note": "counted from the repository tree, not executed",
+  "present": true
+ },
+ "topics": [
+  "distributed-systems",
+  "typescript",
+  "infrastructure",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

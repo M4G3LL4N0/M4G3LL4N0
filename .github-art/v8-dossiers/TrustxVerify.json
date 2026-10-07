@@ -1,0 +1,154 @@
+{
+ "API": [
+  "/admin",
+  "/demo",
+  "/report",
+  "/report-demo",
+  "/request-received",
+  "/search",
+  "/thank-you"
+ ],
+ "CI": {
+  "present": false,
+  "workflow_count": 0,
+  "workflows": []
+ },
+ "CLI": true,
+ "CS_visual_1": "policy",
+ "CS_visual_2": "",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [],
+ "animation_story_1": "protected core behind a trust boundary",
+ "architecture": "DATA_FLOW",
+ "audience": "",
+ "canonical_name": "TrustXVerify",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "control for TrustxVerify enters at public-site/index.html and dispatches to 1 entry points across 8 routes (/, /admin, /demo) using Next.js",
+ "cs_primitives": [
+  "policy"
+ ],
+ "data_flow": "Security: requests traverse 8 routes (/, /admin, /demo, /report)",
+ "data_structures": [],
+ "description": "TrustXVerify: a security system, structured around policy.",
+ "domain": "Security",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "SUPPORTED_INFERENCE",
+  "README_outline": "FACT",
+  "algorithms": "NAME_BASED_HYPOTHESIS",
+  "api": "FACT",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "FACT",
+  "data_structures": "NAME_BASED_HYPOTHESIS",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "SUPPORTED_INFERENCE",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "FACT",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 949,
+ "frameworks": [
+  "Next.js",
+  "React",
+  "Supabase",
+  "Tailwind CSS",
+  "Vercel AI SDK"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [],
+ "interfaces": [
+  "CLI entry points",
+  "8 HTTP routes",
+  "database layer"
+ ],
+ "known_limitations": [
+  "no test suite present in the repository",
+  "no continuous integration workflow"
+ ],
+ "languages": [
+  "CSS",
+  "HTML",
+  "JavaScript",
+  "SQL",
+  "TypeScript"
+ ],
+ "major_modules": [
+  ".autobuilder",
+  ".startup",
+  "app",
+  "components",
+  "public-site",
+  "supabase",
+  "venture-os"
+ ],
+ "outputs": [],
+ "palette": "graphite_coral",
+ "primary_visual_metaphor": "protected core behind a trust boundary",
+ "problem": "It scores buyers, sellers, businesses, marketplace accounts, and addresses before transactions happen. Reputation is siloed, fraud is portable, and marketplace operators need a shared legitimacy layer that can follow risk signals across eBay, Facebook Marketplace, Shopify, Craigslist, freight forwarding addresses, and ",
+ "project_category": "SECURITY",
+ "public_positioning": "Verify trust before it matters.",
+ "purpose": "TrustXVerify is a security codebase of 949 files organised around policy.",
+ "release": {
+  "commits": "44",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "policy structure in security",
+ "security_model": [
+  "trust boundary enforcement",
+  "policy evaluation"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "policy with 1 cooperating structures",
+ "status": "PROTOTYPE",
+ "technical_category": "security-engineering",
+ "terminal_story": "operator runs TrustXVerify (TypeScript) from the command line; output resolves as a tree [TrustxVerify]",
+ "testing": {
+  "count": 0,
+  "note": "counted from the repository tree, not executed",
+  "present": false
+ },
+ "topics": [
+  "security-engineering",
+  "typescript",
+  "security",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

@@ -1,0 +1,130 @@
+{
+ "API": [],
+ "CI": {
+  "present": false,
+  "workflow_count": 0,
+  "workflows": []
+ },
+ "CLI": true,
+ "CS_visual_1": "benchmark",
+ "CS_visual_2": "",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [],
+ "animation_story_1": "source transformed through analysis to output",
+ "architecture": "DOCUMENT",
+ "audience": "",
+ "canonical_name": "computeflow-website",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "control for computeflow-website enters at index.html and dispatches to 2 entry points across 0 routes (none) using vanilla",
+ "cs_primitives": [
+  "benchmark"
+ ],
+ "data_flow": "Developer Tools: data passes through benchmark structure",
+ "data_structures": [],
+ "description": "computeflow-website: a developer tool, structured around benchmark.",
+ "domain": "Developer Tools",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "SUPPORTED_INFERENCE",
+  "README_outline": "FACT",
+  "algorithms": "NAME_BASED_HYPOTHESIS",
+  "api": "NAME_BASED_HYPOTHESIS",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "SUPPORTED_INFERENCE",
+  "data_flow": "FACT",
+  "data_structures": "NAME_BASED_HYPOTHESIS",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "NAME_BASED_HYPOTHESIS",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "NAME_BASED_HYPOTHESIS",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "NAME_BASED_HYPOTHESIS",
+  "project_category": "FACT",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "SUPPORTED_INFERENCE",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 31,
+ "frameworks": [],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [
+  "source files"
+ ],
+ "interfaces": [
+  "CLI entry points"
+ ],
+ "known_limitations": [
+  "no test suite present in the repository",
+  "no continuous integration workflow"
+ ],
+ "languages": [
+  "CSS",
+  "HTML",
+  "JavaScript"
+ ],
+ "major_modules": [],
+ "outputs": [
+  "build artifact"
+ ],
+ "palette": "mint_violet",
+ "primary_visual_metaphor": "source transformed through analysis to output",
+ "problem": "",
+ "project_category": "DEVELOPER_TOOLS",
+ "public_positioning": "Compute orchestration for teams running serious AI and data workloads.",
+ "purpose": "computeflow website. package.json.",
+ "release": {
+  "commits": "3",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "benchmark structure in developer tools",
+ "security_model": [
+  "standard dependency hygiene"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "benchmark with 1 cooperating structures",
+ "status": "PROTOTYPE",
+ "technical_category": "developer-tooling",
+ "terminal_story": "operator runs computeflow-website (CSS) from the command line; output resolves as a tree [computeflow-website]",
+ "testing": {
+  "count": 0,
+  "note": "counted from the repository tree, not executed",
+  "present": false
+ },
+ "topics": [
+  "developer-tooling",
+  "developer-tools",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

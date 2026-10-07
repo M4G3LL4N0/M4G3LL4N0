@@ -1,0 +1,155 @@
+{
+ "API": [
+  "/about",
+  "/contact",
+  "/dashboard",
+  "/demo",
+  "/pricing"
+ ],
+ "CI": {
+  "present": false,
+  "workflow_count": 0,
+  "workflows": []
+ },
+ "CLI": false,
+ "CS_visual_1": "benchmark",
+ "CS_visual_2": "stack",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [],
+ "animation_story_1": "multi-node reasoning path with a verification loop",
+ "architecture": "DOCUMENT",
+ "audience": "",
+ "canonical_name": "ComputeFlow",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "computeflow control passes through benchmark, stack, simulator",
+ "cs_primitives": [
+  "benchmark",
+  "stack",
+  "simulator",
+  "agent_graph",
+  "queue"
+ ],
+ "data_flow": "Agent: requests traverse 6 routes (/, /about, /contact, /dashboard)",
+ "data_structures": [
+  "stack",
+  "queue"
+ ],
+ "description": "ComputeFlow: an agent system, structured around benchmark.",
+ "domain": "Agent",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "FACT",
+  "README_outline": "FACT",
+  "algorithms": "NAME_BASED_HYPOTHESIS",
+  "api": "FACT",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "SUPPORTED_INFERENCE",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "SUPPORTED_INFERENCE",
+  "data_flow": "FACT",
+  "data_structures": "FACT",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "FACT",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "SUPPORTED_INFERENCE",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 938,
+ "frameworks": [
+  "Next.js",
+  "React",
+  "Tailwind CSS",
+  "Vercel AI SDK"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [
+  "user request"
+ ],
+ "interfaces": [
+  "6 HTTP routes"
+ ],
+ "known_limitations": [
+  "no test suite present in the repository",
+  "no continuous integration workflow"
+ ],
+ "languages": [
+  "CSS",
+  "JavaScript",
+  "TypeScript"
+ ],
+ "major_modules": [
+  ".startup",
+  "app",
+  "components",
+  "venture-os"
+ ],
+ "outputs": [
+  "tool calls",
+  "verifiable result"
+ ],
+ "palette": "indigo_lime",
+ "primary_visual_metaphor": "multi-node reasoning path with a verification loop",
+ "problem": "Compute orchestration for teams running serious AI and data workloads.",
+ "project_category": "AGENT",
+ "public_positioning": "Compute orchestration for teams running serious AI and data workloads.",
+ "purpose": "Startup portfolio: computeflow",
+ "release": {
+  "commits": "2",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "benchmark structure in agent",
+ "security_model": [
+  "standard dependency hygiene"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "benchmark with 5 cooperating structures",
+ "status": "PROTOTYPE",
+ "technical_category": "agent-systems",
+ "terminal_story": "a request enters at /about and traverses the agent route table [computeflow]",
+ "testing": {
+  "count": 0,
+  "note": "counted from the repository tree, not executed",
+  "present": false
+ },
+ "topics": [
+  "agent-systems",
+  "typescript",
+  "agent",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

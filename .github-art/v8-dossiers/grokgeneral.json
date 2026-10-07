@@ -1,0 +1,144 @@
+{
+ "API": [],
+ "CI": {
+  "present": false,
+  "workflow_count": 0,
+  "workflows": []
+ },
+ "CLI": true,
+ "CS_visual_1": "policy",
+ "CS_visual_2": "cache",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "technical_evidence",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [
+  "scheduler",
+  "index"
+ ],
+ "animation_story_1": "stepped queue with workers activating",
+ "architecture": "SECURITY",
+ "audience": "",
+ "canonical_name": "GrokGeneral",
+ "concurrency_model": "async runtime",
+ "confidence": "E3",
+ "control_flow": "gg status",
+ "cs_primitives": [
+  "policy",
+  "cache",
+  "scheduler",
+  "index",
+  "terminal",
+  "event_stream"
+ ],
+ "data_flow": "Infrastructure: data passes through policy structure",
+ "data_structures": [
+  "cache",
+  "index"
+ ],
+ "description": "GrokGeneral: an infrastructure system, structured around policy.",
+ "domain": "Infrastructure",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "FACT",
+  "README_outline": "FACT",
+  "algorithms": "FACT",
+  "api": "NAME_BASED_HYPOTHESIS",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "FACT",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "FACT",
+  "data_structures": "FACT",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "FACT",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "FACT",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 98,
+ "frameworks": [
+  "Vercel AI SDK"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [],
+ "interfaces": [
+  "CLI entry points"
+ ],
+ "known_limitations": [
+  "no continuous integration workflow"
+ ],
+ "languages": [
+  "CSS",
+  "HTML",
+  "Python"
+ ],
+ "major_modules": [
+  "grokgeneral",
+  "grokgeneral.egg-info",
+  "site"
+ ],
+ "outputs": [],
+ "palette": "slate_amber",
+ "primary_visual_metaphor": "stepped queue with workers activating",
+ "problem": "GrokGeneral is the local kernel and control plane for the GrokBot ecosystem. It indexes projects and resources, normalizes work, chooses the cheapest capable execution path, packages narrow context, records decisions and usage, and surfaces temporary capacity opportunities.",
+ "project_category": "INFRASTRUCTURE",
+ "public_positioning": "The local kernel for the GrokBot ecosystem.",
+ "purpose": "grokgeneral. pyproject.toml; 37 test file(s); local-first storage.",
+ "release": {
+  "commits": "26",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "policy structure in infrastructure",
+ "security_model": [
+  "policy evaluation"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "policy with 6 cooperating structures",
+ "status": "ACTIVE",
+ "technical_category": "distributed-systems",
+ "terminal_story": "operator runs GrokGeneral (Python) from the command line; output resolves as a tree [grokgeneral]",
+ "testing": {
+  "count": 37,
+  "note": "counted from the repository tree, not executed",
+  "present": true
+ },
+ "topics": [
+  "distributed-systems",
+  "python",
+  "infrastructure",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

@@ -1,0 +1,147 @@
+{
+ "API": [
+  "/admin",
+  "/moves",
+  "/submit"
+ ],
+ "CI": {
+  "present": false,
+  "workflow_count": 0,
+  "workflows": []
+ },
+ "CLI": false,
+ "CS_visual_1": "policy",
+ "CS_visual_2": "",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [],
+ "animation_story_1": "layered render pipeline resolving to a frame",
+ "architecture": "DATA_FLOW",
+ "audience": "",
+ "canonical_name": "Cruxenio",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "Cruxenio control passes through policy",
+ "cs_primitives": [
+  "policy"
+ ],
+ "data_flow": "Media: requests traverse 4 routes (/, /admin, /moves, /submit)",
+ "data_structures": [],
+ "description": "Cruxenio: a media system, structured around policy.",
+ "domain": "Media",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "SUPPORTED_INFERENCE",
+  "README_outline": "FACT",
+  "algorithms": "NAME_BASED_HYPOTHESIS",
+  "api": "FACT",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "SUPPORTED_INFERENCE",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "FACT",
+  "data_structures": "NAME_BASED_HYPOTHESIS",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "FACT",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "FACT",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 948,
+ "frameworks": [
+  "D3",
+  "Next.js",
+  "React",
+  "Supabase",
+  "Tailwind CSS",
+  "Vercel AI SDK"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [],
+ "interfaces": [
+  "4 HTTP routes",
+  "database layer"
+ ],
+ "known_limitations": [
+  "no test suite present in the repository",
+  "no continuous integration workflow"
+ ],
+ "languages": [
+  "CSS",
+  "JavaScript",
+  "SQL",
+  "TypeScript"
+ ],
+ "major_modules": [
+  ".autobuilder",
+  ".startup",
+  "app",
+  "components",
+  "sql",
+  "venture-os"
+ ],
+ "outputs": [],
+ "palette": "coral_teal",
+ "primary_visual_metaphor": "layered render pipeline resolving to a frame",
+ "problem": "A strategy system for helping operators find the real issue, decision, or leverage point faster.",
+ "project_category": "MEDIA",
+ "public_positioning": "A strategy system for helping operators find the real issue, decision, or leverage point faster.",
+ "purpose": "Cruxenio is a media codebase of 948 files organised around policy.",
+ "release": {
+  "commits": "62",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "policy structure in media",
+ "security_model": [
+  "policy evaluation"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "policy with 1 cooperating structures",
+ "status": "PROTOTYPE",
+ "technical_category": "media-engineering",
+ "terminal_story": "a request enters at /admin and traverses the media route table [Cruxenio]",
+ "testing": {
+  "count": 0,
+  "note": "counted from the repository tree, not executed",
+  "present": false
+ },
+ "topics": [
+  "media-engineering",
+  "typescript",
+  "media",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

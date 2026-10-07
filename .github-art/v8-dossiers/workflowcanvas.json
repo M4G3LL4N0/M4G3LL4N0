@@ -1,0 +1,154 @@
+{
+ "API": [],
+ "CI": {
+  "present": false,
+  "workflow_count": 0,
+  "workflows": []
+ },
+ "CLI": true,
+ "CS_visual_1": "stack",
+ "CS_visual_2": "index",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [
+  "index"
+ ],
+ "animation_story_1": "layered render pipeline resolving to a frame",
+ "architecture": "DATA_FLOW",
+ "audience": "",
+ "canonical_name": "WorkflowCanvas",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "control for workflowcanvas enters at public-site/index.html and dispatches to 1 entry points across 0 routes (none) using Next.js",
+ "cs_primitives": [
+  "stack",
+  "index",
+  "pipeline",
+  "agent_graph",
+  "queue"
+ ],
+ "data_flow": "Media: data passes through stack structure",
+ "data_structures": [
+  "stack",
+  "index",
+  "queue"
+ ],
+ "description": "WorkflowCanvas: a media system, structured around stack.",
+ "domain": "Media",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "FACT",
+  "README_outline": "FACT",
+  "algorithms": "FACT",
+  "api": "NAME_BASED_HYPOTHESIS",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "FACT",
+  "data_structures": "FACT",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "SUPPORTED_INFERENCE",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "SUPPORTED_INFERENCE",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 923,
+ "frameworks": [
+  "Next.js",
+  "Prisma",
+  "React",
+  "Tailwind CSS",
+  "Vercel AI SDK",
+  "Zod"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [],
+ "interfaces": [
+  "CLI entry points",
+  "database layer"
+ ],
+ "known_limitations": [
+  "no test suite present in the repository",
+  "no continuous integration workflow"
+ ],
+ "languages": [
+  "CSS",
+  "HTML",
+  "JavaScript",
+  "TypeScript"
+ ],
+ "major_modules": [
+  ".startup",
+  "app",
+  "components",
+  "lib",
+  "prisma",
+  "public-site",
+  "venture-os"
+ ],
+ "outputs": [],
+ "palette": "coral_teal",
+ "primary_visual_metaphor": "layered render pipeline resolving to a frame",
+ "problem": "MVP for a **personalized enterprise workflow canvas**: collect **role, daily tasks, apps, pain points, priorities, and team size**, then generate a **workspace** with **task lanes**, **data widgets**, **automation suggestions**, and **shortcuts**. The **studio** supports **drag-and-drop** to move cards between lanes an",
+ "project_category": "MEDIA",
+ "public_positioning": "Canvas-based workflow design for teams automating complex operations.",
+ "purpose": "Startup portfolio: workflowcanvas",
+ "release": {
+  "commits": "2",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "stack structure in media",
+ "security_model": [
+  "standard dependency hygiene"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "stack with 5 cooperating structures",
+ "status": "PROTOTYPE",
+ "technical_category": "media-engineering",
+ "terminal_story": "operator runs WorkflowCanvas (TypeScript) from the command line; output resolves as a tree [workflowcanvas]",
+ "testing": {
+  "count": 0,
+  "note": "counted from the repository tree, not executed",
+  "present": false
+ },
+ "topics": [
+  "media-engineering",
+  "typescript",
+  "media",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

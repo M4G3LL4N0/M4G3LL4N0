@@ -1,0 +1,94 @@
+{
+ "canonical_name": "computeflow-website",
+ "confidence": "E3",
+ "palette": "mint_violet",
+ "project_category": "DEVELOPER_TOOLS",
+ "repo": "computeflow-website",
+ "slots": [
+  "hero",
+  "terminal",
+  "state_machine",
+  "data_flow",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ],
+ "status": "PROTOTYPE",
+ "storyboard": [
+  {
+   "animation": "tiles lock into a grid as structure forms; 12.0s loop, offset 0.0s",
+   "computer_science_concept": "source transformed through analysis to output",
+   "geometry": "isometric blocks",
+   "material": "D3 density; #95d5b2 on #0f1714; accents #b8a1e6, #ffd6a5",
+   "purpose": "identity -- what the project is at a glance",
+   "slot": "hero"
+  },
+  {
+   "animation": "a command executes and output resolves; 21.2s loop, offset 0.4s",
+   "computer_science_concept": "command execution and structured output",
+   "geometry": "monospace grid",
+   "material": "D2 density; #95d5b2 on #0f1714; accents #b8a1e6, #ffd6a5",
+   "purpose": "how it is operated",
+   "slot": "terminal"
+  },
+  {
+   "animation": "a state machine advances one transition; 13.4s loop, offset 0.8s",
+   "computer_science_concept": "benchmark with 1 cooperating structures",
+   "geometry": "node rosettes",
+   "material": "D2 density; #95d5b2 on #0f1714; accents #b8a1e6, #ffd6a5",
+   "purpose": "how it behaves",
+   "slot": "state_machine"
+  },
+  {
+   "animation": "packets route along edges; 8.6s loop, offset 1.2s",
+   "computer_science_concept": "benchmark structure moves data through 1 stages",
+   "geometry": "pipeline lanes",
+   "material": "D2 density; #95d5b2 on #0f1714; accents #b8a1e6, #ffd6a5",
+   "purpose": "how data moves through it",
+   "slot": "data_flow"
+  },
+  {
+   "animation": "facets rotate open, exposing the interior; 12.9s loop, offset 1.6s",
+   "computer_science_concept": "interface surface: CLI entry points",
+   "geometry": "hinged planes",
+   "material": "D3 density; #95d5b2 on #0f1714; accents #b8a1e6, #ffd6a5",
+   "purpose": "how it is composed",
+   "slot": "component_map"
+  },
+  {
+   "animation": "tests advance and results resolve; 16.9s loop, offset 2.0s",
+   "computer_science_concept": "build evidence: 0 tests, 0 workflows",
+   "geometry": "evidence chips",
+   "material": "D1 density; #95d5b2 on #0f1714; accents #b8a1e6, #ffd6a5",
+   "purpose": "how it is verified",
+   "slot": "build"
+  },
+  {
+   "animation": "concentric rings pulse from a centre; 13.8s loop, offset 2.4s",
+   "computer_science_concept": "control passes through benchmark",
+   "geometry": "concentric rings",
+   "material": "D2 density; #95d5b2 on #0f1714; accents #b8a1e6, #ffd6a5",
+   "purpose": "how it is used",
+   "slot": "workflow"
+  },
+  {
+   "animation": "an index probe walks a sorted key space; 14.1s loop, offset 2.8s",
+   "computer_science_concept": "Developer Tools",
+   "geometry": "key space",
+   "material": "D3 density; #95d5b2 on #0f1714; accents #b8a1e6, #ffd6a5",
+   "purpose": "the problem it addresses",
+   "slot": "domain"
+  },
+  {
+   "animation": "concentric rings pulse from a centre; 19.7s loop, offset 3.2s",
+   "computer_science_concept": "project signature",
+   "geometry": "signature mark",
+   "material": "D2 density; #95d5b2 on #0f1714; accents #b8a1e6, #ffd6a5",
+   "purpose": "identity object -- a small signature mark",
+   "slot": "footer"
+  }
+ ],
+ "surface_count": 9
+}

@@ -1,0 +1,58 @@
+{
+ "canonical_name": "M4G3Ll4N0",
+ "confidence": "E1",
+ "palette": "peach_cyan",
+ "project_category": "PRODUCT",
+ "repo": "M4G3LL4N0",
+ "slots": [
+  "hero",
+  "state_machine",
+  "domain",
+  "workflow",
+  "footer"
+ ],
+ "status": "SCAFFOLD",
+ "storyboard": [
+  {
+   "animation": "tiles lock into a grid as structure forms; 12.0s loop, offset 0.0s",
+   "computer_science_concept": "modular units assembling into a whole",
+   "geometry": "isometric blocks",
+   "material": "D3 density; #ffb4a2 on #1a1214; accents #48cae4, #f9c74f",
+   "purpose": "identity -- what the project is at a glance",
+   "slot": "hero"
+  },
+  {
+   "animation": "a state machine advances one transition; 11.2s loop, offset 0.4s",
+   "computer_science_concept": "no runtime state; repository is a scaffold",
+   "geometry": "transition edges",
+   "material": "D2 density; #ffb4a2 on #1a1214; accents #48cae4, #f9c74f",
+   "purpose": "how it behaves",
+   "slot": "state_machine"
+  },
+  {
+   "animation": "an index probe walks a sorted key space; 15.2s loop, offset 0.8s",
+   "computer_science_concept": "Product",
+   "geometry": "probe path",
+   "material": "D3 density; #ffb4a2 on #1a1214; accents #48cae4, #f9c74f",
+   "purpose": "the problem it addresses",
+   "slot": "domain"
+  },
+  {
+   "animation": "concentric rings pulse from a centre; 12.9s loop, offset 1.2s",
+   "computer_science_concept": "the operating loop",
+   "geometry": "concentric rings",
+   "material": "D2 density; #ffb4a2 on #1a1214; accents #48cae4, #f9c74f",
+   "purpose": "how it is used",
+   "slot": "workflow"
+  },
+  {
+   "animation": "concentric rings pulse from a centre; 15.8s loop, offset 1.6s",
+   "computer_science_concept": "project signature",
+   "geometry": "identity object",
+   "material": "D2 density; #ffb4a2 on #1a1214; accents #48cae4, #f9c74f",
+   "purpose": "identity object -- a small signature mark",
+   "slot": "footer"
+  }
+ ],
+ "surface_count": 5
+}

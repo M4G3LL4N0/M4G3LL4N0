@@ -1,0 +1,161 @@
+{
+ "API": [],
+ "CI": {
+  "present": true,
+  "workflow_count": 1,
+  "workflows": [
+   ".github/workflows/ci.yml"
+  ]
+ },
+ "CLI": true,
+ "CS_visual_1": "event_stream",
+ "CS_visual_2": "index",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "technical_evidence",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [
+  "index",
+  "scheduler"
+ ],
+ "animation_story_1": "stepped queue with workers activating",
+ "architecture": "DATA_FLOW",
+ "audience": "",
+ "canonical_name": "Redwoud",
+ "concurrency_model": "async runtime",
+ "confidence": "E3",
+ "control_flow": "control for redwoud enters at public-site/index.html and dispatches to 1 entry points across 0 routes (none) using D3",
+ "cs_primitives": [
+  "event_stream",
+  "index",
+  "cache",
+  "scheduler"
+ ],
+ "data_flow": "Infrastructure: data passes through event stream structure",
+ "data_structures": [
+  "index",
+  "cache"
+ ],
+ "description": "Redwoud: an infrastructure system, structured around event stream.",
+ "domain": "Infrastructure",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "FACT",
+  "README_outline": "FACT",
+  "algorithms": "FACT",
+  "api": "NAME_BASED_HYPOTHESIS",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "FACT",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "FACT",
+  "data_structures": "FACT",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "FACT",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "SUPPORTED_INFERENCE",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 989,
+ "frameworks": [
+  "D3",
+  "Next.js",
+  "React",
+  "Supabase",
+  "Tailwind CSS",
+  "Vercel AI SDK"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [],
+ "interfaces": [
+  "CLI entry points",
+  "database layer"
+ ],
+ "known_limitations": [
+  "no test suite present in the repository"
+ ],
+ "languages": [
+  "CSS",
+  "HTML",
+  "JavaScript",
+  "Python",
+  "Shell",
+  "TypeScript"
+ ],
+ "major_modules": [
+  ".autobuilder",
+  ".startup",
+  "app",
+  "components",
+  "lib",
+  "pages",
+  "prompts",
+  "public-site",
+  "scripts",
+  "styles",
+  "venture-os"
+ ],
+ "outputs": [],
+ "palette": "slate_amber",
+ "primary_visual_metaphor": "stepped queue with workers activating",
+ "problem": "REDWOUD is an AI-powered real-time global intelligence platform that turns worldwide data, news, market signals, economic indicators, geopolitical developments, and public information into structured, actionable intelligence.",
+ "project_category": "INFRASTRUCTURE",
+ "public_positioning": "Strategic intelligence and signal surfaces for operators who need sharper market reads.",
+ "purpose": "Redwoud is a infrastructure codebase of 989 files organised around event_stream.",
+ "release": {
+  "commits": "242",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "event_stream structure in infrastructure",
+ "security_model": [
+  "standard dependency hygiene"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "event_stream with 4 cooperating structures",
+ "status": "ACTIVE",
+ "technical_category": "distributed-systems",
+ "terminal_story": "operator runs Redwoud (TypeScript) from the command line; output resolves as a tree [redwoud]",
+ "testing": {
+  "count": 0,
+  "note": "counted from the repository tree, not executed",
+  "present": false
+ },
+ "topics": [
+  "distributed-systems",
+  "typescript",
+  "infrastructure",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

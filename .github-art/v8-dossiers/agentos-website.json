@@ -1,0 +1,136 @@
+{
+ "API": [],
+ "CI": {
+  "present": true,
+  "workflow_count": 1,
+  "workflows": [
+   ".github/workflows/ci.yml"
+  ]
+ },
+ "CLI": true,
+ "CS_visual_1": "policy",
+ "CS_visual_2": "simulator",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "technical_evidence",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [],
+ "animation_story_1": "multi-node reasoning path with a verification loop",
+ "architecture": "DISTRIBUTED",
+ "audience": "",
+ "canonical_name": "agentos-website",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "agentos run",
+ "cs_primitives": [
+  "policy",
+  "simulator"
+ ],
+ "data_flow": "Agent: data passes through policy structure",
+ "data_structures": [],
+ "description": "agentos-website: an agent system, structured around policy.",
+ "domain": "Agent",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "FACT",
+  "README_outline": "FACT",
+  "algorithms": "NAME_BASED_HYPOTHESIS",
+  "api": "NAME_BASED_HYPOTHESIS",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "FACT",
+  "data_structures": "NAME_BASED_HYPOTHESIS",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "NAME_BASED_HYPOTHESIS",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "SUPPORTED_INFERENCE",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "FACT",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 36,
+ "frameworks": [],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [
+  "user request"
+ ],
+ "interfaces": [
+  "CLI entry points"
+ ],
+ "known_limitations": [],
+ "languages": [
+  "CSS",
+  "HTML",
+  "JavaScript",
+  "TypeScript"
+ ],
+ "major_modules": [
+  "src"
+ ],
+ "outputs": [
+  "tool calls",
+  "verifiable result"
+ ],
+ "palette": "indigo_lime",
+ "primary_visual_metaphor": "multi-node reasoning path with a verification loop",
+ "problem": "AgentOS is the generic execution and orchestration engine. It accepts an objective, inspects the current state, discovers capabilities, plans a bounded route, executes through an adapter, verifies the result, persists evidence, and decides what to do next. Humans and AI systems can use the same core through the CLI, lo",
+ "project_category": "AGENT",
+ "public_positioning": "Requested is not verified.",
+ "purpose": "Public site for AgentOS \u2014 the execution substrate, explained without the marketing fog.",
+ "release": {
+  "commits": "2",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "policy structure in agent",
+ "security_model": [
+  "policy evaluation"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "policy with 2 cooperating structures",
+ "status": "ACTIVE",
+ "technical_category": "agent-systems",
+ "terminal_story": "operator runs agentos-website (TypeScript) from the command line; output resolves as a tree [agentos-website]",
+ "testing": {
+  "count": 1,
+  "note": "counted from the repository tree, not executed",
+  "present": true
+ },
+ "topics": [
+  "agent-systems",
+  "typescript",
+  "agent",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

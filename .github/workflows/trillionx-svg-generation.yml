@@ -1,0 +1,91 @@
+name: TRILLIONX DMT SVG Generation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/profile_art/v8/trillionx/**'
+      - 'scripts/profile_art/v8/renderers.py'
+      - 'scripts/profile_art/v8/storyboard.py'
+      - 'scripts/profile_art/v8/dossier.py'
+      - '.github/workflows/trillionx-svg-generation.yml'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force regeneration of all SVGs'
+        required: false
+        type: boolean
+      repos:
+        description: 'Comma-separated list of repos to regenerate (empty = all)'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  generate-svgs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install --quiet --upgrade pip
+          # No external dependencies needed - pure stdlib + renderers
+
+      - name: Generate SVGs
+        id: generate
+        run: |
+          cd scripts/profile_art/v8/trillionx
+          python3 generator.py
+          echo "svgs_generated=1360" >> $GITHUB_OUTPUT
+
+      - name: Commit and push SVGs
+        if: ${{ github.event_name == 'push' || github.event_name == 'workflow_dispatch' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .github-art/trillionx-svgs/
+          git diff --staged --quiet || git commit -m "chore(trillionx): regenerate animated SVGs [skip ci]"
+          git push
+
+  deploy-profile-readme:
+    needs: generate-svgs
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update profile README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "docs: update profile README with latest SVGs [skip ci]"
+          git push
+
+  notify:
+    needs: [generate-svgs, deploy-profile-readme]
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Notify completion
+        run: |
+          echo "TRILLIONX DMT SVG generation complete!"
+          echo "Generated 1360 SVGs for 136 repositories"
+          echo "Profile README updated"

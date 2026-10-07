@@ -1,0 +1,144 @@
+{
+ "API": [],
+ "CI": {
+  "present": true,
+  "workflow_count": 1,
+  "workflows": [
+   ".github/workflows/ci.yml"
+  ]
+ },
+ "CLI": true,
+ "CS_visual_1": "stack",
+ "CS_visual_2": "agent_graph",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "technical_evidence",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [],
+ "animation_story_1": "multi-node reasoning path with a verification loop",
+ "architecture": "AGENT_LOOP",
+ "audience": "",
+ "canonical_name": "OpenCode Watchdog",
+ "concurrency_model": "event loop",
+ "confidence": "E3",
+ "control_flow": "ocw run build",
+ "cs_primitives": [
+  "stack",
+  "agent_graph",
+  "policy",
+  "terminal",
+  "queue",
+  "api_flow"
+ ],
+ "data_flow": "Agent: data passes through stack structure",
+ "data_structures": [
+  "stack",
+  "queue"
+ ],
+ "description": "OpenCode Watchdog: an agent system, structured around stack.",
+ "domain": "Agent",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "FACT",
+  "README_outline": "FACT",
+  "algorithms": "NAME_BASED_HYPOTHESIS",
+  "api": "NAME_BASED_HYPOTHESIS",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "FACT",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "FACT",
+  "data_structures": "FACT",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "NAME_BASED_HYPOTHESIS",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "FACT",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "FACT",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 94,
+ "frameworks": [],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [
+  "user request"
+ ],
+ "interfaces": [
+  "CLI entry points"
+ ],
+ "known_limitations": [],
+ "languages": [
+  "JavaScript",
+  "TypeScript"
+ ],
+ "major_modules": [
+  "bin",
+  "fixtures",
+  "scripts",
+  "src"
+ ],
+ "outputs": [
+  "tool calls",
+  "verifiable result"
+ ],
+ "palette": "indigo_lime",
+ "primary_visual_metaphor": "multi-node reasoning path with a verification loop",
+ "problem": "OpenCode Watchdog notices the repetition and safely interrupts the affected session.",
+ "project_category": "AGENT",
+ "public_positioning": "A local circuit breaker for runaway OpenCode sessions.",
+ "purpose": "Local circuit breaker for runaway OpenCode sessions. Deterministic detection, no model, no data leaves the machine.",
+ "release": {
+  "commits": "7",
+  "tags": 1
+ },
+ "secondary_visual_metaphor": "stack structure in agent",
+ "security_model": [
+  "policy evaluation"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "stack with 6 cooperating structures",
+ "status": "ACTIVE",
+ "technical_category": "agent-systems",
+ "terminal_story": "operator runs OpenCode Watchdog (TypeScript) from the command line; output resolves as a tree [opencode-watchdog]",
+ "testing": {
+  "count": 12,
+  "note": "counted from the repository tree, not executed",
+  "present": true
+ },
+ "topics": [
+  "agent-systems",
+  "typescript",
+  "agent",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

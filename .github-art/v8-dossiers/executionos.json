@@ -1,0 +1,150 @@
+{
+ "API": [
+  "/(marketing)"
+ ],
+ "CI": {
+  "present": false,
+  "workflow_count": 0,
+  "workflows": []
+ },
+ "CLI": true,
+ "CS_visual_1": "index",
+ "CS_visual_2": "queue",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [
+  "index"
+ ],
+ "animation_story_1": "stepped queue with workers activating",
+ "architecture": "DOCUMENT",
+ "audience": "",
+ "canonical_name": "ExecutionOS",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "control for executionos enters at public-site/index.html and dispatches to 1 entry points across 1 routes (/(marketing)) using Next.js",
+ "cs_primitives": [
+  "index",
+  "queue"
+ ],
+ "data_flow": "Infrastructure: requests traverse 1 routes (/(marketing))",
+ "data_structures": [
+  "index",
+  "queue"
+ ],
+ "description": "ExecutionOS: an infrastructure system, structured around index.",
+ "domain": "Infrastructure",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "FACT",
+  "README_outline": "FACT",
+  "algorithms": "FACT",
+  "api": "FACT",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "SUPPORTED_INFERENCE",
+  "data_flow": "FACT",
+  "data_structures": "FACT",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "FACT",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "SUPPORTED_INFERENCE",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 957,
+ "frameworks": [
+  "Next.js",
+  "React",
+  "Supabase",
+  "Tailwind CSS",
+  "Vercel AI SDK"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [],
+ "interfaces": [
+  "CLI entry points",
+  "1 HTTP routes",
+  "database layer"
+ ],
+ "known_limitations": [
+  "no test suite present in the repository",
+  "no continuous integration workflow"
+ ],
+ "languages": [
+  "CSS",
+  "HTML",
+  "JavaScript",
+  "TypeScript"
+ ],
+ "major_modules": [
+  ".startup",
+  "app",
+  "components",
+  "public-site",
+  "venture-os"
+ ],
+ "outputs": [],
+ "palette": "slate_amber",
+ "primary_visual_metaphor": "stepped queue with workers activating",
+ "problem": "Venture in startup infrastructure exploring a clearer product direction.",
+ "project_category": "INFRASTRUCTURE",
+ "public_positioning": "Venture in startup infrastructure exploring a clearer product direction.",
+ "purpose": "Startup portfolio: executionos",
+ "release": {
+  "commits": "4",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "index structure in infrastructure",
+ "security_model": [
+  "standard dependency hygiene"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "index with 2 cooperating structures",
+ "status": "PROTOTYPE",
+ "technical_category": "distributed-systems",
+ "terminal_story": "operator runs ExecutionOS (TypeScript) from the command line; output resolves as a tree [executionos]",
+ "testing": {
+  "count": 0,
+  "note": "counted from the repository tree, not executed",
+  "present": false
+ },
+ "topics": [
+  "distributed-systems",
+  "typescript",
+  "infrastructure",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

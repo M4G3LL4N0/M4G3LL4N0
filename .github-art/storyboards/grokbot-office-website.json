@@ -1,0 +1,94 @@
+{
+ "canonical_name": "grokbot-office-website",
+ "confidence": "E3",
+ "palette": "navy_lavender",
+ "project_category": "QUANT_DATA",
+ "repo": "grokbot-office-website",
+ "slots": [
+  "hero",
+  "architecture",
+  "state_machine",
+  "data_flow",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ],
+ "status": "ACTIVE",
+ "storyboard": [
+  {
+   "animation": "tiles lock into a grid as structure forms; 12.0s loop, offset 0.0s",
+   "computer_science_concept": "temporal signal surface with an audit path",
+   "geometry": "isometric blocks",
+   "material": "D3 density; #7c83ff on #0c1024; accents #b794f4, #4cc9f0",
+   "purpose": "identity -- what the project is at a glance",
+   "slot": "hero"
+  },
+  {
+   "animation": "a dependency graph resolves toward its roots; 18.3s loop, offset 0.4s",
+   "computer_science_concept": "module graph over 4 modules",
+   "geometry": "module nodes",
+   "material": "D2 density; #7c83ff on #0c1024; accents #b794f4, #4cc9f0",
+   "purpose": "how it is built",
+   "slot": "architecture"
+  },
+  {
+   "animation": "a state machine advances one transition; 13.4s loop, offset 0.8s",
+   "computer_science_concept": "index with 3 cooperating structures",
+   "geometry": "node rosettes",
+   "material": "D2 density; #7c83ff on #0c1024; accents #b794f4, #4cc9f0",
+   "purpose": "how it behaves",
+   "slot": "state_machine"
+  },
+  {
+   "animation": "packets route along edges; 8.6s loop, offset 1.2s",
+   "computer_science_concept": "MCP JSON-RPC over stdio \u2192 sqlite \u2192 persisted to sqlite",
+   "geometry": "pipeline lanes",
+   "material": "D2 density; #7c83ff on #0c1024; accents #b794f4, #4cc9f0",
+   "purpose": "how data moves through it",
+   "slot": "data_flow"
+  },
+  {
+   "animation": "facets rotate open, exposing the interior; 12.9s loop, offset 1.6s",
+   "computer_science_concept": "interface surface: modules",
+   "geometry": "hinged planes",
+   "material": "D3 density; #7c83ff on #0c1024; accents #b794f4, #4cc9f0",
+   "purpose": "how it is composed",
+   "slot": "component_map"
+  },
+  {
+   "animation": "tests advance and results resolve; 16.9s loop, offset 2.0s",
+   "computer_science_concept": "build evidence: 1 tests, 1 workflows",
+   "geometry": "evidence chips",
+   "material": "D1 density; #7c83ff on #0c1024; accents #b794f4, #4cc9f0",
+   "purpose": "how it is verified",
+   "slot": "build"
+  },
+  {
+   "animation": "concentric rings pulse from a centre; 13.8s loop, offset 2.4s",
+   "computer_science_concept": "grokbot-office run build",
+   "geometry": "concentric rings",
+   "material": "D2 density; #7c83ff on #0c1024; accents #b794f4, #4cc9f0",
+   "purpose": "how it is used",
+   "slot": "workflow"
+  },
+  {
+   "animation": "an index probe walks a sorted key space; 14.1s loop, offset 2.8s",
+   "computer_science_concept": "Quant Data",
+   "geometry": "key space",
+   "material": "D3 density; #7c83ff on #0c1024; accents #b794f4, #4cc9f0",
+   "purpose": "the problem it addresses",
+   "slot": "domain"
+  },
+  {
+   "animation": "concentric rings pulse from a centre; 19.7s loop, offset 3.2s",
+   "computer_science_concept": "project signature",
+   "geometry": "signature mark",
+   "material": "D2 density; #7c83ff on #0c1024; accents #b794f4, #4cc9f0",
+   "purpose": "identity object -- a small signature mark",
+   "slot": "footer"
+  }
+ ],
+ "surface_count": 9
+}

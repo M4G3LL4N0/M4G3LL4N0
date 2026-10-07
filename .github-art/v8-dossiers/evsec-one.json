@@ -1,0 +1,165 @@
+{
+ "API": [
+  "/about",
+  "/dashboard",
+  "/onboarding",
+  "/pricing",
+  "/scan",
+  "/sign-in",
+  "/sign-up"
+ ],
+ "CI": {
+  "present": false,
+  "workflow_count": 0,
+  "workflows": []
+ },
+ "CLI": true,
+ "CS_visual_1": "policy",
+ "CS_visual_2": "index",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [
+  "index"
+ ],
+ "animation_story_1": "protected core behind a trust boundary",
+ "architecture": "DATA_FLOW",
+ "audience": "",
+ "canonical_name": "EvSec-One",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "control for evsec-one enters at public-site/index.html and dispatches to 1 entry points across 8 routes (/, /about, /dashboard) using D3",
+ "cs_primitives": [
+  "policy",
+  "index",
+  "queue",
+  "simulator"
+ ],
+ "data_flow": "Security: requests traverse 8 routes (/, /about, /dashboard, /onboarding)",
+ "data_structures": [
+  "index",
+  "queue"
+ ],
+ "description": "EvSec-One: a security system, structured around policy.",
+ "domain": "Security",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "FACT",
+  "README_outline": "FACT",
+  "algorithms": "FACT",
+  "api": "FACT",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "FACT",
+  "data_structures": "FACT",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "SUPPORTED_INFERENCE",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "FACT",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 981,
+ "frameworks": [
+  "D3",
+  "Next.js",
+  "React",
+  "Supabase",
+  "Tailwind CSS",
+  "Vercel AI SDK",
+  "Zod"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [],
+ "interfaces": [
+  "CLI entry points",
+  "8 HTTP routes",
+  "database layer"
+ ],
+ "known_limitations": [
+  "no test suite present in the repository",
+  "no continuous integration workflow"
+ ],
+ "languages": [
+  "CSS",
+  "HTML",
+  "JavaScript",
+  "SQL",
+  "TypeScript"
+ ],
+ "major_modules": [
+  ".autobuilder",
+  ".startup",
+  "app",
+  "components",
+  "lib",
+  "public-site",
+  "supabase",
+  "venture-os"
+ ],
+ "outputs": [],
+ "palette": "graphite_coral",
+ "primary_visual_metaphor": "protected core behind a trust boundary",
+ "problem": "Operational security for serious builders.",
+ "project_category": "SECURITY",
+ "public_positioning": "Operational security for serious builders.",
+ "purpose": "evsec one. build via `package.json`.",
+ "release": {
+  "commits": "75",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "policy structure in security",
+ "security_model": [
+  "trust boundary enforcement",
+  "policy evaluation"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "policy with 4 cooperating structures",
+ "status": "PROTOTYPE",
+ "technical_category": "security-engineering",
+ "terminal_story": "operator runs EvSec-One (TypeScript) from the command line; output resolves as a tree [evsec-one]",
+ "testing": {
+  "count": 0,
+  "note": "counted from the repository tree, not executed",
+  "present": false
+ },
+ "topics": [
+  "security-engineering",
+  "typescript",
+  "security",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}

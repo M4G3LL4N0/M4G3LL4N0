@@ -1,0 +1,157 @@
+{
+ "API": [],
+ "CI": {
+  "present": false,
+  "workflow_count": 0,
+  "workflows": []
+ },
+ "CLI": true,
+ "CS_visual_1": "api_flow",
+ "CS_visual_2": "cache",
+ "README_outline": [
+  "hero",
+  "what_it_is",
+  "how_it_works",
+  "computational_model",
+  "interfaces",
+  "status",
+  "limitations"
+ ],
+ "algorithms": [
+  "index",
+  "scheduler"
+ ],
+ "animation_story_1": "stepped queue with workers activating",
+ "architecture": "DATA_FLOW",
+ "audience": "",
+ "canonical_name": "SunsetX",
+ "concurrency_model": "",
+ "confidence": "E3",
+ "control_flow": "control for SUNSETX enters at public-site/index.html and dispatches to 1 entry points across 1 routes (/) using D3",
+ "cs_primitives": [
+  "api_flow",
+  "cache",
+  "index",
+  "crypto",
+  "scheduler"
+ ],
+ "data_flow": "Infrastructure: requests traverse 1 routes (/)",
+ "data_structures": [
+  "cache",
+  "index"
+ ],
+ "description": "SunsetX: an infrastructure system, structured around api flow.",
+ "domain": "Infrastructure",
+ "evidence": {
+  "CI": "FACT",
+  "CS_visual_1": "FACT",
+  "CS_visual_2": "FACT",
+  "README_outline": "FACT",
+  "algorithms": "FACT",
+  "api": "NAME_BASED_HYPOTHESIS",
+  "architecture": "FACT",
+  "audience": "NAME_BASED_HYPOTHESIS",
+  "canonical_name": "FACT",
+  "cli": "FACT",
+  "concurrency_model": "NAME_BASED_HYPOTHESIS",
+  "confidence": "FACT",
+  "control_flow": "FACT",
+  "data_flow": "FACT",
+  "data_structures": "FACT",
+  "description": "SUPPORTED_INFERENCE",
+  "domain": "SUPPORTED_INFERENCE",
+  "frameworks": "FACT",
+  "homepage": "NAME_BASED_HYPOTHESIS",
+  "inputs": "SUPPORTED_INFERENCE",
+  "interfaces": "FACT",
+  "known_limitations": "FACT",
+  "languages": "FACT",
+  "major_modules": "FACT",
+  "outputs": "SUPPORTED_INFERENCE",
+  "primary_visual_metaphor": "FACT",
+  "problem": "FACT",
+  "project_category": "FACT",
+  "public_positioning": "FACT",
+  "purpose": "SUPPORTED_INFERENCE",
+  "release": "FACT",
+  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
+  "security_model": "SUPPORTED_INFERENCE",
+  "state_model": "FACT",
+  "status": "FACT",
+  "terminal_story": "FACT",
+  "testing": "FACT",
+  "topics": "SUPPORTED_INFERENCE",
+  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ },
+ "file_count": 997,
+ "frameworks": [
+  "D3",
+  "Next.js",
+  "OpenAI SDK",
+  "React",
+  "Supabase",
+  "Tailwind CSS",
+  "Vercel AI SDK"
+ ],
+ "has_code": true,
+ "homepage": "",
+ "inputs": [],
+ "interfaces": [
+  "CLI entry points",
+  "1 HTTP routes",
+  "database layer"
+ ],
+ "known_limitations": [
+  "no test suite present in the repository",
+  "no continuous integration workflow"
+ ],
+ "languages": [
+  "CSS",
+  "HTML",
+  "JavaScript",
+  "TypeScript"
+ ],
+ "major_modules": [
+  ".autobuilder",
+  ".startup",
+  "app",
+  "components",
+  "path",
+  "public-site",
+  "supabase",
+  "venture-os"
+ ],
+ "outputs": [],
+ "palette": "slate_amber",
+ "primary_visual_metaphor": "stepped queue with workers activating",
+ "problem": "Cinematic lifestyle systems for modern escapes.",
+ "project_category": "INFRASTRUCTURE",
+ "public_positioning": "Cinematic lifestyle systems for modern escapes.",
+ "purpose": "SUNSETX predicts and ranks the best sunset experiences using weather, location, and environmental data. Real-time scoring, peak timing, and smart recommendations for where to go and when.",
+ "release": {
+  "commits": "110",
+  "tags": 0
+ },
+ "secondary_visual_metaphor": "api_flow structure in infrastructure",
+ "security_model": [
+  "cryptographic verification"
+ ],
+ "source_origin": "portfolio",
+ "state_model": "api_flow with 5 cooperating structures",
+ "status": "PROTOTYPE",
+ "technical_category": "distributed-systems",
+ "terminal_story": "operator runs SunsetX (TypeScript) from the command line; output resolves as a tree [SUNSETX]",
+ "testing": {
+  "count": 0,
+  "note": "counted from the repository tree, not executed",
+  "present": false
+ },
+ "topics": [
+  "distributed-systems",
+  "typescript",
+  "infrastructure",
+  "dung30n5",
+  "noaerth"
+ ],
+ "website_positioning": ""
+}
