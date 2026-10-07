@@ -40,6 +40,11 @@ CATEGORY_BLURB = {
 }
 
 
+def markers(name: str, body: str) -> str:
+    """Wrap a generated section in the markers the profile test enforces."""
+    return f"<!-- {name}:start -->\n{body}\n<!-- {name}:end -->"
+
+
 def picture(slot: str, alt: str, branch: str = "main") -> str:
     base = (f"https://raw.githubusercontent.com/{E.OWNER}/{E.OWNER}/{branch}"
             f"/.github-art/surfaces")
@@ -47,7 +52,7 @@ def picture(slot: str, alt: str, branch: str = "main") -> str:
         "<picture>",
         f'  <source media="(prefers-reduced-motion: reduce)" srcset="{base}/{slot}-reduced.svg">',
         f'  <source media="(prefers-color-scheme: light)" srcset="{base}/{slot}-light.svg">',
-        f'  <img alt="{alt}" src="{base}/{slot}.svg">',
+        f'  <img alt="{alt}" src="{base}/{slot}-motion.svg">',
         "</picture>",
     ])
 
@@ -99,10 +104,27 @@ def build() -> str:
     a("")
 
     # ---- measured facts ---------------------------------------------------
+    # Restate build-signal.json rather than recomputing it. That file is the
+    # defined metric source (regenerated from the live API) and its own
+    # generator states the README block must reuse it so the two cannot drift.
+    signal_path = PROFILE / "assets" / "profile" / "build-signal.json"
+    if signal_path.exists():
+        sig = json.loads(signal_path.read_text())
+        rows = "\n".join(f"| {m['label']} | {m['display']} |" for m in sig["metrics"])
+        a(markers("signal", "## Build signal\n\n" + rows))
+        a("")
+        a(f"<sub>Counted by `{signal_path.name.partition('.')[0]}-data`, "
+          f"regenerated {sig.get('generated_at', 'from the live API')}. "
+          f"Systems exclude site-only and identity repositories.</sub>")
+        a("")
+
     a("## What is actually here")
     a("")
     a("These are counted from the repositories themselves, not estimated. "
       "The generator that produces this file walks every tree.")
+    a("")
+    a("Counted by walking each tree in this pass. The build signal below uses a "
+      "different, deliberately narrower definition.")
     a("")
     a("| | |")
     a("| --- | --- |")
@@ -112,8 +134,8 @@ def build() -> str:
     a(f"| HTTP routes | {routes:,} |")
     a(f"| Entry points | {entries:,} |")
     a(f"| Module roots | {modules:,} |")
-    a(f"| Test files | {tests:,} across {tested_repos} repositories |")
-    a(f"| CI workflows | {ci} across {ci_repos} repositories |")
+    a(f"| Test files found in trees | {tests:,} across {tested_repos} repositories |")
+    a(f"| CI workflow files | {ci} across {ci_repos} repositories |")
     a(f"| Generated surfaces | {surfaces:,} files, {slots:,} slots |")
     a(f"| NOAERTH venture cards | {len(cards)} |")
     a("")
@@ -123,7 +145,7 @@ def build() -> str:
     a("")
 
     # ---- method -----------------------------------------------------------
-    a("## How each repository is documented")
+    a(markers("githubos", "## How each repository is documented"))
     a("")
     a("No repository description here is written from its name. For every "
       "repository the tooling measures the tree, then writes:")
@@ -141,7 +163,7 @@ def build() -> str:
     a("")
 
     # ---- portfolio by category -------------------------------------------
-    a("## Portfolio shape")
+    a(markers("upstream", "## Portfolio shape"))
     a("")
     a("| Category | Repositories | |")
     a("| --- | --- | --- |")
@@ -151,7 +173,7 @@ def build() -> str:
     a("")
 
     # ---- live ventures ----------------------------------------------------
-    a("## Ventures with a live surface")
+    a(markers("labs", "## Ventures with a live surface"))
     a("")
     a(f"{len(live_cards)} of {len(cards)} venture cards on {SITE} report a live "
       "surface. Each links to its own site and repository.")

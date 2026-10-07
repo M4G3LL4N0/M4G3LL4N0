@@ -93,8 +93,6 @@ def picture_block(branch: str, repo: str, slots: list[str]) -> str:
         "workflow": "Workflow", "domain": "Domain", "footer": "Identity object",
     }
     for slot in slots:
-        # render_art.py names the dark default <slot>.svg, not <slot>-dark.svg.
-        # Pointing the README at the wrong stem silently breaks every image.
         title = titles.get(slot, slot)
         out += [
             f"#### {title}",
@@ -102,7 +100,7 @@ def picture_block(branch: str, repo: str, slots: list[str]) -> str:
             "<picture>",
             f'  <source media="(prefers-reduced-motion: reduce)" srcset="{base}/{slot}-reduced.svg">',
             f'  <source media="(prefers-color-scheme: light)" srcset="{base}/{slot}-light.svg">',
-            f'  <img alt="{title} diagram for {repo}" src="{base}/{slot}.svg">',
+            f'  <img alt="{title} diagram for {repo}" src="{base}/{slot}-motion.svg">',
             "</picture>",
             "",
         ]
@@ -210,6 +208,14 @@ def publish_repo(gh: GitHub, name: str, entry: dict, d: dict,
         "path": "README.md", "mode": "100644", "type": "blob",
         "content": new_readme,
     })
+    # Remove the superseded <slot>.svg names so a rename does not leave an
+    # orphaned duplicate set behind in every repository.
+    live = {f"{ART_DIR}/{f.name}" for f in files}
+    for slot in slots:
+        legacy = f"{ART_DIR}/{slot}.svg"
+        if legacy not in live:
+            tree_entries.append({"path": legacy, "mode": "100644",
+                                 "type": "blob", "sha": None})
 
     missing = verify_block(block, art_dir)
     if missing:

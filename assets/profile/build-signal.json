@@ -1,43 +1,43 @@
 {
-  "generated_at": "2026-10-05T22:52:03+00:00",
+  "generated_at": "2026-10-07T20:31:18+00:00",
   "owner": "M4G3LL4N0",
-  "source": "enriched repos.json snapshot + tests.json (operator-recorded test counts)",
+  "source": "GitHub API + tests.json (operator-recorded test counts)",
   "excludes": "site-only (*-website) and identity surfaces are not engineering systems",
   "metrics": [
     {
       "key": "public_systems",
       "label": "SYSTEMS",
       "note": "public engineering repositories",
-      "value": 8,
-      "display": "8"
+      "value": 86,
+      "display": "86"
     },
     {
       "key": "verified_tests",
       "label": "TESTS",
       "note": "tests run and recorded by an operator",
-      "value": 2032,
-      "display": "2,032"
+      "value": 1886,
+      "display": "1,886"
     },
     {
       "key": "ci_backed",
       "label": "CI",
       "note": "systems whose latest workflow run passed",
-      "value": 6,
-      "display": "6"
+      "value": 5,
+      "display": "5"
     },
     {
       "key": "public_releases",
       "label": "RELEASES",
       "note": "GitHub releases published",
-      "value": 9,
-      "display": "9"
+      "value": 8,
+      "display": "8"
     },
     {
       "key": "active_public",
       "label": "ACTIVE",
       "note": "public systems with a commit in the last 180 days",
-      "value": 8,
-      "display": "8"
+      "value": 86,
+      "display": "86"
     }
   ],
   "omitted_zero_metrics": [
@@ -52,17 +52,323 @@
     "repositories": []
   },
   "per_system": {
+    "1bc": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "access-layer": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "agentapi-hub": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "agentcore-silicon": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
     "agentos": {
       "tests": 710,
       "releases": 1,
       "latest_release": "v0.5.0",
       "license": "MIT"
     },
+    "ai-dev-workflow-starter": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "autoerp": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "Ayncient": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "BehindCurtain": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "betterfintech": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "bioyield-labs": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "blitzproof": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "blitzunicorn": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "Bourgaeux": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "BrandCrossover": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "buildloop-usa": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "cannex-logistics": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "cheetahbearfuel": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "childdevos": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "chipflow": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "claimpilot-ai": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "cleanstack-macos": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "cleanstack-os": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "cloudcastle": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "commos": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "companyos": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "computeflow": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "cortexhq": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "cropshield-ai": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "Cruxenio": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "CxNTRADICT": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "datatherapy": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "deploylocal": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "devstate": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "EmailSimple": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "enterprisepilot": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "evalforge": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "evsec-one": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "EVSec.one": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "execmemory-ai": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "executionos": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "fastprocure-ai": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "ForeverLuvd": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "forgeflow": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "founderskingdom": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "freeconomie": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "fullofshit": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "FundMind": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "FungMind": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "gamecombo": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "genotwin-health": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
     "gh0st": {
       "tests": 27,
       "releases": 1,
       "latest_release": "v1.0.0-rc.1",
       "license": "MIT"
+    },
+    "ghostframe": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
     },
     "grokbot-office": {
       "tests": 149,
@@ -76,9 +382,15 @@
       "latest_release": "v0.1.0",
       "license": "NOASSERTION"
     },
+    "grokgeneral": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
     "grokinstall": {
       "tests": 486,
-      "releases": 1,
+      "releases": 2,
       "latest_release": "v0.1.1",
       "license": "MIT"
     },
@@ -88,17 +400,173 @@
       "latest_release": "v0.2.0-rc.2",
       "license": "MIT"
     },
+    "HackerzArt": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "happyblock": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "imessage": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "interceptorgrid": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "lagrangeos": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "ledgerops-ai": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "legacybridge": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "life-finds-a-way": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "loopcompute-cloud": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "lunarfoundry": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "luvconvos": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "luvpartnr": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "luvstories": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "Modex": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "morphui": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "n1-therapeutics": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "NaextBlock": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "nex-robotix": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "node_modules": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "obviouslybad": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "oddbotix": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "oodax": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
     "opencode-watchdog": {
       "tests": 70,
       "releases": 1,
       "latest_release": "v0.1.0",
       "license": "MIT"
     },
-    "seai-mind": {
-      "tests": 146,
-      "releases": 1,
-      "latest_release": "v0.1.0-alpha",
-      "license": "MIT"
+    "opsautopilot": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "orbitchip": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "orbitprint": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "poolwater": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
+    },
+    "psychemap": {
+      "tests": null,
+      "releases": 0,
+      "latest_release": "",
+      "license": null
     }
   }
 }

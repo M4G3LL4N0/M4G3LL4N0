@@ -28,7 +28,10 @@ import renderers as R  # noqa: E402
 PROFILE = HERE.parents[2]
 OUT = PROFILE / ".github-art" / "v8-art"
 
-VARIANTS = (("dark", False, True), ("light", True, True), ("reduced", False, False))
+# The animated dark variant is named -motion so motion is explicit in the
+# filename, matching the convention the profile README test enforces
+# (hero-motion.svg) and the assets/hero/ set that already exists.
+VARIANTS = (("motion", False, True), ("light", True, True), ("reduced", False, False))
 
 
 def render_repo(d: dict, out_dir: pathlib.Path) -> list[str]:
@@ -39,7 +42,7 @@ def render_repo(d: dict, out_dir: pathlib.Path) -> list[str]:
             continue
         for suffix, light, motion in VARIANTS:
             svg = R.render(slot, d, d["repo"], light=light, motion=motion)
-            fname = f"{slot}-{suffix}.svg" if suffix != "dark" else f"{slot}.svg"
+            fname = f"{slot}-{suffix}.svg"
             (out_dir / fname).write_text(svg)
             written.append(fname)
     return written
@@ -69,6 +72,9 @@ def main() -> int:
         d = E.build(name, rec, cards.get(name.lower()), baseline.get(name, {}), signature)
         dest = out_root / name
         files = render_repo(d, dest)
+        for stale in dest.glob("*.svg"):
+            if stale.name not in files:
+                stale.unlink()
         size = sum((dest / f).stat().st_size for f in files)
         manifest[name] = {
             "slots": d["slots"],
