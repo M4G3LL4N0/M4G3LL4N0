@@ -104,19 +104,16 @@ def build() -> str:
     a("")
 
     # ---- measured facts ---------------------------------------------------
-    # Restate build-signal.json rather than recomputing it. That file is the
-    # defined metric source (regenerated from the live API) and its own
-    # generator states the README block must reuse it so the two cannot drift.
-    signal_path = PROFILE / "assets" / "profile" / "build-signal.json"
-    if signal_path.exists():
-        sig = json.loads(signal_path.read_text())
-        rows = "\n".join(f"| {m['label']} | {m['display']} |" for m in sig["metrics"])
-        a(markers("signal", "## Build signal\n\n" + rows))
-        a("")
-        a(f"<sub>Counted by `{signal_path.name.partition('.')[0]}-data`, "
-          f"regenerated {sig.get('generated_at', 'from the live API')}. "
-          f"Systems exclude site-only and identity repositories.</sub>")
-        a("")
+    # The signal and upstream blocks are owned by render_v7_signal.py and
+    # render_upstream_block.py, which the CI gate re-runs and diffs. Emitting
+    # placeholder markers here keeps a single writer per block; writing the
+    # numbers twice is how the two drifted apart in the first place.
+    a("<!-- signal:start -->")
+    a("<!-- signal:end -->")
+    a("")
+    a("<!-- upstream:start -->")
+    a("<!-- upstream:end -->")
+    a("")
 
     a("## What is actually here")
     a("")
@@ -163,7 +160,7 @@ def build() -> str:
     a("")
 
     # ---- portfolio by category -------------------------------------------
-    a(markers("upstream", "## Portfolio shape"))
+    a("## Portfolio shape")
     a("")
     a("| Category | Repositories | |")
     a("| --- | --- | --- |")

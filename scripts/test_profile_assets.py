@@ -25,9 +25,14 @@ from pathlib import Path
 PROFILE = Path(__file__).resolve().parents[1]
 README = PROFILE / "README.md"
 ASSETS = PROFILE / "assets" / "profile"
+
+# The README signal block is written by render_v7_signal.py from
+# data/v7-signal.json and the CI gate re-runs that renderer and diffs the
+# result. Asserting against assets/profile/build-signal.json instead left two
+# sources of truth for one block, so the test and the gate disagreed.
 SOCIAL = PROFILE / "assets" / "social-preview.svg"
 EVIDENCE = PROFILE / "system-map-evidence.json"
-SIGNAL = ASSETS / "build-signal.json"
+SIGNAL = PROFILE / "data" / "v7-signal.json"
 
 OWNER = "M4G3LL4N0"
 SVG_NS = "{http://www.w3.org/2000/svg}"
@@ -458,14 +463,27 @@ class TestBoundedSections(unittest.TestCase):
     def test_signal_block_matches_generated_data(self):
         signal = json.loads(SIGNAL.read_text(encoding="utf-8"))
         block = re.search(r"<!-- signal:start -->.*?<!-- signal:end -->", readme(), re.S).group(0)
-        for metric in signal["metrics"]:
-            self.assertIn(metric["display"], block,
-                          f"{metric['label']} value missing from the signal block")
+        if "metrics" in signal:
+            metrics = [(m["label"], m["display"]) for m in signal["metrics"]]
+        else:
+            eng, scope = signal["engineering"], signal["scope"]
+            metrics = [
+                ("Public repositories", f"{scope['public_repositories']:,}"),
+                ("Tests verified", f"{eng['measured_tests']:,}"),
+                ("CI workflows", str(eng["ci_configured"])),
+                ("Releases", str(eng["releases"])),
+                ("READMEs", str(eng["readmes_complete"])),
+                ("SECURITY.md", str(eng["security_policies"])),
+            ]
+        for label, display in metrics:
+            self.assertIn(display, block,
+                          f"{label} value {display} missing from the signal block")
 
     def test_upstream_section_is_not_faked(self):
         """Zero real external contributions means no visible Upstream section."""
         signal = json.loads(SIGNAL.read_text(encoding="utf-8"))
-        if signal["upstream"]["external_merged_prs"] == 0:
+        # Match render_upstream_block.py, which treats a missing key as zero.
+        if signal.get("upstream", {}).get("external_merged_prs", 0) == 0:
             self.assertNotIn("## Upstream Signal", readme(),
                              "an upstream graphic with no upstream contributions is decoration")
 
