@@ -1,10 +1,10 @@
 {
  "$comment": "Design-controlled asset hashes. Automation must not alter these unless design_source_sha changes. See scripts/profile_art/art_lock.py.",
  "bounded_readme_regions": {
-  "githubos": "d8afa8806d6a2c4e33dd43d105682564c109540b1a4afd711542abaea2f65a9e",
-  "labs": "9b2e9934f2f9a470b0d1d08c76c3a090188ce20a2bffd84f8ae4cfb9c205611d",
-  "signal": "f9355f9d499643ad4ccab6f1ba1def7211f444d352912c3406783cb920be4e6f",
-  "upstream": "252f8aac3db9da37e4935bc3c15a28397b105c4afef5be22bd69422befb8903d"
+  "githubos": "5ec9078ff19baf63514e73b6c40a597f72bfb741eefa82632240f1b55dd6d9de",
+  "labs": "1a4c5144e675c8dfdb1e25f8ab862b81efd0a41f84a2add2b479eca9e20defcc",
+  "signal": "cef371577d284c4bdd1d6fbdf8bb07f5422898800d6e774cafd96a095ff66880",
+  "upstream": "f09c9e782494357ac02768555fe4eeaf6259e6ed77fea6fe59cd0b7f7ea13752"
  },
  "design_assets": {
   "assets/profile/avatar/avatar-hybrid.svg": "8ab92cac4a69c19dfa77f18c8406a78f930baa6bcd340c1e397f2cd2fe7b931a",
@@ -20,11 +20,11 @@
   "assets/profile/cards/grokmax-light.svg": "075e9973316825165f8f754a2615107cecfe94d2f787932b22437fb61f18ac85",
   "assets/profile/cards/opencode-watchdog-dark.svg": "9ba373351fa170da70a7058d62548a60832fb1cfef0440f890201c7c51097ebe",
   "assets/profile/cards/opencode-watchdog-light.svg": "38ed6113325f0374d807c48ba81dd80cb62673f3323964b40ae81f2b5b73dc20",
-  "assets/profile/hero-dark-compact.svg": "dc5baea85621c6ec8fb098b5592506ae4e729861dd44068ac1b54e2b6ca63482",
-  "assets/profile/hero-dark.svg": "dc5baea85621c6ec8fb098b5592506ae4e729861dd44068ac1b54e2b6ca63482",
-  "assets/profile/hero-light-compact.svg": "46e9d3b1baa2dcd9090c807d677eb53278541f463139b4730f4237e34f70d619",
-  "assets/profile/hero-light.svg": "46e9d3b1baa2dcd9090c807d677eb53278541f463139b4730f4237e34f70d619",
-  "assets/profile/hero-motion.svg": "59fbaab33afba1a4ea02afc069da8d5851c391812980ebc78a2a4a9ffd869fae",
+  "assets/profile/hero-dark-compact.svg": "5fd55f83bf52c8f3f3065ac04b6f8fe172fd73bed9bf056637a35678d786a0ad",
+  "assets/profile/hero-dark.svg": "5fd55f83bf52c8f3f3065ac04b6f8fe172fd73bed9bf056637a35678d786a0ad",
+  "assets/profile/hero-light-compact.svg": "0e5088d0b0c92feb7411fc8f243e2c5ec2ac839fbbafb41a0abd3205322b66f7",
+  "assets/profile/hero-light.svg": "0e5088d0b0c92feb7411fc8f243e2c5ec2ac839fbbafb41a0abd3205322b66f7",
+  "assets/profile/hero-motion.svg": "0eae701341fae8830fafd76e5735bdae6eabd85c5ce924df6144cba1a2158452",
   "assets/profile/nav/noaerth-dark.svg": "b647e0427f6401f939cd2a093c25541c1307e44094eae2cce689862ebfd279a9",
   "assets/profile/nav/noaerth-light.svg": "d559733b78f50bab20c5ad8b7d284e3bdae7b29ebb0c9a0a92535df57909cb30",
   "assets/profile/nav/open-source-dark.svg": "481ec77f0e82de54133853f60aee4553d36bed6b9e6e1a920b35b6e83b16891b",
@@ -54,11 +54,11 @@
   "assets/profile/windows/opencode-watchdog-light.svg": "7095bcb4d7f097fb65ce837d63103ff05900c9aa2dc24341932f18be7fb59a24",
   "assets/social-preview.svg": "a2fd3735a057b26384ff82cf544290edb53e3166e8533de95e85c662e5986b66"
  },
- "design_source_sha": "fcdcb3a3d4c7a3fe286f223c36a344ffad3b746d3edcf8d4bc07692986783fc3",
+ "design_source_sha": "f9abc6b07598f36aef950f6cc0ab3425293bd6bca89503ad52ed0c6822332598",
  "design_version": "V6",
  "factual_assets": {
   "assets/profile/build-signal-dark.svg": "5c04d9c96c6dea7c6ddb13fe0b108a320eb9bad0284be6169d2988cf817508fd",
   "assets/profile/build-signal-light.svg": "bbb408e5d6cffffa8949b4398b81a68a79af0c411249d9b15b9f9eb9d20abd64",
-  "assets/profile/build-signal.json": "ac931d2951fc02ab078370ff67c77e460fb995e66a0198abf3c1160237a1e89c"
+  "assets/profile/build-signal.json": "f0dd4c7f20a38f99ac6ec00dde4a4583d704aca5e507c8ab74a3f01bf4cface8"
  }
 }
