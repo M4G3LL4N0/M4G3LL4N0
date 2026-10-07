@@ -7,9 +7,23 @@
 
 <p align="center">I build the operating layer for venture creation: 136 public repositories, each one a working surface rather than a promise. <a href="https://www.noaerth.com">noaerth.com</a> is the parent.</p>
 
+<!-- signal:start -->
+## Build signal
+
+| SYSTEMS | 86 |
+| TESTS | 1,886 |
+| CI | 5 |
+| RELEASES | 8 |
+| ACTIVE | 86 |
+<!-- signal:end -->
+
+<sub>Counted by `build-signal-data`, regenerated 2026-10-07T20:31:18+00:00. Systems exclude site-only and identity repositories.</sub>
+
 ## What is actually here
 
 These are counted from the repositories themselves, not estimated. The generator that produces this file walks every tree.
+
+Counted by walking each tree in this pass. The build signal below uses a different, deliberately narrower definition.
 
 | | |
 | --- | --- |
@@ -19,14 +33,16 @@ These are counted from the repositories themselves, not estimated. The generator
 | HTTP routes | 2,075 |
 | Entry points | 225 |
 | Module roots | 477 |
-| Test files | 211 across 20 repositories |
-| CI workflows | 25 across 14 repositories |
+| Test files found in trees | 211 across 20 repositories |
+| CI workflow files | 25 across 14 repositories |
 | Generated surfaces | 3,501 files, 1,167 slots |
 | NOAERTH venture cards | 107 |
 
 Honest status split: **prototype** 107, **tested** 13, **live** 9, **scaffold** 6, **portfolio** 1. Most of this portfolio is a prototype stage, and the labels say so.
 
+<!-- githubos:start -->
 ## How each repository is documented
+<!-- githubos:end -->
 
 No repository description here is written from its name. For every repository the tooling measures the tree, then writes:
 
@@ -36,7 +52,9 @@ No repository description here is written from its name. For every repository th
 
 Framework claims are matched against exact dependency keys. An earlier build substring-matched manifest text, which reported the AI SDK for 118 of 136 repositories because `ai` occurs inside `tailwindcss`. That was wrong and is now 0.
 
+<!-- upstream:start -->
 ## Portfolio shape
+<!-- upstream:end -->
 
 | Category | Repositories | |
 | --- | --- | --- |
@@ -50,7 +68,9 @@ Framework claims are matched against exact dependency keys. An earlier build sub
 | Simulation | 1 | State-space and simulation harnesses. |
 | Data Structure | 1 | Index and lookup structures. |
 
+<!-- labs:start -->
 ## Ventures with a live surface
+<!-- labs:end -->
 
 13 of 107 venture cards on https://www.noaerth.com report a live surface. Each links to its own site and repository.
 
@@ -77,55 +97,55 @@ These are the profile repository's own surfaces, regenerated from the same measu
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/hero-reduced.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/hero-light.svg">
-  <img alt="Portfolio identity" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/hero.svg">
+  <img alt="Portfolio identity" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/hero-motion.svg">
 </picture>
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/terminal-reduced.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/terminal-light.svg">
-  <img alt="Measured totals" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/terminal.svg">
+  <img alt="Measured totals" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/terminal-motion.svg">
 </picture>
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/architecture-reduced.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/architecture-light.svg">
-  <img alt="Module roots across the portfolio" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/architecture.svg">
+  <img alt="Module roots across the portfolio" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/architecture-motion.svg">
 </picture>
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/data_flow-reduced.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/data_flow-light.svg">
-  <img alt="Routes across the portfolio" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/data_flow.svg">
+  <img alt="Routes across the portfolio" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/data_flow-motion.svg">
 </picture>
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/state_machine-reduced.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/state_machine-light.svg">
-  <img alt="Detected primitives" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/state_machine.svg">
+  <img alt="Detected primitives" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/state_machine-motion.svg">
 </picture>
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/component_map-reduced.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/component_map-light.svg">
-  <img alt="Category composition" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/component_map.svg">
+  <img alt="Category composition" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/component_map-motion.svg">
 </picture>
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/build-reduced.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/build-light.svg">
-  <img alt="Build and test inventory" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/build.svg">
+  <img alt="Build and test inventory" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/build-motion.svg">
 </picture>
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/workflow-reduced.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/workflow-light.svg">
-  <img alt="Portfolio categories" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/workflow.svg">
+  <img alt="Portfolio categories" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/workflow-motion.svg">
 </picture>
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/domain-reduced.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/domain-light.svg">
-  <img alt="Domain" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/domain.svg">
+  <img alt="Domain" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/domain-motion.svg">
 </picture>
 
 ## Contact and elsewhere
