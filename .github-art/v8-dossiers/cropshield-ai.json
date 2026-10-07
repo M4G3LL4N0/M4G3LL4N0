@@ -1,138 +1,167 @@
 {
- "API": [],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": false,
- "CS_visual_1": "api_flow",
- "CS_visual_2": "",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "protected core behind a trust boundary",
- "architecture": "DATA_FLOW",
- "audience": "",
- "canonical_name": "CropShield AI",
- "concurrency_model": "",
+ "repo": "cropshield-ai",
+ "canonical_name": "cropshield-ai",
+ "project_category": "WEB_APPLICATION",
+ "palette": "peach_cyan",
  "confidence": "E3",
- "control_flow": "cropshield-ai linear request handling",
+ "status": "PROTOTYPE",
+ "has_code": true,
+ "domain": "Agriculture",
+ "audience": "developer",
+ "problem": "AI monitoring and protection for agricultural operations and yield risk.",
+ "public_positioning": "AI monitoring and protection for agricultural operations and yield risk.",
+ "website_positioning": "AI monitoring and protection for agricultural operations and yield risk.",
+ "data_flow": "20 App Router endpoints including /about, /analyze, /api/reports, /contact",
+ "control_flow": "20 route(s) served across 4 module(s): /about, /analyze, /api/reports",
+ "state_model": "no distinctive algorithmic primitive detected",
+ "state_model_note": "structure is declarative/config; no primitive matcher hit",
+ "architecture": "4 top-level module boundaries: app, components, lib, src",
+ "terminal_story": "package.json -> 20 routes, 4 modules, 927 files",
+ "terminal_lines": [
+  "package.json"
+ ],
+ "interfaces": [
+  "/",
+  "/about",
+  "/analyze",
+  "/api/reports"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/analyze",
+  "/api/reports",
+  "/contact",
+  "/dashboard"
+ ],
+ "workflow_steps": [
+  "app",
+  "components",
+  "lib",
+  "src"
+ ],
+ "major_modules": [
+  "app",
+  "components",
+  "lib",
+  "src"
+ ],
  "cs_primitives": [],
- "data_flow": "single-entry processing",
- "data_structures": [],
- "description": "CropShield AI: a security system, built on TypeScript.",
- "domain": "Security",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "SUPPORTED_INFERENCE",
-  "CS_visual_2": "SUPPORTED_INFERENCE",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "SUPPORTED_INFERENCE",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "SUPPORTED_INFERENCE",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "SUPPORTED_INFERENCE",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "FACT",
-  "state_model": "NAME_BASED_HYPOTHESIS",
-  "status": "FACT",
-  "terminal_story": "SUPPORTED_INFERENCE",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 925,
+ "security_model": [],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "packet_route over routes /about, /analyze, /api/reports; modules app, components, lib",
+ "secondary_visual_metaphor": "stack Prisma, Zod; top module app",
+ "geometry_set": "cube",
+ "animation_story_1": "packet_route",
+ "entry_points": [],
+ "routes": [
+  "/",
+  "/about",
+  "/analyze",
+  "/api/reports",
+  "/api/reports/:id",
+  "/contact",
+  "/dashboard",
+  "/demo",
+  "/docs",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/reports",
+  "/reports/:id",
+  "/support",
+  "/terms",
+  "/trust"
+ ],
  "frameworks": [
   "Next.js",
   "Prisma",
   "React",
   "Tailwind CSS",
-  "Vercel AI SDK",
   "Zod"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [],
- "interfaces": [
-  "database layer"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "JavaScript",
-  "TypeScript"
- ],
- "major_modules": [
-  ".startup",
-  "app",
-  "components",
-  "lib",
-  "prisma",
-  "venture-os"
- ],
- "outputs": [],
- "palette": "graphite_coral",
- "primary_visual_metaphor": "protected core behind a trust boundary",
- "problem": "Premium Next.js MVP for **AI-assisted crop diagnostics** and **precision spray planning** with a deterministic rules engine (swap in real CV/robotics later).",
- "project_category": "SECURITY",
- "public_positioning": "AI monitoring and protection for agricultural operations and yield risk.",
- "purpose": "Startup portfolio: cropshield-ai",
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
-  "commits": 0,
+  "ci": 0,
+  "commits": "?",
   "tags": 0
  },
- "secondary_visual_metaphor": "security topology for cropshield-ai",
- "security_model": [
-  "trust boundary enforcement"
- ],
- "source_origin": "portfolio",
- "state_model": "stateless request handling",
- "status": "PROTOTYPE",
- "technical_category": "security-engineering",
- "terminal_story": "the security loop advances via core [cropshield-ai]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [
+   "Prisma",
+   "Zod"
+  ],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/analyze",
+   "/api/reports",
+   "/api/reports/:id",
+   "/contact",
+   "/dashboard",
+   "/demo",
+   "/docs",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/reports",
+   "/reports/:id",
+   "/support",
+   "/terms",
+   "/trust"
+  ],
+  "entry_points": [],
+  "modules": [
+   "app",
+   "components",
+   "lib",
+   "src"
+  ],
+  "frameworks": [
+   "Next.js",
+   "Prisma",
+   "React",
+   "Tailwind CSS",
+   "Zod"
+  ],
+  "cs_primitives": [],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 927,
+  "test_count": 0,
+  "shared_template_files": 35
  },
- "topics": [
-  "security-engineering",
-  "typescript",
-  "security",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "architecture",
+  "data_flow",
+  "component_map",
+  "build",
+  "footer"
+ ]
 }

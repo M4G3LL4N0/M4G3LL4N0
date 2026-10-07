@@ -1,162 +1,187 @@
 {
- "API": [
-  "/about",
-  "/app",
-  "/architecture",
-  "/artifacts",
-  "/buyers",
-  "/command-center",
-  "/compare",
-  "/connectors"
- ],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "index",
- "CS_visual_2": "policy",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [
-  "index",
-  "dag"
- ],
- "animation_story_1": "stepped queue with workers activating",
- "architecture": "DATA_FLOW",
- "audience": "",
+ "repo": "legacybridge",
  "canonical_name": "legacybridge",
- "concurrency_model": "",
+ "project_category": "WEB_APPLICATION",
+ "palette": "mint_violet",
  "confidence": "E3",
- "control_flow": "control for legacybridge enters at public-site/index.html and dispatches to 1 entry points across 24 routes (/, /about, /app) using D3",
+ "status": "PROTOTYPE",
+ "has_code": true,
+ "domain": "Web Application",
+ "audience": "developer",
+ "problem": "",
+ "public_positioning": "",
+ "website_positioning": "",
+ "data_flow": "24 App Router endpoints including /about, /api/checkout, /api/og, /app",
+ "control_flow": "public-site/index.html boots 4 module(s) (app, components) and serves 24 route(s) beginning /about, /api/checkout",
+ "state_model": "index, policy, queue, dag",
+ "state_model_note": "4 computer-science primitive(s) matched in source",
+ "architecture": "4 top-level module boundaries: app, components, scripts, src",
+ "terminal_story": "public-site/index.html -> 24 routes, 4 modules, 1003 files",
+ "terminal_lines": [
+  "public-site/index.html"
+ ],
+ "interfaces": [
+  "public-site/index.html"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/api/checkout",
+  "/api/og",
+  "/app",
+  "/app/artifacts"
+ ],
+ "workflow_steps": [
+  "app",
+  "components",
+  "scripts",
+  "src"
+ ],
+ "major_modules": [
+  "app",
+  "components",
+  "scripts",
+  "src"
+ ],
  "cs_primitives": [
   "index",
   "policy",
   "queue",
   "dag"
  ],
- "data_flow": "Infrastructure: requests traverse 24 routes (/, /about, /app, /architecture)",
- "data_structures": [
-  "index",
+ "security_model": [
+  "policy"
+ ],
+ "concurrency_model": [
   "queue"
  ],
- "description": "legacybridge: an infrastructure system, structured around index.",
- "domain": "Infrastructure",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "FACT",
-  "README_outline": "FACT",
-  "algorithms": "FACT",
-  "api": "FACT",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "FACT",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "NAME_BASED_HYPOTHESIS",
-  "project_category": "FACT",
-  "public_positioning": "NAME_BASED_HYPOTHESIS",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "FACT",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 1002,
+ "primary_visual_metaphor": "index_probe over routes /about, /api/checkout, /api/og; modules app, components, scripts; primitives index, policy, queue",
+ "secondary_visual_metaphor": "primitives index, policy, queue; stack Next.js, React, Tailwind CSS; top module app",
+ "geometry_set": "ring",
+ "animation_story_1": "index_probe",
+ "entry_points": [
+  "public-site/index.html"
+ ],
+ "routes": [
+  "/",
+  "/about",
+  "/api/checkout",
+  "/api/og",
+  "/app",
+  "/app/artifacts",
+  "/app/command-center",
+  "/app/connectors",
+  "/app/ingest",
+  "/app/notifications",
+  "/app/onboarding",
+  "/app/reports/executive-summary",
+  "/app/settings",
+  "/app/sources",
+  "/app/workflows",
+  "/app/workflows/:slug",
+  "/architecture",
+  "/buyers",
+  "/compare",
+  "/contact",
+  "/dashboard",
+  "/demo",
+  "/docs",
+  "/enterprise"
+ ],
  "frameworks": [
-  "D3",
   "Next.js",
   "React",
-  "Tailwind CSS",
-  "Vercel AI SDK"
+  "Tailwind CSS"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [],
- "interfaces": [
-  "CLI entry points",
-  "24 HTTP routes"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "Shell",
-  "TypeScript"
- ],
- "major_modules": [
-  ".autobuilder",
-  ".startup",
-  "app",
-  "components",
-  "public-site",
-  "scripts",
-  "venture-os"
- ],
- "outputs": [],
- "palette": "slate_amber",
- "primary_visual_metaphor": "stepped queue with workers activating",
- "problem": "",
- "project_category": "INFRASTRUCTURE",
- "public_positioning": "",
- "purpose": "legacybridge is a infrastructure codebase of 1002 files organised around index.",
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "23",
   "tags": 0
  },
- "secondary_visual_metaphor": "index structure in infrastructure",
- "security_model": [
-  "policy evaluation"
- ],
- "source_origin": "portfolio",
- "state_model": "index with 4 cooperating structures",
- "status": "PROTOTYPE",
- "technical_category": "distributed-systems",
- "terminal_story": "operator runs legacybridge (TypeScript) from the command line; output resolves as a tree [legacybridge]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/api/checkout",
+   "/api/og",
+   "/app",
+   "/app/artifacts",
+   "/app/command-center",
+   "/app/connectors",
+   "/app/ingest",
+   "/app/notifications",
+   "/app/onboarding",
+   "/app/reports/executive-summary",
+   "/app/settings",
+   "/app/sources",
+   "/app/workflows",
+   "/app/workflows/:slug",
+   "/architecture",
+   "/buyers",
+   "/compare",
+   "/contact",
+   "/dashboard",
+   "/demo",
+   "/docs",
+   "/enterprise"
+  ],
+  "entry_points": [
+   "public-site/index.html"
+  ],
+  "modules": [
+   "app",
+   "components",
+   "scripts",
+   "src"
+  ],
+  "frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "cs_primitives": [
+   "index",
+   "policy",
+   "queue",
+   "dag"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 1003,
+  "test_count": 0,
+  "shared_template_files": 48
  },
- "topics": [
-  "distributed-systems",
-  "typescript",
-  "infrastructure",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

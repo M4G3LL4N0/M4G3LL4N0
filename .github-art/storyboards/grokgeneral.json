@@ -1,103 +1,92 @@
 {
- "canonical_name": "GrokGeneral",
- "confidence": "E3",
- "palette": "slate_amber",
- "project_category": "INFRASTRUCTURE",
  "repo": "grokgeneral",
+ "canonical_name": "grokgeneral",
+ "confidence": "E3",
+ "palette": "graphite_coral",
+ "project_category": "SECURITY",
+ "status": "TESTED",
  "slots": [
   "hero",
   "terminal",
   "architecture",
   "state_machine",
-  "data_flow",
-  "component_map",
   "build",
   "workflow",
   "domain",
   "footer"
  ],
- "status": "ACTIVE",
  "storyboard": [
   {
-   "animation": "tiles lock into a grid as structure forms; 12.0s loop, offset 0.0s",
-   "computer_science_concept": "stepped queue with workers activating",
-   "geometry": "isometric blocks",
-   "material": "D3 density; #ffb703 on #141821; accents #8d99ae, #06d6a0",
-   "purpose": "identity -- what the project is at a glance",
-   "slot": "hero"
+   "slot": "hero",
+   "purpose": "identity",
+   "geometry": "ring",
+   "computer_science_concept": "policy",
+   "material": "palette graphite_coral",
+   "animation": "state_change",
+   "evidence_basis": "identity from 99 analysed files"
   },
   {
-   "animation": "a command executes and output resolves; 21.2s loop, offset 0.4s",
-   "computer_science_concept": "command execution and structured output",
-   "geometry": "monospace grid",
-   "material": "D2 density; #ffb703 on #141821; accents #8d99ae, #06d6a0",
+   "slot": "terminal",
    "purpose": "how it is operated",
-   "slot": "terminal"
+   "geometry": "ring",
+   "computer_science_concept": "policy",
+   "material": "palette graphite_coral",
+   "animation": "state_change",
+   "evidence_basis": "3 measured entry point(s)"
   },
   {
-   "animation": "a dependency graph resolves toward its roots; 21.7s loop, offset 0.8s",
-   "computer_science_concept": "module graph over 3 modules",
-   "geometry": "containment edges",
-   "material": "D2 density; #ffb703 on #141821; accents #8d99ae, #06d6a0",
+   "slot": "architecture",
    "purpose": "how it is built",
-   "slot": "architecture"
+   "geometry": "ring",
+   "computer_science_concept": "policy",
+   "material": "palette graphite_coral",
+   "animation": "state_change",
+   "evidence_basis": "1 measured module root(s)"
   },
   {
-   "animation": "a state machine advances one transition; 9.7s loop, offset 1.2s",
-   "computer_science_concept": "policy with 6 cooperating structures",
-   "geometry": "state ring",
-   "material": "D2 density; #ffb703 on #141821; accents #8d99ae, #06d6a0",
+   "slot": "state_machine",
    "purpose": "how it behaves",
-   "slot": "state_machine"
+   "geometry": "ring",
+   "computer_science_concept": "policy",
+   "material": "palette graphite_coral",
+   "animation": "state_change",
+   "evidence_basis": "6 detected primitive(s)"
   },
   {
-   "animation": "packets route along edges; 10.4s loop, offset 1.6s",
-   "computer_science_concept": "CLI arguments \u2192 sqlite \u2192 stdout / stderr (also via `gg` subcommands, HTTP requests (JSON))",
-   "geometry": "stage arches",
-   "material": "D2 density; #ffb703 on #141821; accents #8d99ae, #06d6a0",
-   "purpose": "how data moves through it",
-   "slot": "data_flow"
-  },
-  {
-   "animation": "facets rotate open, exposing the interior; 15.1s loop, offset 2.0s",
-   "computer_science_concept": "interface surface: CLI entry points",
-   "geometry": "tile field",
-   "material": "D3 density; #ffb703 on #141821; accents #8d99ae, #06d6a0",
-   "purpose": "how it is composed",
-   "slot": "component_map"
-  },
-  {
-   "animation": "tests advance and results resolve; 12.5s loop, offset 2.4s",
-   "computer_science_concept": "build evidence: 37 tests, 0 workflows",
-   "geometry": "stage arches",
-   "material": "D1 density; #ffb703 on #141821; accents #8d99ae, #06d6a0",
+   "slot": "build",
    "purpose": "how it is verified",
-   "slot": "build"
+   "geometry": "ring",
+   "computer_science_concept": "policy",
+   "material": "palette graphite_coral",
+   "animation": "state_change",
+   "evidence_basis": "37 test file(s), 0 workflow(s)"
   },
   {
-   "animation": "concentric rings pulse from a centre; 16.7s loop, offset 2.8s",
-   "computer_science_concept": "gg status",
-   "geometry": "step cubes",
-   "material": "D2 density; #ffb703 on #141821; accents #8d99ae, #06d6a0",
+   "slot": "workflow",
    "purpose": "how it is used",
-   "slot": "workflow"
+   "geometry": "ring",
+   "computer_science_concept": "policy",
+   "material": "palette graphite_coral",
+   "animation": "state_change",
+   "evidence_basis": "1 module(s) as ordered steps"
   },
   {
-   "animation": "an index probe walks a sorted key space; 16.7s loop, offset 3.2s",
-   "computer_science_concept": "Infrastructure",
-   "geometry": "probe path",
-   "material": "D3 density; #ffb703 on #141821; accents #8d99ae, #06d6a0",
+   "slot": "domain",
    "purpose": "the problem it addresses",
-   "slot": "domain"
+   "geometry": "ring",
+   "computer_science_concept": "policy",
+   "material": "palette graphite_coral",
+   "animation": "state_change",
+   "evidence_basis": "domain classification from measured structure"
   },
   {
-   "animation": "concentric rings pulse from a centre; 14.6s loop, offset 3.6s",
-   "computer_science_concept": "project signature",
-   "geometry": "single motif",
-   "material": "D2 density; #ffb703 on #141821; accents #8d99ae, #06d6a0",
-   "purpose": "identity object -- a small signature mark",
-   "slot": "footer"
+   "slot": "footer",
+   "purpose": "identity object",
+   "geometry": "ring",
+   "computer_science_concept": "policy",
+   "material": "palette graphite_coral",
+   "animation": "state_change",
+   "evidence_basis": "identity object"
   }
- ],
- "surface_count": 10
+ ]
 }

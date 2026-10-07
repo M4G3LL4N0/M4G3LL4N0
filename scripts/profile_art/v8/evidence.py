@@ -154,6 +154,18 @@ def _dominant_language(idx: dict) -> str | None:
     return max(langs.items(), key=lambda kv: kv[1])[0]
 
 
+def entry_label(path: str) -> str:
+    """Keep enough of the path to tell two entry points apart.
+
+    Collapsing to the filename made "index.html" and "public/index.html" render
+    identically, so sibling repositories produced byte-identical prose.
+    """
+    if "/" in path:
+        parent, _, leaf = path.rpartition("/")
+        return f"{parent.rsplit('/', 1)[-1]}/{leaf}"
+    return path
+
+
 def route_summary(routes: list[str], limit: int = 3) -> str:
     """Prefer the most descriptive routes over the alphabet-first ones."""
     interesting = [r for r in routes if len(r) > 1 and ":" not in r and "*" not in r]
@@ -229,6 +241,7 @@ def build(name: str, idx: dict, card: dict | None, base: dict,
     scaffold_fw = [f for f in frameworks if f in signature]
 
     has_code = bool(idx.get("has_code"))
+    ev_files = idx.get("files") or 0
     evidence = {
         "distinctive_frameworks": distinctive,
         "test_frameworks": test_fw,
@@ -312,11 +325,23 @@ def build(name: str, idx: dict, card: dict | None, base: dict,
         )
         d["pipeline_stages"] = entries[:5]
     elif has_code:
-        d["data_flow"] = "library/module surface; no HTTP routes or CLI entry points detected"
+        d["data_flow"] = (
+            f"no HTTP routes; {len(modules)} module(s) "
+            f"({', '.join(modules[:3]) or 'flat'}), {len(frameworks)} declared framework(s), "
+            f"{ev_files} file(s), {lang or 'mixed'} source")
         d["pipeline_stages"] = modules[:5] or frameworks[:3]
-    else:
-        d["data_flow"] = "no executable surface detected in this repository"
+    elif not has_code:
+        d["data_flow"] = (
+            f"no executable surface: {ev_files} committed file(s), "
+            f"{len(idx.get('languages') or {})} language(s), "
+            f"no routes and no entry points")
         d["pipeline_stages"] = []
+    else:
+        d["data_flow"] = (
+            f"no HTTP routes; {len(modules)} module(s) "
+            f"({', '.join(modules[:3]) or 'flat'}) and {len(entries)} entry point(s) "
+            f"over {ev_files} file(s)")
+        d["pipeline_stages"] = modules[:5]
 
     if modules:
         d["architecture"] = f"{len(modules)} top-level module boundaries: {', '.join(modules[:5])}"
@@ -329,10 +354,15 @@ def build(name: str, idx: dict, card: dict | None, base: dict,
         d["workflow_steps"] = []
 
     if entries:
-        d["terminal_lines"] = entries[:4]
+        d["terminal_lines"] = [entry_label(e) for e in entries[:4]]
         d["terminal_caption"] = f"{len(entries)} entry point(s) detected in source"
     else:
-        d["terminal_lines"] = manifests[:3] or ["(no executable entry point detected)"]
+        # The fallback must reflect the real layout: reporting "flat" for a
+        # repository that has three module roots is simply wrong.
+        layout = (f"module roots: {', '.join(modules[:3])}" if modules
+                  else f"flat layout, {ev_files} file(s)")
+        d["terminal_lines"] = manifests[:3] or [
+            f"no entry point; {layout}; {lang or 'no'} source"]
         d["terminal_caption"] = "no CLI or main entry point detected"
 
     if prims:
@@ -343,16 +373,30 @@ def build(name: str, idx: dict, card: dict | None, base: dict,
         d["state_model_note"] = "structure is declarative/config; no primitive matcher hit"
 
     d["interfaces"] = entries[:3] or routes[:4] or manifests[:2]
-    d["domain"] = domain or "Uncategorised"
-    d["control_flow"] = (
-        f"control enters at {entries[0]}, dispatching across {len(routes)} route(s) "
-        f"and {len(modules)} module(s)"
-        if entries else (
-            f"{len(routes)} route(s) across {len(modules)} module(s); "
-            "no explicit entry point file"
-            if (routes or modules) else "no executable control flow detected"
+    d["domain"] = domain
+    # control_flow must carry repository-specific tokens, otherwise every repo
+    # with the same shape produces the same sentence and the portfolio reads as
+    # one template applied 136 times.
+    if entries and routes:
+        d["control_flow"] = (
+            f"{entries[0]} boots {len(modules)} module(s) "
+            f"({', '.join(modules[:2]) or 'flat'}) and serves {len(routes)} route(s) "
+            f"beginning {route_summary(routes, 2)}"
         )
-    )
+    elif routes:
+        d["control_flow"] = (
+            f"{len(routes)} route(s) served across {len(modules)} module(s): "
+            f"{route_summary(routes, 3)}"
+        )
+    elif entries:
+        d["control_flow"] = (
+            f"{len(entries)} entry point(s) with no HTTP layer: "
+            f"{', '.join(e.rsplit('/', 1)[-1] for e in entries[:3])}"
+        )
+    elif modules:
+        d["control_flow"] = f"library surface across {', '.join(modules[:4])}"
+    else:
+        d["control_flow"] = "no executable control flow detected in this repository"
 
     d["testing"] = {
         "present": bool(tests),
@@ -372,6 +416,20 @@ def build(name: str, idx: dict, card: dict | None, base: dict,
             else "identity surface; no executable structure detected"
         )
     )
+    # The visual metaphor has to name what is actually drawn, otherwise every
+    # repository reports the same sentence and the portfolio reads as one
+    # template applied 136 times.
+    tokens: list[str] = []
+    if routes:
+        tokens.append("routes " + route_summary(routes, 3))
+    if modules:
+        tokens.append("modules " + ", ".join(modules[:3]))
+    if prims:
+        tokens.append("primitives " + ", ".join(prims[:3]))
+    if not tokens:
+        tokens.append(f"{ev_files} committed file(s), no runtime surface")
+    d["primary_visual_metaphor"] = (
+        f"{d['animation_story_1']} over " + "; ".join(tokens))
     d["audience"] = "developer" if has_code else "visitor"
     d["website_positioning"] = (card or {}).get("positioning") or ""
     d["public_positioning"] = (card or {}).get("positioning") or ""
@@ -386,5 +444,8 @@ def build(name: str, idx: dict, card: dict | None, base: dict,
     d["project_category"] = derive_category(d)
     d["palette"] = palette_for(d["project_category"], seed_of(name, "category"))
     d["card_category"] = domain
+    # Resolved only now: most repositories have no noaerth.com card, and a
+    # shared "Uncategorised" fallback made this field identical portfolio-wide.
+    d["domain"] = domain or d["project_category"].replace("_", " ").title()
 
     return d

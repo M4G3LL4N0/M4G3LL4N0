@@ -1,145 +1,188 @@
 {
- "API": [],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "pipeline",
- "CS_visual_2": "",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "layered render pipeline resolving to a frame",
- "architecture": "DATA_FLOW",
- "audience": "",
+ "repo": "Modex",
  "canonical_name": "Modex",
- "concurrency_model": "",
+ "project_category": "DATA_VISUALIZATION",
+ "palette": "graphite_coral",
  "confidence": "E3",
- "control_flow": "control for Modex enters at lib/experiments/index.ts and dispatches to 2 entry points across 0 routes (none) using D3",
+ "status": "PROTOTYPE",
+ "has_code": true,
+ "domain": "Decision Intelligence Infrastructure",
+ "audience": "developer",
+ "problem": "Modern commerce modules for builders.",
+ "public_positioning": "Modern commerce modules for builders.",
+ "website_positioning": "Modern commerce modules for builders.",
+ "data_flow": "24 App Router endpoints including /about, /api/accuracy, /api/analyze, /api/checkout",
+ "control_flow": "lib/experiments/index.ts boots 3 module(s) (app, components) and serves 24 route(s) beginning /about, /api/accuracy",
+ "state_model": "pipeline",
+ "state_model_note": "1 computer-science primitive(s) matched in source",
+ "architecture": "3 top-level module boundaries: app, components, lib",
+ "terminal_story": "experiments/index.ts | public-site/index.html -> 24 routes, 3 modules, 951 files",
+ "terminal_lines": [
+  "experiments/index.ts",
+  "public-site/index.html"
+ ],
+ "interfaces": [
+  "lib/experiments/index.ts",
+  "public-site/index.html"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/api/accuracy",
+  "/api/analyze",
+  "/api/checkout",
+  "/api/discover"
+ ],
+ "workflow_steps": [
+  "app",
+  "components",
+  "lib"
+ ],
+ "major_modules": [
+  "app",
+  "components",
+  "lib"
+ ],
  "cs_primitives": [
   "pipeline"
  ],
- "data_flow": "Media: data passes through pipeline structure",
- "data_structures": [],
- "description": "Modex: a media system, structured around pipeline.",
- "domain": "Media",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "SUPPORTED_INFERENCE",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 950,
+ "security_model": [],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "tessellate over routes /about, /api/accuracy, /api/analyze; modules app, components, lib; primitives pipeline",
+ "secondary_visual_metaphor": "primitives pipeline; stack D3, OpenAI SDK, Supabase; top module app",
+ "geometry_set": "ring",
+ "animation_story_1": "tessellate",
+ "entry_points": [
+  "lib/experiments/index.ts",
+  "public-site/index.html"
+ ],
+ "routes": [
+  "/",
+  "/about",
+  "/api/accuracy",
+  "/api/analyze",
+  "/api/checkout",
+  "/api/discover",
+  "/api/experiments",
+  "/api/history",
+  "/api/ingest",
+  "/api/outcome",
+  "/api/predict",
+  "/api/waitlist",
+  "/contact",
+  "/dashboard",
+  "/demo",
+  "/docs",
+  "/founder",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/investors",
+  "/portfolio",
+  "/pricing",
+  "/privacy"
+ ],
  "frameworks": [
   "D3",
   "Next.js",
   "OpenAI SDK",
   "React",
   "Supabase",
-  "Tailwind CSS",
-  "Vercel AI SDK"
+  "Tailwind CSS"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [],
- "interfaces": [
-  "CLI entry points",
-  "database layer"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "TypeScript"
- ],
- "major_modules": [
-  ".autobuilder",
-  ".startup",
-  "app",
-  "components",
-  "lib",
-  "public-site",
-  "venture-os"
- ],
- "outputs": [],
- "palette": "coral_teal",
- "primary_visual_metaphor": "layered render pipeline resolving to a frame",
- "problem": "Modern commerce modules for builders.",
- "project_category": "MEDIA",
- "public_positioning": "Modern commerce modules for builders.",
- "purpose": "Modex is a media codebase of 950 files organised around pipeline.",
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "140",
   "tags": 0
  },
- "secondary_visual_metaphor": "pipeline structure in media",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "portfolio",
- "state_model": "pipeline with 1 cooperating structures",
- "status": "PROTOTYPE",
- "technical_category": "media-engineering",
- "terminal_story": "operator runs Modex (TypeScript) from the command line; output resolves as a tree [Modex]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [
+   "D3",
+   "OpenAI SDK",
+   "Supabase"
+  ],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/api/accuracy",
+   "/api/analyze",
+   "/api/checkout",
+   "/api/discover",
+   "/api/experiments",
+   "/api/history",
+   "/api/ingest",
+   "/api/outcome",
+   "/api/predict",
+   "/api/waitlist",
+   "/contact",
+   "/dashboard",
+   "/demo",
+   "/docs",
+   "/founder",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/investors",
+   "/portfolio",
+   "/pricing",
+   "/privacy"
+  ],
+  "entry_points": [
+   "lib/experiments/index.ts",
+   "public-site/index.html"
+  ],
+  "modules": [
+   "app",
+   "components",
+   "lib"
+  ],
+  "frameworks": [
+   "D3",
+   "Next.js",
+   "OpenAI SDK",
+   "React",
+   "Supabase",
+   "Tailwind CSS"
+  ],
+  "cs_primitives": [
+   "pipeline"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 951,
+  "test_count": 0,
+  "shared_template_files": 35
  },
- "topics": [
-  "media-engineering",
-  "typescript",
-  "media",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

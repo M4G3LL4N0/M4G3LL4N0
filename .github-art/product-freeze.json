@@ -1,13 +1,13 @@
 {
  "$comment": "Fingerprint of every forbidden and allowed path across the local portfolio. The freeze guard compares against this to prove GitHub-only work touched no product code.",
- "allowed_paths": 320,
- "forbidden_paths": 10616,
+ "allowed_paths": 321,
+ "forbidden_paths": 10666,
  "owner": "M4G3LL4N0",
  "repos": 157,
  "state": {
   "1bc": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "f808e4f801b41c9b"
    },
    "forbidden": {
     "app/about/page.tsx": "19573f7b0c537059",
@@ -63,7 +63,7 @@
   },
   "access-layer": {
    "allowed": {
-    "README.md": "7e5ac7c0224069f2"
+    "README.md": "9706cb569dabf968"
    },
    "forbidden": {
     "app/api/checkout/route.ts": "7c8ebf3b8f53cc25",
@@ -300,7 +300,7 @@
   },
   "agentapi-hub": {
    "allowed": {
-    "README.md": "103e788dd84e0b44"
+    "README.md": "6ca860b3160064c1"
    },
    "forbidden": {
     "app/api/submit/route.ts": "d31cc52d5ba6b756",
@@ -348,7 +348,7 @@
   },
   "agentcore-silicon": {
    "allowed": {
-    "README.md": "d2d9a83db5df6072"
+    "README.md": "80d6bdb4d40a6ea6"
    },
    "forbidden": {
     "app/about/page.tsx": "4eab6fe3e105acbb",
@@ -407,7 +407,7 @@
     ".github/pull_request_template.md": "fc4339972132825b",
     ".github/workflows/ci.yml": "cc1735757ee6d4c8",
     "CONTRIBUTING.md": "59f3266e0d170f5a",
-    "README.md": "7eba18ca0ed508db",
+    "README.md": "30c00156c0e2f2e2",
     "SECURITY.md": "2d11f2f2687d917b"
    },
    "forbidden": {
@@ -532,7 +532,7 @@
   "agentos-website": {
    "allowed": {
     ".github/workflows/ci.yml": "81c380b34d32b372",
-    "README.md": "1efe357d8ea14164"
+    "README.md": "5fb19dbbdd4b0446"
    },
    "forbidden": {
     ".env.example": "e3989cb0d4f5fde8",
@@ -1939,7 +1939,7 @@
   },
   "autoerp": {
    "allowed": {
-    "README.md": "41ba46227d5bf831"
+    "README.md": "42800ad3b2be8289"
    },
    "forbidden": {
     "app/api/command/[id]/route.ts": "2d3654a0336ebb92",
@@ -1995,7 +1995,7 @@
   },
   "ayncient": {
    "allowed": {
-    "README.md": "55366ae44d34be64"
+    "README.md": "d26ee74af5a570d7"
    },
    "forbidden": {
     ".autobuilder/legacy-root-app/api/checkout/route.ts": "7c8ebf3b8f53cc25",
@@ -2063,7 +2063,7 @@
   },
   "behindcurtain": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "5aa558afafe9e93e"
    },
    "forbidden": {
     "app/admin/page.tsx": "ee155c5afa43f6b3",
@@ -2115,7 +2115,7 @@
   },
   "betterfintech": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "f1627e2dc5e17836"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -2217,7 +2217,7 @@
   },
   "blitzproof": {
    "allowed": {
-    "README.md": "931328facc701f8d"
+    "README.md": "b4f3831c8f679416"
    },
    "forbidden": {
     "app/api/checkout/route.ts": "7c8ebf3b8f53cc25",
@@ -2277,7 +2277,7 @@
   },
   "blitzunicorn": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "5b75e36e96ca2606"
    },
    "forbidden": {
     "app/api/checkout/route.ts": "7c8ebf3b8f53cc25",
@@ -2360,7 +2360,7 @@
   },
   "brandcrossover": {
    "allowed": {
-    "README.md": "19e56680999d989d"
+    "README.md": "807e5f703a82d25e"
    },
    "forbidden": {
     "app/admin/page.tsx": "ee155c5afa43f6b3",
@@ -2409,7 +2409,7 @@
   },
   "buildloop-usa": {
    "allowed": {
-    "README.md": "00a64a340d1633a7"
+    "README.md": "5dcee849eae726ce"
    },
    "forbidden": {
     "app/api/requests/[id]/route.ts": "9f8f606f944fc834",
@@ -2447,7 +2447,7 @@
   },
   "cannex-logistics": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "94ad1c5850bbcb0d"
    },
    "forbidden": {
     "app/app/compliance/page.tsx": "ce7d170c4fb5858b",
@@ -2475,7 +2475,7 @@
   },
   "cheetahbearfuel": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "f5afdc53922b062b"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -2554,7 +2554,7 @@
   },
   "chipflow": {
    "allowed": {
-    "README.md": "653f7fb6a20863a4"
+    "README.md": "0ae2c564d26249aa"
    },
    "forbidden": {
     "app/api/allocation/[id]/route.ts": "656b231a41833d25",
@@ -2593,7 +2593,7 @@
   },
   "claimpilot-ai": {
    "allowed": {
-    "README.md": "21ac814b540ea0f4"
+    "README.md": "3d5fdde1d9d1b666"
    },
    "forbidden": {
     "app/about/page.tsx": "738302d0f3c77f5f",
@@ -2666,7 +2666,7 @@
   },
   "cleanstack-os": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "77f368ca28f73361"
    },
    "forbidden": {
     "app/about/page.tsx": "9c294ce69e33ac43",
@@ -2734,7 +2734,7 @@
   },
   "cloudcastle": {
    "allowed": {
-    "README.md": "92d75287363b0ade"
+    "README.md": "501ad0a3eb03b0b4"
    },
    "forbidden": {
     ".env.example": "2fe1c4d131ae30c0",
@@ -2833,7 +2833,7 @@
   },
   "companyos": {
    "allowed": {
-    "README.md": "e567f8b2ddee53b3"
+    "README.md": "358c694c54936256"
    },
    "forbidden": {
     "app/about/page.tsx": "cd8180114fceaa10",
@@ -2946,7 +2946,7 @@
   },
   "computeflow-website": {
    "allowed": {
-    "README.md": "067b38f086e40f66"
+    "README.md": "0e61ef37a2f53419"
    },
    "forbidden": {
     "app.js": "78ae559df72632e4",
@@ -3055,7 +3055,7 @@
   },
   "cortexhq-website": {
    "allowed": {
-    "README.md": "808473a02f71e184"
+    "README.md": "56f8f330ffb4245d"
    },
    "forbidden": {
     "app.js": "5e07e05495a55b19",
@@ -3119,7 +3119,7 @@
   },
   "cropshield-ai-website": {
    "allowed": {
-    "README.md": "9b28c84860a06f5e"
+    "README.md": "a1c26bc0dccd1102"
    },
    "forbidden": {
     "app.js": "a8d6521a1fbf8cf6",
@@ -3130,7 +3130,7 @@
   },
   "cruxenio": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "ac6338b1f250e1fb"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -3183,7 +3183,7 @@
   },
   "cruxenio-website": {
    "allowed": {
-    "README.md": "97e381f76f4e5b1d"
+    "README.md": "504b1f158e03c4e2"
    },
    "forbidden": {
     "app.js": "9bc82bddf853de3c",
@@ -3194,7 +3194,7 @@
   },
   "cxntradict": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "c485d34c02db9b6a"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -3238,7 +3238,7 @@
   },
   "cxntradict-website": {
    "allowed": {
-    "README.md": "1dc4d418950623b2"
+    "README.md": "782f246d0c3a0129"
    },
    "forbidden": {
     "app.js": "41a2e0e676b323fc",
@@ -3249,7 +3249,7 @@
   },
   "datatherapy": {
    "allowed": {
-    "README.md": "57741a7d4da1102c"
+    "README.md": "4cd986227d98c189"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -3323,7 +3323,7 @@
   },
   "datatherapy-website": {
    "allowed": {
-    "README.md": "e5fb56db6a70a5b8"
+    "README.md": "212fea258cdc44e6"
    },
    "forbidden": {
     "app.js": "31c2a3a2e549a945",
@@ -3334,7 +3334,7 @@
   },
   "deploylocal": {
    "allowed": {
-    "README.md": "f307e9c1c5b2cc44"
+    "README.md": "39c1f2b4aad2c216"
    },
    "forbidden": {
     "app/api/bulk-generate-sites/route.ts": "dbe272fa6785a5f6",
@@ -3423,7 +3423,7 @@
   },
   "deploylocal-website": {
    "allowed": {
-    "README.md": "80e82424d9c7b0fd"
+    "README.md": "613e2ec0fb1e3ec1"
    },
    "forbidden": {
     "app.js": "14e7cc3d32938131",
@@ -3434,7 +3434,7 @@
   },
   "devstate": {
    "allowed": {
-    "README.md": "488dd3cde4f2badc"
+    "README.md": "ade2b3333bafdc0b"
    },
    "forbidden": {
     "app/api/checkout/route.ts": "7c8ebf3b8f53cc25",
@@ -3465,7 +3465,7 @@
   },
   "devstate-website": {
    "allowed": {
-    "README.md": "03df328342eab940"
+    "README.md": "5a259c6ca8aa308f"
    },
    "forbidden": {
     "app.js": "6ec2e06e123da622",
@@ -3476,7 +3476,7 @@
   },
   "emailsimple": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "930f6429f68b2798"
    },
    "forbidden": {
     "components/ConversionCTAVisual.tsx": "11801d64a19cc9c4",
@@ -3600,7 +3600,7 @@
   },
   "emailsimple-website": {
    "allowed": {
-    "README.md": "d12ca96163e9ec3a"
+    "README.md": "fa075ab3e7fc8e8a"
    },
    "forbidden": {
     "app.js": "379cc54c751b0829",
@@ -3611,7 +3611,7 @@
   },
   "enterprisepilot": {
    "allowed": {
-    "README.md": "f865a9004d794d14"
+    "README.md": "1c51e3a5359ef3bd"
    },
    "forbidden": {
     "app/api/pilot/[id]/route.ts": "c9c51cd91370ffba",
@@ -3660,7 +3660,7 @@
   },
   "evalforge": {
    "allowed": {
-    "README.md": "7ec1cf948cdbbae1"
+    "README.md": "6b2e38d89cf44a0b"
    },
    "forbidden": {
     "app/api/evaluate/route.ts": "7d3f0d0b0979da66",
@@ -3712,7 +3712,7 @@
   },
   "evsec-one": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "59611751f7a4331e"
    },
    "forbidden": {
     "app/api/checkout/route.ts": "7c8ebf3b8f53cc25",
@@ -3792,7 +3792,7 @@
   },
   "execmemory-ai": {
    "allowed": {
-    "README.md": "393e339feae924be"
+    "README.md": "b797ec9f341095c9"
    },
    "forbidden": {
     "app/about/page.tsx": "a5c61c0bb85d9984",
@@ -3848,7 +3848,7 @@
   },
   "executionos": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "368652124262867e"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -3914,7 +3914,7 @@
   },
   "fastprocure-ai": {
    "allowed": {
-    "README.md": "b3f5a0109b57fd06"
+    "README.md": "017f5e1d39a9ed65"
    },
    "forbidden": {
     "app/api/procure/[id]/route.ts": "81fee78e9b193099",
@@ -3961,7 +3961,7 @@
   },
   "foreverluvd": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "23666723af4f7af2"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -4028,7 +4028,7 @@
   },
   "forgeflow": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "4e0c5990d2a26201"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -4074,7 +4074,7 @@
   },
   "founderskingdom": {
    "allowed": {
-    "README.md": "1ded36827e16a088"
+    "README.md": "842a7c07806e75de"
    },
    "forbidden": {
     "CaseAlert.tsx": "61e1e6a743c5f068",
@@ -4149,7 +4149,7 @@
   },
   "freeconomie": {
    "allowed": {
-    "README.md": "48e3ba96b734f5da"
+    "README.md": "d0f64f9fd387318e"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -4234,7 +4234,7 @@
   },
   "fullofshit": {
    "allowed": {
-    "README.md": "0d49d74b2be3d8a9"
+    "README.md": "8a79330070dcc7a3"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -4264,7 +4264,7 @@
   },
   "fungmind": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "3904cbf766caa5c0"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -4309,7 +4309,7 @@
   },
   "gamecombo": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "2ba7d704402c5406"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -4356,7 +4356,7 @@
   },
   "genotwin-health": {
    "allowed": {
-    "README.md": "1a74b8e57dfd930b"
+    "README.md": "a85c80ec7fc4f86b"
    },
    "forbidden": {
     ".env.example": "03c4e76d33107f67",
@@ -4433,7 +4433,7 @@
     ".github/workflows/security.yml": "02675107b199ad85",
     "CODE_OF_CONDUCT.md": "b52832082a4c4ac8",
     "CONTRIBUTING.md": "644b5f32413032a1",
-    "README.md": "ef3d9aaa5de51e58",
+    "README.md": "b7d15a77e145f388",
     "SECURITY.md": "038fd0a44e195e91",
     "docs/assets/README.md": "66fb67833e349d56"
    },
@@ -4541,7 +4541,7 @@
   },
   "gh0st-website": {
    "allowed": {
-    "README.md": "972e36db01a7f2d4"
+    "README.md": "4adea765ca4f10e0"
    },
    "forbidden": {
     "next-env.d.ts": "9dd9d642cdb87d4d",
@@ -4588,7 +4588,7 @@
   },
   "ghostframe": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "36937d3efa61dc2a"
    },
    "forbidden": {
     "app/about/page.tsx": "0b942f16d973e46c",
@@ -4625,7 +4625,7 @@
     ".github/ISSUE_TEMPLATE/feature_request.md": "0309bb30e4233479",
     "CODE_OF_CONDUCT.md": "64f7732b628ad6e0",
     "CONTRIBUTING.md": "2ef17de939e8dcd5",
-    "README.md": "9eda2bde932c1c91",
+    "README.md": "600fcd366c893260",
     "SECURITY.md": "5951e9116867d075",
     "examples/README.md": "d26c3e7f0764d148"
    },
@@ -4744,7 +4744,7 @@
   },
   "grokbot-concierge-website": {
    "allowed": {
-    "README.md": "81fcd59fe41325c4"
+    "README.md": "1fe4fecb018530ac"
    },
    "forbidden": {
     "app/globals.css": "2302b0abdf2f9b83",
@@ -4790,7 +4790,7 @@
     ".github/workflows/ci.yml": "b8465d6a75df7ad6",
     "CODE_OF_CONDUCT.md": "61e0239f2a317855",
     "CONTRIBUTING.md": "d3e1370ba29a0ad4",
-    "README.md": "2c8cb14e2592db69",
+    "README.md": "fbf3dd2347f22372",
     "SECURITY.md": "250ef57c15b2ea48",
     "examples/README.md": "a22555ec75c64561"
    },
@@ -4852,7 +4852,7 @@
     ".github/pull_request_template.md": "9c1e330db2c93229",
     ".github/workflows/ci.yml": "32c54085d24215d6",
     "CONTRIBUTING.md": "e6b70c8da7cfc61d",
-    "README.md": "77a185e0f273fff5",
+    "README.md": "278edb84938b817f",
     "SECURITY.md": "ff6ef1e9e3228570"
    },
    "forbidden": {
@@ -4896,7 +4896,7 @@
     ".github/workflows/ci.yml": "0da8427cb75f7d9c",
     "CODE_OF_CONDUCT.md": "da7ec0f8659801dc",
     "CONTRIBUTING.md": "8556ed705ef411fc",
-    "README.md": "2ec0601787b043c3",
+    "README.md": "0c8ba4b9f7a76ed4",
     "SECURITY.md": "df5624150dd2c6d1"
    },
    "forbidden": {
@@ -4988,7 +4988,7 @@
   "grokbot-society-website": {
    "allowed": {
     ".github/workflows/ci.yml": "0da06fcef23b47d1",
-    "README.md": "822f47f5253abe1e"
+    "README.md": "492fb050355b6bd7"
    },
    "forbidden": {
     ".env.example": "7beed37e7d3081fb",
@@ -5055,7 +5055,7 @@
   },
   "grokgeneral": {
    "allowed": {
-    "README.md": "3b2ada84c285ca7c"
+    "README.md": "dd32bab16fc903b9"
    },
    "forbidden": {
     "grokgeneral/__init__.py": "21d004b17c88acd8",
@@ -5142,7 +5142,7 @@
     ".github/workflows/release.yml": "e7b6077984bf1cef",
     "CODE_OF_CONDUCT.md": "5a43b8f178df8a7d",
     "CONTRIBUTING.md": "bb08c6583e416bf1",
-    "README.md": "25d077cfd20500d6",
+    "README.md": "8b46c41d673d31db",
     "SECURITY.md": "f7e4700a374073f1",
     "examples/github-cli/README.md": "9dfd996cd8e8588e",
     "examples/grokbot-contract/README.md": "ac6b3cb56dba0c80",
@@ -5283,7 +5283,7 @@
   },
   "grokinstall-website": {
    "allowed": {
-    "README.md": "55098c5e70e433f3"
+    "README.md": "ae59e954a3773a6a"
    },
    "forbidden": {
     "eslint.config.js": "3847f0c44c953380",
@@ -5304,7 +5304,7 @@
     ".github/pull_request_template.md": "fc4339972132825b",
     ".github/workflows/ci.yml": "be648a8f6d16444b",
     "CONTRIBUTING.md": "270868e905923ea6",
-    "README.md": "0e67c79b3abf4b0e",
+    "README.md": "708ef74ed3b801af",
     "SECURITY.md": "79f71800a3912b78",
     "benchmarks/fixtures/repo-min/README.md": "49018733525c7f2a"
    },
@@ -5513,7 +5513,7 @@
   },
   "happyblock": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "850c8ae2e3da7525"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -5644,7 +5644,7 @@
   },
   "lagrangeos": {
    "allowed": {
-    "README.md": "9206b1d0e4c5662e"
+    "README.md": "01930eb14fef899b"
    },
    "forbidden": {
     ".env.example": "1b532fa68c17a0aa",
@@ -5725,7 +5725,7 @@
   "legacybridge": {
    "allowed": {
     ".github/copilot-instructions.md": "336cc4fbf19beaad",
-    "README.md": "60b55ff7df79af72"
+    "README.md": "de03b1d9e085b166"
    },
    "forbidden": {
     "app/dashboard/page.tsx": "b1223ea43416807c",
@@ -5891,7 +5891,7 @@
   },
   "life-finds-a-way": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "ae22f59def6319af"
    },
    "forbidden": {
     "app/demo/page.tsx": "7e67384e80c24da4",
@@ -5934,7 +5934,7 @@
   },
   "loopcompute-cloud": {
    "allowed": {
-    "README.md": "41f9ea0f730c179c"
+    "README.md": "440d6ba0fca310ad"
    },
    "forbidden": {
     "app/api/workloads/[id]/route.ts": "d9a54eb3b2968fd9",
@@ -5983,7 +5983,7 @@
   },
   "lunarfoundry": {
    "allowed": {
-    "README.md": "b5f063179d6c26d1"
+    "README.md": "6d20c465e5c12bd8"
    },
    "forbidden": {
     "app/about/page.tsx": "c807f6ad62fff18f",
@@ -6038,7 +6038,7 @@
   },
   "luvconvos": {
    "allowed": {
-    "README.md": "a8808da03bf9795a"
+    "README.md": "5dbe591328042371"
    },
    "forbidden": {
     ".storybook/main.ts": "90e375c6dc25ecc1",
@@ -6149,7 +6149,7 @@
   },
   "luvpartnr": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "704bf945c5745f95"
    },
    "forbidden": {
     "app/api/analyze-entry/route.ts": "6590e360703030e5",
@@ -6227,7 +6227,7 @@
   },
   "luvstories": {
    "allowed": {
-    "README.md": "eb95aa51f4e808a7"
+    "README.md": "2855ccfa3395a61e"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -6277,7 +6277,7 @@
   },
   "modex": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "0e948adbbb69661c"
    },
    "forbidden": {
     "app/about/page.tsx": "e2184502a1fc4977",
@@ -6399,7 +6399,7 @@
   },
   "n1-therapeutics": {
    "allowed": {
-    "README.md": "ead826186e2d4600"
+    "README.md": "a2b63b3da5bf68f9"
    },
    "forbidden": {
     "app/about/page.tsx": "a594b9e65f400fe5",
@@ -6456,7 +6456,7 @@
   },
   "naextblock": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "97d0c4654395a47c"
    },
    "forbidden": {
     "components/AuthForm.tsx": "1c3f662e97b1ad12",
@@ -6520,7 +6520,7 @@
   },
   "nex-robotix": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "38fa65740a5dc655"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -6616,6 +6616,7 @@
   },
   "noaerth": {
    "allowed": {
+    ".github/copilot-instructions.md": "336cc4fbf19beaad",
     ".github/workflows/ci.yml": "afd3cc146d44790f",
     "README.md": "d87535848604f2e4"
    },
@@ -6630,32 +6631,33 @@
     "app/autobuilder/page.tsx": "8bd78525428f09aa",
     "app/contact/page.tsx": "d5d63f94300db577",
     "app/dashboard/page.tsx": "34a8e5573191e1ba",
-    "app/demo/page.tsx": "ec87eee2bb7c605a",
+    "app/demo/page.tsx": "d617015e0bc50cab",
     "app/docs/page.tsx": "a1c6897dfa0fd66c",
     "app/examples/page.tsx": "069889afddf94fee",
     "app/faq/page.tsx": "7fa80786df7f4089",
     "app/favicon.ico": "2b8ad2d33455a8f7",
     "app/founder/page.tsx": "fdc6ca2de83c54a9",
-    "app/globals.css": "4db4b6569774252c",
+    "app/globals.css": "5a86e2124b4dc4ef",
     "app/how-it-works/page.tsx": "f5fcac143bb8cbfa",
     "app/icon.svg": "92657fe6410fb6d1",
     "app/intake/page.tsx": "921003a121a2fa3e",
     "app/investor/page.tsx": "e5303bb17dd7c45d",
     "app/investors/page.tsx": "097815f585650d64",
     "app/labs/page.tsx": "d733d2a552d985f6",
-    "app/layout.tsx": "6722441e9d3fc1f4",
+    "app/layout.tsx": "cb9a1faf2e36c562",
     "app/open-source/page.tsx": "91cc2ca0cb5b3ed4",
-    "app/page.tsx": "35eed1e5f4619413",
-    "app/portfolio/page.tsx": "40447be41ac363b7",
-    "app/pricing/page.tsx": "1fe7b184ad564e35",
-    "app/privacy/page.tsx": "6ccc03f6cc23db45",
-    "app/product/page.tsx": "148a7fd7c95e45d9",
+    "app/page.tsx": "eb4b2fe4befdb6d5",
+    "app/portfolio-economics/page.tsx": "5e82eedbd3ffcad3",
+    "app/portfolio/page.tsx": "64869ae84fc553d3",
+    "app/pricing/page.tsx": "96bf8107f981538c",
+    "app/privacy/page.tsx": "028ae321c22585a7",
+    "app/product/page.tsx": "0f997835368cb6dc",
     "app/report/page.tsx": "709696a1b766720b",
     "app/robots.ts": "78891f09e614b65b",
     "app/sitemap.ts": "d66e5d6d9b44c245",
     "app/support/page.tsx": "286b0b3ad74f50da",
     "app/team/page.tsx": "780a4dcda32a8413",
-    "app/terms/page.tsx": "2125de715e3488b0",
+    "app/terms/page.tsx": "9ca9e9f02efb729f",
     "app/trust/page.tsx": "86108f94bb36dc42",
     "app/updates/page.tsx": "d282fbd5a9430144",
     "app/use-cases/page.tsx": "77b4bedda28544b4",
@@ -6667,8 +6669,8 @@
     "components/FeatureVisualGrid.tsx": "14e8a7d04b01061e",
     "components/Footer.tsx": "941038a05e6437bd",
     "components/GlobalStats.tsx": "d3122e5f20571878",
-    "components/Header.tsx": "ca9af2fa25a17fe6",
-    "components/HeaderStats.tsx": "c3ad8cef5cb8534e",
+    "components/Header.tsx": "72b214ada84a6a89",
+    "components/HeaderStats.tsx": "86ad8fd5bd02ddeb",
     "components/HeroProductPanel.tsx": "2b85328401c0c638",
     "components/InvestorCard.tsx": "f0ff45782b3277bf",
     "components/KissHero.tsx": "c81eb4e32c4d01e2",
@@ -6687,7 +6689,7 @@
     "components/SiteJsonLd.tsx": "c15ae52f33ab0bb9",
     "components/SolutionPipelineGraphic.tsx": "5f84e9230626fa42",
     "components/StrategicCard.tsx": "127c1041f36d9cef",
-    "components/SubpageVisual.tsx": "282dfa372e493780",
+    "components/SubpageVisual.tsx": "85bd0da33d76aa08",
     "components/TrillionXV3ReadinessStrip.tsx": "d768f17dbb3488ee",
     "components/TrustLayerGraphic.tsx": "f6060bc768f3a6d7",
     "components/UpdateFeed.tsx": "68072faf5df82f54",
@@ -6701,6 +6703,16 @@
     "components/dashboard/DashboardClient.tsx": "b1906ab02a038b93",
     "components/expansion-os.config.ts": "fdd5f4b229fcfca6",
     "components/expert-council-upgrade.config.ts": "5e422a0fd7d19363",
+    "components/finance/CapitalEfficiencyPanel.tsx": "f4ffd22799cc6db0",
+    "components/finance/EvidenceGrade.tsx": "70d9733dbb14f511",
+    "components/finance/FinancialReportingStatus.tsx": "b299e6bb914b7d0d",
+    "components/finance/MarketComparableCard.tsx": "1c70d6927637a567",
+    "components/finance/PaiosValuationCaseStudy.tsx": "8e6451beac50db6c",
+    "components/finance/PortfolioValueBreakdown.tsx": "f78857ad7691bab5",
+    "components/finance/PortfolioValueSnapshot.tsx": "789e3c98b52eb97b",
+    "components/finance/PortfolioValueTable.tsx": "90dde1a3cb5526cd",
+    "components/finance/ValuationDisclosure.tsx": "6ce87d3d13e69393",
+    "components/finance/ValuationRange.tsx": "3798501ee93f9df4",
     "components/forms/InquiryForm.tsx": "66bb1e992a6f8506",
     "components/graphics/AutoBuilderFlagshipSpotlight.tsx": "9c7bcb286a917b08",
     "components/graphics/ParentLayerCompare.tsx": "0de0e983cdec0540",
@@ -6719,19 +6731,22 @@
     "components/graphics/portfolio-visuals.tsx": "32533c0123b81737",
     "components/graphics/updates-visuals.tsx": "0febe804d0b69199",
     "components/graphics/venture-visuals.tsx": "ff105c548a5588aa",
-    "components/home/HomeBelowFoldCompressed.tsx": "8d9910df7cc03a9a",
+    "components/home/HomeBelowFoldCompressed.tsx": "5ab329a7be10dcfb",
     "components/home/HomePersonaStrip.tsx": "bb37f468b26e6abc",
     "components/home/HomeProductFlow.tsx": "695bf220a2963d54",
     "components/home/HomeTrustPanel.tsx": "4e05eee582f3dcfb",
-    "components/home/LatestFromLabs.tsx": "88ea088a66e32f8d",
+    "components/home/LatestFromLabs.tsx": "be0188a1aeeb1531",
     "components/home/NoaerthIntentRouter.tsx": "900dd5c7937f4443",
-    "components/home/NoaerthKissPitch.tsx": "5b678e15f87fa845",
+    "components/home/NoaerthKissPitch.tsx": "bf93b0418a0ef2c2",
     "components/home/NoaerthProofSection.tsx": "0a35f74ba55e66cb",
-    "components/home/PaiosFeaturedSection.tsx": "fa01411ea1ba1d84",
-    "components/home/PortfolioMapGraphic.tsx": "204cad8cb46d7359",
+    "components/home/OperatingEngine.tsx": "f7c74d088a787adc",
+    "components/home/PaiosFeaturedSection.tsx": "05bc759294639e88",
+    "components/home/PortfolioIntelligence.tsx": "83d4d65c81fb80cd",
+    "components/home/PortfolioMapGraphic.tsx": "714f58d7175cd95a",
     "components/investors/InvestorGenesisInteractive.tsx": "ad5e2f8284eea9ae",
     "components/investors/InvestorGenesisPage.tsx": "6636ef13d82bbaec",
     "components/investors/InvestorGenesisVisuals.tsx": "55f838be8ae2fb0d",
+    "components/investors/InvestorIntelligenceSections.tsx": "8da4f3348599bf79",
     "components/investors/VentureConstellation.tsx": "58bbeb284506b9b8",
     "components/kiss-hero.config.ts": "0c603aaba96671a7",
     "components/kiss-hero.types.ts": "96282813f90e96d2",
@@ -6747,15 +6762,24 @@
     "components/motion/SpotlightCard.tsx": "1788407478721dca",
     "components/motion/StaggerReveal.tsx": "8af5e3ef521e4cd0",
     "components/motion/index.ts": "2ae257c0fe41bf05",
+    "components/noaerth/activity/ActivityLedger.tsx": "be8b4606de383818",
+    "components/noaerth/graphics/VentureConstellation.tsx": "f9cd807f8e77196c",
+    "components/noaerth/graphics/constellation.ts": "687ae253b6da9205",
+    "components/noaerth/portfolio/PortfolioExplorer.tsx": "e40c9aa7440186d1",
+    "components/noaerth/portfolio/PortfolioValueTable.tsx": "8400bce7c19a3475",
+    "components/noaerth/venture/VentureCard.tsx": "9ad8057f4308b7b7",
+    "components/noaerth/venture/VenturePreviewVisual.tsx": "6d9af3fef0d3f67a",
+    "components/portfolio/PortfolioBoard.tsx": "16706467cf21b578",
     "components/portfolio/VentureSignalRow.tsx": "07b912ec18655db2",
     "components/premium/BeforeAfterGraphic.tsx": "1f36b67b6ddd015a",
     "components/premium/FeatureMiniVisual.tsx": "95f3153b52e4035c",
     "components/premium/GraphicsShell.tsx": "88b7422aba12a1c1",
     "components/premium/PremiumHeroVisual.tsx": "5a92442a305e6973",
     "components/premium/hero-variants.tsx": "f3fba7ecc8d3b566",
-    "components/site/SiteHero.tsx": "8475a25873b82279",
-    "components/site/SiteSection.tsx": "3fcf84950e2be114",
-    "components/site/SiteShell.tsx": "9c31bfcb998a9f7b",
+    "components/site/InvestorContextNav.tsx": "dec5c851da203e1c",
+    "components/site/SiteHero.tsx": "f4bb4d3f8ecfe583",
+    "components/site/SiteSection.tsx": "9b2ef5a71e08a0d5",
+    "components/site/SiteShell.tsx": "5afa86466c3d509a",
     "components/site/SiteStatRow.tsx": "da93f94e0cca922f",
     "components/support/SupportHubClient.tsx": "df2b9dd0203f2ebd",
     "components/team/TeamConsole.tsx": "99f231ea0a2112d4",
@@ -6774,8 +6798,12 @@
     "components/workspace/StatusPill.tsx": "c1b0e254e47f5b86",
     "components/workspace/WorkspaceEntryStrip.tsx": "2e53a21ffcff5c9c",
     "components/workspace/WorkspaceMemoryPanel.tsx": "27a2348288295a75",
+    "data/market-comparables.ts": "b3731a0199822bf4",
+    "data/portfolio-financials.ts": "65e058299fdf3ff5",
+    "data/value-pools.ts": "9115533c590cf9da",
     "data/ventures.test.ts": "0cda7042b8dd2f6b",
     "data/ventures.ts": "d405df1b319ff001",
+    "e2e/portfolio-economics.spec.ts": "29311737eea5a34d",
     "e2e/smoke.spec.ts": "1926dd8899fa65b4",
     "eslint.config.mjs": "1b06d66ce7c44387",
     "hooks/useInView.ts": "b5acff7fff97a16b",
@@ -6790,7 +6818,12 @@
     "lib/noaerth-positioning.ts": "5e71b24794b21388",
     "lib/omni-accent.ts": "546e5c8a9bc4869c",
     "lib/omni-venture.ts": "5c681b81cbf7c23b",
+    "lib/photon-removal.test.ts": "a1dad4ab23e3df39",
     "lib/portfolio-feed.ts": "036d742b38f9ce2d",
+    "lib/portfolio-finance.test.ts": "b85e42fe4dd09a98",
+    "lib/portfolio-finance.ts": "ef5374bad9f9d389",
+    "lib/portfolio-registry.test.ts": "c43eb2bc04dcdf5e",
+    "lib/portfolio-registry.ts": "a5bcd08a7f2a5b32",
     "lib/portfolio.ts": "da9f5c5ce0e1a525",
     "lib/premium-visual.ts": "742dd16efe414f66",
     "lib/site-metadata.ts": "b584f8639cc3c394",
@@ -6802,12 +6835,14 @@
     "lib/team-auth.ts": "dface60cb46c6d10",
     "lib/team-feed.ts": "497bf68bada8103f",
     "lib/user-intent-paths.ts": "05430b1c501187c9",
+    "lib/valuation.test.ts": "37f4c2d2cc998756",
+    "lib/valuation.ts": "66cf2bcef5aeb3c7",
     "lib/venture-advancement-score.ts": "f4f5ac199a6ab0ac",
     "lib/venture-card-model.ts": "3e92d6675a81d704",
     "lib/venture-favicon.ts": "db65008a7d05034e",
     "lib/venture-metadata.ts": "1cdc00dce30d4a55",
     "lib/venture-milestone-overrides.ts": "4b1728bab2cbd674",
-    "lib/venture-preview.ts": "fcc70cc039c593b2",
+    "lib/venture-preview.ts": "a217cee5b4eec6f5",
     "lib/venture-screenshots.ts": "ffcf414307b048da",
     "lib/venture-status.ts": "21314e8c3ac55d5c",
     "lib/workspace-preview-storage.ts": "1b37fcf7a2e61a4e",
@@ -6820,6 +6855,7 @@
     "postcss.config.mjs": "dfac7ac2d86d326a",
     "scripts/apply-user-truth-home-copy.mjs": "77a0803c7d95b4e9",
     "scripts/around-the-corner-ventures.mjs": "c05b71293e6a7b4d",
+    "scripts/capture-venture-previews.ts": "b88b718900bed053",
     "scripts/capture-venture-screenshots.ts": "673b2418bb7ae49b",
     "scripts/dedupe-venture-signatures.mjs": "098edb133194e7c6",
     "scripts/default-omni-config.mjs": "b6d4ecc1a0512041",
@@ -6840,6 +6876,7 @@
     "scripts/generate-venture-card-audit.mjs": "2873f0fdd9de3524",
     "scripts/generate-venture-council-360-portfolio.mjs": "449bff59fcb46e8c",
     "scripts/generate-venture-council-360.mjs": "b8d4e672918e4815",
+    "scripts/generate-venture-covers.ts": "3d0ac1f3e66abca1",
     "scripts/generate-venture-favicons.ts": "df9a81ae67b5f79c",
     "scripts/generate_venture_covers.py": "ec22c7c44eedb972",
     "scripts/install-finalforge-safety-batch.mjs": "0f015d20b53aff51",
@@ -6878,6 +6915,7 @@
     "scripts/titanatlas-v13-portfolio.mjs": "c66f7758711d1828",
     "scripts/user-truth-render.mjs": "3a6cf689fe23c10a",
     "scripts/validate-portfolio.ts": "95edb3be30486ecf",
+    "scripts/validate-venture-assets.ts": "1d2d7c9fad391ebc",
     "scripts/validate_venture_artwork.js": "1520c3843ab4c65b",
     "scripts/venture-council-render.mjs": "dd3942725aa5ad99",
     "styles/breakpoints.ts": "08cb80da177bb1bf",
@@ -6887,15 +6925,28 @@
     "styles/noaerth-earth.css": "7daeb97d11640327",
     "styles/noaerth-graphics.css": "dc1ae3df4cd27c6a",
     "styles/noaerth-inquiry-form.css": "0e0e78dddcbc41e7",
+    "styles/noaerth-institutional.css": "4b41e27bf823e75b",
     "styles/noaerth-motion.css": "e5c3f7f6104ea648",
     "styles/noaerth-premium-glass.css": "4724d5719117b646",
-    "styles/noaerth-site-bridge.css": "eb32fde466a910d9",
+    "styles/noaerth-site-bridge.css": "629b0efb97167209",
     "styles/noaerth-site-tokens.css": "feea421fb3ae507d",
+    "styles/noaerth/base.css": "e5593e0aaa006194",
+    "styles/noaerth/finance.css": "e211c4fb01593f5f",
+    "styles/noaerth/layout.css": "e641d8f7ed8906df",
+    "styles/noaerth/legacy-finance.css": "18f8d7ba5c092bd1",
+    "styles/noaerth/motion.css": "e777aaf09827fc21",
+    "styles/noaerth/portfolio.css": "1bae71e06340d419",
+    "styles/noaerth/public.css": "e588789f1b0b8011",
+    "styles/noaerth/responsive.css": "ee2517788bbed495",
+    "styles/noaerth/tokens.css": "7e68c35ba5e25705",
+    "styles/noaerth/typography.css": "ba23b4a8d17c1a9b",
     "styles/venture-components.css": "f69de3d1d8c5fc2c",
     "styles/venture-operating-card.css": "cf50ca32391053b6",
     "supabase/migrations/001_site_inquiries.sql": "c640546fcc4a7e15",
     "tsconfig.json": "84a8cbe63c95455d",
     "types/noaerth.ts": "057f7af3cdb79246",
+    "types/portfolio-finance.ts": "39a9ddcf2fd312f0",
+    "types/venture-preview.ts": "a8fbcb1c8faaeea0",
     "types/venture.ts": "4d76858e748ce26a",
     "vitest.config.ts": "3b38600aad752fef"
    }
@@ -7336,7 +7387,7 @@
   },
   "obviouslybad": {
    "allowed": {
-    "README.md": "5352a7323f162f10"
+    "README.md": "b4359871c07e577d"
    },
    "forbidden": {
     ".env.example": "485e9b3145ea1750",
@@ -7373,7 +7424,7 @@
   },
   "oddbotix": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "31cd2180c869db8f"
    },
    "forbidden": {
     "app/about/page.tsx": "544bcdcc351a559a",
@@ -7430,7 +7481,7 @@
   },
   "oodax": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "7530aa7ca2cafcd7"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -7482,7 +7533,7 @@
     ".github/workflows/ci.yml": "8c253f09663572ca",
     "CODE_OF_CONDUCT.md": "74be96f6ab83ac5d",
     "CONTRIBUTING.md": "2c7b91285b9a0977",
-    "README.md": "d77ca6dbe11c94ce",
+    "README.md": "1d835bd5fdbf003b",
     "SECURITY.md": "c32acd259126e282"
    },
    "forbidden": {
@@ -7540,7 +7591,7 @@
   },
   "opencode-watchdog-website": {
    "allowed": {
-    "README.md": "f5272222506d9927"
+    "README.md": "ed436cc9ff7eb3b1"
    },
    "forbidden": {
     "app/commands/page.tsx": "5630416420c9ff62",
@@ -7563,7 +7614,7 @@
   },
   "opsautopilot": {
    "allowed": {
-    "README.md": "b9f082efab7da9b0"
+    "README.md": "fb5011878a3423dc"
    },
    "forbidden": {
     "app/about/page.tsx": "8c83dec248bf7f33",
@@ -7621,7 +7672,7 @@
   },
   "orbitchip": {
    "allowed": {
-    "README.md": "dd521da4c20e1e4b"
+    "README.md": "ddf8ba7e87a4655e"
    },
    "forbidden": {
     "app/about/page.tsx": "6380c9dde2be2928",
@@ -7675,7 +7726,7 @@
   },
   "orbitprint": {
    "allowed": {
-    "README.md": "8147865a4c1a74f8"
+    "README.md": "ebee309f7af14624"
    },
    "forbidden": {
     "app/about/page.tsx": "d7f1835d91d51ff9",
@@ -7764,7 +7815,7 @@
   },
   "paios-one": {
    "allowed": {
-    "README.md": "fc1d06e141159485",
+    "README.md": "0c00be2daea54880",
     "ai/README.md": "9face993a77a50bb",
     "automation/README.md": "702c59b87af0d94f",
     "command-center/README.md": "f43287abb7843bda",
@@ -9699,7 +9750,7 @@
   },
   "poolwater": {
    "allowed": {
-    "README.md": "a7cc854ea5ab54ef"
+    "README.md": "446e59cc53b503c1"
    },
    "forbidden": {
     "app/about/page.tsx": "0eebf8795ec34687",
@@ -9786,7 +9837,7 @@
   },
   "psychemap": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "1e4bcd60804ed61c"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -9864,7 +9915,7 @@
   },
   "readablestack": {
    "allowed": {
-    "README.md": "dd232a85ff36144a"
+    "README.md": "20e5c0ddaaa9fe0d"
    },
    "forbidden": {
     "app/api/convert/[id]/route.ts": "ad25ed43c33db43a",
@@ -9920,7 +9971,7 @@
     ".github/ISSUE_TEMPLATE/ai-refactor.md": "35ce185db3b67242",
     ".github/PULL_REQUEST_TEMPLATE.md": "f958cf0d5e9c3f2e",
     ".github/workflows/ci.yml": "7d8c37bb8e954b71",
-    "README.md": "572e9a8838ea8581"
+    "README.md": "37e3191dba63bc47"
    },
    "forbidden": {
     ".ts": "f55388329075d392",
@@ -10002,7 +10053,7 @@
   },
   "requestayo": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "4382df6865132bca"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -10059,7 +10110,7 @@
   },
   "reviewforge-ai": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "4edf814486989bf2"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -10090,7 +10141,7 @@
   },
   "saeturtle": {
    "allowed": {
-    "README.md": "593fe4602a27a29d"
+    "README.md": "dbd534b21da1f64c"
    },
    "forbidden": {
     "app/api/checkout/route.ts": "7c8ebf3b8f53cc25",
@@ -10194,7 +10245,7 @@
     ".github/PULL_REQUEST_TEMPLATE.md": "fc4339972132825b",
     ".github/copilot-instructions.md": "336cc4fbf19beaad",
     ".github/workflows/ci.yml": "dfb55761d3316e4d",
-    "README.md": "51cac7d68c7801be",
+    "README.md": "91366e1ef7a5e3fc",
     "web/README.md": "f08bbfbb4de23d35"
    },
    "forbidden": {
@@ -10325,7 +10376,7 @@
   },
   "shopright": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "cacf2ab770ac95be"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -10407,7 +10458,7 @@
   },
   "siliconcontrol-tower": {
    "allowed": {
-    "README.md": "d5a1816c9a842ab1"
+    "README.md": "7465279b3e443c91"
    },
    "forbidden": {
     "app/api/tower/[id]/route.ts": "fe288b839edcec06",
@@ -10447,7 +10498,7 @@
   },
   "soulmayte": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "fe8798a27cbdfda5"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -10497,7 +10548,7 @@
   },
   "spacecompute-cloud": {
    "allowed": {
-    "README.md": "00fa3abee9acd8b1"
+    "README.md": "4a2f40773e1e138d"
    },
    "forbidden": {
     "app/about/page.tsx": "6b6969e34af30a7c",
@@ -10551,7 +10602,7 @@
   },
   "spaceedu": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "45a21618d168317f"
    },
    "forbidden": {
     "_quarantine/old-root-app-api/checkout/route.ts": "e3b0c44298fc1c14",
@@ -10682,7 +10733,7 @@
   },
   "spouwse": {
    "allowed": {
-    "README.md": "e58ea81c76bac9c5"
+    "README.md": "30566d9bcf23d38b"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -10734,7 +10785,7 @@
   },
   "startupquick": {
    "allowed": {
-    "README.md": "2e8873f249726a46"
+    "README.md": "09d04c3defb02c55"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -10806,7 +10857,7 @@
   },
   "strxngth": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "5359b1a80a1d3879"
    },
    "forbidden": {
     "components/Nav.tsx": "e3b0c44298fc1c14",
@@ -10879,7 +10930,7 @@
   },
   "sunsetx": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "8a84624e35079632"
    },
    "forbidden": {
     "eslint.config.mjs": "218b682e8d4b2573",
@@ -10977,7 +11028,7 @@
   },
   "supplyos-ai": {
    "allowed": {
-    "README.md": "8e5252f513a9519b"
+    "README.md": "8b269a4ed1ed717f"
    },
    "forbidden": {
     "app/api/risk/[id]/route.ts": "3650f383e5f6f9f3",
@@ -11016,7 +11067,7 @@
   },
   "swarmshield": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "ea9f5c74db4c5e0b"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -11073,7 +11124,7 @@
   },
   "tempoos": {
    "allowed": {
-    "README.md": "013a7436a55d3a77"
+    "README.md": "e200f65a1342ec1a"
    },
    "forbidden": {
     ".env.example": "934c27770176e1b8",
@@ -11129,7 +11180,7 @@
   },
   "therapyux": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "ae15c998e7a5c7c3"
    },
    "forbidden": {
     "app/(app)/dashboard/page.tsx": "1529352b0d862545",
@@ -11248,7 +11299,7 @@
   },
   "trajectoryos": {
    "allowed": {
-    "README.md": "f176f31e5434b12f"
+    "README.md": "2eda37e8d18e4aee"
    },
    "forbidden": {
     "app/globals.css": "6eaab94e24a81bab",
@@ -11289,7 +11340,7 @@
   },
   "trustxverify": {
    "allowed": {
-    "README.md": "c37620bf168827cc"
+    "README.md": "661e7424296d880d"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -11395,7 +11446,7 @@
   },
   "uxvisualengine": {
    "allowed": {
-    "README.md": "e0085f51f0262ec8"
+    "README.md": "a31af6f92334613f"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -11418,7 +11469,7 @@
   },
   "valuedsociety": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "e6cf9405731d0e00"
    },
    "forbidden": {
     "app/api/checkout/route.ts": "",
@@ -11468,7 +11519,7 @@
   },
   "vencapmentor": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "8bc7a79a878b7790"
    },
    "forbidden": {
     "app/api/checkout/route.ts": "7c8ebf3b8f53cc25",
@@ -11526,7 +11577,7 @@
   },
   "venturerank-os": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "af3693232e1cdc0b"
    },
    "forbidden": {
     "eslint.config.mjs": "870f1adccecf3051",
@@ -11677,7 +11728,7 @@
   },
   "youareprofound": {
    "allowed": {
-    "README.md": "60b55ff7df79af72"
+    "README.md": "e488d35b3583f2ed"
    },
    "forbidden": {
     "app/api/checkout/route.ts": "7c8ebf3b8f53cc25",
@@ -11715,7 +11766,7 @@
   },
   "youstate": {
    "allowed": {
-    "README.md": "b92222c87cfe8a34"
+    "README.md": "144c8a0447665e8f"
    },
    "forbidden": {
     "app/(marketing)/about/page.tsx": "5bd7d335ffe81187",
@@ -11786,7 +11837,7 @@
   },
   "zaeux": {
    "allowed": {
-    "README.md": "c309ae95389c61b7"
+    "README.md": "1654226db8da4884"
    },
    "forbidden": {
     "app/api/checkout/route.ts": "7c8ebf3b8f53cc25",

@@ -1,137 +1,117 @@
 {
- "API": [],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "api_flow",
- "CS_visual_2": "",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "interaction graph with trust weights",
- "architecture": "modular",
- "audience": "",
- "canonical_name": "Photon iMessage",
- "concurrency_model": "",
+ "repo": "imessage",
+ "canonical_name": "imessage",
+ "project_category": "WEB_APPLICATION",
+ "palette": "navy_lavender",
  "confidence": "E2",
- "control_flow": "control for imessage enters at public-site/index.html and dispatches to 1 entry points across 0 routes (none) using Next.js",
- "cs_primitives": [],
- "data_flow": "single-entry processing",
- "data_structures": [],
- "description": "Photon iMessage: a social platform, built on TypeScript.",
- "domain": "Social",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "SUPPORTED_INFERENCE",
-  "CS_visual_2": "SUPPORTED_INFERENCE",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "SUPPORTED_INFERENCE",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "SUPPORTED_INFERENCE",
-  "data_flow": "SUPPORTED_INFERENCE",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "problem": "NAME_BASED_HYPOTHESIS",
-  "project_category": "SUPPORTED_INFERENCE",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "NAME_BASED_HYPOTHESIS",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 47,
- "frameworks": [
-  "Next.js",
-  "React",
-  "Vercel AI SDK",
-  "Zod"
- ],
+ "status": "PROTOTYPE",
  "has_code": true,
- "homepage": "",
- "inputs": [
-  "user request"
+ "domain": "Consumer",
+ "audience": "developer",
+ "problem": "A small form for one consented iMessage.",
+ "public_positioning": "A small form for one consented iMessage.",
+ "website_positioning": "A small form for one consented iMessage.",
+ "data_flow": "2 App Router endpoints including /api/send",
+ "control_flow": "public-site/index.html boots 2 module(s) (app, components) and serves 2 route(s) beginning /api/send",
+ "state_model": "no distinctive algorithmic primitive detected",
+ "state_model_note": "structure is declarative/config; no primitive matcher hit",
+ "architecture": "2 top-level module boundaries: app, components",
+ "terminal_story": "public-site/index.html -> 2 routes, 2 modules, 47 files",
+ "terminal_lines": [
+  "public-site/index.html"
  ],
  "interfaces": [
-  "CLI entry points"
+  "public-site/index.html"
  ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow",
-  "analysed from a read-only clone, not the portfolio checkout"
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/api/send"
  ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "TypeScript"
+ "workflow_steps": [
+  "app",
+  "components"
  ],
  "major_modules": [
   "app",
-  "components",
-  "public-site"
+  "components"
  ],
- "outputs": [],
- "palette": "indigo_lime",
- "primary_visual_metaphor": "interaction graph with trust weights",
- "problem": "",
- "project_category": "SOCIAL",
- "public_positioning": "A small form for one consented iMessage.",
- "purpose": "Photon iMessage is a social codebase of 47 files.",
+ "cs_primitives": [],
+ "security_model": [],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "packet_route over routes /api/send; modules app, components",
+ "secondary_visual_metaphor": "stack Zod; top module app",
+ "geometry_set": "arch",
+ "animation_story_1": "packet_route",
+ "entry_points": [
+  "public-site/index.html"
+ ],
+ "routes": [
+  "/",
+  "/api/send"
+ ],
+ "frameworks": [
+  "Next.js",
+  "React",
+  "Zod"
+ ],
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
+ ],
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "1",
   "tags": 0
  },
- "secondary_visual_metaphor": "social topology for imessage",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "clone",
- "state_model": "stateless request handling",
- "status": "PROTOTYPE",
- "technical_category": "social-platform",
- "terminal_story": "operator runs Photon iMessage (TypeScript) from the command line; output resolves as a tree [imessage]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [
+   "Zod"
+  ],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React"
+  ],
+  "routes": [
+   "/",
+   "/api/send"
+  ],
+  "entry_points": [
+   "public-site/index.html"
+  ],
+  "modules": [
+   "app",
+   "components"
+  ],
+  "frameworks": [
+   "Next.js",
+   "React",
+   "Zod"
+  ],
+  "cs_primitives": [],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 47,
+  "test_count": 0,
+  "shared_template_files": 1
  },
- "topics": [
-  "social-platform",
-  "typescript",
-  "social",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "component_map",
+  "build",
+  "footer"
+ ]
 }

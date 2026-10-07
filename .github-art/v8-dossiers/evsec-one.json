@@ -1,165 +1,189 @@
 {
- "API": [
-  "/about",
-  "/dashboard",
-  "/onboarding",
-  "/pricing",
-  "/scan",
-  "/sign-in",
-  "/sign-up"
- ],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "policy",
- "CS_visual_2": "index",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [
-  "index"
- ],
- "animation_story_1": "protected core behind a trust boundary",
- "architecture": "DATA_FLOW",
- "audience": "",
- "canonical_name": "EvSec-One",
- "concurrency_model": "",
+ "repo": "evsec-one",
+ "canonical_name": "evsec-one",
+ "project_category": "WEB_APPLICATION",
+ "palette": "coral_teal",
  "confidence": "E3",
- "control_flow": "control for evsec-one enters at public-site/index.html and dispatches to 1 entry points across 8 routes (/, /about, /dashboard) using D3",
+ "status": "PROTOTYPE",
+ "has_code": true,
+ "domain": "Privacy",
+ "audience": "developer",
+ "problem": "Operational security for serious builders.",
+ "public_positioning": "Operational security for serious builders.",
+ "website_positioning": "Operational security for serious builders.",
+ "data_flow": "20 App Router endpoints including /about, /api/checkout, /contact, /dashboard",
+ "control_flow": "public-site/index.html boots 5 module(s) (app, components) and serves 20 route(s) beginning /about, /api/checkout",
+ "state_model": "policy, index, queue, simulator",
+ "state_model_note": "4 computer-science primitive(s) matched in source",
+ "architecture": "5 top-level module boundaries: app, components, lib, src, supabase",
+ "terminal_story": "public-site/index.html -> 20 routes, 5 modules, 982 files",
+ "terminal_lines": [
+  "public-site/index.html"
+ ],
+ "interfaces": [
+  "public-site/index.html"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/api/checkout",
+  "/contact",
+  "/dashboard",
+  "/demo"
+ ],
+ "workflow_steps": [
+  "app",
+  "components",
+  "lib",
+  "src",
+  "supabase"
+ ],
+ "major_modules": [
+  "app",
+  "components",
+  "lib",
+  "src",
+  "supabase"
+ ],
  "cs_primitives": [
   "policy",
   "index",
   "queue",
   "simulator"
  ],
- "data_flow": "Security: requests traverse 8 routes (/, /about, /dashboard, /onboarding)",
- "data_structures": [
-  "index",
+ "security_model": [
+  "policy"
+ ],
+ "concurrency_model": [
   "queue"
  ],
- "description": "EvSec-One: a security system, structured around policy.",
- "domain": "Security",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "FACT",
-  "README_outline": "FACT",
-  "algorithms": "FACT",
-  "api": "FACT",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "FACT",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "SUPPORTED_INFERENCE",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "FACT",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 981,
+ "primary_visual_metaphor": "state_change over routes /about, /api/checkout, /contact; modules app, components, lib; primitives policy, index, queue",
+ "secondary_visual_metaphor": "primitives policy, index, queue; stack Supabase, Zod; top module app",
+ "geometry_set": "arch",
+ "animation_story_1": "state_change",
+ "entry_points": [
+  "public-site/index.html"
+ ],
+ "routes": [
+  "/",
+  "/about",
+  "/api/checkout",
+  "/contact",
+  "/dashboard",
+  "/demo",
+  "/docs",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/onboarding",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/scan",
+  "/sign-in",
+  "/sign-up",
+  "/support",
+  "/terms",
+  "/trust"
+ ],
  "frameworks": [
-  "D3",
   "Next.js",
   "React",
   "Supabase",
   "Tailwind CSS",
-  "Vercel AI SDK",
   "Zod"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [],
- "interfaces": [
-  "CLI entry points",
-  "8 HTTP routes",
-  "database layer"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "SQL",
-  "TypeScript"
- ],
- "major_modules": [
-  ".autobuilder",
-  ".startup",
-  "app",
-  "components",
-  "lib",
-  "public-site",
-  "supabase",
-  "venture-os"
- ],
- "outputs": [],
- "palette": "graphite_coral",
- "primary_visual_metaphor": "protected core behind a trust boundary",
- "problem": "Operational security for serious builders.",
- "project_category": "SECURITY",
- "public_positioning": "Operational security for serious builders.",
- "purpose": "evsec one. build via `package.json`.",
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "75",
   "tags": 0
  },
- "secondary_visual_metaphor": "policy structure in security",
- "security_model": [
-  "trust boundary enforcement",
-  "policy evaluation"
- ],
- "source_origin": "portfolio",
- "state_model": "policy with 4 cooperating structures",
- "status": "PROTOTYPE",
- "technical_category": "security-engineering",
- "terminal_story": "operator runs EvSec-One (TypeScript) from the command line; output resolves as a tree [evsec-one]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [
+   "Supabase",
+   "Zod"
+  ],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/api/checkout",
+   "/contact",
+   "/dashboard",
+   "/demo",
+   "/docs",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/onboarding",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/scan",
+   "/sign-in",
+   "/sign-up",
+   "/support",
+   "/terms",
+   "/trust"
+  ],
+  "entry_points": [
+   "public-site/index.html"
+  ],
+  "modules": [
+   "app",
+   "components",
+   "lib",
+   "src",
+   "supabase"
+  ],
+  "frameworks": [
+   "Next.js",
+   "React",
+   "Supabase",
+   "Tailwind CSS",
+   "Zod"
+  ],
+  "cs_primitives": [
+   "policy",
+   "index",
+   "queue",
+   "simulator"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 982,
+  "test_count": 0,
+  "shared_template_files": 36
  },
- "topics": [
-  "security-engineering",
-  "typescript",
-  "security",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

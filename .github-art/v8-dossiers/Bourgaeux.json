@@ -1,145 +1,158 @@
 {
- "API": [],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "api_flow",
- "CS_visual_2": "",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "source transformed through analysis to output",
- "architecture": "DATA_FLOW",
- "audience": "",
+ "repo": "Bourgaeux",
  "canonical_name": "Bourgaeux",
- "concurrency_model": "",
+ "project_category": "WEB_APPLICATION",
+ "palette": "rust_teal",
  "confidence": "E3",
- "control_flow": "control for Bourgaeux enters at public-site/index.html and dispatches to 1 entry points across 1 routes (/) using Next.js",
- "cs_primitives": [],
- "data_flow": "Developer Tools: requests traverse 1 routes (/)",
- "data_structures": [],
- "description": "Bourgaeux: a developer tool, built on TypeScript.",
- "domain": "Developer Tools",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "SUPPORTED_INFERENCE",
-  "CS_visual_2": "SUPPORTED_INFERENCE",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "NAME_BASED_HYPOTHESIS",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 973,
- "frameworks": [
-  "Next.js",
-  "React",
-  "Tailwind CSS",
-  "Vercel AI SDK"
- ],
+ "status": "PROTOTYPE",
  "has_code": true,
- "homepage": "",
- "inputs": [
-  "source files"
+ "domain": "Luxury",
+ "audience": "developer",
+ "problem": "Discover Bourgaeux.",
+ "public_positioning": "Discover Bourgaeux.",
+ "website_positioning": "Discover Bourgaeux.",
+ "data_flow": "18 App Router endpoints including /about, /api/chat, /api/checkout, /api/recommend",
+ "control_flow": "public-site/index.html boots 4 module(s) (app, components) and serves 18 route(s) beginning /about, /api/chat",
+ "state_model": "no distinctive algorithmic primitive detected",
+ "state_model_note": "structure is declarative/config; no primitive matcher hit",
+ "architecture": "4 top-level module boundaries: app, components, lib, src",
+ "terminal_story": "public-site/index.html -> 18 routes, 4 modules, 975 files",
+ "terminal_lines": [
+  "public-site/index.html"
  ],
  "interfaces": [
-  "CLI entry points",
-  "1 HTTP routes"
+  "public-site/index.html"
  ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/api/chat",
+  "/api/checkout",
+  "/api/recommend",
+  "/contact"
  ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "TypeScript"
- ],
- "major_modules": [
-  ".aider.tags.cache.v4",
-  ".autobuilder",
-  ".git-backup-before-clean-history",
-  ".startup",
+ "workflow_steps": [
   "app",
   "components",
   "lib",
-  "public-site",
-  "venture-os"
+  "src"
  ],
- "outputs": [
-  "build artifact"
+ "major_modules": [
+  "app",
+  "components",
+  "lib",
+  "src"
  ],
- "palette": "mint_violet",
- "primary_visual_metaphor": "source transformed through analysis to output",
- "problem": "Discover Bourgaeux.",
- "project_category": "DEVELOPER_TOOLS",
- "public_positioning": "Discover Bourgaeux.",
- "purpose": "Bourgaeux is a developer tools codebase of 973 files.",
+ "cs_primitives": [],
+ "security_model": [],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "packet_route over routes /about, /api/chat, /api/checkout; modules app, components, lib",
+ "secondary_visual_metaphor": "stack Next.js, React, Tailwind CSS; top module app",
+ "geometry_set": "ring",
+ "animation_story_1": "packet_route",
+ "entry_points": [
+  "public-site/index.html"
+ ],
+ "routes": [
+  "/",
+  "/about",
+  "/api/chat",
+  "/api/checkout",
+  "/api/recommend",
+  "/contact",
+  "/dashboard",
+  "/demo",
+  "/docs",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/support",
+  "/terms",
+  "/trust"
+ ],
+ "frameworks": [
+  "Next.js",
+  "React",
+  "Tailwind CSS"
+ ],
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
+ ],
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "54",
   "tags": 0
  },
- "secondary_visual_metaphor": "developer tools topology for Bourgaeux",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "portfolio",
- "state_model": "stateless request handling",
- "status": "PROTOTYPE",
- "technical_category": "developer-tooling",
- "terminal_story": "operator runs Bourgaeux (TypeScript) from the command line; output resolves as a tree [Bourgaeux]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/api/chat",
+   "/api/checkout",
+   "/api/recommend",
+   "/contact",
+   "/dashboard",
+   "/demo",
+   "/docs",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/support",
+   "/terms",
+   "/trust"
+  ],
+  "entry_points": [
+   "public-site/index.html"
+  ],
+  "modules": [
+   "app",
+   "components",
+   "lib",
+   "src"
+  ],
+  "frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "cs_primitives": [],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 975,
+  "test_count": 0,
+  "shared_template_files": 49
  },
- "topics": [
-  "developer-tooling",
-  "typescript",
-  "developer-tools",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "component_map",
+  "build",
+  "footer"
+ ]
 }

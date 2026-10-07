@@ -1,149 +1,191 @@
 {
- "API": [
-  "/login"
- ],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "simulator",
- "CS_visual_2": "",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "stepped terrain with a live probe path",
- "architecture": "DATA_FLOW",
- "audience": "",
+ "repo": "luvconvos",
  "canonical_name": "luvconvos",
- "concurrency_model": "",
+ "project_category": "WEB_APPLICATION",
+ "palette": "indigo_lime",
  "confidence": "E3",
- "control_flow": "control for luvconvos enters at public-site/index.html and dispatches to 1 entry points across 2 routes (/, /login) using D3",
+ "status": "PROTOTYPE",
+ "has_code": true,
+ "domain": "Web Application",
+ "audience": "developer",
+ "problem": "",
+ "public_positioning": "",
+ "website_positioning": "",
+ "data_flow": "24 App Router endpoints including /about, /api/auth, /api/checkout, /api/simulate",
+ "control_flow": "public-site/index.html boots 4 module(s) (.storybook, app) and serves 24 route(s) beginning /about, /api/auth",
+ "state_model": "simulator",
+ "state_model_note": "1 computer-science primitive(s) matched in source",
+ "architecture": "4 top-level module boundaries: .storybook, app, components, src",
+ "terminal_story": "public-site/index.html -> 24 routes, 4 modules, 1011 files",
+ "terminal_lines": [
+  "public-site/index.html"
+ ],
+ "interfaces": [
+  "public-site/index.html"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/api/auth",
+  "/api/checkout",
+  "/api/simulate",
+  "/contact"
+ ],
+ "workflow_steps": [
+  ".storybook",
+  "app",
+  "components",
+  "src"
+ ],
+ "major_modules": [
+  ".storybook",
+  "app",
+  "components",
+  "src"
+ ],
  "cs_primitives": [
   "simulator"
  ],
- "data_flow": "Simulation: requests traverse 2 routes (/, /login)",
- "data_structures": [],
- "description": "luvconvos: a simulation, structured around simulator.",
- "domain": "Simulation",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "SUPPORTED_INFERENCE",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "FACT",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "NAME_BASED_HYPOTHESIS",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 1010,
+ "security_model": [],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "tessellate over routes /about, /api/auth, /api/checkout; modules .storybook, app, components; primitives simulator",
+ "secondary_visual_metaphor": "primitives simulator; stack Supabase, Zod; top module .storybook",
+ "geometry_set": "arch",
+ "animation_story_1": "tessellate",
+ "entry_points": [
+  "public-site/index.html"
+ ],
+ "routes": [
+  "/",
+  "/about",
+  "/api/auth",
+  "/api/checkout",
+  "/api/simulate",
+  "/contact",
+  "/dashboard",
+  "/demo",
+  "/docs",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/investors",
+  "/login",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/relationships",
+  "/relationships/:id",
+  "/reports",
+  "/simulator",
+  "/support",
+  "/technology",
+  "/terms"
+ ],
  "frameworks": [
-  "D3",
   "Next.js",
   "Playwright",
   "React",
   "Supabase",
   "Tailwind CSS",
-  "Vercel AI SDK",
   "Vitest",
   "Zod"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [],
- "interfaces": [
-  "CLI entry points",
-  "2 HTTP routes",
-  "database layer"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "TypeScript"
- ],
- "major_modules": [
-  ".autobuilder",
-  ".startup",
-  ".storybook",
-  "app",
-  "components",
-  "public-site",
-  "venture-os"
- ],
- "outputs": [],
- "palette": "plum_azure",
- "primary_visual_metaphor": "stepped terrain with a live probe path",
- "problem": "- AI-powered conversation simulation - Relationship profiling - Communication analytics - Voice-preserving message rewriting - Privacy-first architecture",
- "project_category": "SIMULATION",
- "public_positioning": "",
- "purpose": "luvconvos is a simulation codebase of 1010 files organised around simulator.",
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "96",
   "tags": 0
  },
- "secondary_visual_metaphor": "simulator structure in simulation",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "portfolio",
- "state_model": "simulator with 1 cooperating structures",
- "status": "PROTOTYPE",
- "technical_category": "simulation",
- "terminal_story": "operator runs luvconvos (TypeScript) from the command line; output resolves as a tree [luvconvos]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [
+   "Supabase",
+   "Zod"
+  ],
+  "test_frameworks": [
+   "Playwright",
+   "Vitest"
+  ],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/api/auth",
+   "/api/checkout",
+   "/api/simulate",
+   "/contact",
+   "/dashboard",
+   "/demo",
+   "/docs",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/investors",
+   "/login",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/relationships",
+   "/relationships/:id",
+   "/reports",
+   "/simulator",
+   "/support",
+   "/technology",
+   "/terms"
+  ],
+  "entry_points": [
+   "public-site/index.html"
+  ],
+  "modules": [
+   ".storybook",
+   "app",
+   "components",
+   "src"
+  ],
+  "frameworks": [
+   "Next.js",
+   "Playwright",
+   "React",
+   "Supabase",
+   "Tailwind CSS",
+   "Vitest",
+   "Zod"
+  ],
+  "cs_primitives": [
+   "simulator"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 1011,
+  "test_count": 0,
+  "shared_template_files": 48
  },
- "topics": [
-  "simulation",
-  "typescript",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

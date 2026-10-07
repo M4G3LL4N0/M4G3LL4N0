@@ -1,152 +1,180 @@
 {
- "API": [],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "benchmark",
- "CS_visual_2": "agent_graph",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "multi-node reasoning path with a verification loop",
- "architecture": "DATA_FLOW",
- "audience": "",
- "canonical_name": "AgentCore Silicon",
- "concurrency_model": "",
+ "repo": "agentcore-silicon",
+ "canonical_name": "agentcore-silicon",
+ "project_category": "WEB_APPLICATION",
+ "palette": "coral_teal",
  "confidence": "E3",
- "control_flow": "control for agentcore-silicon enters at public-site/index.html and dispatches to 1 entry points across 0 routes (none) using Next.js",
+ "status": "PROTOTYPE",
+ "has_code": true,
+ "domain": "AI Infrastructure",
+ "audience": "developer",
+ "problem": "Silicon-aware agent infrastructure for hardware and compute ventures.",
+ "public_positioning": "Silicon-aware agent infrastructure for hardware and compute ventures.",
+ "website_positioning": "Silicon-aware agent infrastructure for hardware and compute ventures.",
+ "data_flow": "19 App Router endpoints including /about, /api/benchmarks, /contact, /dashboard",
+ "control_flow": "public-site/index.html boots 4 module(s) (app, components) and serves 19 route(s) beginning /about, /api/benchmarks",
+ "state_model": "benchmark, agent_graph, simulator, scheduling_sim",
+ "state_model_note": "4 computer-science primitive(s) matched in source",
+ "architecture": "4 top-level module boundaries: app, components, lib, src",
+ "terminal_story": "public-site/index.html -> 19 routes, 4 modules, 934 files",
+ "terminal_lines": [
+  "public-site/index.html"
+ ],
+ "interfaces": [
+  "public-site/index.html"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/api/benchmarks",
+  "/contact",
+  "/dashboard",
+  "/demo"
+ ],
+ "workflow_steps": [
+  "app",
+  "components",
+  "lib",
+  "src"
+ ],
+ "major_modules": [
+  "app",
+  "components",
+  "lib",
+  "src"
+ ],
  "cs_primitives": [
   "benchmark",
   "agent_graph",
   "simulator",
   "scheduling_sim"
  ],
- "data_flow": "Agent: data passes through benchmark structure",
- "data_structures": [],
- "description": "AgentCore Silicon: an agent system, structured around benchmark.",
- "domain": "Agent",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "FACT",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "SUPPORTED_INFERENCE",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 930,
+ "security_model": [],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "bar_sweep over routes /about, /api/benchmarks, /contact; modules app, components, lib; primitives benchmark, agent_graph, simulator",
+ "secondary_visual_metaphor": "primitives benchmark, agent_graph, simulator; stack Prisma, Zod; top module app",
+ "geometry_set": "arch",
+ "animation_story_1": "bar_sweep",
+ "entry_points": [
+  "public-site/index.html"
+ ],
+ "routes": [
+  "/",
+  "/about",
+  "/api/benchmarks",
+  "/api/benchmarks/:id",
+  "/contact",
+  "/dashboard",
+  "/dashboard/benchmarks/:id",
+  "/demo",
+  "/docs",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/simulate",
+  "/support",
+  "/terms",
+  "/trust"
+ ],
  "frameworks": [
   "Next.js",
   "Prisma",
   "React",
   "Tailwind CSS",
-  "Vercel AI SDK",
   "Zod"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [
-  "user request"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "interfaces": [
-  "CLI entry points",
-  "database layer"
- ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "TypeScript"
- ],
- "major_modules": [
-  ".startup",
-  "app",
-  "components",
-  "lib",
-  "prisma",
-  "public-site",
-  "venture-os"
- ],
- "outputs": [
-  "tool calls",
-  "verifiable result"
- ],
- "palette": "indigo_lime",
- "primary_visual_metaphor": "multi-node reasoning path with a verification loop",
- "problem": "AgentCore Silicon MVP: launch site and interactive workload benchmark simulator for agent-optimized silicon.",
- "project_category": "AGENT",
- "public_positioning": "Silicon-aware agent infrastructure for hardware and compute ventures.",
- "purpose": "Startup portfolio: agentcore-silicon",
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "1",
   "tags": 0
  },
- "secondary_visual_metaphor": "benchmark structure in agent",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "portfolio",
- "state_model": "benchmark with 4 cooperating structures",
- "status": "PROTOTYPE",
- "technical_category": "agent-systems",
- "terminal_story": "operator runs AgentCore Silicon (TypeScript) from the command line; output resolves as a tree [agentcore-silicon]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [
+   "Prisma",
+   "Zod"
+  ],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/api/benchmarks",
+   "/api/benchmarks/:id",
+   "/contact",
+   "/dashboard",
+   "/dashboard/benchmarks/:id",
+   "/demo",
+   "/docs",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/simulate",
+   "/support",
+   "/terms",
+   "/trust"
+  ],
+  "entry_points": [
+   "public-site/index.html"
+  ],
+  "modules": [
+   "app",
+   "components",
+   "lib",
+   "src"
+  ],
+  "frameworks": [
+   "Next.js",
+   "Prisma",
+   "React",
+   "Tailwind CSS",
+   "Zod"
+  ],
+  "cs_primitives": [
+   "benchmark",
+   "agent_graph",
+   "simulator",
+   "scheduling_sim"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 934,
+  "test_count": 0,
+  "shared_template_files": 35
  },
- "topics": [
-  "agent-systems",
-  "typescript",
-  "agent",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

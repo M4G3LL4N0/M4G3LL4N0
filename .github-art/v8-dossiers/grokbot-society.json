@@ -1,35 +1,50 @@
 {
- "API": [],
- "CI": {
-  "present": true,
-  "workflow_count": 1,
-  "workflows": [
-   ".github/workflows/ci.yml"
-  ]
- },
- "CLI": true,
- "CS_visual_1": "stack",
- "CS_visual_2": "simulator",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "technical_evidence",
-  "status",
-  "limitations"
- ],
- "algorithms": [
-  "index"
- ],
- "animation_story_1": "temporal signal surface with an audit path",
- "architecture": "DISTRIBUTED",
- "audience": "",
- "canonical_name": "GrokBot Society",
- "concurrency_model": "event loop",
+ "repo": "grokbot-society",
+ "canonical_name": "grokbot-society",
+ "project_category": "WEB_APPLICATION",
+ "palette": "coral_teal",
  "confidence": "E3",
- "control_flow": "control for grokbot-society enters at src/budget/index.ts and dispatches to 13 entry points across 0 routes (none) using Vercel AI SDK",
+ "status": "LIVE",
+ "has_code": true,
+ "domain": "AI",
+ "audience": "developer",
+ "problem": "Persistent synthetic people without the swarm.",
+ "public_positioning": "Persistent synthetic people without the swarm.",
+ "website_positioning": "Persistent synthetic people without the swarm.",
+ "data_flow": "13 entry point(s) with no routable HTTP surface: src/budget/index.ts, src/cache/index.ts, src/circles/index.ts",
+ "control_flow": "13 entry point(s) with no HTTP layer: index.ts, index.ts, index.ts",
+ "state_model": "stack, simulator, benchmark, cache",
+ "state_model_note": "6 computer-science primitive(s) matched in source",
+ "architecture": "2 top-level module boundaries: examples, src",
+ "terminal_story": "budget/index.ts | cache/index.ts | circles/index.ts | events/index.ts -> 0 routes, 2 modules, 147 files",
+ "terminal_lines": [
+  "budget/index.ts",
+  "cache/index.ts",
+  "circles/index.ts",
+  "events/index.ts"
+ ],
+ "interfaces": [
+  "src/budget/index.ts",
+  "src/cache/index.ts",
+  "src/circles/index.ts"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "src/budget/index.ts",
+  "src/cache/index.ts",
+  "src/circles/index.ts",
+  "src/events/index.ts",
+  "src/god/index.ts"
+ ],
+ "workflow_steps": [
+  "examples",
+  "src"
+ ],
+ "major_modules": [
+  "examples",
+  "src"
+ ],
  "cs_primitives": [
   "stack",
   "simulator",
@@ -38,104 +53,119 @@
   "index",
   "terminal"
  ],
- "data_flow": "Quant Data: data passes through stack structure",
- "data_structures": [
-  "stack",
-  "cache",
-  "index"
+ "security_model": [],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "tessellate over modules examples, src; primitives stack, simulator, benchmark",
+ "secondary_visual_metaphor": "primitives stack, simulator, benchmark; stack Vitest; top module examples",
+ "geometry_set": "cube",
+ "animation_story_1": "tessellate",
+ "entry_points": [
+  "src/budget/index.ts",
+  "src/cache/index.ts",
+  "src/circles/index.ts",
+  "src/events/index.ts",
+  "src/god/index.ts",
+  "src/godbridge/index.ts",
+  "src/intelligence/index.ts",
+  "src/memory/index.ts",
+  "src/people/index.ts",
+  "src/providers/index.ts",
+  "src/relationships/index.ts",
+  "src/roles/index.ts",
+  "src/telemetry/index.ts"
  ],
- "description": "GrokBot Society: a data system, structured around stack.",
- "domain": "Quant Data",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "FACT",
-  "README_outline": "FACT",
-  "algorithms": "FACT",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "FACT",
-  "confidence": "FACT",
-  "control_flow": "SUPPORTED_INFERENCE",
-  "data_flow": "FACT",
-  "data_structures": "FACT",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 146,
+ "routes": [],
  "frameworks": [
-  "Vercel AI SDK",
   "Vitest"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [],
- "interfaces": [
-  "CLI entry points"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "known_limitations": [],
- "languages": [
-  "TypeScript"
- ],
- "major_modules": [
-  "examples"
- ],
- "outputs": [],
- "palette": "navy_lavender",
- "primary_visual_metaphor": "temporal signal surface with an audit path",
- "problem": "GrokBot Society is a runtime for building **persistent social worlds** populated by synthetic people who remember, relate, and evolve\u2014without burning money on continuous LLM calls.",
- "project_category": "QUANT_DATA",
- "public_positioning": "Persistent synthetic people without the swarm.",
- "purpose": "Provider-neutral runtime for persistent synthetic people: roles, memory, economics and governance.",
+ "testing": {
+  "present": true,
+  "count": 15,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 1,
   "commits": "8",
   "tags": 1
  },
- "secondary_visual_metaphor": "stack structure in quant data",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "portfolio",
- "state_model": "stack with 6 cooperating structures",
- "status": "ACTIVE",
- "technical_category": "data-systems",
- "terminal_story": "operator runs GrokBot Society (TypeScript) from the command line; output resolves as a tree [grokbot-society]",
- "testing": {
-  "count": 15,
-  "note": "counted from the repository tree, not executed",
-  "present": true
+ "evidence": {
+  "distinctive_frameworks": [],
+  "test_frameworks": [
+   "Vitest"
+  ],
+  "scaffold_frameworks": [],
+  "routes": [],
+  "entry_points": [
+   "src/budget/index.ts",
+   "src/cache/index.ts",
+   "src/circles/index.ts",
+   "src/events/index.ts",
+   "src/god/index.ts",
+   "src/godbridge/index.ts",
+   "src/intelligence/index.ts",
+   "src/memory/index.ts",
+   "src/people/index.ts",
+   "src/providers/index.ts",
+   "src/relationships/index.ts",
+   "src/roles/index.ts",
+   "src/telemetry/index.ts"
+  ],
+  "modules": [
+   "examples",
+   "src"
+  ],
+  "frameworks": [
+   "Vitest"
+  ],
+  "cs_primitives": [
+   "stack",
+   "simulator",
+   "benchmark",
+   "cache",
+   "index",
+   "terminal"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [
+   "tests/01.mass-zero-cost.test.ts",
+   "tests/02.idle-dormant.test.ts",
+   "tests/03.scenes.test.ts",
+   "tests/04.identity-switching.test.ts",
+   "tests/05.guards.test.ts",
+   "tests/06.architectural-block.test.ts",
+   "tests/07.end-to-end.test.ts",
+   "tests/08.society-mvp.test.ts",
+   "tests/09.god-bridge.test.ts",
+   "tests/10.god-benchmarks.test.ts",
+   "tests/11.chatgpt-offload.test.ts",
+   "tests/12.god-v2-hardening.test.ts",
+   "tests/13.god-migration.test.ts",
+   "tests/14.god-live-safety.test.ts",
+   "tests/helpers.ts"
+  ],
+  "ci_workflows": [
+   ".github/workflows/ci.yml"
+  ],
+  "language": "TypeScript",
+  "files": 147,
+  "test_count": 15,
+  "shared_template_files": 0
  },
- "topics": [
-  "data-systems",
-  "typescript",
-  "quant-data",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

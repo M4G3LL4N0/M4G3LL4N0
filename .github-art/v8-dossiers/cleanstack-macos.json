@@ -1,132 +1,104 @@
 {
- "API": [],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "api_flow",
- "CS_visual_2": "",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "source transformed through analysis to output",
- "architecture": "PIPELINE",
- "audience": "",
+ "repo": "cleanstack-macos",
  "canonical_name": "cleanstack-macos",
- "concurrency_model": "",
+ "project_category": "SOFTWARE",
+ "palette": "mint_violet",
  "confidence": "E3",
- "control_flow": "control for cleanstack-macos enters at site/index.html and dispatches to 1 entry points across 0 routes (none) using vanilla",
- "cs_primitives": [],
- "data_flow": "single-entry processing",
- "data_structures": [],
- "description": "cleanstack-macos: a developer tool, built on Swift.",
- "domain": "Developer Tools",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "SUPPORTED_INFERENCE",
-  "CS_visual_2": "SUPPORTED_INFERENCE",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "SUPPORTED_INFERENCE",
-  "data_flow": "SUPPORTED_INFERENCE",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "NAME_BASED_HYPOTHESIS",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "NAME_BASED_HYPOTHESIS",
-  "project_category": "FACT",
-  "public_positioning": "NAME_BASED_HYPOTHESIS",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "NAME_BASED_HYPOTHESIS",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 47,
- "frameworks": [],
+ "status": "PROTOTYPE",
  "has_code": true,
- "homepage": "",
- "inputs": [
-  "source files"
+ "domain": "Software",
+ "audience": "developer",
+ "problem": "",
+ "public_positioning": "",
+ "website_positioning": "",
+ "data_flow": "1 App Router endpoints including /api/checkout",
+ "control_flow": "site/index.html boots 3 module(s) (Sources, app) and serves 1 route(s) beginning /api/checkout",
+ "state_model": "no distinctive algorithmic primitive detected",
+ "state_model_note": "structure is declarative/config; no primitive matcher hit",
+ "architecture": "3 top-level module boundaries: Sources, app, lib",
+ "terminal_story": "site/index.html -> 1 routes, 3 modules, 49 files",
+ "terminal_lines": [
+  "site/index.html"
  ],
  "interfaces": [
-  "CLI entry points"
+  "site/index.html"
  ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/api/checkout"
  ],
- "languages": [
-  "CSS",
-  "HTML",
-  "Swift",
-  "TypeScript"
+ "workflow_steps": [
+  "Sources",
+  "app",
+  "lib"
  ],
  "major_modules": [
-  "lib",
-  "site"
+  "Sources",
+  "app",
+  "lib"
  ],
- "outputs": [
-  "build artifact"
+ "cs_primitives": [],
+ "security_model": [],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "packet_route over routes /api/checkout; modules Sources, app, lib",
+ "secondary_visual_metaphor": "top module Sources",
+ "geometry_set": "rosette",
+ "animation_story_1": "packet_route",
+ "entry_points": [
+  "site/index.html"
  ],
- "palette": "mint_violet",
- "primary_visual_metaphor": "source transformed through analysis to output",
- "problem": "",
- "project_category": "DEVELOPER_TOOLS",
- "public_positioning": "",
- "purpose": "cleanstack macos. Work in progress; see the repository contents for detail.",
+ "routes": [
+  "/api/checkout"
+ ],
+ "frameworks": [],
+ "language": "Swift",
+ "manifests": [
+  "site/package.json"
+ ],
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "5",
   "tags": 0
  },
- "secondary_visual_metaphor": "developer tools topology for cleanstack-macos",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "portfolio",
- "state_model": "stateless request handling",
- "status": "PROTOTYPE",
- "technical_category": "developer-tooling",
- "terminal_story": "operator runs cleanstack-macos (Swift) from the command line; output resolves as a tree [cleanstack-macos]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [],
+  "test_frameworks": [],
+  "scaffold_frameworks": [],
+  "routes": [
+   "/api/checkout"
+  ],
+  "entry_points": [
+   "site/index.html"
+  ],
+  "modules": [
+   "Sources",
+   "app",
+   "lib"
+  ],
+  "frameworks": [],
+  "cs_primitives": [],
+  "manifests": [
+   "site/package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "Swift",
+  "files": 49,
+  "test_count": 0,
+  "shared_template_files": 0
  },
- "topics": [
-  "developer-tooling",
-  "swift",
-  "developer-tools",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "build",
+  "footer"
+ ]
 }

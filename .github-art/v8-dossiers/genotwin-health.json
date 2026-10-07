@@ -1,143 +1,167 @@
 {
- "API": [],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": false,
- "CS_visual_1": "stack",
- "CS_visual_2": "",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "vital signs plotted against clinical thresholds",
- "architecture": "DATA_FLOW",
- "audience": "",
- "canonical_name": "GenoTwin Health",
- "concurrency_model": "",
+ "repo": "genotwin-health",
+ "canonical_name": "genotwin-health",
+ "project_category": "WEB_APPLICATION",
+ "palette": "mint_violet",
  "confidence": "E3",
- "control_flow": "genotwin-health control passes through stack",
+ "status": "PROTOTYPE",
+ "has_code": true,
+ "domain": "Health Support",
+ "audience": "developer",
+ "problem": "Health resilience systems informed by genomic and twin-style modeling.",
+ "public_positioning": "Health resilience systems informed by genomic and twin-style modeling.",
+ "website_positioning": "Health resilience systems informed by genomic and twin-style modeling.",
+ "data_flow": "18 App Router endpoints including /about, /api/twin, /contact, /dashboard",
+ "control_flow": "18 route(s) served across 3 module(s): /about, /api/twin, /contact",
+ "state_model": "stack",
+ "state_model_note": "1 computer-science primitive(s) matched in source",
+ "architecture": "3 top-level module boundaries: app, components, lib",
+ "terminal_story": "package.json -> 18 routes, 3 modules, 922 files",
+ "terminal_lines": [
+  "package.json"
+ ],
+ "interfaces": [
+  "/",
+  "/about",
+  "/api/twin",
+  "/api/twin/:id"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/api/twin",
+  "/contact",
+  "/dashboard",
+  "/demo"
+ ],
+ "workflow_steps": [
+  "app",
+  "components",
+  "lib"
+ ],
+ "major_modules": [
+  "app",
+  "components",
+  "lib"
+ ],
  "cs_primitives": [
   "stack"
  ],
- "data_flow": "Health: data passes through stack structure",
- "data_structures": [
-  "stack"
+ "security_model": [],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "packet_route over routes /about, /api/twin, /contact; modules app, components, lib; primitives stack",
+ "secondary_visual_metaphor": "primitives stack; stack Prisma, Zod; top module app",
+ "geometry_set": "arch",
+ "animation_story_1": "packet_route",
+ "entry_points": [],
+ "routes": [
+  "/",
+  "/about",
+  "/api/twin",
+  "/api/twin/:id",
+  "/contact",
+  "/dashboard",
+  "/dashboard/runs/:id",
+  "/demo",
+  "/docs",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/support",
+  "/terms",
+  "/trust"
  ],
- "description": "GenoTwin Health: a health tool, structured around stack.",
- "domain": "Health",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "SUPPORTED_INFERENCE",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "SUPPORTED_INFERENCE",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "FACT",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "SUPPORTED_INFERENCE",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "SUPPORTED_INFERENCE",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 921,
  "frameworks": [
   "Next.js",
   "Prisma",
   "React",
   "Tailwind CSS",
-  "Vercel AI SDK",
   "Zod"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [],
- "interfaces": [
-  "database layer"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "JavaScript",
-  "TypeScript"
- ],
- "major_modules": [
-  ".startup",
-  "app",
-  "components",
-  "lib",
-  "prisma",
-  "venture-os"
- ],
- "outputs": [],
- "palette": "navy_lavender",
- "primary_visual_metaphor": "vital signs plotted against clinical thresholds",
- "problem": "Educational MVP: a **non-medical** \u201chealth twin\u201d worksheet that combines mock genomics notes, wearable-style summaries, sleep, activity, nutrition, and goals into wellness insights, habit ideas, risk-awareness language, and clinician discussion prompts.",
- "project_category": "HEALTH",
- "public_positioning": "Health resilience systems informed by genomic and twin-style modeling.",
- "purpose": "Startup portfolio: genotwin-health",
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "2",
   "tags": 0
  },
- "secondary_visual_metaphor": "stack structure in health",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "portfolio",
- "state_model": "stack with 1 cooperating structures",
- "status": "PROTOTYPE",
- "technical_category": "health-tech",
- "terminal_story": "the health loop advances via stack [genotwin-health]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [
+   "Prisma",
+   "Zod"
+  ],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/api/twin",
+   "/api/twin/:id",
+   "/contact",
+   "/dashboard",
+   "/dashboard/runs/:id",
+   "/demo",
+   "/docs",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/support",
+   "/terms",
+   "/trust"
+  ],
+  "entry_points": [],
+  "modules": [
+   "app",
+   "components",
+   "lib"
+  ],
+  "frameworks": [
+   "Next.js",
+   "Prisma",
+   "React",
+   "Tailwind CSS",
+   "Zod"
+  ],
+  "cs_primitives": [
+   "stack"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 922,
+  "test_count": 0,
+  "shared_template_files": 35
  },
- "topics": [
-  "health-tech",
-  "typescript",
-  "health",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

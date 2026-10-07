@@ -1,37 +1,46 @@
 {
- "API": [
-  "/download",
-  "/faq",
-  "/privacy",
-  "/security"
- ],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "terminal",
- "CS_visual_2": "crypto",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [
-  "index"
- ],
- "animation_story_1": "temporal signal surface with an audit path",
- "architecture": "SECURITY",
- "audience": "",
+ "repo": "gh0st-website",
  "canonical_name": "gh0st-website",
- "concurrency_model": "",
+ "project_category": "WEB_APPLICATION",
+ "palette": "indigo_lime",
  "confidence": "E3",
- "control_flow": "gh0st-website control passes through terminal, crypto, index",
+ "status": "PROTOTYPE",
+ "has_code": true,
+ "domain": "Web Application",
+ "audience": "developer",
+ "problem": "",
+ "public_positioning": "",
+ "website_positioning": "",
+ "data_flow": "15 App Router endpoints including /docs/agents, /docs/browser, /docs/cli, /docs/development",
+ "control_flow": "15 route(s) served across 1 module(s): /docs/agents, /docs/browser, /docs/cli",
+ "state_model": "terminal, crypto, index, policy",
+ "state_model_note": "5 computer-science primitive(s) matched in source",
+ "architecture": "1 top-level module boundaries: src",
+ "terminal_story": "package.json -> 15 routes, 1 modules, 61 files",
+ "terminal_lines": [
+  "package.json"
+ ],
+ "interfaces": [
+  "/",
+  "/docs/agents",
+  "/docs/browser",
+  "/docs/cli"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/docs/agents",
+  "/docs/browser",
+  "/docs/cli",
+  "/docs/development",
+  "/docs/files"
+ ],
+ "workflow_steps": [
+  "src"
+ ],
+ "major_modules": [
+  "src"
+ ],
  "cs_primitives": [
   "terminal",
   "crypto",
@@ -39,108 +48,112 @@
   "policy",
   "simulator"
  ],
- "data_flow": "Quant Data: requests traverse 5 routes (/, /download, /faq, /privacy)",
- "data_structures": [
-  "index"
+ "security_model": [
+  "crypto",
+  "policy"
  ],
- "description": "gh0st-website: a data system, structured around terminal.",
- "domain": "Quant Data",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "FACT",
-  "README_outline": "FACT",
-  "algorithms": "FACT",
-  "api": "FACT",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "SUPPORTED_INFERENCE",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "FACT",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "NAME_BASED_HYPOTHESIS",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "NAME_BASED_HYPOTHESIS",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "FACT",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 60,
+ "concurrency_model": [],
+ "primary_visual_metaphor": "grid_snap over routes /docs/agents, /docs/browser, /docs/cli; modules src; primitives terminal, crypto, index",
+ "secondary_visual_metaphor": "primitives terminal, crypto, index; stack Next.js, React, Tailwind CSS; top module src",
+ "geometry_set": "ring",
+ "animation_story_1": "grid_snap",
+ "entry_points": [],
+ "routes": [
+  "/",
+  "/docs/agents",
+  "/docs/browser",
+  "/docs/cli",
+  "/docs/development",
+  "/docs/files",
+  "/docs/getting-started",
+  "/docs/macos",
+  "/docs/privacy",
+  "/docs/troubleshooting",
+  "/docs/zdr",
+  "/download",
+  "/faq",
+  "/privacy",
+  "/security"
+ ],
  "frameworks": [
   "Next.js",
   "React",
-  "Tailwind CSS",
-  "Vercel AI SDK"
+  "Tailwind CSS"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [],
- "interfaces": [
-  "5 HTTP routes"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "JavaScript",
-  "TypeScript"
- ],
- "major_modules": [],
- "outputs": [],
- "palette": "navy_lavender",
- "primary_visual_metaphor": "temporal signal surface with an audit path",
- "problem": "gh0st is a local-first interface for xAI/Grok. The CLI provides the current encrypted local-storage workflow; the macOS and browser clients are early interfaces. Conversations, files, agents, and local state stay on your device while xAI performs inference using `store=false` and, when enabled for your xAI team, verifi",
- "project_category": "QUANT_DATA",
- "public_positioning": "",
- "purpose": "Public site for gh0st \u2014 local-first encrypted private AI client.",
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "8",
   "tags": 0
  },
- "secondary_visual_metaphor": "terminal structure in quant data",
- "security_model": [
-  "policy evaluation",
-  "cryptographic verification"
- ],
- "source_origin": "portfolio",
- "state_model": "terminal with 5 cooperating structures",
- "status": "PROTOTYPE",
- "technical_category": "data-systems",
- "terminal_story": "operator runs gh0st-website (TypeScript) from the command line; output resolves as a tree [gh0st-website]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/docs/agents",
+   "/docs/browser",
+   "/docs/cli",
+   "/docs/development",
+   "/docs/files",
+   "/docs/getting-started",
+   "/docs/macos",
+   "/docs/privacy",
+   "/docs/troubleshooting",
+   "/docs/zdr",
+   "/download",
+   "/faq",
+   "/privacy",
+   "/security"
+  ],
+  "entry_points": [],
+  "modules": [
+   "src"
+  ],
+  "frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "cs_primitives": [
+   "terminal",
+   "crypto",
+   "index",
+   "policy",
+   "simulator"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 61,
+  "test_count": 0,
+  "shared_template_files": 0
  },
- "topics": [
-  "data-systems",
-  "typescript",
-  "quant-data",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

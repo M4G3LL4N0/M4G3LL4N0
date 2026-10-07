@@ -1,37 +1,64 @@
 {
- "API": [],
- "CI": {
-  "present": true,
-  "workflow_count": 3,
-  "workflows": [
-   ".github/workflows/ci.yml",
-   ".github/workflows/release.yml",
-   "internal/inspect/testdata/node-repo/.github/workflows/ci.yml"
-  ]
- },
- "CLI": true,
- "CS_visual_1": "terminal",
- "CS_visual_2": "cache",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "technical_evidence",
-  "status",
-  "limitations"
- ],
- "algorithms": [
-  "index"
- ],
- "animation_story_1": "temporal signal surface with an audit path",
- "architecture": "CLI",
- "audience": "",
- "canonical_name": "GrokInstall",
- "concurrency_model": "goroutines",
+ "repo": "grokinstall",
+ "canonical_name": "grokinstall",
+ "project_category": "DATA_STRUCTURE",
+ "palette": "mint_violet",
  "confidence": "E3",
- "control_flow": "grokinstall run build",
+ "status": "LIVE",
+ "has_code": true,
+ "domain": "Developer tools",
+ "audience": "developer",
+ "problem": "Your context already has the answer.",
+ "public_positioning": "Your context already has the answer.",
+ "website_positioning": "Your context already has the answer.",
+ "data_flow": "3 entry point(s) with no routable HTTP surface: cmd/grokinstall/main.go, internal/inspect/testdata/go-repo/main.go, internal/inspect/testdata/python-repo/src/pwidget/cli.py",
+ "control_flow": "3 entry point(s) with no HTTP layer: main.go, main.go, cli.py",
+ "state_model": "terminal, cache, policy, index",
+ "state_model_note": "6 computer-science primitive(s) matched in source",
+ "architecture": "16 top-level module boundaries: cmd, cmd/grokinstall, internal, internal/adapter, internal/adversarial",
+ "terminal_story": "grokinstall/main.go | go-repo/main.go | pwidget/cli.py -> 0 routes, 16 modules, 186 files",
+ "terminal_lines": [
+  "grokinstall/main.go",
+  "go-repo/main.go",
+  "pwidget/cli.py"
+ ],
+ "interfaces": [
+  "cmd/grokinstall/main.go",
+  "internal/inspect/testdata/go-repo/main.go",
+  "internal/inspect/testdata/python-repo/src/pwidget/cli.py"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "cmd/grokinstall/main.go",
+  "internal/inspect/testdata/go-repo/main.go",
+  "internal/inspect/testdata/python-repo/src/pwidget/cli.py"
+ ],
+ "workflow_steps": [
+  "cmd",
+  "cmd/grokinstall",
+  "internal",
+  "internal/adapter",
+  "internal/adversarial"
+ ],
+ "major_modules": [
+  "cmd",
+  "cmd/grokinstall",
+  "internal",
+  "internal/adapter",
+  "internal/adversarial",
+  "internal/archive",
+  "internal/audit",
+  "internal/cache",
+  "internal/capability",
+  "internal/cli",
+  "internal/contextpack",
+  "internal/diagnose",
+  "internal/diagnostics",
+  "internal/evidence",
+  "internal/inspect",
+  "internal/installer"
+ ],
  "cs_primitives": [
   "terminal",
   "cache",
@@ -40,105 +67,114 @@
   "crypto",
   "benchmark"
  ],
- "data_flow": "Quant Data: data passes through terminal structure",
- "data_structures": [
-  "cache",
-  "index"
+ "security_model": [
+  "policy",
+  "crypto"
  ],
- "description": "GrokInstall: a data system, structured around terminal.",
- "domain": "Quant Data",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "FACT",
-  "README_outline": "FACT",
-  "algorithms": "FACT",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "FACT",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "FACT",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "FACT",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ "concurrency_model": [],
+ "primary_visual_metaphor": "index_probe over modules cmd, cmd/grokinstall, internal; primitives terminal, cache, policy",
+ "secondary_visual_metaphor": "primitives terminal, cache, policy; top module cmd",
+ "geometry_set": "cube",
+ "animation_story_1": "index_probe",
+ "entry_points": [
+  "cmd/grokinstall/main.go",
+  "internal/inspect/testdata/go-repo/main.go",
+  "internal/inspect/testdata/python-repo/src/pwidget/cli.py"
+ ],
+ "routes": [],
+ "frameworks": [],
+ "language": "Go",
+ "manifests": [
+  "go.mod",
+  "internal/inspect/testdata/docker-repo/Dockerfile",
+  "internal/inspect/testdata/docker-repo/docker-compose.yml",
+  "internal/inspect/testdata/go-repo/go.mod",
+  "internal/inspect/testdata/local-service/package.json",
+  "internal/inspect/testdata/malformed-repo/package.json",
+  "internal/inspect/testdata/node-repo/package.json",
+  "internal/inspect/testdata/python-repo/pyproject.toml",
+  "package.json"
+ ],
+ "testing": {
+  "present": true,
+  "count": 2,
+  "note": "counted from the repository tree, not executed"
  },
- "file_count": 185,
- "frameworks": [
-  "Vercel AI SDK"
- ],
- "has_code": true,
- "homepage": "",
- "inputs": [],
- "interfaces": [
-  "CLI entry points"
- ],
- "known_limitations": [],
- "languages": [
-  "Go",
-  "JavaScript",
-  "Python"
- ],
- "major_modules": [
-  "bin"
- ],
- "outputs": [],
- "palette": "navy_lavender",
- "primary_visual_metaphor": "temporal signal surface with an audit path",
- "problem": "Give GrokInstall a project and tell it what you want GrokBot to do.",
- "project_category": "QUANT_DATA",
- "public_positioning": "Your context already has the answer.",
- "purpose": "Install the capability, not the complexity. A Go CLI that inspects a repo and installs the smallest useful integration.",
  "release": {
+  "ci": 3,
   "commits": "10",
   "tags": 2
  },
- "secondary_visual_metaphor": "terminal structure in quant data",
- "security_model": [
-  "policy evaluation",
-  "cryptographic verification"
- ],
- "source_origin": "portfolio",
- "state_model": "terminal with 6 cooperating structures",
- "status": "ACTIVE",
- "technical_category": "data-systems",
- "terminal_story": "operator runs GrokInstall (Go) from the command line; output resolves as a tree [grokinstall]",
- "testing": {
-  "count": 2,
-  "note": "counted from the repository tree, not executed",
-  "present": true
+ "evidence": {
+  "distinctive_frameworks": [],
+  "test_frameworks": [],
+  "scaffold_frameworks": [],
+  "routes": [],
+  "entry_points": [
+   "cmd/grokinstall/main.go",
+   "internal/inspect/testdata/go-repo/main.go",
+   "internal/inspect/testdata/python-repo/src/pwidget/cli.py"
+  ],
+  "modules": [
+   "cmd",
+   "cmd/grokinstall",
+   "internal",
+   "internal/adapter",
+   "internal/adversarial",
+   "internal/archive",
+   "internal/audit",
+   "internal/cache",
+   "internal/capability",
+   "internal/cli",
+   "internal/contextpack",
+   "internal/diagnose",
+   "internal/diagnostics",
+   "internal/evidence",
+   "internal/inspect",
+   "internal/installer"
+  ],
+  "frameworks": [],
+  "cs_primitives": [
+   "terminal",
+   "cache",
+   "policy",
+   "index",
+   "crypto",
+   "benchmark"
+  ],
+  "manifests": [
+   "go.mod",
+   "internal/inspect/testdata/docker-repo/Dockerfile",
+   "internal/inspect/testdata/docker-repo/docker-compose.yml",
+   "internal/inspect/testdata/go-repo/go.mod",
+   "internal/inspect/testdata/local-service/package.json",
+   "internal/inspect/testdata/malformed-repo/package.json",
+   "internal/inspect/testdata/node-repo/package.json",
+   "internal/inspect/testdata/python-repo/pyproject.toml",
+   "package.json"
+  ],
+  "tests": [
+   "internal/inspect/testdata/node-repo/test/widget.test.js",
+   "internal/inspect/testdata/python-repo/tests/test_cli.py"
+  ],
+  "ci_workflows": [
+   ".github/workflows/ci.yml",
+   ".github/workflows/release.yml",
+   "internal/inspect/testdata/node-repo/.github/workflows/ci.yml"
+  ],
+  "language": "Go",
+  "files": 186,
+  "test_count": 2,
+  "shared_template_files": 0
  },
- "topics": [
-  "data-systems",
-  "go",
-  "quant-data",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "state_machine",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

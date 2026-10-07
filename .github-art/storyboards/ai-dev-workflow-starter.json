@@ -1,76 +1,72 @@
 {
- "canonical_name": "Ai Dev Workflow Starter",
- "confidence": "E2",
- "palette": "mint_violet",
- "project_category": "DEVELOPER_TOOLS",
  "repo": "ai-dev-workflow-starter",
+ "canonical_name": "ai-dev-workflow-starter",
+ "confidence": "E2",
+ "palette": "plum_azure",
+ "project_category": "SOFTWARE",
+ "status": "PROTOTYPE",
  "slots": [
   "hero",
   "architecture",
-  "state_machine",
-  "component_map",
   "build",
-  "domain",
+  "terminal",
+  "data_flow",
   "footer"
  ],
- "status": "ACTIVE",
  "storyboard": [
   {
-   "animation": "tiles lock into a grid as structure forms; 12.0s loop, offset 0.0s",
-   "computer_science_concept": "source transformed through analysis to output",
-   "geometry": "isometric blocks",
-   "material": "D3 density; #95d5b2 on #0f1714; accents #b8a1e6, #ffd6a5",
-   "purpose": "identity -- what the project is at a glance",
-   "slot": "hero"
+   "slot": "hero",
+   "purpose": "identity",
+   "geometry": "ring",
+   "computer_science_concept": "no distinctive algorithmic primitive detected",
+   "material": "palette plum_azure",
+   "animation": "layer_separate",
+   "evidence_basis": "identity from 43 analysed files"
   },
   {
-   "animation": "a dependency graph resolves toward its roots; 18.3s loop, offset 0.4s",
-   "computer_science_concept": "module graph over 2 modules",
-   "geometry": "module nodes",
-   "material": "D2 density; #95d5b2 on #0f1714; accents #b8a1e6, #ffd6a5",
+   "slot": "architecture",
    "purpose": "how it is built",
-   "slot": "architecture"
+   "geometry": "ring",
+   "computer_science_concept": "no distinctive algorithmic primitive detected",
+   "material": "palette plum_azure",
+   "animation": "layer_separate",
+   "evidence_basis": "1 measured module root(s)"
   },
   {
-   "animation": "a state machine advances one transition; 13.4s loop, offset 0.8s",
-   "computer_science_concept": "stateless request handling",
-   "geometry": "node rosettes",
-   "material": "D2 density; #95d5b2 on #0f1714; accents #b8a1e6, #ffd6a5",
-   "purpose": "how it behaves",
-   "slot": "state_machine"
-  },
-  {
-   "animation": "facets rotate open, exposing the interior; 10.7s loop, offset 1.2s",
-   "computer_science_concept": "interface surface: modules",
-   "geometry": "facet grid",
-   "material": "D3 density; #95d5b2 on #0f1714; accents #b8a1e6, #ffd6a5",
-   "purpose": "how it is composed",
-   "slot": "component_map"
-  },
-  {
-   "animation": "tests advance and results resolve; 14.4s loop, offset 1.6s",
-   "computer_science_concept": "build evidence: 0 tests, 1 workflows",
-   "geometry": "progress bars",
-   "material": "D1 density; #95d5b2 on #0f1714; accents #b8a1e6, #ffd6a5",
+   "slot": "build",
    "purpose": "how it is verified",
-   "slot": "build"
+   "geometry": "ring",
+   "computer_science_concept": "no distinctive algorithmic primitive detected",
+   "material": "palette plum_azure",
+   "animation": "layer_separate",
+   "evidence_basis": "0 test file(s), 1 workflow(s)"
   },
   {
-   "animation": "an index probe walks a sorted key space; 15.9s loop, offset 2.0s",
-   "computer_science_concept": "Developer Tools",
-   "geometry": "probe path",
-   "material": "D3 density; #95d5b2 on #0f1714; accents #b8a1e6, #ffd6a5",
-   "purpose": "the problem it addresses",
-   "slot": "domain"
+   "slot": "terminal",
+   "purpose": "how it is operated",
+   "geometry": "ring",
+   "computer_science_concept": "no distinctive algorithmic primitive detected",
+   "material": "palette plum_azure",
+   "animation": "layer_separate",
+   "evidence_basis": "0 measured entry point(s)"
   },
   {
-   "animation": "concentric rings pulse from a centre; 13.8s loop, offset 2.4s",
-   "computer_science_concept": "project signature",
-   "geometry": "single motif",
-   "material": "D2 density; #95d5b2 on #0f1714; accents #b8a1e6, #ffd6a5",
-   "purpose": "identity object -- a small signature mark",
-   "slot": "footer"
+   "slot": "data_flow",
+   "purpose": "how data moves",
+   "geometry": "ring",
+   "computer_science_concept": "no distinctive algorithmic primitive detected",
+   "material": "palette plum_azure",
+   "animation": "layer_separate",
+   "evidence_basis": "0 measured route(s)"
+  },
+  {
+   "slot": "footer",
+   "purpose": "identity object",
+   "geometry": "ring",
+   "computer_science_concept": "no distinctive algorithmic primitive detected",
+   "material": "palette plum_azure",
+   "animation": "layer_separate",
+   "evidence_basis": "identity object"
   }
- ],
- "surface_count": 7
+ ]
 }

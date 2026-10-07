@@ -1,34 +1,45 @@
 {
- "API": [],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "policy",
- "CS_visual_2": "cache",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "technical_evidence",
-  "status",
-  "limitations"
- ],
- "algorithms": [
-  "scheduler",
-  "index"
- ],
- "animation_story_1": "stepped queue with workers activating",
- "architecture": "SECURITY",
- "audience": "",
- "canonical_name": "GrokGeneral",
- "concurrency_model": "async runtime",
+ "repo": "grokgeneral",
+ "canonical_name": "grokgeneral",
+ "project_category": "SECURITY",
+ "palette": "graphite_coral",
  "confidence": "E3",
- "control_flow": "gg status",
+ "status": "TESTED",
+ "has_code": true,
+ "domain": "Developer tools",
+ "audience": "developer",
+ "problem": "The local kernel for the GrokBot ecosystem.",
+ "public_positioning": "The local kernel for the GrokBot ecosystem.",
+ "website_positioning": "The local kernel for the GrokBot ecosystem.",
+ "data_flow": "3 entry point(s) with no routable HTTP surface: grokgeneral/__main__.py, grokgeneral/cli.py, site/index.html",
+ "control_flow": "3 entry point(s) with no HTTP layer: __main__.py, cli.py, index.html",
+ "state_model": "policy, cache, scheduler, index",
+ "state_model_note": "6 computer-science primitive(s) matched in source",
+ "architecture": "1 top-level module boundaries: grokgeneral",
+ "terminal_story": "grokgeneral/__main__.py | grokgeneral/cli.py | site/index.html -> 0 routes, 1 modules, 99 files",
+ "terminal_lines": [
+  "grokgeneral/__main__.py",
+  "grokgeneral/cli.py",
+  "site/index.html"
+ ],
+ "interfaces": [
+  "grokgeneral/__main__.py",
+  "grokgeneral/cli.py",
+  "site/index.html"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "grokgeneral/__main__.py",
+  "grokgeneral/cli.py",
+  "site/index.html"
+ ],
+ "workflow_steps": [
+  "grokgeneral"
+ ],
+ "major_modules": [
+  "grokgeneral"
+ ],
  "cs_primitives": [
   "policy",
   "cache",
@@ -37,108 +48,115 @@
   "terminal",
   "event_stream"
  ],
- "data_flow": "Infrastructure: data passes through policy structure",
- "data_structures": [
-  "cache",
-  "index"
+ "security_model": [
+  "policy"
  ],
- "description": "GrokGeneral: an infrastructure system, structured around policy.",
- "domain": "Infrastructure",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "FACT",
-  "README_outline": "FACT",
-  "algorithms": "FACT",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "FACT",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "FACT",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "FACT",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ "concurrency_model": [
+  "scheduler"
+ ],
+ "primary_visual_metaphor": "state_change over modules grokgeneral; primitives policy, cache, scheduler",
+ "secondary_visual_metaphor": "primitives policy, cache, scheduler; top module grokgeneral",
+ "geometry_set": "ring",
+ "animation_story_1": "state_change",
+ "entry_points": [
+  "grokgeneral/__main__.py",
+  "grokgeneral/cli.py",
+  "site/index.html"
+ ],
+ "routes": [],
+ "frameworks": [],
+ "language": "Python",
+ "manifests": [
+  "pyproject.toml"
+ ],
+ "testing": {
+  "present": true,
+  "count": 37,
+  "note": "counted from the repository tree, not executed"
  },
- "file_count": 98,
- "frameworks": [
-  "Vercel AI SDK"
- ],
- "has_code": true,
- "homepage": "",
- "inputs": [],
- "interfaces": [
-  "CLI entry points"
- ],
- "known_limitations": [
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "HTML",
-  "Python"
- ],
- "major_modules": [
-  "grokgeneral",
-  "grokgeneral.egg-info",
-  "site"
- ],
- "outputs": [],
- "palette": "slate_amber",
- "primary_visual_metaphor": "stepped queue with workers activating",
- "problem": "GrokGeneral is the local kernel and control plane for the GrokBot ecosystem. It indexes projects and resources, normalizes work, chooses the cheapest capable execution path, packages narrow context, records decisions and usage, and surfaces temporary capacity opportunities.",
- "project_category": "INFRASTRUCTURE",
- "public_positioning": "The local kernel for the GrokBot ecosystem.",
- "purpose": "grokgeneral. pyproject.toml; 37 test file(s); local-first storage.",
  "release": {
+  "ci": 0,
   "commits": "26",
   "tags": 0
  },
- "secondary_visual_metaphor": "policy structure in infrastructure",
- "security_model": [
-  "policy evaluation"
- ],
- "source_origin": "portfolio",
- "state_model": "policy with 6 cooperating structures",
- "status": "ACTIVE",
- "technical_category": "distributed-systems",
- "terminal_story": "operator runs GrokGeneral (Python) from the command line; output resolves as a tree [grokgeneral]",
- "testing": {
-  "count": 37,
-  "note": "counted from the repository tree, not executed",
-  "present": true
+ "evidence": {
+  "distinctive_frameworks": [],
+  "test_frameworks": [],
+  "scaffold_frameworks": [],
+  "routes": [],
+  "entry_points": [
+   "grokgeneral/__main__.py",
+   "grokgeneral/cli.py",
+   "site/index.html"
+  ],
+  "modules": [
+   "grokgeneral"
+  ],
+  "frameworks": [],
+  "cs_primitives": [
+   "policy",
+   "cache",
+   "scheduler",
+   "index",
+   "terminal",
+   "event_stream"
+  ],
+  "manifests": [
+   "pyproject.toml"
+  ],
+  "tests": [
+   "tests/__init__.py",
+   "tests/test_adapters.py",
+   "tests/test_approvals.py",
+   "tests/test_backlog.py",
+   "tests/test_cache.py",
+   "tests/test_cli.py",
+   "tests/test_context.py",
+   "tests/test_contract.py",
+   "tests/test_dashboard.py",
+   "tests/test_doctor.py",
+   "tests/test_events.py",
+   "tests/test_execution_safety.py",
+   "tests/test_executions.py",
+   "tests/test_executor.py",
+   "tests/test_expiry_reroute.py",
+   "tests/test_identity.py",
+   "tests/test_integration.py",
+   "tests/test_models.py",
+   "tests/test_offline.py",
+   "tests/test_opencode_adapter.py",
+   "tests/test_opencode_discovery.py",
+   "tests/test_opportunities.py",
+   "tests/test_opportunity_v2.py",
+   "tests/test_policies.py",
+   "tests/test_projects.py",
+   "tests/test_queue_boundary.py",
+   "tests/test_read_model.py",
+   "tests/test_refresh_cli.py",
+   "tests/test_resources.py",
+   "tests/test_results.py",
+   "tests/test_router.py",
+   "tests/test_scheduler.py",
+   "tests/test_scheduler_concurrency.py",
+   "tests/test_service.py",
+   "tests/test_storage.py",
+   "tests/test_tasks.py",
+   "tests/test_usage.py"
+  ],
+  "ci_workflows": [],
+  "language": "Python",
+  "files": 99,
+  "test_count": 37,
+  "shared_template_files": 1
  },
- "topics": [
-  "distributed-systems",
-  "python",
-  "infrastructure",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "state_machine",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

@@ -1,153 +1,184 @@
 {
- "API": [
-  "/analyze",
-  "/dashboard",
-  "/pricing",
-  "/quiz",
-  "/reports"
- ],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "policy",
- "CS_visual_2": "",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "layered render pipeline resolving to a frame",
- "architecture": "DATA_FLOW",
- "audience": "",
+ "repo": "SoulMayte",
  "canonical_name": "SoulMayte",
- "concurrency_model": "",
+ "project_category": "WEB_APPLICATION",
+ "palette": "indigo_lime",
  "confidence": "E3",
- "control_flow": "control for SoulMayte enters at public-site/index.html and dispatches to 1 entry points across 6 routes (/, /analyze, /dashboard) using D3",
- "cs_primitives": [
-  "policy"
- ],
- "data_flow": "Media: requests traverse 6 routes (/, /analyze, /dashboard, /pricing)",
- "data_structures": [],
- "description": "SoulMayte: a media system, structured around policy.",
- "domain": "Media",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "SUPPORTED_INFERENCE",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "FACT",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "FACT",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 946,
- "frameworks": [
-  "D3",
-  "Next.js",
-  "React",
-  "Supabase",
-  "Tailwind CSS",
-  "Vercel AI SDK"
- ],
+ "status": "PROTOTYPE",
  "has_code": true,
- "homepage": "",
- "inputs": [],
+ "domain": "Relationships",
+ "audience": "developer",
+ "problem": "A deeper map of compatibility.",
+ "public_positioning": "A deeper map of compatibility.",
+ "website_positioning": "A deeper map of compatibility.",
+ "data_flow": "23 App Router endpoints including /about, /analyze, /api/analyze, /api/checkout",
+ "control_flow": "public-site/index.html boots 5 module(s) (app, components) and serves 23 route(s) beginning /about, /analyze",
+ "state_model": "policy",
+ "state_model_note": "1 computer-science primitive(s) matched in source",
+ "architecture": "5 top-level module boundaries: app, components, lib, src, supabase",
+ "terminal_story": "public-site/index.html -> 23 routes, 5 modules, 947 files",
+ "terminal_lines": [
+  "public-site/index.html"
+ ],
  "interfaces": [
-  "CLI entry points",
-  "6 HTTP routes",
-  "database layer"
+  "public-site/index.html"
  ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/analyze",
+  "/api/analyze",
+  "/api/checkout",
+  "/api/quiz"
  ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "SQL",
-  "TypeScript"
- ],
- "major_modules": [
-  ".autobuilder",
-  ".startup",
+ "workflow_steps": [
   "app",
   "components",
   "lib",
-  "public-site",
-  "supabase",
-  "venture-os"
+  "src",
+  "supabase"
  ],
- "outputs": [],
- "palette": "coral_teal",
- "primary_visual_metaphor": "layered render pipeline resolving to a frame",
- "problem": "A deeper map of compatibility.",
- "project_category": "MEDIA",
- "public_positioning": "A deeper map of compatibility.",
- "purpose": "SoulMayte is a media codebase of 946 files organised around policy.",
+ "major_modules": [
+  "app",
+  "components",
+  "lib",
+  "src",
+  "supabase"
+ ],
+ "cs_primitives": [
+  "policy"
+ ],
+ "security_model": [
+  "policy"
+ ],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "state_change over routes /about, /analyze, /api/analyze; modules app, components, lib; primitives policy",
+ "secondary_visual_metaphor": "primitives policy; stack Supabase; top module app",
+ "geometry_set": "rosette",
+ "animation_story_1": "state_change",
+ "entry_points": [
+  "public-site/index.html"
+ ],
+ "routes": [
+  "/",
+  "/about",
+  "/analyze",
+  "/api/analyze",
+  "/api/checkout",
+  "/api/quiz",
+  "/api/waitlist",
+  "/contact",
+  "/dashboard",
+  "/demo",
+  "/docs",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/quiz",
+  "/reports",
+  "/reports/:id",
+  "/support",
+  "/terms",
+  "/trust"
+ ],
+ "frameworks": [
+  "Next.js",
+  "React",
+  "Supabase",
+  "Tailwind CSS"
+ ],
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
+ ],
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "31",
   "tags": 0
  },
- "secondary_visual_metaphor": "policy structure in media",
- "security_model": [
-  "policy evaluation"
- ],
- "source_origin": "portfolio",
- "state_model": "policy with 1 cooperating structures",
- "status": "PROTOTYPE",
- "technical_category": "media-engineering",
- "terminal_story": "operator runs SoulMayte (TypeScript) from the command line; output resolves as a tree [SoulMayte]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [
+   "Supabase"
+  ],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/analyze",
+   "/api/analyze",
+   "/api/checkout",
+   "/api/quiz",
+   "/api/waitlist",
+   "/contact",
+   "/dashboard",
+   "/demo",
+   "/docs",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/quiz",
+   "/reports",
+   "/reports/:id",
+   "/support",
+   "/terms",
+   "/trust"
+  ],
+  "entry_points": [
+   "public-site/index.html"
+  ],
+  "modules": [
+   "app",
+   "components",
+   "lib",
+   "src",
+   "supabase"
+  ],
+  "frameworks": [
+   "Next.js",
+   "React",
+   "Supabase",
+   "Tailwind CSS"
+  ],
+  "cs_primitives": [
+   "policy"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 947,
+  "test_count": 0,
+  "shared_template_files": 49
  },
- "topics": [
-  "media-engineering",
-  "typescript",
-  "media",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

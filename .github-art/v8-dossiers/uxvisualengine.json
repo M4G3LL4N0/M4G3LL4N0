@@ -1,34 +1,52 @@
 {
- "API": [],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "stack",
- "CS_visual_2": "index",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "technical_evidence",
-  "status",
-  "limitations"
- ],
- "algorithms": [
-  "index",
-  "ast"
- ],
- "animation_story_1": "stepped queue with workers activating",
- "architecture": "DATA_FLOW",
- "audience": "",
- "canonical_name": "UXVisualEngine",
- "concurrency_model": "",
+ "repo": "uxvisualengine",
+ "canonical_name": "uxvisualengine",
+ "project_category": "WEB_APPLICATION",
+ "palette": "graphite_coral",
  "confidence": "E3",
- "control_flow": "control for uxvisualengine enters at .test-build/src/engine/index.js and dispatches to 5 entry points across 1 routes (/) using Next.js",
+ "status": "TESTED",
+ "has_code": true,
+ "domain": "Design Infrastructure",
+ "audience": "developer",
+ "problem": "Generate cleaner interfaces, faster.",
+ "public_positioning": "Generate cleaner interfaces, faster.",
+ "website_positioning": "Generate cleaner interfaces, faster.",
+ "data_flow": "22 App Router endpoints including /api/audit, /api/baseline, /api/checkout, /api/compare",
+ "control_flow": ".test-build/src/engine/index.js boots 3 module(s) (.test-build, scripts) and serves 22 route(s) beginning /api/audit, /api/baseline",
+ "state_model": "stack, index, terminal, ast",
+ "state_model_note": "6 computer-science primitive(s) matched in source",
+ "architecture": "3 top-level module boundaries: .test-build, scripts, src",
+ "terminal_story": "engine/index.js | qa/index.js | public-site/index.html | engine/index.ts -> 22 routes, 3 modules, 263 files",
+ "terminal_lines": [
+  "engine/index.js",
+  "qa/index.js",
+  "public-site/index.html",
+  "engine/index.ts"
+ ],
+ "interfaces": [
+  ".test-build/src/engine/index.js",
+  ".test-build/src/engine/qa/index.js",
+  "public-site/index.html"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/api/audit",
+  "/api/baseline",
+  "/api/checkout",
+  "/api/compare",
+  "/api/components"
+ ],
+ "workflow_steps": [
+  ".test-build",
+  "scripts",
+  "src"
+ ],
+ "major_modules": [
+  ".test-build",
+  "scripts",
+  "src"
+ ],
  "cs_primitives": [
   "stack",
   "index",
@@ -37,116 +55,159 @@
   "queue",
   "simulator"
  ],
- "data_flow": "Infrastructure: requests traverse 1 routes (/)",
- "data_structures": [
-  "stack",
-  "index",
+ "security_model": [],
+ "concurrency_model": [
   "queue"
  ],
- "description": "UXVisualEngine: an infrastructure system, structured around stack.",
- "domain": "Infrastructure",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "FACT",
-  "README_outline": "FACT",
-  "algorithms": "FACT",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "FACT",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 262,
+ "primary_visual_metaphor": "index_probe over routes /api/audit, /api/baseline, /api/checkout; modules .test-build, scripts, src; primitives stack, index, terminal",
+ "secondary_visual_metaphor": "primitives stack, index, terminal; stack Next.js, Playwright, React; top module .test-build",
+ "geometry_set": "arch",
+ "animation_story_1": "index_probe",
+ "entry_points": [
+  ".test-build/src/engine/index.js",
+  ".test-build/src/engine/qa/index.js",
+  "public-site/index.html",
+  "src/engine/index.ts",
+  "src/engine/qa/index.ts"
+ ],
+ "routes": [
+  "/",
+  "/api/audit",
+  "/api/baseline",
+  "/api/checkout",
+  "/api/compare",
+  "/api/components",
+  "/api/critique",
+  "/api/decide",
+  "/api/design-system",
+  "/api/health",
+  "/api/history",
+  "/api/improve",
+  "/api/inspect",
+  "/api/iteration-image",
+  "/api/knowledge",
+  "/api/model",
+  "/api/motion",
+  "/api/originality",
+  "/api/portfolio",
+  "/api/providers",
+  "/api/sandbox",
+  "/api/storybook"
+ ],
  "frameworks": [
   "Next.js",
   "Playwright",
   "React",
-  "Tailwind CSS",
-  "Vercel AI SDK"
+  "Tailwind CSS"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [],
- "interfaces": [
-  "CLI entry points",
-  "1 HTTP routes"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "known_limitations": [
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "TypeScript"
- ],
- "major_modules": [
-  ".autobuilder",
-  ".uxve",
-  "public-site",
-  "scripts"
- ],
- "outputs": [],
- "palette": "slate_amber",
- "primary_visual_metaphor": "stepped queue with workers activating",
- "problem": "Nothing in it observes hierarchy, contrast, overflow, or whether the result resembles every other generated site. The defect ships, and the only signal is a user complaint.",
- "project_category": "INFRASTRUCTURE",
- "public_positioning": "Generate cleaner interfaces, faster.",
- "purpose": "uxvisualengine. Work in progress; see the repository contents for detail.",
+ "testing": {
+  "present": true,
+  "count": 13,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "3",
   "tags": 0
  },
- "secondary_visual_metaphor": "stack structure in infrastructure",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "portfolio",
- "state_model": "stack with 6 cooperating structures",
- "status": "ACTIVE",
- "technical_category": "distributed-systems",
- "terminal_story": "operator runs UXVisualEngine (TypeScript) from the command line; output resolves as a tree [uxvisualengine]",
- "testing": {
-  "count": 13,
-  "note": "counted from the repository tree, not executed",
-  "present": true
+ "evidence": {
+  "distinctive_frameworks": [],
+  "test_frameworks": [
+   "Playwright"
+  ],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/api/audit",
+   "/api/baseline",
+   "/api/checkout",
+   "/api/compare",
+   "/api/components",
+   "/api/critique",
+   "/api/decide",
+   "/api/design-system",
+   "/api/health",
+   "/api/history",
+   "/api/improve",
+   "/api/inspect",
+   "/api/iteration-image",
+   "/api/knowledge",
+   "/api/model",
+   "/api/motion",
+   "/api/originality",
+   "/api/portfolio",
+   "/api/providers",
+   "/api/sandbox",
+   "/api/storybook"
+  ],
+  "entry_points": [
+   ".test-build/src/engine/index.js",
+   ".test-build/src/engine/qa/index.js",
+   "public-site/index.html",
+   "src/engine/index.ts",
+   "src/engine/qa/index.ts"
+  ],
+  "modules": [
+   ".test-build",
+   "scripts",
+   "src"
+  ],
+  "frameworks": [
+   "Next.js",
+   "Playwright",
+   "React",
+   "Tailwind CSS"
+  ],
+  "cs_primitives": [
+   "stack",
+   "index",
+   "terminal",
+   "ast",
+   "queue",
+   "simulator"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [
+   ".test-build/tests/component-intelligence.test.js",
+   ".test-build/tests/design-intelligence.test.js",
+   ".test-build/tests/improve-and-visual.test.js",
+   ".test-build/tests/project-intelligence.test.js",
+   ".test-build/tests/providers-and-memory.test.js",
+   ".test-build/tests/qa-and-loop.test.js",
+   "tests/component-intelligence.test.ts",
+   "tests/design-intelligence.test.ts",
+   "tests/improve-and-visual.test.ts",
+   "tests/project-intelligence.test.ts",
+   "tests/providers-and-memory.test.ts",
+   "tests/qa-and-loop.test.ts",
+   "tsconfig.test.json"
+  ],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 263,
+  "test_count": 13,
+  "shared_template_files": 0
  },
- "topics": [
-  "distributed-systems",
-  "typescript",
-  "infrastructure",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

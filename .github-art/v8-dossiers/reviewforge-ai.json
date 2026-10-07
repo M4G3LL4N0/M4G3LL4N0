@@ -1,146 +1,156 @@
 {
- "API": [],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "stack",
- "CS_visual_2": "",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "source transformed through analysis to output",
- "architecture": "DOCUMENT",
- "audience": "",
- "canonical_name": "ReviewForge AI",
- "concurrency_model": "",
+ "repo": "reviewforge-ai",
+ "canonical_name": "reviewforge-ai",
+ "project_category": "WEB_APPLICATION",
+ "palette": "cream_orange",
  "confidence": "E3",
- "control_flow": "control for reviewforge-ai enters at public-site/index.html and dispatches to 1 entry points across 1 routes (/) using Next.js",
+ "status": "PROTOTYPE",
+ "has_code": true,
+ "domain": "SaaS",
+ "audience": "developer",
+ "problem": "A review-workflow concept.",
+ "public_positioning": "A review-workflow concept.",
+ "website_positioning": "A review-workflow concept.",
+ "data_flow": "15 App Router endpoints including /about, /contact, /dashboard, /demo",
+ "control_flow": "public-site/index.html boots 3 module(s) (app, components) and serves 15 route(s) beginning /about, /contact",
+ "state_model": "stack",
+ "state_model_note": "1 computer-science primitive(s) matched in source",
+ "architecture": "3 top-level module boundaries: app, components, src",
+ "terminal_story": "public-site/index.html -> 15 routes, 3 modules, 923 files",
+ "terminal_lines": [
+  "public-site/index.html"
+ ],
+ "interfaces": [
+  "public-site/index.html"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/contact",
+  "/dashboard",
+  "/demo",
+  "/docs"
+ ],
+ "workflow_steps": [
+  "app",
+  "components",
+  "src"
+ ],
+ "major_modules": [
+  "app",
+  "components",
+  "src"
+ ],
  "cs_primitives": [
   "stack"
  ],
- "data_flow": "Developer Tools: requests traverse 1 routes (/)",
- "data_structures": [
-  "stack"
+ "security_model": [],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "tree_traverse over routes /about, /contact, /dashboard; modules app, components, src; primitives stack",
+ "secondary_visual_metaphor": "primitives stack; stack Next.js, React, Tailwind CSS; top module app",
+ "geometry_set": "ring",
+ "animation_story_1": "tree_traverse",
+ "entry_points": [
+  "public-site/index.html"
  ],
- "description": "ReviewForge AI: a developer tool, structured around stack.",
- "domain": "Developer Tools",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "SUPPORTED_INFERENCE",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "SUPPORTED_INFERENCE",
-  "data_flow": "FACT",
-  "data_structures": "FACT",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 922,
+ "routes": [
+  "/",
+  "/about",
+  "/contact",
+  "/dashboard",
+  "/demo",
+  "/docs",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/support",
+  "/terms",
+  "/trust"
+ ],
  "frameworks": [
   "Next.js",
   "React",
-  "Tailwind CSS",
-  "Vercel AI SDK"
+  "Tailwind CSS"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [
-  "source files"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "interfaces": [
-  "CLI entry points",
-  "1 HTTP routes"
- ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "TypeScript"
- ],
- "major_modules": [
-  ".startup",
-  "app",
-  "components",
-  "public-site",
-  "venture-os"
- ],
- "outputs": [
-  "build artifact"
- ],
- "palette": "mint_violet",
- "primary_visual_metaphor": "source transformed through analysis to output",
- "problem": "A review-workflow concept.",
- "project_category": "DEVELOPER_TOOLS",
- "public_positioning": "A review-workflow concept.",
- "purpose": "Startup portfolio: reviewforge-ai",
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "4",
   "tags": 0
  },
- "secondary_visual_metaphor": "stack structure in developer tools",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "portfolio",
- "state_model": "stack with 1 cooperating structures",
- "status": "PROTOTYPE",
- "technical_category": "developer-tooling",
- "terminal_story": "operator runs ReviewForge AI (TypeScript) from the command line; output resolves as a tree [reviewforge-ai]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/contact",
+   "/dashboard",
+   "/demo",
+   "/docs",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/support",
+   "/terms",
+   "/trust"
+  ],
+  "entry_points": [
+   "public-site/index.html"
+  ],
+  "modules": [
+   "app",
+   "components",
+   "src"
+  ],
+  "frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "cs_primitives": [
+   "stack"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 923,
+  "test_count": 0,
+  "shared_template_files": 49
  },
- "topics": [
-  "developer-tooling",
-  "typescript",
-  "developer-tools",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

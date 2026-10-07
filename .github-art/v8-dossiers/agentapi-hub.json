@@ -1,30 +1,49 @@
 {
- "API": [],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "benchmark",
- "CS_visual_2": "stack",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "multi-node reasoning path with a verification loop",
- "architecture": "DATA_FLOW",
- "audience": "",
+ "repo": "agentapi-hub",
  "canonical_name": "agentapi-hub",
- "concurrency_model": "",
+ "project_category": "WEB_APPLICATION",
+ "palette": "navy_lavender",
  "confidence": "E3",
- "control_flow": "control for agentapi-hub enters at public-site/index.html and dispatches to 1 entry points across 0 routes (none) using Next.js",
+ "status": "PROTOTYPE",
+ "has_code": true,
+ "domain": "Web Application",
+ "audience": "developer",
+ "problem": "",
+ "public_positioning": "",
+ "website_positioning": "",
+ "data_flow": "21 App Router endpoints including /about, /api/submit, /api/tools, /contact",
+ "control_flow": "public-site/index.html boots 4 module(s) (app, components) and serves 21 route(s) beginning /about, /api/submit",
+ "state_model": "benchmark, stack, terminal, simulator",
+ "state_model_note": "5 computer-science primitive(s) matched in source",
+ "architecture": "4 top-level module boundaries: app, components, lib, src",
+ "terminal_story": "public-site/index.html -> 21 routes, 4 modules, 934 files",
+ "terminal_lines": [
+  "public-site/index.html"
+ ],
+ "interfaces": [
+  "public-site/index.html"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/api/submit",
+  "/api/tools",
+  "/contact",
+  "/dashboard"
+ ],
+ "workflow_steps": [
+  "app",
+  "components",
+  "lib",
+  "src"
+ ],
+ "major_modules": [
+  "app",
+  "components",
+  "lib",
+  "src"
+ ],
  "cs_primitives": [
   "benchmark",
   "stack",
@@ -32,124 +51,136 @@
   "simulator",
   "agent_graph"
  ],
- "data_flow": "Agent: data passes through benchmark structure",
- "data_structures": [
-  "stack"
+ "security_model": [],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "bar_sweep over routes /about, /api/submit, /api/tools; modules app, components, lib; primitives benchmark, stack, terminal",
+ "secondary_visual_metaphor": "primitives benchmark, stack, terminal; stack Prisma, Zod; top module app",
+ "geometry_set": "arch",
+ "animation_story_1": "bar_sweep",
+ "entry_points": [
+  "public-site/index.html"
  ],
- "description": "agentapi-hub: an agent system, structured around benchmark.",
- "domain": "Agent",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "FACT",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "FACT",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "SUPPORTED_INFERENCE",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 930,
+ "routes": [
+  "/",
+  "/about",
+  "/api/submit",
+  "/api/tools",
+  "/api/tools/:id",
+  "/contact",
+  "/dashboard",
+  "/demo",
+  "/docs",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/marketplace",
+  "/marketplace/:id",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/submit",
+  "/support",
+  "/terms",
+  "/trust"
+ ],
  "frameworks": [
   "Next.js",
   "Prisma",
   "React",
   "Tailwind CSS",
-  "Vercel AI SDK",
   "Zod"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [
-  "user request"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "interfaces": [
-  "CLI entry points",
-  "database layer"
- ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "TypeScript"
- ],
- "major_modules": [
-  ".startup",
-  "app",
-  "components",
-  "lib",
-  "prisma",
-  "public-site",
-  "venture-os"
- ],
- "outputs": [
-  "tool calls",
-  "verifiable result"
- ],
- "palette": "indigo_lime",
- "primary_visual_metaphor": "multi-node reasoning path with a verification loop",
- "problem": "AgentAPI Hub MVP: searchable marketplace for agent-ready APIs, CLIs, MCP servers, schemas, and machine-readable docs.",
- "project_category": "AGENT",
- "public_positioning": "API infrastructure for agents, tools, and product coordination.",
- "purpose": "Startup portfolio: agentapi-hub",
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "2",
   "tags": 0
  },
- "secondary_visual_metaphor": "benchmark structure in agent",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "portfolio",
- "state_model": "benchmark with 5 cooperating structures",
- "status": "PROTOTYPE",
- "technical_category": "agent-systems",
- "terminal_story": "operator runs agentapi-hub (TypeScript) from the command line; output resolves as a tree [agentapi-hub]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [
+   "Prisma",
+   "Zod"
+  ],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/api/submit",
+   "/api/tools",
+   "/api/tools/:id",
+   "/contact",
+   "/dashboard",
+   "/demo",
+   "/docs",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/marketplace",
+   "/marketplace/:id",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/submit",
+   "/support",
+   "/terms",
+   "/trust"
+  ],
+  "entry_points": [
+   "public-site/index.html"
+  ],
+  "modules": [
+   "app",
+   "components",
+   "lib",
+   "src"
+  ],
+  "frameworks": [
+   "Next.js",
+   "Prisma",
+   "React",
+   "Tailwind CSS",
+   "Zod"
+  ],
+  "cs_primitives": [
+   "benchmark",
+   "stack",
+   "terminal",
+   "simulator",
+   "agent_graph"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 934,
+  "test_count": 0,
+  "shared_template_files": 35
  },
- "topics": [
-  "agent-systems",
-  "typescript",
-  "agent",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

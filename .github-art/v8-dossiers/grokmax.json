@@ -1,36 +1,67 @@
 {
- "API": [],
- "CI": {
-  "present": true,
-  "workflow_count": 1,
-  "workflows": [
-   ".github/workflows/ci.yml"
-  ]
- },
- "CLI": true,
- "CS_visual_1": "cache",
- "CS_visual_2": "stack",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "technical_evidence",
-  "status",
-  "limitations"
- ],
- "algorithms": [
-  "ast",
-  "compiler_stage"
- ],
- "animation_story_1": "source transformed through analysis to output",
- "architecture": "AGENT_LOOP",
- "audience": "",
- "canonical_name": "GrokMax",
- "concurrency_model": "event loop",
+ "repo": "grokmax",
+ "canonical_name": "grokmax",
+ "project_category": "WEB_APPLICATION",
+ "palette": "coral_teal",
  "confidence": "E3",
- "control_flow": "control for grokmax enters at apps/cli/src/index.ts and dispatches to 16 entry points across 0 routes (none) using Vercel AI SDK",
+ "status": "LIVE",
+ "has_code": true,
+ "domain": "Developer tools",
+ "audience": "developer",
+ "problem": "Scale down before you scale up.",
+ "public_positioning": "Scale down before you scale up.",
+ "website_positioning": "Scale down before you scale up.",
+ "data_flow": "16 entry point(s) with no routable HTTP surface: apps/cli/src/index.ts, packages/adapters/src/index.ts, packages/artifacts/src/index.ts",
+ "control_flow": "16 entry point(s) with no HTTP layer: index.ts, index.ts, index.ts",
+ "state_model": "cache, stack, benchmark, terminal",
+ "state_model_note": "6 computer-science primitive(s) matched in source",
+ "architecture": "16 top-level module boundaries: apps, apps/cli, benchmarks, data, packages",
+ "terminal_story": "src/index.ts | src/index.ts | src/index.ts | src/index.ts -> 0 routes, 16 modules, 223 files",
+ "terminal_lines": [
+  "src/index.ts",
+  "src/index.ts",
+  "src/index.ts",
+  "src/index.ts"
+ ],
+ "interfaces": [
+  "apps/cli/src/index.ts",
+  "packages/adapters/src/index.ts",
+  "packages/artifacts/src/index.ts"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "apps/cli/src/index.ts",
+  "packages/adapters/src/index.ts",
+  "packages/artifacts/src/index.ts",
+  "packages/cache/src/index.ts",
+  "packages/compiler/src/index.ts"
+ ],
+ "workflow_steps": [
+  "apps",
+  "apps/cli",
+  "benchmarks",
+  "data",
+  "packages"
+ ],
+ "major_modules": [
+  "apps",
+  "apps/cli",
+  "benchmarks",
+  "data",
+  "packages",
+  "packages/adapters",
+  "packages/artifacts",
+  "packages/cache",
+  "packages/compiler",
+  "packages/context",
+  "packages/core",
+  "packages/doctor",
+  "packages/edge",
+  "packages/experiment",
+  "packages/inbot",
+  "packages/ledger"
+ ],
  "cs_primitives": [
   "cache",
   "stack",
@@ -39,110 +70,182 @@
   "ast",
   "compiler_stage"
  ],
- "data_flow": "Developer Tools: data passes through cache structure",
- "data_structures": [
-  "cache",
-  "stack"
+ "security_model": [],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "index_probe over modules apps, apps/cli, benchmarks; primitives cache, stack, benchmark",
+ "secondary_visual_metaphor": "primitives cache, stack, benchmark; stack Vitest; top module apps",
+ "geometry_set": "arch",
+ "animation_story_1": "index_probe",
+ "entry_points": [
+  "apps/cli/src/index.ts",
+  "packages/adapters/src/index.ts",
+  "packages/artifacts/src/index.ts",
+  "packages/cache/src/index.ts",
+  "packages/compiler/src/index.ts",
+  "packages/context/src/index.ts",
+  "packages/core/src/index.ts",
+  "packages/doctor/src/index.ts",
+  "packages/edge/src/index.ts",
+  "packages/experiment/src/index.ts",
+  "packages/inbot/src/index.ts",
+  "packages/ledger/src/index.ts",
+  "packages/providers/src/index.ts",
+  "packages/router/src/index.ts",
+  "packages/telemetry/src/index.ts",
+  "packages/usage/src/index.ts"
  ],
- "description": "GrokMax: a developer tool, structured around cache.",
- "domain": "Developer Tools",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "FACT",
-  "README_outline": "FACT",
-  "algorithms": "FACT",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "FACT",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "FACT",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 222,
+ "routes": [],
  "frameworks": [
-  "Vercel AI SDK",
   "Vitest"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [
-  "source files"
+ "language": "TypeScript",
+ "manifests": [
+  "apps/cli/package.json",
+  "package.json",
+  "packages/adapters/package.json",
+  "packages/artifacts/package.json",
+  "packages/cache/package.json",
+  "packages/compiler/package.json",
+  "packages/context/package.json",
+  "packages/core/package.json",
+  "packages/doctor/package.json",
+  "packages/edge/package.json",
+  "packages/experiment/package.json",
+  "packages/inbot/package.json",
+  "packages/ledger/package.json",
+  "packages/providers/package.json",
+  "packages/router/package.json",
+  "packages/telemetry/package.json",
+  "packages/usage/package.json"
  ],
- "interfaces": [
-  "CLI entry points"
- ],
- "known_limitations": [],
- "languages": [
-  "JavaScript",
-  "Python",
-  "Shell",
-  "TypeScript"
- ],
- "major_modules": [
-  "data"
- ],
- "outputs": [
-  "build artifact"
- ],
- "palette": "mint_violet",
- "primary_visual_metaphor": "source transformed through analysis to output",
- "problem": "**Minimize GrokBot usage while maximizing verified useful output.**",
- "project_category": "DEVELOPER_TOOLS",
- "public_positioning": "Scale down before you scale up.",
- "purpose": "Deterministic-first LLM routing: zero-cost executors first, five-layer cache, telemetry that never overstates savings.",
+ "testing": {
+  "present": true,
+  "count": 26,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 1,
   "commits": "11",
   "tags": 4
  },
- "secondary_visual_metaphor": "cache structure in developer tools",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "portfolio",
- "state_model": "cache with 6 cooperating structures",
- "status": "ACTIVE",
- "technical_category": "developer-tooling",
- "terminal_story": "operator runs GrokMax (TypeScript) from the command line; output resolves as a tree [grokmax]",
- "testing": {
-  "count": 26,
-  "note": "counted from the repository tree, not executed",
-  "present": true
+ "evidence": {
+  "distinctive_frameworks": [],
+  "test_frameworks": [
+   "Vitest"
+  ],
+  "scaffold_frameworks": [],
+  "routes": [],
+  "entry_points": [
+   "apps/cli/src/index.ts",
+   "packages/adapters/src/index.ts",
+   "packages/artifacts/src/index.ts",
+   "packages/cache/src/index.ts",
+   "packages/compiler/src/index.ts",
+   "packages/context/src/index.ts",
+   "packages/core/src/index.ts",
+   "packages/doctor/src/index.ts",
+   "packages/edge/src/index.ts",
+   "packages/experiment/src/index.ts",
+   "packages/inbot/src/index.ts",
+   "packages/ledger/src/index.ts",
+   "packages/providers/src/index.ts",
+   "packages/router/src/index.ts",
+   "packages/telemetry/src/index.ts",
+   "packages/usage/src/index.ts"
+  ],
+  "modules": [
+   "apps",
+   "apps/cli",
+   "benchmarks",
+   "data",
+   "packages",
+   "packages/adapters",
+   "packages/artifacts",
+   "packages/cache",
+   "packages/compiler",
+   "packages/context",
+   "packages/core",
+   "packages/doctor",
+   "packages/edge",
+   "packages/experiment",
+   "packages/inbot",
+   "packages/ledger"
+  ],
+  "frameworks": [
+   "Vitest"
+  ],
+  "cs_primitives": [
+   "cache",
+   "stack",
+   "benchmark",
+   "terminal",
+   "ast",
+   "compiler_stage"
+  ],
+  "manifests": [
+   "apps/cli/package.json",
+   "package.json",
+   "packages/adapters/package.json",
+   "packages/artifacts/package.json",
+   "packages/cache/package.json",
+   "packages/compiler/package.json",
+   "packages/context/package.json",
+   "packages/core/package.json",
+   "packages/doctor/package.json",
+   "packages/edge/package.json",
+   "packages/experiment/package.json",
+   "packages/inbot/package.json",
+   "packages/ledger/package.json",
+   "packages/providers/package.json",
+   "packages/router/package.json",
+   "packages/telemetry/package.json",
+   "packages/usage/package.json"
+  ],
+  "tests": [
+   "apps/cli/tests/containment.test.ts",
+   "apps/cli/tests/fixtures-present.test.ts",
+   "apps/cli/tests/fresh.test.ts",
+   "apps/cli/tests/manifest.test.ts",
+   "apps/cli/tests/modes.test.ts",
+   "packages/adapters/tests/adapters.test.ts",
+   "packages/adapters/tests/opencode.test.ts",
+   "packages/artifacts/tests/artifacts.test.ts",
+   "packages/cache/tests/cache.test.ts",
+   "packages/cache/tests/containment.test.ts",
+   "packages/cache/tests/semantic-safe.test.ts",
+   "packages/compiler/tests/compiler.test.ts",
+   "packages/context/tests/context.test.ts",
+   "packages/core/tests/fingerprint.test.ts",
+   "packages/core/tests/freshness.test.ts",
+   "packages/core/tests/normalize.test.ts",
+   "packages/core/tests/security.test.ts",
+   "packages/core/tests/types.test.ts",
+   "packages/doctor/tests/integration.test.ts",
+   "packages/edge/tests/edge.test.ts",
+   "packages/experiment/tests/experiment.test.ts",
+   "packages/inbot/tests/inbot.test.ts",
+   "packages/ledger/tests/ledger.test.ts",
+   "packages/router/tests/router.test.ts",
+   "packages/telemetry/tests/savings.test.ts",
+   "packages/usage/tests/usage.test.ts"
+  ],
+  "ci_workflows": [
+   ".github/workflows/ci.yml"
+  ],
+  "language": "TypeScript",
+  "files": 223,
+  "test_count": 26,
+  "shared_template_files": 0
  },
- "topics": [
-  "developer-tooling",
-  "typescript",
-  "developer-tools",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

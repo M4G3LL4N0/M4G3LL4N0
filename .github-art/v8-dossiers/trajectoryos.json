@@ -1,142 +1,153 @@
 {
- "API": [],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "api_flow",
- "CS_visual_2": "",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "source transformed through analysis to output",
- "architecture": "DOCUMENT",
- "audience": "",
- "canonical_name": "TrajectoryOS",
- "concurrency_model": "",
+ "repo": "trajectoryos",
+ "canonical_name": "trajectoryos",
+ "project_category": "WEB_APPLICATION",
+ "palette": "slate_amber",
  "confidence": "E3",
- "control_flow": "control for trajectoryos enters at components/landing/index.ts and dispatches to 2 entry points across 0 routes (none) using Next.js",
+ "status": "PROTOTYPE",
+ "has_code": true,
+ "domain": "Venture Intelligence",
+ "audience": "developer",
+ "problem": "Trajectory intelligence for ventures, markets, and strategic positioning.",
+ "public_positioning": "Trajectory intelligence for ventures, markets, and strategic positioning.",
+ "website_positioning": "Trajectory intelligence for ventures, markets, and strategic positioning.",
+ "data_flow": "15 App Router endpoints including /about, /contact, /dashboard, /demo",
+ "control_flow": "components/landing/index.ts boots 3 module(s) (app, components) and serves 15 route(s) beginning /about, /contact",
+ "state_model": "no distinctive algorithmic primitive detected",
+ "state_model_note": "structure is declarative/config; no primitive matcher hit",
+ "architecture": "3 top-level module boundaries: app, components, lib",
+ "terminal_story": "landing/index.ts | public-site/index.html -> 15 routes, 3 modules, 912 files",
+ "terminal_lines": [
+  "landing/index.ts",
+  "public-site/index.html"
+ ],
+ "interfaces": [
+  "components/landing/index.ts",
+  "public-site/index.html"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/contact",
+  "/dashboard",
+  "/demo",
+  "/docs"
+ ],
+ "workflow_steps": [
+  "app",
+  "components",
+  "lib"
+ ],
+ "major_modules": [
+  "app",
+  "components",
+  "lib"
+ ],
  "cs_primitives": [],
- "data_flow": "single-entry processing",
- "data_structures": [],
- "description": "TrajectoryOS: a developer tool, built on TypeScript.",
- "domain": "Developer Tools",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "SUPPORTED_INFERENCE",
-  "CS_visual_2": "SUPPORTED_INFERENCE",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "SUPPORTED_INFERENCE",
-  "data_flow": "SUPPORTED_INFERENCE",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "NAME_BASED_HYPOTHESIS",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 911,
+ "security_model": [],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "tree_traverse over routes /about, /contact, /dashboard; modules app, components, lib",
+ "secondary_visual_metaphor": "stack Next.js, React, Tailwind CSS; top module app",
+ "geometry_set": "cube",
+ "animation_story_1": "tree_traverse",
+ "entry_points": [
+  "components/landing/index.ts",
+  "public-site/index.html"
+ ],
+ "routes": [
+  "/",
+  "/about",
+  "/contact",
+  "/dashboard",
+  "/demo",
+  "/docs",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/support",
+  "/terms",
+  "/trust"
+ ],
  "frameworks": [
   "Next.js",
   "React",
-  "Tailwind CSS",
-  "Vercel AI SDK"
+  "Tailwind CSS"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [
-  "source files"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "interfaces": [
-  "CLI entry points"
- ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "TypeScript"
- ],
- "major_modules": [
-  ".autobuilder",
-  ".startup",
-  "app",
-  "components",
-  "lib",
-  "public-site",
-  "venture-os"
- ],
- "outputs": [
-  "build artifact"
- ],
- "palette": "mint_violet",
- "primary_visual_metaphor": "source transformed through analysis to output",
- "problem": "TrajectoryOS is an AI-native mission computation layer for space, physics, aerospace, robotics, and engineering teams. This repository contains the public marketing site (Next.js App Router).",
- "project_category": "DEVELOPER_TOOLS",
- "public_positioning": "Trajectory intelligence for ventures, markets, and strategic positioning.",
- "purpose": "Startup portfolio: trajectoryos",
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "2",
   "tags": 0
  },
- "secondary_visual_metaphor": "developer tools topology for trajectoryos",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "portfolio",
- "state_model": "stateless request handling",
- "status": "PROTOTYPE",
- "technical_category": "developer-tooling",
- "terminal_story": "operator runs TrajectoryOS (TypeScript) from the command line; output resolves as a tree [trajectoryos]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/contact",
+   "/dashboard",
+   "/demo",
+   "/docs",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/support",
+   "/terms",
+   "/trust"
+  ],
+  "entry_points": [
+   "components/landing/index.ts",
+   "public-site/index.html"
+  ],
+  "modules": [
+   "app",
+   "components",
+   "lib"
+  ],
+  "frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "cs_primitives": [],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 912,
+  "test_count": 0,
+  "shared_template_files": 35
  },
- "topics": [
-  "developer-tooling",
-  "typescript",
-  "developer-tools",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "component_map",
+  "build",
+  "footer"
+ ]
 }

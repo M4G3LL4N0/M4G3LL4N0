@@ -1,151 +1,176 @@
 {
- "API": [],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "policy",
- "CS_visual_2": "",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "source transformed through analysis to output",
- "architecture": "DATA_FLOW",
- "audience": "",
- "canonical_name": "ChildDevOS",
- "concurrency_model": "",
+ "repo": "childdevos",
+ "canonical_name": "childdevos",
+ "project_category": "WEB_APPLICATION",
+ "palette": "peach_cyan",
  "confidence": "E3",
- "control_flow": "control for childdevos enters at public-site/index.html and dispatches to 1 entry points across 0 routes (none) using D3",
+ "status": "PROTOTYPE",
+ "has_code": true,
+ "domain": "Education",
+ "audience": "developer",
+ "problem": "A platform for organizing developmental insights, learning signals, parent guidance, and child growth coordination into one coherent operating layer.",
+ "public_positioning": "A platform for organizing developmental insights, learning signals, parent guidance, and child growth coordination into one coherent operating layer.",
+ "website_positioning": "A platform for organizing developmental insights, learning signals, parent guidance, and child growth coordination into one coherent operating layer.",
+ "data_flow": "19 App Router endpoints including /about, /api/health, /api/reports/daily, /api/teacher/log",
+ "control_flow": "public-site/index.html boots 4 module(s) (app, components) and serves 19 route(s) beginning /about, /api/health",
+ "state_model": "policy",
+ "state_model_note": "1 computer-science primitive(s) matched in source",
+ "architecture": "4 top-level module boundaries: app, components, lib, supabase",
+ "terminal_story": "public-site/index.html -> 19 routes, 4 modules, 931 files",
+ "terminal_lines": [
+  "public-site/index.html"
+ ],
+ "interfaces": [
+  "public-site/index.html"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/api/health",
+  "/api/reports/daily",
+  "/api/teacher/log",
+  "/contact"
+ ],
+ "workflow_steps": [
+  "app",
+  "components",
+  "lib",
+  "supabase"
+ ],
+ "major_modules": [
+  "app",
+  "components",
+  "lib",
+  "supabase"
+ ],
  "cs_primitives": [
   "policy"
  ],
- "data_flow": "Developer Tools: data passes through policy structure",
- "data_structures": [],
- "description": "ChildDevOS: a developer tool, structured around policy.",
- "domain": "Developer Tools",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "SUPPORTED_INFERENCE",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "SUPPORTED_INFERENCE",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "FACT",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 930,
+ "security_model": [
+  "policy"
+ ],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "state_change over routes /about, /api/health, /api/reports/daily; modules app, components, lib; primitives policy",
+ "secondary_visual_metaphor": "primitives policy; stack OpenAI SDK, Supabase; top module app",
+ "geometry_set": "cube",
+ "animation_story_1": "state_change",
+ "entry_points": [
+  "public-site/index.html"
+ ],
+ "routes": [
+  "/",
+  "/about",
+  "/api/health",
+  "/api/reports/daily",
+  "/api/teacher/log",
+  "/contact",
+  "/dashboard/parent",
+  "/dashboard/teacher",
+  "/demo",
+  "/docs",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/support",
+  "/terms",
+  "/trust"
+ ],
  "frameworks": [
-  "D3",
   "Next.js",
   "OpenAI SDK",
   "React",
   "Supabase",
-  "Tailwind CSS",
-  "Vercel AI SDK"
+  "Tailwind CSS"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [
-  "source files"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "interfaces": [
-  "CLI entry points",
-  "database layer"
- ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "SQL",
-  "TypeScript"
- ],
- "major_modules": [
-  ".autobuilder",
-  ".startup",
-  "app",
-  "components",
-  "lib",
-  "public-site",
-  "supabase",
-  "venture-os"
- ],
- "outputs": [
-  "build artifact"
- ],
- "palette": "mint_violet",
- "primary_visual_metaphor": "source transformed through analysis to output",
- "problem": "ChildDevOS is an AI-powered childcare intelligence platform for childcare centers, preschools, daycare providers, teachers, admins, and parents.",
- "project_category": "DEVELOPER_TOOLS",
- "public_positioning": "A platform for organizing developmental insights, learning signals, parent guidance, and child growth coordination into one coherent operating layer.",
- "purpose": "ChildDevOS is a developer tools codebase of 930 files organised around policy.",
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "3",
   "tags": 0
  },
- "secondary_visual_metaphor": "policy structure in developer tools",
- "security_model": [
-  "policy evaluation"
- ],
- "source_origin": "portfolio",
- "state_model": "policy with 1 cooperating structures",
- "status": "PROTOTYPE",
- "technical_category": "developer-tooling",
- "terminal_story": "operator runs ChildDevOS (TypeScript) from the command line; output resolves as a tree [childdevos]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [
+   "OpenAI SDK",
+   "Supabase"
+  ],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/api/health",
+   "/api/reports/daily",
+   "/api/teacher/log",
+   "/contact",
+   "/dashboard/parent",
+   "/dashboard/teacher",
+   "/demo",
+   "/docs",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/support",
+   "/terms",
+   "/trust"
+  ],
+  "entry_points": [
+   "public-site/index.html"
+  ],
+  "modules": [
+   "app",
+   "components",
+   "lib",
+   "supabase"
+  ],
+  "frameworks": [
+   "Next.js",
+   "OpenAI SDK",
+   "React",
+   "Supabase",
+   "Tailwind CSS"
+  ],
+  "cs_primitives": [
+   "policy"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 931,
+  "test_count": 0,
+  "shared_template_files": 35
  },
- "topics": [
-  "developer-tooling",
-  "typescript",
-  "developer-tools",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

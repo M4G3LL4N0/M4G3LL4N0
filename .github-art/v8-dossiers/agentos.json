@@ -1,35 +1,42 @@
 {
- "API": [],
- "CI": {
-  "present": true,
-  "workflow_count": 1,
-  "workflows": [
-   ".github/workflows/ci.yml"
-  ]
- },
- "CLI": true,
- "CS_visual_1": "policy",
- "CS_visual_2": "benchmark",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "technical_evidence",
-  "status",
-  "limitations"
- ],
- "algorithms": [
-  "index"
- ],
- "animation_story_1": "multi-node reasoning path with a verification loop",
- "architecture": "DISTRIBUTED",
- "audience": "",
- "canonical_name": "AgentOS",
- "concurrency_model": "event loop",
+ "repo": "agentos",
+ "canonical_name": "agentos",
+ "project_category": "SECURITY",
+ "palette": "graphite_coral",
  "confidence": "E3",
- "control_flow": "agentos run",
+ "status": "LIVE",
+ "has_code": true,
+ "domain": "Developer tools",
+ "audience": "developer",
+ "problem": "Requested is not verified.",
+ "public_positioning": "Requested is not verified.",
+ "website_positioning": "Requested is not verified.",
+ "data_flow": "2 entry point(s) with no routable HTTP surface: src/agentos/__main__.py, src/agentos/cli.py",
+ "control_flow": "2 entry point(s) with no HTTP layer: __main__.py, cli.py",
+ "state_model": "policy, benchmark, terminal, cache",
+ "state_model_note": "6 computer-science primitive(s) matched in source",
+ "architecture": "1 top-level module boundaries: src",
+ "terminal_story": "agentos/__main__.py | agentos/cli.py -> 0 routes, 1 modules, 225 files",
+ "terminal_lines": [
+  "agentos/__main__.py",
+  "agentos/cli.py"
+ ],
+ "interfaces": [
+  "src/agentos/__main__.py",
+  "src/agentos/cli.py"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "src/agentos/__main__.py",
+  "src/agentos/cli.py"
+ ],
+ "workflow_steps": [
+  "src"
+ ],
+ "major_modules": [
+  "src"
+ ],
  "cs_primitives": [
   "policy",
   "benchmark",
@@ -38,106 +45,118 @@
   "simulator",
   "index"
  ],
- "data_flow": "Agent: data passes through policy structure",
- "data_structures": [
-  "cache",
-  "index"
+ "security_model": [
+  "policy"
  ],
- "description": "AgentOS: an agent system, structured around policy.",
- "domain": "Agent",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "FACT",
-  "README_outline": "FACT",
-  "algorithms": "FACT",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "FACT",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "FACT",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "NAME_BASED_HYPOTHESIS",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "SUPPORTED_INFERENCE",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "FACT",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
+ "concurrency_model": [],
+ "primary_visual_metaphor": "state_change over modules src; primitives policy, benchmark, terminal",
+ "secondary_visual_metaphor": "primitives policy, benchmark, terminal; top module src",
+ "geometry_set": "rosette",
+ "animation_story_1": "state_change",
+ "entry_points": [
+  "src/agentos/__main__.py",
+  "src/agentos/cli.py"
+ ],
+ "routes": [],
+ "frameworks": [],
+ "language": "Python",
+ "manifests": [
+  ".opencode/package.json",
+  "pyproject.toml"
+ ],
+ "testing": {
+  "present": true,
+  "count": 44,
+  "note": "counted from the repository tree, not executed"
  },
- "file_count": 222,
- "frameworks": [
-  "Vercel AI SDK"
- ],
- "has_code": true,
- "homepage": "",
- "inputs": [
-  "user request"
- ],
- "interfaces": [
-  "CLI entry points"
- ],
- "known_limitations": [],
- "languages": [
-  "JavaScript",
-  "Python"
- ],
- "major_modules": [],
- "outputs": [
-  "tool calls",
-  "verifiable result"
- ],
- "palette": "indigo_lime",
- "primary_visual_metaphor": "multi-node reasoning path with a verification loop",
- "problem": "AgentOS is the generic execution and orchestration engine. It accepts an objective, inspects the current state, discovers capabilities, plans a bounded route, executes through an adapter, verifies the result, persists evidence, and decides what to do next. Humans and AI systems can use the same core through the CLI, lo",
- "project_category": "AGENT",
- "public_positioning": "Requested is not verified.",
- "purpose": "Provider-neutral AI agent execution and orchestration engine: objective in, verified outcome out.",
  "release": {
+  "ci": 1,
   "commits": "7",
   "tags": 0
  },
- "secondary_visual_metaphor": "policy structure in agent",
- "security_model": [
-  "policy evaluation"
- ],
- "source_origin": "portfolio",
- "state_model": "policy with 6 cooperating structures",
- "status": "ACTIVE",
- "technical_category": "agent-systems",
- "terminal_story": "operator runs AgentOS (Python) from the command line; output resolves as a tree [agentos]",
- "testing": {
-  "count": 44,
-  "note": "counted from the repository tree, not executed",
-  "present": true
+ "evidence": {
+  "distinctive_frameworks": [],
+  "test_frameworks": [],
+  "scaffold_frameworks": [],
+  "routes": [],
+  "entry_points": [
+   "src/agentos/__main__.py",
+   "src/agentos/cli.py"
+  ],
+  "modules": [
+   "src"
+  ],
+  "frameworks": [],
+  "cs_primitives": [
+   "policy",
+   "benchmark",
+   "terminal",
+   "cache",
+   "simulator",
+   "index"
+  ],
+  "manifests": [
+   ".opencode/package.json",
+   "pyproject.toml"
+  ],
+  "tests": [
+   "tests/__init__.py",
+   "tests/test_a2a_interop.py",
+   "tests/test_a2a_v1.py",
+   "tests/test_adapters.py",
+   "tests/test_adapters_ext.py",
+   "tests/test_api.py",
+   "tests/test_autonomy_model.py",
+   "tests/test_backup_reconstruction.py",
+   "tests/test_changes.py",
+   "tests/test_coach.py",
+   "tests/test_decompose_execution.py",
+   "tests/test_ecosystem_and_workflows.py",
+   "tests/test_efficiency_kernel.py",
+   "tests/test_efficiency_triage.py",
+   "tests/test_engine.py",
+   "tests/test_fabric.py",
+   "tests/test_failure_recovery.py",
+   "tests/test_federation.py",
+   "tests/test_federation_cli.py",
+   "tests/test_fleet_monitor.py",
+   "tests/test_learn_gaps.py",
+   "tests/test_learned_routing.py",
+   "tests/test_learning_execution.py",
+   "tests/test_mcp.py",
+   "tests/test_mcp_lifecycle.py",
+   "tests/test_mode_gate.py",
+   "tests/test_models.py",
+   "tests/test_normalization.py",
+   "tests/test_persistent_bot_governor.py",
+   "tests/test_policy_safety.py",
+   "tests/test_readiness.py",
+   "tests/test_registry_verify.py",
+   "tests/test_resource_governor.py",
+   "tests/test_results_persistence.py",
+   "tests/test_role_classifier.py",
+   "tests/test_router_orchestration.py",
+   "tests/test_routines.py",
+   "tests/test_services_cli.py",
+   "tests/test_skill_model.py",
+   "tests/test_store.py"
+  ],
+  "ci_workflows": [
+   ".github/workflows/ci.yml"
+  ],
+  "language": "Python",
+  "files": 225,
+  "test_count": 44,
+  "shared_template_files": 1
  },
- "topics": [
-  "agent-systems",
-  "python",
-  "agent",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "state_machine",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

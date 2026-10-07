@@ -1,58 +1,112 @@
 {
- "canonical_name": "M4G3Ll4N0",
- "confidence": "E1",
- "palette": "peach_cyan",
- "project_category": "PRODUCT",
  "repo": "M4G3LL4N0",
+ "canonical_name": "DUNG30N5 x NOAERTH",
+ "confidence": "E3",
+ "palette": "plum_azure",
+ "project_category": "PORTFOLIO",
+ "status": "PORTFOLIO",
  "slots": [
   "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
   "state_machine",
-  "domain",
+  "component_map",
+  "build",
   "workflow",
+  "domain",
   "footer"
  ],
- "status": "SCAFFOLD",
  "storyboard": [
   {
-   "animation": "tiles lock into a grid as structure forms; 12.0s loop, offset 0.0s",
-   "computer_science_concept": "modular units assembling into a whole",
-   "geometry": "isometric blocks",
-   "material": "D3 density; #ffb4a2 on #1a1214; accents #48cae4, #f9c74f",
-   "purpose": "identity -- what the project is at a glance",
-   "slot": "hero"
+   "slot": "hero",
+   "purpose": "identity",
+   "geometry": "rosette",
+   "computer_science_concept": "index",
+   "material": "palette plum_azure",
+   "animation": "graph_resolve",
+   "evidence_basis": "identity from 99512 analysed files"
   },
   {
-   "animation": "a state machine advances one transition; 11.2s loop, offset 0.4s",
-   "computer_science_concept": "no runtime state; repository is a scaffold",
-   "geometry": "transition edges",
-   "material": "D2 density; #ffb4a2 on #1a1214; accents #48cae4, #f9c74f",
+   "slot": "terminal",
+   "purpose": "how it is operated",
+   "geometry": "rosette",
+   "computer_science_concept": "index",
+   "material": "palette plum_azure",
+   "animation": "graph_resolve",
+   "evidence_basis": "6 measured entry point(s)"
+  },
+  {
+   "slot": "architecture",
+   "purpose": "how it is built",
+   "geometry": "rosette",
+   "computer_science_concept": "index",
+   "material": "palette plum_azure",
+   "animation": "graph_resolve",
+   "evidence_basis": "8 measured module root(s)"
+  },
+  {
+   "slot": "data_flow",
+   "purpose": "how data moves",
+   "geometry": "rosette",
+   "computer_science_concept": "index",
+   "material": "palette plum_azure",
+   "animation": "graph_resolve",
+   "evidence_basis": "8 measured route(s)"
+  },
+  {
+   "slot": "state_machine",
    "purpose": "how it behaves",
-   "slot": "state_machine"
+   "geometry": "rosette",
+   "computer_science_concept": "index",
+   "material": "palette plum_azure",
+   "animation": "graph_resolve",
+   "evidence_basis": "8 detected primitive(s)"
   },
   {
-   "animation": "an index probe walks a sorted key space; 15.2s loop, offset 0.8s",
-   "computer_science_concept": "Product",
-   "geometry": "probe path",
-   "material": "D3 density; #ffb4a2 on #1a1214; accents #48cae4, #f9c74f",
-   "purpose": "the problem it addresses",
-   "slot": "domain"
+   "slot": "component_map",
+   "purpose": "how it is composed",
+   "geometry": "rosette",
+   "computer_science_concept": "index",
+   "material": "palette plum_azure",
+   "animation": "graph_resolve",
+   "evidence_basis": "declared dependencies: TypeScript"
   },
   {
-   "animation": "concentric rings pulse from a centre; 12.9s loop, offset 1.2s",
-   "computer_science_concept": "the operating loop",
-   "geometry": "concentric rings",
-   "material": "D2 density; #ffb4a2 on #1a1214; accents #48cae4, #f9c74f",
+   "slot": "build",
+   "purpose": "how it is verified",
+   "geometry": "rosette",
+   "computer_science_concept": "index",
+   "material": "palette plum_azure",
+   "animation": "graph_resolve",
+   "evidence_basis": "211 test file(s), 0 workflow(s)"
+  },
+  {
+   "slot": "workflow",
    "purpose": "how it is used",
-   "slot": "workflow"
+   "geometry": "rosette",
+   "computer_science_concept": "index",
+   "material": "palette plum_azure",
+   "animation": "graph_resolve",
+   "evidence_basis": "8 module(s) as ordered steps"
   },
   {
-   "animation": "concentric rings pulse from a centre; 15.8s loop, offset 1.6s",
-   "computer_science_concept": "project signature",
-   "geometry": "identity object",
-   "material": "D2 density; #ffb4a2 on #1a1214; accents #48cae4, #f9c74f",
-   "purpose": "identity object -- a small signature mark",
-   "slot": "footer"
+   "slot": "domain",
+   "purpose": "the problem it addresses",
+   "geometry": "rosette",
+   "computer_science_concept": "index",
+   "material": "palette plum_azure",
+   "animation": "graph_resolve",
+   "evidence_basis": "domain classification from measured structure"
+  },
+  {
+   "slot": "footer",
+   "purpose": "identity object",
+   "geometry": "rosette",
+   "computer_science_concept": "index",
+   "material": "palette plum_azure",
+   "animation": "graph_resolve",
+   "evidence_basis": "identity object"
   }
- ],
- "surface_count": 5
+ ]
 }

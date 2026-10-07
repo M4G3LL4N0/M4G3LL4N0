@@ -1,146 +1,185 @@
 {
- "API": [],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "policy",
- "CS_visual_2": "pipeline",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "layered render pipeline resolving to a frame",
- "architecture": "DATA_FLOW",
- "audience": "",
+ "repo": "HackerzArt",
  "canonical_name": "HackerzArt",
- "concurrency_model": "",
+ "project_category": "WEB_APPLICATION",
+ "palette": "navy_lavender",
  "confidence": "E3",
- "control_flow": "control for HackerzArt enters at public-site/index.html and dispatches to 1 entry points across 0 routes (none) using D3",
+ "status": "PROTOTYPE",
+ "has_code": true,
+ "domain": "Web Application",
+ "audience": "developer",
+ "problem": "",
+ "public_positioning": "",
+ "website_positioning": "",
+ "data_flow": "24 App Router endpoints including /about, /api/checkout, /api/gallery, /api/generate",
+ "control_flow": "public-site/index.html boots 4 module(s) (app, components) and serves 24 route(s) beginning /about, /api/checkout",
+ "state_model": "policy, pipeline",
+ "state_model_note": "2 computer-science primitive(s) matched in source",
+ "architecture": "4 top-level module boundaries: app, components, lib, supabase",
+ "terminal_story": "public-site/index.html -> 24 routes, 4 modules, 969 files",
+ "terminal_lines": [
+  "public-site/index.html"
+ ],
+ "interfaces": [
+  "public-site/index.html"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/api/checkout",
+  "/api/gallery",
+  "/api/generate",
+  "/contact"
+ ],
+ "workflow_steps": [
+  "app",
+  "components",
+  "lib",
+  "supabase"
+ ],
+ "major_modules": [
+  "app",
+  "components",
+  "lib",
+  "supabase"
+ ],
  "cs_primitives": [
   "policy",
   "pipeline"
  ],
- "data_flow": "Media: data passes through policy structure",
- "data_structures": [],
- "description": "HackerzArt: a media system, structured around policy.",
- "domain": "Media",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "FACT",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "NAME_BASED_HYPOTHESIS",
-  "project_category": "FACT",
-  "public_positioning": "NAME_BASED_HYPOTHESIS",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "FACT",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 966,
+ "security_model": [
+  "policy"
+ ],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "state_change over routes /about, /api/checkout, /api/gallery; modules app, components, lib; primitives policy, pipeline",
+ "secondary_visual_metaphor": "primitives policy, pipeline; stack Supabase; top module app",
+ "geometry_set": "rosette",
+ "animation_story_1": "state_change",
+ "entry_points": [
+  "public-site/index.html"
+ ],
+ "routes": [
+  "/",
+  "/about",
+  "/api/checkout",
+  "/api/gallery",
+  "/api/generate",
+  "/contact",
+  "/dashboard",
+  "/dashboard/account",
+  "/dashboard/generate",
+  "/dashboard/history",
+  "/dashboard/styles",
+  "/demo",
+  "/docs",
+  "/gallery",
+  "/generate",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/investors",
+  "/login",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/signup"
+ ],
  "frameworks": [
-  "D3",
   "Next.js",
   "React",
   "Supabase",
-  "Tailwind CSS",
-  "Vercel AI SDK"
+  "Tailwind CSS"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [],
- "interfaces": [
-  "CLI entry points",
-  "database layer"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "SQL",
-  "TypeScript"
- ],
- "major_modules": [
-  ".autobuilder",
-  ".startup",
-  "app",
-  "components",
-  "lib",
-  "public-site",
-  "venture-os"
- ],
- "outputs": [],
- "palette": "coral_teal",
- "primary_visual_metaphor": "layered render pipeline resolving to a frame",
- "problem": "",
- "project_category": "MEDIA",
- "public_positioning": "",
- "purpose": "HackerzArt is a media codebase of 966 files organised around policy.",
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "68",
   "tags": 0
  },
- "secondary_visual_metaphor": "policy structure in media",
- "security_model": [
-  "policy evaluation"
- ],
- "source_origin": "portfolio",
- "state_model": "policy with 2 cooperating structures",
- "status": "PROTOTYPE",
- "technical_category": "media-engineering",
- "terminal_story": "operator runs HackerzArt (TypeScript) from the command line; output resolves as a tree [HackerzArt]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [
+   "Supabase"
+  ],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/api/checkout",
+   "/api/gallery",
+   "/api/generate",
+   "/contact",
+   "/dashboard",
+   "/dashboard/account",
+   "/dashboard/generate",
+   "/dashboard/history",
+   "/dashboard/styles",
+   "/demo",
+   "/docs",
+   "/gallery",
+   "/generate",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/investors",
+   "/login",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/signup"
+  ],
+  "entry_points": [
+   "public-site/index.html"
+  ],
+  "modules": [
+   "app",
+   "components",
+   "lib",
+   "supabase"
+  ],
+  "frameworks": [
+   "Next.js",
+   "React",
+   "Supabase",
+   "Tailwind CSS"
+  ],
+  "cs_primitives": [
+   "policy",
+   "pipeline"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 969,
+  "test_count": 0,
+  "shared_template_files": 51
  },
- "topics": [
-  "media-engineering",
-  "typescript",
-  "media",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

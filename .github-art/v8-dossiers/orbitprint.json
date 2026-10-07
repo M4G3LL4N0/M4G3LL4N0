@@ -1,147 +1,176 @@
 {
- "API": [],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "stack",
- "CS_visual_2": "simulator",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "orbital mechanics plotted as a phase portrait",
- "architecture": "DATA_FLOW",
- "audience": "",
- "canonical_name": "OrbitPrint",
- "concurrency_model": "",
+ "repo": "orbitprint",
+ "canonical_name": "orbitprint",
+ "project_category": "WEB_APPLICATION",
+ "palette": "slate_amber",
  "confidence": "E3",
- "control_flow": "control for orbitprint enters at public-site/index.html and dispatches to 1 entry points across 0 routes (none) using Next.js",
+ "status": "PROTOTYPE",
+ "has_code": true,
+ "domain": "Space Infrastructure",
+ "audience": "developer",
+ "problem": "Orbital manufacturing and print concepts for space industrialization.",
+ "public_positioning": "Orbital manufacturing and print concepts for space industrialization.",
+ "website_positioning": "Orbital manufacturing and print concepts for space industrialization.",
+ "data_flow": "19 App Router endpoints including /about, /api/plans, /configure, /contact",
+ "control_flow": "public-site/index.html boots 4 module(s) (app, components) and serves 19 route(s) beginning /about, /api/plans",
+ "state_model": "stack, simulator",
+ "state_model_note": "2 computer-science primitive(s) matched in source",
+ "architecture": "4 top-level module boundaries: app, components, lib, src",
+ "terminal_story": "public-site/index.html -> 19 routes, 4 modules, 931 files",
+ "terminal_lines": [
+  "public-site/index.html"
+ ],
+ "interfaces": [
+  "public-site/index.html"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/api/plans",
+  "/configure",
+  "/contact",
+  "/dashboard"
+ ],
+ "workflow_steps": [
+  "app",
+  "components",
+  "lib",
+  "src"
+ ],
+ "major_modules": [
+  "app",
+  "components",
+  "lib",
+  "src"
+ ],
  "cs_primitives": [
   "stack",
   "simulator"
  ],
- "data_flow": "Space: data passes through stack structure",
- "data_structures": [
-  "stack"
+ "security_model": [],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "tessellate over routes /about, /api/plans, /configure; modules app, components, lib; primitives stack, simulator",
+ "secondary_visual_metaphor": "primitives stack, simulator; stack Prisma, Zod; top module app",
+ "geometry_set": "ring",
+ "animation_story_1": "tessellate",
+ "entry_points": [
+  "public-site/index.html"
  ],
- "description": "OrbitPrint: a space system, structured around stack.",
- "domain": "Space",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "FACT",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "FACT",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "SUPPORTED_INFERENCE",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 927,
+ "routes": [
+  "/",
+  "/about",
+  "/api/plans",
+  "/api/plans/:id",
+  "/configure",
+  "/contact",
+  "/dashboard",
+  "/dashboard/plans/:id",
+  "/demo",
+  "/docs",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/support",
+  "/terms",
+  "/trust"
+ ],
  "frameworks": [
   "Next.js",
   "Prisma",
   "React",
   "Tailwind CSS",
-  "Vercel AI SDK",
   "Zod"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [],
- "interfaces": [
-  "CLI entry points",
-  "database layer"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "TypeScript"
- ],
- "major_modules": [
-  ".startup",
-  "app",
-  "components",
-  "lib",
-  "prisma",
-  "public-site",
-  "venture-os"
- ],
- "outputs": [],
- "palette": "graphite_coral",
- "primary_visual_metaphor": "orbital mechanics plotted as a phase portrait",
- "problem": "Orbitprint MVP: orbital construction simulator for in-space 3D printing with lunar/asteroid-derived materials.",
- "project_category": "SPACE",
- "public_positioning": "Orbital manufacturing and print concepts for space industrialization.",
- "purpose": "Startup portfolio: orbitprint",
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "3",
   "tags": 0
  },
- "secondary_visual_metaphor": "stack structure in space",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "portfolio",
- "state_model": "stack with 2 cooperating structures",
- "status": "PROTOTYPE",
- "technical_category": "space-tech",
- "terminal_story": "operator runs OrbitPrint (TypeScript) from the command line; output resolves as a tree [orbitprint]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [
+   "Prisma",
+   "Zod"
+  ],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/api/plans",
+   "/api/plans/:id",
+   "/configure",
+   "/contact",
+   "/dashboard",
+   "/dashboard/plans/:id",
+   "/demo",
+   "/docs",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/support",
+   "/terms",
+   "/trust"
+  ],
+  "entry_points": [
+   "public-site/index.html"
+  ],
+  "modules": [
+   "app",
+   "components",
+   "lib",
+   "src"
+  ],
+  "frameworks": [
+   "Next.js",
+   "Prisma",
+   "React",
+   "Tailwind CSS",
+   "Zod"
+  ],
+  "cs_primitives": [
+   "stack",
+   "simulator"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 931,
+  "test_count": 0,
+  "shared_template_files": 35
  },
- "topics": [
-  "space-tech",
-  "typescript",
-  "space",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

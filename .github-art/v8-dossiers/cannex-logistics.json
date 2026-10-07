@@ -1,146 +1,165 @@
 {
- "API": [
-  "/compliance",
-  "/intelligence",
-  "/network",
-  "/operations"
- ],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "api_flow",
- "CS_visual_2": "",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "routing graph with capacity constraints",
- "architecture": "DOCUMENT",
- "audience": "",
- "canonical_name": "CannexLogistics",
- "concurrency_model": "",
+ "repo": "cannex-logistics",
+ "canonical_name": "cannex-logistics",
+ "project_category": "WEB_APPLICATION",
+ "palette": "cream_orange",
  "confidence": "E3",
- "control_flow": "control for cannex-logistics enters at public-site/index.html and dispatches to 1 entry points across 5 routes (/, /compliance, /intelligence) using D3",
+ "status": "PROTOTYPE",
+ "has_code": true,
+ "domain": "Web Application",
+ "audience": "developer",
+ "problem": "",
+ "public_positioning": "",
+ "website_positioning": "",
+ "data_flow": "21 App Router endpoints including /about, /api/checkout, /app, /app/compliance",
+ "control_flow": "public-site/index.html boots 3 module(s) (app, components) and serves 21 route(s) beginning /about, /api/checkout",
+ "state_model": "no distinctive algorithmic primitive detected",
+ "state_model_note": "structure is declarative/config; no primitive matcher hit",
+ "architecture": "3 top-level module boundaries: app, components, lib",
+ "terminal_story": "public-site/index.html -> 21 routes, 3 modules, 925 files",
+ "terminal_lines": [
+  "public-site/index.html"
+ ],
+ "interfaces": [
+  "public-site/index.html"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/api/checkout",
+  "/app",
+  "/app/compliance",
+  "/app/intelligence"
+ ],
+ "workflow_steps": [
+  "app",
+  "components",
+  "lib"
+ ],
+ "major_modules": [
+  "app",
+  "components",
+  "lib"
+ ],
  "cs_primitives": [],
- "data_flow": "Logistics: requests traverse 5 routes (/, /compliance, /intelligence, /network)",
- "data_structures": [],
- "description": "CannexLogistics: a logistics system, built on TypeScript.",
- "domain": "Logistics",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "SUPPORTED_INFERENCE",
-  "CS_visual_2": "SUPPORTED_INFERENCE",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "FACT",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "SUPPORTED_INFERENCE",
-  "data_flow": "FACT",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "SUPPORTED_INFERENCE",
-  "public_positioning": "NAME_BASED_HYPOTHESIS",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "NAME_BASED_HYPOTHESIS",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 924,
+ "security_model": [],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "packet_route over routes /about, /api/checkout, /app; modules app, components, lib",
+ "secondary_visual_metaphor": "stack Supabase; top module app",
+ "geometry_set": "cube",
+ "animation_story_1": "packet_route",
+ "entry_points": [
+  "public-site/index.html"
+ ],
+ "routes": [
+  "/",
+  "/about",
+  "/api/checkout",
+  "/app",
+  "/app/compliance",
+  "/app/intelligence",
+  "/app/network",
+  "/app/operations",
+  "/contact",
+  "/dashboard",
+  "/demo",
+  "/docs",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/support",
+  "/terms",
+  "/trust"
+ ],
  "frameworks": [
-  "D3",
   "Next.js",
   "React",
   "Supabase",
-  "Tailwind CSS",
-  "Vercel AI SDK"
+  "Tailwind CSS"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [],
- "interfaces": [
-  "CLI entry points",
-  "5 HTTP routes",
-  "database layer"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "TypeScript"
- ],
- "major_modules": [
-  ".autobuilder",
-  ".startup",
-  "app",
-  "components",
-  "lib",
-  "public-site",
-  "venture-os"
- ],
- "outputs": [],
- "palette": "coral_teal",
- "primary_visual_metaphor": "routing graph with capacity constraints",
- "problem": "Logistics for a fragmented cannabis market.",
- "project_category": "LOGISTICS",
- "public_positioning": "",
- "purpose": "cannex logistics. package.json.",
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "9",
   "tags": 0
  },
- "secondary_visual_metaphor": "logistics topology for cannex-logistics",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "portfolio",
- "state_model": "stateless request handling",
- "status": "PROTOTYPE",
- "technical_category": "logistics",
- "terminal_story": "operator runs CannexLogistics (TypeScript) from the command line; output resolves as a tree [cannex-logistics]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [
+   "Supabase"
+  ],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/api/checkout",
+   "/app",
+   "/app/compliance",
+   "/app/intelligence",
+   "/app/network",
+   "/app/operations",
+   "/contact",
+   "/dashboard",
+   "/demo",
+   "/docs",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/support",
+   "/terms",
+   "/trust"
+  ],
+  "entry_points": [
+   "public-site/index.html"
+  ],
+  "modules": [
+   "app",
+   "components",
+   "lib"
+  ],
+  "frameworks": [
+   "Next.js",
+   "React",
+   "Supabase",
+   "Tailwind CSS"
+  ],
+  "cs_primitives": [],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 925,
+  "test_count": 0,
+  "shared_template_files": 35
  },
- "topics": [
-  "logistics",
-  "typescript",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "component_map",
+  "build",
+  "footer"
+ ]
 }

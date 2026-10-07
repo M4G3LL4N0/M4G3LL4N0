@@ -1,152 +1,180 @@
 {
- "API": [
-  "/admin",
-  "/report-demo",
-  "/request-received",
-  "/thank-you"
- ],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "policy",
- "CS_visual_2": "",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "layered render pipeline resolving to a frame",
- "architecture": "DATA_FLOW",
- "audience": "",
+ "repo": "BrandCrossover",
  "canonical_name": "BrandCrossover",
- "concurrency_model": "",
+ "project_category": "WEB_APPLICATION",
+ "palette": "navy_lavender",
  "confidence": "E3",
- "control_flow": "control for BrandCrossover enters at public-site/index.html and dispatches to 1 entry points across 5 routes (/, /admin, /report-demo) using D3",
+ "status": "PROTOTYPE",
+ "has_code": true,
+ "domain": "Brands",
+ "audience": "developer",
+ "problem": "Find the overlap that moves culture.",
+ "public_positioning": "Find the overlap that moves culture.",
+ "website_positioning": "Find the overlap that moves culture.",
+ "data_flow": "21 App Router endpoints including /about, /admin, /api/checkout, /api/intake",
+ "control_flow": "public-site/index.html boots 5 module(s) (app, components) and serves 21 route(s) beginning /about, /admin",
+ "state_model": "policy",
+ "state_model_note": "1 computer-science primitive(s) matched in source",
+ "architecture": "5 top-level module boundaries: app, components, src, supabase, types",
+ "terminal_story": "public-site/index.html -> 21 routes, 5 modules, 949 files",
+ "terminal_lines": [
+  "public-site/index.html"
+ ],
+ "interfaces": [
+  "public-site/index.html"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/admin",
+  "/api/checkout",
+  "/api/intake",
+  "/api/waitlist"
+ ],
+ "workflow_steps": [
+  "app",
+  "components",
+  "src",
+  "supabase",
+  "types"
+ ],
+ "major_modules": [
+  "app",
+  "components",
+  "src",
+  "supabase",
+  "types"
+ ],
  "cs_primitives": [
   "policy"
  ],
- "data_flow": "Media: requests traverse 5 routes (/, /admin, /report-demo, /request-received)",
- "data_structures": [],
- "description": "BrandCrossover: a media system, structured around policy.",
- "domain": "Media",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "SUPPORTED_INFERENCE",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "FACT",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "FACT",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 948,
+ "security_model": [
+  "policy"
+ ],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "state_change over routes /about, /admin, /api/checkout; modules app, components, src; primitives policy",
+ "secondary_visual_metaphor": "primitives policy; stack Supabase; top module app",
+ "geometry_set": "ring",
+ "animation_story_1": "state_change",
+ "entry_points": [
+  "public-site/index.html"
+ ],
+ "routes": [
+  "/",
+  "/about",
+  "/admin",
+  "/api/checkout",
+  "/api/intake",
+  "/api/waitlist",
+  "/contact",
+  "/dashboard",
+  "/demo",
+  "/docs",
+  "/how-it-works",
+  "/investor",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/report-demo",
+  "/request-received",
+  "/support",
+  "/terms",
+  "/thank-you",
+  "/trust"
+ ],
  "frameworks": [
-  "D3",
   "Next.js",
   "React",
   "Supabase",
-  "Tailwind CSS",
-  "Vercel AI SDK"
+  "Tailwind CSS"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [],
- "interfaces": [
-  "CLI entry points",
-  "5 HTTP routes",
-  "database layer"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "SQL",
-  "TypeScript"
- ],
- "major_modules": [
-  ".autobuilder",
-  ".startup",
-  "app",
-  "components",
-  "public-site",
-  "supabase",
-  "types",
-  "venture-os"
- ],
- "outputs": [],
- "palette": "coral_teal",
- "primary_visual_metaphor": "layered render pipeline resolving to a frame",
- "problem": "AI-powered intelligence for discovering, scoring, and launching profitable brand crossover products and collaborations\u2014built for CPG, food & beverage, agencies, licensors, and retail innovation teams.",
- "project_category": "MEDIA",
- "public_positioning": "Find the overlap that moves culture.",
- "purpose": "BrandCrossover is a media codebase of 948 files organised around policy.",
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "63",
   "tags": 0
  },
- "secondary_visual_metaphor": "policy structure in media",
- "security_model": [
-  "policy evaluation"
- ],
- "source_origin": "portfolio",
- "state_model": "policy with 1 cooperating structures",
- "status": "PROTOTYPE",
- "technical_category": "media-engineering",
- "terminal_story": "operator runs BrandCrossover (TypeScript) from the command line; output resolves as a tree [BrandCrossover]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [
+   "Supabase"
+  ],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/admin",
+   "/api/checkout",
+   "/api/intake",
+   "/api/waitlist",
+   "/contact",
+   "/dashboard",
+   "/demo",
+   "/docs",
+   "/how-it-works",
+   "/investor",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/report-demo",
+   "/request-received",
+   "/support",
+   "/terms",
+   "/thank-you",
+   "/trust"
+  ],
+  "entry_points": [
+   "public-site/index.html"
+  ],
+  "modules": [
+   "app",
+   "components",
+   "src",
+   "supabase",
+   "types"
+  ],
+  "frameworks": [
+   "Next.js",
+   "React",
+   "Supabase",
+   "Tailwind CSS"
+  ],
+  "cs_primitives": [
+   "policy"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 949,
+  "test_count": 0,
+  "shared_template_files": 49
  },
- "topics": [
-  "media-engineering",
-  "typescript",
-  "media",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

@@ -1,161 +1,196 @@
 {
- "API": [],
- "CI": {
-  "present": true,
-  "workflow_count": 1,
-  "workflows": [
-   ".github/workflows/ci.yml"
-  ]
- },
- "CLI": true,
- "CS_visual_1": "event_stream",
- "CS_visual_2": "index",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "technical_evidence",
-  "status",
-  "limitations"
- ],
- "algorithms": [
-  "index",
-  "scheduler"
- ],
- "animation_story_1": "stepped queue with workers activating",
- "architecture": "DATA_FLOW",
- "audience": "",
- "canonical_name": "Redwoud",
- "concurrency_model": "async runtime",
+ "repo": "redwoud",
+ "canonical_name": "redwoud",
+ "project_category": "WEB_APPLICATION",
+ "palette": "coral_teal",
  "confidence": "E3",
- "control_flow": "control for redwoud enters at public-site/index.html and dispatches to 1 entry points across 0 routes (none) using D3",
+ "status": "LIVE",
+ "has_code": true,
+ "domain": "Clarity Systems",
+ "audience": "developer",
+ "problem": "Strategic intelligence and signal surfaces for operators who need sharper market reads.",
+ "public_positioning": "Strategic intelligence and signal surfaces for operators who need sharper market reads.",
+ "website_positioning": "Strategic intelligence and signal surfaces for operators who need sharper market reads.",
+ "data_flow": "24 App Router endpoints including /_error, /about, /alerts, /api/briefing",
+ "control_flow": "public-site/index.html boots 5 module(s) (app, components) and serves 24 route(s) beginning /_error, /about",
+ "state_model": "event_stream, index, cache, scheduler",
+ "state_model_note": "4 computer-science primitive(s) matched in source",
+ "architecture": "5 top-level module boundaries: app, components, lib, pages, scripts",
+ "terminal_story": "public-site/index.html -> 24 routes, 5 modules, 990 files",
+ "terminal_lines": [
+  "public-site/index.html"
+ ],
+ "interfaces": [
+  "public-site/index.html"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/_error",
+  "/about",
+  "/alerts",
+  "/api/briefing",
+  "/api/feed"
+ ],
+ "workflow_steps": [
+  "app",
+  "components",
+  "lib",
+  "pages",
+  "scripts"
+ ],
+ "major_modules": [
+  "app",
+  "components",
+  "lib",
+  "pages",
+  "scripts"
+ ],
  "cs_primitives": [
   "event_stream",
   "index",
   "cache",
   "scheduler"
  ],
- "data_flow": "Infrastructure: data passes through event stream structure",
- "data_structures": [
-  "index",
-  "cache"
+ "security_model": [],
+ "concurrency_model": [
+  "scheduler"
  ],
- "description": "Redwoud: an infrastructure system, structured around event stream.",
- "domain": "Infrastructure",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "FACT",
-  "README_outline": "FACT",
-  "algorithms": "FACT",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "FACT",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "FACT",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 989,
+ "primary_visual_metaphor": "index_probe over routes /_error, /about, /alerts; modules app, components, lib; primitives event_stream, index, cache",
+ "secondary_visual_metaphor": "primitives event_stream, index, cache; stack Supabase; top module app",
+ "geometry_set": "ring",
+ "animation_story_1": "index_probe",
+ "entry_points": [
+  "public-site/index.html"
+ ],
+ "routes": [
+  "/",
+  "/_error",
+  "/about",
+  "/alerts",
+  "/api/briefing",
+  "/api/feed",
+  "/api/ingest",
+  "/api/trends",
+  "/briefing",
+  "/contact",
+  "/dashboard",
+  "/demo",
+  "/docs",
+  "/entity/:slug",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/investors",
+  "/login",
+  "/onboarding",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/stream"
+ ],
  "frameworks": [
-  "D3",
   "Next.js",
   "React",
   "Supabase",
-  "Tailwind CSS",
-  "Vercel AI SDK"
+  "Tailwind CSS"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [],
- "interfaces": [
-  "CLI entry points",
-  "database layer"
+ "language": "TypeScript",
+ "manifests": [
+  "Makefile",
+  "package.json"
  ],
- "known_limitations": [
-  "no test suite present in the repository"
- ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "Python",
-  "Shell",
-  "TypeScript"
- ],
- "major_modules": [
-  ".autobuilder",
-  ".startup",
-  "app",
-  "components",
-  "lib",
-  "pages",
-  "prompts",
-  "public-site",
-  "scripts",
-  "styles",
-  "venture-os"
- ],
- "outputs": [],
- "palette": "slate_amber",
- "primary_visual_metaphor": "stepped queue with workers activating",
- "problem": "REDWOUD is an AI-powered real-time global intelligence platform that turns worldwide data, news, market signals, economic indicators, geopolitical developments, and public information into structured, actionable intelligence.",
- "project_category": "INFRASTRUCTURE",
- "public_positioning": "Strategic intelligence and signal surfaces for operators who need sharper market reads.",
- "purpose": "Redwoud is a infrastructure codebase of 989 files organised around event_stream.",
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 1,
   "commits": "242",
   "tags": 0
  },
- "secondary_visual_metaphor": "event_stream structure in infrastructure",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "portfolio",
- "state_model": "event_stream with 4 cooperating structures",
- "status": "ACTIVE",
- "technical_category": "distributed-systems",
- "terminal_story": "operator runs Redwoud (TypeScript) from the command line; output resolves as a tree [redwoud]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [
+   "Supabase"
+  ],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/_error",
+   "/about",
+   "/alerts",
+   "/api/briefing",
+   "/api/feed",
+   "/api/ingest",
+   "/api/trends",
+   "/briefing",
+   "/contact",
+   "/dashboard",
+   "/demo",
+   "/docs",
+   "/entity/:slug",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/investors",
+   "/login",
+   "/onboarding",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/stream"
+  ],
+  "entry_points": [
+   "public-site/index.html"
+  ],
+  "modules": [
+   "app",
+   "components",
+   "lib",
+   "pages",
+   "scripts"
+  ],
+  "frameworks": [
+   "Next.js",
+   "React",
+   "Supabase",
+   "Tailwind CSS"
+  ],
+  "cs_primitives": [
+   "event_stream",
+   "index",
+   "cache",
+   "scheduler"
+  ],
+  "manifests": [
+   "Makefile",
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [
+   ".github/workflows/ci.yml"
+  ],
+  "language": "TypeScript",
+  "files": 990,
+  "test_count": 0,
+  "shared_template_files": 43
  },
- "topics": [
-  "distributed-systems",
-  "typescript",
-  "infrastructure",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

@@ -1,147 +1,184 @@
 {
- "API": [
-  "/admin",
-  "/moves",
-  "/submit"
- ],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": false,
- "CS_visual_1": "policy",
- "CS_visual_2": "",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "layered render pipeline resolving to a frame",
- "architecture": "DATA_FLOW",
- "audience": "",
+ "repo": "Cruxenio",
  "canonical_name": "Cruxenio",
- "concurrency_model": "",
+ "project_category": "WEB_APPLICATION",
+ "palette": "plum_azure",
  "confidence": "E3",
- "control_flow": "Cruxenio control passes through policy",
- "cs_primitives": [
-  "policy"
- ],
- "data_flow": "Media: requests traverse 4 routes (/, /admin, /moves, /submit)",
- "data_structures": [],
- "description": "Cruxenio: a media system, structured around policy.",
- "domain": "Media",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "SUPPORTED_INFERENCE",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "FACT",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "SUPPORTED_INFERENCE",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "FACT",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 948,
- "frameworks": [
-  "D3",
-  "Next.js",
-  "React",
-  "Supabase",
-  "Tailwind CSS",
-  "Vercel AI SDK"
- ],
+ "status": "PROTOTYPE",
  "has_code": true,
- "homepage": "",
- "inputs": [],
+ "domain": "Strategy",
+ "audience": "developer",
+ "problem": "A strategy system for helping operators find the real issue, decision, or leverage point faster.",
+ "public_positioning": "A strategy system for helping operators find the real issue, decision, or leverage point faster.",
+ "website_positioning": "A strategy system for helping operators find the real issue, decision, or leverage point faster.",
+ "data_flow": "24 App Router endpoints including /about, /admin, /api/approve-move, /api/checkout",
+ "control_flow": "24 route(s) served across 5 module(s): /about, /admin, /api/approve-move",
+ "state_model": "policy",
+ "state_model_note": "1 computer-science primitive(s) matched in source",
+ "architecture": "5 top-level module boundaries: app, components, sql, src, supabase",
+ "terminal_story": "package.json -> 24 routes, 5 modules, 949 files",
+ "terminal_lines": [
+  "package.json"
+ ],
  "interfaces": [
-  "4 HTTP routes",
-  "database layer"
+  "/",
+  "/about",
+  "/admin",
+  "/api/approve-move"
  ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/admin",
+  "/api/approve-move",
+  "/api/checkout",
+  "/api/delete-draft"
  ],
- "languages": [
-  "CSS",
-  "JavaScript",
-  "SQL",
-  "TypeScript"
- ],
- "major_modules": [
-  ".autobuilder",
-  ".startup",
+ "workflow_steps": [
   "app",
   "components",
   "sql",
-  "venture-os"
+  "src",
+  "supabase"
  ],
- "outputs": [],
- "palette": "coral_teal",
- "primary_visual_metaphor": "layered render pipeline resolving to a frame",
- "problem": "A strategy system for helping operators find the real issue, decision, or leverage point faster.",
- "project_category": "MEDIA",
- "public_positioning": "A strategy system for helping operators find the real issue, decision, or leverage point faster.",
- "purpose": "Cruxenio is a media codebase of 948 files organised around policy.",
+ "major_modules": [
+  "app",
+  "components",
+  "sql",
+  "src",
+  "supabase"
+ ],
+ "cs_primitives": [
+  "policy"
+ ],
+ "security_model": [
+  "policy"
+ ],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "state_change over routes /about, /admin, /api/approve-move; modules app, components, sql; primitives policy",
+ "secondary_visual_metaphor": "primitives policy; stack Supabase; top module app",
+ "geometry_set": "rosette",
+ "animation_story_1": "state_change",
+ "entry_points": [],
+ "routes": [
+  "/",
+  "/about",
+  "/admin",
+  "/api/approve-move",
+  "/api/checkout",
+  "/api/delete-draft",
+  "/api/submit-move",
+  "/api/waitlist",
+  "/contact",
+  "/dashboard",
+  "/demo",
+  "/docs",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/moves",
+  "/moves/:slug",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/submit",
+  "/support",
+  "/terms",
+  "/trust"
+ ],
+ "frameworks": [
+  "Next.js",
+  "React",
+  "Supabase",
+  "Tailwind CSS"
+ ],
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
+ ],
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "62",
   "tags": 0
  },
- "secondary_visual_metaphor": "policy structure in media",
- "security_model": [
-  "policy evaluation"
- ],
- "source_origin": "portfolio",
- "state_model": "policy with 1 cooperating structures",
- "status": "PROTOTYPE",
- "technical_category": "media-engineering",
- "terminal_story": "a request enters at /admin and traverses the media route table [Cruxenio]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [
+   "Supabase"
+  ],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/admin",
+   "/api/approve-move",
+   "/api/checkout",
+   "/api/delete-draft",
+   "/api/submit-move",
+   "/api/waitlist",
+   "/contact",
+   "/dashboard",
+   "/demo",
+   "/docs",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/moves",
+   "/moves/:slug",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/submit",
+   "/support",
+   "/terms",
+   "/trust"
+  ],
+  "entry_points": [],
+  "modules": [
+   "app",
+   "components",
+   "sql",
+   "src",
+   "supabase"
+  ],
+  "frameworks": [
+   "Next.js",
+   "React",
+   "Supabase",
+   "Tailwind CSS"
+  ],
+  "cs_primitives": [
+   "policy"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 949,
+  "test_count": 0,
+  "shared_template_files": 49
  },
- "topics": [
-  "media-engineering",
-  "typescript",
-  "media",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

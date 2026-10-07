@@ -1,94 +1,102 @@
 {
+ "repo": "gh0st-website",
  "canonical_name": "gh0st-website",
  "confidence": "E3",
- "palette": "navy_lavender",
- "project_category": "QUANT_DATA",
- "repo": "gh0st-website",
+ "palette": "indigo_lime",
+ "project_category": "WEB_APPLICATION",
+ "status": "PROTOTYPE",
  "slots": [
   "hero",
-  "terminal",
-  "state_machine",
+  "architecture",
   "data_flow",
+  "state_machine",
   "component_map",
   "build",
   "workflow",
   "domain",
   "footer"
  ],
- "status": "PROTOTYPE",
  "storyboard": [
   {
-   "animation": "tiles lock into a grid as structure forms; 12.0s loop, offset 0.0s",
-   "computer_science_concept": "temporal signal surface with an audit path",
-   "geometry": "isometric blocks",
-   "material": "D3 density; #7c83ff on #0c1024; accents #b794f4, #4cc9f0",
-   "purpose": "identity -- what the project is at a glance",
-   "slot": "hero"
+   "slot": "hero",
+   "purpose": "identity",
+   "geometry": "ring",
+   "computer_science_concept": "terminal",
+   "material": "palette indigo_lime",
+   "animation": "grid_snap",
+   "evidence_basis": "identity from 61 analysed files"
   },
   {
-   "animation": "a command executes and output resolves; 21.2s loop, offset 0.4s",
-   "computer_science_concept": "command execution and structured output",
-   "geometry": "monospace grid",
-   "material": "D2 density; #7c83ff on #0c1024; accents #b794f4, #4cc9f0",
-   "purpose": "how it is operated",
-   "slot": "terminal"
+   "slot": "architecture",
+   "purpose": "how it is built",
+   "geometry": "ring",
+   "computer_science_concept": "terminal",
+   "material": "palette indigo_lime",
+   "animation": "grid_snap",
+   "evidence_basis": "1 measured module root(s)"
   },
   {
-   "animation": "a state machine advances one transition; 13.4s loop, offset 0.8s",
-   "computer_science_concept": "terminal with 5 cooperating structures",
-   "geometry": "node rosettes",
-   "material": "D2 density; #7c83ff on #0c1024; accents #b794f4, #4cc9f0",
+   "slot": "data_flow",
+   "purpose": "how data moves",
+   "geometry": "ring",
+   "computer_science_concept": "terminal",
+   "material": "palette indigo_lime",
+   "animation": "grid_snap",
+   "evidence_basis": "15 measured route(s)"
+  },
+  {
+   "slot": "state_machine",
    "purpose": "how it behaves",
-   "slot": "state_machine"
+   "geometry": "ring",
+   "computer_science_concept": "terminal",
+   "material": "palette indigo_lime",
+   "animation": "grid_snap",
+   "evidence_basis": "5 detected primitive(s)"
   },
   {
-   "animation": "packets route along edges; 8.6s loop, offset 1.2s",
-   "computer_science_concept": "CLI arguments \u2192 file-backed JSON \u2192 stdout / stderr (also via HTTP requests (JSON), WebSocket frames)",
-   "geometry": "pipeline lanes",
-   "material": "D2 density; #7c83ff on #0c1024; accents #b794f4, #4cc9f0",
-   "purpose": "how data moves through it",
-   "slot": "data_flow"
-  },
-  {
-   "animation": "facets rotate open, exposing the interior; 12.9s loop, offset 1.6s",
-   "computer_science_concept": "interface surface: 5 HTTP routes",
-   "geometry": "hinged planes",
-   "material": "D3 density; #7c83ff on #0c1024; accents #b794f4, #4cc9f0",
+   "slot": "component_map",
    "purpose": "how it is composed",
-   "slot": "component_map"
+   "geometry": "ring",
+   "computer_science_concept": "terminal",
+   "material": "palette indigo_lime",
+   "animation": "grid_snap",
+   "evidence_basis": "declared dependencies: scaffold only"
   },
   {
-   "animation": "tests advance and results resolve; 16.9s loop, offset 2.0s",
-   "computer_science_concept": "build evidence: 0 tests, 0 workflows",
-   "geometry": "evidence chips",
-   "material": "D1 density; #7c83ff on #0c1024; accents #b794f4, #4cc9f0",
+   "slot": "build",
    "purpose": "how it is verified",
-   "slot": "build"
+   "geometry": "ring",
+   "computer_science_concept": "terminal",
+   "material": "palette indigo_lime",
+   "animation": "grid_snap",
+   "evidence_basis": "0 test file(s), 0 workflow(s)"
   },
   {
-   "animation": "concentric rings pulse from a centre; 13.8s loop, offset 2.4s",
-   "computer_science_concept": "primary entry: HTTP API",
-   "geometry": "concentric rings",
-   "material": "D2 density; #7c83ff on #0c1024; accents #b794f4, #4cc9f0",
+   "slot": "workflow",
    "purpose": "how it is used",
-   "slot": "workflow"
+   "geometry": "ring",
+   "computer_science_concept": "terminal",
+   "material": "palette indigo_lime",
+   "animation": "grid_snap",
+   "evidence_basis": "1 module(s) as ordered steps"
   },
   {
-   "animation": "an index probe walks a sorted key space; 14.1s loop, offset 2.8s",
-   "computer_science_concept": "Quant Data",
-   "geometry": "key space",
-   "material": "D3 density; #7c83ff on #0c1024; accents #b794f4, #4cc9f0",
+   "slot": "domain",
    "purpose": "the problem it addresses",
-   "slot": "domain"
+   "geometry": "ring",
+   "computer_science_concept": "terminal",
+   "material": "palette indigo_lime",
+   "animation": "grid_snap",
+   "evidence_basis": "domain classification from measured structure"
   },
   {
-   "animation": "concentric rings pulse from a centre; 19.7s loop, offset 3.2s",
-   "computer_science_concept": "project signature",
-   "geometry": "signature mark",
-   "material": "D2 density; #7c83ff on #0c1024; accents #b794f4, #4cc9f0",
-   "purpose": "identity object -- a small signature mark",
-   "slot": "footer"
+   "slot": "footer",
+   "purpose": "identity object",
+   "geometry": "ring",
+   "computer_science_concept": "terminal",
+   "material": "palette indigo_lime",
+   "animation": "grid_snap",
+   "evidence_basis": "identity object"
   }
- ],
- "surface_count": 9
+ ]
 }

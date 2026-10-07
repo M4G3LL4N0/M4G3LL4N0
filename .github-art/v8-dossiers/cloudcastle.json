@@ -1,152 +1,178 @@
 {
- "API": [
-  "/dashboard",
-  "/launch",
-  "/network",
-  "/operators"
- ],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "pipeline",
- "CS_visual_2": "",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "layered render pipeline resolving to a frame",
- "architecture": "DATA_FLOW",
- "audience": "",
- "canonical_name": "CloudCastle",
- "concurrency_model": "",
+ "repo": "cloudcastle",
+ "canonical_name": "cloudcastle",
+ "project_category": "WEB_APPLICATION",
+ "palette": "rust_teal",
  "confidence": "E3",
- "control_flow": "control for cloudcastle enters at public-site/index.html and dispatches to 1 entry points across 5 routes (/, /dashboard, /launch) using D3",
- "cs_primitives": [
-  "pipeline"
- ],
- "data_flow": "Media: requests traverse 5 routes (/, /dashboard, /launch, /network)",
- "data_structures": [],
- "description": "CloudCastle: a media system, structured around pipeline.",
- "domain": "Media",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "SUPPORTED_INFERENCE",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "FACT",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 957,
- "frameworks": [
-  "D3",
-  "Next.js",
-  "React",
-  "Supabase",
-  "Tailwind CSS",
-  "Vercel AI SDK"
- ],
+ "status": "PROTOTYPE",
  "has_code": true,
- "homepage": "",
- "inputs": [],
+ "domain": "Commerce Infrastructure",
+ "audience": "developer",
+ "problem": "Premium distribution for modern retail.",
+ "public_positioning": "Premium distribution for modern retail.",
+ "website_positioning": "Premium distribution for modern retail.",
+ "data_flow": "21 App Router endpoints including /about, /api/checkout, /api/machines, /api/venues",
+ "control_flow": "public-site/index.html boots 5 module(s) (app, components) and serves 21 route(s) beginning /about, /api/checkout",
+ "state_model": "pipeline",
+ "state_model_note": "1 computer-science primitive(s) matched in source",
+ "architecture": "5 top-level module boundaries: app, components, lib, src, supabase",
+ "terminal_story": "public-site/index.html -> 21 routes, 5 modules, 959 files",
+ "terminal_lines": [
+  "public-site/index.html"
+ ],
  "interfaces": [
-  "CLI entry points",
-  "5 HTTP routes",
-  "database layer"
+  "public-site/index.html"
  ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/api/checkout",
+  "/api/machines",
+  "/api/venues",
+  "/contact"
  ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "SQL",
-  "TypeScript"
- ],
- "major_modules": [
-  ".autobuilder",
-  ".startup",
+ "workflow_steps": [
   "app",
   "components",
   "lib",
-  "public-site",
-  "supabase",
-  "venture-os"
+  "src",
+  "supabase"
  ],
- "outputs": [],
- "palette": "coral_teal",
- "primary_visual_metaphor": "layered render pipeline resolving to a frame",
- "problem": "CloudCastle is an automated retail infrastructure platform with a premium market-facing site, operator dashboard shell, and Supabase-ready data foundation.",
- "project_category": "MEDIA",
- "public_positioning": "Premium distribution for modern retail.",
- "purpose": "CloudCastle is a media codebase of 957 files organised around pipeline.",
+ "major_modules": [
+  "app",
+  "components",
+  "lib",
+  "src",
+  "supabase"
+ ],
+ "cs_primitives": [
+  "pipeline"
+ ],
+ "security_model": [],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "tessellate over routes /about, /api/checkout, /api/machines; modules app, components, lib; primitives pipeline",
+ "secondary_visual_metaphor": "primitives pipeline; stack Supabase; top module app",
+ "geometry_set": "cube",
+ "animation_story_1": "tessellate",
+ "entry_points": [
+  "public-site/index.html"
+ ],
+ "routes": [
+  "/",
+  "/about",
+  "/api/checkout",
+  "/api/machines",
+  "/api/venues",
+  "/contact",
+  "/dashboard",
+  "/demo",
+  "/docs",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/launch",
+  "/network",
+  "/operators",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/support",
+  "/terms",
+  "/trust"
+ ],
+ "frameworks": [
+  "Next.js",
+  "React",
+  "Supabase",
+  "Tailwind CSS"
+ ],
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
+ ],
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "14",
   "tags": 0
  },
- "secondary_visual_metaphor": "pipeline structure in media",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "portfolio",
- "state_model": "pipeline with 1 cooperating structures",
- "status": "PROTOTYPE",
- "technical_category": "media-engineering",
- "terminal_story": "operator runs CloudCastle (TypeScript) from the command line; output resolves as a tree [cloudcastle]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [
+   "Supabase"
+  ],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/api/checkout",
+   "/api/machines",
+   "/api/venues",
+   "/contact",
+   "/dashboard",
+   "/demo",
+   "/docs",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/launch",
+   "/network",
+   "/operators",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/support",
+   "/terms",
+   "/trust"
+  ],
+  "entry_points": [
+   "public-site/index.html"
+  ],
+  "modules": [
+   "app",
+   "components",
+   "lib",
+   "src",
+   "supabase"
+  ],
+  "frameworks": [
+   "Next.js",
+   "React",
+   "Supabase",
+   "Tailwind CSS"
+  ],
+  "cs_primitives": [
+   "pipeline"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 959,
+  "test_count": 0,
+  "shared_template_files": 49
  },
- "topics": [
-  "media-engineering",
-  "typescript",
-  "media",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

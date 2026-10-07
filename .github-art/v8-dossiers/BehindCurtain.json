@@ -1,148 +1,160 @@
 {
- "API": [
+ "repo": "BehindCurtain",
+ "canonical_name": "BehindCurtain",
+ "project_category": "WEB_APPLICATION",
+ "palette": "cream_orange",
+ "confidence": "E3",
+ "status": "PROTOTYPE",
+ "has_code": true,
+ "domain": "Research",
+ "audience": "developer",
+ "problem": "Reveal what shapes the story.",
+ "public_positioning": "Reveal what shapes the story.",
+ "website_positioning": "Reveal what shapes the story.",
+ "data_flow": "12 App Router endpoints including /admin, /api/checkout, /api/search, /docs",
+ "control_flow": "public-site/index.html boots 5 module(s) (app, components) and serves 12 route(s) beginning /admin, /api/checkout",
+ "state_model": "event_stream",
+ "state_model_note": "1 computer-science primitive(s) matched in source",
+ "architecture": "5 top-level module boundaries: app, components, lib, path, src",
+ "terminal_story": "public-site/index.html -> 12 routes, 5 modules, 948 files",
+ "terminal_lines": [
+  "public-site/index.html"
+ ],
+ "interfaces": [
+  "public-site/index.html"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
   "/admin",
+  "/api/checkout",
+  "/api/search",
+  "/docs",
   "/explorer"
  ],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "event_stream",
- "CS_visual_2": "",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "layered render pipeline resolving to a frame",
- "architecture": "DATA_FLOW",
- "audience": "",
- "canonical_name": "BehindCurtain",
- "concurrency_model": "",
- "confidence": "E3",
- "control_flow": "control for BehindCurtain enters at public-site/index.html and dispatches to 1 entry points across 3 routes (/, /admin, /explorer) using D3",
- "cs_primitives": [
-  "event_stream"
- ],
- "data_flow": "Media: requests traverse 3 routes (/, /admin, /explorer)",
- "data_structures": [],
- "description": "BehindCurtain: a media system, structured around event stream.",
- "domain": "Media",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "SUPPORTED_INFERENCE",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "FACT",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 947,
- "frameworks": [
-  "D3",
-  "Next.js",
-  "React",
-  "Supabase",
-  "Tailwind CSS",
-  "Vercel AI SDK"
- ],
- "has_code": true,
- "homepage": "",
- "inputs": [],
- "interfaces": [
-  "CLI entry points",
-  "3 HTTP routes",
-  "database layer"
- ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "TypeScript"
- ],
- "major_modules": [
-  ".autobuilder",
-  ".startup",
+ "workflow_steps": [
   "app",
   "components",
   "lib",
-  "public-site",
-  "venture-os"
+  "path",
+  "src"
  ],
- "outputs": [],
- "palette": "coral_teal",
- "primary_visual_metaphor": "layered render pipeline resolving to a frame",
- "problem": "Reveal what shapes the story.",
- "project_category": "MEDIA",
- "public_positioning": "Reveal what shapes the story.",
- "purpose": "BehindCurtain is a media codebase of 947 files organised around event_stream.",
+ "major_modules": [
+  "app",
+  "components",
+  "lib",
+  "path",
+  "src"
+ ],
+ "cs_primitives": [
+  "event_stream"
+ ],
+ "security_model": [],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "packet_route over routes /admin, /api/checkout, /api/search; modules app, components, lib; primitives event_stream",
+ "secondary_visual_metaphor": "primitives event_stream; stack Supabase; top module app",
+ "geometry_set": "ring",
+ "animation_story_1": "packet_route",
+ "entry_points": [
+  "public-site/index.html"
+ ],
+ "routes": [
+  "/",
+  "/admin",
+  "/api/checkout",
+  "/api/search",
+  "/docs",
+  "/explorer",
+  "/how-it-works",
+  "/privacy",
+  "/profiles/:slug",
+  "/support",
+  "/terms",
+  "/trust"
+ ],
+ "frameworks": [
+  "Next.js",
+  "React",
+  "Supabase",
+  "Tailwind CSS"
+ ],
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
+ ],
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "91",
   "tags": 0
  },
- "secondary_visual_metaphor": "event_stream structure in media",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "portfolio",
- "state_model": "event_stream with 1 cooperating structures",
- "status": "PROTOTYPE",
- "technical_category": "media-engineering",
- "terminal_story": "operator runs BehindCurtain (TypeScript) from the command line; output resolves as a tree [BehindCurtain]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [
+   "Supabase"
+  ],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/admin",
+   "/api/checkout",
+   "/api/search",
+   "/docs",
+   "/explorer",
+   "/how-it-works",
+   "/privacy",
+   "/profiles/:slug",
+   "/support",
+   "/terms",
+   "/trust"
+  ],
+  "entry_points": [
+   "public-site/index.html"
+  ],
+  "modules": [
+   "app",
+   "components",
+   "lib",
+   "path",
+   "src"
+  ],
+  "frameworks": [
+   "Next.js",
+   "React",
+   "Supabase",
+   "Tailwind CSS"
+  ],
+  "cs_primitives": [
+   "event_stream"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 948,
+  "test_count": 0,
+  "shared_template_files": 47
  },
- "topics": [
-  "media-engineering",
-  "typescript",
-  "media",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

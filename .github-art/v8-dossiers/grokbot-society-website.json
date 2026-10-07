@@ -1,44 +1,46 @@
 {
- "API": [
+ "repo": "grokbot-society-website",
+ "canonical_name": "grokbot-society-website",
+ "project_category": "WEB_APPLICATION",
+ "palette": "slate_amber",
+ "confidence": "E3",
+ "status": "TESTED",
+ "has_code": true,
+ "domain": "Web Application",
+ "audience": "developer",
+ "problem": "",
+ "public_positioning": "",
+ "website_positioning": "",
+ "data_flow": "15 App Router endpoints including /architecture, /code-of-conduct, /contributing, /cost",
+ "control_flow": "15 route(s) served across 1 module(s): /architecture, /code-of-conduct, /contributing",
+ "state_model": "policy, simulator, pipeline, terminal",
+ "state_model_note": "6 computer-science primitive(s) matched in source",
+ "architecture": "1 top-level module boundaries: src",
+ "terminal_story": "package.json -> 15 routes, 1 modules, 78 files",
+ "terminal_lines": [
+  "package.json"
+ ],
+ "interfaces": [
+  "/",
+  "/architecture",
+  "/code-of-conduct",
+  "/contributing"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
   "/architecture",
   "/code-of-conduct",
   "/contributing",
   "/cost",
-  "/developers",
-  "/docs",
-  "/examples",
-  "/faq"
+  "/developers"
  ],
- "CI": {
-  "present": true,
-  "workflow_count": 1,
-  "workflows": [
-   ".github/workflows/ci.yml"
-  ]
- },
- "CLI": true,
- "CS_visual_1": "policy",
- "CS_visual_2": "simulator",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "technical_evidence",
-  "status",
-  "limitations"
+ "workflow_steps": [
+  "src"
  ],
- "algorithms": [
-  "index"
+ "major_modules": [
+  "src"
  ],
- "animation_story_1": "temporal signal surface with an audit path",
- "architecture": "DISTRIBUTED",
- "audience": "",
- "canonical_name": "grokbot-society-website",
- "concurrency_model": "",
- "confidence": "E3",
- "control_flow": "grokbot-society-website control passes through policy, simulator, pipeline",
  "cs_primitives": [
   "policy",
   "simulator",
@@ -47,105 +49,116 @@
   "index",
   "cache"
  ],
- "data_flow": "Quant Data: requests traverse 15 routes (/, /architecture, /code-of-conduct, /contributing)",
- "data_structures": [
-  "index",
-  "cache"
+ "security_model": [
+  "policy"
  ],
- "description": "grokbot-society-website: a data system, structured around policy.",
- "domain": "Quant Data",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "FACT",
-  "README_outline": "FACT",
-  "algorithms": "FACT",
-  "api": "FACT",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "SUPPORTED_INFERENCE",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "SUPPORTED_INFERENCE",
-  "data_flow": "FACT",
-  "data_structures": "FACT",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "NAME_BASED_HYPOTHESIS",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "FACT",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 77,
+ "concurrency_model": [],
+ "primary_visual_metaphor": "state_change over routes /architecture, /code-of-conduct, /contributing; modules src; primitives policy, simulator, pipeline",
+ "secondary_visual_metaphor": "primitives policy, simulator, pipeline; stack Next.js, React, Tailwind CSS; top module src",
+ "geometry_set": "cube",
+ "animation_story_1": "state_change",
+ "entry_points": [],
+ "routes": [
+  "/",
+  "/architecture",
+  "/code-of-conduct",
+  "/contributing",
+  "/cost",
+  "/developers",
+  "/docs",
+  "/examples",
+  "/faq",
+  "/license",
+  "/privacy",
+  "/roadmap",
+  "/roles",
+  "/security",
+  "/society"
+ ],
  "frameworks": [
   "Next.js",
   "React",
-  "Tailwind CSS",
-  "Vercel AI SDK"
+  "Tailwind CSS"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [],
- "interfaces": [
-  "15 HTTP routes"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "known_limitations": [],
- "languages": [
-  "CSS",
-  "JavaScript",
-  "TypeScript"
- ],
- "major_modules": [],
- "outputs": [],
- "palette": "navy_lavender",
- "primary_visual_metaphor": "temporal signal surface with an audit path",
- "problem": "GrokBot Society is a runtime for building **persistent social worlds** populated by synthetic people who remember, relate, and evolve\u2014without burning money on continuous LLM calls.",
- "project_category": "QUANT_DATA",
- "public_positioning": "Persistent synthetic people without the swarm.",
- "purpose": "Public website for the persistent-agent runtime.",
+ "testing": {
+  "present": true,
+  "count": 1,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 1,
   "commits": "6",
   "tags": 0
  },
- "secondary_visual_metaphor": "policy structure in quant data",
- "security_model": [
-  "policy evaluation"
- ],
- "source_origin": "portfolio",
- "state_model": "policy with 6 cooperating structures",
- "status": "ACTIVE",
- "technical_category": "data-systems",
- "terminal_story": "operator runs grokbot-society-website (TypeScript) from the command line; output resolves as a tree [grokbot-society-website]",
- "testing": {
-  "count": 1,
-  "note": "counted from the repository tree, not executed",
-  "present": true
+ "evidence": {
+  "distinctive_frameworks": [],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/architecture",
+   "/code-of-conduct",
+   "/contributing",
+   "/cost",
+   "/developers",
+   "/docs",
+   "/examples",
+   "/faq",
+   "/license",
+   "/privacy",
+   "/roadmap",
+   "/roles",
+   "/security",
+   "/society"
+  ],
+  "entry_points": [],
+  "modules": [
+   "src"
+  ],
+  "frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "cs_primitives": [
+   "policy",
+   "simulator",
+   "pipeline",
+   "terminal",
+   "index",
+   "cache"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [
+   "tests/canvas-colors.test.ts"
+  ],
+  "ci_workflows": [
+   ".github/workflows/ci.yml"
+  ],
+  "language": "TypeScript",
+  "files": 78,
+  "test_count": 1,
+  "shared_template_files": 0
  },
- "topics": [
-  "data-systems",
-  "typescript",
-  "quant-data",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

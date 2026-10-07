@@ -1,134 +1,115 @@
 {
- "API": [],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": false,
- "CS_visual_1": "component_map",
- "CS_visual_2": "",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "source transformed through analysis to output",
- "architecture": "SCHEDULER",
- "audience": "",
+ "repo": "opencode-watchdog-website",
  "canonical_name": "opencode-watchdog-website",
- "concurrency_model": "",
+ "project_category": "WEB_APPLICATION",
+ "palette": "rust_teal",
  "confidence": "E3",
- "control_flow": "ocw run build",
- "cs_primitives": [],
- "data_flow": "single-entry processing",
- "data_structures": [],
- "description": "opencode-watchdog-website: a developer tool, built on TypeScript.",
- "domain": "Developer Tools",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "SUPPORTED_INFERENCE",
-  "CS_visual_2": "SUPPORTED_INFERENCE",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "SUPPORTED_INFERENCE",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "SUPPORTED_INFERENCE",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "NAME_BASED_HYPOTHESIS",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "SUPPORTED_INFERENCE",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "NAME_BASED_HYPOTHESIS",
-  "status": "FACT",
-  "terminal_story": "SUPPORTED_INFERENCE",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 31,
- "frameworks": [
-  "Next.js",
-  "React",
-  "Tailwind CSS",
-  "Vercel AI SDK"
- ],
+ "status": "PROTOTYPE",
  "has_code": true,
- "homepage": "",
- "inputs": [
-  "source files"
+ "domain": "Web Application",
+ "audience": "developer",
+ "problem": "",
+ "public_positioning": "",
+ "website_positioning": "",
+ "data_flow": "2 App Router endpoints including /commands",
+ "control_flow": "2 route(s) served across 3 module(s): /commands",
+ "state_model": "no distinctive algorithmic primitive detected",
+ "state_model_note": "structure is declarative/config; no primitive matcher hit",
+ "architecture": "3 top-level module boundaries: app, components, lib",
+ "terminal_story": "package.json -> 2 routes, 3 modules, 33 files",
+ "terminal_lines": [
+  "package.json"
  ],
- "interfaces": [],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
+ "interfaces": [
+  "/",
+  "/commands"
  ],
- "languages": [
-  "CSS",
-  "JavaScript",
-  "TypeScript"
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/commands"
+ ],
+ "workflow_steps": [
+  "app",
+  "components",
+  "lib"
  ],
  "major_modules": [
   "app",
   "components",
   "lib"
  ],
- "outputs": [
-  "build artifact"
+ "cs_primitives": [],
+ "security_model": [],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "layer_separate over routes /commands; modules app, components, lib",
+ "secondary_visual_metaphor": "stack Next.js, React, Tailwind CSS; top module app",
+ "geometry_set": "ring",
+ "animation_story_1": "layer_separate",
+ "entry_points": [],
+ "routes": [
+  "/",
+  "/commands"
  ],
- "palette": "mint_violet",
- "primary_visual_metaphor": "source transformed through analysis to output",
- "problem": "OpenCode Watchdog notices the repetition and safely interrupts the affected session.",
- "project_category": "DEVELOPER_TOOLS",
- "public_positioning": "A local circuit breaker for runaway OpenCode sessions.",
- "purpose": "Public site for OpenCode Watchdog \u2014 a local circuit breaker for runaway agent sessions.",
+ "frameworks": [
+  "Next.js",
+  "React",
+  "Tailwind CSS"
+ ],
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
+ ],
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "1",
   "tags": 0
  },
- "secondary_visual_metaphor": "developer tools topology for opencode-watchdog-website",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "portfolio",
- "state_model": "stateless request handling",
- "status": "PROTOTYPE",
- "technical_category": "developer-tooling",
- "terminal_story": "the developer tools loop advances via core [opencode-watchdog-website]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/commands"
+  ],
+  "entry_points": [],
+  "modules": [
+   "app",
+   "components",
+   "lib"
+  ],
+  "frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "cs_primitives": [],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 33,
+  "test_count": 0,
+  "shared_template_files": 0
  },
- "topics": [
-  "developer-tooling",
-  "typescript",
-  "developer-tools",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "architecture",
+  "data_flow",
+  "component_map",
+  "build",
+  "footer"
+ ]
 }

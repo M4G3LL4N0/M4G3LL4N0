@@ -1,151 +1,179 @@
 {
- "API": [],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "stack",
- "CS_visual_2": "queue",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "technical_evidence",
-  "status",
-  "limitations"
- ],
- "algorithms": [
-  "memory_map"
- ],
- "animation_story_1": "stepped queue with workers activating",
- "architecture": "DATA_FLOW",
- "audience": "",
- "canonical_name": "ExecMemory AI",
- "concurrency_model": "",
+ "repo": "execmemory-ai",
+ "canonical_name": "execmemory-ai",
+ "project_category": "WEB_APPLICATION",
+ "palette": "navy_lavender",
  "confidence": "E3",
- "control_flow": "control for execmemory-ai enters at public-site/index.html and dispatches to 1 entry points across 0 routes (none) using Next.js",
+ "status": "TESTED",
+ "has_code": true,
+ "domain": "AI Infrastructure",
+ "audience": "developer",
+ "problem": "Executive memory and context systems for high-stakes decision makers.",
+ "public_positioning": "Executive memory and context systems for high-stakes decision makers.",
+ "website_positioning": "Executive memory and context systems for high-stakes decision makers.",
+ "data_flow": "19 App Router endpoints including /about, /api/exec, /brief, /contact",
+ "control_flow": "public-site/index.html boots 3 module(s) (app, components) and serves 19 route(s) beginning /about, /api/exec",
+ "state_model": "stack, queue, memory_map",
+ "state_model_note": "3 computer-science primitive(s) matched in source",
+ "architecture": "3 top-level module boundaries: app, components, lib",
+ "terminal_story": "public-site/index.html -> 19 routes, 3 modules, 931 files",
+ "terminal_lines": [
+  "public-site/index.html"
+ ],
+ "interfaces": [
+  "public-site/index.html"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/api/exec",
+  "/brief",
+  "/contact",
+  "/dashboard"
+ ],
+ "workflow_steps": [
+  "app",
+  "components",
+  "lib"
+ ],
+ "major_modules": [
+  "app",
+  "components",
+  "lib"
+ ],
  "cs_primitives": [
   "stack",
   "queue",
   "memory_map"
  ],
- "data_flow": "Infrastructure: data passes through stack structure",
- "data_structures": [
-  "stack",
+ "security_model": [],
+ "concurrency_model": [
   "queue"
  ],
- "description": "ExecMemory AI: an infrastructure system, structured around stack.",
- "domain": "Infrastructure",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "FACT",
-  "README_outline": "FACT",
-  "algorithms": "FACT",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "FACT",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 930,
+ "primary_visual_metaphor": "queue_advance over routes /about, /api/exec, /brief; modules app, components, lib; primitives stack, queue, memory_map",
+ "secondary_visual_metaphor": "primitives stack, queue, memory_map; stack Prisma, Zod; top module app",
+ "geometry_set": "cube",
+ "animation_story_1": "queue_advance",
+ "entry_points": [
+  "public-site/index.html"
+ ],
+ "routes": [
+  "/",
+  "/about",
+  "/api/exec",
+  "/api/exec/:id",
+  "/brief",
+  "/contact",
+  "/dashboard",
+  "/dashboard/runs/:id",
+  "/demo",
+  "/docs",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/support",
+  "/terms",
+  "/trust"
+ ],
  "frameworks": [
   "Next.js",
   "Prisma",
   "React",
   "Tailwind CSS",
-  "Vercel AI SDK",
   "Zod"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [],
- "interfaces": [
-  "CLI entry points",
-  "database layer"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "known_limitations": [
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "TypeScript"
- ],
- "major_modules": [
-  ".startup",
-  "app",
-  "components",
-  "lib",
-  "prisma",
-  "public-site",
-  "venture-os"
- ],
- "outputs": [],
- "palette": "slate_amber",
- "primary_visual_metaphor": "stepped queue with workers activating",
- "problem": "Executive operating MVP: paste **meeting notes** (or load **demo notes**) to generate a chief-of-staff style pack \u2014 **CEO brief**, **unresolved risks**, **delegated tasks**, **follow-up email drafts**, **next-meeting agenda**, and a **decision tracker**. Persisted with Prisma + SQLite.",
- "project_category": "INFRASTRUCTURE",
- "public_positioning": "Executive memory and context systems for high-stakes decision makers.",
- "purpose": "Startup portfolio: execmemory-ai",
+ "testing": {
+  "present": true,
+  "count": 1,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "3",
   "tags": 0
  },
- "secondary_visual_metaphor": "stack structure in infrastructure",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "portfolio",
- "state_model": "stack with 3 cooperating structures",
- "status": "ACTIVE",
- "technical_category": "distributed-systems",
- "terminal_story": "operator runs ExecMemory AI (TypeScript) from the command line; output resolves as a tree [execmemory-ai]",
- "testing": {
-  "count": 1,
-  "note": "counted from the repository tree, not executed",
-  "present": true
+ "evidence": {
+  "distinctive_frameworks": [
+   "Prisma",
+   "Zod"
+  ],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/api/exec",
+   "/api/exec/:id",
+   "/brief",
+   "/contact",
+   "/dashboard",
+   "/dashboard/runs/:id",
+   "/demo",
+   "/docs",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/support",
+   "/terms",
+   "/trust"
+  ],
+  "entry_points": [
+   "public-site/index.html"
+  ],
+  "modules": [
+   "app",
+   "components",
+   "lib"
+  ],
+  "frameworks": [
+   "Next.js",
+   "Prisma",
+   "React",
+   "Tailwind CSS",
+   "Zod"
+  ],
+  "cs_primitives": [
+   "stack",
+   "queue",
+   "memory_map"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [
+   "tests/execmemory-engine.test.ts"
+  ],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 931,
+  "test_count": 1,
+  "shared_template_files": 36
  },
- "topics": [
-  "distributed-systems",
-  "typescript",
-  "infrastructure",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

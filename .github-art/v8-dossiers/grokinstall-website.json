@@ -1,131 +1,102 @@
 {
- "API": [],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "crypto",
- "CS_visual_2": "",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "protected core behind a trust boundary",
- "architecture": "SCHEDULER",
- "audience": "",
+ "repo": "grokinstall-website",
  "canonical_name": "grokinstall-website",
- "concurrency_model": "",
+ "project_category": "SECURITY",
+ "palette": "graphite_coral",
  "confidence": "E3",
- "control_flow": "grokinstall run build",
- "cs_primitives": [
-  "crypto"
- ],
- "data_flow": "Security: data passes through crypto structure",
- "data_structures": [],
- "description": "grokinstall-website: a security system, structured around crypto.",
- "domain": "Security",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "SUPPORTED_INFERENCE",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "NAME_BASED_HYPOTHESIS",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "FACT",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 23,
- "frameworks": [],
+ "status": "PROTOTYPE",
  "has_code": true,
- "homepage": "",
- "inputs": [],
+ "domain": "Security",
+ "audience": "developer",
+ "problem": "",
+ "public_positioning": "",
+ "website_positioning": "",
+ "data_flow": "1 entry point(s) with no routable HTTP surface: index.html",
+ "control_flow": "1 entry point(s) with no HTTP layer: index.html",
+ "state_model": "crypto",
+ "state_model_note": "1 computer-science primitive(s) matched in source",
+ "architecture": "1 top-level module boundaries: src",
+ "terminal_story": "index.html -> 0 routes, 1 modules, 24 files",
+ "terminal_lines": [
+  "index.html"
+ ],
  "interfaces": [
-  "CLI entry points"
+  "index.html"
  ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "index.html"
  ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "TypeScript"
+ "workflow_steps": [
+  "src"
  ],
  "major_modules": [
   "src"
  ],
- "outputs": [],
- "palette": "graphite_coral",
- "primary_visual_metaphor": "protected core behind a trust boundary",
- "problem": "Give GrokInstall a project and tell it what you want GrokBot to do.",
- "project_category": "SECURITY",
- "public_positioning": "Your context already has the answer.",
- "purpose": "Public site for GrokInstall \u2014 capability installation as a decision, not a script.",
+ "cs_primitives": [
+  "crypto"
+ ],
+ "security_model": [
+  "crypto"
+ ],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "grid_snap over modules src; primitives crypto",
+ "secondary_visual_metaphor": "primitives crypto; top module src",
+ "geometry_set": "ring",
+ "animation_story_1": "grid_snap",
+ "entry_points": [
+  "index.html"
+ ],
+ "routes": [],
+ "frameworks": [],
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
+ ],
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "2",
   "tags": 0
  },
- "secondary_visual_metaphor": "crypto structure in security",
- "security_model": [
-  "trust boundary enforcement",
-  "cryptographic verification"
- ],
- "source_origin": "portfolio",
- "state_model": "crypto with 1 cooperating structures",
- "status": "PROTOTYPE",
- "technical_category": "security-engineering",
- "terminal_story": "operator runs grokinstall-website (TypeScript) from the command line; output resolves as a tree [grokinstall-website]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [],
+  "test_frameworks": [],
+  "scaffold_frameworks": [],
+  "routes": [],
+  "entry_points": [
+   "index.html"
+  ],
+  "modules": [
+   "src"
+  ],
+  "frameworks": [],
+  "cs_primitives": [
+   "crypto"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 24,
+  "test_count": 0,
+  "shared_template_files": 0
  },
- "topics": [
-  "security-engineering",
-  "typescript",
-  "security",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "state_machine",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

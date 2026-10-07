@@ -1,151 +1,176 @@
 {
- "API": [],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "pipeline",
- "CS_visual_2": "stack",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "technical_evidence",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "source transformed through analysis to output",
- "architecture": "DATA_FLOW",
- "audience": "",
- "canonical_name": "MorphUI",
- "concurrency_model": "",
+ "repo": "morphui",
+ "canonical_name": "morphui",
+ "project_category": "WEB_APPLICATION",
+ "palette": "peach_cyan",
  "confidence": "E3",
- "control_flow": "control for morphui enters at public-site/index.html and dispatches to 1 entry points across 0 routes (none) using Next.js",
+ "status": "TESTED",
+ "has_code": true,
+ "domain": "Design Infrastructure",
+ "audience": "developer",
+ "problem": "Morphing UI systems for faster product design and interface iteration.",
+ "public_positioning": "Morphing UI systems for faster product design and interface iteration.",
+ "website_positioning": "Morphing UI systems for faster product design and interface iteration.",
+ "data_flow": "18 App Router endpoints including /about, /api/morph, /contact, /dashboard",
+ "control_flow": "public-site/index.html boots 4 module(s) (app, components) and serves 18 route(s) beginning /about, /api/morph",
+ "state_model": "pipeline, stack",
+ "state_model_note": "2 computer-science primitive(s) matched in source",
+ "architecture": "4 top-level module boundaries: app, components, lib, src",
+ "terminal_story": "public-site/index.html -> 18 routes, 4 modules, 930 files",
+ "terminal_lines": [
+  "public-site/index.html"
+ ],
+ "interfaces": [
+  "public-site/index.html"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/api/morph",
+  "/contact",
+  "/dashboard",
+  "/demo"
+ ],
+ "workflow_steps": [
+  "app",
+  "components",
+  "lib",
+  "src"
+ ],
+ "major_modules": [
+  "app",
+  "components",
+  "lib",
+  "src"
+ ],
  "cs_primitives": [
   "pipeline",
   "stack"
  ],
- "data_flow": "Developer Tools: data passes through pipeline structure",
- "data_structures": [
-  "stack"
+ "security_model": [],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "tessellate over routes /about, /api/morph, /contact; modules app, components, lib; primitives pipeline, stack",
+ "secondary_visual_metaphor": "primitives pipeline, stack; stack Prisma, Zod; top module app",
+ "geometry_set": "arch",
+ "animation_story_1": "tessellate",
+ "entry_points": [
+  "public-site/index.html"
  ],
- "description": "MorphUI: a developer tool, structured around pipeline.",
- "domain": "Developer Tools",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "FACT",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "FACT",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 928,
+ "routes": [
+  "/",
+  "/about",
+  "/api/morph",
+  "/api/morph/:id",
+  "/contact",
+  "/dashboard",
+  "/demo",
+  "/docs",
+  "/history",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/support",
+  "/terms",
+  "/trust"
+ ],
  "frameworks": [
   "Next.js",
   "Prisma",
   "React",
   "Tailwind CSS",
-  "Vercel AI SDK",
   "Zod"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [
-  "source files"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "interfaces": [
-  "CLI entry points",
-  "database layer"
- ],
- "known_limitations": [
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "TypeScript"
- ],
- "major_modules": [
-  ".startup",
-  "app",
-  "components",
-  "lib",
-  "prisma",
-  "public-site",
-  "venture-os"
- ],
- "outputs": [
-  "build artifact"
- ],
- "palette": "mint_violet",
- "primary_visual_metaphor": "source transformed through analysis to output",
- "problem": "Interactive MVP for an **AI interface layer** that reshapes SaaS dashboards from **role**, **workflow**, **layout preference**, and **natural language** intent. The demo engine reorders modules, hides deprioritized tiles, highlights key actions, and generates a **personalized interface explanation**.",
- "project_category": "DEVELOPER_TOOLS",
- "public_positioning": "Morphing UI systems for faster product design and interface iteration.",
- "purpose": "Startup portfolio: morphui",
+ "testing": {
+  "present": true,
+  "count": 1,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "5",
   "tags": 0
  },
- "secondary_visual_metaphor": "pipeline structure in developer tools",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "portfolio",
- "state_model": "pipeline with 2 cooperating structures",
- "status": "ACTIVE",
- "technical_category": "developer-tooling",
- "terminal_story": "operator runs MorphUI (TypeScript) from the command line; output resolves as a tree [morphui]",
- "testing": {
-  "count": 1,
-  "note": "counted from the repository tree, not executed",
-  "present": true
+ "evidence": {
+  "distinctive_frameworks": [
+   "Prisma",
+   "Zod"
+  ],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/api/morph",
+   "/api/morph/:id",
+   "/contact",
+   "/dashboard",
+   "/demo",
+   "/docs",
+   "/history",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/support",
+   "/terms",
+   "/trust"
+  ],
+  "entry_points": [
+   "public-site/index.html"
+  ],
+  "modules": [
+   "app",
+   "components",
+   "lib",
+   "src"
+  ],
+  "frameworks": [
+   "Next.js",
+   "Prisma",
+   "React",
+   "Tailwind CSS",
+   "Zod"
+  ],
+  "cs_primitives": [
+   "pipeline",
+   "stack"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [
+   "tests/morphui-engine.test.ts"
+  ],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 930,
+  "test_count": 1,
+  "shared_template_files": 36
  },
- "topics": [
-  "developer-tooling",
-  "typescript",
-  "developer-tools",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

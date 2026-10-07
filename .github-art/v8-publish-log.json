@@ -8,30 +8,16 @@
  },
  {
   "repo": "Ayncient",
-  "status": "published",
+  "status": "unchanged",
   "branch": "auto-1775597267-ayncient",
   "commit": "6cf11978400c21fdbe5713edc799a18114b4323e",
-  "files": 22,
-  "description": "Ancient knowledge for modern clarity. Built in Supabase, Zod. 22 routes (/about, /api/save-result, /api/waitlist); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "react",
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prototype",
-   "supabase",
-   "tailwind-css",
-   "web-application"
-  ]
+  "files": 22
  },
  {
   "repo": "BehindCurtain",
   "status": "published",
   "branch": "main",
-  "commit": "446570c223b7ca82b85eb5c56bf914942115b409",
+  "commit": "0604ea0aba412c161208a447801d256ed0cb9fed",
   "files": 31,
   "description": "Reveal what shapes the story. Built in Supabase. 12 routes (/admin, /api/checkout, /api/search); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -51,29 +37,16 @@
  },
  {
   "repo": "Bourgaeux",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "39e611187582ce6bb33cc6bae4796900b38fdf58",
-  "files": 22,
-  "description": "Discover Bourgaeux. Built in TypeScript on Next.js. 18 routes (/about, /api/chat, /api/checkout); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "react",
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prototype",
-   "tailwind-css",
-   "web-application"
-  ]
+  "files": 22
  },
  {
   "repo": "BrandCrossover",
   "status": "published",
   "branch": "main",
-  "commit": "bcd3632780cf165ccda47136783d8a81df84bfa2",
+  "commit": "84d4efee23fa72aa3d7f8c6c576362866bf97dcc",
   "files": 31,
   "description": "Find the overlap that moves culture. Built in Supabase. 21 routes (/about, /admin, /api/checkout); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -95,7 +68,7 @@
   "repo": "Cruxenio",
   "status": "published",
   "branch": "main",
-  "commit": "96066f01f72ef3fc5f252df7dde3c5e7ed7760e7",
+  "commit": "886a933c9b85468a783757a5e18dda13742b8b88",
   "files": 28,
   "description": "A strategy system for helping operators find the real issue, decision, or leverage point faster. Built in Supabase. 24 routes (/about, /admin, /api/approve-move). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -117,7 +90,7 @@
   "repo": "CxNTRADICT",
   "status": "published",
   "branch": "main",
-  "commit": "a60885250c11d029c7e36b1b001a5f4e1bc0ba5f",
+  "commit": "8c5bf72e51e8821c3250105b18a18322990b78ea",
   "files": 28,
   "description": "Find the tension inside the truth. Built in OpenAI SDK, Supabase, Zod. 18 routes (/about, /analyze, /api/analyze). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -139,7 +112,7 @@
   "repo": "EVSec.one",
   "status": "published",
   "branch": "main",
-  "commit": "2db7c8af2806093bdc43ac9732495de74fbbe3f3",
+  "commit": "2c8374c954cc6b05c1343db75bd5ded205f24712",
   "files": 19,
   "description": "Documentation and placeholder repository for EVSec.one. 14 file(s) committed, no executable code detected.",
   "topics": [
@@ -152,7 +125,7 @@
   "repo": "EmailSimple",
   "status": "published",
   "branch": "main",
-  "commit": "69418789aa6225de0f72c97b350f3f3431ce86c0",
+  "commit": "55113d581d109faf9d487e2d98aef430020a3f33",
   "files": 31,
   "description": "Email workflows without the noise. Built in Supabase. 24 routes (/about, /accounts, /actions); 2 entry points (index.ts). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -174,7 +147,7 @@
   "repo": "ForeverLuvd",
   "status": "published",
   "branch": "main",
-  "commit": "f1699b552a1340a0abdb988738e656c10bea4d98",
+  "commit": "b55acfd147f534811ab8852d7eff8740f51d5ee5",
   "files": 31,
   "description": "Preserve love with lasting presence. Built in Supabase, Zod. 24 routes (/about, /api/checkout, /auth/sign-in); 2 entry points (index.html, index.ts). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -196,7 +169,7 @@
   "repo": "FundMind",
   "status": "published",
   "branch": "main",
-  "commit": "41524cae20c0b8400c93b823a0cfead61e9733da",
+  "commit": "ea498d52b5e4b0e3bc462159a568e9f55472ff32",
   "files": 19,
   "description": "Documentation and placeholder repository for FundMind. 5 file(s) committed, no executable code detected.",
   "topics": [
@@ -207,30 +180,16 @@
  },
  {
   "repo": "FungMind",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "494065e9045dc59435771982b2623e30f5b2e683",
-  "files": 22,
-  "description": "Mental models that grow like systems. Built in Supabase. 20 routes (/about, /api/waitlist, /contact); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "react",
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prototype",
-   "supabase",
-   "tailwind-css",
-   "web-application"
-  ]
+  "files": 22
  },
  {
   "repo": "HackerzArt",
   "status": "published",
   "branch": "main",
-  "commit": "f737ef50cd0c8ad2a5a539efdff1843307bcbe56",
+  "commit": "331875a2a3a5a96ce03cd3ee029f55a9cb300974",
   "files": 31,
   "description": "HackerzArt is a web application project. Built in Supabase. 24 routes (/about, /api/checkout, /api/gallery); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -250,28 +209,16 @@
  },
  {
   "repo": "M4G3LL4N0",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
-  "commit": "a1ce6778506a8ec65768d560eaf9df5c2e750648",
-  "files": 19,
-  "description": "Profile repository for DUNG30N5, founder of noaerth.com. Generated artwork and evidence for 136 public repositories: source-derived route, module and test maps with reduced-motion variants.",
-  "topics": [
-   "noaerth",
-   "python",
-   "concurrency",
-   "dung30n5",
-   "prototype",
-   "queue",
-   "scripts",
-   "terminal",
-   "compiler-stage"
-  ]
+  "commit": "fd495def0730b9ce04e7a7d0d6c27a8dd41871af",
+  "files": 31
  },
  {
   "repo": "Modex",
   "status": "published",
   "branch": "main",
-  "commit": "857cbb3f8c300ee6af6da274ba5c93e0aae1b1b9",
+  "commit": "ab498257b6600b0b18e4ec03f105fb5eefcdd268",
   "files": 31,
   "description": "Modern commerce modules for builders. Built in D3, OpenAI SDK, Supabase. 24 routes (/about, /api/accuracy, /api/analyze); 2 entry points (index.html, index.ts). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -291,30 +238,16 @@
  },
  {
   "repo": "NaextBlock",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "e3b00998a1e8b8e19c176c3bd2aa242da25f8cd9",
-  "files": 22,
-  "description": "Block-level intelligence for what comes next. Built in Supabase, Zod. 19 routes (/about, /api/waitlist, /contact); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "react",
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prototype",
-   "supabase",
-   "tailwind-css",
-   "web-application"
-  ]
+  "files": 22
  },
  {
   "repo": "RequestAyo",
   "status": "published",
   "branch": "main",
-  "commit": "b7f26ad977d1f62bba1edf6e8bd7efb7b29c9086",
+  "commit": "d1af369b470f1bdd8140f937393f53acba561dcb",
   "files": 31,
   "description": "A consumer utility for requesting rides, food, errands, and local help with less friction. Built in Supabase, Zod. 24 routes (/about, /admin, /api/checkout); 3 entry points (index.html, index.ts). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -336,7 +269,7 @@
   "repo": "STRxGNTH",
   "status": "published",
   "branch": "main",
-  "commit": "ac1ae011525ad37a12975a45109959fb2ab5640a",
+  "commit": "88b659458f7503e5ab4929799a8ae729a8fe3592",
   "files": 19,
   "description": "Documentation and placeholder repository for STRxGNTH. 5 file(s) committed, no executable code detected.",
   "topics": [
@@ -349,7 +282,7 @@
   "repo": "SUNSETX",
   "status": "published",
   "branch": "main",
-  "commit": "4c977d753545cbca428d96bcf095036352ee7a98",
+  "commit": "78bc02ccebf5e7a8d66c9efd9831a48633cae590",
   "files": 31,
   "description": "Cinematic lifestyle systems for modern escapes. Built in OpenAI SDK, Supabase. 24 routes (/about, /api/cron/daily-report, /api/favorites); 1 entry point (index.html). Live at sunsetx.noaerth.com.",
   "topics": [
@@ -371,7 +304,7 @@
   "repo": "ShopRight",
   "status": "published",
   "branch": "main",
-  "commit": "c2ec90f7230c5e3305ee71fa74eb24eceac8b57c",
+  "commit": "513e7d2443198ac47c9abe4bff34ff2e1f1dd6d7",
   "files": 31,
   "description": "Shop with better judgment. Built in OpenAI SDK, Supabase, Zod. 22 routes (/about, /api/analyze, /api/og); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -393,7 +326,7 @@
   "repo": "SoulMayte",
   "status": "published",
   "branch": "main",
-  "commit": "c21392a7076f641d621698ab32986243552c9886",
+  "commit": "4c4c2f6896eb390842e2b01e9b4f09fe5ccec834",
   "files": 31,
   "description": "A deeper map of compatibility. Built in Supabase. 23 routes (/about, /analyze, /api/analyze); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -413,30 +346,16 @@
  },
  {
   "repo": "Spouwse",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "39c72fd11523db52acfbd86ea61a58898bec41bc",
-  "files": 22,
-  "description": "Marriage systems with more intention. Built in Supabase, Zod. 21 routes (/about, /admin, /api/checkout); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "react",
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prototype",
-   "supabase",
-   "tailwind-css",
-   "web-application"
-  ]
+  "files": 22
  },
  {
   "repo": "TherapyUX",
   "status": "published",
   "branch": "main",
-  "commit": "9febadbc1e69dde661df889869e1445249c1623c",
+  "commit": "f867245e49c80612445e9c0a5b4400e1f99c3d41",
   "files": 31,
   "description": "Adaptive therapy support built around you. Built in TypeScript on Next.js. 24 routes (/about, /api/waitlist, /app/sessions); 5 entry points (index.html, index.ts). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -457,7 +376,7 @@
   "repo": "TrustxVerify",
   "status": "published",
   "branch": "main",
-  "commit": "9211b023a096b98abac5d3cad74c38ee78872edb",
+  "commit": "4e2cc7fad6c84d081e97aa9e6ed7032341b610e2",
   "files": 31,
   "description": "Verify trust before it matters. Built in Supabase. 24 routes (/about, /admin, /api/admin/reports); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -479,7 +398,7 @@
   "repo": "VentureRank-OS",
   "status": "published",
   "branch": "auto-1775600914-venturerank-os",
-  "commit": "58dc3f0974bdf573984926a98c9c896012bb1ff1",
+  "commit": "a9206eea100147c0d45e4f720b335243b83572d9",
   "files": 31,
   "description": "Rank ventures by signal, not noise. Built in Supabase. 22 routes (/about, /admin/intake, /api/ideas); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -501,7 +420,7 @@
   "repo": "YouState",
   "status": "published",
   "branch": "main",
-  "commit": "1efb8284a7851952132b58f7b69300d7f0048494",
+  "commit": "12204a5717daaca70bdf93fefb6e4da359adaa49",
   "files": 31,
   "description": "Understand your current state. Built in Supabase, Zod. 24 routes (/about, /api/checkout, /app); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -523,7 +442,7 @@
   "repo": "Zaeus",
   "status": "published",
   "branch": "main",
-  "commit": "e4c09141031928aaeffc28ae6661ad9a55a92f91",
+  "commit": "8877255c03acea4216c2f229ab13af72b4f37ee9",
   "files": 19,
   "description": "Documentation and placeholder repository for Zaeus. 5 file(s) committed, no executable code detected.",
   "topics": [
@@ -536,7 +455,7 @@
   "repo": "access-layer",
   "status": "published",
   "branch": "main",
-  "commit": "16c2549119fffa2fc91784af30819d50e0cd3397",
+  "commit": "7aba74ba57888ce93302c65ada3f10c547535af4",
   "files": 31,
   "description": "access-layer is a web application project. Built in TypeScript on Next.js. 24 routes (/account, /admin, /admin/access-points); 1 entry point (index.html). TESTED: 1 test file.",
   "topics": [
@@ -558,7 +477,7 @@
   "repo": "agentapi-hub",
   "status": "published",
   "branch": "main",
-  "commit": "41e5e26814f0e2f9e17cb637ef9ba3585d283613",
+  "commit": "f1845728b0d17e3e1ca3525ed9f1b93511aaf9bc",
   "files": 31,
   "description": "agentapi-hub is a web application project. Built in Prisma, Zod. 21 routes (/about, /api/submit, /api/tools); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -580,7 +499,7 @@
   "repo": "agentcore-silicon",
   "status": "published",
   "branch": "main",
-  "commit": "fe7fc1de54df2e62dca439daa2b4a8b562d30f28",
+  "commit": "fd2a7285bbfcc2332749382f895583ab22b7e1fe",
   "files": 31,
   "description": "Silicon-aware agent infrastructure for hardware and compute ventures. Built in Prisma, Zod. 19 routes (/about, /api/benchmarks, /contact); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -602,7 +521,7 @@
   "repo": "agentos",
   "status": "published",
   "branch": "main",
-  "commit": "32b3f250227f9938fdf7f2e9ed387e501c3edc19",
+  "commit": "03df3a70f0c0926a975d7ca7dec3febf09de2ec6",
   "files": 25,
   "description": "Requested is not verified. Built in Python. 2 entry points (main.py, cli.py). Live at agentos-website-ten.vercel.app.",
   "topics": [
@@ -621,7 +540,7 @@
   "repo": "agentos-website",
   "status": "published",
   "branch": "main",
-  "commit": "02700aa815b73165d54a362f94ce7311b2dd4b70",
+  "commit": "5023efaf84ac6c69e2789adf3c7d6323b5186213",
   "files": 25,
   "description": "agentos-website is a security project. Built in TypeScript. 1 entry point (index.html). TESTED: 1 test file, 1 CI workflow.",
   "topics": [
@@ -639,7 +558,7 @@
   "repo": "ai-dev-workflow-starter",
   "status": "published",
   "branch": "main",
-  "commit": "4d39b0e6e86f3081f4abe64bf711aa76731ddd07",
+  "commit": "536420ad0332cf3b28ddf691656aac4ebb20a75a",
   "files": 19,
   "description": "ai-dev-workflow-starter is a software project. Built in Shell. 1 module (scripts). PROTOTYPE: 1 CI workflow.",
   "topics": [
@@ -655,7 +574,7 @@
   "repo": "autoerp",
   "status": "published",
   "branch": "main",
-  "commit": "ba36e551196ed44dd326c0bcf1c0e601f0adb039",
+  "commit": "0591fa7dfd35f5f0ed75dfffdacab40404723f17",
   "files": 31,
   "description": "Modern ERP intelligence for operations teams outgrowing legacy stacks. Built in Prisma, Zod. 19 routes (/about, /api/command, /contact); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -677,7 +596,7 @@
   "repo": "betterfintech",
   "status": "published",
   "branch": "main",
-  "commit": "184bdb57ddfe35a06cdace38323bbe7708020d38",
+  "commit": "e5de8e0c0454c3fef534950f3c4c2d32520863d0",
   "files": 31,
   "description": "Financial operations, without the maze. Built in Supabase. 18 routes (/about, /api/checkout, /api/report); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -699,7 +618,7 @@
   "repo": "bioyield-labs",
   "status": "published",
   "branch": "main",
-  "commit": "78dd8fbe8e1f5b7aa59ffbe724a5fc18cdac6362",
+  "commit": "c3aeaba1c6b5c3b93494a1589db2ff866d815393",
   "files": 31,
   "description": "Planning surface for crop-protection trials. Built in Prisma, Zod. 21 routes (/about, /api/plans, /api/trials); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -721,7 +640,7 @@
   "repo": "blitzproof",
   "status": "published",
   "branch": "main",
-  "commit": "66d26fac39b99f56168959e85a870626f323132e",
+  "commit": "7d0693782f7361d7224d1639b7168c67e33ff64a",
   "files": 31,
   "description": "Prove the startup before it proves you wrong. Built in TypeScript on Next.js. 24 routes (/about, /api/checkout, /api/ideas); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -741,91 +660,37 @@
  },
  {
   "repo": "blitzunicorn",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "3f98bebc291db9ba30ca6a0c15b4a479d6d3895d",
-  "files": 22,
-  "description": "High-growth strategy without the theater. Built in TypeScript on Next.js. 19 routes (/about, /api/checkout, /api/launch); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prototype",
-   "react",
-   "web-application"
-  ]
+  "files": 22
  },
  {
   "repo": "buildloop-usa",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "f18a023cfd2e42e1df99b30953f97e3d0e9cb8f7",
-  "files": 22,
-  "description": "Launch infrastructure for builders shipping companies across the U.S. Built in Prisma, Zod. 19 routes (/about, /api/requests, /contact); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prisma",
-   "prototype",
-   "react",
-   "tailwind-css",
-   "typescript",
-   "web-application"
-  ]
+  "files": 22
  },
  {
   "repo": "cannex-logistics",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "9bd225a0156fbf895a52d7bcd0ec845d0efd34da",
-  "files": 22,
-  "description": "cannex-logistics is a web application project. Built in Supabase. 21 routes (/about, /api/checkout, /app); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "react",
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prototype",
-   "supabase",
-   "tailwind-css",
-   "web-application"
-  ]
+  "files": 22
  },
  {
   "repo": "cheetahbearfuel",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "80823d80253140c4502a1d5808b0b59d4c0dfd96",
-  "files": 22,
-  "description": "A fuel and energy consumer concept. Built in Supabase. 16 routes (/about, /api/waitlist, /contact); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "react",
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prototype",
-   "supabase",
-   "tailwind-css",
-   "web-application"
-  ]
+  "files": 22
  },
  {
   "repo": "childdevos",
   "status": "published",
   "branch": "main",
-  "commit": "00d8e0c4ae27bf7fe252a2bd09f46269808cc57f",
+  "commit": "5a372fb23e86973e90f35984c8d906f42d832bd4",
   "files": 31,
   "description": "A platform for organizing developmental insights, learning signals, parent guidance, and child growth coordination into one coherent operating layer. Built in OpenAI SDK, Supabase. 19 routes (/about, /api/health, /api/reports/daily); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -845,30 +710,16 @@
  },
  {
   "repo": "chipflow",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "378dbdf7cd5c91dd6583db3245ba89ad11b67f1c",
-  "files": 22,
-  "description": "Workflow intelligence for chip design, supply, and hardware iteration. Built in Prisma, Zod. 19 routes (/about, /api/allocation, /contact); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "react",
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prisma",
-   "prototype",
-   "tailwind-css",
-   "web-application"
-  ]
+  "files": 22
  },
  {
   "repo": "claimpilot-ai",
   "status": "published",
   "branch": "main",
-  "commit": "80a1c45b62236103649b63a0fb132f4c4983a4da",
+  "commit": "4e16e192fd6876129e561975bec968944b16e9a2",
   "files": 31,
   "description": "Policy matching and quote comparison for small brokers. Built in Prisma, Zod. 18 routes (/about, /api/intake, /contact); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -888,26 +739,16 @@
  },
  {
   "repo": "cleanstack-macos",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "85994ea64b2889edd96af3558a712f6b76b9f82a",
-  "files": 19,
-  "description": "cleanstack-macos is a software project. Built in Swift. One route (/api/checkout); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "app",
-   "dung30n5",
-   "noaerth",
-   "prototype",
-   "software",
-   "sources",
-   "swift"
-  ]
+  "files": 19
  },
  {
   "repo": "cleanstack-os",
   "status": "published",
   "branch": "main",
-  "commit": "6811f5f3b100b3f0556cd7656684353afe424aaa",
+  "commit": "082aa17000d7c2d67f29e601aab7c200d30b8c41",
   "files": 31,
   "description": "cleanstack-os is a web application project. Built in TypeScript on Next.js. 24 routes (/about, /admin/leads, /admin/summary); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -928,7 +769,7 @@
   "repo": "cloudcastle",
   "status": "published",
   "branch": "main",
-  "commit": "05facdb353eb3616149e530c1d56dd17b8bdd78f",
+  "commit": "a42f31c9bc96c0d33541a6c6d4039d717a9202be",
   "files": 31,
   "description": "Premium distribution for modern retail. Built in Supabase. 21 routes (/about, /api/checkout, /api/machines); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -950,7 +791,7 @@
   "repo": "commos",
   "status": "published",
   "branch": "main",
-  "commit": "f4aa508f566b91f2098a806d3214e439870294b5",
+  "commit": "aae213eb26a39c1a0b4b0b0509744890a0f53477",
   "files": 31,
   "description": "commos is a web application project. Built in Zod. 3 routes (/docs/api, /setup); 3 entry points (index.html, index.ts). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -972,7 +813,7 @@
   "repo": "companyos",
   "status": "published",
   "branch": "main",
-  "commit": "6032f0765800ed7c07738c00a020558c2298d1a5",
+  "commit": "cafcba5343d17c67df139abd0d86289048453cb2",
   "files": 31,
   "description": "Meetings, tickets, and goals in one operating loop. Built in Prisma, Zod. 21 routes (/about, /api/runs, /brief); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -994,7 +835,7 @@
   "repo": "computeflow",
   "status": "published",
   "branch": "main",
-  "commit": "4fc71900f8ef703867cb9c99c6724294e0e75985",
+  "commit": "d074c3fcaec09f56063fef5316328dd1784ccd5c",
   "files": 28,
   "description": "Compute orchestration for teams running serious AI and data workloads. Built in TypeScript on Next.js. 15 routes (/about, /contact, /dashboard). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -1016,7 +857,7 @@
   "repo": "computeflow-website",
   "status": "published",
   "branch": "main",
-  "commit": "956ba8f7db8baca105ec34481fd8831949721f73",
+  "commit": "05bb2bef5e2278a4052b4ae9d3b0ad40224d6da8",
   "files": 19,
   "description": "computeflow-website is a performance project. Built in CSS. 2 entry points (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -1032,7 +873,7 @@
   "repo": "cortexhq",
   "status": "published",
   "branch": "main",
-  "commit": "7c64872998882f0c763c19a622151b5858a1283a",
+  "commit": "d600ed5bad48da1050a2d4fe007f32ff771830e0",
   "files": 28,
   "description": "A simulated company brain. No live customer data. Built in Prisma, Zod. 22 routes (/about, /api/brain, /contact). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -1054,7 +895,7 @@
   "repo": "cortexhq-website",
   "status": "published",
   "branch": "main",
-  "commit": "02019af4aa7c56422d7f7d7bb695189ddc57874c",
+  "commit": "2a62dbe6858520af32f174c444f76f0c0c2ebd34",
   "files": 19,
   "description": "cortexhq-website is a simulation project. Built in CSS. 2 entry points (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -1068,80 +909,37 @@
  },
  {
   "repo": "cropshield-ai",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "340bcb9248a3372092adbc00849b727cddd7bf62",
-  "files": 19,
-  "description": "AI monitoring and protection for agricultural operations and yield risk. Built in Prisma, Zod. 20 routes (/about, /analyze, /api/reports). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prisma",
-   "prototype",
-   "react",
-   "tailwind-css",
-   "typescript",
-   "web-application"
-  ]
+  "files": 19
  },
  {
   "repo": "cropshield-ai-website",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "77de06b61c0b2ac1bbe7a9143d735f5570e0f6b8",
-  "files": 19,
-  "description": "cropshield-ai-website is a software project. Built in CSS. 2 entry points (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "css",
-   "dung30n5",
-   "noaerth",
-   "prototype",
-   "software"
-  ]
+  "files": 19
  },
  {
   "repo": "datatherapy",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "534a2cc1b218875bef036958cbc4005f9c6a33cd",
-  "files": 19,
-  "description": "Turn scary information into structured understanding. Built in TypeScript on Next.js. 24 routes (/about, /api/checkout, /app). TESTED: 1 test file.",
-  "topics": [
-   "react",
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "tailwind-css",
-   "tested",
-   "web-application"
-  ]
+  "files": 19
  },
  {
   "repo": "datatherapy-website",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "22ec160d1a1905c9f022b6456ab60df3bbf2e163",
-  "files": 19,
-  "description": "datatherapy-website is a software project. Built in CSS. 2 entry points (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "css",
-   "dung30n5",
-   "noaerth",
-   "prototype",
-   "software"
-  ]
+  "files": 19
  },
  {
   "repo": "deploylocal",
   "status": "published",
   "branch": "main",
-  "commit": "cfa6ca675ae112bfb7019449c947e55ea2220190",
+  "commit": "eba413cd5596355da8263109d7fcd4020e695cab",
   "files": 31,
   "description": "Lead discovery and outreach infrastructure for local businesses that need a web presence and pipeline. Built in OpenAI SDK, Stripe, Supabase. 24 routes (/api/bulk-generate-sites, /api/checkout, /api/claim-site); 17 entry points (index.ts). TESTED: 14 test files, via Playwright.",
   "topics": [
@@ -1161,24 +959,16 @@
  },
  {
   "repo": "deploylocal-website",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "4290c81e3573ed47e559736e1f8492f020121fcf",
-  "files": 19,
-  "description": "deploylocal-website is a software project. Built in CSS. 2 entry points (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "css",
-   "dung30n5",
-   "noaerth",
-   "prototype",
-   "software"
-  ]
+  "files": 19
  },
  {
   "repo": "devstate",
   "status": "published",
   "branch": "main",
-  "commit": "1d88b4e5310de69f0511efd87b127a1a959000ee",
+  "commit": "0114e7f656a78e74908a6551206370c7eefb7611",
   "files": 31,
   "description": "Developer storage and rehydration: know what Git has, what is local-only, and what to clean. Built in TypeScript on Next.js. 16 routes (/about, /api/checkout, /contact); 1 entry point (index.js). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -1197,24 +987,16 @@
  },
  {
   "repo": "devstate-website",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "b592920c30724bf3d87e757298885605efd99f1d",
-  "files": 19,
-  "description": "devstate-website is a software project. Built in CSS. 2 entry points (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "css",
-   "dung30n5",
-   "noaerth",
-   "prototype",
-   "software"
-  ]
+  "files": 19
  },
  {
   "repo": "enterprisepilot",
   "status": "published",
   "branch": "main",
-  "commit": "d4e5893659b8ca2cdc28143374271da796ce4498",
+  "commit": "f2ac77b16295ed6ed11a68c4b6723ae691cbe46c",
   "files": 31,
   "description": "Enterprise copilots for teams navigating complex operations and legacy tools. Built in Prisma, Zod. 19 routes (/about, /api/pilot, /contact); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -1236,7 +1018,7 @@
   "repo": "evalforge",
   "status": "published",
   "branch": "main",
-  "commit": "4d8531916bb91617ba5d2040d481f33e2766e932",
+  "commit": "8141faef0a0f1fe009765adf7e3cbc7deeeeb917",
   "files": 31,
   "description": "Compare model answers. A person still has to approve them. Built in TypeScript on Next.js. 16 routes (/about, /api/evaluate, /contact); 1 entry point (index.html). TESTED: 1 test file.",
   "topics": [
@@ -1258,7 +1040,7 @@
   "repo": "evsec-one",
   "status": "published",
   "branch": "main",
-  "commit": "9d76a243c0e035b3f8f16b64281a3c06f30274a1",
+  "commit": "088e8f723092e329ddff0500b1ca6fc3c8e44b9a",
   "files": 31,
   "description": "Operational security for serious builders. Built in Supabase, Zod. 20 routes (/about, /api/checkout, /contact); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -1280,7 +1062,7 @@
   "repo": "execmemory-ai",
   "status": "published",
   "branch": "main",
-  "commit": "45550a2a44afeb334848fc67d333cdbc0f2f48aa",
+  "commit": "cbcf4da7446422645fd88407bd5e4722580ebfb3",
   "files": 31,
   "description": "Executive memory and context systems for high-stakes decision makers. Built in Prisma, Zod. 19 routes (/about, /api/exec, /brief); 1 entry point (index.html). TESTED: 1 test file.",
   "topics": [
@@ -1302,7 +1084,7 @@
   "repo": "executionos",
   "status": "published",
   "branch": "main",
-  "commit": "e7ffbb213975647bb46304ace414837aaa436ea5",
+  "commit": "909a399a6385203259076681ec1e0cbbd1336d48",
   "files": 31,
   "description": "Venture in startup infrastructure exploring a clearer product direction. Built in Supabase. 24 routes (/about, /contact, /dashboard); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -1324,7 +1106,7 @@
   "repo": "fastprocure-ai",
   "status": "published",
   "branch": "portfolio/fastprocure-ai/planner-draft",
-  "commit": "6bed336bb63d31c78ae0e5cfba811b94fb654674",
+  "commit": "81d144de5972a40e31e84a0325449901295f21be",
   "files": 31,
   "description": "Faster procurement decisions with AI-assisted vendor and spend intelligence. Built in Prisma, Zod. 19 routes (/about, /api/procure, /contact); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -1344,29 +1126,16 @@
  },
  {
   "repo": "forgeflow",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "9ed6b5963a06c43fd5a68588980af66b8a388a16",
-  "files": 22,
-  "description": "A workflow concept still on the studio page. Built in TypeScript on Next.js. 15 routes (/about, /contact, /dashboard); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "react",
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prototype",
-   "tailwind-css",
-   "web-application"
-  ]
+  "files": 22
  },
  {
   "repo": "founderskingdom",
   "status": "published",
   "branch": "main",
-  "commit": "b5998e7cacc226cf421806d5194ec91c7dabb3f3",
+  "commit": "1e1f6caa4d8efdbaa1f01636a6b34ff3dce32bc6",
   "files": 31,
   "description": "founderskingdom is a web application project. Built in Supabase. 24 routes (/about, /api/checkout, /api/contact); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -1386,30 +1155,16 @@
  },
  {
   "repo": "freeconomie",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "a98d0450f0bc5ed00521ecd20f4219db07658f02",
-  "files": 22,
-  "description": "freeconomie is a web application project. Built in Supabase, Zod. 24 routes (/about, /api/checkout, /api/favorites); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "react",
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prototype",
-   "supabase",
-   "tailwind-css",
-   "web-application"
-  ]
+  "files": 22
  },
  {
   "repo": "fullofshit",
   "status": "published",
   "branch": "main",
-  "commit": "4b15fffecf30aa49b8092265de5f10d2adf94798",
+  "commit": "44f1060e60e093e1b0be2f829bd5ba8ebbdfbe1d",
   "files": 31,
   "description": "Clarity tools for cutting through noise, hype, and weak thinking. Built in TypeScript on Next.js. 15 routes (/about, /contact, /dashboard); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -1428,29 +1183,16 @@
  },
  {
   "repo": "gamecombo",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "5dd3154da6118b93508957e8ccb5f96fbb79c399",
-  "files": 19,
-  "description": "Creative technology for interactive experiences and game-adjacent products. Built in TypeScript on Next.js. 15 routes (/about, /contact, /dashboard). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "react",
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prototype",
-   "tailwind-css",
-   "web-application"
-  ]
+  "files": 19
  },
  {
   "repo": "genotwin-health",
   "status": "published",
   "branch": "main",
-  "commit": "b2819d99e007518af7e83ec98c39e32a686bec63",
+  "commit": "f842a4d4e112ffdd4e528840b102d0e18b9ff154",
   "files": 28,
   "description": "Health resilience systems informed by genomic and twin-style modeling. Built in Prisma, Zod. 18 routes (/about, /api/twin, /contact). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -1472,7 +1214,7 @@
   "repo": "gh0st",
   "status": "published",
   "branch": "main",
-  "commit": "eea5e539908cc1293fef76dbd9017c64c0b05ec0",
+  "commit": "85bc291e129c29ddd648f5091a64d5f7de288580",
   "files": 28,
   "description": "gh0st is a web application project. Built in Express. 24 entry points (index.html, index.ts, main.rs). TESTED: 8 test files, via Vitest, 8 CI workflows.",
   "topics": [
@@ -1494,7 +1236,7 @@
   "repo": "gh0st-website",
   "status": "published",
   "branch": "main",
-  "commit": "cb8db9d4ab1983679c255c413958a53814102b9a",
+  "commit": "3a3895dd5c051a0069508a31f4b337f979bbe86b",
   "files": 28,
   "description": "gh0st-website is a web application project. Built in TypeScript on Next.js. 15 routes (/docs/agents, /docs/browser, /docs/cli). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -1514,29 +1256,16 @@
  },
  {
   "repo": "ghostframe",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "f355bdcc5d4e0711a5f5abc7f3c63c2844608d30",
-  "files": 19,
-  "description": "Media intelligence for framing, narrative, and signal in public discourse. Built in TypeScript on Next.js. 15 routes (/about, /contact, /dashboard). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "react",
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prototype",
-   "tailwind-css",
-   "web-application"
-  ]
+  "files": 19
  },
  {
   "repo": "grokbot-office",
   "status": "published",
   "branch": "main",
-  "commit": "ba44ae158698935c31047de9fbd50a34e80f703d",
+  "commit": "0ba3403afcd3f8cdac3beb317c31e81fa8650e30",
   "files": 22,
   "description": "Run a workforce. Do not become the workforce. Built in TypeScript. 4 modules (registry, runtime, scripts). Live at grokbot-office-xi.vercel.app.",
   "topics": [
@@ -1556,7 +1285,7 @@
   "repo": "grokbot-office-website",
   "status": "published",
   "branch": "main",
-  "commit": "d6bde435bcb24d019a704d6ec30abea2a66e5687",
+  "commit": "fa0431a12c659e9a1d88e2c36e6041d080ac9683",
   "files": 28,
   "description": "grokbot-office-website is a web application project. Built in TypeScript on Next.js. 8 routes (/architecture, /docs, /efficiency). TESTED: 1 test file, 1 CI workflow.",
   "topics": [
@@ -1578,7 +1307,7 @@
   "repo": "grokbot-society",
   "status": "published",
   "branch": "main",
-  "commit": "d42a3f7d2bdf1ea0f7c56ffa37116dadaad263e2",
+  "commit": "6e65f2f83f86dfd302d501a13c74e8672921dfa8",
   "files": 28,
   "description": "Persistent synthetic people without the swarm. Built in TypeScript. 13 entry points (index.ts). Live at grokbot-society.vercel.app.",
   "topics": [
@@ -1599,7 +1328,7 @@
   "repo": "grokbot-society-website",
   "status": "published",
   "branch": "main",
-  "commit": "8d40dc13baecab93436b91946d445e05410dd765",
+  "commit": "f47c937a4c88be198e25c8944a0e54fa07ab40a2",
   "files": 28,
   "description": "grokbot-society-website is a web application project. Built in TypeScript on Next.js. 15 routes (/architecture, /code-of-conduct, /contributing). TESTED: 1 test file, 1 CI workflow.",
   "topics": [
@@ -1621,7 +1350,7 @@
   "repo": "grokgeneral",
   "status": "published",
   "branch": "main",
-  "commit": "359fab65370d5303bfa4a0de7536319eadf1bc41",
+  "commit": "ad9744f5c8b8c6d11b13ae6e03761ce5cf407004",
   "files": 25,
   "description": "The local kernel for the GrokBot ecosystem. Built in Python. 3 entry points (main.py, cli.py, index.html). TESTED: 37 test files.",
   "topics": [
@@ -1640,7 +1369,7 @@
   "repo": "grokinstall",
   "status": "published",
   "branch": "main",
-  "commit": "8f5144faaf7eca80668acc75f2afeebccbb9a73c",
+  "commit": "a14de165a7031c706d4a2ae4560491822c0e2210",
   "files": 25,
   "description": "Your context already has the answer. Built in Go. 3 entry points (cli.py, main.go). Live at grokinstall-website.vercel.app.",
   "topics": [
@@ -1660,7 +1389,7 @@
   "repo": "grokinstall-website",
   "status": "published",
   "branch": "main",
-  "commit": "91d81501e3e29d25df0f5a55cbea5a2aa8931560",
+  "commit": "1f1c5691cc38fcc47c0cc082d9093a90a272f6ef",
   "files": 25,
   "description": "grokinstall-website is a security project. Built in TypeScript. 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -1677,7 +1406,7 @@
   "repo": "grokmax",
   "status": "published",
   "branch": "main",
-  "commit": "3c3fd064536371cdbecf7a017ab28748c0b26152",
+  "commit": "23a4451860c37b5703f86d0efc1c1992096a5bfc",
   "files": 28,
   "description": "Scale down before you scale up. Built in TypeScript. 16 entry points (index.ts). Live at grokmax.noaerth.com.",
   "topics": [
@@ -1698,7 +1427,7 @@
   "repo": "grokmax-website",
   "status": "published",
   "branch": "main",
-  "commit": "ff01fda728d73e1b97480dad89ea5e53dfb0782d",
+  "commit": "ed5b93cb2080117da44223f2d347d8f4363524ec",
   "files": 28,
   "description": "grokmax-website is a web application project. Built in TypeScript on Next.js. One route (/). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -1718,50 +1447,23 @@
  },
  {
   "repo": "happyblock",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "7e7d2522de4e5d80c11d1d87ae1a381d678d8344",
-  "files": 22,
-  "description": "happyblock is a web application project. Built in Supabase. 23 routes (/about, /api/checkout, /contact); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "react",
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prototype",
-   "supabase",
-   "tailwind-css",
-   "web-application"
-  ]
+  "files": 22
  },
  {
   "repo": "imessage",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "b6df28da9da437285be0f62fb063c779ce525988",
-  "files": 22,
-  "description": "A small form for one consented iMessage. Built in Zod. One route (/api/send); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "react",
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prototype",
-   "web-application",
-   "zod"
-  ]
+  "files": 22
  },
  {
   "repo": "interceptorgrid",
   "status": "published",
   "branch": "main",
-  "commit": "c072644f9509ac672a8c3eca486f36228cfdf916",
+  "commit": "b52346bbe2269703c10c4c9f6b26059ab766f0c1",
   "files": 31,
   "description": "Security infrastructure for detecting and intercepting systemic risk. Built in Prisma, Zod. 19 routes (/about, /api/grid, /command); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -1783,7 +1485,7 @@
   "repo": "lagrangeos",
   "status": "published",
   "branch": "main",
-  "commit": "9d664fffb6dfda7f766f387a2d28fa196dfd706f",
+  "commit": "ca8eec265dc4935356fab6df5064831c68e2d1e7",
   "files": 31,
   "description": "Space infrastructure software for orbital operations and mission planning. Built in TypeScript on Next.js. 15 routes (/about, /contact, /dashboard); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -1804,7 +1506,7 @@
   "repo": "ledgerops-ai",
   "status": "published",
   "branch": "main",
-  "commit": "651cf6316037e9f31b57037481fd7cf49e5d884e",
+  "commit": "253cd5e37b1fab6d8472f9527da9633a9055ac22",
   "files": 31,
   "description": "A monthly close from pasted sample transactions. Built in Prisma, Zod. 19 routes (/about, /api/closes, /close); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -1826,7 +1528,7 @@
   "repo": "legacybridge",
   "status": "published",
   "branch": "main",
-  "commit": "e03e7af80676818d8aaff787015af3d71bec4792",
+  "commit": "fa4323de7f64a0f61098db3727785e80cb88d865",
   "files": 31,
   "description": "legacybridge is a web application project. Built in TypeScript on Next.js. 24 routes (/about, /api/checkout, /api/og); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -1848,7 +1550,7 @@
   "repo": "life-finds-a-way",
   "status": "published",
   "branch": "main",
-  "commit": "55ed6ecb8f3dff9bf24b46501c1f5820cd3a42c6",
+  "commit": "a04c22b743c67488abd31237bf58f839d95221d5",
   "files": 31,
   "description": "Biotech resilience ventures focused on adaptation and long-horizon survival. Built in TypeScript on Next.js. 17 routes (/about, /contact, /dashboard); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -1869,7 +1571,7 @@
   "repo": "loopcompute-cloud",
   "status": "published",
   "branch": "main",
-  "commit": "d170e27e7d5999d9681664d745cf98f401529277",
+  "commit": "ffcc4e11e88fce4b8ee16ea5c5810fd9c4e58d49",
   "files": 31,
   "description": "Cloud compute loops for teams shipping AI products at portfolio scale. Built in Prisma, Zod. 19 routes (/about, /api/workloads, /contact); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -1891,7 +1593,7 @@
   "repo": "lunarfoundry",
   "status": "published",
   "branch": "main",
-  "commit": "74b86380bff4cbeddb9d63e80e6a1a5df80820f1",
+  "commit": "68f6fc9bdc54127662932afd26afed0e054fddeb",
   "files": 31,
   "description": "Lunar and space-industrial systems for the next generation of builders. Built in Prisma, Zod. 19 routes (/about, /api/plans, /contact); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -1913,7 +1615,7 @@
   "repo": "luvconvos",
   "status": "published",
   "branch": "main",
-  "commit": "2a7bad7901394539fa9111c37024ec919956f09b",
+  "commit": "9a70ce3e2fad6cb3f85d47998c327ae6110fc071",
   "files": 31,
   "description": "luvconvos is a web application project. Built in Supabase, Zod. 24 routes (/about, /api/auth, /api/checkout); 1 entry point (index.html). PROTOTYPE: via Playwright, Vitest.",
   "topics": [
@@ -1933,30 +1635,16 @@
  },
  {
   "repo": "luvpartnr",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "ec07d0b523f79e3955c1bf8e60df28019f1502a2",
-  "files": 22,
-  "description": "Relationship intelligence with emotional depth. Built in Stripe, Supabase, Zod. 24 routes (/about, /api/analyze-entry, /api/analyze-message); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "react",
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prototype",
-   "stripe",
-   "supabase",
-   "web-application"
-  ]
+  "files": 22
  },
  {
   "repo": "luvstories",
   "status": "published",
   "branch": "main",
-  "commit": "5b045c08b1d486e6c7a268c38885d178009d302f",
+  "commit": "17095efe4c585866fabb190c521c02431de89c44",
   "files": 31,
   "description": "Private relationship intelligence for love stories. Built in Supabase, Zod. 20 routes (/about, /api/checkout, /auth/callback); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -1978,7 +1666,7 @@
   "repo": "morphui",
   "status": "published",
   "branch": "main",
-  "commit": "a767749a94ee843c1392587f968d9396d647c543",
+  "commit": "b9f8da875cf36d0f9d7d0676df41b29d9bd048b9",
   "files": 31,
   "description": "Morphing UI systems for faster product design and interface iteration. Built in Prisma, Zod. 18 routes (/about, /api/morph, /contact); 1 entry point (index.html). TESTED: 1 test file.",
   "topics": [
@@ -2000,7 +1688,7 @@
   "repo": "n1-therapeutics",
   "status": "published",
   "branch": "main",
-  "commit": "084d0e84d0af77aad981db22d7c8ccc01e9aa253",
+  "commit": "b24f4088fc589da382ad4f6eb0216e4c4d7365ae",
   "files": 31,
   "description": "An educational worksheet for a physician conversation. Built in Prisma, Zod. 20 routes (/about, /api/sessions, /contact); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -2022,7 +1710,7 @@
   "repo": "nex-robotix",
   "status": "published",
   "branch": "main",
-  "commit": "52e1392f1f8670152ed9c9cae86b989746b8ffe1",
+  "commit": "d3a576603cabbe64df0eb1b615861ac5318d8f1d",
   "files": 31,
   "description": "nex-robotix is a web application project. Built in TypeScript on Next.js. 24 routes (/about, /contact, /dashboard); 2 entry points (index.html, index.ts). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -2044,7 +1732,7 @@
   "repo": "node_modules",
   "status": "published",
   "branch": "main",
-  "commit": "e80febefef1ef7a888769044a2a17367c2c14d6a",
+  "commit": "bac45141aa626cdbf0d220d93993ec1c33b13dc2",
   "files": 28,
   "description": "Committed dependency tree, not a project. Vendored npm packages are tracked here by accident; the real work lives in the sibling repositories.",
   "topics": [
@@ -2066,7 +1754,7 @@
   "repo": "obviouslybad",
   "status": "published",
   "branch": "main",
-  "commit": "e32daa3dab51cffb0afd261ed14726ac1825e9b9",
+  "commit": "d3b9bda244a4b82fe279e29118e763db0c61a69d",
   "files": 31,
   "description": "Decision clarity for ideas that fail the obvious test. Built in TypeScript on Next.js. 16 routes (/about, /contact, /dashboard); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -2087,7 +1775,7 @@
   "repo": "oddbotix",
   "status": "published",
   "branch": "main",
-  "commit": "172872583b945ad736b32c63c968e2d0c7814fc4",
+  "commit": "8e2ad9fbea427bf49e1a9293c804b1bf09a56099",
   "files": 31,
   "description": "oddbotix is a web application project. Built in TypeScript on Next.js. 24 routes (/about, /applications, /careers); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -2107,29 +1795,16 @@
  },
  {
   "repo": "oodax",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "9b9d3e6895b7e119b4430ee3277a6d2e43bf87a1",
-  "files": 22,
-  "description": "Odd-axis intelligence ventures exploring non-obvious product and market angles. Built in TypeScript on Next.js. 15 routes (/about, /contact, /dashboard); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "react",
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prototype",
-   "tailwind-css",
-   "web-application"
-  ]
+  "files": 22
  },
  {
   "repo": "opencode-watchdog",
   "status": "published",
   "branch": "main",
-  "commit": "eea382072ac01ce1273bf1d36b18c4e8cb80bdad",
+  "commit": "ee96316202057d9a010ac038dfd7e64460aec2f6",
   "files": 25,
   "description": "A local circuit breaker for runaway OpenCode sessions. Built in TypeScript. 1 entry point (index.ts). Live at opencode-watchdog.vercel.app.",
   "topics": [
@@ -2147,29 +1822,16 @@
  },
  {
   "repo": "opencode-watchdog-website",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "251b5cea53900eda5afc9eebf8330d1eec8c333a",
-  "files": 19,
-  "description": "opencode-watchdog-website is a web application project. Built in TypeScript on Next.js. One route (/commands). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "react",
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prototype",
-   "tailwind-css",
-   "web-application"
-  ]
+  "files": 19
  },
  {
   "repo": "opsautopilot",
   "status": "published",
   "branch": "main",
-  "commit": "84cc150bfe34be09128968fa3179481787fd9a88",
+  "commit": "63f482410c21e8c303fdc98ed2931608e5b54455",
   "files": 31,
   "description": "Operations autopilot for recurring workflows across growing companies. Built in Prisma, Zod. 18 routes (/about, /api/simulations, /contact); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -2191,7 +1853,7 @@
   "repo": "orbitchip",
   "status": "published",
   "branch": "main",
-  "commit": "56bd79ef312a4f53ccf1e05d3d17084ab6206897",
+  "commit": "07065186b5b38922709ed6da62405a3bba0e35c1",
   "files": 31,
   "description": "Orbital and semiconductor-adjacent systems for space-era hardware. Built in Prisma, Zod. 19 routes (/about, /api/reports, /configure); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -2213,7 +1875,7 @@
   "repo": "orbitprint",
   "status": "published",
   "branch": "main",
-  "commit": "0223e2e030e2d650748eb1b6c0b40b13a2a89940",
+  "commit": "7edc3fd1480ee7e8c0ef9c060d10b54b2ee3207d",
   "files": 31,
   "description": "Orbital manufacturing and print concepts for space industrialization. Built in Prisma, Zod. 19 routes (/about, /api/plans, /configure); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -2233,30 +1895,16 @@
  },
  {
   "repo": "poolwater",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "65f6fda29e88120d62974a5c1b9fb892a77f2a5d",
-  "files": 22,
-  "description": "A late-night game-room venue combining pool, arcade, food, and social energy in one premium room. Built in Supabase. 24 routes (/about, /admin, /api/admin/overview); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "react",
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prototype",
-   "supabase",
-   "tailwind-css",
-   "web-application"
-  ]
+  "files": 22
  },
  {
   "repo": "psychemap",
   "status": "published",
   "branch": "main",
-  "commit": "86535585b2485fce67090787dee9cccd311f3eb5",
+  "commit": "a8e72d86b1ed194d44a0a90d8391a5e69d42ceb5",
   "files": 22,
   "description": "psychemap is a web application project. Built in TypeScript on Next.js. 24 routes (/about, /atlas, /contact); 2 entry points (index.html, index.ts). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -2274,30 +1922,16 @@
  },
  {
   "repo": "readablestack",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "6f9386d44d22d10abc59ad198c1f3a0dd63f4d12",
-  "files": 22,
-  "description": "Readable developer infrastructure for teams maintaining complex stacks. Built in Prisma, Zod. 19 routes (/about, /api/convert, /contact); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prisma",
-   "prototype",
-   "react",
-   "tailwind-css",
-   "web-application"
-  ]
+  "files": 22
  },
  {
   "repo": "redwoud",
   "status": "published",
   "branch": "main",
-  "commit": "95247732af8b6027c2d5088efee6ad3981a4360f",
+  "commit": "3ddbba8290fc8f1f192aeedbdb0b8426bbf9dfbc",
   "files": 31,
   "description": "Strategic intelligence and signal surfaces for operators who need sharper market reads. Built in Supabase. 24 routes (/_error, /about, /alerts); 1 entry point (index.html). Live at redwoud.noaerth.com.",
   "topics": [
@@ -2319,7 +1953,7 @@
   "repo": "reviewforge-ai",
   "status": "published",
   "branch": "main",
-  "commit": "ed185a97110c893ae4c1aef36f6e0986e3fc78e5",
+  "commit": "65450e8fa32ead2d1c27bcb2dbb2d23631915f97",
   "files": 31,
   "description": "A review-workflow concept. Built in TypeScript on Next.js. 15 routes (/about, /contact, /dashboard); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -2340,7 +1974,7 @@
   "repo": "saeturtle",
   "status": "published",
   "branch": "main",
-  "commit": "a7155d8f9942a4631564d186b84c4241592b03e6",
+  "commit": "4da03a957d80ffba6bdbb34747940fe4a05736bf",
   "files": 22,
   "description": "saeturtle is a web application project. Built in Supabase. 21 routes (/about, /api/checkout, /api/recommendations); 2 entry points (index.html, index.ts). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -2361,7 +1995,7 @@
   "repo": "seai-mind",
   "status": "published",
   "branch": "main",
-  "commit": "70653e9ed4e8fc0c392aac137d2343be6095fd05",
+  "commit": "cc30e34def9e1eee8dc4e95f66f2550f7ab07314",
   "files": 28,
   "description": "A small kernel for a mind that can be measured. Built in Zod. 7 entry points (index.ts). Live at seai-mind.vercel.app.",
   "topics": [
@@ -2381,30 +2015,16 @@
  },
  {
   "repo": "siliconcontrol-tower",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "9e0ef87b96a7a0a011a628d6ed9fc738e53e4688",
-  "files": 22,
-  "description": "Control tower visibility for silicon, supply, and hardware programs. Built in Prisma, Zod. 19 routes (/about, /api/tower, /contact); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prisma",
-   "prototype",
-   "react",
-   "tailwind-css",
-   "web-application"
-  ]
+  "files": 22
  },
  {
   "repo": "spacecompute-cloud",
   "status": "published",
   "branch": "main",
-  "commit": "98a1a67774f4bc879cae884e44ab56ec3674a874",
+  "commit": "f7cfa88d7a441c42b43af3d06327c54b0dc67c27",
   "files": 31,
   "description": "Space-grade cloud compute for missions, simulation, and payloads. Built in Prisma, Zod. 19 routes (/about, /api/plans, /contact); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -2426,7 +2046,7 @@
   "repo": "spaceedu",
   "status": "published",
   "branch": "main",
-  "commit": "21917214fdd32d9e53b2ed83cf8d201fe1b44f65",
+  "commit": "f4425aa9cb5d977cf2d0ca723a4c0aa1aa8299a7",
   "files": 31,
   "description": "spaceedu is a web application project. Built in Supabase. 24 routes (/about, /account, /admin); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -2448,7 +2068,7 @@
   "repo": "src",
   "status": "published",
   "branch": "main",
-  "commit": "f7e2c94da8154d90a73bb23a28c5454de1029b79",
+  "commit": "f73da320726e06f33ce226d3e2172a3139e48568",
   "files": 19,
   "description": "src is a software project. Built in TypeScript. One route (/api/waitlist). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -2465,7 +2085,7 @@
   "repo": "startupquick",
   "status": "published",
   "branch": "main",
-  "commit": "4bee24ea2dc30e41ef88c5abdc375fcd13b0e92c",
+  "commit": "e21d4205aac5c9386f95baa5e159dabd4274f858",
   "files": 31,
   "description": "Launch before the momentum fades. Built in Stripe, Supabase. 24 routes (/about, /api/assets/upload, /api/checkout); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -2487,7 +2107,7 @@
   "repo": "strxngth",
   "status": "published",
   "branch": "main",
-  "commit": "d6e9b3a257ccc1ef2bfcd54f6f0c4712cc7142e0",
+  "commit": "db6fcde1596933c021d4ff08780141209a6a5204",
   "files": 31,
   "description": "Strength systems for disciplined bodies. Built in OpenAI SDK, Supabase, Zod. 18 routes (/about, /api/generate-plan, /contact); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -2509,7 +2129,7 @@
   "repo": "styles",
   "status": "published",
   "branch": "main",
-  "commit": "9952b33630f373e3971323d7e7325771c3fb558c",
+  "commit": "57d57e94d900b3fab901143f1994984d536035f8",
   "files": 19,
   "description": "Documentation and placeholder repository for styles. 6 file(s) committed, no executable code detected.",
   "topics": [
@@ -2521,30 +2141,16 @@
  },
  {
   "repo": "supplyos-ai",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "2cdb73f3a2d62ee7ba77621099c07039cff38a83",
-  "files": 22,
-  "description": "AI operating layer for supply chain visibility and coordination. Built in Prisma, Zod. 19 routes (/about, /api/risk, /contact); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prisma",
-   "prototype",
-   "react",
-   "tailwind-css",
-   "web-application"
-  ]
+  "files": 22
  },
  {
   "repo": "swarmshield",
   "status": "published",
   "branch": "main",
-  "commit": "3c0a224d9ab1dc4c8ac0307b6d9a58e1ad93c6d8",
+  "commit": "f56570aed252960aa383de353871ca3fd3c53b39",
   "files": 31,
   "description": "Defense against coordinated attacks, bots, and swarm-style threats. Built in TypeScript on Next.js. 15 routes (/about, /contact, /dashboard); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -2565,7 +2171,7 @@
   "repo": "tempoos",
   "status": "published",
   "branch": "main",
-  "commit": "4dbb692efca01e08c0c4e977740afc80188693cc",
+  "commit": "5495268a4f19700db2d866206e7be16a6ed4d62c",
   "files": 22,
   "description": "tempoos is a web application project. Built in Supabase, Zod. 20 routes (/about, /api/checkout, /contact); 3 entry points (index.html, index.ts). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -2586,7 +2192,7 @@
   "repo": "trajectoryos",
   "status": "published",
   "branch": "main",
-  "commit": "0436db7e114f9fc1e1ffd200a065d4333ba1f071",
+  "commit": "ce64bc52c40dc8083b45559e1cd6590c6e914e70",
   "files": 22,
   "description": "Trajectory intelligence for ventures, markets, and strategic positioning. Built in TypeScript on Next.js. 15 routes (/about, /contact, /dashboard); 2 entry points (index.html, index.ts). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -2604,29 +2210,16 @@
  },
  {
   "repo": "useros",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "07181e4946eb90c6a73999fa55c2ab116bbbec83",
-  "files": 22,
-  "description": "Personal operating systems for identity, habits, and self-direction. Built in TypeScript on Next.js. 15 routes (/about, /contact, /dashboard); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "react",
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prototype",
-   "tailwind-css",
-   "web-application"
-  ]
+  "files": 22
  },
  {
   "repo": "uxvisualengine",
   "status": "published",
   "branch": "main",
-  "commit": "1ce42da982b97478f7f257bfa2ef72235148f30d",
+  "commit": "c10bbd77c332cafa5b3e2db68342407cacc46311",
   "files": 31,
   "description": "Generate cleaner interfaces, faster. Built in TypeScript on Next.js. 22 routes (/api/audit, /api/baseline, /api/checkout); 5 entry points (index.html, index.js, index.ts). TESTED: 13 test files, via Playwright.",
   "topics": [
@@ -2648,7 +2241,7 @@
   "repo": "valuedsociety",
   "status": "published",
   "branch": "main",
-  "commit": "fe3998f20280c6a2d42bf33fb28004bb23f93317",
+  "commit": "4c38d2a37aa668f030d2df0d9c39b56365b5a35d",
   "files": 22,
   "description": "valuedsociety is a web application project. Built in Supabase. 19 routes (/about, /api/checkout, /api/waitlist); 2 entry points (index.html, index.ts). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -2669,7 +2262,7 @@
   "repo": "vencapmentor",
   "status": "published",
   "branch": "main",
-  "commit": "fd818508d1ac85d43a8179b98f35edc19fc19eab",
+  "commit": "389a0e40da9ed1ef806ff8220a12a57912ab2de8",
   "files": 31,
   "description": "Venture capital literacy for builders. Built in OpenAI SDK, Supabase. 20 routes (/about, /api/checkout, /api/mentor); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -2691,7 +2284,7 @@
   "repo": "vizuler",
   "status": "published",
   "branch": "main",
-  "commit": "b0fa1ff8f4781f5721b60d9eb5077628d4a33b94",
+  "commit": "ffc098f1c09c59827461e625e2f2581653e2c602",
   "files": 31,
   "description": "A visual storytelling system for turning ideas, demos, and interfaces into clearer product experiences. Built in TypeScript on Next.js. 15 routes (/about, /contact, /dashboard); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -2712,7 +2305,7 @@
   "repo": "why-are-you-here",
   "status": "published",
   "branch": "main",
-  "commit": "b866b1eb75ac7a7041e6a58f3d2a148807dc5df8",
+  "commit": "27d09143c6ed4b32fa3113f125000157dbdd24cb",
   "files": 19,
   "description": "Documentation and placeholder repository for why-are-you-here. 4 file(s) committed, no executable code detected.",
   "topics": [
@@ -2725,7 +2318,7 @@
   "repo": "workflowcanvas",
   "status": "published",
   "branch": "main",
-  "commit": "57cff78114223cb473b565ce645704dae7d299d4",
+  "commit": "53a48f3083d7b89f425b894caebbfbd7789763b2",
   "files": 31,
   "description": "Canvas-based workflow design for teams automating complex operations. Built in Prisma, Zod. 19 routes (/about, /api/canvas, /contact); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [
@@ -2745,29 +2338,16 @@
  },
  {
   "repo": "youareprofound",
-  "status": "published",
+  "status": "unchanged",
   "branch": "main",
   "commit": "73a7683813dc7a8198b26fabe795ecaa2e2f4461",
-  "files": 22,
-  "description": "Reinforce self-worth, depth, and perspective. Built in TypeScript on Next.js. 17 routes (/about, /api/checkout, /app); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
-  "topics": [
-   "react",
-   "typescript",
-   "app",
-   "components",
-   "dung30n5",
-   "next-js",
-   "noaerth",
-   "prototype",
-   "tailwind-css",
-   "web-application"
-  ]
+  "files": 22
  },
  {
   "repo": "zaeux",
   "status": "published",
   "branch": "main",
-  "commit": "f6a1c9e42bea24a5cb70f9daf8fd54ee39e680e7",
+  "commit": "debc11eb454172f5a50f4f0a546cc56bd670d495",
   "files": 31,
   "description": "A finance and crypto concept exploring digital asset coordination, trust, and product clarity. Built in Supabase, Zod. 22 routes (/about, /api/checkout, /api/waitlist); 1 entry point (index.html). PROTOTYPE. No test suite committed.",
   "topics": [

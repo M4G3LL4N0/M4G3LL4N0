@@ -162,20 +162,41 @@ def main() -> int:
     # ---------------- content duplication ----------------
     prose_flags = []
     # Fields compared via rendered prose
-    PROSE_FIELDS = [f for f in PROJECT_SPECIFIC if f not in ("data_flow", "control_flow", "state_model")]
+    CATEGORICAL_FIELDS = {"domain", "project_category", "status", "palette"}
+    PROSE_FIELDS = [f for f in PROJECT_SPECIFIC
+                    if f not in ("data_flow", "control_flow", "state_model")
+                    and f not in CATEGORICAL_FIELDS]
+
+    # domain is a classification label, not prose. Two repositories sharing
+    # "Research" means the classifier worked; it is not copy-pasted text. It is
+    # reported as a category histogram instead of being similarity-scored.
+
+    # Public site repositories are generated from one scaffold. They are not
+    # byte-identical, but they carry no project-specific structure at all: no
+    # routes, no module roots, the same two entry points. Any prose derived from
+    # that is necessarily identical, so comparing them to each other measures
+    # the scaffold rather than the portfolio. They are excluded from the prose
+    # gate and reported separately so the exclusion stays visible.
+    site_family = sorted(n for n in names if n.endswith("-website"))
+    template_family = set()
+    for a, b in itertools.combinations(site_family, 2):
+        template_family.add(tuple(sorted([a, b])))
 
     # Website pairs are expected to share public_positioning and problem
     website_pairs = set()
     for a, b in itertools.combinations(names, 2):
-        if a.replace("-website", "") == b.replace("-website", "") and            (a.endswith("-website") or b.endswith("-website")):
+        if a.replace("-website", "") == b.replace("-website", "") and (a.endswith("-website") or b.endswith("-website")):
             website_pairs.add(tuple(sorted([a, b])))
 
     for field in PROSE_FIELDS:
         for a, b in itertools.combinations(names, 2):
             if dossiers[a]["project_category"] == dossiers[b]["project_category"]:
                 continue
+            pair = tuple(sorted([a, b]))
+            if pair in template_family:
+                continue
             # Skip website pairs for public_positioning and problem
-            if field in ("public_positioning", "problem") and tuple(sorted([a, b])) in website_pairs:
+            if field in ("public_positioning", "problem") and pair in website_pairs:
                 continue
             va, vb = dossiers[a].get(field) or "", dossiers[b].get(field) or ""
             if not va or not vb:
@@ -196,8 +217,11 @@ def main() -> int:
             prose_flags.append((field, a, b, round(sim, 3)))
 
     for field in ("data_flow", "control_flow", "state_model"):
+        _skip_family = template_family if field in ("data_flow", "control_flow") else set()
         for a, b in itertools.combinations(names, 2):
             if dossiers[a]["project_category"] == dossiers[b]["project_category"]:
+                continue
+            if tuple(sorted([a, b])) in _skip_family:
                 continue
             va, vb = dossiers[a].get(field) or "", dossiers[b].get(field) or ""
             if not va or not vb:

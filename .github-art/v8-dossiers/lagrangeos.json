@@ -1,139 +1,156 @@
 {
- "API": [],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "simulator",
- "CS_visual_2": "",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "stepped terrain with a live probe path",
- "architecture": "DOCUMENT",
- "audience": "",
- "canonical_name": "LagrangeOS",
- "concurrency_model": "",
+ "repo": "lagrangeos",
+ "canonical_name": "lagrangeos",
+ "project_category": "WEB_APPLICATION",
+ "palette": "graphite_coral",
  "confidence": "E3",
- "control_flow": "control for lagrangeos enters at public-site/index.html and dispatches to 1 entry points across 1 routes (/) using Next.js",
+ "status": "PROTOTYPE",
+ "has_code": true,
+ "domain": "Space Infrastructure",
+ "audience": "developer",
+ "problem": "Space infrastructure software for orbital operations and mission planning.",
+ "public_positioning": "Space infrastructure software for orbital operations and mission planning.",
+ "website_positioning": "Space infrastructure software for orbital operations and mission planning.",
+ "data_flow": "15 App Router endpoints including /about, /contact, /dashboard, /demo",
+ "control_flow": "public-site/index.html boots 3 module(s) (app, components) and serves 15 route(s) beginning /about, /contact",
+ "state_model": "simulator",
+ "state_model_note": "1 computer-science primitive(s) matched in source",
+ "architecture": "3 top-level module boundaries: app, components, src",
+ "terminal_story": "public-site/index.html -> 15 routes, 3 modules, 926 files",
+ "terminal_lines": [
+  "public-site/index.html"
+ ],
+ "interfaces": [
+  "public-site/index.html"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/contact",
+  "/dashboard",
+  "/demo",
+  "/docs"
+ ],
+ "workflow_steps": [
+  "app",
+  "components",
+  "src"
+ ],
+ "major_modules": [
+  "app",
+  "components",
+  "src"
+ ],
  "cs_primitives": [
   "simulator"
  ],
- "data_flow": "Simulation: requests traverse 1 routes (/)",
- "data_structures": [],
- "description": "LagrangeOS: a simulation, structured around simulator.",
- "domain": "Simulation",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "SUPPORTED_INFERENCE",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "SUPPORTED_INFERENCE",
-  "data_flow": "FACT",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 925,
+ "security_model": [],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "tessellate over routes /about, /contact, /dashboard; modules app, components, src; primitives simulator",
+ "secondary_visual_metaphor": "primitives simulator; stack Next.js, React, Tailwind CSS; top module app",
+ "geometry_set": "ring",
+ "animation_story_1": "tessellate",
+ "entry_points": [
+  "public-site/index.html"
+ ],
+ "routes": [
+  "/",
+  "/about",
+  "/contact",
+  "/dashboard",
+  "/demo",
+  "/docs",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/support",
+  "/terms",
+  "/trust"
+ ],
  "frameworks": [
   "Next.js",
   "React",
-  "Tailwind CSS",
-  "Vercel AI SDK"
+  "Tailwind CSS"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [],
- "interfaces": [
-  "CLI entry points",
-  "1 HTTP routes"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "TypeScript"
- ],
- "major_modules": [
-  ".autobuilder",
-  ".startup",
-  "components",
-  "public-site",
-  "venture-os"
- ],
- "outputs": [],
- "palette": "plum_azure",
- "primary_visual_metaphor": "stepped terrain with a live probe path",
- "problem": "LagrangeOS is an AI-native experimental astrodynamics and space autonomy infrastructure startup. It helps mission teams design trajectories, simulate uncertainty, validate autonomy logic, rank maneuver strategies, and export orbital decision intelligence.",
- "project_category": "SIMULATION",
- "public_positioning": "Space infrastructure software for orbital operations and mission planning.",
- "purpose": "Startup portfolio: lagrangeos",
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "3",
   "tags": 0
  },
- "secondary_visual_metaphor": "simulator structure in simulation",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "portfolio",
- "state_model": "simulator with 1 cooperating structures",
- "status": "PROTOTYPE",
- "technical_category": "simulation",
- "terminal_story": "operator runs LagrangeOS (TypeScript) from the command line; output resolves as a tree [lagrangeos]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/contact",
+   "/dashboard",
+   "/demo",
+   "/docs",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/support",
+   "/terms",
+   "/trust"
+  ],
+  "entry_points": [
+   "public-site/index.html"
+  ],
+  "modules": [
+   "app",
+   "components",
+   "src"
+  ],
+  "frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "cs_primitives": [
+   "simulator"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 926,
+  "test_count": 0,
+  "shared_template_files": 47
  },
- "topics": [
-  "simulation",
-  "typescript",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

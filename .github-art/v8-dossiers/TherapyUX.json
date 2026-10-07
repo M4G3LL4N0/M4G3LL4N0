@@ -1,146 +1,195 @@
 {
- "API": [
-  "/sessions"
- ],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "crypto",
- "CS_visual_2": "",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "vital signs plotted against clinical thresholds",
- "architecture": "DATA_FLOW",
- "audience": "",
+ "repo": "TherapyUX",
  "canonical_name": "TherapyUX",
- "concurrency_model": "",
+ "project_category": "WEB_APPLICATION",
+ "palette": "rust_teal",
  "confidence": "E3",
- "control_flow": "control for TherapyUX enters at hooks/index.ts and dispatches to 5 entry points across 1 routes (/sessions) using Next.js",
- "cs_primitives": [
-  "crypto"
- ],
- "data_flow": "Health: requests traverse 1 routes (/sessions)",
- "data_structures": [],
- "description": "TherapyUX: a health tool, structured around crypto.",
- "domain": "Health",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "SUPPORTED_INFERENCE",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "FACT",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "SUPPORTED_INFERENCE",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 989,
- "frameworks": [
-  "Next.js",
-  "React",
-  "Tailwind CSS",
-  "Vercel AI SDK"
- ],
+ "status": "PROTOTYPE",
  "has_code": true,
- "homepage": "",
- "inputs": [],
+ "domain": "Education",
+ "audience": "developer",
+ "problem": "Adaptive therapy support built around you.",
+ "public_positioning": "Adaptive therapy support built around you.",
+ "website_positioning": "Adaptive therapy support built around you.",
+ "data_flow": "24 App Router endpoints including /about, /api/waitlist, /app/sessions, /app/sessions/new",
+ "control_flow": "hooks/index.ts boots 5 module(s) (app, components) and serves 24 route(s) beginning /about, /api/waitlist",
+ "state_model": "crypto",
+ "state_model_note": "1 computer-science primitive(s) matched in source",
+ "architecture": "5 top-level module boundaries: app, components, hooks, lib, types",
+ "terminal_story": "hooks/index.ts | lib/index.ts | supabase/index.ts | public-site/index.html -> 24 routes, 5 modules, 990 files",
+ "terminal_lines": [
+  "hooks/index.ts",
+  "lib/index.ts",
+  "supabase/index.ts",
+  "public-site/index.html"
+ ],
  "interfaces": [
-  "CLI entry points",
-  "1 HTTP routes"
+  "hooks/index.ts",
+  "lib/index.ts",
+  "lib/supabase/index.ts"
  ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/api/waitlist",
+  "/app/sessions",
+  "/app/sessions/new",
+  "/contact"
  ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "TypeScript"
- ],
- "major_modules": [
-  ".autobuilder",
-  ".startup",
+ "workflow_steps": [
   "app",
   "components",
   "hooks",
   "lib",
-  "public-site",
-  "types",
-  "venture-os"
+  "types"
  ],
- "outputs": [],
- "palette": "cream_orange",
- "primary_visual_metaphor": "vital signs plotted against clinical thresholds",
- "problem": "Adaptive therapy support built around you.",
- "project_category": "HEALTH",
- "public_positioning": "Adaptive therapy support built around you.",
- "purpose": "TherapyUX is a health codebase of 989 files organised around crypto.",
+ "major_modules": [
+  "app",
+  "components",
+  "hooks",
+  "lib",
+  "types"
+ ],
+ "cs_primitives": [
+  "crypto"
+ ],
+ "security_model": [
+  "crypto"
+ ],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "grid_snap over routes /about, /api/waitlist, /app/sessions; modules app, components, hooks; primitives crypto",
+ "secondary_visual_metaphor": "primitives crypto; stack Next.js, React, Tailwind CSS; top module app",
+ "geometry_set": "arch",
+ "animation_story_1": "grid_snap",
+ "entry_points": [
+  "hooks/index.ts",
+  "lib/index.ts",
+  "lib/supabase/index.ts",
+  "public-site/index.html",
+  "types/index.ts"
+ ],
+ "routes": [
+  "/",
+  "/about",
+  "/api/waitlist",
+  "/app/sessions",
+  "/app/sessions/:sessionId",
+  "/app/sessions/new",
+  "/contact",
+  "/dashboard",
+  "/demo",
+  "/docs",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/modes",
+  "/modes/:modeId",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/recovery-map",
+  "/sessions",
+  "/sessions/:sessionId",
+  "/sessions/new",
+  "/settings",
+  "/support"
+ ],
+ "frameworks": [
+  "Next.js",
+  "React",
+  "Tailwind CSS"
+ ],
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
+ ],
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "70",
   "tags": 0
  },
- "secondary_visual_metaphor": "crypto structure in health",
- "security_model": [
-  "cryptographic verification"
- ],
- "source_origin": "portfolio",
- "state_model": "crypto with 1 cooperating structures",
- "status": "PROTOTYPE",
- "technical_category": "health-tech",
- "terminal_story": "operator runs TherapyUX (TypeScript) from the command line; output resolves as a tree [TherapyUX]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/api/waitlist",
+   "/app/sessions",
+   "/app/sessions/:sessionId",
+   "/app/sessions/new",
+   "/contact",
+   "/dashboard",
+   "/demo",
+   "/docs",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/modes",
+   "/modes/:modeId",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/recovery-map",
+   "/sessions",
+   "/sessions/:sessionId",
+   "/sessions/new",
+   "/settings",
+   "/support"
+  ],
+  "entry_points": [
+   "hooks/index.ts",
+   "lib/index.ts",
+   "lib/supabase/index.ts",
+   "public-site/index.html",
+   "types/index.ts"
+  ],
+  "modules": [
+   "app",
+   "components",
+   "hooks",
+   "lib",
+   "types"
+  ],
+  "frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "cs_primitives": [
+   "crypto"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 990,
+  "test_count": 0,
+  "shared_template_files": 34
  },
- "topics": [
-  "health-tech",
-  "typescript",
-  "health",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

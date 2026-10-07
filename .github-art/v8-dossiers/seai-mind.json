@@ -1,44 +1,59 @@
 {
- "API": [
-  "/app",
-  "/architecture",
-  "/benchmarks",
-  "/docs",
-  "/evolution",
-  "/license",
-  "/minds",
-  "/privacy"
- ],
- "CI": {
-  "present": true,
-  "workflow_count": 1,
-  "workflows": [
-   ".github/workflows/ci.yml"
-  ]
- },
- "CLI": true,
- "CS_visual_1": "benchmark",
- "CS_visual_2": "policy",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "technical_evidence",
-  "status",
-  "limitations"
- ],
- "algorithms": [
-  "ast"
- ],
- "animation_story_1": "stepped terrain with a live probe path",
- "architecture": "AGENT_LOOP",
- "audience": "",
- "canonical_name": "SE-AI Mind",
- "concurrency_model": "",
+ "repo": "seai-mind",
+ "canonical_name": "seai-mind",
+ "project_category": "WEB_APPLICATION",
+ "palette": "rust_teal",
  "confidence": "E3",
- "control_flow": "control for seai-mind enters at packages/cli/src/index.ts and dispatches to 7 entry points across 12 routes (/app, /architecture, /benchmarks) using Jest",
+ "status": "LIVE",
+ "has_code": true,
+ "domain": "Research",
+ "audience": "developer",
+ "problem": "A small kernel for a mind that can be measured.",
+ "public_positioning": "A small kernel for a mind that can be measured.",
+ "website_positioning": "A small kernel for a mind that can be measured.",
+ "data_flow": "7 entry point(s) with no routable HTTP surface: packages/cli/src/index.ts, packages/core/src/index.ts, packages/mind/src/index.ts",
+ "control_flow": "7 entry point(s) with no HTTP layer: index.ts, index.ts, index.ts",
+ "state_model": "benchmark, policy, simulator, stack",
+ "state_model_note": "6 computer-science primitive(s) matched in source",
+ "architecture": "8 top-level module boundaries: packages, packages/cli, packages/core, packages/mind, packages/runtime",
+ "terminal_story": "src/index.ts | src/index.ts | src/index.ts | src/index.ts -> 0 routes, 8 modules, 210 files",
+ "terminal_lines": [
+  "src/index.ts",
+  "src/index.ts",
+  "src/index.ts",
+  "src/index.ts"
+ ],
+ "interfaces": [
+  "packages/cli/src/index.ts",
+  "packages/core/src/index.ts",
+  "packages/mind/src/index.ts"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "packages/cli/src/index.ts",
+  "packages/core/src/index.ts",
+  "packages/mind/src/index.ts",
+  "packages/runtime/src/index.ts",
+  "packages/sdk/src/index.ts"
+ ],
+ "workflow_steps": [
+  "packages",
+  "packages/cli",
+  "packages/core",
+  "packages/mind",
+  "packages/runtime"
+ ],
+ "major_modules": [
+  "packages",
+  "packages/cli",
+  "packages/core",
+  "packages/mind",
+  "packages/runtime",
+  "packages/sdk",
+  "packages/state",
+  "web"
+ ],
  "cs_primitives": [
   "benchmark",
   "policy",
@@ -47,109 +62,140 @@
   "ast",
   "terminal"
  ],
- "data_flow": "Simulation: requests traverse 12 routes (/app, /architecture, /benchmarks, /docs)",
- "data_structures": [
-  "stack"
+ "security_model": [
+  "policy"
  ],
- "description": "SE-AI Mind: a simulation, structured around benchmark.",
- "domain": "Simulation",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "FACT",
-  "README_outline": "FACT",
-  "algorithms": "FACT",
-  "api": "FACT",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "FACT",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "FACT",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 209,
+ "concurrency_model": [],
+ "primary_visual_metaphor": "bar_sweep over modules packages, packages/cli, packages/core; primitives benchmark, policy, simulator",
+ "secondary_visual_metaphor": "primitives benchmark, policy, simulator; stack Zod; top module packages",
+ "geometry_set": "ring",
+ "animation_story_1": "bar_sweep",
+ "entry_points": [
+  "packages/cli/src/index.ts",
+  "packages/core/src/index.ts",
+  "packages/mind/src/index.ts",
+  "packages/runtime/src/index.ts",
+  "packages/sdk/src/index.ts",
+  "packages/state/src/index.ts",
+  "web/src/lib/content/index.ts"
+ ],
+ "routes": [],
  "frameworks": [
-  "Jest",
   "Next.js",
   "React",
   "Tailwind CSS",
-  "Vercel AI SDK",
   "Vitest",
   "Zod"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [],
- "interfaces": [
-  "CLI entry points",
-  "12 HTTP routes"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json",
+  "packages/cli/package.json",
+  "packages/core/package.json",
+  "packages/mind/package.json",
+  "packages/runtime/package.json",
+  "packages/sdk/package.json",
+  "packages/state/package.json",
+  "web/package.json"
  ],
- "known_limitations": [],
- "languages": [
-  "CSS",
-  "JavaScript",
-  "TypeScript"
- ],
- "major_modules": [
-  "web"
- ],
- "outputs": [],
- "palette": "plum_azure",
- "primary_visual_metaphor": "stepped terrain with a live probe path",
- "problem": "Open-source self-evolving AI kernel. Small kernel, growing intelligence: Minds + Models + Memory + Skills + Tools + Evolution + Evaluation.",
- "project_category": "SIMULATION",
- "public_positioning": "A small kernel for a mind that can be measured.",
- "purpose": "Open-source self-evolving AI kernel with an auditable memory and capability loop.",
+ "testing": {
+  "present": true,
+  "count": 12,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 1,
   "commits": "23",
   "tags": 1
  },
- "secondary_visual_metaphor": "benchmark structure in simulation",
- "security_model": [
-  "policy evaluation"
- ],
- "source_origin": "portfolio",
- "state_model": "benchmark with 6 cooperating structures",
- "status": "ACTIVE",
- "technical_category": "simulation",
- "terminal_story": "operator runs SE-AI Mind (TypeScript) from the command line; output resolves as a tree [seai-mind]",
- "testing": {
-  "count": 12,
-  "note": "counted from the repository tree, not executed",
-  "present": true
+ "evidence": {
+  "distinctive_frameworks": [
+   "Zod"
+  ],
+  "test_frameworks": [
+   "Vitest"
+  ],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [],
+  "entry_points": [
+   "packages/cli/src/index.ts",
+   "packages/core/src/index.ts",
+   "packages/mind/src/index.ts",
+   "packages/runtime/src/index.ts",
+   "packages/sdk/src/index.ts",
+   "packages/state/src/index.ts",
+   "web/src/lib/content/index.ts"
+  ],
+  "modules": [
+   "packages",
+   "packages/cli",
+   "packages/core",
+   "packages/mind",
+   "packages/runtime",
+   "packages/sdk",
+   "packages/state",
+   "web"
+  ],
+  "frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS",
+   "Vitest",
+   "Zod"
+  ],
+  "cs_primitives": [
+   "benchmark",
+   "policy",
+   "simulator",
+   "stack",
+   "ast",
+   "terminal"
+  ],
+  "manifests": [
+   "package.json",
+   "packages/cli/package.json",
+   "packages/core/package.json",
+   "packages/mind/package.json",
+   "packages/runtime/package.json",
+   "packages/sdk/package.json",
+   "packages/state/package.json",
+   "web/package.json"
+  ],
+  "tests": [
+   "packages/cli/src/__tests__/cli.test.ts",
+   "packages/core/src/__tests__/hardware.test.ts",
+   "packages/core/src/__tests__/immuneSchemas.test.ts",
+   "packages/core/src/__tests__/smoke.test.ts",
+   "packages/mind/src/__tests__/evolution.test.ts",
+   "packages/mind/src/__tests__/immunePromotion.test.ts",
+   "packages/mind/src/__tests__/immuneSystem.test.ts",
+   "packages/mind/src/__tests__/modelEvolution.test.ts",
+   "packages/mind/src/__tests__/smoke.test.ts",
+   "packages/mind/src/__tests__/trustworthyEvolution.test.ts",
+   "packages/runtime/src/__tests__/smoke.test.ts",
+   "packages/state/src/__tests__/smoke.test.ts"
+  ],
+  "ci_workflows": [
+   ".github/workflows/ci.yml"
+  ],
+  "language": "TypeScript",
+  "files": 210,
+  "test_count": 12,
+  "shared_template_files": 0
  },
- "topics": [
-  "simulation",
-  "typescript",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

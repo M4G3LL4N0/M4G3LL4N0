@@ -1,131 +1,96 @@
 {
- "API": [],
- "CI": {
-  "present": true,
-  "workflow_count": 1,
-  "workflows": [
-   ".github/workflows/ci.yml"
-  ]
- },
- "CLI": false,
- "CS_visual_1": "component_map",
- "CS_visual_2": "",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "technical_evidence",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "source transformed through analysis to output",
- "architecture": "modular",
- "audience": "",
- "canonical_name": "Ai Dev Workflow Starter",
- "concurrency_model": "",
+ "repo": "ai-dev-workflow-starter",
+ "canonical_name": "ai-dev-workflow-starter",
+ "project_category": "SOFTWARE",
+ "palette": "plum_azure",
  "confidence": "E2",
- "control_flow": "ai-dev-workflow-starter linear request handling",
- "cs_primitives": [],
- "data_flow": "single-entry processing",
- "data_structures": [],
- "description": "Ai Dev Workflow Starter: a developer tool, built on Shell.",
- "domain": "Developer Tools",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "SUPPORTED_INFERENCE",
-  "CS_visual_2": "SUPPORTED_INFERENCE",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "SUPPORTED_INFERENCE",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "NAME_BASED_HYPOTHESIS",
-  "cli": "SUPPORTED_INFERENCE",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "SUPPORTED_INFERENCE",
-  "data_flow": "SUPPORTED_INFERENCE",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "NAME_BASED_HYPOTHESIS",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "problem": "NAME_BASED_HYPOTHESIS",
-  "project_category": "SUPPORTED_INFERENCE",
-  "public_positioning": "NAME_BASED_HYPOTHESIS",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "NAME_BASED_HYPOTHESIS",
-  "status": "FACT",
-  "terminal_story": "SUPPORTED_INFERENCE",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 43,
- "frameworks": [
-  "Vercel AI SDK"
- ],
+ "status": "PROTOTYPE",
  "has_code": true,
- "homepage": "",
- "inputs": [
-  "source files"
+ "domain": "Software",
+ "audience": "developer",
+ "problem": "",
+ "public_positioning": "",
+ "website_positioning": "",
+ "data_flow": "no HTTP routes; 1 module(s) (scripts), 0 declared framework(s), 43 file(s), Shell source",
+ "control_flow": "library surface across scripts",
+ "state_model": "no distinctive algorithmic primitive detected",
+ "state_model_note": "structure is declarative/config; no primitive matcher hit",
+ "architecture": "1 top-level module boundaries: scripts",
+ "terminal_story": "Makefile | package.json -> 0 routes, 1 modules, 43 files",
+ "terminal_lines": [
+  "Makefile",
+  "package.json"
  ],
- "interfaces": [],
- "known_limitations": [
-  "no test suite present in the repository",
-  "analysed from a read-only clone, not the portfolio checkout"
+ "interfaces": [
+  "Makefile",
+  "package.json"
  ],
- "languages": [
-  "Shell"
- ],
- "major_modules": [
-  "prompts",
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
   "scripts"
  ],
- "outputs": [
-  "build artifact"
+ "workflow_steps": [
+  "scripts"
  ],
- "palette": "mint_violet",
- "primary_visual_metaphor": "source transformed through analysis to output",
- "problem": "",
- "project_category": "DEVELOPER_TOOLS",
- "public_positioning": "",
- "purpose": "Ai Dev Workflow Starter is a developer tools codebase of 43 files.",
+ "major_modules": [
+  "scripts"
+ ],
+ "cs_primitives": [],
+ "security_model": [],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "layer_separate over modules scripts",
+ "secondary_visual_metaphor": "top module scripts",
+ "geometry_set": "ring",
+ "animation_story_1": "layer_separate",
+ "entry_points": [],
+ "routes": [],
+ "frameworks": [],
+ "language": "Shell",
+ "manifests": [
+  "Makefile",
+  "package.json"
+ ],
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 1,
   "commits": "1",
   "tags": 0
  },
- "secondary_visual_metaphor": "developer tools topology for ai-dev-workflow-starter",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "clone",
- "state_model": "stateless request handling",
- "status": "ACTIVE",
- "technical_category": "developer-tooling",
- "terminal_story": "the developer tools loop advances via core [ai-dev-workflow-starter]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [],
+  "test_frameworks": [],
+  "scaffold_frameworks": [],
+  "routes": [],
+  "entry_points": [],
+  "modules": [
+   "scripts"
+  ],
+  "frameworks": [],
+  "cs_primitives": [],
+  "manifests": [
+   "Makefile",
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [
+   ".github/workflows/ci.yml"
+  ],
+  "language": "Shell",
+  "files": 43,
+  "test_count": 0,
+  "shared_template_files": 0
  },
- "topics": [
-  "developer-tooling",
-  "shell",
-  "developer-tools",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "architecture",
+  "build",
+  "terminal",
+  "data_flow",
+  "footer"
+ ]
 }

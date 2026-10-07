@@ -1,58 +1,72 @@
 {
- "canonical_name": "Why Are You Here",
- "confidence": "E2",
- "palette": "peach_cyan",
- "project_category": "PRODUCT",
  "repo": "why-are-you-here",
+ "canonical_name": "why-are-you-here",
+ "confidence": "E2",
+ "palette": "indigo_lime",
+ "project_category": "SCAFFOLD",
+ "status": "SCAFFOLD",
  "slots": [
   "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
   "state_machine",
-  "build",
-  "domain",
   "footer"
  ],
- "status": "SCAFFOLD",
  "storyboard": [
   {
-   "animation": "tiles lock into a grid as structure forms; 12.0s loop, offset 0.0s",
-   "computer_science_concept": "modular units assembling into a whole",
-   "geometry": "isometric blocks",
-   "material": "D3 density; #ffb4a2 on #1a1214; accents #48cae4, #f9c74f",
-   "purpose": "identity -- what the project is at a glance",
-   "slot": "hero"
+   "slot": "hero",
+   "purpose": "identity",
+   "geometry": "ring",
+   "computer_science_concept": "no distinctive algorithmic primitive detected",
+   "material": "palette indigo_lime",
+   "animation": "tile_assemble",
+   "evidence_basis": "identity from 4 analysed files"
   },
   {
-   "animation": "a state machine advances one transition; 11.2s loop, offset 0.4s",
-   "computer_science_concept": "no runtime state; repository is a scaffold",
-   "geometry": "transition edges",
-   "material": "D2 density; #ffb4a2 on #1a1214; accents #48cae4, #f9c74f",
+   "slot": "terminal",
+   "purpose": "how it is operated",
+   "geometry": "ring",
+   "computer_science_concept": "no distinctive algorithmic primitive detected",
+   "material": "palette indigo_lime",
+   "animation": "tile_assemble",
+   "evidence_basis": "0 measured entry point(s)"
+  },
+  {
+   "slot": "architecture",
+   "purpose": "how it is built",
+   "geometry": "ring",
+   "computer_science_concept": "no distinctive algorithmic primitive detected",
+   "material": "palette indigo_lime",
+   "animation": "tile_assemble",
+   "evidence_basis": "0 measured module root(s)"
+  },
+  {
+   "slot": "data_flow",
+   "purpose": "how data moves",
+   "geometry": "ring",
+   "computer_science_concept": "no distinctive algorithmic primitive detected",
+   "material": "palette indigo_lime",
+   "animation": "tile_assemble",
+   "evidence_basis": "0 measured route(s)"
+  },
+  {
+   "slot": "state_machine",
    "purpose": "how it behaves",
-   "slot": "state_machine"
+   "geometry": "ring",
+   "computer_science_concept": "no distinctive algorithmic primitive detected",
+   "material": "palette indigo_lime",
+   "animation": "tile_assemble",
+   "evidence_basis": "0 detected primitive(s)"
   },
   {
-   "animation": "tests advance and results resolve; 16.2s loop, offset 0.8s",
-   "computer_science_concept": "build evidence: 0 tests, 0 workflows",
-   "geometry": "evidence chips",
-   "material": "D1 density; #ffb4a2 on #1a1214; accents #48cae4, #f9c74f",
-   "purpose": "how it is verified",
-   "slot": "build"
-  },
-  {
-   "animation": "an index probe walks a sorted key space; 10.8s loop, offset 1.2s",
-   "computer_science_concept": "Product",
-   "geometry": "indexed field",
-   "material": "D3 density; #ffb4a2 on #1a1214; accents #48cae4, #f9c74f",
-   "purpose": "the problem it addresses",
-   "slot": "domain"
-  },
-  {
-   "animation": "concentric rings pulse from a centre; 15.8s loop, offset 1.6s",
-   "computer_science_concept": "project signature",
-   "geometry": "identity object",
-   "material": "D2 density; #ffb4a2 on #1a1214; accents #48cae4, #f9c74f",
-   "purpose": "identity object -- a small signature mark",
-   "slot": "footer"
+   "slot": "footer",
+   "purpose": "identity object",
+   "geometry": "ring",
+   "computer_science_concept": "no distinctive algorithmic primitive detected",
+   "material": "palette indigo_lime",
+   "animation": "tile_assemble",
+   "evidence_basis": "identity object"
   }
- ],
- "surface_count": 5
+ ]
 }

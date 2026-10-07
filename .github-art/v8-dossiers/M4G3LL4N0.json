@@ -1,118 +1,188 @@
 {
- "API": [],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": false,
- "CS_visual_1": "component_map",
- "CS_visual_2": "",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "modular units assembling into a whole",
- "architecture": "",
- "audience": "",
- "canonical_name": "M4G3Ll4N0",
- "concurrency_model": "",
- "confidence": "E1",
- "control_flow": "M4G3LL4N0 has no measurable control flow",
- "cs_primitives": [],
- "data_flow": "no measurable data flow; repository is a scaffold",
- "data_structures": [],
- "description": "M4G3Ll4N0: a software project, an experimental workspace with no product source present.",
- "domain": "Product",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "SUPPORTED_INFERENCE",
-  "CS_visual_2": "SUPPORTED_INFERENCE",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "SUPPORTED_INFERENCE",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "NAME_BASED_HYPOTHESIS",
-  "cli": "SUPPORTED_INFERENCE",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "SUPPORTED_INFERENCE",
-  "data_flow": "SUPPORTED_INFERENCE",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "NAME_BASED_HYPOTHESIS",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "NAME_BASED_HYPOTHESIS",
-  "known_limitations": "FACT",
-  "languages": "NAME_BASED_HYPOTHESIS",
-  "major_modules": "NAME_BASED_HYPOTHESIS",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "problem": "NAME_BASED_HYPOTHESIS",
-  "project_category": "SUPPORTED_INFERENCE",
-  "public_positioning": "NAME_BASED_HYPOTHESIS",
-  "purpose": "NAME_BASED_HYPOTHESIS",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "NAME_BASED_HYPOTHESIS",
-  "status": "FACT",
-  "terminal_story": "SUPPORTED_INFERENCE",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 0,
- "frameworks": [],
- "has_code": false,
- "homepage": "",
- "inputs": [],
- "interfaces": [],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow",
-  "no product source present; repository is a scaffold",
-  "dossier built from name inference alone; claims are conservative"
- ],
- "languages": [],
- "major_modules": [],
- "outputs": [],
- "palette": "peach_cyan",
- "primary_visual_metaphor": "modular units assembling into a whole",
- "problem": "",
- "project_category": "PRODUCT",
+ "repo": "M4G3LL4N0",
+ "canonical_name": "DUNG30N5 x NOAERTH",
+ "project_category": "PORTFOLIO",
+ "palette": "plum_azure",
+ "confidence": "E3",
+ "status": "PORTFOLIO",
+ "has_code": true,
+ "domain": "Venture operating company",
+ "audience": "operator",
+ "problem": "Operating layer for venture creation: measurable, inspectable software instead of claims.",
  "public_positioning": "",
- "purpose": "M4G3Ll4N0 is an experimental workspace. No product source is present, so the name is the only evidence of intent.",
+ "website_positioning": "",
+ "data_flow": "136 repositories contribute 2,075 routes; measured examples /, /docs, /about, /contact",
+ "control_flow": "measure 99,512 files -> classify 136 repositories -> render 3,501 surfaces -> publish 1167 slots",
+ "state_model": "index, stack, policy, simulator, queue",
+ "state_model_note": "20 distinct computer-science primitives detected in source",
+ "architecture": "77 distinct module roots; most common app, components, src, lib, supabase",
+ "terminal_story": " 136 repositories | 2075 routes |  477 module roots |  211 test files (20 repos) |   25 CI workflows | 3501 generated surfaces -> 8 routes, 8 modules, 99512 files",
+ "terminal_lines": [
+  " 136 repositories",
+  "2075 routes",
+  " 477 module roots",
+  " 211 test files (20 repos)",
+  "  25 CI workflows",
+  "3501 generated surfaces"
+ ],
+ "interfaces": [
+  "https://github.com/M4G3LL4N0/1bc",
+  "https://github.com/M4G3LL4N0/Ayncient",
+  "https://github.com/M4G3LL4N0/BehindCurtain",
+  "https://github.com/M4G3LL4N0/Bourgaeux"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "Web Application",
+  "Software",
+  "Scaffold",
+  "Security",
+  "Portfolio",
+  "Data Visualization"
+ ],
+ "workflow_steps": [
+  "Web Application",
+  "Software",
+  "Scaffold",
+  "Security",
+  "Portfolio",
+  "Data Visualization"
+ ],
+ "major_modules": [
+  "app",
+  "components",
+  "src",
+  "lib",
+  "supabase",
+  "scripts",
+  "types",
+  "path"
+ ],
+ "cs_primitives": [
+  "index",
+  "stack",
+  "policy",
+  "simulator",
+  "queue",
+  "terminal",
+  "cache",
+  "benchmark"
+ ],
+ "security_model": [
+  "policy"
+ ],
+ "concurrency_model": [
+  "queue"
+ ],
+ "primary_visual_metaphor": "",
+ "secondary_visual_metaphor": "primitives index, stack, policy; stack TypeScript; top module app",
+ "geometry_set": "rosette",
+ "animation_story_1": "graph_resolve",
+ "entry_points": [
+  "136 public repositories"
+ ],
+ "routes": [
+  "/",
+  "/docs",
+  "/about",
+  "/contact",
+  "/demo",
+  "/dashboard",
+  "/how-it-works",
+  "/privacy"
+ ],
+ "frameworks": [
+  "Next.js",
+  "React",
+  "TypeScript"
+ ],
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
+ ],
+ "testing": {
+  "present": true,
+  "count": 211,
+  "note": "counted across the portfolio; 20 of 136 repositories"
+ },
  "release": {
-  "commits": 0,
+  "ci": 25,
+  "commits": "136",
   "tags": 0
  },
- "secondary_visual_metaphor": "product topology for M4G3LL4N0",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "none",
- "state_model": "no runtime state; repository is a scaffold",
- "status": "SCAFFOLD",
- "technical_category": "application",
- "terminal_story": "the product loop advances via core [M4G3LL4N0]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "routes": [
+   "/",
+   "/docs",
+   "/about",
+   "/contact",
+   "/demo",
+   "/dashboard",
+   "/how-it-works",
+   "/privacy"
+  ],
+  "entry_points": [
+   " 136 repositories",
+   "2075 routes",
+   " 477 module roots",
+   " 211 test files (20 repos)",
+   "  25 CI workflows",
+   "3501 generated surfaces"
+  ],
+  "modules": [
+   "app",
+   "components",
+   "src",
+   "lib",
+   "supabase",
+   "scripts",
+   "types",
+   "path"
+  ],
+  "frameworks": [
+   "Next.js",
+   "React",
+   "TypeScript"
+  ],
+  "distinctive_frameworks": [
+   "TypeScript"
+  ],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React"
+  ],
+  "cs_primitives": [
+   "index",
+   "stack",
+   "policy",
+   "simulator",
+   "queue",
+   "terminal",
+   "cache",
+   "benchmark"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 99512,
+  "test_count": 211,
+  "shared_template_files": 0
  },
- "topics": [
-  "application",
-  "product",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

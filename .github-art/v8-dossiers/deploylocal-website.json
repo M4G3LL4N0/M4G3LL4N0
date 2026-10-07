@@ -1,127 +1,95 @@
 {
- "API": [],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "api_flow",
- "CS_visual_2": "",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "source transformed through analysis to output",
- "architecture": "DISTRIBUTED",
- "audience": "",
+ "repo": "deploylocal-website",
  "canonical_name": "deploylocal-website",
- "concurrency_model": "",
+ "project_category": "SOFTWARE",
+ "palette": "coral_teal",
  "confidence": "E3",
- "control_flow": "control for deploylocal-website enters at index.html and dispatches to 2 entry points across 0 routes (none) using vanilla",
- "cs_primitives": [],
- "data_flow": "single-entry processing",
- "data_structures": [],
- "description": "deploylocal-website: a developer tool, organised as a modular system.",
- "domain": "Developer Tools",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "SUPPORTED_INFERENCE",
-  "CS_visual_2": "SUPPORTED_INFERENCE",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "SUPPORTED_INFERENCE",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "NAME_BASED_HYPOTHESIS",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "NAME_BASED_HYPOTHESIS",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "NAME_BASED_HYPOTHESIS",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 31,
- "frameworks": [],
+ "status": "PROTOTYPE",
  "has_code": true,
- "homepage": "",
- "inputs": [
-  "source files"
+ "domain": "Software",
+ "audience": "developer",
+ "problem": "",
+ "public_positioning": "",
+ "website_positioning": "",
+ "data_flow": "2 entry point(s) with no routable HTTP surface: index.html, public/index.html",
+ "control_flow": "2 entry point(s) with no HTTP layer: index.html, index.html",
+ "state_model": "no distinctive algorithmic primitive detected",
+ "state_model_note": "structure is declarative/config; no primitive matcher hit",
+ "architecture": "single-package repository",
+ "terminal_story": "index.html | public/index.html -> 0 routes, 0 modules, 32 files",
+ "terminal_lines": [
+  "index.html",
+  "public/index.html"
  ],
  "interfaces": [
-  "CLI entry points"
+  "index.html",
+  "public/index.html"
  ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "index.html",
+  "public/index.html"
  ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript"
- ],
+ "workflow_steps": [],
  "major_modules": [],
- "outputs": [
-  "build artifact"
+ "cs_primitives": [],
+ "security_model": [],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "terminal_exec over 32 committed file(s), no runtime surface",
+ "secondary_visual_metaphor": "structure-only surface: 32 committed file(s), 0 routes, CSS, prototype",
+ "geometry_set": "arch",
+ "animation_story_1": "terminal_exec",
+ "entry_points": [
+  "index.html",
+  "public/index.html"
  ],
- "palette": "mint_violet",
- "primary_visual_metaphor": "source transformed through analysis to output",
- "problem": "Autonomous high-profit website acquisition, generation, sales and recurring-revenue engine. **Part A and Part B.**",
- "project_category": "DEVELOPER_TOOLS",
- "public_positioning": "Lead discovery and outreach infrastructure for local businesses that need a web presence and pipeline.",
- "purpose": "deploylocal website. package.json.",
+ "routes": [],
+ "frameworks": [],
+ "language": "CSS",
+ "manifests": [
+  "package.json",
+  "public/package.json"
+ ],
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "3",
   "tags": 0
  },
- "secondary_visual_metaphor": "developer tools topology for deploylocal-website",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "portfolio",
- "state_model": "stateless request handling",
- "status": "PROTOTYPE",
- "technical_category": "developer-tooling",
- "terminal_story": "operator runs deploylocal-website (CSS) from the command line; output resolves as a tree [deploylocal-website]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [],
+  "test_frameworks": [],
+  "scaffold_frameworks": [],
+  "routes": [],
+  "entry_points": [
+   "index.html",
+   "public/index.html"
+  ],
+  "modules": [],
+  "frameworks": [],
+  "cs_primitives": [],
+  "manifests": [
+   "package.json",
+   "public/package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "CSS",
+  "files": 32,
+  "test_count": 0,
+  "shared_template_files": 0
  },
- "topics": [
-  "developer-tooling",
-  "developer-tools",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "build",
+  "architecture",
+  "data_flow",
+  "footer"
+ ]
 }

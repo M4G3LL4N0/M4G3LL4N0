@@ -1,146 +1,170 @@
 {
- "API": [
-  "/dashboard",
-  "/quiz",
-  "/reset"
- ],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "api_flow",
- "CS_visual_2": "",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "layered render pipeline resolving to a frame",
- "architecture": "DATA_FLOW",
- "audience": "",
+ "repo": "Ayncient",
  "canonical_name": "Ayncient",
- "concurrency_model": "",
+ "project_category": "WEB_APPLICATION",
+ "palette": "plum_azure",
  "confidence": "E3",
- "control_flow": "control for Ayncient enters at public-site/index.html and dispatches to 1 entry points across 4 routes (/, /dashboard, /quiz) using D3",
+ "status": "PROTOTYPE",
+ "has_code": true,
+ "domain": "Education",
+ "audience": "developer",
+ "problem": "Ancient knowledge for modern clarity.",
+ "public_positioning": "Ancient knowledge for modern clarity.",
+ "website_positioning": "Ancient knowledge for modern clarity.",
+ "data_flow": "22 App Router endpoints including /about, /api/save-result, /api/waitlist, /contact",
+ "control_flow": "public-site/index.html boots 3 module(s) (app, components) and serves 22 route(s) beginning /about, /api/save-result",
+ "state_model": "no distinctive algorithmic primitive detected",
+ "state_model_note": "structure is declarative/config; no primitive matcher hit",
+ "architecture": "3 top-level module boundaries: app, components, src",
+ "terminal_story": "public-site/index.html -> 22 routes, 3 modules, 969 files",
+ "terminal_lines": [
+  "public-site/index.html"
+ ],
+ "interfaces": [
+  "public-site/index.html"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/api/save-result",
+  "/api/waitlist",
+  "/contact",
+  "/dashboard"
+ ],
+ "workflow_steps": [
+  "app",
+  "components",
+  "src"
+ ],
+ "major_modules": [
+  "app",
+  "components",
+  "src"
+ ],
  "cs_primitives": [],
- "data_flow": "Media: requests traverse 4 routes (/, /dashboard, /quiz, /reset)",
- "data_structures": [],
- "description": "Ayncient: a media system, built on TypeScript.",
- "domain": "Media",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "SUPPORTED_INFERENCE",
-  "CS_visual_2": "SUPPORTED_INFERENCE",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "FACT",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "SUPPORTED_INFERENCE",
-  "state_model": "NAME_BASED_HYPOTHESIS",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 967,
+ "security_model": [],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "packet_route over routes /about, /api/save-result, /api/waitlist; modules app, components, src",
+ "secondary_visual_metaphor": "stack Supabase, Zod; top module app",
+ "geometry_set": "ring",
+ "animation_story_1": "packet_route",
+ "entry_points": [
+  "public-site/index.html"
+ ],
+ "routes": [
+  "/",
+  "/about",
+  "/api/save-result",
+  "/api/waitlist",
+  "/contact",
+  "/dashboard",
+  "/dashboard/check-in",
+  "/dashboard/journal",
+  "/dashboard/protocols",
+  "/demo",
+  "/docs",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/quiz",
+  "/reset",
+  "/support",
+  "/terms",
+  "/trust"
+ ],
  "frameworks": [
-  "D3",
   "Next.js",
   "React",
   "Supabase",
   "Tailwind CSS",
-  "Vercel AI SDK",
   "Zod"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [],
- "interfaces": [
-  "CLI entry points",
-  "4 HTTP routes",
-  "database layer"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "TypeScript"
- ],
- "major_modules": [
-  ".autobuilder",
-  ".startup",
-  "app",
-  "components",
-  "public-site",
-  "venture-os"
- ],
- "outputs": [],
- "palette": "coral_teal",
- "primary_visual_metaphor": "layered render pipeline resolving to a frame",
- "problem": "The project uses Supabase with the `ayncient` schema. Required environment variables:",
- "project_category": "MEDIA",
- "public_positioning": "Ancient knowledge for modern clarity.",
- "purpose": "Ayncient is a media codebase of 967 files.",
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "66",
   "tags": 0
  },
- "secondary_visual_metaphor": "media topology for Ayncient",
- "security_model": [
-  "standard dependency hygiene"
- ],
- "source_origin": "portfolio",
- "state_model": "stateless request handling",
- "status": "PROTOTYPE",
- "technical_category": "media-engineering",
- "terminal_story": "operator runs Ayncient (TypeScript) from the command line; output resolves as a tree [Ayncient]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [
+   "Supabase",
+   "Zod"
+  ],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/api/save-result",
+   "/api/waitlist",
+   "/contact",
+   "/dashboard",
+   "/dashboard/check-in",
+   "/dashboard/journal",
+   "/dashboard/protocols",
+   "/demo",
+   "/docs",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/quiz",
+   "/reset",
+   "/support",
+   "/terms",
+   "/trust"
+  ],
+  "entry_points": [
+   "public-site/index.html"
+  ],
+  "modules": [
+   "app",
+   "components",
+   "src"
+  ],
+  "frameworks": [
+   "Next.js",
+   "React",
+   "Supabase",
+   "Tailwind CSS",
+   "Zod"
+  ],
+  "cs_primitives": [],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 969,
+  "test_count": 0,
+  "shared_template_files": 49
  },
- "topics": [
-  "media-engineering",
-  "typescript",
-  "media",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "component_map",
+  "build",
+  "footer"
+ ]
 }

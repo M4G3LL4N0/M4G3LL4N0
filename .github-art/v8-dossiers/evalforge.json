@@ -1,144 +1,164 @@
 {
- "API": [],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": true,
- "CS_visual_1": "policy",
- "CS_visual_2": "stack",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "technical_evidence",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "protected core behind a trust boundary",
- "architecture": "DATA_FLOW",
- "audience": "",
- "canonical_name": "EvalForge",
- "concurrency_model": "",
+ "repo": "evalforge",
+ "canonical_name": "evalforge",
+ "project_category": "WEB_APPLICATION",
+ "palette": "slate_amber",
  "confidence": "E3",
- "control_flow": "control for evalforge enters at public-site/index.html and dispatches to 1 entry points across 0 routes (none) using Next.js",
+ "status": "TESTED",
+ "has_code": true,
+ "domain": "Developer tools",
+ "audience": "developer",
+ "problem": "Compare model answers. A person still has to approve them.",
+ "public_positioning": "Compare model answers. A person still has to approve them.",
+ "website_positioning": "Compare model answers. A person still has to approve them.",
+ "data_flow": "16 App Router endpoints including /about, /api/evaluate, /contact, /dashboard",
+ "control_flow": "public-site/index.html boots 3 module(s) (app, components) and serves 16 route(s) beginning /about, /api/evaluate",
+ "state_model": "policy, stack",
+ "state_model_note": "2 computer-science primitive(s) matched in source",
+ "architecture": "3 top-level module boundaries: app, components, lib",
+ "terminal_story": "public-site/index.html -> 16 routes, 3 modules, 931 files",
+ "terminal_lines": [
+  "public-site/index.html"
+ ],
+ "interfaces": [
+  "public-site/index.html"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/api/evaluate",
+  "/contact",
+  "/dashboard",
+  "/demo"
+ ],
+ "workflow_steps": [
+  "app",
+  "components",
+  "lib"
+ ],
+ "major_modules": [
+  "app",
+  "components",
+  "lib"
+ ],
  "cs_primitives": [
   "policy",
   "stack"
  ],
- "data_flow": "Security: data passes through policy structure",
- "data_structures": [
-  "stack"
+ "security_model": [
+  "policy"
  ],
- "description": "EvalForge: a security system, structured around policy.",
- "domain": "Security",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "FACT",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "FACT",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "FACT",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 930,
+ "concurrency_model": [],
+ "primary_visual_metaphor": "state_change over routes /about, /api/evaluate, /contact; modules app, components, lib; primitives policy, stack",
+ "secondary_visual_metaphor": "primitives policy, stack; stack Next.js, React, Tailwind CSS; top module app",
+ "geometry_set": "cube",
+ "animation_story_1": "state_change",
+ "entry_points": [
+  "public-site/index.html"
+ ],
+ "routes": [
+  "/",
+  "/about",
+  "/api/evaluate",
+  "/contact",
+  "/dashboard",
+  "/demo",
+  "/docs",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/support",
+  "/terms",
+  "/trust"
+ ],
  "frameworks": [
   "Next.js",
   "React",
-  "Tailwind CSS",
-  "Vercel AI SDK"
+  "Tailwind CSS"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [],
- "interfaces": [
-  "CLI entry points"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "known_limitations": [
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "HTML",
-  "JavaScript",
-  "TypeScript"
- ],
- "major_modules": [
-  ".startup",
-  "app",
-  "components",
-  "lib",
-  "public-site",
-  "venture-os"
- ],
- "outputs": [],
- "palette": "graphite_coral",
- "primary_visual_metaphor": "protected core behind a trust boundary",
- "problem": "EvalForge is a human-in-the-loop AI evaluation cockpit for comparing chatbot responses and coding answers with multiple OpenRouter models.",
- "project_category": "SECURITY",
- "public_positioning": "Compare model answers. A person still has to approve them.",
- "purpose": "Startup portfolio: evalforge",
+ "testing": {
+  "present": true,
+  "count": 1,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "7",
   "tags": 0
  },
- "secondary_visual_metaphor": "policy structure in security",
- "security_model": [
-  "trust boundary enforcement",
-  "policy evaluation"
- ],
- "source_origin": "portfolio",
- "state_model": "policy with 2 cooperating structures",
- "status": "ACTIVE",
- "technical_category": "security-engineering",
- "terminal_story": "operator runs EvalForge (TypeScript) from the command line; output resolves as a tree [evalforge]",
- "testing": {
-  "count": 1,
-  "note": "counted from the repository tree, not executed",
-  "present": true
+ "evidence": {
+  "distinctive_frameworks": [],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/api/evaluate",
+   "/contact",
+   "/dashboard",
+   "/demo",
+   "/docs",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/support",
+   "/terms",
+   "/trust"
+  ],
+  "entry_points": [
+   "public-site/index.html"
+  ],
+  "modules": [
+   "app",
+   "components",
+   "lib"
+  ],
+  "frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "cs_primitives": [
+   "policy",
+   "stack"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [
+   "tests/scoring.test.ts"
+  ],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 931,
+  "test_count": 1,
+  "shared_template_files": 33
  },
- "topics": [
-  "security-engineering",
-  "typescript",
-  "security",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

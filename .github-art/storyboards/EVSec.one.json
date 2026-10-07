@@ -1,76 +1,72 @@
 {
- "canonical_name": "EvSec-One",
- "confidence": "E2",
- "palette": "graphite_coral",
- "project_category": "SECURITY",
  "repo": "EVSec.one",
+ "canonical_name": "EVSec.one",
+ "confidence": "E2",
+ "palette": "navy_lavender",
+ "project_category": "SCAFFOLD",
+ "status": "SCAFFOLD",
  "slots": [
   "hero",
-  "state_machine",
+  "terminal",
+  "architecture",
   "data_flow",
-  "build",
-  "workflow",
-  "domain",
+  "state_machine",
   "footer"
  ],
- "status": "SCAFFOLD",
  "storyboard": [
   {
-   "animation": "tiles lock into a grid as structure forms; 12.0s loop, offset 0.0s",
-   "computer_science_concept": "protected core behind a trust boundary",
-   "geometry": "isometric blocks",
-   "material": "D3 density; #ff7a5c on #0f1113; accents #9aa5b1, #ffd8b1",
-   "purpose": "identity -- what the project is at a glance",
-   "slot": "hero"
+   "slot": "hero",
+   "purpose": "identity",
+   "geometry": "ring",
+   "computer_science_concept": "no distinctive algorithmic primitive detected",
+   "material": "palette navy_lavender",
+   "animation": "tile_assemble",
+   "evidence_basis": "identity from 14 analysed files"
   },
   {
-   "animation": "a state machine advances one transition; 11.2s loop, offset 0.4s",
-   "computer_science_concept": "no runtime state; repository is a scaffold",
-   "geometry": "transition edges",
-   "material": "D2 density; #ff7a5c on #0f1113; accents #9aa5b1, #ffd8b1",
+   "slot": "terminal",
+   "purpose": "how it is operated",
+   "geometry": "ring",
+   "computer_science_concept": "no distinctive algorithmic primitive detected",
+   "material": "palette navy_lavender",
+   "animation": "tile_assemble",
+   "evidence_basis": "0 measured entry point(s)"
+  },
+  {
+   "slot": "architecture",
+   "purpose": "how it is built",
+   "geometry": "ring",
+   "computer_science_concept": "no distinctive algorithmic primitive detected",
+   "material": "palette navy_lavender",
+   "animation": "tile_assemble",
+   "evidence_basis": "0 measured module root(s)"
+  },
+  {
+   "slot": "data_flow",
+   "purpose": "how data moves",
+   "geometry": "ring",
+   "computer_science_concept": "no distinctive algorithmic primitive detected",
+   "material": "palette navy_lavender",
+   "animation": "tile_assemble",
+   "evidence_basis": "0 measured route(s)"
+  },
+  {
+   "slot": "state_machine",
    "purpose": "how it behaves",
-   "slot": "state_machine"
+   "geometry": "ring",
+   "computer_science_concept": "no distinctive algorithmic primitive detected",
+   "material": "palette navy_lavender",
+   "animation": "tile_assemble",
+   "evidence_basis": "0 detected primitive(s)"
   },
   {
-   "animation": "packets route along edges; 11.7s loop, offset 0.8s",
-   "computer_science_concept": "HTTP requests (JSON) \u2192 in-process state \u2192 HTTP responses (JSON)",
-   "geometry": "packet dots",
-   "material": "D2 density; #ff7a5c on #0f1113; accents #9aa5b1, #ffd8b1",
-   "purpose": "how data moves through it",
-   "slot": "data_flow"
-  },
-  {
-   "animation": "tests advance and results resolve; 11.8s loop, offset 1.2s",
-   "computer_science_concept": "build evidence: 0 tests, 0 workflows",
-   "geometry": "stage arches",
-   "material": "D1 density; #ff7a5c on #0f1113; accents #9aa5b1, #ffd8b1",
-   "purpose": "how it is verified",
-   "slot": "build"
-  },
-  {
-   "animation": "concentric rings pulse from a centre; 15.8s loop, offset 1.6s",
-   "computer_science_concept": "primary entry: HTTP API",
-   "geometry": "step cubes",
-   "material": "D2 density; #ff7a5c on #0f1113; accents #9aa5b1, #ffd8b1",
-   "purpose": "how it is used",
-   "slot": "workflow"
-  },
-  {
-   "animation": "an index probe walks a sorted key space; 15.9s loop, offset 2.0s",
-   "computer_science_concept": "Security",
-   "geometry": "probe path",
-   "material": "D3 density; #ff7a5c on #0f1113; accents #9aa5b1, #ffd8b1",
-   "purpose": "the problem it addresses",
-   "slot": "domain"
-  },
-  {
-   "animation": "concentric rings pulse from a centre; 13.8s loop, offset 2.4s",
-   "computer_science_concept": "project signature",
-   "geometry": "single motif",
-   "material": "D2 density; #ff7a5c on #0f1113; accents #9aa5b1, #ffd8b1",
-   "purpose": "identity object -- a small signature mark",
-   "slot": "footer"
+   "slot": "footer",
+   "purpose": "identity object",
+   "geometry": "ring",
+   "computer_science_concept": "no distinctive algorithmic primitive detected",
+   "material": "palette navy_lavender",
+   "animation": "tile_assemble",
+   "evidence_basis": "identity object"
   }
- ],
- "surface_count": 7
+ ]
 }

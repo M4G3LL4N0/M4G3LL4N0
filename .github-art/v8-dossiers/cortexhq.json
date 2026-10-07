@@ -1,144 +1,181 @@
 {
- "API": [],
- "CI": {
-  "present": false,
-  "workflow_count": 0,
-  "workflows": []
- },
- "CLI": false,
- "CS_visual_1": "memory_map",
- "CS_visual_2": "simulator",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "status",
-  "limitations"
- ],
- "algorithms": [
-  "memory_map"
- ],
- "animation_story_1": "stepped terrain with a live probe path",
- "architecture": "DATA_FLOW",
- "audience": "",
- "canonical_name": "CortexHQ",
- "concurrency_model": "",
+ "repo": "cortexhq",
+ "canonical_name": "cortexhq",
+ "project_category": "WEB_APPLICATION",
+ "palette": "slate_amber",
  "confidence": "E3",
- "control_flow": "cortexhq control passes through memory_map, simulator, policy",
+ "status": "PROTOTYPE",
+ "has_code": true,
+ "domain": "SaaS",
+ "audience": "developer",
+ "problem": "A simulated company brain. No live customer data.",
+ "public_positioning": "A simulated company brain. No live customer data.",
+ "website_positioning": "A simulated company brain. No live customer data.",
+ "data_flow": "22 App Router endpoints including /about, /api/brain, /contact, /dashboard",
+ "control_flow": "22 route(s) served across 3 module(s): /about, /api/brain, /contact",
+ "state_model": "memory_map, simulator, policy",
+ "state_model_note": "3 computer-science primitive(s) matched in source",
+ "architecture": "3 top-level module boundaries: app, components, lib",
+ "terminal_story": "package.json -> 22 routes, 3 modules, 934 files",
+ "terminal_lines": [
+  "package.json"
+ ],
+ "interfaces": [
+  "/",
+  "/about",
+  "/api/brain",
+  "/api/brain/:id"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "/about",
+  "/api/brain",
+  "/contact",
+  "/dashboard",
+  "/decisions"
+ ],
+ "workflow_steps": [
+  "app",
+  "components",
+  "lib"
+ ],
+ "major_modules": [
+  "app",
+  "components",
+  "lib"
+ ],
  "cs_primitives": [
   "memory_map",
   "simulator",
   "policy"
  ],
- "data_flow": "Simulation: data passes through memory map structure",
- "data_structures": [],
- "description": "CortexHQ: a simulation, structured around memory map.",
- "domain": "Simulation",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "FACT",
-  "README_outline": "FACT",
-  "algorithms": "FACT",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "SUPPORTED_INFERENCE",
-  "concurrency_model": "NAME_BASED_HYPOTHESIS",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "NAME_BASED_HYPOTHESIS",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "FACT",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "FACT",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "SUPPORTED_INFERENCE",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 932,
+ "security_model": [
+  "policy"
+ ],
+ "concurrency_model": [],
+ "primary_visual_metaphor": "tessellate over routes /about, /api/brain, /contact; modules app, components, lib; primitives memory_map, simulator, policy",
+ "secondary_visual_metaphor": "primitives memory_map, simulator, policy; stack Prisma, Zod; top module app",
+ "geometry_set": "cube",
+ "animation_story_1": "tessellate",
+ "entry_points": [],
+ "routes": [
+  "/",
+  "/about",
+  "/api/brain",
+  "/api/brain/:id",
+  "/contact",
+  "/dashboard",
+  "/dashboard/runs/:id",
+  "/decisions",
+  "/demo",
+  "/docs",
+  "/how-it-works",
+  "/intake",
+  "/investor",
+  "/pricing",
+  "/privacy",
+  "/product",
+  "/sources",
+  "/support",
+  "/terms",
+  "/timeline",
+  "/trust",
+  "/workspace"
+ ],
  "frameworks": [
   "Next.js",
   "Prisma",
   "React",
   "Tailwind CSS",
-  "Vercel AI SDK",
   "Zod"
  ],
- "has_code": true,
- "homepage": "",
- "inputs": [],
- "interfaces": [
-  "database layer"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "known_limitations": [
-  "no test suite present in the repository",
-  "no continuous integration workflow"
- ],
- "languages": [
-  "CSS",
-  "JavaScript",
-  "TypeScript"
- ],
- "major_modules": [
-  ".startup",
-  "app",
-  "components",
-  "lib",
-  "prisma",
-  "venture-os"
- ],
- "outputs": [],
- "palette": "plum_azure",
- "primary_visual_metaphor": "stepped terrain with a live probe path",
- "problem": "Premium SaaS-style MVP: a **simulated** company brain. Users pick data sources, paste sample internal notes, and ask questions. The app returns structured answers, source cards, open decisions with owners, a company memory map, and a decision timeline \u2014 **no live Slack, email, or customer data**.",
- "project_category": "SIMULATION",
- "public_positioning": "A simulated company brain. No live customer data.",
- "purpose": "Startup portfolio: cortexhq",
+ "testing": {
+  "present": false,
+  "count": 0,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 0,
   "commits": "2",
   "tags": 0
  },
- "secondary_visual_metaphor": "memory_map structure in simulation",
- "security_model": [
-  "policy evaluation"
- ],
- "source_origin": "portfolio",
- "state_model": "memory_map with 3 cooperating structures",
- "status": "PROTOTYPE",
- "technical_category": "simulation",
- "terminal_story": "the simulation loop advances via memory_map [cortexhq]",
- "testing": {
-  "count": 0,
-  "note": "counted from the repository tree, not executed",
-  "present": false
+ "evidence": {
+  "distinctive_frameworks": [
+   "Prisma",
+   "Zod"
+  ],
+  "test_frameworks": [],
+  "scaffold_frameworks": [
+   "Next.js",
+   "React",
+   "Tailwind CSS"
+  ],
+  "routes": [
+   "/",
+   "/about",
+   "/api/brain",
+   "/api/brain/:id",
+   "/contact",
+   "/dashboard",
+   "/dashboard/runs/:id",
+   "/decisions",
+   "/demo",
+   "/docs",
+   "/how-it-works",
+   "/intake",
+   "/investor",
+   "/pricing",
+   "/privacy",
+   "/product",
+   "/sources",
+   "/support",
+   "/terms",
+   "/timeline",
+   "/trust",
+   "/workspace"
+  ],
+  "entry_points": [],
+  "modules": [
+   "app",
+   "components",
+   "lib"
+  ],
+  "frameworks": [
+   "Next.js",
+   "Prisma",
+   "React",
+   "Tailwind CSS",
+   "Zod"
+  ],
+  "cs_primitives": [
+   "memory_map",
+   "simulator",
+   "policy"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [],
+  "ci_workflows": [],
+  "language": "TypeScript",
+  "files": 934,
+  "test_count": 0,
+  "shared_template_files": 36
  },
- "topics": [
-  "simulation",
-  "typescript",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "architecture",
+  "data_flow",
+  "state_machine",
+  "component_map",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }

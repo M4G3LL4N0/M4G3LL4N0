@@ -161,6 +161,11 @@ def verify_block(block: str, art_dir: pathlib.Path, base_ok: bool = True) -> lis
     return problems
 
 
+def local_readme() -> str:
+    path = PROFILE / "README.md"
+    return path.read_text() if path.exists() else ""
+
+
 def get_readme(gh: GitHub, repo: str, branch: str) -> str:
 
     path = "README.md"
@@ -172,7 +177,7 @@ def get_readme(gh: GitHub, repo: str, branch: str) -> str:
 
 
 def publish_repo(gh: GitHub, name: str, entry: dict, d: dict,
-                 dry_run: bool = False) -> dict:
+                 dry_run: bool = False, replace_readme: bool = False) -> dict:
     info = gh.api("GET", f"repos/{OWNER}/{name}")
     branch = info["default_branch"]
 
@@ -182,13 +187,18 @@ def publish_repo(gh: GitHub, name: str, entry: dict, d: dict,
         return {"repo": name, "status": "skipped", "why": "no art rendered"}
 
     slots = entry["slots"]
-    readme = get_readme(gh, name, branch)
     block = picture_block(branch, name, slots)
-    new_readme = splice_readme(readme, block, BEGIN, END, name)
     ev_block = evidence_section(entry["description"], slots, d)
-    new_readme = splice_readme(new_readme, ev_block,
-                               BEGIN.replace("presentation", "evidence"),
-                               END.replace("presentation", "evidence"), name)
+    if replace_readme:
+        # The profile README is fully generated; splicing would leave the
+        # previous hand-written file above it with 400 stale image links.
+        new_readme = local_readme()
+    else:
+        readme = get_readme(gh, name, branch)
+        new_readme = splice_readme(readme, block, BEGIN, END, name)
+        new_readme = splice_readme(new_readme, ev_block,
+                                   BEGIN.replace("presentation", "evidence"),
+                                   END.replace("presentation", "evidence"), name)
 
     tree_entries = [{
         "path": f"{ART_DIR}/{f.name}",
@@ -253,6 +263,8 @@ def publish_repo(gh: GitHub, name: str, entry: dict, d: dict,
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--replace-readme", action="store_true",
+                    help="overwrite README.md instead of splicing into it")
     ap.add_argument("--only", default="")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--log", default=str(PROFILE / ".github-art" / "v8-publish-log.json"))
@@ -279,7 +291,8 @@ def main() -> int:
         d = E.build(name, index[name], cards.get(name.lower()),
                     baseline.get(name, {}), signature)
         try:
-            res = publish_repo(gh, name, entry, d, dry_run=args.dry_run)
+            res = publish_repo(gh, name, entry, d, dry_run=args.dry_run,
+                               replace_readme=args.replace_readme or name == OWNER)
         except Exception as exc:
             res = {"repo": name, "status": "error", "why": str(exc)[:220]}
         results.append(res)

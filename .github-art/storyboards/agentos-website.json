@@ -1,103 +1,92 @@
 {
+ "repo": "agentos-website",
  "canonical_name": "agentos-website",
  "confidence": "E3",
- "palette": "indigo_lime",
- "project_category": "AGENT",
- "repo": "agentos-website",
+ "palette": "graphite_coral",
+ "project_category": "SECURITY",
+ "status": "TESTED",
  "slots": [
   "hero",
   "terminal",
   "architecture",
   "state_machine",
-  "data_flow",
-  "component_map",
   "build",
   "workflow",
   "domain",
   "footer"
  ],
- "status": "ACTIVE",
  "storyboard": [
   {
-   "animation": "tiles lock into a grid as structure forms; 12.0s loop, offset 0.0s",
-   "computer_science_concept": "multi-node reasoning path with a verification loop",
-   "geometry": "isometric blocks",
-   "material": "D3 density; #8093f1 on #101228; accents #a7c957, #ff8fab",
-   "purpose": "identity -- what the project is at a glance",
-   "slot": "hero"
+   "slot": "hero",
+   "purpose": "identity",
+   "geometry": "cube",
+   "computer_science_concept": "policy",
+   "material": "palette graphite_coral",
+   "animation": "state_change",
+   "evidence_basis": "identity from 38 analysed files"
   },
   {
-   "animation": "a command executes and output resolves; 21.2s loop, offset 0.4s",
-   "computer_science_concept": "command execution and structured output",
-   "geometry": "monospace grid",
-   "material": "D2 density; #8093f1 on #101228; accents #a7c957, #ff8fab",
+   "slot": "terminal",
    "purpose": "how it is operated",
-   "slot": "terminal"
+   "geometry": "cube",
+   "computer_science_concept": "policy",
+   "material": "palette graphite_coral",
+   "animation": "state_change",
+   "evidence_basis": "1 measured entry point(s)"
   },
   {
-   "animation": "a dependency graph resolves toward its roots; 21.7s loop, offset 0.8s",
-   "computer_science_concept": "module graph over 1 modules",
-   "geometry": "containment edges",
-   "material": "D2 density; #8093f1 on #101228; accents #a7c957, #ff8fab",
+   "slot": "architecture",
    "purpose": "how it is built",
-   "slot": "architecture"
+   "geometry": "cube",
+   "computer_science_concept": "policy",
+   "material": "palette graphite_coral",
+   "animation": "state_change",
+   "evidence_basis": "1 measured module root(s)"
   },
   {
-   "animation": "a state machine advances one transition; 9.7s loop, offset 1.2s",
-   "computer_science_concept": "policy with 2 cooperating structures",
-   "geometry": "state ring",
-   "material": "D2 density; #8093f1 on #101228; accents #a7c957, #ff8fab",
+   "slot": "state_machine",
    "purpose": "how it behaves",
-   "slot": "state_machine"
+   "geometry": "cube",
+   "computer_science_concept": "policy",
+   "material": "palette graphite_coral",
+   "animation": "state_change",
+   "evidence_basis": "2 detected primitive(s)"
   },
   {
-   "animation": "packets route along edges; 10.4s loop, offset 1.6s",
-   "computer_science_concept": "Interface Layer \u2192 Control Layer \u2192 Capability Layer \u2192 Execution Layer \u2192 State Layer",
-   "geometry": "stage arches",
-   "material": "D2 density; #8093f1 on #101228; accents #a7c957, #ff8fab",
-   "purpose": "how data moves through it",
-   "slot": "data_flow"
-  },
-  {
-   "animation": "facets rotate open, exposing the interior; 15.1s loop, offset 2.0s",
-   "computer_science_concept": "interface surface: CLI entry points",
-   "geometry": "tile field",
-   "material": "D3 density; #8093f1 on #101228; accents #a7c957, #ff8fab",
-   "purpose": "how it is composed",
-   "slot": "component_map"
-  },
-  {
-   "animation": "tests advance and results resolve; 12.5s loop, offset 2.4s",
-   "computer_science_concept": "build evidence: 1 tests, 1 workflows",
-   "geometry": "stage arches",
-   "material": "D1 density; #8093f1 on #101228; accents #a7c957, #ff8fab",
+   "slot": "build",
    "purpose": "how it is verified",
-   "slot": "build"
+   "geometry": "cube",
+   "computer_science_concept": "policy",
+   "material": "palette graphite_coral",
+   "animation": "state_change",
+   "evidence_basis": "1 test file(s), 1 workflow(s)"
   },
   {
-   "animation": "concentric rings pulse from a centre; 16.7s loop, offset 2.8s",
-   "computer_science_concept": "agentos run",
-   "geometry": "step cubes",
-   "material": "D2 density; #8093f1 on #101228; accents #a7c957, #ff8fab",
+   "slot": "workflow",
    "purpose": "how it is used",
-   "slot": "workflow"
+   "geometry": "cube",
+   "computer_science_concept": "policy",
+   "material": "palette graphite_coral",
+   "animation": "state_change",
+   "evidence_basis": "1 module(s) as ordered steps"
   },
   {
-   "animation": "an index probe walks a sorted key space; 16.7s loop, offset 3.2s",
-   "computer_science_concept": "Agent",
-   "geometry": "probe path",
-   "material": "D3 density; #8093f1 on #101228; accents #a7c957, #ff8fab",
+   "slot": "domain",
    "purpose": "the problem it addresses",
-   "slot": "domain"
+   "geometry": "cube",
+   "computer_science_concept": "policy",
+   "material": "palette graphite_coral",
+   "animation": "state_change",
+   "evidence_basis": "domain classification from measured structure"
   },
   {
-   "animation": "concentric rings pulse from a centre; 14.6s loop, offset 3.6s",
-   "computer_science_concept": "project signature",
-   "geometry": "single motif",
-   "material": "D2 density; #8093f1 on #101228; accents #a7c957, #ff8fab",
-   "purpose": "identity object -- a small signature mark",
-   "slot": "footer"
+   "slot": "footer",
+   "purpose": "identity object",
+   "geometry": "cube",
+   "computer_science_concept": "policy",
+   "material": "palette graphite_coral",
+   "animation": "state_change",
+   "evidence_basis": "identity object"
   }
- ],
- "surface_count": 10
+ ]
 }

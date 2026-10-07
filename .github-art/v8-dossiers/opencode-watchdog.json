@@ -1,33 +1,43 @@
 {
- "API": [],
- "CI": {
-  "present": true,
-  "workflow_count": 1,
-  "workflows": [
-   ".github/workflows/ci.yml"
-  ]
- },
- "CLI": true,
- "CS_visual_1": "stack",
- "CS_visual_2": "agent_graph",
- "README_outline": [
-  "hero",
-  "what_it_is",
-  "how_it_works",
-  "computational_model",
-  "interfaces",
-  "technical_evidence",
-  "status",
-  "limitations"
- ],
- "algorithms": [],
- "animation_story_1": "multi-node reasoning path with a verification loop",
- "architecture": "AGENT_LOOP",
- "audience": "",
- "canonical_name": "OpenCode Watchdog",
- "concurrency_model": "event loop",
+ "repo": "opencode-watchdog",
+ "canonical_name": "opencode-watchdog",
+ "project_category": "SECURITY",
+ "palette": "graphite_coral",
  "confidence": "E3",
- "control_flow": "ocw run build",
+ "status": "LIVE",
+ "has_code": true,
+ "domain": "Developer tools",
+ "audience": "developer",
+ "problem": "A local circuit breaker for runaway OpenCode sessions.",
+ "public_positioning": "A local circuit breaker for runaway OpenCode sessions.",
+ "website_positioning": "A local circuit breaker for runaway OpenCode sessions.",
+ "data_flow": "1 entry point(s) with no routable HTTP surface: src/cli/index.ts",
+ "control_flow": "1 entry point(s) with no HTTP layer: index.ts",
+ "state_model": "stack, agent_graph, policy, terminal",
+ "state_model_note": "6 computer-science primitive(s) matched in source",
+ "architecture": "3 top-level module boundaries: bin, scripts, src",
+ "terminal_story": "cli/index.ts -> 0 routes, 3 modules, 97 files",
+ "terminal_lines": [
+  "cli/index.ts"
+ ],
+ "interfaces": [
+  "src/cli/index.ts"
+ ],
+ "inputs": [],
+ "outputs": [],
+ "pipeline_stages": [
+  "src/cli/index.ts"
+ ],
+ "workflow_steps": [
+  "bin",
+  "scripts",
+  "src"
+ ],
+ "major_modules": [
+  "bin",
+  "scripts",
+  "src"
+ ],
  "cs_primitives": [
   "stack",
   "agent_graph",
@@ -36,109 +46,90 @@
   "queue",
   "api_flow"
  ],
- "data_flow": "Agent: data passes through stack structure",
- "data_structures": [
-  "stack",
+ "security_model": [
+  "policy"
+ ],
+ "concurrency_model": [
   "queue"
  ],
- "description": "OpenCode Watchdog: an agent system, structured around stack.",
- "domain": "Agent",
- "evidence": {
-  "CI": "FACT",
-  "CS_visual_1": "FACT",
-  "CS_visual_2": "FACT",
-  "README_outline": "FACT",
-  "algorithms": "NAME_BASED_HYPOTHESIS",
-  "api": "NAME_BASED_HYPOTHESIS",
-  "architecture": "FACT",
-  "audience": "NAME_BASED_HYPOTHESIS",
-  "canonical_name": "FACT",
-  "cli": "FACT",
-  "concurrency_model": "FACT",
-  "confidence": "FACT",
-  "control_flow": "FACT",
-  "data_flow": "FACT",
-  "data_structures": "FACT",
-  "description": "SUPPORTED_INFERENCE",
-  "domain": "SUPPORTED_INFERENCE",
-  "frameworks": "NAME_BASED_HYPOTHESIS",
-  "homepage": "NAME_BASED_HYPOTHESIS",
-  "inputs": "SUPPORTED_INFERENCE",
-  "interfaces": "FACT",
-  "known_limitations": "FACT",
-  "languages": "FACT",
-  "major_modules": "FACT",
-  "outputs": "SUPPORTED_INFERENCE",
-  "primary_visual_metaphor": "FACT",
-  "problem": "FACT",
-  "project_category": "FACT",
-  "public_positioning": "FACT",
-  "purpose": "SUPPORTED_INFERENCE",
-  "release": "FACT",
-  "secondary_visual_metaphor": "SUPPORTED_INFERENCE",
-  "security_model": "FACT",
-  "state_model": "FACT",
-  "status": "FACT",
-  "terminal_story": "FACT",
-  "testing": "FACT",
-  "topics": "SUPPORTED_INFERENCE",
-  "website_positioning": "NAME_BASED_HYPOTHESIS"
- },
- "file_count": 94,
+ "primary_visual_metaphor": "state_change over modules bin, scripts, src; primitives stack, agent_graph, policy",
+ "secondary_visual_metaphor": "primitives stack, agent_graph, policy; top module bin",
+ "geometry_set": "arch",
+ "animation_story_1": "state_change",
+ "entry_points": [
+  "src/cli/index.ts"
+ ],
+ "routes": [],
  "frameworks": [],
- "has_code": true,
- "homepage": "",
- "inputs": [
-  "user request"
+ "language": "TypeScript",
+ "manifests": [
+  "package.json"
  ],
- "interfaces": [
-  "CLI entry points"
- ],
- "known_limitations": [],
- "languages": [
-  "JavaScript",
-  "TypeScript"
- ],
- "major_modules": [
-  "bin",
-  "fixtures",
-  "scripts",
-  "src"
- ],
- "outputs": [
-  "tool calls",
-  "verifiable result"
- ],
- "palette": "indigo_lime",
- "primary_visual_metaphor": "multi-node reasoning path with a verification loop",
- "problem": "OpenCode Watchdog notices the repetition and safely interrupts the affected session.",
- "project_category": "AGENT",
- "public_positioning": "A local circuit breaker for runaway OpenCode sessions.",
- "purpose": "Local circuit breaker for runaway OpenCode sessions. Deterministic detection, no model, no data leaves the machine.",
+ "testing": {
+  "present": true,
+  "count": 12,
+  "note": "counted from the repository tree, not executed"
+ },
  "release": {
+  "ci": 1,
   "commits": "7",
   "tags": 1
  },
- "secondary_visual_metaphor": "stack structure in agent",
- "security_model": [
-  "policy evaluation"
- ],
- "source_origin": "portfolio",
- "state_model": "stack with 6 cooperating structures",
- "status": "ACTIVE",
- "technical_category": "agent-systems",
- "terminal_story": "operator runs OpenCode Watchdog (TypeScript) from the command line; output resolves as a tree [opencode-watchdog]",
- "testing": {
-  "count": 12,
-  "note": "counted from the repository tree, not executed",
-  "present": true
+ "evidence": {
+  "distinctive_frameworks": [],
+  "test_frameworks": [],
+  "scaffold_frameworks": [],
+  "routes": [],
+  "entry_points": [
+   "src/cli/index.ts"
+  ],
+  "modules": [
+   "bin",
+   "scripts",
+   "src"
+  ],
+  "frameworks": [],
+  "cs_primitives": [
+   "stack",
+   "agent_graph",
+   "policy",
+   "terminal",
+   "queue",
+   "api_flow"
+  ],
+  "manifests": [
+   "package.json"
+  ],
+  "tests": [
+   "tests/breaker-finalization.test.ts",
+   "tests/circuit-runtime.test.ts",
+   "tests/config.test.ts",
+   "tests/detectors.test.ts",
+   "tests/incidents-normalize.test.ts",
+   "tests/ingest-dedup.test.ts",
+   "tests/mock-server.test.ts",
+   "tests/policy.test.ts",
+   "tests/reset-store.test.ts",
+   "tests/short-pattern.test.ts",
+   "tests/tool-no-progress.test.ts",
+   "tests/watchdog.test.ts"
+  ],
+  "ci_workflows": [
+   ".github/workflows/ci.yml"
+  ],
+  "language": "TypeScript",
+  "files": 97,
+  "test_count": 12,
+  "shared_template_files": 0
  },
- "topics": [
-  "agent-systems",
-  "typescript",
-  "agent",
-  "dung30n5",
-  "noaerth"
- ],
- "website_positioning": ""
+ "slots": [
+  "hero",
+  "terminal",
+  "architecture",
+  "state_machine",
+  "build",
+  "workflow",
+  "domain",
+  "footer"
+ ]
 }
