@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 560" width="1280" height="560" role="img" aria-label="DUNG30N5 by NOAERTH. A build pipeline animating: a dependency graph resolves, source compiles through ordered stages, 2,032 tests run, and an artifact is tagged v0.5.0 across 8 releases. Measured, not illustrative.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 560" width="1280" height="560" role="img" aria-label="DUNG30N5 by NOAERTH. A build pipeline animating: a dependency graph resolves, source compiles through ordered stages, 1,886 tests run, and an artifact is tagged v0.5.0 across 8 releases. Measured, not illustrative.">
 <title>DUNG30N5 × NOAERTH — computational hero</title>
-<desc>A build and release pipeline depicted as animation rather than decoration: dependency graph resolution, compilation stages, a 2,032-test run advancing to completion, and artifact tagging. Figures are measured from the public repository state.</desc>
+<desc>A build and release pipeline depicted as animation rather than decoration: dependency graph resolution, compilation stages, a 1,886-test run advancing to completion, and artifact tagging. Figures are measured from the public repository state.</desc>
 <style>@media (prefers-reduced-motion: reduce){*{animation:none !important}}</style>
   <defs>
     <linearGradient id="v6hero-dark-edge" x1="0" y1="0" x2="1" y2="0">
@@ -93,16 +93,16 @@
 <circle cx="852.5" cy="384" r="2.6" fill="#7fd1c1" opacity="0"><animate attributeName="opacity" values="0;0.95" keyTimes="0;0.730" dur="4.6s" fill="freeze"/></circle>
 <circle cx="876.25" cy="384" r="2.6" fill="#7fd1c1" opacity="0"><animate attributeName="opacity" values="0;0.95" keyTimes="0;0.765" dur="4.6s" fill="freeze"/></circle>
 <circle cx="900.0" cy="384" r="2.6" fill="#7fd1c1" opacity="0"><animate attributeName="opacity" values="0;0.95" keyTimes="0;0.800" dur="4.6s" fill="freeze"/></circle>
-<text x="700" y="406" fill="#f4efe4a8" font-size="10.5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" opacity="0">2,032 tests<animate attributeName="opacity" values="0;1" keyTimes="0;0.6" dur="4.6s" fill="freeze"/></text>
+<text x="700" y="406" fill="#f4efe4a8" font-size="10.5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" opacity="0">1,886 tests<animate attributeName="opacity" values="0;1" keyTimes="0;0.6" dur="4.6s" fill="freeze"/></text>
 </g>
 <g>
 <path d="M700 456 L713 444 L726 456" fill="none" stroke="#e7c27a" stroke-width="1.3" opacity="0"><animate attributeName="opacity" values="0;0.95" keyTimes="0;0.7" dur="4.6s" fill="freeze"/></path>
 <line x1="700" y1="456" x2="726" y2="456" stroke="#e7c27a" stroke-width="1.3" opacity="0"><animate attributeName="opacity" values="0;0.95" keyTimes="0;0.72" dur="4.6s" fill="freeze"/></line>
 <text x="734" y="454" fill="#e7c27a" font-size="10.5" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" opacity="0">v0.5.0 · 8 releases<animate attributeName="opacity" values="0;0.85" keyTimes="0;0.76" dur="4.6s" fill="freeze"/></text>
 </g>
-<text x="74" y="480" fill="#f4efe4" font-size="27" font-weight="640" font-variant-numeric="tabular-nums" opacity="0">8<animate attributeName="opacity" values="0;1" keyTimes="0;0.740" dur="4.6s" fill="freeze"/></text>
+<text x="74" y="480" fill="#f4efe4" font-size="27" font-weight="640" font-variant-numeric="tabular-nums" opacity="0">86<animate attributeName="opacity" values="0;1" keyTimes="0;0.740" dur="4.6s" fill="freeze"/></text>
 <text x="74" y="500" fill="#f4efe44f" font-size="11" letter-spacing="1.1" opacity="0">systems<animate attributeName="opacity" values="0;0.85" keyTimes="0;0.780" dur="4.6s" fill="freeze"/></text>
-<text x="252" y="480" fill="#f4efe4" font-size="27" font-weight="640" font-variant-numeric="tabular-nums" opacity="0">2,032<animate attributeName="opacity" values="0;1" keyTimes="0;0.790" dur="4.6s" fill="freeze"/></text>
+<text x="252" y="480" fill="#f4efe4" font-size="27" font-weight="640" font-variant-numeric="tabular-nums" opacity="0">1,886<animate attributeName="opacity" values="0;1" keyTimes="0;0.790" dur="4.6s" fill="freeze"/></text>
 <text x="252" y="500" fill="#f4efe44f" font-size="11" letter-spacing="1.1" opacity="0">tests verified<animate attributeName="opacity" values="0;0.85" keyTimes="0;0.830" dur="4.6s" fill="freeze"/></text>
 <text x="430" y="480" fill="#f4efe4" font-size="27" font-weight="640" font-variant-numeric="tabular-nums" opacity="0">8<animate attributeName="opacity" values="0;1" keyTimes="0;0.840" dur="4.6s" fill="freeze"/></text>
 <text x="430" y="500" fill="#f4efe44f" font-size="11" letter-spacing="1.1" opacity="0">releases<animate attributeName="opacity" values="0;0.85" keyTimes="0;0.880" dur="4.6s" fill="freeze"/></text>
