@@ -180,8 +180,13 @@ def topics_for(d: dict, limit: int = 12) -> list[str]:
     out: list[str] = []
 
     def add(t: str) -> None:
-        t = t.strip().lower().replace(" ", "-")
-        if t and t not in out and len(t) <= 35:
+        # GitHub topics must start with a lowercase letter or number, be at
+        # most 50 characters, and may contain hyphens only -- no dots, spaces
+        # or underscores. "next.js" or "next_js" makes the whole request fail
+        # with HTTP 422, so the set is sanitised before it is sent.
+        t = re.sub(r"[^a-z0-9-]+", "-", str(t).strip().lower()).strip("-")
+        t = re.sub(r"-{2,}", "-", t)
+        if t and t not in out and len(t) <= 50:
             out.append(t)
 
     add(d["project_category"].replace("_", "-").lower())
