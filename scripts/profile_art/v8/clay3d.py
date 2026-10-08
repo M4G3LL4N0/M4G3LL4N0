@@ -519,3 +519,24 @@ SLAB_LIGHT = {
     "tile": P["sand"],
     "foot": P["cream"],
 }
+
+
+# ---------------------------------------------------------------------------
+# endless-loop durations
+# ---------------------------------------------------------------------------
+# Coprime periods. If every track ran on a shared duration the whole plate would
+# visibly repeat every few seconds; with coprime periods the composite period is
+# the product, so a plate effectively never repeats. All values start and end on
+# the same value, so every track is individually seamless.
+LOOP = (7.0, 9.0, 11.0, 13.0, 17.0, 19.0, 23.0)
+
+
+def loop_dur(i: int, scale: float = 1.0) -> float:
+    """A coprime loop length for track i."""
+    return LOOP[i % len(LOOP)] * scale
+
+
+def loop_begin(i: int, scale: float = 1.0) -> float:
+    """A stagger that is also a fraction of a different period, so the phases
+    do not re-align on any short cycle."""
+    return (i * 2.718) % loop_dur(i, scale)

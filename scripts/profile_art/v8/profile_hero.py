@@ -15,8 +15,8 @@ sys.path.insert(0, str(HERE))
 
 import clay as C  # noqa: E402
 import clay3d as X  # noqa: E402
+import depth as D  # noqa: E402
 import naturetech as N  # noqa: E402
-import profile_surfaces as PS  # noqa: E402
 
 PROFILE = HERE.parents[2]
 OUT = PROFILE / "assets" / "hero"
@@ -50,7 +50,7 @@ def render(tiles: list[tuple[str, str]], light: bool, motion: bool) -> str:
     g = "ph" + ("l" if light else "d")
     ink = X.slab_ink(light)
     sub = X.slab_sub(light)
-    fills = PS.SLAB[light]
+    fills = X.SLAB_LIGHT if light else X.SLAB_DARK
 
     o = [X.defs(g, PAL, light)]
     o.append(f'<rect width="{W}" height="{H}" fill="url(#sky{g})"/>')
@@ -64,7 +64,7 @@ def render(tiles: list[tuple[str, str]], light: bool, motion: bool) -> str:
              f'fill="{C.alpha(C.PALETTE["peach"], 0.15)}"/>')
     o.append(N.ridges(W, HORIZON))
 
-    # Ground with the same converging seams as the plates.
+    # Pavement with converging seams, then the roadway and its crosswalk.
     o.append(f'<rect x="0" y="{HORIZON}" width="{W}" height="{H - HORIZON}" '
              f'fill="url(#floor{g})"/>')
     vx = W * 0.5
@@ -72,35 +72,44 @@ def render(tiles: list[tuple[str, str]], light: bool, motion: bool) -> str:
         o.append(f'<path d="M{_sr(vx)},{HORIZON} L{_sr(vx + k * 200)},{H}" '
                  f'stroke="{C.alpha(C.PALETTE["beige"], 0.20)}" stroke-width="2"/>')
     y, step = HORIZON + 5, 6.0
-    while y < H:
+    while y < H + 60:
         o.append(f'<rect x="0" y="{_sr(y)}" width="{W}" height="{_sr(step * 0.30)}" '
                  f'fill="{C.alpha(C.PALETTE["beige"], 0.40)}"/>')
         y += step
         step *= 1.36
+    o.append(D.curb(W, HORIZON, 22, "sand", "beige"))
+    road = C.tint(C.PALETTE["dusk_soft"], -0.34)
+    o.append(f'<rect x="0" y="{HORIZON + 22}" width="{W}" height="{H - HORIZON - 22}" '
+             f'fill="{road}"/>')
+    o.append(D.crosswalk(W, HORIZON + 22, H - HORIZON - 22, 9))
 
-    # Scenery. The figure tiles own the middle band, so the machines live in the
-    # sand at bottom-left and the settlement owns the right third.
-    o.append(X.cast_shadow(900, HORIZON + 8, 210, 20, g, skew=-6))
-    tiers = "".join(
-        X.block(800 + i * 30, HORIZON - (i + 1) * 54, 288 - i * 54, 56, 20,
-                C.tint(PAL["mass"], 0.06 * i), r=10)
-        for i in range(4))
-    o.append("<g>" + tiers + "".join(
-        X.hover_loop(3.0 + i * 0.6, 8.4 + i * 0.8, i * 0.6) for i in range(4)) + "</g>")
-    o.append(X.gateway(1006, 262, 116, 156, PAL["alt"], g, 10.5))
-    o.append(N.boulder(758, HORIZON, 70, 30, "beige"))
-
-    # A CRT console parked in the sand at bottom-left, under the title slab.
-    o.append(f'<g>{N.crt(84, 366, 132, 112, "coral", "dusk_deep", g)}'
-             f'{X.hover_loop(3.6, 9.4, 0.4)}</g>')
-    o.append(f'<g>{N.keyboard(78, 482, 152, 26, "beige")}'
-             f'{X.hover_loop(3.6, 9.4, 0.4)}</g>')
-
-    o.append(f'<g>{N.satellite(586, 132, 34, "coral", "turquoise")}'
-             f'{X.drift_loop(16, 19, 0)}</g>')
-    o.append(N.agave(636, HORIZON, 48, 66, "sage"))
-    o.append(X.conifer(694, HORIZON, 52, 126, PAL["cool"], 13, 2))
-    o.append(N.boulder(300, HORIZON, 62, 26, "beige"))
+    # Architecture on the right half, so the figure tiles own the left over open
+    # sky. Receding masses are pushed back with opacity, which is what makes the
+    # street read as deep rather than as a row of boxes.
+    STREET = HORIZON
+    o.append(D.haze(214, 92, W, C.PALETTE["peach"], 0.15))
+    o.append(D.depth_fade(D.building(700, 116, 128, 302, 5, "clay_red", g, 0.55, 2, 2), 0.88))
+    o.append(D.depth_fade(D.building(822, 148, 112, 270, 5, "terracotta", g, 0.48, 5, 0), 0.74))
+    o.append(D.depth_fade(D.building(928, 178, 104, 240, 4, "coral", g, 0.42, 7, 0), 0.58))
+    o.append(D.building(560, 76, 146, 342, 7, "adobe", g, 0.68, 1, 2))
+    o.append(D.awning(560, 320, 146, 18, "coral", "cream", 6))
+    o.append(D.sign_board(572, 292, 122, 24, "cream", "clay_red"))
+    o.append(f"<g>{N.crt(574, 322, 76, 66, 'beige', 'dusk_deep', g)}"
+             f'{X.hover_loop(3.0, X.loop_dur(2), X.loop_begin(2))}</g>')
+    o.append(D.festoon(560, 268, 706, 252, 12, 15, g))
+    o.append(f'<g>{D.lamp_post(524, STREET, 78, g)}'
+             f'{X.glow_loop(0.86, 1.0, X.loop_dur(3), X.loop_begin(3))}</g>')
+    o.append(D.bollard(500, STREET))
+    o.append(D.bollard(900, STREET))
+    o.append(f"<g>{D.figure(646, STREET, 60, 'turquoise', 'clay_red', g)}"
+             f'{D_drift(4)}</g>')
+    o.append(f"<g>{D.figure(700, STREET, 56, 'ember', 'dusk_deep', g)}"
+             f'{D_drift(5)}</g>')
+    o.append(f"<g>{N.satellite(470, 138, 36, 'coral', 'turquoise')}"
+             f'{X.drift_loop(16, X.loop_dur(1), X.loop_begin(1))}</g>')
+    o.append(N.agave(452, STREET, 48, 66, "sage"))
+    o.append(X.conifer(408, STREET, 54, 128, PAL["cool"], X.loop_dur(4), X.loop_begin(4)))
+    o.append(N.boulder(348, STREET, 62, 26, "beige"))
 
     # Information: title slab, four figure tiles, footer slab.
     o.append(X.slab(72, 150, 470, 82, fills["title"], light=light, r=14))
@@ -127,6 +136,10 @@ def render(tiles: list[tuple[str, str]], light: bool, motion: bool) -> str:
             f'viewBox="0 0 {W} {H}" role="img" '
             f'aria-label="DUNG30N5, technologist and founder of NOAERTH">'
             f'{body}</svg>')
+
+
+def D_drift(i: int) -> str:
+    return X.drift_loop(7, X.loop_dur(i), X.loop_begin(i))
 
 
 def _sr(v: float) -> str:
