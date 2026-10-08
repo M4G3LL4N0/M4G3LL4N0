@@ -2,7 +2,7 @@
  "repo": "claimpilot-ai",
  "canonical_name": "claimpilot-ai",
  "project_category": "WEB_APPLICATION",
- "palette": "mint_violet",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -55,7 +55,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "state_change over routes /about, /api/intake, /contact; modules app, components, lib; primitives policy, stack, index",
  "secondary_visual_metaphor": "primitives policy, stack, index; stack Prisma, Zod; top module app",
- "geometry_set": "ring",
+ "geometry_set": "arch",
  "animation_story_1": "state_change",
  "entry_points": [
   "public-site/index.html"

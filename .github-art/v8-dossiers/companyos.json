@@ -2,7 +2,7 @@
  "repo": "companyos",
  "canonical_name": "companyos",
  "project_category": "WEB_APPLICATION",
- "palette": "graphite_coral",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -52,7 +52,7 @@
  ],
  "primary_visual_metaphor": "queue_advance over routes /about, /api/runs, /brief; modules app, components, lib; primitives stack, queue",
  "secondary_visual_metaphor": "primitives stack, queue; stack Prisma, Zod; top module app",
- "geometry_set": "cube",
+ "geometry_set": "cactus",
  "animation_story_1": "queue_advance",
  "entry_points": [
   "public-site/index.html"

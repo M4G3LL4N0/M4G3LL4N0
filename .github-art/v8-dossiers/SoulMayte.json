@@ -2,7 +2,7 @@
  "repo": "SoulMayte",
  "canonical_name": "SoulMayte",
  "project_category": "WEB_APPLICATION",
- "palette": "indigo_lime",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -55,7 +55,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "state_change over routes /about, /analyze, /api/analyze; modules app, components, lib; primitives policy",
  "secondary_visual_metaphor": "primitives policy; stack Supabase; top module app",
- "geometry_set": "rosette",
+ "geometry_set": "arch",
  "animation_story_1": "state_change",
  "entry_points": [
   "public-site/index.html"

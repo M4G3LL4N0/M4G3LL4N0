@@ -2,7 +2,7 @@
  "repo": "computeflow",
  "canonical_name": "computeflow",
  "confidence": "E3",
- "palette": "slate_amber",
+ "palette": "adobe_dusk",
  "project_category": "WEB_APPLICATION",
  "status": "PROTOTYPE",
  "slots": [
@@ -22,7 +22,7 @@
    "purpose": "identity",
    "geometry": "arch",
    "computer_science_concept": "benchmark",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "bar_sweep",
    "evidence_basis": "identity from 940 analysed files"
   },
@@ -31,7 +31,7 @@
    "purpose": "how it is built",
    "geometry": "arch",
    "computer_science_concept": "benchmark",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "bar_sweep",
    "evidence_basis": "3 measured module root(s)"
   },
@@ -40,7 +40,7 @@
    "purpose": "how data moves",
    "geometry": "arch",
    "computer_science_concept": "benchmark",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "bar_sweep",
    "evidence_basis": "15 measured route(s)"
   },
@@ -49,7 +49,7 @@
    "purpose": "how it behaves",
    "geometry": "arch",
    "computer_science_concept": "benchmark",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "bar_sweep",
    "evidence_basis": "5 detected primitive(s)"
   },
@@ -58,7 +58,7 @@
    "purpose": "how it is composed",
    "geometry": "arch",
    "computer_science_concept": "benchmark",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "bar_sweep",
    "evidence_basis": "declared dependencies: scaffold only"
   },
@@ -67,7 +67,7 @@
    "purpose": "how it is verified",
    "geometry": "arch",
    "computer_science_concept": "benchmark",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "bar_sweep",
    "evidence_basis": "0 test file(s), 0 workflow(s)"
   },
@@ -76,7 +76,7 @@
    "purpose": "how it is used",
    "geometry": "arch",
    "computer_science_concept": "benchmark",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "bar_sweep",
    "evidence_basis": "3 module(s) as ordered steps"
   },
@@ -85,7 +85,7 @@
    "purpose": "the problem it addresses",
    "geometry": "arch",
    "computer_science_concept": "benchmark",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "bar_sweep",
    "evidence_basis": "domain classification from measured structure"
   },
@@ -94,7 +94,7 @@
    "purpose": "identity object",
    "geometry": "arch",
    "computer_science_concept": "benchmark",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "bar_sweep",
    "evidence_basis": "identity object"
   }

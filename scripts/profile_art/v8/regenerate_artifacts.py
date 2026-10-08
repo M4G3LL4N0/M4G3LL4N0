@@ -17,7 +17,7 @@ HERE = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 
 import evidence as E  # noqa: E402
-import renderers as R  # noqa: E402
+import clay_renderers as R  # noqa: E402
 
 PROFILE = HERE.parents[2]
 DOSSIERS = PROFILE / ".github-art" / "v8-dossiers"

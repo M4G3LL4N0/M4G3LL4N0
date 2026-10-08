@@ -2,7 +2,7 @@
  "repo": "ledgerops-ai",
  "canonical_name": "ledgerops-ai",
  "project_category": "WEB_APPLICATION",
- "palette": "slate_amber",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -55,7 +55,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "tessellate over routes /about, /api/closes, /close; modules app, components, lib; primitives simulator, index, policy",
  "secondary_visual_metaphor": "primitives simulator, index, policy; stack Prisma, Zod; top module app",
- "geometry_set": "ring",
+ "geometry_set": "cactus",
  "animation_story_1": "tessellate",
  "entry_points": [
   "public-site/index.html"

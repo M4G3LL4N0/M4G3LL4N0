@@ -2,7 +2,7 @@
  "repo": "gh0st",
  "canonical_name": "gh0st",
  "project_category": "WEB_APPLICATION",
- "palette": "peach_cyan",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "TESTED",
  "has_code": true,
@@ -74,7 +74,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "grid_snap over modules .worktrees, apps, apps/cli; primitives crypto, index, policy",
  "secondary_visual_metaphor": "primitives crypto, index, policy; stack Express; top module .worktrees",
- "geometry_set": "cube",
+ "geometry_set": "tree",
  "animation_story_1": "grid_snap",
  "entry_points": [
   ".worktrees/privacy-gated-multi-provider/apps/client/index.html",

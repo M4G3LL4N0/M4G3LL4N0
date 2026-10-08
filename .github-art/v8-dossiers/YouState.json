@@ -2,7 +2,7 @@
  "repo": "YouState",
  "canonical_name": "YouState",
  "project_category": "WEB_APPLICATION",
- "palette": "cream_orange",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -53,7 +53,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "state_change over routes /about, /api/checkout, /app; modules app, components, lib; primitives policy",
  "secondary_visual_metaphor": "primitives policy; stack Supabase, Zod; top module app",
- "geometry_set": "ring",
+ "geometry_set": "tree",
  "animation_story_1": "state_change",
  "entry_points": [
   "public-site/index.html"

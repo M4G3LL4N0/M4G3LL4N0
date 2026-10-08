@@ -2,7 +2,7 @@
  "repo": "ForeverLuvd",
  "canonical_name": "ForeverLuvd",
  "project_category": "WEB_APPLICATION",
- "palette": "cream_orange",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -56,7 +56,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "grid_snap over routes /about, /api/checkout, /auth/sign-in; modules app, components, src; primitives crypto, agent_graph, policy",
  "secondary_visual_metaphor": "primitives crypto, agent_graph, policy; stack Supabase, Zod; top module app",
- "geometry_set": "ring",
+ "geometry_set": "cactus",
  "animation_story_1": "grid_snap",
  "entry_points": [
   "public-site/index.html",

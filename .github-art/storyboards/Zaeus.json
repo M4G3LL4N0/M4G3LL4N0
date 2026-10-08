@@ -2,7 +2,7 @@
  "repo": "Zaeus",
  "canonical_name": "Zaeus",
  "confidence": "E2",
- "palette": "slate_amber",
+ "palette": "sage_beige",
  "project_category": "SCAFFOLD",
  "status": "SCAFFOLD",
  "slots": [
@@ -17,54 +17,54 @@
   {
    "slot": "hero",
    "purpose": "identity",
-   "geometry": "ring",
+   "geometry": "cactus",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette slate_amber",
+   "material": "palette sage_beige",
    "animation": "tile_assemble",
    "evidence_basis": "identity from 5 analysed files"
   },
   {
    "slot": "terminal",
    "purpose": "how it is operated",
-   "geometry": "ring",
+   "geometry": "cactus",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette slate_amber",
+   "material": "palette sage_beige",
    "animation": "tile_assemble",
    "evidence_basis": "0 measured entry point(s)"
   },
   {
    "slot": "architecture",
    "purpose": "how it is built",
-   "geometry": "ring",
+   "geometry": "cactus",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette slate_amber",
+   "material": "palette sage_beige",
    "animation": "tile_assemble",
    "evidence_basis": "0 measured module root(s)"
   },
   {
    "slot": "data_flow",
    "purpose": "how data moves",
-   "geometry": "ring",
+   "geometry": "cactus",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette slate_amber",
+   "material": "palette sage_beige",
    "animation": "tile_assemble",
    "evidence_basis": "0 measured route(s)"
   },
   {
    "slot": "state_machine",
    "purpose": "how it behaves",
-   "geometry": "ring",
+   "geometry": "cactus",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette slate_amber",
+   "material": "palette sage_beige",
    "animation": "tile_assemble",
    "evidence_basis": "0 detected primitive(s)"
   },
   {
    "slot": "footer",
    "purpose": "identity object",
-   "geometry": "ring",
+   "geometry": "cactus",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette slate_amber",
+   "material": "palette sage_beige",
    "animation": "tile_assemble",
    "evidence_basis": "identity object"
   }

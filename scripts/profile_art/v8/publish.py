@@ -208,15 +208,6 @@ def publish_repo(gh: GitHub, name: str, entry: dict, d: dict,
         "path": "README.md", "mode": "100644", "type": "blob",
         "content": new_readme,
     })
-    # Remove the superseded <slot>.svg names so a rename does not leave an
-    # orphaned duplicate set behind in every repository.
-    live = {f"{ART_DIR}/{f.name}" for f in files}
-    for slot in slots:
-        legacy = f"{ART_DIR}/{slot}.svg"
-        if legacy not in live:
-            tree_entries.append({"path": legacy, "mode": "100644",
-                                 "type": "blob", "sha": None})
-
     missing = verify_block(block, art_dir)
     if missing:
         return {"repo": name, "status": "asset-error", "why": "; ".join(missing[:4])}
@@ -229,6 +220,19 @@ def publish_repo(gh: GitHub, name: str, entry: dict, d: dict,
     base_sha = ref["object"]["sha"]
     base_commit = gh.api("GET", f"repos/{OWNER}/{name}/git/commits/{base_sha}")
     base_tree = base_commit["tree"]["sha"]
+
+    # Remove the superseded <slot>.svg names so the rename from the previous
+    # system leaves no orphaned duplicate set. Deleting a path that is not
+    # present fails the entire tree with GitRPC::BadObjectState, so the remote
+    # set is read first and only files that really exist are marked.
+    live = {f"{ART_DIR}/{f.name}" for f in files}
+    present = {e.get("path") for e in gh.api(
+        "GET", f"repos/{OWNER}/{name}/git/trees/{base_sha}?recursive=1").get("tree", [])}
+    for slot in slots:
+        legacy = f"{ART_DIR}/{slot}.svg"
+        if legacy not in live and legacy in present:
+            tree_entries.append({"path": legacy, "mode": "100644",
+                                 "type": "blob", "sha": None})
 
     tree = gh.api("POST", f"repos/{OWNER}/{name}/git/trees", body={
         "base_tree": base_tree, "tree": tree_entries,

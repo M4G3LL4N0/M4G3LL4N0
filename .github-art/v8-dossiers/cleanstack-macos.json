@@ -2,7 +2,7 @@
  "repo": "cleanstack-macos",
  "canonical_name": "cleanstack-macos",
  "project_category": "SOFTWARE",
- "palette": "mint_violet",
+ "palette": "clay_sand",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -43,7 +43,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "packet_route over routes /api/checkout; modules Sources, app, lib",
  "secondary_visual_metaphor": "top module Sources",
- "geometry_set": "rosette",
+ "geometry_set": "mesa",
  "animation_story_1": "packet_route",
  "entry_points": [
   "site/index.html"

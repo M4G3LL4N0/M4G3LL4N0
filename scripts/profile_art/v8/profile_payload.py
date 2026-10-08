@@ -19,8 +19,7 @@ HERE = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 
 import evidence as E  # noqa: E402
-from geometry import palette_for  # noqa: E402
-from renderers import seed_of  # noqa: E402
+from clay import clay_palette_for, seed_of  # noqa: E402
 
 PROFILE_NAME = "M4G3LL4N0"
 
@@ -63,13 +62,13 @@ def build(index: dict[str, dict], manifest: dict[str, dict]) -> dict:
         "repo": PROFILE_NAME,
         "canonical_name": "DUNG30N5 x NOAERTH",
         "project_category": "PORTFOLIO",
-        "palette": "navy_lavender",
+        "palette": "mesa_terracotta",
         "domain": "Venture operating company",
         "status": "PORTFOLIO",
         "confidence": "E3",
         "has_code": True,
         "slots": SLOTS,
-        "geometry_set": "rosette",
+        "geometry_set": "mesa",
         "animation_story_1": "graph_resolve",
         "animation_story_note": (
             f"{len(index)} repositories resolve as one navigable portfolio surface"),
@@ -143,7 +142,7 @@ def build(index: dict[str, dict], manifest: dict[str, dict]) -> dict:
         "test_count": tests,
         "shared_template_files": 0,
     }
-    d["palette"] = palette_for("PORTFOLIO", seed_of(PROFILE_NAME, "category"))
+    d["palette"] = clay_palette_for("PORTFOLIO", seed_of(PROFILE_NAME, "category"))
     return d
 
 

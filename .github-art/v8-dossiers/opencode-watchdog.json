@@ -2,7 +2,7 @@
  "repo": "opencode-watchdog",
  "canonical_name": "opencode-watchdog",
  "project_category": "SECURITY",
- "palette": "graphite_coral",
+ "palette": "clay_sand",
  "confidence": "E3",
  "status": "LIVE",
  "has_code": true,
@@ -54,7 +54,7 @@
  ],
  "primary_visual_metaphor": "state_change over modules bin, scripts, src; primitives stack, agent_graph, policy",
  "secondary_visual_metaphor": "primitives stack, agent_graph, policy; top module bin",
- "geometry_set": "arch",
+ "geometry_set": "mesa",
  "animation_story_1": "state_change",
  "entry_points": [
   "src/cli/index.ts"

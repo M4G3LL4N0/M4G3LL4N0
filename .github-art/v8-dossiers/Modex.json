@@ -2,7 +2,7 @@
  "repo": "Modex",
  "canonical_name": "Modex",
  "project_category": "DATA_VISUALIZATION",
- "palette": "graphite_coral",
+ "palette": "peach_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -51,7 +51,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "tessellate over routes /about, /api/accuracy, /api/analyze; modules app, components, lib; primitives pipeline",
  "secondary_visual_metaphor": "primitives pipeline; stack D3, OpenAI SDK, Supabase; top module app",
- "geometry_set": "ring",
+ "geometry_set": "arch",
  "animation_story_1": "tessellate",
  "entry_points": [
   "lib/experiments/index.ts",

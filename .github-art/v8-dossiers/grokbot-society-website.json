@@ -2,7 +2,7 @@
  "repo": "grokbot-society-website",
  "canonical_name": "grokbot-society-website",
  "project_category": "WEB_APPLICATION",
- "palette": "slate_amber",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "TESTED",
  "has_code": true,
@@ -55,7 +55,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "state_change over routes /architecture, /code-of-conduct, /contributing; modules src; primitives policy, simulator, pipeline",
  "secondary_visual_metaphor": "primitives policy, simulator, pipeline; stack Next.js, React, Tailwind CSS; top module src",
- "geometry_set": "cube",
+ "geometry_set": "tree",
  "animation_story_1": "state_change",
  "entry_points": [],
  "routes": [

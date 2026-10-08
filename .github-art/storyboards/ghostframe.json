@@ -2,7 +2,7 @@
  "repo": "ghostframe",
  "canonical_name": "ghostframe",
  "confidence": "E3",
- "palette": "indigo_lime",
+ "palette": "adobe_dusk",
  "project_category": "WEB_APPLICATION",
  "status": "PROTOTYPE",
  "slots": [
@@ -19,7 +19,7 @@
    "purpose": "identity",
    "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette indigo_lime",
+   "material": "palette adobe_dusk",
    "animation": "tree_traverse",
    "evidence_basis": "identity from 900 analysed files"
   },
@@ -28,7 +28,7 @@
    "purpose": "how it is built",
    "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette indigo_lime",
+   "material": "palette adobe_dusk",
    "animation": "tree_traverse",
    "evidence_basis": "3 measured module root(s)"
   },
@@ -37,7 +37,7 @@
    "purpose": "how data moves",
    "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette indigo_lime",
+   "material": "palette adobe_dusk",
    "animation": "tree_traverse",
    "evidence_basis": "15 measured route(s)"
   },
@@ -46,7 +46,7 @@
    "purpose": "how it is composed",
    "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette indigo_lime",
+   "material": "palette adobe_dusk",
    "animation": "tree_traverse",
    "evidence_basis": "declared dependencies: scaffold only"
   },
@@ -55,7 +55,7 @@
    "purpose": "how it is verified",
    "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette indigo_lime",
+   "material": "palette adobe_dusk",
    "animation": "tree_traverse",
    "evidence_basis": "0 test file(s), 0 workflow(s)"
   },
@@ -64,7 +64,7 @@
    "purpose": "identity object",
    "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette indigo_lime",
+   "material": "palette adobe_dusk",
    "animation": "tree_traverse",
    "evidence_basis": "identity object"
   }

@@ -2,7 +2,7 @@
  "repo": "opencode-watchdog-website",
  "canonical_name": "opencode-watchdog-website",
  "project_category": "WEB_APPLICATION",
- "palette": "rust_teal",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -44,7 +44,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "layer_separate over routes /commands; modules app, components, lib",
  "secondary_visual_metaphor": "stack Next.js, React, Tailwind CSS; top module app",
- "geometry_set": "ring",
+ "geometry_set": "mesa",
  "animation_story_1": "layer_separate",
  "entry_points": [],
  "routes": [

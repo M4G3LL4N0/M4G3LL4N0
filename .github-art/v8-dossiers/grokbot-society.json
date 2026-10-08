@@ -2,7 +2,7 @@
  "repo": "grokbot-society",
  "canonical_name": "grokbot-society",
  "project_category": "WEB_APPLICATION",
- "palette": "coral_teal",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "LIVE",
  "has_code": true,
@@ -57,7 +57,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "tessellate over modules examples, src; primitives stack, simulator, benchmark",
  "secondary_visual_metaphor": "primitives stack, simulator, benchmark; stack Vitest; top module examples",
- "geometry_set": "cube",
+ "geometry_set": "tree",
  "animation_story_1": "tessellate",
  "entry_points": [
   "src/budget/index.ts",

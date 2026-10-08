@@ -2,7 +2,7 @@
  "repo": "computeflow-website",
  "canonical_name": "computeflow-website",
  "project_category": "PERFORMANCE",
- "palette": "coral_teal",
+ "palette": "sun_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -40,7 +40,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "bar_sweep over primitives benchmark",
  "secondary_visual_metaphor": "primitives benchmark",
- "geometry_set": "cube",
+ "geometry_set": "tree",
  "animation_story_1": "bar_sweep",
  "entry_points": [
   "index.html",

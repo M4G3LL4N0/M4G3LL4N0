@@ -2,7 +2,7 @@
  "repo": "imessage",
  "canonical_name": "imessage",
  "confidence": "E2",
- "palette": "navy_lavender",
+ "palette": "adobe_dusk",
  "project_category": "WEB_APPLICATION",
  "status": "PROTOTYPE",
  "slots": [
@@ -20,7 +20,7 @@
    "purpose": "identity",
    "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette navy_lavender",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "identity from 47 analysed files"
   },
@@ -29,7 +29,7 @@
    "purpose": "how it is operated",
    "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette navy_lavender",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "1 measured entry point(s)"
   },
@@ -38,7 +38,7 @@
    "purpose": "how it is built",
    "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette navy_lavender",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "2 measured module root(s)"
   },
@@ -47,7 +47,7 @@
    "purpose": "how data moves",
    "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette navy_lavender",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "2 measured route(s)"
   },
@@ -56,7 +56,7 @@
    "purpose": "how it is composed",
    "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette navy_lavender",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "declared dependencies: Zod"
   },
@@ -65,7 +65,7 @@
    "purpose": "how it is verified",
    "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette navy_lavender",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "0 test file(s), 0 workflow(s)"
   },
@@ -74,7 +74,7 @@
    "purpose": "identity object",
    "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette navy_lavender",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "identity object"
   }

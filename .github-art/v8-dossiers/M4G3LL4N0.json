@@ -2,7 +2,7 @@
  "repo": "M4G3LL4N0",
  "canonical_name": "DUNG30N5 x NOAERTH",
  "project_category": "PORTFOLIO",
- "palette": "plum_azure",
+ "palette": "mesa_terracotta",
  "confidence": "E3",
  "status": "PORTFOLIO",
  "has_code": true,
@@ -77,7 +77,7 @@
  ],
  "primary_visual_metaphor": "",
  "secondary_visual_metaphor": "primitives index, stack, policy; stack TypeScript; top module app",
- "geometry_set": "rosette",
+ "geometry_set": "mesa",
  "animation_story_1": "graph_resolve",
  "entry_points": [
   "136 public repositories"

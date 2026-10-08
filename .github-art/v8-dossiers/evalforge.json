@@ -2,7 +2,7 @@
  "repo": "evalforge",
  "canonical_name": "evalforge",
  "project_category": "WEB_APPLICATION",
- "palette": "slate_amber",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "TESTED",
  "has_code": true,
@@ -52,7 +52,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "state_change over routes /about, /api/evaluate, /contact; modules app, components, lib; primitives policy, stack",
  "secondary_visual_metaphor": "primitives policy, stack; stack Next.js, React, Tailwind CSS; top module app",
- "geometry_set": "cube",
+ "geometry_set": "arch",
  "animation_story_1": "state_change",
  "entry_points": [
   "public-site/index.html"

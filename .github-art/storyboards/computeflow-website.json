@@ -2,7 +2,7 @@
  "repo": "computeflow-website",
  "canonical_name": "computeflow-website",
  "confidence": "E3",
- "palette": "coral_teal",
+ "palette": "sun_dusk",
  "project_category": "PERFORMANCE",
  "status": "PROTOTYPE",
  "slots": [
@@ -17,54 +17,54 @@
   {
    "slot": "hero",
    "purpose": "identity",
-   "geometry": "cube",
+   "geometry": "tree",
    "computer_science_concept": "benchmark",
-   "material": "palette coral_teal",
+   "material": "palette sun_dusk",
    "animation": "bar_sweep",
    "evidence_basis": "identity from 33 analysed files"
   },
   {
    "slot": "terminal",
    "purpose": "how it is operated",
-   "geometry": "cube",
+   "geometry": "tree",
    "computer_science_concept": "benchmark",
-   "material": "palette coral_teal",
+   "material": "palette sun_dusk",
    "animation": "bar_sweep",
    "evidence_basis": "2 measured entry point(s)"
   },
   {
    "slot": "state_machine",
    "purpose": "how it behaves",
-   "geometry": "cube",
+   "geometry": "tree",
    "computer_science_concept": "benchmark",
-   "material": "palette coral_teal",
+   "material": "palette sun_dusk",
    "animation": "bar_sweep",
    "evidence_basis": "1 detected primitive(s)"
   },
   {
    "slot": "build",
    "purpose": "how it is verified",
-   "geometry": "cube",
+   "geometry": "tree",
    "computer_science_concept": "benchmark",
-   "material": "palette coral_teal",
+   "material": "palette sun_dusk",
    "animation": "bar_sweep",
    "evidence_basis": "0 test file(s), 0 workflow(s)"
   },
   {
    "slot": "domain",
    "purpose": "the problem it addresses",
-   "geometry": "cube",
+   "geometry": "tree",
    "computer_science_concept": "benchmark",
-   "material": "palette coral_teal",
+   "material": "palette sun_dusk",
    "animation": "bar_sweep",
    "evidence_basis": "domain classification from measured structure"
   },
   {
    "slot": "footer",
    "purpose": "identity object",
-   "geometry": "cube",
+   "geometry": "tree",
    "computer_science_concept": "benchmark",
-   "material": "palette coral_teal",
+   "material": "palette sun_dusk",
    "animation": "bar_sweep",
    "evidence_basis": "identity object"
   }

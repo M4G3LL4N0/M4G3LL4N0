@@ -2,7 +2,7 @@
  "repo": "commos",
  "canonical_name": "commos",
  "project_category": "WEB_APPLICATION",
- "palette": "mint_violet",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -54,7 +54,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "state_change over routes /docs/api, /setup; modules src; primitives policy, index, simulator",
  "secondary_visual_metaphor": "primitives policy, index, simulator; stack Zod; top module src",
- "geometry_set": "ring",
+ "geometry_set": "tree",
  "animation_story_1": "state_change",
  "entry_points": [
   "public-site/index.html",

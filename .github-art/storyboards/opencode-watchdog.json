@@ -2,7 +2,7 @@
  "repo": "opencode-watchdog",
  "canonical_name": "opencode-watchdog",
  "confidence": "E3",
- "palette": "graphite_coral",
+ "palette": "clay_sand",
  "project_category": "SECURITY",
  "status": "LIVE",
  "slots": [
@@ -19,72 +19,72 @@
   {
    "slot": "hero",
    "purpose": "identity",
-   "geometry": "arch",
+   "geometry": "mesa",
    "computer_science_concept": "stack",
-   "material": "palette graphite_coral",
+   "material": "palette clay_sand",
    "animation": "state_change",
    "evidence_basis": "identity from 97 analysed files"
   },
   {
    "slot": "terminal",
    "purpose": "how it is operated",
-   "geometry": "arch",
+   "geometry": "mesa",
    "computer_science_concept": "stack",
-   "material": "palette graphite_coral",
+   "material": "palette clay_sand",
    "animation": "state_change",
    "evidence_basis": "1 measured entry point(s)"
   },
   {
    "slot": "architecture",
    "purpose": "how it is built",
-   "geometry": "arch",
+   "geometry": "mesa",
    "computer_science_concept": "stack",
-   "material": "palette graphite_coral",
+   "material": "palette clay_sand",
    "animation": "state_change",
    "evidence_basis": "3 measured module root(s)"
   },
   {
    "slot": "state_machine",
    "purpose": "how it behaves",
-   "geometry": "arch",
+   "geometry": "mesa",
    "computer_science_concept": "stack",
-   "material": "palette graphite_coral",
+   "material": "palette clay_sand",
    "animation": "state_change",
    "evidence_basis": "6 detected primitive(s)"
   },
   {
    "slot": "build",
    "purpose": "how it is verified",
-   "geometry": "arch",
+   "geometry": "mesa",
    "computer_science_concept": "stack",
-   "material": "palette graphite_coral",
+   "material": "palette clay_sand",
    "animation": "state_change",
    "evidence_basis": "12 test file(s), 1 workflow(s)"
   },
   {
    "slot": "workflow",
    "purpose": "how it is used",
-   "geometry": "arch",
+   "geometry": "mesa",
    "computer_science_concept": "stack",
-   "material": "palette graphite_coral",
+   "material": "palette clay_sand",
    "animation": "state_change",
    "evidence_basis": "3 module(s) as ordered steps"
   },
   {
    "slot": "domain",
    "purpose": "the problem it addresses",
-   "geometry": "arch",
+   "geometry": "mesa",
    "computer_science_concept": "stack",
-   "material": "palette graphite_coral",
+   "material": "palette clay_sand",
    "animation": "state_change",
    "evidence_basis": "domain classification from measured structure"
   },
   {
    "slot": "footer",
    "purpose": "identity object",
-   "geometry": "arch",
+   "geometry": "mesa",
    "computer_science_concept": "stack",
-   "material": "palette graphite_coral",
+   "material": "palette clay_sand",
    "animation": "state_change",
    "evidence_basis": "identity object"
   }

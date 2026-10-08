@@ -2,7 +2,7 @@
  "repo": "opsautopilot",
  "canonical_name": "opsautopilot",
  "project_category": "WEB_APPLICATION",
- "palette": "mint_violet",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -54,7 +54,7 @@
  ],
  "primary_visual_metaphor": "queue_advance over routes /about, /api/simulations, /contact; modules app, components, lib; primitives queue, simulator",
  "secondary_visual_metaphor": "primitives queue, simulator; stack Prisma, Zod; top module app",
- "geometry_set": "cube",
+ "geometry_set": "arch",
  "animation_story_1": "queue_advance",
  "entry_points": [
   "public-site/index.html"

@@ -2,7 +2,7 @@
  "repo": "luvpartnr",
  "canonical_name": "luvpartnr",
  "confidence": "E3",
- "palette": "plum_azure",
+ "palette": "adobe_dusk",
  "project_category": "WEB_APPLICATION",
  "status": "PROTOTYPE",
  "slots": [
@@ -18,63 +18,63 @@
   {
    "slot": "hero",
    "purpose": "identity",
-   "geometry": "arch",
+   "geometry": "tree",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette plum_azure",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "identity from 979 analysed files"
   },
   {
    "slot": "terminal",
    "purpose": "how it is operated",
-   "geometry": "arch",
+   "geometry": "tree",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette plum_azure",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "1 measured entry point(s)"
   },
   {
    "slot": "architecture",
    "purpose": "how it is built",
-   "geometry": "arch",
+   "geometry": "tree",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette plum_azure",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "4 measured module root(s)"
   },
   {
    "slot": "data_flow",
    "purpose": "how data moves",
-   "geometry": "arch",
+   "geometry": "tree",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette plum_azure",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "24 measured route(s)"
   },
   {
    "slot": "component_map",
    "purpose": "how it is composed",
-   "geometry": "arch",
+   "geometry": "tree",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette plum_azure",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "declared dependencies: Stripe, Supabase, Zod"
   },
   {
    "slot": "build",
    "purpose": "how it is verified",
-   "geometry": "arch",
+   "geometry": "tree",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette plum_azure",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "0 test file(s), 0 workflow(s)"
   },
   {
    "slot": "footer",
    "purpose": "identity object",
-   "geometry": "arch",
+   "geometry": "tree",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette plum_azure",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "identity object"
   }

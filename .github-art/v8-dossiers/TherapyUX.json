@@ -2,7 +2,7 @@
  "repo": "TherapyUX",
  "canonical_name": "TherapyUX",
  "project_category": "WEB_APPLICATION",
- "palette": "rust_teal",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -60,7 +60,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "grid_snap over routes /about, /api/waitlist, /app/sessions; modules app, components, hooks; primitives crypto",
  "secondary_visual_metaphor": "primitives crypto; stack Next.js, React, Tailwind CSS; top module app",
- "geometry_set": "arch",
+ "geometry_set": "mesa",
  "animation_story_1": "grid_snap",
  "entry_points": [
   "hooks/index.ts",

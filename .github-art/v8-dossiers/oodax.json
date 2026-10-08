@@ -2,7 +2,7 @@
  "repo": "oodax",
  "canonical_name": "oodax",
  "project_category": "WEB_APPLICATION",
- "palette": "navy_lavender",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -47,7 +47,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "tree_traverse over routes /about, /contact, /dashboard; modules app, components, src",
  "secondary_visual_metaphor": "stack Next.js, React, Tailwind CSS; top module app",
- "geometry_set": "rosette",
+ "geometry_set": "mesa",
  "animation_story_1": "tree_traverse",
  "entry_points": [
   "public-site/index.html"

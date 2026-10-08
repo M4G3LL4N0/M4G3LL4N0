@@ -2,7 +2,7 @@
  "repo": "valuedsociety",
  "canonical_name": "valuedsociety",
  "confidence": "E3",
- "palette": "rust_teal",
+ "palette": "adobe_dusk",
  "project_category": "WEB_APPLICATION",
  "status": "PROTOTYPE",
  "slots": [
@@ -18,63 +18,63 @@
   {
    "slot": "hero",
    "purpose": "identity",
-   "geometry": "rosette",
+   "geometry": "tree",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette rust_teal",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "identity from 948 analysed files"
   },
   {
    "slot": "terminal",
    "purpose": "how it is operated",
-   "geometry": "rosette",
+   "geometry": "tree",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette rust_teal",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "2 measured entry point(s)"
   },
   {
    "slot": "architecture",
    "purpose": "how it is built",
-   "geometry": "rosette",
+   "geometry": "tree",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette rust_teal",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "4 measured module root(s)"
   },
   {
    "slot": "data_flow",
    "purpose": "how data moves",
-   "geometry": "rosette",
+   "geometry": "tree",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette rust_teal",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "19 measured route(s)"
   },
   {
    "slot": "component_map",
    "purpose": "how it is composed",
-   "geometry": "rosette",
+   "geometry": "tree",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette rust_teal",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "declared dependencies: Supabase"
   },
   {
    "slot": "build",
    "purpose": "how it is verified",
-   "geometry": "rosette",
+   "geometry": "tree",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette rust_teal",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "0 test file(s), 0 workflow(s)"
   },
   {
    "slot": "footer",
    "purpose": "identity object",
-   "geometry": "rosette",
+   "geometry": "tree",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette rust_teal",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "identity object"
   }

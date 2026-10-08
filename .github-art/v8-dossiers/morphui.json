@@ -2,7 +2,7 @@
  "repo": "morphui",
  "canonical_name": "morphui",
  "project_category": "WEB_APPLICATION",
- "palette": "peach_cyan",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "TESTED",
  "has_code": true,
@@ -52,7 +52,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "tessellate over routes /about, /api/morph, /contact; modules app, components, lib; primitives pipeline, stack",
  "secondary_visual_metaphor": "primitives pipeline, stack; stack Prisma, Zod; top module app",
- "geometry_set": "arch",
+ "geometry_set": "mesa",
  "animation_story_1": "tessellate",
  "entry_points": [
   "public-site/index.html"

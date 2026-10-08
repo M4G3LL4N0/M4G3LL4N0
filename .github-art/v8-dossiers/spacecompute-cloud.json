@@ -2,7 +2,7 @@
  "repo": "spacecompute-cloud",
  "canonical_name": "spacecompute-cloud",
  "project_category": "WEB_APPLICATION",
- "palette": "mint_violet",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -56,7 +56,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "bar_sweep over routes /about, /api/plans, /contact; modules app, components, lib; primitives benchmark, policy, heap",
  "secondary_visual_metaphor": "primitives benchmark, policy, heap; stack Prisma, Zod; top module app",
- "geometry_set": "cube",
+ "geometry_set": "tree",
  "animation_story_1": "bar_sweep",
  "entry_points": [
   "public-site/index.html"

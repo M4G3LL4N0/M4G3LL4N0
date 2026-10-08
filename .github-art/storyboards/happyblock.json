@@ -2,7 +2,7 @@
  "repo": "happyblock",
  "canonical_name": "happyblock",
  "confidence": "E3",
- "palette": "graphite_coral",
+ "palette": "adobe_dusk",
  "project_category": "WEB_APPLICATION",
  "status": "PROTOTYPE",
  "slots": [
@@ -18,63 +18,63 @@
   {
    "slot": "hero",
    "purpose": "identity",
-   "geometry": "rosette",
+   "geometry": "tree",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette graphite_coral",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "identity from 980 analysed files"
   },
   {
    "slot": "terminal",
    "purpose": "how it is operated",
-   "geometry": "rosette",
+   "geometry": "tree",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette graphite_coral",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "1 measured entry point(s)"
   },
   {
    "slot": "architecture",
    "purpose": "how it is built",
-   "geometry": "rosette",
+   "geometry": "tree",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette graphite_coral",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "3 measured module root(s)"
   },
   {
    "slot": "data_flow",
    "purpose": "how data moves",
-   "geometry": "rosette",
+   "geometry": "tree",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette graphite_coral",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "23 measured route(s)"
   },
   {
    "slot": "component_map",
    "purpose": "how it is composed",
-   "geometry": "rosette",
+   "geometry": "tree",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette graphite_coral",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "declared dependencies: Supabase"
   },
   {
    "slot": "build",
    "purpose": "how it is verified",
-   "geometry": "rosette",
+   "geometry": "tree",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette graphite_coral",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "0 test file(s), 0 workflow(s)"
   },
   {
    "slot": "footer",
    "purpose": "identity object",
-   "geometry": "rosette",
+   "geometry": "tree",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette graphite_coral",
+   "material": "palette adobe_dusk",
    "animation": "packet_route",
    "evidence_basis": "identity object"
   }

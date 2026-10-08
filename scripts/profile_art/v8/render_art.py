@@ -23,7 +23,8 @@ sys.path.insert(0, str(HERE))
 
 import describe as D  # noqa: E402
 import evidence as E  # noqa: E402
-import renderers as R  # noqa: E402
+import clay_renderers as R  # noqa: E402
+import clay as C  # noqa: E402
 
 PROFILE = HERE.parents[2]
 OUT = PROFILE / ".github-art" / "v8-art"

@@ -2,7 +2,7 @@
  "repo": "interceptorgrid",
  "canonical_name": "interceptorgrid",
  "project_category": "WEB_APPLICATION",
- "palette": "indigo_lime",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -54,7 +54,7 @@
  ],
  "primary_visual_metaphor": "tessellate over routes /about, /api/grid, /command; modules app, components, lib; primitives simulator, queue",
  "secondary_visual_metaphor": "primitives simulator, queue; stack Prisma, Zod; top module app",
- "geometry_set": "cube",
+ "geometry_set": "arch",
  "animation_story_1": "tessellate",
  "entry_points": [
   "public-site/index.html"

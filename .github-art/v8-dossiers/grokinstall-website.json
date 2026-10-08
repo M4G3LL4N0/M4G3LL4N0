@@ -2,7 +2,7 @@
  "repo": "grokinstall-website",
  "canonical_name": "grokinstall-website",
  "project_category": "SECURITY",
- "palette": "graphite_coral",
+ "palette": "clay_sand",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -43,7 +43,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "grid_snap over modules src; primitives crypto",
  "secondary_visual_metaphor": "primitives crypto; top module src",
- "geometry_set": "ring",
+ "geometry_set": "mesa",
  "animation_story_1": "grid_snap",
  "entry_points": [
   "index.html"

@@ -2,7 +2,7 @@
  "repo": "lagrangeos",
  "canonical_name": "lagrangeos",
  "project_category": "WEB_APPLICATION",
- "palette": "graphite_coral",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -49,7 +49,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "tessellate over routes /about, /contact, /dashboard; modules app, components, src; primitives simulator",
  "secondary_visual_metaphor": "primitives simulator; stack Next.js, React, Tailwind CSS; top module app",
- "geometry_set": "ring",
+ "geometry_set": "cactus",
  "animation_story_1": "tessellate",
  "entry_points": [
   "public-site/index.html"

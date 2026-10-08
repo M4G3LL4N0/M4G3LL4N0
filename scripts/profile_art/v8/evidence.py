@@ -14,8 +14,7 @@ import re
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from geometry import palette_for  # noqa: E402
-from renderers import seed_of  # noqa: E402
+from clay import clay_palette_for, seed_of  # noqa: E402
 
 PROFILE = pathlib.Path(__file__).resolve().parents[3]
 INDEX = PROFILE / ".github-art" / "v8-index.json"
@@ -121,7 +120,8 @@ PRIMITIVE_MOTION = {
     "crypto": "grid_snap",
 }
 
-GEOMETRY_SETS = ("cube", "rosette", "arch", "ring")
+# Motifs the clay renderer actually uses for its small identity objects.
+CLAY_MOTIFS = ("mesa", "arch", "cactus", "tree")
 
 
 def motion_for(d: dict) -> str:
@@ -408,7 +408,7 @@ def build(name: str, idx: dict, card: dict | None, base: dict,
         "commits": str((idx.get("git") or {}).get("commits", "?")),
         "tags": (idx.get("git") or {}).get("tags", 0),
     }
-    d["geometry_set"] = GEOMETRY_SETS[seed_of(name, "geometry") % len(GEOMETRY_SETS)]
+    d["geometry_set"] = CLAY_MOTIFS[seed_of(name, "geometry") % len(CLAY_MOTIFS)]
     d["animation_story_1"] = motion_for(d)
     d["animation_story_note"] = (
         f"{len(routes)} routes resolve as a navigable surface" if routes else (
@@ -442,7 +442,7 @@ def build(name: str, idx: dict, card: dict | None, base: dict,
     # Colour and category are resolved last: the palette must follow the
     # technical category that the measured structure produced, not the name.
     d["project_category"] = derive_category(d)
-    d["palette"] = palette_for(d["project_category"], seed_of(name, "category"))
+    d["palette"] = clay_palette_for(d["project_category"], seed_of(name, "category"))
     d["card_category"] = domain
     # Resolved only now: most repositories have no noaerth.com card, and a
     # shared "Uncategorised" fallback made this field identical portfolio-wide.

@@ -2,7 +2,7 @@
  "repo": "agentos",
  "canonical_name": "agentos",
  "project_category": "SECURITY",
- "palette": "graphite_coral",
+ "palette": "clay_sand",
  "confidence": "E3",
  "status": "LIVE",
  "has_code": true,
@@ -51,7 +51,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "state_change over modules src; primitives policy, benchmark, terminal",
  "secondary_visual_metaphor": "primitives policy, benchmark, terminal; top module src",
- "geometry_set": "rosette",
+ "geometry_set": "mesa",
  "animation_story_1": "state_change",
  "entry_points": [
   "src/agentos/__main__.py",

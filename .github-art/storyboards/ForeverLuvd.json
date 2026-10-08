@@ -2,7 +2,7 @@
  "repo": "ForeverLuvd",
  "canonical_name": "ForeverLuvd",
  "confidence": "E3",
- "palette": "cream_orange",
+ "palette": "adobe_dusk",
  "project_category": "WEB_APPLICATION",
  "status": "PROTOTYPE",
  "slots": [
@@ -21,90 +21,90 @@
   {
    "slot": "hero",
    "purpose": "identity",
-   "geometry": "ring",
+   "geometry": "cactus",
    "computer_science_concept": "crypto",
-   "material": "palette cream_orange",
+   "material": "palette adobe_dusk",
    "animation": "grid_snap",
    "evidence_basis": "identity from 968 analysed files"
   },
   {
    "slot": "terminal",
    "purpose": "how it is operated",
-   "geometry": "ring",
+   "geometry": "cactus",
    "computer_science_concept": "crypto",
-   "material": "palette cream_orange",
+   "material": "palette adobe_dusk",
    "animation": "grid_snap",
    "evidence_basis": "2 measured entry point(s)"
   },
   {
    "slot": "architecture",
    "purpose": "how it is built",
-   "geometry": "ring",
+   "geometry": "cactus",
    "computer_science_concept": "crypto",
-   "material": "palette cream_orange",
+   "material": "palette adobe_dusk",
    "animation": "grid_snap",
    "evidence_basis": "3 measured module root(s)"
   },
   {
    "slot": "data_flow",
    "purpose": "how data moves",
-   "geometry": "ring",
+   "geometry": "cactus",
    "computer_science_concept": "crypto",
-   "material": "palette cream_orange",
+   "material": "palette adobe_dusk",
    "animation": "grid_snap",
    "evidence_basis": "24 measured route(s)"
   },
   {
    "slot": "state_machine",
    "purpose": "how it behaves",
-   "geometry": "ring",
+   "geometry": "cactus",
    "computer_science_concept": "crypto",
-   "material": "palette cream_orange",
+   "material": "palette adobe_dusk",
    "animation": "grid_snap",
    "evidence_basis": "3 detected primitive(s)"
   },
   {
    "slot": "component_map",
    "purpose": "how it is composed",
-   "geometry": "ring",
+   "geometry": "cactus",
    "computer_science_concept": "crypto",
-   "material": "palette cream_orange",
+   "material": "palette adobe_dusk",
    "animation": "grid_snap",
    "evidence_basis": "declared dependencies: Supabase, Zod"
   },
   {
    "slot": "build",
    "purpose": "how it is verified",
-   "geometry": "ring",
+   "geometry": "cactus",
    "computer_science_concept": "crypto",
-   "material": "palette cream_orange",
+   "material": "palette adobe_dusk",
    "animation": "grid_snap",
    "evidence_basis": "0 test file(s), 0 workflow(s)"
   },
   {
    "slot": "workflow",
    "purpose": "how it is used",
-   "geometry": "ring",
+   "geometry": "cactus",
    "computer_science_concept": "crypto",
-   "material": "palette cream_orange",
+   "material": "palette adobe_dusk",
    "animation": "grid_snap",
    "evidence_basis": "3 module(s) as ordered steps"
   },
   {
    "slot": "domain",
    "purpose": "the problem it addresses",
-   "geometry": "ring",
+   "geometry": "cactus",
    "computer_science_concept": "crypto",
-   "material": "palette cream_orange",
+   "material": "palette adobe_dusk",
    "animation": "grid_snap",
    "evidence_basis": "domain classification from measured structure"
   },
   {
    "slot": "footer",
    "purpose": "identity object",
-   "geometry": "ring",
+   "geometry": "cactus",
    "computer_science_concept": "crypto",
-   "material": "palette cream_orange",
+   "material": "palette adobe_dusk",
    "animation": "grid_snap",
    "evidence_basis": "identity object"
   }

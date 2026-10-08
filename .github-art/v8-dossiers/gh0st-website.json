@@ -2,7 +2,7 @@
  "repo": "gh0st-website",
  "canonical_name": "gh0st-website",
  "project_category": "WEB_APPLICATION",
- "palette": "indigo_lime",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -55,7 +55,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "grid_snap over routes /docs/agents, /docs/browser, /docs/cli; modules src; primitives terminal, crypto, index",
  "secondary_visual_metaphor": "primitives terminal, crypto, index; stack Next.js, React, Tailwind CSS; top module src",
- "geometry_set": "ring",
+ "geometry_set": "arch",
  "animation_story_1": "grid_snap",
  "entry_points": [],
  "routes": [

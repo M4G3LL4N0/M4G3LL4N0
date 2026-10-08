@@ -2,7 +2,7 @@
  "repo": "VentureRank-OS",
  "canonical_name": "VentureRank-OS",
  "project_category": "WEB_APPLICATION",
- "palette": "graphite_coral",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -51,7 +51,7 @@
  ],
  "primary_visual_metaphor": "queue_advance over routes /about, /admin/intake, /api/ideas; modules app, components, src; primitives queue",
  "secondary_visual_metaphor": "primitives queue; stack Supabase; top module app",
- "geometry_set": "rosette",
+ "geometry_set": "mesa",
  "animation_story_1": "queue_advance",
  "entry_points": [
   "public-site/index.html"

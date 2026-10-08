@@ -2,7 +2,7 @@
  "repo": "access-layer",
  "canonical_name": "access-layer",
  "project_category": "WEB_APPLICATION",
- "palette": "mint_violet",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "TESTED",
  "has_code": true,
@@ -61,7 +61,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "state_change over routes /account, /admin, /admin/access-points; modules app, components, lib; primitives policy, index, simulator",
  "secondary_visual_metaphor": "primitives policy, index, simulator; stack Next.js, React, Tailwind CSS; top module app",
- "geometry_set": "rosette",
+ "geometry_set": "tree",
  "animation_story_1": "state_change",
  "entry_points": [
   "public-site/index.html"

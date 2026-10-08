@@ -2,7 +2,7 @@
  "repo": "ai-dev-workflow-starter",
  "canonical_name": "ai-dev-workflow-starter",
  "confidence": "E2",
- "palette": "plum_azure",
+ "palette": "clay_sand",
  "project_category": "SOFTWARE",
  "status": "PROTOTYPE",
  "slots": [
@@ -17,54 +17,54 @@
   {
    "slot": "hero",
    "purpose": "identity",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette plum_azure",
+   "material": "palette clay_sand",
    "animation": "layer_separate",
    "evidence_basis": "identity from 43 analysed files"
   },
   {
    "slot": "architecture",
    "purpose": "how it is built",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette plum_azure",
+   "material": "palette clay_sand",
    "animation": "layer_separate",
    "evidence_basis": "1 measured module root(s)"
   },
   {
    "slot": "build",
    "purpose": "how it is verified",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette plum_azure",
+   "material": "palette clay_sand",
    "animation": "layer_separate",
    "evidence_basis": "0 test file(s), 1 workflow(s)"
   },
   {
    "slot": "terminal",
    "purpose": "how it is operated",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette plum_azure",
+   "material": "palette clay_sand",
    "animation": "layer_separate",
    "evidence_basis": "0 measured entry point(s)"
   },
   {
    "slot": "data_flow",
    "purpose": "how data moves",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette plum_azure",
+   "material": "palette clay_sand",
    "animation": "layer_separate",
    "evidence_basis": "0 measured route(s)"
   },
   {
    "slot": "footer",
    "purpose": "identity object",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette plum_azure",
+   "material": "palette clay_sand",
    "animation": "layer_separate",
    "evidence_basis": "identity object"
   }

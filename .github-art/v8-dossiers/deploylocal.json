@@ -2,7 +2,7 @@
  "repo": "deploylocal",
  "canonical_name": "deploylocal",
  "project_category": "WEB_APPLICATION",
- "palette": "coral_teal",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "TESTED",
  "has_code": true,
@@ -69,7 +69,7 @@
  ],
  "primary_visual_metaphor": "queue_advance over routes /api/bulk-generate-sites, /api/checkout, /api/claim-site; modules app, components, db; primitives stack, queue, index",
  "secondary_visual_metaphor": "primitives stack, queue, index; stack OpenAI SDK, Stripe, Supabase; top module app",
- "geometry_set": "rosette",
+ "geometry_set": "cactus",
  "animation_story_1": "queue_advance",
  "entry_points": [
   "src/ai/index.ts",

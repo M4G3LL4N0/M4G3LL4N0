@@ -2,7 +2,7 @@
  "repo": "grokgeneral",
  "canonical_name": "grokgeneral",
  "project_category": "SECURITY",
- "palette": "graphite_coral",
+ "palette": "clay_sand",
  "confidence": "E3",
  "status": "TESTED",
  "has_code": true,
@@ -56,7 +56,7 @@
  ],
  "primary_visual_metaphor": "state_change over modules grokgeneral; primitives policy, cache, scheduler",
  "secondary_visual_metaphor": "primitives policy, cache, scheduler; top module grokgeneral",
- "geometry_set": "ring",
+ "geometry_set": "mesa",
  "animation_story_1": "state_change",
  "entry_points": [
   "grokgeneral/__main__.py",

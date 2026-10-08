@@ -2,7 +2,7 @@
  "repo": "datatherapy-website",
  "canonical_name": "datatherapy-website",
  "confidence": "E3",
- "palette": "mint_violet",
+ "palette": "clay_sand",
  "project_category": "SOFTWARE",
  "status": "PROTOTYPE",
  "slots": [
@@ -19,7 +19,7 @@
    "purpose": "identity",
    "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette mint_violet",
+   "material": "palette clay_sand",
    "animation": "terminal_exec",
    "evidence_basis": "identity from 32 analysed files"
   },
@@ -28,7 +28,7 @@
    "purpose": "how it is operated",
    "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette mint_violet",
+   "material": "palette clay_sand",
    "animation": "terminal_exec",
    "evidence_basis": "2 measured entry point(s)"
   },
@@ -37,7 +37,7 @@
    "purpose": "how it is verified",
    "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette mint_violet",
+   "material": "palette clay_sand",
    "animation": "terminal_exec",
    "evidence_basis": "0 test file(s), 0 workflow(s)"
   },
@@ -46,7 +46,7 @@
    "purpose": "how it is built",
    "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette mint_violet",
+   "material": "palette clay_sand",
    "animation": "terminal_exec",
    "evidence_basis": "0 measured module root(s)"
   },
@@ -55,7 +55,7 @@
    "purpose": "how data moves",
    "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette mint_violet",
+   "material": "palette clay_sand",
    "animation": "terminal_exec",
    "evidence_basis": "0 measured route(s)"
   },
@@ -64,7 +64,7 @@
    "purpose": "identity object",
    "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette mint_violet",
+   "material": "palette clay_sand",
    "animation": "terminal_exec",
    "evidence_basis": "identity object"
   }

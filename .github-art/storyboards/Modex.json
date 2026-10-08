@@ -2,7 +2,7 @@
  "repo": "Modex",
  "canonical_name": "Modex",
  "confidence": "E3",
- "palette": "graphite_coral",
+ "palette": "peach_dusk",
  "project_category": "DATA_VISUALIZATION",
  "status": "PROTOTYPE",
  "slots": [
@@ -21,90 +21,90 @@
   {
    "slot": "hero",
    "purpose": "identity",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "pipeline",
-   "material": "palette graphite_coral",
+   "material": "palette peach_dusk",
    "animation": "tessellate",
    "evidence_basis": "identity from 951 analysed files"
   },
   {
    "slot": "terminal",
    "purpose": "how it is operated",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "pipeline",
-   "material": "palette graphite_coral",
+   "material": "palette peach_dusk",
    "animation": "tessellate",
    "evidence_basis": "2 measured entry point(s)"
   },
   {
    "slot": "architecture",
    "purpose": "how it is built",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "pipeline",
-   "material": "palette graphite_coral",
+   "material": "palette peach_dusk",
    "animation": "tessellate",
    "evidence_basis": "3 measured module root(s)"
   },
   {
    "slot": "data_flow",
    "purpose": "how data moves",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "pipeline",
-   "material": "palette graphite_coral",
+   "material": "palette peach_dusk",
    "animation": "tessellate",
    "evidence_basis": "24 measured route(s)"
   },
   {
    "slot": "state_machine",
    "purpose": "how it behaves",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "pipeline",
-   "material": "palette graphite_coral",
+   "material": "palette peach_dusk",
    "animation": "tessellate",
    "evidence_basis": "1 detected primitive(s)"
   },
   {
    "slot": "component_map",
    "purpose": "how it is composed",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "pipeline",
-   "material": "palette graphite_coral",
+   "material": "palette peach_dusk",
    "animation": "tessellate",
    "evidence_basis": "declared dependencies: D3, OpenAI SDK, Supabase"
   },
   {
    "slot": "build",
    "purpose": "how it is verified",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "pipeline",
-   "material": "palette graphite_coral",
+   "material": "palette peach_dusk",
    "animation": "tessellate",
    "evidence_basis": "0 test file(s), 0 workflow(s)"
   },
   {
    "slot": "workflow",
    "purpose": "how it is used",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "pipeline",
-   "material": "palette graphite_coral",
+   "material": "palette peach_dusk",
    "animation": "tessellate",
    "evidence_basis": "3 module(s) as ordered steps"
   },
   {
    "slot": "domain",
    "purpose": "the problem it addresses",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "pipeline",
-   "material": "palette graphite_coral",
+   "material": "palette peach_dusk",
    "animation": "tessellate",
    "evidence_basis": "domain classification from measured structure"
   },
   {
    "slot": "footer",
    "purpose": "identity object",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "pipeline",
-   "material": "palette graphite_coral",
+   "material": "palette peach_dusk",
    "animation": "tessellate",
    "evidence_basis": "identity object"
   }

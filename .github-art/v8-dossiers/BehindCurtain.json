@@ -2,7 +2,7 @@
  "repo": "BehindCurtain",
  "canonical_name": "BehindCurtain",
  "project_category": "WEB_APPLICATION",
- "palette": "cream_orange",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -53,7 +53,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "packet_route over routes /admin, /api/checkout, /api/search; modules app, components, lib; primitives event_stream",
  "secondary_visual_metaphor": "primitives event_stream; stack Supabase; top module app",
- "geometry_set": "ring",
+ "geometry_set": "cactus",
  "animation_story_1": "packet_route",
  "entry_points": [
   "public-site/index.html"

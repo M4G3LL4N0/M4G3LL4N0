@@ -2,7 +2,7 @@
  "repo": "cortexhq-website",
  "canonical_name": "cortexhq-website",
  "confidence": "E3",
- "palette": "plum_azure",
+ "palette": "rose_clay",
  "project_category": "SIMULATION",
  "status": "PROTOTYPE",
  "slots": [
@@ -17,54 +17,54 @@
   {
    "slot": "hero",
    "purpose": "identity",
-   "geometry": "rosette",
+   "geometry": "mesa",
    "computer_science_concept": "simulator",
-   "material": "palette plum_azure",
+   "material": "palette rose_clay",
    "animation": "tessellate",
    "evidence_basis": "identity from 33 analysed files"
   },
   {
    "slot": "terminal",
    "purpose": "how it is operated",
-   "geometry": "rosette",
+   "geometry": "mesa",
    "computer_science_concept": "simulator",
-   "material": "palette plum_azure",
+   "material": "palette rose_clay",
    "animation": "tessellate",
    "evidence_basis": "2 measured entry point(s)"
   },
   {
    "slot": "state_machine",
    "purpose": "how it behaves",
-   "geometry": "rosette",
+   "geometry": "mesa",
    "computer_science_concept": "simulator",
-   "material": "palette plum_azure",
+   "material": "palette rose_clay",
    "animation": "tessellate",
    "evidence_basis": "1 detected primitive(s)"
   },
   {
    "slot": "build",
    "purpose": "how it is verified",
-   "geometry": "rosette",
+   "geometry": "mesa",
    "computer_science_concept": "simulator",
-   "material": "palette plum_azure",
+   "material": "palette rose_clay",
    "animation": "tessellate",
    "evidence_basis": "0 test file(s), 0 workflow(s)"
   },
   {
    "slot": "domain",
    "purpose": "the problem it addresses",
-   "geometry": "rosette",
+   "geometry": "mesa",
    "computer_science_concept": "simulator",
-   "material": "palette plum_azure",
+   "material": "palette rose_clay",
    "animation": "tessellate",
    "evidence_basis": "domain classification from measured structure"
   },
   {
    "slot": "footer",
    "purpose": "identity object",
-   "geometry": "rosette",
+   "geometry": "mesa",
    "computer_science_concept": "simulator",
-   "material": "palette plum_azure",
+   "material": "palette rose_clay",
    "animation": "tessellate",
    "evidence_basis": "identity object"
   }

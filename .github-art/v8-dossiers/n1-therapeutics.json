@@ -2,7 +2,7 @@
  "repo": "n1-therapeutics",
  "canonical_name": "n1-therapeutics",
  "project_category": "WEB_APPLICATION",
- "palette": "slate_amber",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -51,7 +51,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "index_probe over routes /about, /api/sessions, /contact; modules app, components, lib; primitives index",
  "secondary_visual_metaphor": "primitives index; stack Prisma, Zod; top module app",
- "geometry_set": "cube",
+ "geometry_set": "tree",
  "animation_story_1": "index_probe",
  "entry_points": [
   "public-site/index.html"

@@ -2,7 +2,7 @@
  "repo": "autoerp",
  "canonical_name": "autoerp",
  "project_category": "WEB_APPLICATION",
- "palette": "navy_lavender",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -53,7 +53,7 @@
  ],
  "primary_visual_metaphor": "queue_advance over routes /about, /api/command, /contact; modules app, components, lib; primitives queue",
  "secondary_visual_metaphor": "primitives queue; stack Prisma, Zod; top module app",
- "geometry_set": "rosette",
+ "geometry_set": "mesa",
  "animation_story_1": "queue_advance",
  "entry_points": [
   "public-site/index.html"

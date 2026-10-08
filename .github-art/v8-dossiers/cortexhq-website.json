@@ -2,7 +2,7 @@
  "repo": "cortexhq-website",
  "canonical_name": "cortexhq-website",
  "project_category": "SIMULATION",
- "palette": "plum_azure",
+ "palette": "rose_clay",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -40,7 +40,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "tessellate over primitives simulator",
  "secondary_visual_metaphor": "primitives simulator",
- "geometry_set": "rosette",
+ "geometry_set": "mesa",
  "animation_story_1": "tessellate",
  "entry_points": [
   "index.html",

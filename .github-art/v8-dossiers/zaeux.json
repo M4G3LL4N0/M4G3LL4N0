@@ -2,7 +2,7 @@
  "repo": "zaeux",
  "canonical_name": "zaeux",
  "project_category": "WEB_APPLICATION",
- "palette": "slate_amber",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -53,7 +53,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "packet_route over routes /about, /api/checkout, /api/waitlist; modules app, components, lib; primitives stack",
  "secondary_visual_metaphor": "primitives stack; stack Supabase, Zod; top module app",
- "geometry_set": "ring",
+ "geometry_set": "tree",
  "animation_story_1": "packet_route",
  "entry_points": [
   "public-site/index.html"

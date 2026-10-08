@@ -2,7 +2,7 @@
  "repo": "BrandCrossover",
  "canonical_name": "BrandCrossover",
  "project_category": "WEB_APPLICATION",
- "palette": "navy_lavender",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -55,7 +55,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "state_change over routes /about, /admin, /api/checkout; modules app, components, src; primitives policy",
  "secondary_visual_metaphor": "primitives policy; stack Supabase; top module app",
- "geometry_set": "ring",
+ "geometry_set": "cactus",
  "animation_story_1": "state_change",
  "entry_points": [
   "public-site/index.html"

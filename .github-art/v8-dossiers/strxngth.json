@@ -2,7 +2,7 @@
  "repo": "strxngth",
  "canonical_name": "strxngth",
  "project_category": "WEB_APPLICATION",
- "palette": "rust_teal",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -53,7 +53,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "packet_route over routes /about, /api/generate-plan, /contact; modules app, components, lib; primitives ast",
  "secondary_visual_metaphor": "primitives ast; stack OpenAI SDK, Supabase, Zod; top module app",
- "geometry_set": "arch",
+ "geometry_set": "tree",
  "animation_story_1": "packet_route",
  "entry_points": [
   "public-site/index.html"

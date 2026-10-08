@@ -2,7 +2,7 @@
  "repo": "devstate",
  "canonical_name": "devstate",
  "project_category": "WEB_APPLICATION",
- "palette": "graphite_coral",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -51,7 +51,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "packet_route over routes /about, /api/checkout, /contact; modules app, components, lib; primitives terminal",
  "secondary_visual_metaphor": "primitives terminal; stack Next.js, React, Tailwind CSS; top module app",
- "geometry_set": "rosette",
+ "geometry_set": "mesa",
  "animation_story_1": "packet_route",
  "entry_points": [
   "src/index.js"

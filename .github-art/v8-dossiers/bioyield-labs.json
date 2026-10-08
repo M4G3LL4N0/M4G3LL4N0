@@ -2,7 +2,7 @@
  "repo": "bioyield-labs",
  "canonical_name": "bioyield-labs",
  "project_category": "WEB_APPLICATION",
- "palette": "slate_amber",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -52,7 +52,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "tessellate over routes /about, /api/plans, /api/trials; modules app, components, lib; primitives stack, simulator",
  "secondary_visual_metaphor": "primitives stack, simulator; stack Prisma, Zod; top module app",
- "geometry_set": "arch",
+ "geometry_set": "cactus",
  "animation_story_1": "tessellate",
  "entry_points": [
   "public-site/index.html"

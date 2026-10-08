@@ -2,7 +2,7 @@
  "repo": "seai-mind",
  "canonical_name": "seai-mind",
  "confidence": "E3",
- "palette": "rust_teal",
+ "palette": "adobe_dusk",
  "project_category": "WEB_APPLICATION",
  "status": "LIVE",
  "slots": [
@@ -20,81 +20,81 @@
   {
    "slot": "hero",
    "purpose": "identity",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "benchmark",
-   "material": "palette rust_teal",
+   "material": "palette adobe_dusk",
    "animation": "bar_sweep",
    "evidence_basis": "identity from 210 analysed files"
   },
   {
    "slot": "terminal",
    "purpose": "how it is operated",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "benchmark",
-   "material": "palette rust_teal",
+   "material": "palette adobe_dusk",
    "animation": "bar_sweep",
    "evidence_basis": "7 measured entry point(s)"
   },
   {
    "slot": "architecture",
    "purpose": "how it is built",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "benchmark",
-   "material": "palette rust_teal",
+   "material": "palette adobe_dusk",
    "animation": "bar_sweep",
    "evidence_basis": "8 measured module root(s)"
   },
   {
    "slot": "state_machine",
    "purpose": "how it behaves",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "benchmark",
-   "material": "palette rust_teal",
+   "material": "palette adobe_dusk",
    "animation": "bar_sweep",
    "evidence_basis": "6 detected primitive(s)"
   },
   {
    "slot": "component_map",
    "purpose": "how it is composed",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "benchmark",
-   "material": "palette rust_teal",
+   "material": "palette adobe_dusk",
    "animation": "bar_sweep",
    "evidence_basis": "declared dependencies: Zod"
   },
   {
    "slot": "build",
    "purpose": "how it is verified",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "benchmark",
-   "material": "palette rust_teal",
+   "material": "palette adobe_dusk",
    "animation": "bar_sweep",
    "evidence_basis": "12 test file(s), 1 workflow(s)"
   },
   {
    "slot": "workflow",
    "purpose": "how it is used",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "benchmark",
-   "material": "palette rust_teal",
+   "material": "palette adobe_dusk",
    "animation": "bar_sweep",
    "evidence_basis": "8 module(s) as ordered steps"
   },
   {
    "slot": "domain",
    "purpose": "the problem it addresses",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "benchmark",
-   "material": "palette rust_teal",
+   "material": "palette adobe_dusk",
    "animation": "bar_sweep",
    "evidence_basis": "domain classification from measured structure"
   },
   {
    "slot": "footer",
    "purpose": "identity object",
-   "geometry": "ring",
+   "geometry": "arch",
    "computer_science_concept": "benchmark",
-   "material": "palette rust_teal",
+   "material": "palette adobe_dusk",
    "animation": "bar_sweep",
    "evidence_basis": "identity object"
   }

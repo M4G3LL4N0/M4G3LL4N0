@@ -2,7 +2,7 @@
  "repo": "src",
  "canonical_name": "src",
  "project_category": "SOFTWARE",
- "palette": "plum_azure",
+ "palette": "clay_sand",
  "confidence": "E2",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -44,7 +44,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "packet_route over routes /api/waitlist; modules app, components, lib",
  "secondary_visual_metaphor": "top module app",
- "geometry_set": "arch",
+ "geometry_set": "tree",
  "animation_story_1": "packet_route",
  "entry_points": [],
  "routes": [

@@ -2,7 +2,7 @@
  "repo": "trajectoryos",
  "canonical_name": "trajectoryos",
  "confidence": "E3",
- "palette": "slate_amber",
+ "palette": "adobe_dusk",
  "project_category": "WEB_APPLICATION",
  "status": "PROTOTYPE",
  "slots": [
@@ -18,63 +18,63 @@
   {
    "slot": "hero",
    "purpose": "identity",
-   "geometry": "cube",
+   "geometry": "mesa",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "tree_traverse",
    "evidence_basis": "identity from 912 analysed files"
   },
   {
    "slot": "terminal",
    "purpose": "how it is operated",
-   "geometry": "cube",
+   "geometry": "mesa",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "tree_traverse",
    "evidence_basis": "2 measured entry point(s)"
   },
   {
    "slot": "architecture",
    "purpose": "how it is built",
-   "geometry": "cube",
+   "geometry": "mesa",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "tree_traverse",
    "evidence_basis": "3 measured module root(s)"
   },
   {
    "slot": "data_flow",
    "purpose": "how data moves",
-   "geometry": "cube",
+   "geometry": "mesa",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "tree_traverse",
    "evidence_basis": "15 measured route(s)"
   },
   {
    "slot": "component_map",
    "purpose": "how it is composed",
-   "geometry": "cube",
+   "geometry": "mesa",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "tree_traverse",
    "evidence_basis": "declared dependencies: scaffold only"
   },
   {
    "slot": "build",
    "purpose": "how it is verified",
-   "geometry": "cube",
+   "geometry": "mesa",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "tree_traverse",
    "evidence_basis": "0 test file(s), 0 workflow(s)"
   },
   {
    "slot": "footer",
    "purpose": "identity object",
-   "geometry": "cube",
+   "geometry": "mesa",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "tree_traverse",
    "evidence_basis": "identity object"
   }

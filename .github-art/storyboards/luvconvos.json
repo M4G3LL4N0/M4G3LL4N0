@@ -2,7 +2,7 @@
  "repo": "luvconvos",
  "canonical_name": "luvconvos",
  "confidence": "E3",
- "palette": "indigo_lime",
+ "palette": "adobe_dusk",
  "project_category": "WEB_APPLICATION",
  "status": "PROTOTYPE",
  "slots": [
@@ -23,7 +23,7 @@
    "purpose": "identity",
    "geometry": "arch",
    "computer_science_concept": "simulator",
-   "material": "palette indigo_lime",
+   "material": "palette adobe_dusk",
    "animation": "tessellate",
    "evidence_basis": "identity from 1011 analysed files"
   },
@@ -32,7 +32,7 @@
    "purpose": "how it is operated",
    "geometry": "arch",
    "computer_science_concept": "simulator",
-   "material": "palette indigo_lime",
+   "material": "palette adobe_dusk",
    "animation": "tessellate",
    "evidence_basis": "1 measured entry point(s)"
   },
@@ -41,7 +41,7 @@
    "purpose": "how it is built",
    "geometry": "arch",
    "computer_science_concept": "simulator",
-   "material": "palette indigo_lime",
+   "material": "palette adobe_dusk",
    "animation": "tessellate",
    "evidence_basis": "4 measured module root(s)"
   },
@@ -50,7 +50,7 @@
    "purpose": "how data moves",
    "geometry": "arch",
    "computer_science_concept": "simulator",
-   "material": "palette indigo_lime",
+   "material": "palette adobe_dusk",
    "animation": "tessellate",
    "evidence_basis": "24 measured route(s)"
   },
@@ -59,7 +59,7 @@
    "purpose": "how it behaves",
    "geometry": "arch",
    "computer_science_concept": "simulator",
-   "material": "palette indigo_lime",
+   "material": "palette adobe_dusk",
    "animation": "tessellate",
    "evidence_basis": "1 detected primitive(s)"
   },
@@ -68,7 +68,7 @@
    "purpose": "how it is composed",
    "geometry": "arch",
    "computer_science_concept": "simulator",
-   "material": "palette indigo_lime",
+   "material": "palette adobe_dusk",
    "animation": "tessellate",
    "evidence_basis": "declared dependencies: Supabase, Zod"
   },
@@ -77,7 +77,7 @@
    "purpose": "how it is verified",
    "geometry": "arch",
    "computer_science_concept": "simulator",
-   "material": "palette indigo_lime",
+   "material": "palette adobe_dusk",
    "animation": "tessellate",
    "evidence_basis": "0 test file(s), 0 workflow(s)"
   },
@@ -86,7 +86,7 @@
    "purpose": "how it is used",
    "geometry": "arch",
    "computer_science_concept": "simulator",
-   "material": "palette indigo_lime",
+   "material": "palette adobe_dusk",
    "animation": "tessellate",
    "evidence_basis": "4 module(s) as ordered steps"
   },
@@ -95,7 +95,7 @@
    "purpose": "the problem it addresses",
    "geometry": "arch",
    "computer_science_concept": "simulator",
-   "material": "palette indigo_lime",
+   "material": "palette adobe_dusk",
    "animation": "tessellate",
    "evidence_basis": "domain classification from measured structure"
   },
@@ -104,7 +104,7 @@
    "purpose": "identity object",
    "geometry": "arch",
    "computer_science_concept": "simulator",
-   "material": "palette indigo_lime",
+   "material": "palette adobe_dusk",
    "animation": "tessellate",
    "evidence_basis": "identity object"
   }

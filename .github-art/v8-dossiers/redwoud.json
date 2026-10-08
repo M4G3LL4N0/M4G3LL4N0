@@ -2,7 +2,7 @@
  "repo": "redwoud",
  "canonical_name": "redwoud",
  "project_category": "WEB_APPLICATION",
- "palette": "coral_teal",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "LIVE",
  "has_code": true,
@@ -58,7 +58,7 @@
  ],
  "primary_visual_metaphor": "index_probe over routes /_error, /about, /alerts; modules app, components, lib; primitives event_stream, index, cache",
  "secondary_visual_metaphor": "primitives event_stream, index, cache; stack Supabase; top module app",
- "geometry_set": "ring",
+ "geometry_set": "tree",
  "animation_story_1": "index_probe",
  "entry_points": [
   "public-site/index.html"

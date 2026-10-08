@@ -2,7 +2,7 @@
  "repo": "devstate-website",
  "canonical_name": "devstate-website",
  "project_category": "SOFTWARE",
- "palette": "navy_lavender",
+ "palette": "clay_sand",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -38,7 +38,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "terminal_exec over 32 committed file(s), no runtime surface",
  "secondary_visual_metaphor": "structure-only surface: 32 committed file(s), 0 routes, CSS, prototype",
- "geometry_set": "rosette",
+ "geometry_set": "mesa",
  "animation_story_1": "terminal_exec",
  "entry_points": [
   "index.html",

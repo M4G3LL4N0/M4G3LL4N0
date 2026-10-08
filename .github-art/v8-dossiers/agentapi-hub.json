@@ -2,7 +2,7 @@
  "repo": "agentapi-hub",
  "canonical_name": "agentapi-hub",
  "project_category": "WEB_APPLICATION",
- "palette": "navy_lavender",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -55,7 +55,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "bar_sweep over routes /about, /api/submit, /api/tools; modules app, components, lib; primitives benchmark, stack, terminal",
  "secondary_visual_metaphor": "primitives benchmark, stack, terminal; stack Prisma, Zod; top module app",
- "geometry_set": "arch",
+ "geometry_set": "mesa",
  "animation_story_1": "bar_sweep",
  "entry_points": [
   "public-site/index.html"

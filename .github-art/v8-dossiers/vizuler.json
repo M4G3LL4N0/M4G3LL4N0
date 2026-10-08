@@ -2,7 +2,7 @@
  "repo": "vizuler",
  "canonical_name": "vizuler",
  "project_category": "WEB_APPLICATION",
- "palette": "peach_cyan",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -47,7 +47,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "tessellate over routes /about, /contact, /dashboard; modules components, src; primitives simulator",
  "secondary_visual_metaphor": "primitives simulator; stack Next.js, React, Tailwind CSS; top module components",
- "geometry_set": "ring",
+ "geometry_set": "cactus",
  "animation_story_1": "tessellate",
  "entry_points": [
   "public-site/index.html"

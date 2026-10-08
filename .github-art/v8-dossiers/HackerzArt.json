@@ -2,7 +2,7 @@
  "repo": "HackerzArt",
  "canonical_name": "HackerzArt",
  "project_category": "WEB_APPLICATION",
- "palette": "navy_lavender",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -54,7 +54,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "state_change over routes /about, /api/checkout, /api/gallery; modules app, components, lib; primitives policy, pipeline",
  "secondary_visual_metaphor": "primitives policy, pipeline; stack Supabase; top module app",
- "geometry_set": "rosette",
+ "geometry_set": "mesa",
  "animation_story_1": "state_change",
  "entry_points": [
   "public-site/index.html"

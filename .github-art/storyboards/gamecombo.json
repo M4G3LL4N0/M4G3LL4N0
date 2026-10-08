@@ -2,7 +2,7 @@
  "repo": "gamecombo",
  "canonical_name": "gamecombo",
  "confidence": "E3",
- "palette": "coral_teal",
+ "palette": "adobe_dusk",
  "project_category": "WEB_APPLICATION",
  "status": "PROTOTYPE",
  "slots": [
@@ -17,54 +17,54 @@
   {
    "slot": "hero",
    "purpose": "identity",
-   "geometry": "rosette",
+   "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette coral_teal",
+   "material": "palette adobe_dusk",
    "animation": "tree_traverse",
    "evidence_basis": "identity from 931 analysed files"
   },
   {
    "slot": "architecture",
    "purpose": "how it is built",
-   "geometry": "rosette",
+   "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette coral_teal",
+   "material": "palette adobe_dusk",
    "animation": "tree_traverse",
    "evidence_basis": "3 measured module root(s)"
   },
   {
    "slot": "data_flow",
    "purpose": "how data moves",
-   "geometry": "rosette",
+   "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette coral_teal",
+   "material": "palette adobe_dusk",
    "animation": "tree_traverse",
    "evidence_basis": "15 measured route(s)"
   },
   {
    "slot": "component_map",
    "purpose": "how it is composed",
-   "geometry": "rosette",
+   "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette coral_teal",
+   "material": "palette adobe_dusk",
    "animation": "tree_traverse",
    "evidence_basis": "declared dependencies: scaffold only"
   },
   {
    "slot": "build",
    "purpose": "how it is verified",
-   "geometry": "rosette",
+   "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette coral_teal",
+   "material": "palette adobe_dusk",
    "animation": "tree_traverse",
    "evidence_basis": "0 test file(s), 0 workflow(s)"
   },
   {
    "slot": "footer",
    "purpose": "identity object",
-   "geometry": "rosette",
+   "geometry": "arch",
    "computer_science_concept": "no distinctive algorithmic primitive detected",
-   "material": "palette coral_teal",
+   "material": "palette adobe_dusk",
    "animation": "tree_traverse",
    "evidence_basis": "identity object"
   }

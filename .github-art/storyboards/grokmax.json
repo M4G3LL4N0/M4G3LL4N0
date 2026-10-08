@@ -2,7 +2,7 @@
  "repo": "grokmax",
  "canonical_name": "grokmax",
  "confidence": "E3",
- "palette": "coral_teal",
+ "palette": "adobe_dusk",
  "project_category": "WEB_APPLICATION",
  "status": "LIVE",
  "slots": [
@@ -20,81 +20,81 @@
   {
    "slot": "hero",
    "purpose": "identity",
-   "geometry": "arch",
+   "geometry": "cactus",
    "computer_science_concept": "cache",
-   "material": "palette coral_teal",
+   "material": "palette adobe_dusk",
    "animation": "index_probe",
    "evidence_basis": "identity from 223 analysed files"
   },
   {
    "slot": "terminal",
    "purpose": "how it is operated",
-   "geometry": "arch",
+   "geometry": "cactus",
    "computer_science_concept": "cache",
-   "material": "palette coral_teal",
+   "material": "palette adobe_dusk",
    "animation": "index_probe",
    "evidence_basis": "16 measured entry point(s)"
   },
   {
    "slot": "architecture",
    "purpose": "how it is built",
-   "geometry": "arch",
+   "geometry": "cactus",
    "computer_science_concept": "cache",
-   "material": "palette coral_teal",
+   "material": "palette adobe_dusk",
    "animation": "index_probe",
    "evidence_basis": "16 measured module root(s)"
   },
   {
    "slot": "state_machine",
    "purpose": "how it behaves",
-   "geometry": "arch",
+   "geometry": "cactus",
    "computer_science_concept": "cache",
-   "material": "palette coral_teal",
+   "material": "palette adobe_dusk",
    "animation": "index_probe",
    "evidence_basis": "6 detected primitive(s)"
   },
   {
    "slot": "component_map",
    "purpose": "how it is composed",
-   "geometry": "arch",
+   "geometry": "cactus",
    "computer_science_concept": "cache",
-   "material": "palette coral_teal",
+   "material": "palette adobe_dusk",
    "animation": "index_probe",
    "evidence_basis": "declared dependencies: scaffold only"
   },
   {
    "slot": "build",
    "purpose": "how it is verified",
-   "geometry": "arch",
+   "geometry": "cactus",
    "computer_science_concept": "cache",
-   "material": "palette coral_teal",
+   "material": "palette adobe_dusk",
    "animation": "index_probe",
    "evidence_basis": "26 test file(s), 1 workflow(s)"
   },
   {
    "slot": "workflow",
    "purpose": "how it is used",
-   "geometry": "arch",
+   "geometry": "cactus",
    "computer_science_concept": "cache",
-   "material": "palette coral_teal",
+   "material": "palette adobe_dusk",
    "animation": "index_probe",
    "evidence_basis": "16 module(s) as ordered steps"
   },
   {
    "slot": "domain",
    "purpose": "the problem it addresses",
-   "geometry": "arch",
+   "geometry": "cactus",
    "computer_science_concept": "cache",
-   "material": "palette coral_teal",
+   "material": "palette adobe_dusk",
    "animation": "index_probe",
    "evidence_basis": "domain classification from measured structure"
   },
   {
    "slot": "footer",
    "purpose": "identity object",
-   "geometry": "arch",
+   "geometry": "cactus",
    "computer_science_concept": "cache",
-   "material": "palette coral_teal",
+   "material": "palette adobe_dusk",
    "animation": "index_probe",
    "evidence_basis": "identity object"
   }

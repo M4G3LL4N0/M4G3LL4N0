@@ -2,7 +2,7 @@
  "repo": "genotwin-health",
  "canonical_name": "genotwin-health",
  "project_category": "WEB_APPLICATION",
- "palette": "mint_violet",
+ "palette": "adobe_dusk",
  "confidence": "E3",
  "status": "PROTOTYPE",
  "has_code": true,
@@ -52,7 +52,7 @@
  "concurrency_model": [],
  "primary_visual_metaphor": "packet_route over routes /about, /api/twin, /contact; modules app, components, lib; primitives stack",
  "secondary_visual_metaphor": "primitives stack; stack Prisma, Zod; top module app",
- "geometry_set": "arch",
+ "geometry_set": "mesa",
  "animation_story_1": "packet_route",
  "entry_points": [],
  "routes": [

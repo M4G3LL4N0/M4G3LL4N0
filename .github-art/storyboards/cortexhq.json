@@ -2,7 +2,7 @@
  "repo": "cortexhq",
  "canonical_name": "cortexhq",
  "confidence": "E3",
- "palette": "slate_amber",
+ "palette": "adobe_dusk",
  "project_category": "WEB_APPLICATION",
  "status": "PROTOTYPE",
  "slots": [
@@ -20,81 +20,81 @@
   {
    "slot": "hero",
    "purpose": "identity",
-   "geometry": "cube",
+   "geometry": "tree",
    "computer_science_concept": "memory_map",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "tessellate",
    "evidence_basis": "identity from 934 analysed files"
   },
   {
    "slot": "architecture",
    "purpose": "how it is built",
-   "geometry": "cube",
+   "geometry": "tree",
    "computer_science_concept": "memory_map",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "tessellate",
    "evidence_basis": "3 measured module root(s)"
   },
   {
    "slot": "data_flow",
    "purpose": "how data moves",
-   "geometry": "cube",
+   "geometry": "tree",
    "computer_science_concept": "memory_map",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "tessellate",
    "evidence_basis": "22 measured route(s)"
   },
   {
    "slot": "state_machine",
    "purpose": "how it behaves",
-   "geometry": "cube",
+   "geometry": "tree",
    "computer_science_concept": "memory_map",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "tessellate",
    "evidence_basis": "3 detected primitive(s)"
   },
   {
    "slot": "component_map",
    "purpose": "how it is composed",
-   "geometry": "cube",
+   "geometry": "tree",
    "computer_science_concept": "memory_map",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "tessellate",
    "evidence_basis": "declared dependencies: Prisma, Zod"
   },
   {
    "slot": "build",
    "purpose": "how it is verified",
-   "geometry": "cube",
+   "geometry": "tree",
    "computer_science_concept": "memory_map",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "tessellate",
    "evidence_basis": "0 test file(s), 0 workflow(s)"
   },
   {
    "slot": "workflow",
    "purpose": "how it is used",
-   "geometry": "cube",
+   "geometry": "tree",
    "computer_science_concept": "memory_map",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "tessellate",
    "evidence_basis": "3 module(s) as ordered steps"
   },
   {
    "slot": "domain",
    "purpose": "the problem it addresses",
-   "geometry": "cube",
+   "geometry": "tree",
    "computer_science_concept": "memory_map",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "tessellate",
    "evidence_basis": "domain classification from measured structure"
   },
   {
    "slot": "footer",
    "purpose": "identity object",
-   "geometry": "cube",
+   "geometry": "tree",
    "computer_science_concept": "memory_map",
-   "material": "palette slate_amber",
+   "material": "palette adobe_dusk",
    "animation": "tessellate",
    "evidence_basis": "identity object"
   }

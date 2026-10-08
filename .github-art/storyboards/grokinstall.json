@@ -2,7 +2,7 @@
  "repo": "grokinstall",
  "canonical_name": "grokinstall",
  "confidence": "E3",
- "palette": "mint_violet",
+ "palette": "sand_turquoise",
  "project_category": "DATA_STRUCTURE",
  "status": "LIVE",
  "slots": [
@@ -19,72 +19,72 @@
   {
    "slot": "hero",
    "purpose": "identity",
-   "geometry": "cube",
+   "geometry": "tree",
    "computer_science_concept": "terminal",
-   "material": "palette mint_violet",
+   "material": "palette sand_turquoise",
    "animation": "index_probe",
    "evidence_basis": "identity from 186 analysed files"
   },
   {
    "slot": "terminal",
    "purpose": "how it is operated",
-   "geometry": "cube",
+   "geometry": "tree",
    "computer_science_concept": "terminal",
-   "material": "palette mint_violet",
+   "material": "palette sand_turquoise",
    "animation": "index_probe",
    "evidence_basis": "3 measured entry point(s)"
   },
   {
    "slot": "architecture",
    "purpose": "how it is built",
-   "geometry": "cube",
+   "geometry": "tree",
    "computer_science_concept": "terminal",
-   "material": "palette mint_violet",
+   "material": "palette sand_turquoise",
    "animation": "index_probe",
    "evidence_basis": "16 measured module root(s)"
   },
   {
    "slot": "state_machine",
    "purpose": "how it behaves",
-   "geometry": "cube",
+   "geometry": "tree",
    "computer_science_concept": "terminal",
-   "material": "palette mint_violet",
+   "material": "palette sand_turquoise",
    "animation": "index_probe",
    "evidence_basis": "6 detected primitive(s)"
   },
   {
    "slot": "build",
    "purpose": "how it is verified",
-   "geometry": "cube",
+   "geometry": "tree",
    "computer_science_concept": "terminal",
-   "material": "palette mint_violet",
+   "material": "palette sand_turquoise",
    "animation": "index_probe",
    "evidence_basis": "2 test file(s), 3 workflow(s)"
   },
   {
    "slot": "workflow",
    "purpose": "how it is used",
-   "geometry": "cube",
+   "geometry": "tree",
    "computer_science_concept": "terminal",
-   "material": "palette mint_violet",
+   "material": "palette sand_turquoise",
    "animation": "index_probe",
    "evidence_basis": "16 module(s) as ordered steps"
   },
   {
    "slot": "domain",
    "purpose": "the problem it addresses",
-   "geometry": "cube",
+   "geometry": "tree",
    "computer_science_concept": "terminal",
-   "material": "palette mint_violet",
+   "material": "palette sand_turquoise",
    "animation": "index_probe",
    "evidence_basis": "domain classification from measured structure"
   },
   {
    "slot": "footer",
    "purpose": "identity object",
-   "geometry": "cube",
+   "geometry": "tree",
    "computer_science_concept": "terminal",
-   "material": "palette mint_violet",
+   "material": "palette sand_turquoise",
    "animation": "index_probe",
    "evidence_basis": "identity object"
   }
