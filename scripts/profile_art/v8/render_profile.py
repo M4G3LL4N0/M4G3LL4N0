@@ -95,6 +95,12 @@ def payload(index: dict, manifest: dict) -> dict:
         "ci": ci,
         "steps": [c.replace("_", " ").title() for c, _ in cats[:5]],
         "surfaces": surfaces,
+        "routes_line": f"{n_routes:,}",
+        "hero_tiles": [(f"{len(index)}", "repositories"),
+                       (f"{n_routes:,}", "routes"),
+                       (f"{files:,}", "files")],
+        "bodies": top_prims[:5] or ["index", "pipeline"],
+        "racks": max(2, min(6, len(top_mods) // 2 + 1)),
         "milestone": milestones[0],
         "problem": ("Operating layer for venture creation: measurable, "
                     "inspectable software instead of claims."),

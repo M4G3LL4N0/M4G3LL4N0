@@ -76,7 +76,7 @@ def check(path: pathlib.Path) -> list[str]:
             m.group(4), m.group(5), m.group(6))
         if not text.strip():
             continue
-        width = len(text) * size * 0.62
+        width = len(text) * size * 0.72
         if anchor == "end":
             x0, x1 = x - width, x
         elif anchor == "middle":
