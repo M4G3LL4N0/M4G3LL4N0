@@ -54,10 +54,23 @@ def payload(index: dict, manifest: dict) -> dict:
     from collections import Counter
     cats = Counter(v["project_category"] for v in manifest.values()).most_common()
 
+    rows_labels = [f"{len(index)} repositories", f"{files:,} files",
+                  f"{n_routes:,} routes"]
     route_top: dict[str, int] = {}
     for r in routes:
         route_top[r] = route_top.get(r, 0) + 1
     stages = [r for r, _ in sorted(route_top.items(), key=lambda kv: (-kv[1], kv[0]))]
+
+    tiles = [(f"{len(index)}", "repositories"),
+             (f"{n_routes:,}", "routes"),
+             (f"{files:,}", "files analysed")]
+    pairs = [("repositories", str(len(index))),
+             ("files analysed", f"{files:,}"),
+             ("http routes", f"{n_routes:,}"),
+             ("test files", f"{tests:,}"),
+             ("ci workflows", str(ci))]
+    milestones = ["build the next company", "keep the ledger honest",
+                  "measure everything", "ship measurable software", "compound"]
 
     return {
         "canonical_name": "DUNG30N5 x NOAERTH",
@@ -69,14 +82,11 @@ def payload(index: dict, manifest: dict) -> dict:
         "palette": "mesa_terracotta",
         "routes_count": n_routes,
         "modules_count": len(top_mods),
-        "module_plinths": top_mods[:3],
-        "terminal_lines": [
-            f"{len(index)} public repositories",
-            f"{files:,} files analysed",
-            f"{n_routes:,} HTTP routes",
-            f"{tests:,} test files",
-            f"{surfaces:,} surfaces",
-        ],
+        "module_plinths": top_mods[:5],
+        "terminal_lines": rows_labels,
+        "pairs": pairs,
+        "tiles": tiles,
+        "note_routes": f"{n_routes:,}",
         "stages": stages[:5] or ["/"],
         "primitives": top_prims[:4],
         "frameworks": top_fw[:8],
@@ -84,6 +94,8 @@ def payload(index: dict, manifest: dict) -> dict:
         "crates": max(1, min(6, tests // 10 + (1 if tests % 10 else 0))),
         "ci": ci,
         "steps": [c.replace("_", " ").title() for c, _ in cats[:5]],
+        "surfaces": surfaces,
+        "milestone": milestones[0],
         "problem": ("Operating layer for venture creation: measurable, "
                     "inspectable software instead of claims."),
     }

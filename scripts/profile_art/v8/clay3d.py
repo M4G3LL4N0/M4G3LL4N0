@@ -17,6 +17,7 @@ Motion
 
 from __future__ import annotations
 
+import clay as C
 from clay import _f, alpha, col, esc, tint
 
 P = __import__("clay").PALETTE
@@ -445,3 +446,76 @@ def screen(x: float, y: float, w: float, h: float, fill: str, gid: str,
         f'<circle cx="{_f(x + w - 62)}" cy="{_f(y + 44)}" r="72" '
         f'fill="url(#lampg{gid})"/>',
     ])
+
+# ---------------------------------------------------------------------------
+# information slab -- the legibility mechanism
+# ---------------------------------------------------------------------------
+def slab(x: float, y: float, w: float, h: float, fill: str,
+         light: bool = False, r: float = 14, shadow: bool = True) -> str:
+    """An opaque clay card that carries text.
+
+    Fully opaque by construction, with a lit top lip and a shaded right lip so it
+    still reads as a sculpted object rather than as a flat sticker. Everything a
+    reader must understand lives on one of these, so the scenery behind it can be
+    as busy as it likes without ever competing with the data.
+    """
+    fill = col(fill)
+    lip = C.tint(fill, -0.30) if light else C.tint(fill, 0.22)
+    out = []
+    if shadow:
+        out.append(cast_shadow(x + w / 2 + 10, y + h + 6, w * 0.56, 14, "castsl"))
+    out.append(
+        f'<rect x="{_f(x)}" y="{_f(y)}" width="{_f(w)}" height="{_f(h)}" '
+        f'rx="{_f(r)}" fill="{fill}"/>')
+    # Top lip: a rounded strip hugging the upper edge.
+    out.append(
+        f'<path d="M{_f(x + r)},{_f(y)} L{_f(x + w - r)},{_f(y)} '
+        f'Q{_f(x + w)},{_f(y)} {_f(x + w)},{_f(y + r)} '
+        f'L{_f(x + w)},{_f(y + r * 0.42)} '
+        f'L{_f(x)},{_f(y + r * 0.42)} L{_f(x)},{_f(y + r)} '
+        f'Q{_f(x)},{_f(y)} {_f(x + r)},{_f(y)} Z" fill="{lip}" opacity="0.9"/>')
+    # Right lip.
+    out.append(
+        f'<path d="M{_f(x + w - r * 0.42)},{_f(y)} '
+        f'Q{_f(x + w)},{_f(y)} {_f(x + w)},{_f(y + r)} '
+        f'L{_f(x + w)},{_f(y + h - r)} '
+        f'Q{_f(x + w)},{_f(y + h)} {_f(x + w - r)},{_f(y + h)} '
+        f'L{_f(x + w - r * 0.42)},{_f(y + h)} Z" '
+        f'fill="{C.tint(fill, -0.24) if not light else C.tint(fill, 0.20)}" '
+        f'opacity="0.85"/>')
+    return "".join(out)
+
+
+def slab_ink(light: bool = False) -> str:
+    """Slab text colour, chosen from the far end of the palette."""
+    return P["cream"] if not light else P["dusk_deep"]
+
+
+def slab_sub(light: bool = False) -> str:
+    """Secondary text.
+
+    On a dark slab the secondary colour is the same cream as the primary: only
+    pure cream clears 4.5:1 against a warm slab that is dark enough to carry
+    cream text, so hierarchy comes from size and weight rather than from a dimmer
+    colour. On light slabs there is room for a genuinely darker second level.
+    """
+    if not light:
+        return P["cream"]
+    return C.tint("clay_red", -0.44)
+
+
+# Slab fills. Measured, not chosen by eye: cream ink only clears 4.5:1 against
+# a slab at or below this darkness, so the warm fills are pushed down until they
+# qualify. The scene stays bright and warm; the slabs read as dark signage on it.
+SLAB_DARK = {
+    "title": C.tint("terracotta", -0.28),
+    "data": C.tint("clay_red", -0.10),
+    "tile": C.tint("ember", -0.30),
+    "foot": P["dusk_deep"],
+}
+SLAB_LIGHT = {
+    "title": P["cream"],
+    "data": P["beige"],
+    "tile": P["sand"],
+    "foot": P["cream"],
+}

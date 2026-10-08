@@ -1,9 +1,11 @@
-"""The profile repository's own surfaces: deeper clay, seamless loops.
+"""The profile plates: desert scenery behind, information on solid slabs.
 
-These are the ten plates shown in the M4G3LL4N0 profile README. They share the
-subject matter of the per-repository renderer -- every figure is still the
-measured portfolio total -- but the geometry is heavier and every animation is
-a closed loop, because a profile banner is watched rather than glanced at.
+Generated from MASTER_PROMPT.md. Layer order is fixed and enforced:
+
+    LAYER 3  opaque clay slab      every string in the plate lives here
+    LAYER 2  type                  cream on a dark slab, dusk on a light slab
+    LAYER 1  furniture             the figures and labels that carry the meaning
+    LAYER 0  scenery               nature + retro machines, low contrast
 
 The 136 per-repository surfaces are produced by clay_renderers.py and are not
 touched by this module.
@@ -19,12 +21,13 @@ sys.path.insert(0, str(HERE))
 
 import clay as C  # noqa: E402
 import clay3d as X  # noqa: E402
+import naturetech as N  # noqa: E402
 from clay import _f  # noqa: E402
 
-P = C.PALETTE
 W, H = 900, 470
-FOOT_Y = 418
+FOOT_Y = 424
 HORIZON = 356
+PAL = C.CLAY_PALETTES["mesa_terracotta"]
 
 ROLE_TITLE = {
     "hero": "identity", "terminal": "how it is operated",
@@ -34,7 +37,32 @@ ROLE_TITLE = {
     "domain": "the problem it addresses", "footer": "identity object",
 }
 
-PAL = C.CLAY_PALETTES["mesa_terracotta"]
+# Plate identities from MASTER_PROMPT section 8: each one a different setting so
+# the profile does not read as one template ten times.
+# Slab fills per variant. Previously the light variant kept the dark clay fill
+# and only swapped the ink to a dark colour, so light plates were dark-on-dark.
+# The fill has to change with the ink, always from the opposite end of the
+# palette.
+SLAB = {False: X.SLAB_DARK, True: X.SLAB_LIGHT}
+
+
+PLATE = {
+    "hero": ("Mesa settlement at golden hour, a CRT planted on the terrace", "identity"),
+    "terminal": ("Dusk over a scrub ridge, a CRT console and keyboard", "entry points"),
+    "architecture": ("Terraced mesa with cacti, a stacked server rack", "module roots"),
+    "data_flow": ("A dry wash road, packets travelling as lit blocks", "routes"),
+    "state_machine": ("Twilight, stars and moon, tokens crossing a gate", "primitives"),
+    "component_map": ("Pale morning, a wall of drives in long shadow", "composition"),
+    "build": ("A quarry of boulders beside a lit instrument bay", "build and tests"),
+    "workflow": ("Canyon steps under a low sun, stepped servers", "workflow"),
+    "domain": ("A water pool at dusk with a rover parked beside it", "domain"),
+}
+
+
+def strip_animations(body: str) -> str:
+    import re
+    body = re.sub(r"<animate[^>]*/>", "", body)
+    return re.sub(r"<animateTransform[^>]*/>", "", body)
 
 
 def _doc(body: str, slot: str, d: dict) -> str:
@@ -44,318 +72,347 @@ def _doc(body: str, slot: str, d: dict) -> str:
             f'{body}</svg>')
 
 
-def strip_animations(body: str) -> str:
-    """Reduced motion: remove every loop so the plate is a still image."""
-    import re
-    body = re.sub(r"<animate[^>]*/>", "", body)
-    return re.sub(r"<animateTransform[^>]*/>", "", body)
-
-
-def header(d: dict, title: str, note: str, light: bool) -> str:
-    ink = P["cream"] if not light else P["dusk_deep"]
-    sub = P["sand"] if not light else C.tint("clay_red", -0.52)
-    out = [X.label(44, 62, d["canonical_name"][:24], ink, 30),
-           X.label(46, 88, title.upper(), sub, 14),
-           X.plaque(44, 104, 74, 5, P["sun"], r=3)]
+# ---------------------------------------------------------------------------
+# layout helpers -- all text is emitted inside a slab
+# ---------------------------------------------------------------------------
+def title_slab(d: dict, light: bool, note: str = "") -> str:
+    """The identity slab: repository name, plate role, and an optional figure."""
+    ink = X.slab_ink(light)
+    sub = X.slab_sub(light)
+    x, y, w, h = 40, 34, 360, 74
+    o = [X.slab(x, y, w, h, SLAB[light]["title"], light=light, r=12)]
+    o.append(X.label(x + 20, y + 40, d["canonical_name"][:22], ink, 25))
+    o.append(X.label(x + 21, y + 62, PLATE.get(_slot, ("", ""))[1].upper(), sub, 13))
     if note:
-        out.append(X.label(132, 112, note[:44], sub, 13))
-    return "".join(out)
+        o.append(X.label(x + w - 18, y + 62, note[:18], sub, 13, anchor="end"))
+    return "".join(o)
 
 
-def footer(d: dict, light: bool) -> str:
-    ink = P["cream"] if not light else P["dusk_deep"]
-    fill = C.tint(PAL["mass"], -0.30) if not light else C.tint("beige", 0.30)
-    return "".join([
-        X.plaque(0, FOOT_Y, W, H - FOOT_Y, fill, r=0),
-        X.label(44, FOOT_Y + 42,
-                f"DUNG30N5 x NOAERTH  /  {d['project_category'].replace('_', ' ').title()}",
-                ink, 15),
-        X.label(856, FOOT_Y + 42, f"{d['status']}  -  evidence {d['confidence']}",
-                ink, 13, anchor="end"),
-    ])
+def data_slab(rows: list[tuple[str, str]], light: bool, x: float, y: float,
+              w: float, h: float, heading: str = "") -> str:
+    """A one-message slab: a heading and label/figure rows that fit inside it.
+
+    The row count is derived from the slab height. Trimming by hand clipped the
+    last row out of the card, which is the one thing a data plate must never do.
+    """
+    ink = X.slab_ink(light)
+    sub = X.slab_sub(light)
+    o = [X.slab(x, y, w, h, SLAB[light]["data"], light=light, r=14)]
+    top = y + 30
+    if heading:
+        o.append(X.label(x + 20, top, heading.upper(), sub, 13))
+        top += 30
+    # Leave 14px of breathing room under the final baseline.
+    room = int((y + h - 14 - top) // 30) + 1
+    for i, (label, value) in enumerate(rows[:max(room, 0)]):
+        ry = top + i * 30
+        o.append(X.label(x + 20, ry, label[:24], sub, 14))
+        o.append(X.label(x + w - 20, ry, value[:14], ink, 17, anchor="end"))
+    return "".join(o)
 
 
-def scene(d: dict, gid: str, light: bool, clouds: bool = True) -> str:
-    o = [X.defs(gid, PAL, light), X.backdrop(W, H, HORIZON, PAL, gid, light)]
-    if clouds:
-        o.append(X.cloud(520, 74, 44, 26, 0))
-        o.append(X.cloud(688, 46, 30, 34, 6, 4))
+def figure_tiles(items: list[tuple[str, str]], light: bool, x: float, y: float,
+                 pitch: int = 150, tile: int = 134, tile_h: int = 78) -> str:
+    """Headline figures get their own tiles, so no number is ever lost in a row."""
+    ink = X.slab_ink(light)
+    sub = X.slab_sub(light)
+    o = []
+    for i, (value, label) in enumerate(items[:3]):
+        tx = x + i * pitch
+        o.append(X.slab(tx, y, tile, tile_h, SLAB[light]["tile"], light=light, r=12))
+        o.append(X.label(tx + 14, y + 36, value[:9], ink, 22))
+        o.append(X.label(tx + 15, y + 60, label[:16], sub, 12))
+    return "".join(o)
+
+
+def footer_slab(d: dict, light: bool) -> str:
+    ink = X.slab_ink(light)
+    sub = X.slab_sub(light)
+    o = [X.slab(0, FOOT_Y, W, H - FOOT_Y, SLAB[light]["foot"], light=light,
+                r=0, shadow=False)]
+    o.append(X.label(40, FOOT_Y + 30,
+                     f"DUNG30N5 x NOAERTH  /  {d['project_category'].replace('_', ' ').title()}",
+                     ink, 14))
+    o.append(X.label(860, FOOT_Y + 30, f"{d['status']}  -  evidence {d['confidence']}",
+                     sub, 13, anchor="end"))
+    return "".join(o)
+
+
+def ground(light: bool, g: str) -> str:
+    """Sand plane with converging paver seams."""
+    o = [f'<rect x="0" y="{HORIZON}" width="{W}" height="{H - HORIZON}" '
+         f'fill="url(#floor{g})"/>']
+    vx = W * 0.5
+    for k in range(-9, 10):
+        o.append(f'<path d="M{_f(vx)},{_f(HORIZON)} L{_f(vx + k * 190)},{H}" '
+                 f'stroke="{C.alpha(C.PALETTE["beige"], 0.20)}" stroke-width="2"/>')
+    y, step = HORIZON + 5, 6.0
+    while y < H:
+        o.append(f'<rect x="0" y="{_f(y)}" width="{W}" height="{_f(step * 0.30)}" '
+                 f'fill="{C.alpha(C.PALETTE["beige"], 0.40)}"/>')
+        y += step
+        step *= 1.36
+    return "".join(o)
+
+
+_slot = "hero"
+
+
+def _scene(light: bool, g: str, night: bool = False) -> str:
+    o = [X.defs(g, PAL, light)]
+    o.append(N.night_sky(W, H, g) if night else
+             f'<rect width="{W}" height="{H}" fill="url(#sky{g})"/>')
+    if not night:
+        sx, sy, sr = W - 158, 92, 40
+        o.append(f'<g><circle cx="{sx}" cy="{sy}" r="{_f(sr * 2.5)}" '
+                 f'fill="url(#halo{g})">{X.halo_loop(sr * 2.2, sr * 2.8, 15)}</circle>'
+                 f'<circle cx="{sx}" cy="{sy}" r="{sr}" fill="{C.PALETTE["sun"]}"/>'
+                 f'</g>')
+        o.append(N.cloud(556, 68, 40, 26) if hasattr(N, "cloud") else "")
+    o.append(f'<rect x="0" y="{_f(HORIZON - 40)}" width="{W}" height="40" '
+             f'fill="{C.alpha(C.PALETTE["peach"], 0.15)}"/>')
+    o.append(N.ridges(W, HORIZON))
+    o.append(ground(light, g))
     return "".join(o)
 
 
 # ---------------------------------------------------------------------------
-# 01 HERO -- the portfolio as an adobe settlement
+# the ten plates
 # ---------------------------------------------------------------------------
 def render_hero(d: dict, name: str, light: bool = False, motion: bool = True) -> str:
+    global _slot
+    _slot = "hero"
     g = "h"
-    o = [scene(d, g, light)]
-    o.append(header(d, "identity", f"{d['routes_count']} routes", light))
-    o.append(X.cast_shadow(250, HORIZON + 8, 200, 20, g, skew=-6))
-    o.append(X.mesa(104, 190, 262, 166, 4, PAL["mass"], d=22, gid=g))
-    o.append(X.gateway(408, 214, 152, 142, PAL["alt"], g))
-    o.append(f'<g>{X.ball(484, 288, 14, PAL["cool"], 8.5, 0.4)}</g>')
-    o.append(X.cactus(654, HORIZON, 50, 116, PAL["cool"], 12, 0))
-    o.append(X.conifer(730, HORIZON, 58, 138, PAL["cool"], 13, 2))
-    for i, m in enumerate(d["module_plinths"]):
-        x = 132 + i * 118
-        fill = PAL["mass"] if i % 2 == 0 else C.tint(PAL["mass"], 0.14)
-        blk = X.block(x, 392, 96, 24, 11, fill, r=8, gid=g)
-        o.append(f'<g>{blk}{X.hover_loop(3.4, 7.6 + i * 0.6, i * 0.6)}</g>')
-    o.append(footer(d, light))
+    o = [_scene(light, g)]
+    o.append(X.cast_shadow(300, HORIZON + 8, 190, 18, g, skew=-6))
+    o.append(X.mesa(96, 216, 214, 140, 4, PAL["mass"], d=22))
+    # a CRT planted on the terrace, same scale as a cactus
+    o.append(f'<g>{N.crt(300, 252, 118, 100, "coral", "dusk_deep", g)}'
+             f'{X.hover_loop(4.0, 9.5, 0.4)}</g>')
+    o.append(X.gateway(438, 226, 118, 130, PAL["alt"], g))
+    o.append(N.boulder(614, HORIZON, 76, 34, "beige"))
+    o.append(N.agave(676, HORIZON, 54, 74, "sage"))
+    o.append(X.conifer(770, HORIZON, 56, 132, PAL["cool"], 13, 2))
+    o.append(title_slab(d, light, f"{d['note_routes']} routes"))
+    o.append(figure_tiles(d["tiles"], light, 40, 128))
+    o.append(footer_slab(d, light))
     body = "".join(o)
     return _doc(strip_animations(body) if not motion else body, "hero", d)
 
 
-# ---------------------------------------------------------------------------
-# 02 TERMINAL -- a clay console with a recessed lit screen
-# ---------------------------------------------------------------------------
 def render_terminal(d: dict, name: str, light: bool = False, motion: bool = True) -> str:
+    global _slot
+    _slot = "terminal"
     g = "t"
-    o = [scene(d, g, light)]
-    o.append(header(d, "entry points", None, light))
-    sx, sy, sw, sh = 92, 154, 486, 188
-    body = "".join([
-        X.cast_shadow(sx + sw / 2, HORIZON + 10, sw * 0.6, 18, g, skew=-5),
-        f'<g>{X.block(sx - 22, sy - 20, sw + 44, sh + 48, 24, PAL["mass"], r=20, gid=g)}'
-        f'{X.hover_loop(3.0, 9.0, 0.5)}</g>',
-        X.screen(sx, sy, sw, sh, C.tint(PAL["sky"], -0.30), g),
-    ])
-    o.append(body)
-    lines = d["terminal_lines"][:5]
-    for i, line in enumerate(lines):
-        yy = sy + 44 + i * 30
-        o.append(f'<g>'
-                 f'{X.plaque(sx + 20, yy - 13, 12, 12, P["cactus"], r=4)}'
-                 f'{X.label(sx + 44, yy, line[:42], P["cream"], 14)}'
-                 f'{X.drift_loop(7, 8.5 + i * 0.7, i * 0.5)}</g>')
-    for i in range(min(len(lines), 4)):
-        blk = X.block(626 + i * 56, HORIZON - 34 - i * 9, 46, 34 + i * 9, 12,
-                      PAL["alt"], r=9, gid=g)
-        o.append(f'<g>{blk}'
-                 f'{X.hover_loop(3.0 + i, 7.8 + i * 0.5, i * 0.45)}</g>')
-    o.append(X.cactus(866, HORIZON, 38, 88, PAL["cool"], 11, 3))
-    o.append(footer(d, light))
+    o = [_scene(light, g)]
+    o.append(N.boulder(690, HORIZON, 90, 38, "beige"))
+    o.append(f'<g>{N.crt(636, 214, 150, 128, "coral", "dusk_deep", g)}'
+             f'{X.hover_loop(3.4, 10.0, 0.6)}</g>')
+    o.append(f'<g>{N.keyboard(628, 344, 172, 30, "beige")}'
+             f'{X.hover_loop(3.4, 10.0, 0.6)}</g>')
+    o.append(X.cactus(842, HORIZON, 44, 104, PAL["cool"], 12, 1))
+    o.append(N.drift_sand(W, 336, 8))
+    o.append(title_slab(d, light))
+    o.append(data_slab([(a, b) for a, b in d["pairs"][:5]], light, 40, 128, 396, 178,
+                       "measured across the portfolio"))
+    o.append(footer_slab(d, light))
     body = "".join(o)
     return _doc(strip_animations(body) if not motion else body, "terminal", d)
 
 
-# ---------------------------------------------------------------------------
-# 03 ARCHITECTURE -- module roots as a labelled terrace
-# ---------------------------------------------------------------------------
 def render_architecture(d: dict, name: str, light: bool = False, motion: bool = True) -> str:
+    global _slot
+    _slot = "architecture"
     g = "a"
-    o = [scene(d, g, light)]
-    o.append(header(d, "module roots", f"{d['modules_count']} modules", light))
-    o.append(X.cast_shadow(248, HORIZON + 8, 190, 19, g, skew=-6))
-    o.append(X.mesa(112, 176, 274, 180, max(d["modules_count"], 2), PAL["mass"],
-                    d=22, gid=g))
-    for i, m in enumerate(d["module_plinths"][:4]):
-        yy = 202 + i * 38
-        o.append(f'<g>{X.plaque(142, yy, 158, 26, C.alpha(P["cream"], 0.18), r=8)}'
-                 f'{X.label(152, yy + 19, m[:20], P["cream"], 12)}'
-                 f'{X.drift_loop(5, 8.0 + i * 0.6, i * 0.5)}</g>')
-    o.append(X.gateway(432, 220, 144, 136, PAL["alt"], g, 11))
-    o.append(X.conifer(636, HORIZON, 56, 136, PAL["cool"], 12, 1))
-    o.append(X.column(712, HORIZON - 92, 46, 92, PAL["mass"], 9, 0.5))
-    o.append(X.ball(806, HORIZON - 26, 25, PAL["cool"], 8, 2))
-    o.append(footer(d, light))
+    o = [_scene(light, g)]
+    o.append(X.cast_shadow(250, HORIZON + 8, 180, 18, g, skew=-6))
+    o.append(X.mesa(104, 190, 220, 166, 4, PAL["mass"], d=22))
+    o.append(f'<g>{N.rack(342, 196, 96, 158, 5, "dusk_mid", g)}'
+             f'{X.hover_loop(3.2, 9.0, 0.3)}</g>')
+    o.append(X.cactus(478, HORIZON, 44, 106, PAL["cool"], 11, 1))
+    o.append(N.agave(532, HORIZON, 48, 66, "sage"))
+    o.append(f'<g>{N.satellite(700, 118, 34, "coral", "turquoise")}'
+             f'{X.drift_loop(16, 18, 0)}</g>')
+    o.append(N.boulder(818, HORIZON, 66, 30, "beige"))
+    o.append(title_slab(d, light, f"{d['modules_count']} roots"))
+    o.append(data_slab([(m, f"module {i + 1}") for i, m in
+                        enumerate(d["module_plinths"][:5])], light, 40, 128, 330, 178,
+                       "module roots"))
+    o.append(footer_slab(d, light))
     body = "".join(o)
     return _doc(strip_animations(body) if not motion else body, "architecture", d)
 
 
-# ---------------------------------------------------------------------------
-# 04 DATA FLOW -- a road of pavers between masses
-# ---------------------------------------------------------------------------
 def render_data_flow(d: dict, name: str, light: bool = False, motion: bool = True) -> str:
+    global _slot
+    _slot = "data_flow"
     g = "d"
-    o = [scene(d, g, light)]
+    o = [_scene(light, g)]
+    road = HORIZON - 4
+    o.append(X.plaque(70, road, 700, 20, C.tint("beige", -0.14), r=10))
     stages = d["stages"][:5]
-    o.append(header(d, "routes", f"{d['routes_count']} endpoints", light))
-    road_y = HORIZON - 6
-    o.append(X.plaque(96, road_y, 700, 20, C.tint("beige", -0.16), r=10))
     n = len(stages)
-    gap = 660 / max(n, 1)
+    gap = 640 / max(n, 1)
     for i, s in enumerate(stages):
-        x = 118 + i * gap
-        hh = 64 + (i % 2) * 16
+        x = 92 + i * gap
         fill = PAL["mass"] if i % 2 == 0 else PAL["alt"]
-        o.append(f'<g>{X.block(x, road_y - hh, 88, hh, 15, fill, r=10, gid=g)}'
-                 f'{X.hover_loop(4.0, 7.4 + i * 0.55, i * 0.5)}</g>')
-        o.append(X.label(x + 44, HORIZON + 44, s[:15],
-                         P["clay_red"] if not light else P["dusk_deep"], 11,
-                         anchor="middle"))
+        blk = X.block(x, road - 58 - (i % 2) * 14, 82, 58, 14, fill, r=10, gid=g)
+        o.append(f"<g>{blk}{X.hover_loop(4.0, 7.6 + i * 0.55, i * 0.5)}</g>")
         if i:
-            px = 118 + (i - 1) * gap + 88
-            seg = max(gap - 100, 14)
-            # A traveller running the road, on a closed loop.
-            o.append(f'<g>{X.plaque(px + 6, road_y - 3, seg, 6, P["sun"], r=3)}'
-                     f'{X.plaque(px + 6, road_y - 3, 16, 6, P["cream"], r=3)}'
-                     f'<animateTransform attributeName="transform" type="translate" '
-                     f'values="0 0;{_f(seg)} 0;0 0" dur="{_f(6.5 + i * 1.1)}s" '
-                     f'begin="{_f(i * 0.9)}s" repeatCount="indefinite" '
-                     f'calcMode="spline" keyTimes="0;0.5;1" '
-                     f'keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/></g>')
-    o.append(X.gateway(742, 244, 118, 112, PAL["alt"], g, 10))
-    o.append(X.conifer(866, HORIZON, 40, 100, PAL["cool"], 11, 1))
-    o.append(footer(d, light))
+            px = 92 + (i - 1) * gap + 82
+            seg = max(gap - 94, 14)
+            o.append(
+                f'<g>{X.plaque(px + 6, road - 3, seg, 6, C.PALETTE["sun"], r=3)}'
+                f'{X.plaque(px + 6, road - 3, 15, 6, C.PALETTE["cream"], r=3)}'
+                f'<animateTransform attributeName="transform" type="translate" '
+                f'values="0 0;{_f(seg)} 0;0 0" dur="{_f(6.8 + i * 1.1)}s" '
+                f'begin="{_f(i * 0.9)}s" repeatCount="indefinite" '
+                f'calcMode="spline" keyTimes="0;0.5;1" '
+                f'keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/></g>')
+    o.append(f'<g>{N.rack(792, 222, 74, 132, 4, "dusk_mid", g)}'
+             f'{X.hover_loop(3.0, 9.5, 0.8)}</g>')
+    o.append(N.boulder(120, HORIZON, 62, 26, "beige"))
+    o.append(title_slab(d, light, f"{d['note_routes']} routes"))
+    o.append(data_slab([(s[:22], f"hop {i + 1}") for i, s in enumerate(stages)],
+                       light, 40, 128, 372, 178, "endpoints in sequence"))
+    o.append(footer_slab(d, light))
     body = "".join(o)
     return _doc(strip_animations(body) if not motion else body, "data_flow", d)
 
 
-# ---------------------------------------------------------------------------
-# 05 STATE MACHINE -- tokens crossing a threshold
-# ---------------------------------------------------------------------------
 def render_state_machine(d: dict, name: str, light: bool = False, motion: bool = True) -> str:
+    global _slot
+    _slot = "state_machine"
     g = "s"
-    o = [scene(d, g, light)]
+    o = [_scene(light, g, night=True)]
+    o.append(X.gateway(360, 190, 132, 166, PAL["alt"], g, 10.5))
     prims = d["primitives"][:4]
-    o.append(header(d, "primitives", f"{len(prims)} detected", light))
-    o.append(X.cast_shadow(470, HORIZON + 8, 150, 16, g))
-    o.append(X.gateway(394, 176, 152, 180, PAL["alt"], g, 10.5))
     states = ["in", *prims[:3], "out"]
-    gap = 716 / max(len(states) - 1, 1)
+    gap = 620 / max(len(states) - 1, 1)
     for i, s in enumerate(states):
-        x = 96 + i * gap
+        x = 118 + i * gap
         fill = PAL["cool"] if i in (0, len(states) - 1) else PAL["mass"]
-        o.append(X.ball(x, HORIZON - 52, 27, fill, 7.6 + i * 0.8, i * 0.7))
-        o.append(X.label(x, HORIZON - 8, s[:15],
-                         P["cream"] if not light else P["dusk_deep"], 11,
-                         anchor="middle"))
-    o.append(X.block(96, HORIZON + 22, 96, 28, 11, PAL["mass"], r=8, gid=g))
-    o.append(X.cactus(826, HORIZON, 42, 96, PAL["cool"], 10.5, 2))
-    o.append(footer(d, light))
+        o.append(X.ball(x, HORIZON - 46, 24, fill, 7.6 + i * 0.8, i * 0.7))
+    o.append(N.boulder(742, HORIZON, 70, 30, "beige"))
+    o.append(N.agave(806, HORIZON, 46, 62, "sage"))
+    o.append(title_slab(d, light, f"{len(prims)} detected"))
+    o.append(data_slab([(s[:24], f"state {i + 1}") for i, s in enumerate(states)],
+                       light, 40, 128, 372, 178, "transition order"))
+    o.append(footer_slab(d, light))
     body = "".join(o)
     return _doc(strip_animations(body) if not motion else body, "state_machine", d)
 
 
-# ---------------------------------------------------------------------------
-# 06 COMPONENT MAP -- a brick field of declared dependencies
-# ---------------------------------------------------------------------------
 def render_component_map(d: dict, name: str, light: bool = False, motion: bool = True) -> str:
+    global _slot
+    _slot = "component_map"
     g = "c"
-    o = [scene(d, g, light)]
+    o = [_scene(light, g)]
     fw = d["frameworks"][:8]
-    o.append(header(d, "composition", f"{len(fw)} declared", light))
     for i, f in enumerate(fw):
-        cx = 100 + (i % 4) * 178
-        cy = 172 + (i // 4) * 98
-        fill = PAL["mass"] if i % 3 else PAL["alt"]
-        o.append(f'<g>{X.block(cx, cy, 152, 76, 15, fill, r=12, gid=g)}'
-                 f'{X.hover_loop(3.0 + (i % 3) * 1.2, 7.6 + (i % 4) * 0.7, i * 0.42)}</g>')
-        o.append(f'<g>{X.label(cx + 76, cy + 46, f[:18], P["cream"], 12, anchor="middle")}'
-                 f'{X.drift_loop(4, 8.4 + i * 0.4, i * 0.6)}</g>')
-    o.append(X.conifer(772, HORIZON, 52, 122, PAL["cool"], 11.5, 1))
-    o.append(footer(d, light))
+        cx = 396 + (i % 4) * 118
+        cy = 176 + (i // 4) * 112
+        blk = X.block(cx, cy, 104, 60, 13,
+                      PAL["mass"] if i % 3 else PAL["alt"], r=10, gid=g)
+        o.append(f"<g>{blk}{X.hover_loop(3.0 + (i % 3) * 1.2, 7.8 + (i % 4) * 0.7, i * 0.42)}</g>")
+    o.append(X.cactus(864, HORIZON, 38, 92, PAL["cool"], 11, 1))
+    o.append(title_slab(d, light, f"{len(fw)} declared"))
+    o.append(data_slab([(f[:24], f"dep {i + 1}") for i, f in enumerate(fw[:5])],
+                       light, 40, 128, 330, 178, "declared dependencies"))
+    o.append(footer_slab(d, light))
     body = "".join(o)
     return _doc(strip_animations(body) if not motion else body, "component_map", d)
 
 
-# ---------------------------------------------------------------------------
-# 07 BUILD -- crates by test count, a lit CI bay
-# ---------------------------------------------------------------------------
 def render_build(d: dict, name: str, light: bool = False, motion: bool = True) -> str:
+    global _slot
+    _slot = "build"
     g = "b"
-    o = [scene(d, g, light)]
-    o.append(header(d, "build and tests", f"{d['tests']} test files", light))
-    crates = max(1, min(6, d["crates"]))
-    o.append(X.cast_shadow(206, HORIZON + 8, 132, 16, g, skew=-5))
-    for i in range(crates):
-        fill = PAL["mass"] if i % 2 == 0 else PAL["alt"]
-        blk = X.block(138 + i * 14, HORIZON - 48 - i * 44, 134, 42, 13, fill,
-                      r=8, gid=g)
-        o.append(f'<g>{blk}'
-                 f'{X.hover_loop(3.0 + i * 0.8, 7.0 + i * 0.6, 0.6 + i * 0.5)}</g>')
-    o.append(X.label(138, HORIZON + 26, f"{d['tests']} test files",
-                     P["clay_red"] if not light else P["dusk_deep"], 13))
-
-    cx0, cy0 = 430, 236
-    lit = d["ci"] > 0
-    bay = X.cast_shadow(cx0 + 100, HORIZON + 8, 116, 15, g)
-    bay += X.block(cx0, cy0, 204, 120, 17, PAL["alt"], r=14, gid=g)
-    o.append(f'<g>{bay}{X.hover_loop(2.6, 8.6, 0.3)}</g>')
-    bay_fill = P["sun"] if lit else C.tint(PAL["mass"], -0.2)
-    bay_ink = P["dusk_deep"] if lit else P["cream"]
-    bay = X.plaque(cx0 + 20, cy0 + 20, 164, 80, bay_fill, r=10)
-    bay += X.label(cx0 + 102, cy0 + 62, f"{d['ci']} CI", bay_ink, 24, anchor="middle")
-    if lit:
-        bay += X.flicker_loop(5.4, 0)
-    o.append(f"<g>{bay}</g>")
-    o.append(X.label(cx0, HORIZON + 26, "workflows",
-                     P["clay_red"] if not light else P["dusk_deep"], 13))
-    o.append(X.column(700, HORIZON - 104, 50, 104, PAL["mass"], 9.5, 0.4))
-    o.append(X.cactus(790, HORIZON, 46, 104, PAL["cool"], 11, 2))
-    o.append(footer(d, light))
+    o = [_scene(light, g)]
+    o.append(N.boulder(300, HORIZON, 96, 42, "beige"))
+    o.append(N.boulder(196, HORIZON, 66, 28, "beige"))
+    o.append(f'<g>{N.scope(560, 218, 148, 126, "coral", g)}'
+             f'{X.hover_loop(3.0, 9.0, 0.4)}</g>')
+    o.append(f'<g>{N.rack(742, 206, 82, 148, 5, "dusk_mid", g)}'
+             f'{X.hover_loop(3.0, 10.0, 1.0)}</g>')
+    o.append(N.agave(866, HORIZON, 42, 58, "sage"))
+    o.append(title_slab(d, light, f"{d['tests']} tests"))
+    o.append(data_slab([("test files in trees", str(d["tests"])),
+                        ("CI workflows", str(d["ci"])),
+                        ("crates of tests", str(d["crates"])),
+                        ("repositories", "136"),
+                        ("instruments lit", "yes" if d["ci"] else "no")],
+                       light, 40, 128, 372, 178, "verification"))
+    o.append(footer_slab(d, light))
     body = "".join(o)
     return _doc(strip_animations(body) if not motion else body, "build", d)
 
 
-# ---------------------------------------------------------------------------
-# 08 WORKFLOW -- clay steps
-# ---------------------------------------------------------------------------
 def render_workflow(d: dict, name: str, light: bool = False, motion: bool = True) -> str:
+    global _slot
+    _slot = "workflow"
     g = "w"
-    o = [scene(d, g, light)]
+    o = [_scene(light, g)]
     steps = d["steps"][:5]
-    o.append(header(d, "workflow", f"{len(steps)} steps", light))
     for i, s in enumerate(steps):
-        x = 104 + i * 146
-        hh = 42 + i * 28
+        x = 402 + i * 96
+        hh = 44 + i * 24
         fill = PAL["mass"] if i % 2 == 0 else PAL["alt"]
-        o.append(f'<g>{X.block(x, HORIZON - hh, 120, hh, 15, fill, r=10, gid=g)}'
-                 f'{X.hover_loop(3.4 + i * 0.7, 7.2 + i * 0.55, i * 0.55)}</g>')
-        o.append(X.label(x + 60, HORIZON + 30, s[:14],
-                         P["clay_red"] if not light else P["dusk_deep"], 11,
-                         anchor="middle"))
-    o.append(X.conifer(832, HORIZON, 46, 112, PAL["cool"], 11, 1))
-    o.append(footer(d, light))
+        blk = X.block(x, HORIZON - hh, 78, hh, 13, fill, r=9, gid=g)
+        o.append(f"<g>{blk}{X.hover_loop(3.2 + i * 0.7, 7.4 + i * 0.55, i * 0.55)}</g>")
+    o.append(f'<g>{N.satellite(842, 106, 28, "coral", "turquoise")}'
+             f'{X.drift_loop(-14, 20, 2)}</g>')
+    o.append(N.boulder(120, HORIZON, 84, 34, "beige"))
+    o.append(N.agave(206, HORIZON, 46, 62, "sage"))
+    o.append(title_slab(d, light, f"{len(steps)} steps"))
+    o.append(data_slab([(s[:24], f"step {i + 1}") for i, s in enumerate(steps)],
+                       light, 40, 128, 330, 178, "ordered steps"))
+    o.append(footer_slab(d, light))
     body = "".join(o)
     return _doc(strip_animations(body) if not motion else body, "workflow", d)
 
 
-# ---------------------------------------------------------------------------
-# 09 DOMAIN -- the problem, as landscape
-# ---------------------------------------------------------------------------
 def render_domain(d: dict, name: str, light: bool = False, motion: bool = True) -> str:
+    global _slot
+    _slot = "domain"
     g = "m"
-    o = [scene(d, g, light)]
-    o.append(header(d, "domain", (d.get("domain") or "")[:26], light))
-    o.append(X.cast_shadow(268, HORIZON + 8, 190, 18, g, skew=-5))
-    o.append(X.mesa(112, 206, 258, 150, 3, PAL["mass"], d=20, gid=g))
-    o.append(X.gateway(414, 236, 130, 120, PAL["alt"], g, 10.5))
-    o.append(X.ball(594, HORIZON - 32, 27, PAL["cool"], 8.4, 0.6))
-    o.append(X.cactus(672, HORIZON, 48, 112, PAL["cool"], 12, 1))
-    o.append(X.conifer(758, HORIZON, 56, 136, PAL["cool"], 13, 2.5))
-    if d.get("problem"):
-        o.append(X.plaque(104, 130, 540, 46, C.alpha(P["dusk_deep"], 0.44), r=12))
-        o.append(f'<g>{X.label(120, 159, d["problem"][:60], P["cream"], 14)}'
-                 f'{X.drift_loop(6, 11, 0)}</g>')
-    o.append(footer(d, light))
+    o = [_scene(light, g)]
+    o.append(N.water(430, HORIZON - 6, 300, 40, g))
+    o.append(f'<g>{N.rover(500, HORIZON + 34, 116, 52, "coral")}'
+             f'{X.hover_loop(3.0, 11.0, 0.5)}</g>')
+    o.append(f'<g>{N.punch_cards(112, 208, 150, 74, 12, "cream")}'
+             f'{X.hover_loop(3.0, 10.0, 0)}</g>')
+    o.append(N.agave(790, HORIZON, 56, 78, "sage"))
+    o.append(X.conifer(862, HORIZON, 50, 124, PAL["cool"], 12, 1))
+    o.append(title_slab(d, light, "noaerth.com"))
+    o.append(data_slab([("operating layer", "v1"), ("repositories", "136"),
+                        ("surfaces", f"{d['surfaces']:,}"),
+                        ("routes", f"{d['routes_count']:,}"),
+                        ("next milestone", d["milestone"][:16] or "build")],
+                       light, 40, 128, 396, 178, "what this is"))
+    o.append(footer_slab(d, light))
     body = "".join(o)
     return _doc(strip_animations(body) if not motion else body, "domain", d)
 
 
-# ---------------------------------------------------------------------------
-# 10 FOOTER -- the mark
-# ---------------------------------------------------------------------------
 def render_footer(d: dict, name: str, light: bool = False, motion: bool = True) -> str:
     g = "f"
-    ink = P["cream"] if not light else P["dusk_deep"]
+    ink = X.slab_ink(light)
+    sub = X.slab_sub(light)
     o = [X.defs(g, PAL, light)]
     o.append(f'<rect width="{W}" height="{H}" fill="url(#sky{g})"/>')
-    o.append(f'<g><circle cx="{W - 150}" cy="96" r="46" fill="{C.tint(PAL["sky"], 0.2)}"/>'
-             f'{X.roll_loop(360, 60, 0, W - 150, 96)}</g>')
-    o.append(f'<g>{X.plaque(0, 132, W, H - 132, C.tint(PAL["mass"], -0.30), r=0)}</g>')
-    o.append(X.cast_shadow(112, 118, 66, 11, g))
-    mark = X.mesa(70, 40, 86, 78, 3, PAL["mass"], d=13, gid=g)
-    o.append(f'<g>{mark}{X.hover_loop(3.4, 9, 0)}</g>')
-    o.append(f'<g>{X.gateway(168, 52, 56, 66, PAL["alt"], g, 8)}</g>')
-    o.append(X.label(252, 74, d["canonical_name"][:28], ink, 26))
-    o.append(X.label(254, 102, "DUNG30N5 x NOAERTH",
-                     P["sand"] if not light else C.tint("clay_red", -0.22), 15))
-    o.append(X.label(254, 128,
-                     f"{d['project_category'].replace('_', ' ').title()}  /  {d['status']}",
-                     ink, 13))
-    o.append(X.cactus(844, 120, 36, 70, PAL["cool"], 10, 1))
+    o.append(f'<g><circle cx="{W - 128}" cy="92" r="44" '
+             f'fill="{C.tint(PAL["sky"], 0.18)}">{X.roll_loop(360, 64, 0, W - 128, 92)}</circle></g>')
+    o.append(N.ridges(W, 132))
+    o.append(X.cactus(806, 122, 36, 68, PAL["cool"], 10, 1))
+    o.append(f'<g>{N.robot(96, 122, 40, "cactus")}{X.hover_loop(3.0, 8.0, 0)}</g>')
+    o.append(X.slab(160, 42, 470, 76, SLAB[light]["title"], light=light, r=12))
+    o.append(X.label(182, 76, d["canonical_name"][:26], ink, 25))
+    o.append(X.label(183, 100, "DUNG30N5 x NOAERTH", sub, 14))
+    o.append(X.slab(0, 132, W, H - 132, SLAB[light]["data"], light=light, r=0, shadow=False))
+    o.append(X.label(40, 168,
+                     f"{d['project_category'].replace('_', ' ').title()}  /  {d['status']}"
+                     f"  /  evidence {d['confidence']}", ink, 15))
     body = "".join(o)
     return _doc(strip_animations(body) if not motion else body, "footer", d)
 
