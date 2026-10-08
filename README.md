@@ -124,15 +124,15 @@ These are the profile repository's own surfaces, regenerated from the same measu
 </picture>
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/data_flow-reduced.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/data_flow-light.svg">
-  <img alt="Routes across the portfolio" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/data_flow-motion.svg">
-</picture>
-
-<picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/state_machine-reduced.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/state_machine-light.svg">
   <img alt="Detected primitives" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/state_machine-motion.svg">
+</picture>
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/data_flow-reduced.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/data_flow-light.svg">
+  <img alt="Routes across the portfolio" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/.github-art/surfaces/data_flow-motion.svg">
 </picture>
 
 <picture>
