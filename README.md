@@ -8,6 +8,10 @@
 
 <p align="center"><img alt="NOAERTH visual guide: portfolio, labs, workspace, PAIOS, founder, trust, investor, and updates" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/assets/noaerth-visual-guide.png" width="100%"></p>
 
+<p align="center"><img alt="NOAERTH low-poly nature and technology monument" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/assets/noaerth-monument.png" width="100%"></p>
+
+<p align="center"><img alt="PAIOS low-poly nature and technology monument" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/assets/paios-monument.png" width="100%"></p>
+
 <p align="center"><strong>THE PROFILE, READ AS A MAP</strong></p>
 
 <p align="center"><img alt="Signal — make the signal legible" src="https://raw.githubusercontent.com/M4G3LL4N0/M4G3LL4N0/main/assets/profile-scenes/01-signal.svg" width="100%"></p>
